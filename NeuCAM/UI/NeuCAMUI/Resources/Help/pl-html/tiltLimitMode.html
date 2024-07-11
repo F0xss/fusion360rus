@@ -1,0 +1,25 @@
+<div id="tiltLimitMode"><p>Określa, co zrobić z obszarami ścieżki, które przekraczają ograniczenia przechyłu maszyny:</p>
+<ul>
+<li><b>Przytnij ścieżkę narzędzia</b> — usuń fragment ścieżki narzędzia, który pochyla narzędzie poza ograniczenia pochylenia. Użyj tej opcji, jeśli kąt osi narzędzia jest krytyczny dla wykończenia powierzchni, a następnie zakończ obróbkę części, używając innej bazy.</li>
+<li><b>Obrabiaj przy ograniczeniach nachylenia</b> — wybierz, aby zachować oś narzędzia przy granicy nachylenia po dojeździe. Użyj tej opcji, aby kontynuować obróbkę ze ścieżką narzędzia w bieżącej bazie, jeśli kąt osi narzędzia nie jest krytyczny dla wykończenia powierzchni.</li>
+</ul>
+<p>W poniższym przykładzie z wybraną opcją <b>Przytnij ścieżkę narzędzia</b> i parametrem<b> Maksymalny kąt nachylenia</b> ustawionym na 90 stopni, nic nie jest przycinane, ponieważ oś narzędzia zawsze pozostaje w zakresie 90 stopni. <b>Maksymalny kąt nachylenia</b> jest ustawiony na 65 stopni, część nachylenia osi narzędzia powyżej 65 stopni jest przycinana.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="180" height="104" src="../images/no_tool_axis_limits.png"/></center></td>
+<td><center><img border="0" width="180" height="104" src="../images/trim_toolpath_65deg.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Przechył maksymalny = 90 stopni</b><br>
+<b>Przytnij ścieżkę narzędzia</b></p></center></td>
+<td><center><p><b>Przechył maksymalny = 65 stopni</b><br>
+<b>Przytnij ścieżkę narzędzia</b></p></center></td>
+</tr></table>
+<p>Przy wybranej opcji <b>Obrabiaj przy ograniczeniach nachylenia</b> ścieżka narzędzia jest zachowywana, ale obrabiana przy maksymalnej granicy pochylenia wynoszącej 65 stopni.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="180" height="104" src="../images/machine_at_max_tilt.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Przechył maksymalny = 65 stopni</b><br>
+<b>Obrabiaj przy maksymalnym nachyleniu</b><br></p></center></td>
+</tr></table>
+</div>

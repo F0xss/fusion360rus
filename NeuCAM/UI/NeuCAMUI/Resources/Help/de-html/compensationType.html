@@ -1,0 +1,9 @@
+<div id="compensationType"><p>Gibt den Kompensationstyp an.</p>
+<ul>
+<li><b>Im Computer</b> - Die Werkzeugkompensation wird vom Programm auf Grundlage des ausgewählten Werkzeugdurchmessers automatisch berechnet. Die nachbearbeitete Ausgabe enthält direkt den kompensierten Weg anstatt der Codes G41/G42.</li>
+<li><b>An Steuerung</b> - Die Werkzeugkompensation wird <em>nicht</em> berechnet, sondern es werden G41-/G42-Codes ausgegeben, damit der Bediener die Kompensation und den Verschleiß an der Steuerung der Werkzeugmaschine festlegen kann.</li>
+<li><b>Verschleiß</b> - Funktioniert wie bei Auswahl von <em>Im Computer</em>, wobei zusätzlich die Codes G41/G42 ausgegeben werden. Damit kann der Bediener der Werkzeugmaschine den Werkzeugverschleiß an der Steuerung der Werkzeugmaschine einstellen, indem die Differenz der Werkzeuggröße als negative Zahl eingegeben wird.</li>
+<li><b>Umgekehrter Verschleiß</b> - Entspricht der Option <em>Verschleiß</em>, außer dass die Verschleißanpassung als positive Zahl eingegeben wird.</li>
+</ul>
+<p>Anmerkung: Die Steuerungskompensation (einschließlich Verschleiß und umgekehrtem Verschleiß) erfolgt nur bei Schlichtdurchgängen.</p>
+</div>

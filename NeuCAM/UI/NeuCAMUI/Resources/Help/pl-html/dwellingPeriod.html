@@ -1,0 +1,16 @@
+<div id="dwellingPeriod"><p>Czas zatrzymania w sekundach.</p>
+<p>Określenie czasu zatrzymania wstrzymuje wszystkie ruchy osi przez określony czas, podczas gdy wrzeciono obraca się z określoną prędkością obrotową. Można użyć tej opcji, aby upewnić się, że wióry są czyszczone przed wycofaniem się z otworu. Zazwyczaj poprawia to wykończenie otworu.</p>
+<p>Zazwyczaj wystarczy czas zatrzymania od 1/4 sekundy do 1 sekundy.</p>
+<p>Przykład: aby wykonać zatrzymanie na 1/4 sekundy, należy w tym polu określić wartość 0,25 lub 1/4.</p>
+<p>Podczas postprocesingu cyklu wiercenia czas zatrzymania jest określany jako jeden z parametrów cyklu wiercenia (zazwyczaj P), a w większości przypadków jest on generowany w milisekundach (ms).</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="361" height="55" src="../images/dwellingPeriod.png"/></center></td>
+</tr><tr>
+<td><center><p>Czas zatrzymania 250 ms w G82</p></center></td>
+</tr></table>
+<p>Podczas postprocesingu przy użyciu cykli rozszerzonych czas zatrzymania jest generowany jako zwykłe polecenie zatrzymania (G4).</p>
+<p>Aby obliczyć minimalny czas zatrzymania, który zapewni co najmniej jeden pełny obrót, należy użyć wartości 60 podzielonej przez prędkość wrzeciona.</p>
+<p>Przykład: przy prędkości 350 obr./min minimalny czas zatrzymania powinien wynosić 60 / 350 = 0,171 s, co może być zaokrąglone do 0,2 s.</p>
+<p>Uwaga: Jeśli operator uruchamia program z nadpisaniem prędkości, prędkość wrzeciona jest wolniejsza, ale czas przerwy jest stały. Aby zapewnić pełny obrót podczas stosowania nadpisania prędkości, np. 50%, czas przerwy należy podwoić.</p>
+</div>

@@ -1,0 +1,16 @@
+<div id="dwellingPeriod"><p>Verweilzeit in Sekunden.</p>
+<p>Durch Angabe einer Verweilzeit werden alle Achsenbewegungen für eine festgelegte Zeitdauer angehalten, wobei sich die Spindel konstant entsprechend den Angaben weiterdreht. Diese Option wird verwendet, um sicherzustellen, dass Späne vor dem Rückzug aus einer Bohrung beseitigt werden, wodurch ein verbessertes Oberflächen-Finish der Bohrung ermöglicht wird.</p>
+<p>Normalerweise ist eine Verweilzeit zwischen 0.25 und 1.0 Sekunden ausreichend.</p>
+<p>Beispiel: Um eine Verweilzeit von 0.25 Sekunden einzustellen, geben Sie 0.25 bzw. 1/4 in das Feld ein.</p>
+<p>Bei der Nachbearbeitung eines Bohrzyklus wird die Verweilzeit als einer der Bohrzyklusparameter (normalerweise P) angegeben und in den meisten Fällen in Millisekunden (ms) ausgegeben.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="361" height="55" src="../images/dwellingPeriod.png"/></center></td>
+</tr><tr>
+<td><center><p>250 ms Verweilzeit bei G82</p></center></td>
+</tr></table>
+<p>Beim Nachbearbeiten mit erweiterten Zyklen wird die Verweilzeit als regulärer Verweil-Befehl (G4) ausgegeben.</p>
+<p>Zur Berechnung der Mindestverweilzeit, durch die mindestens eine vollständige Umdrehung gewährleistet wird, sollten Sie den Wert 60 geteilt durch die Spindeldrehzahl verwenden.</p>
+<p>Beispiel: Bei 350 UPM beträgt die Mindestverweilzeit 60 / 350 = 0.171 Sek., was auf 0.2 Sek. gerundet werden kann.</p>
+<p>Anmerkung: Wenn der Bediener das Programm mit einer Drehzahlüberschreibung ausführt, ist die Spindeldrehzahl niedriger, die Verweilzeit bleibt jedoch konstant. Um sicherzustellen, dass bei einer Drehzahlüberschreibung von z. B. 50 % eine vollständige Umdrehung durchgeführt wird, muss die Verweilzeit verdoppelt werden.</p>
+</div>

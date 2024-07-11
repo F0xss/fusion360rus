@@ -1,0 +1,11 @@
+<div id="highFeedrateMode"><p>Gibt an, wann Eilgangbewegungen als echte Eilgangbewegungen (G0) und wann als Schnellvorschub-Bewegungen (G1) ausgegeben werden sollen.</p>
+<ul>
+<li><b>Eilgangbewegung beibehalten</b> - Alle Eilgangbewegungen bleiben erhalten.</li>
+<li><b>Axiale und radiale Eilgangbewegung beibehalten</b> - Eilgangbewegungen, die nur horizontal (radial) <em>oder</em> vertikal (axial) verlaufen, werden als echte Eilgangbewegungen ausgegeben.</li>
+<li><b>Axiale Eilgangbewegung beibehalten</b> - Nur Eilgangbewegungen, die vertikal verlaufen, werden ausgegeben.</li>
+<li><b>Radiale Eilgangbewegung beibehalten</b> - Nur Eilgangbewegungen, die horizontal verlaufen, werden ausgegeben.</li>
+<li><b>Eilgangbewegung in einer Achse beibehalten</b> - Nur Eilgangbewegungen, die in einer Achse (X, Y oder Z) verlaufen, werden ausgegeben.</li>
+<li><b>Schnellvorschub immer verwenden</b> - Eilgangbewegungen werden als G01-Bewegungen (Schnellvorschub-Bewegungen) statt als G0-Bewegungen (Eilgangbewegungen) ausgegeben.</li>
+</ul>
+<p>Dieser Parameter wird gewöhnlich festgelegt, um Kollisionen bei Eilgängen auf Maschinen zu vermeiden, die Dogleg-Bewegungen im Eilgang durchführen.</p>
+</div>

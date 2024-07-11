@@ -1,0 +1,12 @@
+<div id="smoothingFilter"><p>Glättet den Werkzeugweg, indem überschüssige Punkte entfernt und Bogen innerhalb der definierten Filtertoleranz ggf. angepasst werden.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="200" src="../images/SmoothingOff.png"/></center></td>
+<td><center><img border="0" width="200" height="200" src="../images/SmoothingOn.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Glättung aus</b></p></center></td>
+<td><center><p><b>Glättung ein</b></p></center></td>
+</tr></table>
+<p>Die Glättung dient dazu, die Codegröße zu verringern, ohne dass dies auf Kosten der Genauigkeit geht. Bei der Glättung werden kollineare Linien durch eine Linie und Tangentialbogen ersetzt, um wiederum mehrere Linien in gekrümmten Bereichen zu ersetzen.</p>
+<p>Die Auswirkungen einer Glättung können beträchtlich sein. Die Größe der G-Code-Datei kann um 50 % oder mehr reduziert werden. Die Maschine läuft schneller und reibungsloser, und das Oberflächen-Finish wird verbessert. Der Umfang der Codereduzierung hängt davon ab, wie gut sich der Werkzeugweg für die Glättung eignet. Werkzeugwege, die primär in einer Hauptebene (XY, XZ, YZ) liegen, wie z. B. parallele Werkzeugwege, lassen sich gut filtern. Bei Werkzeugwegen, auf die dies nicht zutrifft (wie 3D-HSC-Kontur), ist die Reduzierung geringer.</p>
+</div>

@@ -1,0 +1,19 @@
+<div id="retractionPolicy"><p>Kontroluje w jaki sposób narzędzie porusza się między przejściami skrawającymi.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_FullRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_MinimumRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_ShortestPath.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Pełne wycofanie</b></p></center></td>
+<td><center><p><b>Minimalne wycofanie</b></p></center></td>
+<td><center><p><b>Najkrótsza ścieżka</b></p></center></td>
+</tr></table>
+<p><em>Ilustrowane przepływem</em></p>
+<br>
+<p><b>Pełne wycofanie</b> — całkowicie wycofuje narzędzie do wysokości wycofania na końcu przejścia przed przesunięciem powyżej początku następnego przejścia.</p>
+<p><b>Minimalne wycofanie</b> — przesuwa się prosto do najniższej wysokości, na której narzędzie unosi się nad przedmiotem obrabianym i dodatkowo na określoną bezpieczną odległość.</p>
+<p><b>Najkrótsza ścieżka</b> — przesuwa narzędzie na najmniejszą możliwą odległość w linii prostej między ścieżkami.</p>
+<p><b>OSTRZEŻENIE:</b> najkrótszej ścieżki nie należy używać w przypadku maszyn, które nie obsługują szybkich ruchów linearyzowanych gdzie G0 przesuwa się w linii prostej (w przeciwieństwie do ruchów G0 które napędzają wszystkie osie z maksymalną prędkością, czasami nazywanych ruchami „z nagłą zmianą kierunku”). Nieprzestrzeganie tej reguły spowoduje ruch maszyny , których nie można poprawnie symulować za pomocą oprogramowania, i <em> może spowodować awarię i przestoje narzędzi</em>.</p>
+<p>W przypadku maszyn CNC, które nie obsługują szybkich ruchów linearyzowanych, postprocesor może być modyfikowany, aby przekształcić wszystkie ruchy G0 w ruchy G1 o wysokim posuwie. Skontaktuj się z działem pomocy technicznej, aby uzyskać więcej informacji lub instrukcje, jak modyfikować postprocesory, zgodnie z opisem.</p>
+</div>

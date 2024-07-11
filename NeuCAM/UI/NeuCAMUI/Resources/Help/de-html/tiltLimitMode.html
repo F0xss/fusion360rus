@@ -1,0 +1,25 @@
+<div id="tiltLimitMode"><p>Legt fest, wie mit Werkzeugwegbereichen verfahren werden soll, die die Neigungsgrenzen der Maschine überschreiten:</p>
+<ul>
+<li><b>Werkzeugweg stutzen</b> - Entfernen Sie den Teil des Werkzeugwegs, der das Werkzeug über die Neigungsgrenzen hinaus neigt. Verwenden Sie diese Option, wenn der Werkzeugachsenwinkel für die Oberflächengüte von Bedeutung ist, und schließen Sie dann die Bearbeitung des Bauteils mit einem anderen Setup ab.</li>
+<li><b>Maschine an Neigungsgrenze</b> - Wählen Sie diese Option aus, um die Werkzeugachse bei Erreichen der Neigungsgrenze an dieser zu halten. Verwenden Sie diese Option, um die Bearbeitung mit dem Werkzeugweg im aktuellen Setup fortzusetzen, wenn der Werkzeugachsenwinkel für die Oberflächengüte nicht von Bedeutung ist.</li>
+</ul>
+<p>Im folgenden Beispiel mit Auswahl von <b>Werkzeugweg stutzen</b> und Einstellung von 90 Grad für <b>Maximaler Neigungswinkel</b> wird nichts gestutzt, da die Werkzeugachse immer innerhalb von 90 Grad bleibt. Wenn <b>Maximaler Neigungswinkel</b> auf 65 Grad eingestellt ist, wird der Teil, bei dem die Werkzeugachse über 65 Grad hinaus geneigt wird, gestutzt.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="180" height="104" src="../images/no_tool_axis_limits.png"/></center></td>
+<td><center><img border="0" width="180" height="104" src="../images/trim_toolpath_65deg.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximale Neigung = 90 Grad</b><br>
+<b>Werkzeugweg stutzen</b></p></center></td>
+<td><center><p><b>Maximale Neigung = 65 Grad</b><br>
+<b>Werkzeugweg stutzen</b></p></center></td>
+</tr></table>
+<p>Wenn <b>Maschine an Neigungsgrenze</b> ausgewählt ist, wird der Werkzeugweg beibehalten, aber mit der maximalen Neigungsgrenze von 65 Grad bearbeitet.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="180" height="104" src="../images/machine_at_max_tilt.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximale Neigung = 65 Grad</b><br>
+<b>Bei maximaler Neigung bearbeiten</b><br></p></center></td>
+</tr></table>
+</div>

@@ -1,0 +1,24 @@
+<div id="exitPositions"><p>Określa położenie wyjścia narzędzia dla bezpieczniejszej obróbki.</p>
+<p>Wybierz punkt, aby określić położenie wyjścia. Punkt musi być jak najbliżej obrabianego obszaru, jak np. wejście do otwartej kieszeni, aby punkt został wykryty podczas obliczania ścieżki narzędzia.</p>
+<p>Jeśli wybierzesz więcej niż jeden punkt, narzędzie wychodzi z punktu, do którego znajduje się najbliżej po zakończeniu wykonywania ruchów skrawających.</p>
+<p>W poniższym przykładzie obrabiana jest otwarta kieszeń z podcięciem. Początkowo narzędzie wycofuje się na końcu kieszeni, co powoduje kolizję z geometrią znajdującą się bezpośrednio nad nią. Korzystając z pozycji wyjścia, można wymusić, aby narzędzie pozostało w dół i wychodziło z kieszeni, tak aby mogła ona wycofać się z wystarczającym prześwitem.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="200" src="../images/undercut_open_pocket_machining.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Obróbka podcięć</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_unsafe_retract.png"/></center></td>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_safe_retract.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Narzędzie wycofuje się na końcu</b> < br>
+Kolizja z częścią</p></center></td>
+<td><center><p><b>Wycofanie przy wyjeździe</b> < br>
+Wystarczający luz</p></center></td>
+</tr></table>
+<p>Dostępne dla kieszeni 2D, konturu 2D i adaptacyjnej 2D.</p>
+<p><b>Uwaga</b>: narzędzie wykonuje ruch połączenia przy wstawieniu przy wyjeździe. <b>Maksymalny dystans pozostania w dole</b> musi być wystarczająco duży, aby zmieścić ten ruch. Dla kieszeni 2D i konturu 2D wymagane jest zaznaczenie pola wyboru <b>Utrzymaj narzędzie w dole</b>, aby wprowadzić wartość <b>Maksymalny dystans pozostania w dole</b>.</p>
+</div>

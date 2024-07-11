@@ -1,0 +1,21 @@
+<div id="moduleworks_automatic_deburring_edgeInnerCorners"><p>Gibt an, wie vorzugehen ist, wenn das Werkzeug auf innere Ecken trifft, die es aufgrund der Werkzeuggeometrie nicht erreichen kann.</p>
+<p><b>Nicht entgraten</b> - Bewegt das Werkzeug zur nächsten Kante der inneren Ecke, nachdem es keine Bearbeitung der aktuellen Kante mehr durchführen kann. Dadurch verbleiben Grate an einigen inneren Ecken. Verwenden Sie diese Option, um eine schnellere Zykluszeit über das Entgraten von mehr inneren Ecken zu priorisieren.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Nicht erreichbare Ecke</b></p></center></td>
+<td><center><p><b>Grate an inneren Ecken</b></p></center></td>
+</tr></table>
+<p><b>Mit Werkzeugspitze schneiden</b> - Versucht, mehr von der inneren Ecke zu schneiden, indem mehr von der Werkzeugspitze verwendet wird. Dadurch wird so viel Material wie möglich von den inneren Ecken entfernt.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Schneiden mit der Werkzeugspitze</b></p></center></td>
+<td><center><p><b>Innere Ecken entgratet</b></p></center></td>
+</tr></table>
+<p><b>Anmerkung</b>: Um die Funktion <b>An festem Punkt auf Werkzeug schneiden</b> zu verwenden, müssen Sie <b>Nicht entgraten</b> auswählen.</p>
+</div>

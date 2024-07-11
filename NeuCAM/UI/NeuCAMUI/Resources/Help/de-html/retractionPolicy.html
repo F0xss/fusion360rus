@@ -1,0 +1,19 @@
+<div id="retractionPolicy"><p>Steuert, wie sich das Werkzeug zwischen Schnittdurchgängen bewegt.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_FullRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_MinimumRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_ShortestPath.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Voller Rückzug</b></p></center></td>
+<td><center><p><b>Minimaler Rückzug</b></p></center></td>
+<td><center><p><b>Kürzester Weg</b></p></center></td>
+</tr></table>
+<p><em>Veranschaulicht anhand von Flächen-Morph</em></p>
+<br>
+<p><b>Voller Rückzug</b> - Das Werkzeug wird vollständig auf die Rückzugshöhe am Ende des Durchgangs zurückgezogen, bevor die Startposition für den nächsten Durchgang eingenommen wird.</p>
+<p><b>Minimaler Rückzug</b> - Das Werkzeug wird gerade nach oben auf die niedrigste freie Höhe (zuzüglich eines eventuell angegebenen Sicherheitsabstands) über dem Werkstück bewegt.</p>
+<p><b>Kürzester Weg</b> - Bewegt das Werkzeug im kürzestmöglichen Abstand in einer geraden Linie zwischen Werkzeugwegen.</p>
+<p><b>WARNUNG:</b> Die Option Kürzester Weg darf nicht auf Maschinen verwendet werden, die keine linearisierten Eilgang-Bewegungen mit geraden G0-Bewegungen unterstützen. Diese unterscheiden sich von G0-Bewegungen, die mit maximaler Geschwindigkeit auf allen Achsen erfolgen (sogenannte Führungsverlängerungsbewegungen). Wenn diese Regel nicht eingehalten wird, kommt es zu Maschinenbewegungen, die von der Software nicht korrekt simuliert werden können und möglicherweise einen Werkzeug-Crash verursachen.</p>
+<p>Bei CNC-Maschinen, die keine linearisierten Eilgangbewegungen unterstützen, kann der Postprozessor modifiziert werden, um alle G0-Bewegungen in G1-Bewegungen mit Schnellvorschub umzuwandeln. Wenden Sie sich an den Technischen Support, um weitere Informationen oder Anweisungen zum entsprechenden Modifizieren der Postprozessoren zu erhalten.</p>
+</div>

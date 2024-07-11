@@ -1,0 +1,21 @@
+<div id="smoothingFilterMode"><p>Legt fest, wie der Werkzeugweg geglättet werden soll.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss.png"/></center></td>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss_applied.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Glättungsfilter deaktiviert</b></p></center></td>
+<td><center><p><b>Böden einpassen angewendet</b></p></center></td>
+</tr></table>
+<p><b>Bogen einpassen</b> - Ersetzt mehrere Linien in gekrümmten Bereichen durch Bogen, und bleibt dabei innerhalb der Werkzeugwegtoleranz. Wenn die Toleranz nicht eingehalten werden kann, werden die Bogen nicht angewendet. Durch Bogen einpassen wird die Größe der G-Code-Datei reduziert, sodass diese für ältere Maschinen mit langsameren CNC-Steuerungen verwendet werden kann, die besser mit kleineren Dateigrößen umgehen können.</p>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="400" height="196" src="../images/Evenly_spaced_points_2_SS.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Gleichmäßig angeordnete Punkte</b></p></center></td>
+</tr></table>
+<p><b>Gleichmäßig angeordnete Punkte</b> - Gut für neuere Maschinen mit schnelleren CNC-Steuerungen geeignet, die eine große Anzahl an Punkten verarbeiten können.</p>
+<p><b>1</b> - Entfernt alte Punkte, fügt neue Punkte entlang der Schnittbewegungen ein und ordnet sie, wenn möglich, in gleichmäßigem Abstand an. Durch das Hinzufügen neuer Punkte kann die Berechnungszeit zum Generieren eines Werkzeugwegs erhöht werden. Durch die gleichmäßig angeordneten Punkte kann jedoch eine erhebliche Zeitreduzierung auf der Werkzeugmaschine erreicht werden.<br></p>
+<p><b>2</b> - Punkte werden möglicherweise an den Ecken enger gruppiert, um den Toleranzbereich des Werkzeugwegs einzuhalten.</p>
+</div>

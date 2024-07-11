@@ -1,0 +1,15 @@
+<div id="2d_tolerance"><p>Die beim Linearisieren von Geometrie, z. B. Splines und Ellipsen, verwendete Toleranz.
+Die Toleranz wird als die maximale Sehnenlänge verwendet.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceLoose.png"/></center></td>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceTight.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Hohe Toleranz 0.100</b></p></center></td>
+<td><center><p><b>Niedrige Toleranz 0.001</b></p></center></td>
+</tr></table>
+<p>Die Konturbewegung der CNC-Maschine wird über den Linienbefehl G1 und die Bogenbefehle G2 und G3 gesteuert. Hierzu werden von CAM mittels Linearisierung genäherte Spline- und Flächenwerkzeugwege berechnet; auf diese Weise entstehen mehrere kurze Liniensegmente, welche der gewünschten Form annähernd entsprechen. Wie genau der Werkzeugweg der gewünschten Form entspricht, hängt weitgehend von der Anzahl der verwendeten Linien ab. Je mehr Linien, desto enger nähert sich der Werkzeugweg der Nennform des Splines oder der Fläche an.</p>
+<p><b>Data Starving</b></p>
+<p>Es ist verlockend, immer sehr niedrige Toleranzen zu verwenden, aber dies muss gegen gewisse Aspekte abgewogen werden, wie z. B. längere Zeiten für die Werkzeugwegberechnung, große G-Code-Dateien und sehr kurze Linienbewegungen. Die ersten beiden Aspekte stellen kein großes Problem dar, da das Programm Berechnungen sehr schnell durchführt und die meisten modernen Steuerungen über mindestens 1 MB RAM verfügen. Die kurzen Linienbewegungen können in Verbindung mit hohen Vorschubgeschwindigkeiten jedoch zu einem Phänomen führen, das als Data Starving bekannt ist.</p>
+<p>Data Starving tritt auf, wenn die Steuerung so stark mit Daten überflutet wird, dass sie die Verarbeitung nicht bewältigen kann. CNC-Steuerungen können nur eine begrenzte Anzahl von Codezeilen (Blöcken) pro Sekunde verarbeiten. Die Bandbreite reicht von gerade einmal 40 Blöcken/Sekunde auf älteren Maschinen bis zu 1,000 Blöcken/Sekunde und mehr auf neueren Maschinen wie der Haas Automation-Steuerung. Kurze Linienbewegungen und hohe Vorschubgeschwindigkeiten können die Verarbeitungsrate derart erhöhen, dass die Steuerung überfordert ist. Wenn dies geschieht, muss die Maschine nach jeder Bewegung anhalten und auf den nächsten Servobefehl von der Steuerung warten.</p>
+</div>

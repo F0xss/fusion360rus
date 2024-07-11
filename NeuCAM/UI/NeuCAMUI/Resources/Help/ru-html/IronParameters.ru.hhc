@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+<meta name="GENERATOR" content="wbook.py">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=cp866">
+</HEAD>
+
+<BODY>
+<OBJECT type="text/site properties">
+	<param name="Auto Generated" value="Yes">
+</OBJECT>
+<UL>
+
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Справка по IronParameters None">
+	<param name="Local" value="start.html">
+	<param name="ImageNumber" value="2">
+	</OBJECT>		
+<UL>
+	<LI><OBJECT type="text/sitemap">
+		<param name="Name" value="Все параметры">
+		<param name="Local" value="AllParameters.html">
+		<param name="ImageNumber" value="12">
+		</OBJECT>		
+</UL></UL>
+</BODY>
+
+</HTML>

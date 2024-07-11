@@ -1,0 +1,19 @@
+<div id="stockToLeave"><p>Przygotówka promieniowa, który ma pozostać przy parametrze, kontroluje ilość materiału, która ma pozostać w kierunku promieniowym (prostopadłym do osi narzędzia), czyli po stronie narzędzia.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveRadial.png"/></center></td>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveBoth.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Naddatek promieniowy</b></p></center></td>
+<td><center><p><b>Naddatek promieniowy i osiowy</b></p></center></td>
+</tr></table>
+<p>Określenie dodatniego naddatku promieniowego pozostawi materiał na pionowych ścianach i obszarach o dużym nachyleniu części.</p>
+<p>W przypadku powierzchni, które nie są dokładnie pionowe, program interpoluje między wartościami naddatku osiowego (podłoże) i promieniowego, tak aby naddatek w kierunku promieniowym na tych powierzchniach mógł być inny niż określona wartość, w zależności od nachylenia powierzchni i wartości naddatku osiowego.</p>
+<p>Zmiana naddatku promieniowego automatycznie ustawia naddatek osiowy tej samej wielkości, chyba że naddatek osiowy zostanie wprowadzony ręcznie.</p>
+<p>W przypadku operacji wykańczających domyślna wartość to 0 mm/0 cala, czyli materiał nie jest pozostawiany.</p>
+<p>W przypadku operacji obróbki zgrubnej domyślnie pozostawia się niewielką ilość materiału, który może być później usunięty przez jedną lub więcej operacji wykańczających.</p>
+<p><b>Naddatek ujemny</b></p>
+<p>Podczas używania naddatku ujemnego operacja obróbki usuwa więcej materiału z przygotówki niż kształt modelu. Może to być użyte do obróbki elektrod z <b>przerwą iskrową</b>, gdzie rozmiar przerwy iskrowej jest równy ujemnemu naddatkowi.</p>
+<p>Zarówno promieniowy, jak i osiowy naddatek może być liczbą ujemną. Jednakże ujemny naddatek promieniowy musi być mniejszy niż promień narzędzia.</p>
+<p>W przypadku użycia freza kulistego lub promieniowego z ujemnym naddatkiem promieniowym większym niż promień naroża ujemny naddatek osiowy musi być mniejszy niż promień naroża lub mu równy.</p>
+</div>

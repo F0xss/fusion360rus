@@ -1,0 +1,18 @@
+<div id="probe_overrideWorkOffset"><p>Określa, który układ współrzędnych steruje tą operacją pomiaru.</p>
+<p>Gdy ta opcja jest zaznaczona, sonda jest sterowana z innego układu współrzędnych (RUW nadpisania) do zdefiniowanego w ustawieniu (RUW odsunięcia). RUW nadpisania dla tej operacji pomiaru nie jest aktualizowany, ale RUW odsunięcia dla kolejnych operacji obróbki jest aktualizowany. Blokuje to układ współrzędnych dla sondy.</p>
+<p>Przykład zaktualizowanego RUW odsunięcia (1=G54), ale niezmienionego RUW nadpisania (2=G55), dla wielu części:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="177" src="../images/override_driving_wcs_selected.png"/></center></td>
+</tr><tr>
+<td><center><p>Wybrano opcję Nadpisz sterujący RUW</p></center></td>
+</tr></table>
+<p>Gdy opcja nie jest zaznaczona, sonda jest sterowana z tego samego układu współrzędnych, który jest zdefiniowany w ustawieniu (RUW odsunięcia). RUW odsunięcia dla tej operacji pomiaru i kolejnych operacji obróbki jest aktualizowany.</p>
+<p>Przykład zaktualizowanego odsunięcia RUW (1=G54) dla wielu części:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="177" src="../images/override_driving_wcs_deselected.png"/></center></td>
+</tr><tr>
+<td><center><p>Opcja Nadpisz sterujący RUW niezaznaczona</p></center></td>
+</tr></table>
+</div>

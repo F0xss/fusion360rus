@@ -1,0 +1,15 @@
+<div id="2d_tolerance"><p>Tolerancja używana podczas linearyzacji geometrii, takiej jak splajny i elipsy.
+Tolerancja jest interpretowana jako maksymalna odległość cięciwy.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceLoose.png"/></center></td>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceTight.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Tolerancja przybliżona .100</b></p></center></td>
+<td><center><p><b>Tolerancja dokładna .001</b></p></center></td>
+</tr></table>
+<p>Ruch konturowania maszyny CNC jest kontrolowany za pomocą poleceń linii G1 i łuku G2 G3. Aby to uwzględnić, system CAM przybliża ścieżki narzędzia splajnu i powierzchni poprzez ich liniowe rysowanie i tworzenie wielu krótkich segmentów linii w celu przybliżenia żądanego kształtu. Dokładność dopasowania ścieżki narzędzia do żądanego kształtu zależy w dużej mierze od liczby używanych linii. Więcej linii skutkuje utworzeniem ścieżki narzędzia, która bardziej przybliża nominalny kształt splajnu lub powierzchni.</p>
+<p><b>Niedostatek danych</b></p>
+<p>Czasami kuszące jest stosowanie bardzo wąskich tolerancji, ale trzeba się liczyć z dłuższym czasem obliczania ścieżki narzędzia, dużymi plikami kodu G i bardzo krótkimi ruchami liniowymi. Pierwsze dwie kwestie nie stanowią większego problemu, ponieważ program jest obliczany bardzo szybko, a większość nowoczesnych sterowników ma co najmniej 1 MB pamięci RAM. Jednak krótkie ruchy liniowe, w połączeniu z dużymi prędkościami posuwu, mogą powodować zjawisko znane jako niedostatek danych.</p>
+<p>Głód danych występuje wtedy, gdy system sterowania jest tak przeciążony danymi, że nie jest w stanie ich nadążyć. Systemy sterowania CNC mogą przetwarzać tylko określoną liczbę linii kodu (bloków) na sekundę. Może to być zaledwie 40 bloków na sekundę w starszych maszynach i 1000 bloków na sekundę lub więcej w nowszych maszynach, takich jak system sterowania Haas Automation. Krótkie ruchy na linii i duże prędkości posuwu mogą wymusić zwiększenie szybkości przetwarzania ponad to, co może obsłużyć system sterowania. W takiej sytuacji maszyna musi robić pauzę po każdym ruchu i czekać na kolejne polecenie serwonapędu ze sterownika.</p>
+</div>
