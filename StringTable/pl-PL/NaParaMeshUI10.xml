@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Before / After No of Defects" devLabel="Before / After" translation="Przed/po"/>
+	<label commandName="BodyToCalculateFaceGroups" devLabel="Bodies/Face Groups" translation="Bryły/grupy powierzchni"/>
+	<label commandName="BodyToCalculateFaceGroupsToolTip" devLabel="Select mesh bodies or face groups to generate new face groups." translation="Wybierz bryły siatkowe lub grupy powierzchni, aby utworzyć nowe grupy powierzchni."/>
+	<label commandName="BodyToEdit" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToEditToolTip" devLabel="Select a mesh body to edit directly" translation="Wybierz bryłę siatkową do bezpośredniej edycji"/>
+	<label commandName="BodyToExtractFrom" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToExtractFromToolTip" devLabel="Select mesh body to separate." translation="Wybierz bryłę siatkową do rozdzielenia."/>
+	<label commandName="BodyToHollow" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToHollowToolTip" devLabel="Select a mesh body to shell." translation="Wybierz bryłę siatkową do utworzenia skorupy."/>
+	<label commandName="BodyToPlanarSection" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToPlanarSectionToolTip" devLabel="Select a mesh body to generate the section line from." translation="Wybierz bryłę siatkową, z której ma zostać wygenerowana linia przekroju."/>
+	<label commandName="BodyToPlaneCut" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToPlaneCutToolTip" devLabel="Select mesh body to cut." translation="Wybierz bryłę siatkową do wycięcia."/>
+	<label commandName="BodyToPosition" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToPositionToolTip" devLabel="" translation=""/>
+	<label commandName="BodyToQuadMesh" devLabel="Body/Face Groups" translation="Bryła/grupy powierzchni"/>
+	<label commandName="BodyToQuadMeshToolTip" devLabel="" translation=""/>
+	<label commandName="BodyToReduce" devLabel="Body/Face Groups" translation="Bryła/grupy powierzchni"/>
+	<label commandName="BodyToReduceDM" devLabel="Selection" translation="Wybór"/>
+	<label commandName="BodyToReduceDMToolTip" devLabel="Select a mesh body, face groups or faces to reduce." translation="Wybierz bryłę siatki, grupy powierzchni lub powierzchnie do zredukowania."/>
+	<label commandName="BodyToReducePM" devLabel="Body/Face Groups" translation="Bryła / grupy powierzchni"/>
+	<label commandName="BodyToReducePMToolTip" devLabel="Select a mesh body or face groups to reduce." translation="Wybierz bryłę siatki lub grupy powierzchni do zredukowania siatki."/>
+	<label commandName="BodyToReduceToolTip" devLabel="Select mesh body or face groups to reduce." translation="Wybierz bryłę siatkową lub grupy powierzchni do zredukowania siatki."/>
+	<label commandName="BodyToRemesh" devLabel="Body/Face Groups" translation="Bryła/grupy powierzchni"/>
+	<label commandName="BodyToRemeshDM" devLabel="Selection" translation="Wybór"/>
+	<label commandName="BodyToRemeshDMToolTip" devLabel="Select a mesh body, face groups or faces to remesh." translation="Wybierz bryłę siatki, grupy powierzchni lub powierzchnie do modyfikacji siatki."/>
+	<label commandName="BodyToRemeshPM" devLabel="Body/Face Groups" translation="Bryła / grupy powierzchni"/>
+	<label commandName="BodyToRemeshPMToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Wybierz bryłę siatki lub grupy powierzchni do modyfikacji siatki."/>
+	<label commandName="BodyToRemeshToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Wybierz bryłę siatki lub grupy powierzchni do modyfikacji siatki."/>
+	<label commandName="BodyToRemove" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToRemoveToolTip" devLabel="Select a mesh body to remove" translation="Wybierz bryłę siatkową do usunięcia"/>
+	<label commandName="BodyToSmooth" devLabel="Body/Face Groups" translation="Bryła/grupy powierzchni"/>
+	<label commandName="BodyToSmoothDM" devLabel="Selection" translation="Wybór"/>
+	<label commandName="BodyToSmoothDMToolTip" devLabel="Select a mesh body, face groups or faces to smooth." translation="Wybierz bryłę siatki, grupy powierzchni lub powierzchnie do wygładzenia."/>
+	<label commandName="BodyToSmoothPM" devLabel="Body/Face Groups" translation="Bryła / grupy powierzchni"/>
+	<label commandName="BodyToSmoothPMToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Wybierz bryłę siatki lub grupy powierzchni do wygładzenia."/>
+	<label commandName="BodyToSmoothToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Wybierz bryłę siatkową lub grupy powierzchni do wygładzenia."/>
+	<label commandName="BodyToTessellate" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodyToTessellateToolTip" devLabel="Select a solid or surface body to tessellate." translation="Wybierz bryłę lub korpus powierzchniowy do teselacja."/>
+	<label commandName="BrushSize" devLabel="Brush Size" translation="Wielkość pędzla"/>
+	<label commandName="BrushSizeToolTip" devLabel="Adjust the brush size for paint selection." translation="Dopasuj wielkość pędzla dla wyboru farby."/>
+	<label commandName="CalculateFacegroupsSelectTargetBody" devLabel="Select mesh body" translation="Wybierz bryłę siatkową"/>
+	<label commandName="CalculateFacegroupsSelectedTargetBody" devLabel="Select type and adjust settings" translation="Wybierz typ i dostosuj ustawienia"/>
+	<label commandName="CenterTransform" devLabel="Center" translation="Środek"/>
+	<label commandName="CenterTransformToolTip" devLabel="Centers the mesh body on the origin of the active component." translation="Wyśrodkowuje bryłę siatkową w początku aktywnego komponentu."/>
+	<label commandName="CmMKS" devLabel="Centimeter" translation="Centymetr"/>
+	<label commandName="CmMKSToolTip" devLabel="One unit from the original file equals one centimeter." translation="Jedna jednostka z oryginalnego pliku to jeden centymetr."/>
+	<label commandName="ConvertMeshAdjustConversionSettings" devLabel="Adjust conversion settings" translation="Dopasuj ustawienia konwersji"/>
+	<label commandName="ConvertMeshBaseFeature" devLabel="Base Feature" translation="Element bazowy"/>
+	<label commandName="ConvertMeshBaseFeatureToolTip" devLabel="Creates a base feature or T-Spline form in the timeline that does not maintain any upstream parametric relationships." translation="Tworzy element bazowy lub kształt T-splajnu na osi czasu, który nie zachowuje żadnych wcześniejszych zależności parametrycznych."/>
+	<label commandName="ConvertMeshOperation" devLabel="Operation" translation="Operacja"/>
+	<label commandName="ConvertMeshOperationBaseFeatureToolTipDescription" devLabel="Converts the mesh body to a T-Spline form and opens the Form contextual environment. You can edit the form before completing the conversion." translation="Przekształca bryłę siatkową w kształt T-splajnu i otwiera środowisko kontekstowe Kształt. Kształt można edytować przed zakończeniem konwersji."/>
+	<label commandName="ConvertMeshOperationParametricToolTipDescription" devLabel="Converts the mesh body to an organically shaped solid or surface body. You cannot edit the form before completing the conversion. If this method fails, try the Base Feature operation and select the Organic method." translation="Przekształca bryłę siatkową w bryłę lub korpus powierzchniowy o kształcie organicznym. Nie można edytować kształtu przed zakończeniem konwersji. Jeśli ta metoda nie powiedzie się, spróbuj wykonać operację Element bazowy i wybierz metodę Organiczny."/>
+	<label commandName="ConvertMeshParametric" devLabel="Parametric" translation="Parametryczny"/>
+	<label commandName="ConvertMeshParametricToolTip" devLabel="Creates a feature in the timeline that maintains its upstream parametric relationships." translation="Tworzy element na osi czasu, który zachowuje swoje wcześniejsze zależności parametryczne."/>
+	<label commandName="ConvertMeshSelectTargetBody" devLabel="Select mesh body to convert" translation="Wybierz bryłę siatkową do konwersji"/>
+	<label commandName="ConvertOrganicTargetType" devLabel="Resolution" translation="Rozdzielczość"/>
+	<label commandName="ConvertSmoothBoundary" devLabel="Preprocess Holes" translation="Przetwarzanie wstępne otworów"/>
+	<label commandName="ConvertSmoothBoundaryToolTip" devLabel="Smooths the boundaries of open holes in the mesh body.&lt;br/&gt;&lt;br/&gt;Improves the chance of successful conversion by refining the shape of holes that will remain open." translation="Wygładza obwiednie otwartych otworów w bryle siatkowej.&lt;br/&gt;&lt;br/&gt;Zwiększa szanse pomyślnej konwersji przez poprawienie kształtu otworów, które pozostaną otwarte."/>
+	<label commandName="ConvertTargetFaceNumberInput" devLabel="" translation=""/>
+	<label commandName="ConvertTargetOrganicAccuracy" devLabel="Accuracy" translation="Dokładność"/>
+	<label commandName="CreateFaceGroupInput" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="CreateFaceGroupInputToolTip" devLabel="Select faces to include in the face group." translation="Wybierz powierzchnie, które mają zostać włączone do grupy powierzchni."/>
+	<label commandName="CustomRefinementOption" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="CustomRefinementOptionToolTip" devLabel="Applies custom refinement settings to tessellate the body." translation="Stosuje niestandardowe ustawienia zagęszczania do teselacji bryły."/>
+	<label commandName="Cut" devLabel="Cut" translation="Wytnij"/>
+	<label commandName="CutSelectTargetBody" devLabel="Select mesh body to cut" translation="Wybierz bryłę siatkową do ucięcia"/>
+	<label commandName="CutToolTip" devLabel="Removes overlapping areas from target body." translation="Usuwa nakładające się obszary z bryły docelowej."/>
+	<label commandName="Defect Type" devLabel="Issue Type" translation="Typ problemu"/>
+	<label commandName="Defect TypeToolTip" devLabel="" translation=""/>
+	<label commandName="DefectTable" devLabel="Defect Table" translation="Tabela defektów"/>
+	<label commandName="DefectTableToolTip" devLabel="" translation=""/>
+	<label commandName="DefectTypeTitle" devLabel="Issue Type" translation="Typ problemu"/>
+	<label commandName="DefectTypeTitleToolTip" devLabel="" translation=""/>
+	<label commandName="DegenerateEdge" devLabel="Degenerate Edges" translation="Zdegenerowane krawędzie"/>
+	<label commandName="DegenerateThreshold" devLabel="Degenerate Threshold" translation="Próg zdegenerowania"/>
+	<label commandName="DegenerateThresholdToolTip" devLabel="Specify the maximum size of degenerate edges and faces to repair." translation="Określ maksymalny rozmiar zdegenerowanych krawędzi i powierzchni do naprawy."/>
+	<label commandName="DegenerateTriangle" devLabel="Degenerate Faces" translation="Zdegenerowane powierzchnie"/>
+	<label commandName="DensityTolInput" devLabel="" translation=""/>
+	<label commandName="DirectEditSelectTargetBody" devLabel="Select a mesh body to edit directly" translation="Wybierz bryłę siatkową do bezpośredniej edycji"/>
+	<label commandName="EnableDefect" devLabel="" translation=""/>
+	<label commandName="EnterIntoCreateMeshEnvironment" devLabel="You have entered into Mesh Direct Edit." translation="Nastąpiło przejście do środowiska edycji bezpośredniej siatki."/>
+	<label commandName="EraseAndFillDensity" devLabel="Density" translation="Gęstość"/>
+	<label commandName="EraseAndFillDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Określ gęstość, aby sterować liczbą tworzonych powierzchni."/>
+	<label commandName="EraseAndFillInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="EraseAndFillInputToolTip" devLabel="Select faces around a hole to fill or faces of a region to repair on a mesh body." translation="Wybierz powierzchnie wokół otworu do wypełnienia lub powierzchnie regionu do naprawy w bryle siatkowej."/>
+	<label commandName="EraseAndFillMeshingType" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="EraseAndFillMeshingTypeToolTip" devLabel="" translation=""/>
+	<label commandName="EraseAndFillMinimalType" devLabel="Minimal" translation="Minimalny"/>
+	<label commandName="EraseAndFillMinimalTypeToolTip" devLabel="Fills the selected region with the minimum number of faces, typically resulting in long, thin triangles." translation="Wypełnia wybrany obszar minimalną liczbą powierzchni, co zazwyczaj skutkuje powstaniem długich, cienkich trójkątów."/>
+	<label commandName="EraseAndFillScale" devLabel="Scale" translation="Skala"/>
+	<label commandName="EraseAndFillScaleToolTip" devLabel="Specify weight to control the influence of surrounding faces on the new faces." translation="Określ szerokość, aby sterować wpływem otaczających powierzchni na nowe powierzchnie."/>
+	<label commandName="EraseAndFillSmoothType" devLabel="Smooth" translation="Gładkie"/>
+	<label commandName="EraseAndFillSmoothTypeToolTip" devLabel="Fills the selected region with the very smoothly with triangles and tries to keep the shape of the model." translation="Gładko wypełnia wybrany region trójkątami i próbuje zachować kształt modelu."/>
+	<label commandName="EraseAndFillUniformType" devLabel="Uniform" translation="Jednorodny"/>
+	<label commandName="EraseAndFillUniformTypeToolTip" devLabel="Fills the selected region with regular-shaped triangles." translation="Wypełnia wybrany region trójkątami o kształcie regularnym."/>
+	<label commandName="EraseDensitySlider" devLabel="" translation=""/>
+	<label commandName="EraseDensitySliderToolTip" devLabel="" translation=""/>
+	<label commandName="EraseScaleSlider" devLabel="" translation=""/>
+	<label commandName="EraseScaleSliderToolTip" devLabel="" translation=""/>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Zamknij"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Rozszerz na połączone"/>
+	<label commandName="ExpandToConnectedSelToolTip" devLabel="Expand face selection to all faces connected to the current selection." translation="Rozszerz wybór powierzchni na wszystkie powierzchnie połączone z bieżącym wyborem."/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Rozszerz na grupę powierzchni"/>
+	<label commandName="ExpandToGroupSelToolTip" devLabel="Expand face selection to include all faces in the same face group." translation="Rozszerz wybór powierzchni, aby uwzględnić wszystkie powierzchnie w tej samej grupie powierzchni."/>
+	<label commandName="FaceGroupCount" devLabel="Face Group Count" translation="Liczba grup powierzchni"/>
+	<label commandName="FaceGroupCountToolTip" devLabel="" translation=""/>
+	<label commandName="FaceGroupPreviewCalculation" devLabel="Preview Calculation" translation="Podgląd obliczenia"/>
+	<label commandName="FaceGroupPreviewCalculationToolTip" devLabel="Displays a preview of the face groups on the mesh body in the canvas." translation="Wyświetla podgląd grup powierzchni w bryle siatkowej w obszarze rysunku."/>
+	<label commandName="FaceGroupPreviewGroup" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="FaceGroupPreviewGroupToolTip" devLabel="" translation=""/>
+	<label commandName="FaceGroupsToMerge" devLabel="Face Groups" translation="Grupy powierzchni"/>
+	<label commandName="FaceGroupsToMergeToolTip" devLabel="Select two or more adjacent face groups on a mesh body to combine them." translation="Wybierz co najmniej dwie przylegające grupy powierzchni w bryle siatkowej, aby je połączyć."/>
+	<label commandName="FacesToReverse" devLabel="Body/Face Group" translation="Bryła/grupa powierzchni"/>
+	<label commandName="FacesToReverseDM" devLabel="Selection" translation="Wybór"/>
+	<label commandName="FacesToReverseDMToolTip" devLabel="Select a mesh body, face groups or faces to reverse." translation="Wybierz bryłę siatki, grupy powierzchni lub powierzchnie do odwrócenia."/>
+	<label commandName="FacesToReversePM" devLabel="Body/Face Groups" translation="Bryła/grupy powierzchni"/>
+	<label commandName="FacesToReversePMToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Wybierz bryłę siatki lub grupy powierzchni do odwrócenia."/>
+	<label commandName="FacesToReverseToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Wybierz bryłę siatki lub grupy powierzchni do odwrócenia."/>
+	<label commandName="FacetCount" devLabel="Facet Count" translation="Liczba faset"/>
+	<label commandName="FastSegmentAreaInput" devLabel="" translation=""/>
+	<label commandName="FinishMeshPanel" devLabel="Finish Direct Editing" translation="Zakończ edycję bezpośrednią"/>
+	<label commandName="GridAspectRatio" devLabel="Aspect Ratio" translation="Współczynnik proporcji"/>
+	<label commandName="GridAspectRatioSlider" devLabel="" translation=""/>
+	<label commandName="GridAspectRatioSliderToolTip" devLabel="" translation=""/>
+	<label commandName="GridAspectRatioToolTip" devLabel="Specify ratio between the height and width of each face on the mesh body." translation="Określ stosunek wysokości do szerokości każdej powierzchni bryły siatkowej."/>
+	<label commandName="GroundTransform" devLabel="Move To Ground" translation="Przesuń na płaszczyznę podstawy"/>
+	<label commandName="GroundTransformToolTip" devLabel="Positions the bottom of the mesh body to rest on the ground plane of the active component." translation="Umieszcza spód bryły siatkowej, tak aby spoczywał na płaszczyźnie podstawy aktywnego komponentu."/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Powiększ wybór"/>
+	<label commandName="GrowMeshSelToolTip" devLabel="Increases the boundary of the selection set." translation="Powiększa obwiednię zbioru wskazań."/>
+	<label commandName="HighRefinementOption" devLabel="High" translation="Wysoki"/>
+	<label commandName="HighRefinementOptionToolTip" devLabel="Applies a preset with high refinement settings to tessellate the body." translation="Stosuje ustawienie wstępne z wysokimi ustawieniami zagęszczania do teselacji bryły."/>
+	<label commandName="HollowSelectTargetBody" devLabel="Select mesh body to shell" translation="Wybierz bryłę siatkową do utworzenia skorupy"/>
+	<label commandName="HollowSelectedTargetBody" devLabel="Adjust direction and thickness" translation="Dopasuj kierunek i grubość"/>
+	<label commandName="Imperial" devLabel="Foot" translation="Stopa"/>
+	<label commandName="ImperialToolTip" devLabel="One unit from the original file equals one foot." translation="Jedna jednostka z oryginalnego pliku to jedna stopa."/>
+	<label commandName="InchImperial" devLabel="Inch" translation="Cal"/>
+	<label commandName="InchImperialToolTip" devLabel="One unit from the original file equals one inch." translation="Jedna jednostka z oryginalnego pliku to jeden cal."/>
+	<label commandName="InfoPreview" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="InfoPreviewToolTip" devLabel="Displays a preview of the shelled mesh body in the canvas." translation="Wyświetla podgląd skorupowej bryły siatkowej w obszarze rysunku."/>
+	<label commandName="InsertMesh" devLabel="Insert" translation="Wstaw"/>
+	<label commandName="InsideThicknessInput" devLabel="" translation=""/>
+	<label commandName="InspectDefects" devLabel="Detailed Analysis" translation="Analiza szczegółowa"/>
+	<label commandName="InspectDefectsToolTip" devLabel="Check to see a granular analysis of specific issues." translation="Sprawdź szczegółową analizę określonych problemów."/>
+	<label commandName="Intersect" devLabel="Intersect" translation="Przecięcie"/>
+	<label commandName="IntersectToolTip" devLabel="Combines overlapping areas into a mesh body." translation="Łączy nakładające się obszary w bryłę siatkową."/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Odwróć wybór"/>
+	<label commandName="InvertMeshSelToolTip" devLabel="Selects all faces that were previously not selected and deselects all faces that were previously selected." translation="Zaznacza wszystkie powierzchnie, które nie zostały wcześniej wybrane, i usuwa zaznaczenie wszystkich powierzchni, które zostały wcześniej wybrane."/>
+	<label commandName="Join" devLabel="Join" translation="Połączenie"/>
+	<label commandName="JoinToolTip" devLabel="Combines multiple mesh bodies into a single mesh body by enclosing their volumes." translation="Łączy wiele brył siatkowych w pojedynczą bryłę siatkową przez zamknięcie ich objętości."/>
+	<label commandName="KeepToolBodiesOption" devLabel="Keep Tools" translation="Zachowaj narzędzia"/>
+	<label commandName="KeepToolBodiesOptionToolTip" devLabel="Preserves a copy of each tool body." translation="Zachowuje kopię każdej bryły narzędziowej."/>
+	<label commandName="LoadMeshFilter" devLabel="Mesh Files (*.3mf *.obj *.stl);;STL File (*.stl);;3MF File (*.3mf);;OBJ File (*.obj)" translation="Pliki siatki (*.3mf *.obj *.stl);;Plik STL (*.stl);;Plik 3MF (*.3mf);;Plik OBJ (*.obj)"/>
+	<label commandName="LowRefinementOption" devLabel="Low" translation="Nisko"/>
+	<label commandName="LowRefinementOptionToolTip" devLabel="Applies a preset with low refinement settings to tessellate the body" translation="Stosuje ustawienie wstępne z niskimi ustawieniami zagęszczania do teselacja bryły."/>
+	<label commandName="MESH_MANY_TRIANGLE_WARNING" devLabel="This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="Ta siatka zawiera więcej niż 10 000 trójkątów. Obliczenia będą trwać bardzo długo."/>
+	<label commandName="MMKS" devLabel="Meter" translation="Metr"/>
+	<label commandName="MMKSToolTip" devLabel="One unit from the original file equals one meter." translation="Jedna jednostka z oryginalnego pliku to jeden metr."/>
+	<label commandName="MakeSolid" devLabel="Rebuild" translation="Przebuduj"/>
+	<label commandName="MakeSolidToolTip" devLabel="Reconstructs the mesh body using one of 4 rebuild types. All inner structures are destroyed. (Slowest)" translation="Odtwarza bryłę siatkową za pomocą jednego z 4 typów przebudowy. Wszystkie struktury wewnętrzne są niszczone. (Najwolniej)"/>
+	<label commandName="MaxEdgeLengthSlider" devLabel="" translation=""/>
+	<label commandName="MaxEdgeLengthSliderToolTip" devLabel="" translation=""/>
+	<label commandName="MaximumEdgeLength" devLabel="Maximum Edge Length" translation="Maksymalna długość krawędzi"/>
+	<label commandName="MaximumEdgeLengthToolTip" devLabel="Specify maximum length of any face edge on the mesh body." translation="Określ maksymalną długość dowolnej krawędzi powierzchni na bryle siatkowej."/>
+	<label commandName="MediumRefinementOption" devLabel="Medium" translation="Średnie"/>
+	<label commandName="MediumRefinementOptionToolTip" devLabel="Applies a preset with medium refinement settings to tessellate the body." translation="Stosuje ustawienie wstępne z średnimi ustawieniami zagęszczania do teselacja bryły."/>
+	<label commandName="Merge" devLabel="Merge" translation="Scal"/>
+	<label commandName="MergeFaceGroupsSelectTargetBody" devLabel="Select two or more adjacent face groups" translation="Wybierz co najmniej dwie grupy powierzchni przylegających"/>
+	<label commandName="MergeToolTip" devLabel="Combines multiple mesh bodies into a single mesh body without altering the faces of the original mesh bodies." translation="Łączy wiele brył siatkowych w pojedynczą bryłę siatkową bez zmiany powierzchni oryginalnych brył siatkowych."/>
+	<label commandName="Mesh" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="MeshBodyPrompt" devLabel="Select mesh body" translation="Wybierz bryłę siatkową"/>
+	<label commandName="MeshCombineOperation" devLabel="Operation" translation="Operacja"/>
+	<label commandName="MeshCombineOperationToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Wybierz bryły siatkowe, aby połączyć je z docelową bryłą."/>
+	<label commandName="MeshCutSplitFaces" devLabel="Split Faces" translation="Podziel Powierzchnie"/>
+	<label commandName="MeshCutSplitFacesToolTip" devLabel="Splits mesh faces along the cut plane and maintains a single mesh body." translation="Dzieli powierzchnie siatki wzdłuż płaszczyzny cięcia i zachowuje pojedynczą bryłę siatkową."/>
+	<label commandName="MeshDensity" devLabel="Density" translation="Gęstość"/>
+	<label commandName="MeshDensityToolTip" devLabel="Increase or decrease density of triangles in mesh body." translation="Zwiększ lub zmniejsz gęstość trójkątów w bryle siatkowej."/>
+	<label commandName="MeshDistance" devLabel="Offset" translation="Ofset"/>
+	<label commandName="MeshDistanceToolTip" devLabel="Specify distance to offset repaired mesh from original mesh body." translation="Określ odległość odsunięcia naprawionej siatki od oryginalnej bryły siatkowej."/>
+	<label commandName="MeshExtractAllFaceGroupsOption" devLabel="All Face Groups" translation="Wszystkie grupy powierzchni"/>
+	<label commandName="MeshExtractAllFaceGroupsOptionToolTip" devLabel="Separates all face groups into independent mesh bodies." translation="Rozdziela wszystkie grupy powierzchni na niezależne bryły siatkowe."/>
+	<label commandName="MeshExtractAsSeparateBodies" devLabel="Multiple Bodies" translation="Wiele brył"/>
+	<label commandName="MeshExtractAsSeparateBodiesToolTip" devLabel="Separates each face group into an independent mesh body." translation="Rozdziela każdą grupę powierzchni na niezależną bryłę siatkową."/>
+	<label commandName="MeshExtractPreserveSourceBody" devLabel="Keep Body" translation="Zachowaj bryłę"/>
+	<label commandName="MeshExtractPreserveSourceBodyToolTip" devLabel="Preserves a copy of the original mesh body." translation="Zachowuje kopię oryginalnej bryły siatkowej."/>
+	<label commandName="MeshExtractSelectedFaceGroups" devLabel="Face Groups" translation="Grupy powierzchni"/>
+	<label commandName="MeshExtractSelectedFaceGroupsOption" devLabel="Select Face Groups" translation="Wybierz grupy powierzchni"/>
+	<label commandName="MeshExtractSelectedFaceGroupsOptionToolTip" devLabel="Separates a selection of face groups into one ore more independent mesh bodies." translation="Rozdziela wybrane grupy powierzchni na co najmniej jedną niezależną bryłę siatkową."/>
+	<label commandName="MeshExtractSelectedFaceGroupsToolTip" devLabel="Select face groups on mesh body to separate." translation="Wybierz grupy powierzchni w bryle siatkowej, aby je rozdzielić."/>
+	<label commandName="MeshExtractSelectedFaces" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="MeshExtractSelectedFacesOption" devLabel="Select Faces" translation="Wybierz Powierzchnie"/>
+	<label commandName="MeshExtractSelectedFacesOptionToolTip" devLabel="Separates a selection of faces into an independent mesh body." translation="Rozdziela wybrane powierzchnie na niezależne bryły siatkowe."/>
+	<label commandName="MeshExtractSelectedFacesToolTip" devLabel="Select face groups on mesh body to separate." translation="Wybierz grupy powierzchni w bryle siatkowej, aby je rozdzielić."/>
+	<label commandName="MeshExtractShellsOption" devLabel="Mesh Shells" translation="Skorupy siatki"/>
+	<label commandName="MeshExtractShellsOptionToolTip" devLabel="Separates all mesh shells into independent mesh bodies." translation="Rozdziela wszystkie skorupy siatki na niezależne bryły siatkowe."/>
+	<label commandName="MeshExtractTypeInput" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="MeshExtractTypeInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshModifyFastSegmentAreaInput" devLabel="Minimum Face Group Size" translation="Minimalny rozmiar grupy powierzchni"/>
+	<label commandName="MeshModifyFastSegmentAreaInputToolTip" devLabel="Specify percentage of the overall mesh area to determine smallest face group." translation="Określ procent całkowitego obszaru siatki, aby określić najmniejszą grupę powierzchni."/>
+	<label commandName="MeshModifyInsideThicknessInput" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="MeshModifyInsideThicknessInputToolTip" devLabel="Specify the distance to offset the mesh body." translation="Określ odległość odsunięcia bryły siatkowej."/>
+	<label commandName="MeshModifyOpeningAngleInput" devLabel="Angle Threshold" translation="Próg kąta"/>
+	<label commandName="MeshModifyOpeningAngleInputToolTip" devLabel="Specify normal angle threshold between faces to determine face group boundaries." translation="Określ próg kąta normalnego między powierzchniami, aby określić obwiednie grupy powierzchni."/>
+	<label commandName="MeshModifySegmentToleranceInput" devLabel="Boundary Tolerance" translation="Tolerancja obwiedni"/>
+	<label commandName="MeshModifySegmentToleranceInputToolTip" devLabel="Specify tolerance to define face group boundaries, as a proportion of the largest distance value on the mesh body." translation="Określ tolerancję, aby zdefiniować obwiednie grup powierzchni jako proporcję największej wartości odległości na bryle siatkowej."/>
+	<label commandName="MeshModifySmoothnessInput" devLabel="Smoothness" translation="Gładkość"/>
+	<label commandName="MeshModifySmoothnessInputToolTip" devLabel="Specify the degree of smoothness to apply to the mesh body." translation="Określ stopień gładkości, jaki ma zostać zastosowany do bryły siatkowej."/>
+	<label commandName="MeshPlanarSectionPlaneSel" devLabel="Section Plane" translation="Płaszczyzna przekroju"/>
+	<label commandName="MeshPlanarSectionPlaneSelToolTip" devLabel="Select a plane to intersect the mesh body." translation="Wybierz płaszczyznę, aby przeciąć bryłę siatkową."/>
+	<label commandName="MeshPlanarSectionTransfPlane" devLabel="Transform Plane" translation="Przekształć płaszczyznę"/>
+	<label commandName="MeshPlanarSectionTransfPlaneToolTip" devLabel="" translation=""/>
+	<label commandName="MeshPlaneCutFillMinimal" devLabel="Minimal" translation="Minimalna"/>
+	<label commandName="MeshPlaneCutFillMinimalToolTip" devLabel="Adds a minimal number of mesh faces to close mesh body." translation="Dodaje minimalną liczbę powierzchni siatki, aby zamknąć bryłę siatkową."/>
+	<label commandName="MeshPlaneCutFillNone" devLabel="No Fill" translation="Bez wypełnienia"/>
+	<label commandName="MeshPlaneCutFillNoneToolTip" devLabel="Does not add mesh faces to close mesh body." translation="Nie dodaje powierzchni siatki w celu zamknięcia bryły siatkowej."/>
+	<label commandName="MeshPlaneCutFillType" devLabel="Fill Type" translation="Typ wypełnienia"/>
+	<label commandName="MeshPlaneCutFillTypeToolTip" devLabel="" translation=""/>
+	<label commandName="MeshPlaneCutFillUniform" devLabel="Uniform" translation="Równomierne"/>
+	<label commandName="MeshPlaneCutFillUniformToolTip" devLabel="Adds a uniform set of mesh faces to close mesh body." translation="Dodaje jednorodny zestaw powierzchni siatki w celu zamknięcia bryły siatkowej."/>
+	<label commandName="MeshPlaneCutFlipTrimDir" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="MeshPlaneCutFlipTrimDirToolTip" devLabel="Flips side of mesh body to trim relative to cut plane." translation="Odwraca stronę bryły siatkowej do ucięcia względem płaszczyzny cięcia."/>
+	<label commandName="MeshPlaneCutPlanePrompt" devLabel="Select section plane" translation="Wybierz płaszczyznę przekroju"/>
+	<label commandName="MeshPlaneCutPlaneSel" devLabel="Cut Plane" translation="Płaszczyzna przekroju"/>
+	<label commandName="MeshPlaneCutPlaneSelToolTip" devLabel="Select plane to cut through mesh body." translation="Wybierz płaszczyznę, aby przeciąć bryłę siatkową."/>
+	<label commandName="MeshPlaneCutSelectPlanePrompt" devLabel="Select a cut plane" translation="Wybierz płaszczyznę cięcia"/>
+	<label commandName="MeshPlaneCutSelectTransformPlanePrompt" devLabel="Position cut plane or select cut type and fill type" translation="Ustal położenie płaszczyzny cięcia lub wybierz typ cięcia i typ wypełnienia"/>
+	<label commandName="MeshPlaneCutSplitBody" devLabel="Split Body" translation="Podziel bryłę"/>
+	<label commandName="MeshPlaneCutSplitBodyToolTip" devLabel="Splits mesh faces along the cut plane, then separates the mesh body into two mesh bodies." translation="Dzieli powierzchnie siatki wzdłuż płaszczyzny cięcia, a następnie dzieli bryłę siatkową na dwie bryły siatkowe."/>
+	<label commandName="MeshPlaneCutTransfPlane" devLabel="Transform Plane" translation="Przekształć płaszczyznę"/>
+	<label commandName="MeshPlaneCutTransfPlaneToolTip" devLabel="Select plane to cut through mesh body." translation="Wybierz płaszczyznę, aby przeciąć bryłę siatkową."/>
+	<label commandName="MeshPlaneCutTransformPlanePrompt" devLabel="Adjust distance and angles to orient section plane" translation="Dopasuj odległość i kąty, aby ustalić orientację płaszczyzny przekroju"/>
+	<label commandName="MeshPlaneCutTrim" devLabel="Trim" translation="Utnij"/>
+	<label commandName="MeshPlaneCutTrimToolTip" devLabel="Splits mesh faces along the cut plane, then removes one side of the mesh body." translation="Dzieli powierzchnie siatki wzdłuż płaszczyzny cięcia, a następnie usuwa jedną stronę bryły siatkowej."/>
+	<label commandName="MeshPlaneCutType" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="MeshPlaneCutTypeToolTip" devLabel="" translation=""/>
+	<label commandName="MeshRepairRebuildInput" devLabel="Rebuild Type" translation="Typ przebudowy"/>
+	<label commandName="MeshRepairRebuildInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshRepairTypeInput" devLabel="Repair Type" translation="Typ naprawy"/>
+	<label commandName="MeshRepairTypeInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshSanityCheck" devLabel="Quick Analysis" translation="Szybka analiza"/>
+	<label commandName="MeshSanityCheckToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToAdopt" devLabel="Mesh To Adopt" translation="Siatka do zastosowania"/>
+	<label commandName="MeshToAdoptToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToBREPAlgorithmInput" devLabel="Method" translation="Metoda"/>
+	<label commandName="MeshToDemote" devLabel="Mesh To Convert" translation="Siatka do konwersji"/>
+	<label commandName="MeshToDemoteToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToToBREP" devLabel="Body" translation="Bryła"/>
+	<label commandName="MeshToToBREPToolTip" devLabel="Select a mesh body to convert." translation="Wybierz bryłę siatkową do konwersji."/>
+	<label commandName="MeshToolTip" devLabel="" translation=""/>
+	<label commandName="MeshingTypeOption_1" devLabel="Remesh Type" translation="Typ modyfikacji siatki"/>
+	<label commandName="MeshingTypeOption_1ToolTip" devLabel="" translation=""/>
+	<label commandName="MmMKS" devLabel="Millimeter" translation="Milimetr"/>
+	<label commandName="MmMKSToolTip" devLabel="One unit from the original file equals one millimeter." translation="Jedna jednostka z oryginalnego pliku to jeden milimetr."/>
+	<label commandName="ModelOpacity" devLabel="Opacity" translation="Przezroczystość"/>
+	<label commandName="ModelOpacityToolTip" devLabel="Adjust the opacity of the mesh body to investigate issues more easily." translation="Dopasuj przezroczystość bryły siatkowej, aby łatwiej analizować problemy."/>
+	<label commandName="NDefectsTitle" devLabel="Number of Defects" translation="Liczba defektów"/>
+	<label commandName="NDefectsTitleToolTip" devLabel="" translation=""/>
+	<label commandName="Ndefects" devLabel="Number of Defects" translation="Liczba defektów"/>
+	<label commandName="NdefectsToolTip" devLabel="" translation=""/>
+	<label commandName="NewComponentOption" devLabel="New Component" translation="Nowy komponent"/>
+	<label commandName="NewComponentOptionToolTip" devLabel="Creates a new component to contain combined mesh bodies." translation="Tworzy nowy komponent zawierający połączone bryły siatkowe."/>
+	<label commandName="No" devLabel="No" translation="Nie"/>
+	<label commandName="No of Defects" devLabel="Number" translation="Numer"/>
+	<label commandName="NonManifold" devLabel="Non-Manifold Edges" translation="Krawędzie nierozgałęzione"/>
+	<label commandName="NormalThresholdInput" devLabel="" translation=""/>
+	<label commandName="NormalTolSlider" devLabel="" translation=""/>
+	<label commandName="NormalTolSliderToolTip" devLabel="" translation=""/>
+	<label commandName="NormalTolerance" devLabel="Normal Deviation" translation="Odchylenie normalne"/>
+	<label commandName="NormalToleranceToolTip" devLabel="Specify maximum angle between the normal vectors of each face on the mesh body." translation="Określ maksymalny kąt między wektorami normalnymi każdej powierzchni bryły siatkowej."/>
+	<label commandName="NumericalInputsGroup" devLabel="Numerical Inputs" translation="Wejściowe dane liczbowe"/>
+	<label commandName="NumericalInputsGroupToolTip" devLabel="" translation=""/>
+	<label commandName="OpenBoundary" devLabel="Open Boundaries" translation="Otwarte obwiednie"/>
+	<label commandName="Organic Conversion" devLabel="Organic conversion" translation="Konwersja organiczna"/>
+	<label commandName="ParaMEshMeshEditText" devLabel="Directly editing this mesh body will create a copy of the original up to this point in history.&#xA;&#xA;Preserve the history of the original body?" translation="Bezpośrednia edycja bryły siatkowej spowoduje utworzenie kopii oryginału do tego momentu w historii.&#xA;&#xA;Zachować historię oryginalnej bryły?"/>
+	<label commandName="ParaMesh" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="ParaMesh Environment" devLabel="ParaMesh" translation="Siatka parametryczna"/>
+	<label commandName="ParaMeshAdoptCommand" devLabel="Convert Mesh body to Parametric Mesh" translation="Konwertuj bryłę siatkową na siatkę parametryczną"/>
+	<label commandName="ParaMeshBaseFeatureActivateCommand" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="ParaMeshBaseFeatureCreateCommand" devLabel="Direct Edit" translation="Edytuj bezpośrednio"/>
+	<label commandName="ParaMeshBaseFeatureStopCommand" devLabel="Finish Direct Edit" translation="Zakończ edycję bezpośrednią"/>
+	<label commandName="ParaMeshCalculateFaceGroupsCommand" devLabel="Generate Face Groups" translation="Generuj grupy powierzchni"/>
+	<label commandName="ParaMeshCombineCommand" devLabel="Combine" translation="Połącz"/>
+	<label commandName="ParaMeshConvertCommand" devLabel="Convert Mesh" translation="Konwertuj siatkę"/>
+	<label commandName="ParaMeshCreateFaceGroupCommand" devLabel="Create Face Group" translation="Utwórz grupę powierzchni"/>
+	<label commandName="ParaMeshCreateFaceGroupSelectPrompt" devLabel="Select faces on mesh body" translation="Wybierz powierzchnie na bryle siatkowej"/>
+	<label commandName="ParaMeshDcCalculateFaceGroupsEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcCombineEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcConvertEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcConvertEditCommandRestricted" devLabel="Convert Mesh, Cannot be edited" translation="Konwertuj siatkę, nie można edytować"/>
+	<label commandName="ParaMeshDcExtractEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcHollowEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcMergeFaceGroupsEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcMoveEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcPlanarSectionEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcPlaneCutEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcReduceEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcRemeshEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcRepairEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcReverseNormalsEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcScaleEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcSmoothEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcTessellateEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDcToQuadMeshEditCommand" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="ParaMeshDemoteCommand" devLabel="Convert Parametric Mesh to Mesh body " translation="Konwertuj siatkę parametryczną na bryłę siatkową "/>
+	<label commandName="ParaMeshEmptyBaseFeatureCommand" devLabel="Create Base Mesh Feature" translation="Utwórz element bazowy siatki"/>
+	<label commandName="ParaMeshEraseAndFillCommand" devLabel="Erase And Fill" translation="Wymaż i wypełnij"/>
+	<label commandName="ParaMeshEraseAndFillSelectPrompt" devLabel="Select faces to repair or double-click a face at the edge of a hole to fill" translation="Wybierz powierzchnie do naprawy lub kliknij dwukrotnie powierzchnię na krawędzi otworu do wypełnienia"/>
+	<label commandName="ParaMeshExtractCommand" devLabel="Separate" translation="Rozdziel"/>
+	<label commandName="ParaMeshFaceGroup" devLabel="Face Group on Parametric Mesh" translation="Grupa powierzchni w siatce parametrycznej"/>
+	<label commandName="ParaMeshFlatMeshShading" devLabel="Flat Shaded" translation="Cieniowanie płaskie"/>
+	<label commandName="ParaMeshHollowCommand" devLabel="Shell" translation="Skorupa"/>
+	<label commandName="ParaMeshInsertAlignCommand" devLabel="Insert Mesh" translation="Wstaw siatkę"/>
+	<label commandName="ParaMeshInsertCommand" devLabel="Insert Mesh" translation="Wstaw siatkę"/>
+	<label commandName="ParaMeshMergeFaceGroupsCommand" devLabel="Combine Face Groups" translation="Połącz grupy powierzchni"/>
+	<label commandName="ParaMeshMeshEditTitle" devLabel="Direct mesh editing" translation="Edycja bezpośrednia siatki"/>
+	<label commandName="ParaMeshPlanarSectionCommand" devLabel="Create Mesh Section Sketch" translation="Utwórz szkic przekroju siatki"/>
+	<label commandName="ParaMeshPlaneCutCommand" devLabel="Plane Cut" translation="Cięcie płaszczyzną"/>
+	<label commandName="ParaMeshPositionCommand" devLabel="Insert Mesh" translation="Wstaw siatkę"/>
+	<label commandName="ParaMeshPropAppearance" devLabel="Appearance" translation="Wygląd"/>
+	<label commandName="ParaMeshPropArea" devLabel="Area" translation="Powierzchnia"/>
+	<label commandName="ParaMeshPropBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="ParaMeshPropDensity" devLabel="Density" translation="Gęstość"/>
+	<label commandName="ParaMeshPropFaceGroupCount" devLabel="Face Group Count" translation="Liczba grup powierzchni"/>
+	<label commandName="ParaMeshPropFacetCount" devLabel="Facet Count" translation="Liczba faset"/>
+	<label commandName="ParaMeshPropHasColor" devLabel="Color" translation="Kolor"/>
+	<label commandName="ParaMeshPropHasPositiveVolume" devLabel="Mesh has Positive Volume" translation="Siatka ma dodatnią objętość"/>
+	<label commandName="ParaMeshPropHasTextures" devLabel="Texture Count" translation="Liczba tekstur"/>
+	<label commandName="ParaMeshPropIsClosed" devLabel="Mesh is Closed" translation="Siatka jest zamknięta"/>
+	<label commandName="ParaMeshPropIsOriented" devLabel="Mesh is Oriented" translation="Siatka jest zorientowana"/>
+	<label commandName="ParaMeshPropMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="ParaMeshPropMaterial" devLabel="Physical Material" translation="Materiał fizyczny"/>
+	<label commandName="ParaMeshPropMesh" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="ParaMeshPropMeshAnalysis" devLabel="Mesh Analysis" translation="Analiza siatki"/>
+	<label commandName="ParaMeshPropShellCount" devLabel="Shell Count" translation="Liczba skorup"/>
+	<label commandName="ParaMeshPropVertexCount" devLabel="Vertex Count" translation="Liczba wierzchołków"/>
+	<label commandName="ParaMeshPropVolume" devLabel="Volume" translation="Objętość"/>
+	<label commandName="ParaMeshReduceCommand" devLabel="Reduce" translation="Redukuj"/>
+	<label commandName="ParaMeshRemeshCommand" devLabel="Remesh" translation="Modyfikuj siatkę"/>
+	<label commandName="ParaMeshRemoveCommand" devLabel="Remove" translation="Skasuj"/>
+	<label commandName="ParaMeshRepairCommand" devLabel="Repair" translation="Napraw"/>
+	<label commandName="ParaMeshReverseNormalsCommand" devLabel="Reverse Normal" translation="Odwróć stronę normalną"/>
+	<label commandName="ParaMeshScaleCommand" devLabel="Scale Mesh" translation="Skaluj siatkę"/>
+	<label commandName="ParaMeshSelectionPalette" devLabel="Mesh Selection Palette" translation="Paleta wyboru siatek"/>
+	<label commandName="ParaMeshShowSelectionPanel" devLabel="Mesh Palette" translation="Paleta siatek"/>
+	<label commandName="ParaMeshSmoothCommand" devLabel="Smooth" translation="Wygładź"/>
+	<label commandName="ParaMeshSmoothMeshShading" devLabel="Smooth Shaded" translation="Gładkie cieniowanie"/>
+	<label commandName="ParaMeshStatusClosed" devLabel="Mesh is closed." translation="Siatka jest zamknięta."/>
+	<label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="Siatka jest pusta."/>
+	<label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="Siatka nie ma dodatniej objętości."/>
+	<label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="Siatka nie jest zamknięta."/>
+	<label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="Siatka nie jest zorientowana."/>
+	<label commandName="ParaMeshStatusOriented" devLabel="Mesh is oriented." translation="Siatka jest zorientowana."/>
+	<label commandName="ParaMeshStatusPositiveVolume" devLabel="Mesh has a positive volume." translation="Siatka ma dodatnią objętość."/>
+	<label commandName="ParaMeshTessellateCommand" devLabel="Tessellate" translation="Teseluj"/>
+	<label commandName="ParaMeshToQuadMeshCommand" devLabel="Convert To Quad Mesh" translation="Konwertuj na siatkę czworokątną"/>
+	<label commandName="PositionInputsGroup" devLabel="Position" translation="Położenie"/>
+	<label commandName="PositionInputsGroupToolTip" devLabel="" translation=""/>
+	<label commandName="PositionMeshTransformInput" devLabel="Distance" translation="Odległość"/>
+	<label commandName="PositionMeshTransformInputToolTip" devLabel="" translation=""/>
+	<label commandName="PreviewCalculation" devLabel="Preview Calculation" translation="Podgląd obliczenia"/>
+	<label commandName="PreviewCalculationToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Wyświetla podgląd nowego korpusu siatkowego na oryginalnym korpusie bryłowym lub powierzchniowym w obszarze rysunku."/>
+	<label commandName="PreviewGroupStart" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="PreviewGroupStartToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Wyświetla podgląd nowego korpusu siatkowego na oryginalnym korpusie bryłowym lub powierzchniowym w obszarze rysunku."/>
+	<label commandName="PreviewInput" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="PreviewInputToolTip" devLabel="Displays a preview of the combined mesh bodies in the canvas." translation="Wyświetla podgląd połączonych brył siatkowych w obszarze rysunku."/>
+	<label commandName="Prismatic Conversion" devLabel="Prismatic conversion" translation="Konwersja pryzmatyczna"/>
+	<label commandName="QuadCount" devLabel="Quad Count" translation="Liczba czworokątów"/>
+	<label commandName="QuadCountToolTip" devLabel="Displays the total number of quads that will be created on the new mesh body." translation="Wyświetla całkowitą liczbę czworokątów, które zostaną utworzone na nowej bryle siatki."/>
+	<label commandName="QuadMeshModifyPreserveBoundaries" devLabel="Preserve Boundaries" translation="Zachowaj obwiednie"/>
+	<label commandName="QuadMeshModifyPreserveBoundariesToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshModifyPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Zachowaj ostre krawędzie"/>
+	<label commandName="QuadMeshModifyPreserveSharpEdgesToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshModifyTargetEdgeLengthInput" devLabel="Target Edge Length" translation="Docelowa długość krawędzi"/>
+	<label commandName="QuadMeshModifyTargetEdgeLengthInputToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshOutputType" devLabel="Output type" translation="Typ rezultatu"/>
+	<label commandName="QuadMeshOutputTypeToolTip" devLabel="" translation=""/>
+	<label commandName="ReduceFacetCount" devLabel="Face Count" translation="Liczba powierzchni"/>
+	<label commandName="ReduceFacetCountToolTip" devLabel="Specify the number of faces to include in the reduced mesh." translation="Określ liczbę powierzchni, które mają być uwzględnione w zredukowanej siatce."/>
+	<label commandName="ReduceFacetsInput" devLabel="" translation=""/>
+	<label commandName="ReduceMaxDeviationInput" devLabel="" translation=""/>
+	<label commandName="ReducePreviewInput" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="ReducePreviewInputToolTip" devLabel="Displays a preview of the reduced mesh body in the canvas." translation="Wyświetla podgląd zredukowanej bryły siatkowej w obszarze rysunku."/>
+	<label commandName="ReduceProportion" devLabel="Proportion" translation="Proporcje"/>
+	<label commandName="ReduceProportionInput" devLabel="" translation=""/>
+	<label commandName="ReduceProportionToolTip" devLabel="Specify a percentage of the original number of faces to include in the reduced mesh." translation="Określ procent oryginalnej liczby powierzchni, które mają być uwzględnione w zredukowanej siatce."/>
+	<label commandName="ReduceSelectTargetBody" devLabel="Select mesh body or face groups to reduce" translation="Wybierz bryłę siatkową lub grupy powierzchni do redukcji"/>
+	<label commandName="ReduceSelectTargetBodyFaces" devLabel="Select parts of mesh body to reduce" translation="Wybierz części bryły siatkowej do redukcji"/>
+	<label commandName="ReduceSelectedTargetBody" devLabel="Adjust reduce type and settings" translation="Dopasuj typ i ustawienia redukcji"/>
+	<label commandName="ReduceType" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="ReduceTypeProportion" devLabel="Proportion" translation="Proporcje"/>
+	<label commandName="ReduceTypeProportionToolTip" devLabel="Reduces mesh to a proportion of the number of faces on the original mesh." translation="Redukuje siatkę do proporcji liczby powierzchni na oryginalnej siatce."/>
+	<label commandName="ReduceTypeToolTip" devLabel="" translation=""/>
+	<label commandName="ReduceTypetolerance" devLabel="Tolerance" translation="Tolerancja"/>
+	<label commandName="ReduceTypetoleranceToolTip" devLabel="Reduces mesh by merging faces within a maximum deviation from the original mesh shape." translation="Redukuje siatkę przez scalenie powierzchni w granicach maksymalnego odchylenia od pierwotnego kształtu siatki."/>
+	<label commandName="RefinementGroup" devLabel="Refinement Settings" translation="Ustawienia zagęszczania"/>
+	<label commandName="RefinementGroupToolTip" devLabel="" translation=""/>
+	<label commandName="RefinementOptionsInput" devLabel="Refinement" translation="Zagęszczanie"/>
+	<label commandName="RefinementOptionsInputToolTip" devLabel="" translation=""/>
+	<label commandName="RemeshBoundaryOption" devLabel="Preserve Boundaries" translation="Zachowaj obwiednie"/>
+	<label commandName="RemeshBoundaryOptionToolTip" devLabel="Preserves the shape of any open boundary edges from the original mesh." translation="Zachowuje kształt wszystkich otwartych krawędzi obwiedni z oryginalnej siatki."/>
+	<label commandName="RemeshDensity" devLabel="Density" translation="Gęstość"/>
+	<label commandName="RemeshDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Określ gęstość, aby sterować liczbą tworzonych powierzchni."/>
+	<label commandName="RemeshNormalThreshold" devLabel="Shape Preservation" translation="Zachowanie kształtu"/>
+	<label commandName="RemeshNormalThresholdToolTip" devLabel="Specify how much of the original mesh shape to preserve." translation="Określ, jaka część oryginalnego kształtu siatki ma zostać zachowana."/>
+	<label commandName="RemeshPreviewInput" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="RemeshPreviewInputToolTip" devLabel="Displays a preview of the remeshed mesh body in the canvas." translation="Wyświetla podgląd bryły siatkowej ze zmodyfikowaną siatką w obszarze rysunku."/>
+	<label commandName="RemeshSelectTargetBody" devLabel="Select mesh body or face groups to remesh" translation="Wybierz bryłę siatkową lub grupy powierzchni do modyfikacji siatki"/>
+	<label commandName="RemeshSelectTargetBodyFaces" devLabel="Select parts of mesh body to remesh" translation="Wybierz części bryły siatkowej do modyfikacji siatki"/>
+	<label commandName="RemeshSelectedTargetBody" devLabel="Adjust remesh type and settings" translation="Dopasuj typ i ustawienia modyfikacji siatki"/>
+	<label commandName="RemeshSharpOption" devLabel="Preserve Sharp Edges" translation="Zachowaj ostre krawędzie"/>
+	<label commandName="RemeshSharpOptionToolTip" devLabel="Preserves sharp edges from the original mesh." translation="Zachowuje ostre krawędzie z oryginalnej siatki."/>
+	<label commandName="RemoveMeshSelectTargetBody" devLabel="Select a mesh body to remove" translation="Wybierz bryłę siatkową do usunięcia"/>
+	<label commandName="RepairAdjustAccurate" devLabel="Adjust repair type, rebuild type, density, or offset" translation="Dopasuj typ naprawy, typ przebudowy, gęstość lub odsunięcie"/>
+	<label commandName="RepairAdjustNotAccurate" devLabel="Adjust repair type, rebuild type, or density" translation="Dopasuj typ naprawy, typ przebudowy lub gęstość"/>
+	<label commandName="RepairAdjustType" devLabel="Adjust repair type" translation="Dopasuj typ naprawy"/>
+	<label commandName="RepairBodyToRepair" devLabel="Body" translation="Bryła"/>
+	<label commandName="RepairBodyToRepairToolTip" devLabel="Select mesh body to repair." translation="Wybierz bryłę siatkową do naprawy."/>
+	<label commandName="RepairDensityInput" devLabel="" translation=""/>
+	<label commandName="RepairSelect" devLabel="Select mesh body to repair" translation="Wybierz bryłę siatkową do naprawy"/>
+	<label commandName="RepairSolidAccurate" devLabel="Accurate" translation="Dokładny"/>
+	<label commandName="RepairSolidAccurateToolTip" devLabel="Rebuilds mesh body as accurately as possible." translation="Przebudowuje bryłę siatkową tak dokładnie, jak to możliwe."/>
+	<label commandName="RepairSolidBlocky" devLabel="Blocky" translation="Blokowy"/>
+	<label commandName="RepairSolidBlockyToolTip" devLabel="Rebuilds mesh body in a blocky style." translation="Przebudowuje bryłę siatkową w stylu blokowym."/>
+	<label commandName="RepairSolidPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Zachowaj ostre krawędzie"/>
+	<label commandName="RepairSolidPreserveSharpEdgesToolTip" devLabel="Rebuilds mesh body while preserving sharp edges." translation="Przebudowuje bryłę siatkową, zachowując ostre krawędzie."/>
+	<label commandName="RepairSolidTypeFast" devLabel="Fast" translation="Szybko"/>
+	<label commandName="RepairSolidTypeFastToolTip" devLabel="Rebuilds mesh body quickly, but not accurately." translation="Przebudowuje bryłę siatkową szybko, ale niedokładne."/>
+	<label commandName="RepairTypeDefault" devLabel="Stitch and Remove" translation="Zszyj i usuń"/>
+	<label commandName="RepairTypeDefaultToolTip" devLabel="Makes the same changes as Close Holes, and also stitches triangles, removes double triangles, removes degenerated faces, and removes tiny shells. (Fast)" translation="Wprowadza te same zmiany co w przypadku polecenia Zamknij otwory, a ponadto zszywa trójkąty, usuwa podwójne trójkąty, usuwa zdegenerowane powierzchnie i usuwa małe skorupy. (Szybko)"/>
+	<label commandName="RepairTypeExtended" devLabel="Wrap" translation="Zawijaj"/>
+	<label commandName="RepairTypeExtendedToolTip" devLabel="Makes the same changes as Stitch and Remove, and also wraps the surface of the mesh body. All inner structures are destroyed. (Average)" translation="Wprowadza te same zmiany co w przypadku polecenia Zszyj i usuń, a ponadto powoduje zawinięcie powierzchni bryły siatkowej. Wszystkie struktury wewnętrzne są niszczone. (Średnio)"/>
+	<label commandName="RepairTypeSimple" devLabel="Close Holes" translation="Zamknij otwory"/>
+	<label commandName="RepairTypeSimpleToolTip" devLabel="Makes the fewest number of changes to the mesh body. Fixes flipped triangles and closes holes. (Fastest)" translation="Wprowadza najmniejszą liczbę zmian w bryle siatkowej. Naprawia odwrócone trójkąty i zamyka otwory. (Najszybciej)"/>
+	<label commandName="ResetTransform" devLabel="Reset" translation="Resetuj"/>
+	<label commandName="ResetTransformToolTip" devLabel="Resets the default position settings for the mesh body." translation="Resetuje domyślne ustawienia położenia bryły siatkowej."/>
+	<label commandName="ReverseNormalsSelectTargetBody" devLabel="Select a mesh body, face groups or faces to reverse" translation="Wybierz bryłę siatkową, grupy powierzchni lub powierzchnie do odwrócenia"/>
+	<label commandName="SegmentationMethod" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="SegmentationMethodAccurate" devLabel="Accurate" translation="Dokładnie"/>
+	<label commandName="SegmentationMethodAccurateToolTip" devLabel="Generates face groups by matching mesh faces to simple geometric primitives. Prioritizes accuracy over speed." translation="Generuje grupy powierzchni przez dopasowanie powierzchni siatki do prostych geometrycznych prymitywów. Dokładność ma wyższy priorytet od prędkości."/>
+	<label commandName="SegmentationMethodFast" devLabel="Fast" translation="Szybko"/>
+	<label commandName="SegmentationMethodFastToolTip" devLabel="Generates face groups based on an angle threshold between faces. Prioritizes speed over accuracy." translation="Generuje grupy powierzchni na podstawie progu kąta między powierzchniami. Prędkość ma wyższy priorytet od dokładności."/>
+	<label commandName="SegmentationMethodToolTip" devLabel="" translation=""/>
+	<label commandName="SelectBodiesToRemove" devLabel="Select bodies to remove" translation="Wybierz bryły do usunięcia"/>
+	<label commandName="SelectTargetBody" devLabel="Select target body" translation="Wybierz bryłę docelową"/>
+	<label commandName="SelectToolBodies" devLabel="Select bodies to combine with target body" translation="Wybierz bryły do połączenia z bryłą docelową"/>
+	<label commandName="SelectedBodiesToRemove" devLabel="Adjust selection set" translation="Dopasuj zbiór wskazań"/>
+	<label commandName="SelectedToolBodies" devLabel="Adjust operation or selection set" translation="Dopasuj operację lub zbiór wskazań"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Filtr wyboru"/>
+	<label commandName="SelectionFilterToolTip" devLabel="Choose a geometry type to filter your selections in the canvas by type." translation="Wybierz typ geometrii, aby filtrować wybrane elementy w obszarze rysunku według typu."/>
+	<label commandName="SelectionType" devLabel="Selection Type" translation="Typ wyboru"/>
+	<label commandName="SelectionTypeToolTip" devLabel="Choose a selection method." translation="Wybierz metodę wyboru."/>
+	<label commandName="SelfIntersection" devLabel="Self Intersections" translation="Samoprzecięcia"/>
+	<label commandName="SeperateTargetBody" devLabel="Select mesh body to separate" translation="Wybierz bryłę siatkową do rozdzielenia"/>
+	<label commandName="SeperateTargetFacegroups" devLabel="Select mesh face groups to separate" translation="Wybierz grupy powierzchni siatki do rozdzielenia"/>
+	<label commandName="SeperateTargetFaces" devLabel="Select mesh faces to separate" translation="Wybierz powierzchnie siatki do rozdzielenia"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Zmniejsz wybór"/>
+	<label commandName="ShrinkMeshSelToolTip" devLabel="Decreases the boundary of the selection set." translation="Zmniejsza obwiednię zbioru wskazań."/>
+	<label commandName="SmallComponentThreshold" devLabel="Small Shell Threshold" translation="Próg małej skorupy"/>
+	<label commandName="SmallComponentThresholdToolTip" devLabel="Specify the maximum size of small shells to repair." translation="Określ maksymalny rozmiar małych skorup do naprawy."/>
+	<label commandName="SmallShell" devLabel="Small Shells" translation="Małe skorupy"/>
+	<label commandName="SmoothPreviewInput" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="SmoothPreviewInputToolTip" devLabel="Displays a preview of the smoothed mesh body in the canvas." translation="Wyświetla podgląd wygładzonej bryły siatkowej w obszarze rysunku."/>
+	<label commandName="SmoothSelectTargetBody" devLabel="Select mesh body or face groups to smooth" translation="Wybierz bryłę siatkową lub grupy powierzchni do wygładzenia"/>
+	<label commandName="SmoothSelectTargetBodyFaces" devLabel="Select parts of mesh body to smooth" translation="Wybierz części bryły siatkowej do wygładzenia"/>
+	<label commandName="SmoothSelectedTargetBody" devLabel="Adjust smoothness" translation="Dopasuj gładkość"/>
+	<label commandName="SmothnessInput" devLabel="" translation=""/>
+	<label commandName="SolidType" devLabel="Rebuild Type" translation="Typ przebudowy"/>
+	<label commandName="SolidTypeToolTip" devLabel="" translation=""/>
+	<label commandName="SuccessfulSanityCheck" devLabel="Successful Sanity Check" translation="Sprawdzenie poprawności zakończone powodzeniem"/>
+	<label commandName="SuccessfulSanityCheckTooltip" devLabel="Quick analysis succeeded. Check Detailed Analysis for a granular analysis of specific issues." translation="Szybka analiza powiodła się. Sprawdź analizę szczegółową określonych problemów."/>
+	<label commandName="SurfaceTolSlider" devLabel="" translation=""/>
+	<label commandName="SurfaceTolSliderToolTip" devLabel="" translation=""/>
+	<label commandName="SurfaceTolerance" devLabel="Surface Deviation" translation="Odchylenie powierzchni"/>
+	<label commandName="SurfaceToleranceToolTip" devLabel="Specify maximum distance between the surface of the original body and the surface of the mesh body." translation="Określ maksymalną odległość między powierzchnią oryginalnej bryły a powierzchnią bryły siatkowej."/>
+	<label commandName="TSpline" devLabel="Form" translation="Kształt"/>
+	<label commandName="TSplineToolTip" devLabel="" translation=""/>
+	<label commandName="Target Body" devLabel="Target Body" translation="Bryła docelowa"/>
+	<label commandName="Target BodyToolTip" devLabel="Select the target mesh body." translation="Wybierz docelową bryłę siatkową."/>
+	<label commandName="TesselateSelectTargetBody" devLabel="Select a solid or surface body to tessellate" translation="Wybierz bryłę lub korpus powierzchniowy do teselacja."/>
+	<label commandName="TesselateSelectedTargetBody" devLabel="Adjust refinement settings" translation="Dopasuj ustawienia zagęszczania"/>
+	<label commandName="Tool Bodies" devLabel="Tool Bodies" translation="Bryły narzędziowe"/>
+	<label commandName="Tool BodiesToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Wybierz bryły siatkowe, aby połączyć je z docelową bryłą."/>
+	<label commandName="TransformTriad" devLabel="Transform" translation="Transformacja"/>
+	<label commandName="TransformTriadToolTip" devLabel="" translation=""/>
+	<label commandName="Triangle Warning" devLabel="&lt;b&gt;Warning&lt;/b&gt;: This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="&lt;b&gt;Ostrzeżenie&lt;/b&gt;: Ta siatka zawiera więcej niż 10 000 trójkątów. Obliczenia będą trwać bardzo długo."/>
+	<label commandName="TriangleCount" devLabel="Triangle Count" translation="Liczba trójkątów"/>
+	<label commandName="TriangleCountToolTip" devLabel="Displays the total number of triangles that will be created on the new mesh body." translation="Wyświetla całkowitą liczbę trójkątów, które zostaną utworzone w nowej bryle siatkowej."/>
+	<label commandName="TriangulateMesh" devLabel="Create Quads" translation="Utwórz czworokąty"/>
+	<label commandName="TriangulateMeshToolTip" devLabel="Creates quad faces on the mesh body where possible." translation="Tworzy czworokątne powierzchnie na bryle siatkowej, jeśli jest to możliwe."/>
+	<label commandName="UnitsType" devLabel="Unit Type" translation="Typ jednostki"/>
+	<label commandName="UnitsTypeToolTip" devLabel="" translation=""/>
+	<label commandName="UnsuccessfulSanityCheck" devLabel="Unsuccessful Sanity Check" translation="Sprawdzenie poprawności zakończone niepowodzeniem"/>
+	<label commandName="UnsuccessfulSanityCheckTooltip" devLabel="Check Detailed Analysis for a granular analysis of specific issues." translation="Sprawdź analizę szczegółową określonych problemów."/>
+	<label commandName="UpDirType" devLabel="Flip Up Direction" translation="Odwróć kierunek w górę"/>
+	<label commandName="UpDirTypeToolTip" devLabel="Flips direction of Y and Z axes." translation="Odwraca kierunek osi Y i Z."/>
+	<label commandName="Warning" devLabel="Warning" translation="Ostrzeżenie"/>
+	<label commandName="Yes" devLabel="Yes" translation="Tak"/>
+	<label commandName="allow_backface_facet_sel" devLabel="Select Back Faces" translation="Wybierz tylne powierzchnie"/>
+	<label commandName="allow_backface_facet_selToolTip" devLabel="Sets whether to allow face selection from both sides." translation="Określa, czy zezwolić na wybór powierzchni z obu stron."/>
+	<label commandName="infoAdaptiveType" devLabel="Adaptive" translation="Adaptacyjny"/>
+	<label commandName="infoAdaptiveTypeToolTip" devLabel="Creates smaller faces in areas of high detail and larger faces in areas of low detail." translation="Tworzy mniejsze powierzchnie w obszarach o wysokim poziomie szczegółowości i większe powierzchnie w obszarach o niskim poziomie szczegółowości."/>
+	<label commandName="infoInspect" devLabel="Analyze" translation="Analiza"/>
+	<label commandName="infoInspectToolTip" devLabel="" translation=""/>
+	<label commandName="infoMeshingType" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="infoMeshingTypeToolTip" devLabel="" translation=""/>
+	<label commandName="infoMethodOrganic" devLabel="Organic" translation="Organiczna"/>
+	<label commandName="infoMethodOrganicToolTip" devLabel="" translation=""/>
+	<label commandName="infoMethodPrismatic" devLabel="Prismatic" translation="Pryzmatyczna"/>
+	<label commandName="infoMethodPrismaticToolTip" devLabel="Merges groups of faces in prismatic features into singular faces on the new solid or surface body. Face groups are used to infer prismatic features." translation="Scala grupy powierzchni w elementach pryzmatycznych w pojedyncze powierzchnie w nowej bryle lub powierzchni bryły. Grupy powierzchni są używane do wyprowadzania elementów pryzmatycznych."/>
+	<label commandName="infoMethodTriangleBased" devLabel="Faceted" translation="Płaszczyznowa"/>
+	<label commandName="infoMethodTriangleBasedToolTip" devLabel="Converts individual faces on the mesh body to individual faces on the new solid or surface body." translation="Konwertuje poszczególne powierzchnie bryły siatkowej na pojedyncze powierzchnie nowej bryły lub korpusu powierzchniowego."/>
+	<label commandName="infoPreview" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="infoPreviewToolTip" devLabel="Displays a preview of the repaired mesh body." translation="Wyświetla podgląd naprawionej bryły siatkowej."/>
+	<label commandName="infoSelectDefect" devLabel="Select Defect" translation="Wybierz defekt"/>
+	<label commandName="infoSelectDefectTitle" devLabel="Select Defect Title" translation="Wybierz tytuł defektu"/>
+	<label commandName="infoSelectDefectTitleToolTip" devLabel="" translation=""/>
+	<label commandName="infoSelectDefectToolTip" devLabel="" translation=""/>
+	<label commandName="infoTargetFaceNumber" devLabel="Number Of Faces" translation="Liczba powierzchni"/>
+	<label commandName="infoTargetFaceNumberToolTip" devLabel="Specify the number of faces to generate for the converted body." translation="Określ liczbę powierzchni do wygenerowania dla przekonwertowanej bryły."/>
+	<label commandName="infoTargetOrganicAccuracyExtreme" devLabel="Precise" translation="Precyzyjnie"/>
+	<label commandName="infoTargetOrganicAccuracyExtremeToolTip" devLabel="Converts the body with the highest possible accuracy compared to the original mesh body. (Slowest)" translation="Konwertuje bryłę z największą możliwą dokładnością w porównaniu z oryginalną bryłą siatkową. (Najwolniej)"/>
+	<label commandName="infoTargetOrganicAccuracyHigh" devLabel="High" translation="Wysoki"/>
+	<label commandName="infoTargetOrganicAccuracyHighToolTip" devLabel="Converts the body with high accuracy compared to the original mesh body. (Average)" translation="Konwertuje bryłę z wysoką dokładnością w porównaniu z oryginalną bryłą siatkową. (Średnio)"/>
+	<label commandName="infoTargetOrganicAccuracyLow" devLabel="Low" translation="Nisko"/>
+	<label commandName="infoTargetOrganicAccuracyLowToolTip" devLabel="Converts the body with low accuracy compared to the original mesh body. (Fastest)" translation="Konwertuje bryłę z niską dokładnością w porównaniu z oryginalną bryłą siatkową. (Najszybciej)"/>
+	<label commandName="infoTargetOrganicAccuracyMedium" devLabel="Medium" translation="Średnia"/>
+	<label commandName="infoTargetOrganicAccuracyMediumToolTip" devLabel="Converts the body with medium accuracy compared to the original mesh body. (Fast)" translation="Konwertuje bryłę ze średnią dokładnością w porównaniu z oryginalną bryłą siatkową. (Szybko)"/>
+	<label commandName="infoUniformType" devLabel="Uniform" translation="Równomierne"/>
+	<label commandName="infoUniformTypeToolTip" devLabel="Creates faces of similar size in all areas." translation="Tworzy powierzchnie o podobnym rozmiarze we wszystkich obszarach."/>
+	<label commandName="lclzMeshSelect" devLabel="Select" translation="Wybierz"/>
+	<label commandName="lclzParaMeshAdoptDesc1" devLabel="Converts a mesh body to a parametric mesh body." translation="Konwertuje bryłę siatkową na parametryczną bryłę siatkową."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc1" devLabel="Creates a mesh base feature that you can edit directly." translation="Tworzy element bazowy siatki, który można edytować bezpośrednio."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc2" devLabel="Select the mesh body to edit. A mesh base feature displays on the timeline and you can make local modifications to the mesh body without capturing the changes in the parametric history of the design." translation="Wybierz bryłę siatkową do edycji. Na osi czasu jest wyświetlany element bazowy siatki i można lokalnie modyfikować bryłę siatkową bez przechwytywania zmian w historii parametrycznej projektu."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTips" devLabel="Use the Direct Edit command to make local modifications to mesh bodies outside the parametric timeline of the design." translation="Użyj polecenia Edytuj bezpośrednio, aby wprowadzić lokalne zmiany w bryłach siatkowych poza parametryczną osią czasu projektu."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTitle" devLabel="Direct Edit Information" translation="Edytuj bezpośrednio — informacje"/>
+	<label commandName="lclzParaMeshBaseFeatureStopDesc1" devLabel="Finish directly editing the mesh body and return to parametric modeling in the Design workspace." translation="Zakończ edycję bezpośrednią bryły siatkowej i wróć do modelowania parametrycznego w obszarze roboczym Projektowanie."/>
+	<label commandName="lclzParaMeshBaseFeatureTab" devLabel="Direct Mesh Editing" translation="Edycja bezpośrednia siatki"/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc1" devLabel="Automatically generates face groups on a mesh body using the normal angles between faces to determine the boundaries of each face group." translation="Automatycznie generuje grupy powierzchni w bryle siatkowej, używając kątów normalnych między powierzchniami w celu określenia obwiedni każdej grupy powierzchni."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select mesh bodies or face groups, select the generation method, then adjust the face opening angle, tolerance, and minimal area ratio." translation="Aby wyświetlić grupy powierzchni, rozwiń kolejno opcje Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni. Wybierz bryły siatkowe lub grupy powierzchni, wybierz metodę generowania, a następnie dostosuj kąt otwarcia powierzchni, tolerancję i minimalny współczynnik powierzchni."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Aby wyświetlić grupy powierzchni, rozwiń menu Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTips" devLabel="When you insert a mesh that has no face groups, use the &lt;b&gt;Fast&lt;/b&gt; generation method to generate an initial set of face groups on the mesh body. Then select specific sets of face groups and use the &lt;b&gt;Accurate&lt;/b&gt; generation method to capture detailed areas more accurately." translation="Podczas wstawiania siatki bez grup powierzchni użyj metody generowania &lt;b&gt;Szybko&lt;/b&gt;, aby wygenerować początkowy zestaw grup powierzchni w bryle siatkowej. Następnie wybierz określone zestawy grup powierzchni i użyj metody generowania &lt;b&gt;Dokładnie&lt;/b&gt;, aby dokładniej uchwycić szczegółowe obszary."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTitle" devLabel="Generate Face Groups Information" translation="Generuj grupy powierzchni — informacje"/>
+	<label commandName="lclzParaMeshCombineDesc1" devLabel="Joins, intersects, cuts, or merges two or more mesh bodies to create a single mesh body." translation="Łączy, przecina, wycina lub scala co najmniej dwie bryły siatkowe w celu utworzenia pojedynczej bryły siatkowej."/>
+	<label commandName="lclzParaMeshCombineDesc2" devLabel="Select the target body, select one or more tool bodies to combine with the target body, then select the operation to use to combine the bodies together." translation="Wybierz bryłę docelową, wybierz co najmniej jedną bryłę narzędziową do połączenia z bryłą docelową, a następnie wybierz operację, która ma zostać użyta do połączenia brył."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksDesc" devLabel="You can also choose to create a new component to contain the combined bodies or keep a copy of the original bodies." translation="Można również utworzyć nowy komponent, aby zawierał połączone bryły, lub zachować kopię oryginalnych brył."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksTips" devLabel="Overlapping boundary edges are stitched." translation="Nakładające się krawędzie obwiedni są zszywane."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksTitle" devLabel="Combine Information" translation="Utwórz kombinację — informacje"/>
+	<label commandName="lclzParaMeshConvertDesc1" devLabel="Converts a mesh body to a solid or surface body." translation="Konwertuje bryłę siatkową na bryłę lub korpus powierzchniowy."/>
+	<label commandName="lclzParaMeshConvertDesc2" devLabel="Select the mesh body to convert, then select the operation and method. In the browser and the canvas, the mesh body converts to a solid or surface body. Face groups are used to infer prismatic features." translation="Wybierz bryłę siatkową do konwersji, a następnie wybierz operację i metodę. W przeglądarce i obszarze rysunku bryła siatkowa zostanie przekonwertowana w bryłę lub korpus powierzchniowy. Grupy powierzchni są używane do wyprowadzania elementów pryzmatycznych."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksDesc" devLabel="If the mesh body is watertight, it coverts to a solid body. If the mesh is not watertight, it converts to a surface body." translation="Jeśli bryła siatkowa jest szczelna, jest ona konwertowana na korpus bryłowy. Jeśli siatka nie jest szczelna, jest konwertowana na korpus powierzchniowy."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksTips" devLabel="Use the &lt;b&gt;Faceted&lt;/b&gt; operation to generate one face on the solid or surface body for each individual face on the mesh body. Use the &lt;b&gt;Prismatic&lt;/b&gt; operation to convert geometry originally created using solid or surface modeling tools. Use the &lt;b&gt;Organic&lt;/b&gt; operation to convert geometry originally created from scan data or organic modeling tools." translation="Użyj operacji &lt;b&gt;Płaszczyznowa&lt;/b&gt;, aby wygenerować jedną powierzchnię bryły lub korpusu powierzchniowego dla każdej pojedynczej powierzchni bryły siatkowej. Użyj operacji &lt;b&gt;Pryzmatyczna&lt;/b&gt;, aby przekonwertować geometrię utworzoną pierwotnie za pomocą narzędzi modelowania brył lub powierzchni. Użyj operacji &lt;b&gt;Organiczna&lt;/b&gt;, aby przekonwertować geometrię utworzoną pierwotnie z danych skanowania lub narzędzi modelowania organicznego."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksTitle" devLabel="Convert Mesh Information" translation="Konwertuj siatkę — informacje"/>
+	<label commandName="lclzParaMeshCreate" devLabel="Create" translation="Utwórz"/>
+	<label commandName="lclzParaMeshCreateFaceGroupDesc1" devLabel="Creates a face group from a selection of faces on a mesh body." translation="Tworzy grupę powierzchni na podstawie wybranych powierzchni na bryle siatkowej."/>
+	<label commandName="lclzParaMeshCreateFaceGroupDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select faces on a mesh body to include in the face group. Adjust the settings in the Mesh Selection Palette to refine the selection set." translation="Aby wyświetlić grupy powierzchni, rozwiń kolejno opcje Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni. Wybierz powierzchnie na bryle siatkowej, które mają zostać uwzględnione w grupie powierzchni. Dopasuj ustawienia na Palecie wyboru siatek, aby doprecyzować zbiór wskazań."/>
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTips" devLabel="You can select any faces on the same mesh body to include in the face group, even if they are not connected." translation="Można wybrać dowolne powierzchnie na tej samej bryle siatkowej, które mają zostać uwzględnione w grupie powierzchni, nawet jeśli nie są połączone."/>
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTitle" devLabel="Create Face Group Information" translation="Utwórz grupę powierzchni — informacje"/>
+	<label commandName="lclzParaMeshDemoteDesc1" devLabel="Converts a parametric mesh body to a mesh body." translation="Konwertuje parametryczną bryłę siatkową na bryłę siatkową."/>
+	<label commandName="lclzParaMeshEmptyBaseFeatureDesc1" devLabel="Creates an empty Mesh Base Feature." translation="Tworzy pusty element bazowy siatki."/>
+	<label commandName="lclzParaMeshEraseAndFillDesc1" devLabel="Removes and replaces faces on a mesh body to fill holes and repair regions." translation="Usuwa i zastępuje powierzchnie na bryle siatkowej, aby wypełnić otwory i naprawić regiony."/>
+	<label commandName="lclzParaMeshEraseAndFillDesc2" devLabel="Select the boundary of faces around a hole to fill, or select the faces of a region to remove and replace." translation="Wybierz obwiednię powierzchni wokół otworu do wypełnienia lub wybierz powierzchnie regionu do usunięcia i zastąpienia."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksDesc" devLabel="Use the Uniform type to achieve the smoothest and most usable result. Use the Minimal type to reduce the number of triangles on the mesh body, but note the long, thin triangular faces may be more difficult to work with downstream." translation="Użyj typu Jednorodny, aby uzyskać najgładszy i najbardziej użyteczny wynik. Użyj typu Minimalny, aby zmniejszyć liczbę trójkątów na bryle siatkowej, ale pamiętaj, że z długimi, cienkimi trójkątnymi powierzchniami może być trudniej pracować na dalszym etapie."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTips" devLabel="Hover over a face along the boundary of a hole in the mesh body, then double-click to select all the faces along the edge of the boundary and fill the hole." translation="Umieść kursor na powierzchni wzdłuż obwiedni otworu w bryle siatkowej, a następnie kliknij dwukrotnie, aby wybrać wszystkie powierzchnie wzdłuż krawędzi obwiedni i wypełnić otwór."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTitle" devLabel="Erase And Fill Information" translation="Wymaż i wypełnij — informacje"/>
+	<label commandName="lclzParaMeshExport" devLabel="Export" translation="Eksportuj"/>
+	<label commandName="lclzParaMeshExtractDesc1" devLabel="Separates regions of a mesh body into independent mesh bodies." translation="Rozdziela regiony bryły siatkowej na niezależne bryły siatkowe."/>
+	<label commandName="lclzParaMeshExtractDesc2" devLabel="Select a separation type, then select a mesh body or face groups to separate into individual bodies." translation="Wybierz typ rozdzielenia, a następnie wybierz bryłę siatkową lub grupy powierzchni, aby rozdzielić je na poszczególne bryły."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksDesc" devLabel="You can keep a copy of the original mesh body or choose to replace it." translation="Można zachować kopię oryginalnej bryły siatkowej lub wybrać jej zastąpienie."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksTips" devLabel="After you generate face groups on a mesh body, use Separate to split features or regions into independent mesh bodies to make it easier to work with them." translation="Po wygenerowaniu grup powierzchni na bryle siatkowej użyj opcji Rozdziel, aby podzielić elementy lub regiony na niezależne bryły siatkowe, co ułatwi pracę z nimi."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksTitle" devLabel="Separate Information" translation="Rozdziel — informacje"/>
+	<label commandName="lclzParaMeshGenerateFaceGroupTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Aby wyświetlić grupy powierzchni, rozwiń menu Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni."/>
+	<label commandName="lclzParaMeshHollowDesc1" devLabel="Hollows the interior of a mesh body." translation="Wydrąża wnętrze bryły siatkowej."/>
+	<label commandName="lclzParaMeshHollowDesc2" devLabel="Select a mesh body, then adjust the direction and thickness to hollow the interior volume." translation="Wybierz bryłę siatkową, a następnie dostosuj kierunek i grubość, aby wydrążyć wewnętrzną objętość."/>
+	<label commandName="lclzParaMeshHollowTipsAndTricksTips" devLabel="You can use the Shell command to hollow a mesh body and significantly reduce the amount of print material, time, and cost required for 3D printing." translation="Polecenie Skorupa umożliwia wydrążenie bryły siatkowej i znaczne zmniejszenie ilości materiału, czasu i kosztów wymaganych do drukowania 3D."/>
+	<label commandName="lclzParaMeshHollowTipsAndTricksTitle" devLabel="Shell Information" translation="Skorupa — informacje"/>
+	<label commandName="lclzParaMeshInsertAlignDesc1" devLabel="Inserts an existing STL, OBJ, or 3MF file as a mesh body into the active component in a design." translation="Wstawia istniejący plik STL, OBJ lub 3MF jako bryłę siatkową do aktywnego komponentu w projekcie."/>
+	<label commandName="lclzParaMeshInsertAlignDesc2" devLabel="Select a file to insert. The contents of the file displays as a mesh body in the canvas and the browser." translation="Wybierz plik do wstawienia. Zawartość pliku jest wyświetlana jako bryła siatkowa w obszarze rysunku i w przeglądarce."/>
+	<label commandName="lclzParaMeshInsertAlignDesc3" devLabel="For STL or OBJ files, select the unit type that matches the units from the original design that generated the STL or OBJ." translation="W przypadku plików STL lub OBJ wybierz typ jednostki odpowiadający jednostkom z pierwotnego projektu, w których wygenerowano plik STL lub OBJ."/>
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTips" devLabel="If you insert an OBJ or 3MF file with existing textures, they will display on the mesh body in the canvas. Turn off the Mesh Display &gt; Face Groups display setting to see the textures on the mesh body." translation="Jeśli wstawisz plik OBJ lub 3MF z istniejącymi teksturami, będą one wyświetlane na bryle siatkowej w obszarze rysunku. Wyłącz opcję Wyświetlanie siatki &gt; ustawienie wyświetlania Grupy powierzchni, aby wyświetlić tekstury na bryle siatkowej."/>
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTitle" devLabel="Insert Mesh Information" translation="Wstaw siatkę — informacje"/>
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc1" devLabel="Combines two or more adjacent face groups on a mesh body." translation="Łączy co najmniej dwie przylegające grupy powierzchni w bryle siatkowej."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select two or more adjacent face groups on the mesh body to combine them." translation="Aby wyświetlić grupy powierzchni, rozwiń kolejno opcje Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni. Wybierz co najmniej dwie przylegające grupy powierzchni w bryle siatkowej, aby je połączyć."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Aby wyświetlić grupy powierzchni, rozwiń menu Ustawienia wyświetlania &gt; Wyświetlanie siatki, a następnie zaznacz opcję Grupy powierzchni."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTips" devLabel="You can combine two or more face groups on a mesh body as long as they share a common edge." translation="Można połączyć co najmniej dwie grupy powierzchni na bryle siatkowej, o ile mają one wspólną krawędź."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTitle" devLabel="Combine Face Groups Information" translation="Utwórz kombinację grup powierzchni — informacje"/>
+	<label commandName="lclzParaMeshModify" devLabel="Modify" translation="Zmień"/>
+	<label commandName="lclzParaMeshOuterTab" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="lclzParaMeshPlanarSectionDesc1" devLabel="Creates a sketch that contains a section line where a plane intersects a mesh body." translation="Tworzy szkic zawierający linię przekroju, w miejscu przecięcia przez płaszczyznę bryły siatkowej."/>
+	<label commandName="lclzParaMeshPlanarSectionDesc2" devLabel="Select a mesh body, select a plane, then adjust the location of the section line. Edit the sketch and use the Fit Curves To Mesh Section command to create sketch geometry to match the section line." translation="Wybierz bryłę siatkową, wybierz płaszczyznę, a następnie dostosuj położenie linii przekroju. Edytuj szkic i użyj polecenia Dopasuj krzywe do przekroju siatki, aby utworzyć geometrię szkicu i dopasować ją do linii przekroju."/>
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTips" devLabel="Create a series of mesh section sketches to reverse-engineer complex mesh bodies. Edit each section sketch and use the Fit Curves To Mesh Section command to generate a series of sketch profiles. You can use the sketch profiles to create parametric solid and surface bodies to recreate the design." translation="Utwórz serię szkiców przekroju siatki, aby odtworzyć złożone bryły siatkowe. Edytuj każdy szkic przekroju i użyj polecenia Dopasuj krzywe do przekroju siatki, aby wygenerować serię profili szkicu. Za pomocą profili szkicu można utworzyć parametryczne bryły i korpusy powierzchniowe, aby odtworzyć projekt."/>
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTitle" devLabel="Create Mesh Section Sketch Information" translation="Utwórz szkic przekroju siatki — informacje"/>
+	<label commandName="lclzParaMeshPlaneCutDesc1" devLabel="Uses a plane to trim or split a mesh body." translation="Używa płaszczyzny do ucięcia lub podziału bryły siatkowej."/>
+	<label commandName="lclzParaMeshPlaneCutDesc2" devLabel="Select a mesh body, then select and position the cutting plane. The cut can trim the body, split the body into multiple bodies, or split the faces only. For the Trim and Split Body cut types, select a fill type to generate watertight bodies." translation="Wybierz bryłę siatkową, a następnie wybierz płaszczyznę cięcia i ustal jej położenie. Przecięcie może uciąć bryłę, podzielić bryłę na wiele brył lub podzielić tylko powierzchnie. W przypadku typów cięcia Utnij i Podziel bryłę wybierz typ wypełnienia, aby wygenerować szczelne bryły."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksDesc" devLabel="Adjust the Fill Type to either leave a mesh open or close the mesh body after you cut it. You can fill the voids that the cut plane leaves behind with either uniform or minimal mesh faces." translation="Dopasuj typ wypełnienia, aby pozostawić siatkę otwartą lub zamknąć bryłę siatkową po jej przecięciu. Puste przestrzenie pozostawione przez płaszczyznę cięcia można wypełnić jednorodnymi lub minimalnymi powierzchniami siatki."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTips" devLabel="Use the Plane Cut command to slice a mesh body along a plane and either trim away one side of the body, split the mesh body into two separate bodies, or slice the mesh faces but leave the mesh body whole." translation="Użyj polecenia Cięcie płaszczyzną, aby przeciąć bryłę siatkową wzdłuż płaszczyzny i uciąć jedną stronę bryły, podzielić bryłę siatkową na dwie oddzielne bryły lub przeciąć powierzchnie siatki, ale pozostawić bryłę siatkową całą."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTitle" devLabel="Plane Cut Information" translation="Cięcie płaszczyzną — informacje"/>
+	<label commandName="lclzParaMeshPrepare" devLabel="Prepare" translation="Przygotuj"/>
+	<label commandName="lclzParaMeshReduceDesc1" devLabel="Reduces the number of faces on a mesh body to minimize complexity." translation="Redukuje liczbę powierzchni na bryle siatkowej, aby zminimalizować złożoność."/>
+	<label commandName="lclzParaMeshReduceDesc2" devLabel="Select a mesh body or face groups, select a reduction target, then adjust the settings to reduce the number of mesh faces." translation="Wybierz bryłę siatkową lub grupy powierzchni, wybierz cel redukcji, a następnie dostosuj ustawienia, aby zredukować liczbę powierzchni siatki."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksDesc" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Użyj typu modyfikacji siatki Adaptacyjny, aby zachować szczegóły. Użyj typu modyfikacji siatki Jednorodny, aby zachować względnie równe rozmiary powierzchni."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksTips" devLabel="Use the Tolerance reduction type to reduce complexity and improve computational performance while working with the mesh. The Tolerance reduction type merges faces while remaining within a maximum deviation from the original mesh shape." translation="Użyj typu redukcji Tolerancja, aby zmniejszyć złożoność i poprawić wydajność obliczeniową podczas pracy z siatką. Typ redukcji Tolerancja scala powierzchnie, zachowując w ramach maksymalnego odchylenia oryginalny kształt siatki."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksTitle" devLabel="Reduce Information" translation="Redukuj — informacje"/>
+	<label commandName="lclzParaMeshRemeshDesc1" devLabel="Refines or coarsens faces on a mesh body or face groups." translation="Zwiększa lub obniża poziom szczegółowości powierzchni bryły siatkowej lub grup powierzchni."/>
+	<label commandName="lclzParaMeshRemeshDesc2" devLabel="Select a mesh body or face groups on a mesh body, then adjust the settings to regenerate the mesh faces." translation="Wybierz bryłę siatkową lub grupy powierzchni na bryle siatkowej, a następnie dostosuj ustawienia, aby ponownie wygenerować powierzchnie siatki."/>
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTips" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Użyj typu modyfikacji siatki Adaptacyjny, aby zachować szczegóły. Użyj typu modyfikacji siatki Jednorodny, aby zachować względnie równe rozmiary powierzchni."/>
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTitle" devLabel="Remesh Information" translation="Modyfikuj siatkę — informacje"/>
+	<label commandName="lclzParaMeshRemoveDesc1" devLabel="Remove meshes" translation="Usuń siatki"/>
+	<label commandName="lclzParaMeshRemoveDesc2" devLabel="Select the mesh bodies to be removed. For every mesh which is removed, a feature appears in the timeline. The removal can be, in contrast to delete, be undone and meshes can be restored parametrically." translation="Wybierz bryły siatkowe do usunięcia. Dla każdej usuwanej siatki element jest wyświetlany na osi czasu. Usunięcie może być, w przeciwieństwie do usuwania, cofnięte i siatki mogą być przywrócone parametrycznie."/>
+	<label commandName="lclzParaMeshRepairDesc1" devLabel="Repairs a mesh body to prepare it for further design and manufacturing operations." translation="Naprawia bryłę siatkową, aby przygotować ją do dalszych operacji projektowania i wytwarzania."/>
+	<label commandName="lclzParaMeshRepairDesc2" devLabel="Select a mesh body to repair, then select a repair type. For the Rebuild repair type, select a rebuild type, then adjust density and offset." translation="Wybierz bryłę siatkową do naprawy, a następnie wybierz typ naprawy. W przypadku typu naprawy Przebuduj wybierz typ przebudowy, a następnie dostosuj gęstość i odsunięcie."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksDesc" devLabel="Use the Repair command to fix errors in a mesh body to prepare it for further design and manufacturing operations. Errors may include holes in the mesh body or suboptimal arrangement, orientation, or intersection of triangles in the mesh body." translation="Użyj polecenia Napraw, aby naprawić błędy w bryle siatkowej i przygotować ją do dalszych operacji projektowania i wytwarzania. Błędy mogą obejmować otwory w bryle siatkowej lub nieoptymalne rozmieszczenie, orientację lub przecięcie trójkątów w bryle siatkowej."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksTips" devLabel="Use the &lt;b&gt;Close Holes&lt;/b&gt; or &lt;b&gt;Stitch and Remove&lt;/b&gt; repair types for faster results and fewer changes to the mesh body. For more complex repairs, use the &lt;b&gt;Wrap&lt;/b&gt; or &lt;b&gt;Rebuild&lt;/b&gt; repair types, but keep in mind that these will take longer to compute and will make more significant changes to the mesh body." translation="Użyj typów naprawy &lt;b&gt;Zamknij otwory&lt;/b&gt; lub &lt;b&gt;Zszyj i usuń&lt;/b&gt;, aby uzyskać szybsze wyniki i mniej zmian w bryle siatkowej. W przypadku bardziej złożonych napraw użyj typów naprawy &lt;b&gt;Zawiń&lt;/b&gt; lub &lt;b&gt;Przebuduj&lt;/b&gt;. Należy jednak pamiętać, że obliczenia będą trwać dłużej i będą wprowadzać bardziej istotne zmiany w bryle siatkowej."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksTitle" devLabel="Repair Information" translation="Napraw — informacje"/>
+	<label commandName="lclzParaMeshReverseNormalsDesc1" devLabel="Reverses the normal direction of selected faces on a mesh body." translation="Odwraca kierunek normalnej wybranych powierzchni na bryle siatkowej."/>
+	<label commandName="lclzParaMeshReverseNormalsDesc2" devLabel="Select faces on a mesh body to reverse their normal direction." translation="Wybierz powierzchnie bryły siatkowej, aby odwrócić kierunek ich normalnej."/>
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTips" devLabel="Some faces on imported mesh bodies may be oriented incorrectly, and the Reverse Normal command lets you orient those faces correctly in a targeted way." translation="Niektóre powierzchnie na importowanych bryłach siatkowych mogą być nieprawidłowo zorientowane, a polecenie Odwróć normalną umożliwia prawidłowe ustawienie tych powierzchni w docelowy sposób."/>
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTitle" devLabel="Reverse Normal Information" translation="Odwróć normalną — informacje"/>
+	<label commandName="lclzParaMeshScaleDesc1" devLabel="Scales mesh bodies from a reference point." translation="Skaluje bryły siatkowe od punktu odniesienia."/>
+	<label commandName="lclzParaMeshScaleDesc2" devLabel="Select mesh bodies, select a reference point to scale from and a scale type, then specify the scale factor to scale the mesh bodies." translation="Wybierz bryły siatkowe, wybierz punkt odniesienia, od którego mają być skalowane, i typ skalowania, a następnie określ współczynnik skali, aby skalować bryły siatkowe."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksDesc" devLabel="Select multiple mesh bodies to scale them all at once from a common reference point." translation="Wybierz wiele brył siatkowych, aby skalować je wszystkie jednocześnie ze wspólnego punktu odniesienia."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksTips" devLabel="Use the Nonuniform scale type to scale mesh bodies by a different scale factor along the X, Y, and Z axes." translation="Użyj typu skalowania Niejednorodne, aby skalować bryły siatkowe o inny współczynnik skali wzdłuż osi X, Y i Z."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksTitle" devLabel="Scale Mesh Information" translation="Skaluj siatkę — informacje"/>
+	<label commandName="lclzParaMeshSmoothDesc1" devLabel="Smooths rough or creased regions on a mesh body." translation="Wygładza zgrubne lub pofałdowane regiony na bryle siatkowej."/>
+	<label commandName="lclzParaMeshSmoothDesc2" devLabel="Select a mesh body or face groups, select a smoothing type, then adjust the smoothness and scale to smooth rough or creased regions." translation="Wybierz bryłę siatkową lub grupy powierzchni, wybierz typ wygładzania, a następnie dostosuj gładkość i skalę, aby wygładzić regiony zgrubne lub pofałdowane."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksDesc" devLabel="Use the Smooth command to soften rough areas or sharp creases on a mesh body." translation="Użyj polecenia Wygładź, aby wygładzić zgrubne obszary lub ostre pofałdowania na bryle siatkowej."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTips" devLabel="Specify Smoothness on a scale from 0-1.00, where 0 applies minimal smoothing effects to the mesh body and 1.00 applies maximum smoothing effects." translation="Określ wartość opcji Gładkość w skali od 0 do 1,00, gdzie w przypadku wartości 0 do bryły siatkowej są stosowane minimalne efekty wygładzania, a w przypadku wartości 1,00 — maksymalne efekty wygładzania."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTitle" devLabel="Smooth Information" translation="Wygładź — informacje"/>
+	<label commandName="lclzParaMeshTessellateDesc1" devLabel="Converts an existing solid or surface body into a mesh body." translation="Konwertuje istniejącą bryłę lub korpus powierzchniowy na bryłę siatkową."/>
+	<label commandName="lclzParaMeshTessellateDesc2" devLabel="Select the solid or surface body to tessellate, then adjust the mesh refinement settings to convert the body to a mesh body." translation="Wybierz bryłę lub korpus powierzchniowy do teselacji, a następnie dostosuj ustawienia zagęszczania siatki, aby przekonwertować bryłę na bryłę siatkową."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksDesc" devLabel="Start with one of the Refinement presets, then customize the refinement settings to fine-tune the result before you complete the tessellation." translation="Rozpocznij od jednego z ustawień wstępnych zagęszczania, a następnie dostosuj ustawienia zagęszczania w celu precyzyjnego dostosowania wyniku przed zakończeniem teselacja."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTips" devLabel="Check the Preview setting to see what the new mesh body will look like as you adjust the Refinement Settings." translation="Zaznacz ustawienie Podgląd, aby zobaczyć, jak będzie wyglądała nowa bryła siatkowa podczas dostosowywania ustawień zagęszczania."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTitle" devLabel="Tesselate Information" translation="Teseluj — informacje"/>
+	<label commandName="lclzParaMeshToQuadMeshDesc1" devLabel="Converts a mesh body or face groups with triangular faces to a mesh body or face groups with quad faces." translation="Konwertuje bryłę siatkową lub grupy powierzchni z powierzchniami trójkątnymi na bryłę siatkową lub grupy powierzchni z powierzchniami czworokątnymi."/>
+	<label commandName="lclzParaMeshToQuadMeshDesc2" devLabel="Select a mesh body or face groups, select an output type, then adjust the settings to convert from triangular to quad faces." translation="Wybierz bryłę siatkową lub grupy powierzchni, wybierz typ wyjścia, a następnie dostosuj ustawienia, aby przekonwertować powierzchnie trójkątne na czworokątne."/>
+	<label commandName="lclzStopMeshBaseFeature" devLabel="Finish direct editing" translation="Zakończ edycję bezpośrednią"/>
+	<label commandName="targetOrganicEdgeAccuracy" devLabel="By Accuracy" translation="Według dokładności"/>
+	<label commandName="targetOrganicEdgeAccuracyToolTip" devLabel="Creates a solid or surface body that matches the shape of the original mesh body more or less accurately, based on the resolution you select." translation="Tworzy bryłę lub korpus powierzchniowy, który bardziej lub mniej dokładnie odpowiada kształtowi oryginalnej bryły siatkowej, na podstawie wybranej rozdzielczości."/>
+	<label commandName="targetOrganicFaceNumber" devLabel="By Face Number" translation="Według liczby powierzchni"/>
+	<label commandName="targetOrganicFaceNumberToolTip" devLabel="Creates solid or surface body with a specific number of faces." translation="Tworzy korpus bryłowy lub powierzchniowy z określoną liczbą powierzchni."/>
+	<label commandName="tolerance" devLabel="Tolerance" translation="Tolerancja"/>
+	<label commandName="toleranceToolTip" devLabel="Specify the maximum percentage deviation of the reduced mesh from the original mesh shape." translation="Określ maksymalne procentowe odchylenie zredukowanej siatki od pierwotnego kształtu siatki."/>
+	<label commandName="triCount" devLabel="Face Count" translation="Liczba powierzchni"/>
+	<label commandName="triCountToolTip" devLabel="Reduces mesh to a specific number of faces." translation="Redukuje siatkę do określonej liczby powierzchni."/>
+</Resource>

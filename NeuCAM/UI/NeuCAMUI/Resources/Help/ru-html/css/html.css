@@ -1,0 +1,569 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+	color:#000000; 
+	font-family: Sans-Serif;
+	font-size: 17pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: -0,5px;
+	margin-top: 1px;
+	page-break-before: always;
+}
+
+h2 {
+	background:#d9d8d8 url('../ui/h2_bgtile.png') repeat-x;
+	border-bottom: 1px solid #888888;
+	color:#2c2c2c; 
+	font-family: Arial;
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: normal;
+	line-height:28px;
+	margin-top: 16pt;
+	margin-bottom: 10pt;
+	padding: 3px 4px 0px 13px;
+	clear: both;
+}
+
+h2 img {
+	position: relative;
+	top: 1px;
+}
+
+h3 {
+	color:#000000; 
+	font-family: Sans-Serif;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 8pt;
+	margin-bottom: 2pt;
+}
+
+img {
+	vertical-align: middle;
+}
+
+h2 img {
+	vertical-align: bottom;
+}
+
+.paramdef h3 {
+	margin: 0pt 0pt 0pt 0pt;
+}
+
+td th h2 {
+	margin-top: 0pt;
+}
+
+.paramdef img {
+	margin: 0pt 4pt 0pt 0pt;
+}
+
+.paramico, .historyico {
+	position: absolute;
+	margin-left: -20pt;
+}
+
+.paramdiv {
+	margin: 0pt 4pt 0pt 20pt;
+	background-color: #eeeeee;
+}
+
+.historyico img {
+	vertical-align: top;
+}
+
+.historydiv {
+	margin: 0pt 4pt 0pt 32pt;
+}
+
+/* Link styles */
+.main :link, .main :visited {
+	text-decoration: none;
+	color: #C47800;
+	border-bottom: 1px solid #dddddd;
+}
+.main :link:hover, .main :visited:hover {
+	background-color: #eee;
+	color: #555;
+}
+h1 :link, h1 :visited, h2 :link, h2 :visited, h3 :link, h3 :visited,
+h4 :link, h4 :visited, h5 :link, h5 :visited, h6 :link, h6 :visited {
+	color: inherit;
+}
+
+/* Heading anchors */
+.anchor:link, .anchor:visited {
+	border: none;
+	color: #ffffff;
+	font-size: .8em;
+	vertical-align: text-top;
+}
+* > .anchor:link, * > .anchor:visited {
+	visibility: hidden;
+}
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor,
+h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+	visibility: visible;
+	color: #d7d7d7;
+	background-color: #ffffff;
+}
+
+@media screen {
+ a.ext-link .icon {
+  background: url(../extlink.gif) left center no-repeat;
+  padding-left: 16px;
+ }
+ * html a.ext-link .icon { display: inline-block; }
+}
+
+p, td, th {
+	color:#444444; 
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;	
+	margin-top: 4pt;
+	margin-bottom: 8pt;
+}
+
+ul {
+	color:#444444; 
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;	
+}
+
+ul, ol {
+	margin-top: 4pt;
+	margin-bottom: 8pt;
+}
+
+li {
+	line-height: 1.5em;
+	margin-top: 4pt;
+}
+
+hr { border: none;  border-top: 1px solid #ccb; margin: 2em 0 }
+
+table {
+	margin: 0;
+}
+
+a.header_link {
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+a.footer_link {
+	color: #404040;
+	text-decoration: none;
+}
+
+a.blue {
+	color: #1E78C4;
+}
+
+.header {
+	background: #000000 url(../ui/header_background_hsmworks.png) no-repeat;
+	vertical-align: middle;
+	height: 40px;
+	padding: 10px 10px 10px 230px;
+}
+
+.headerXpress {
+	background: #000000 url(../ui/header_background_hsmxpress.png) no-repeat;
+	vertical-align: middle;
+	height: 60px;
+	padding: 0px 0px 0px 220px;
+}
+
+.headerTutorial {
+	background: #000000 url(../ui/header_background.png) no-repeat;
+	vertical-align: middle;
+	height: 60px;
+	padding: 0px;
+}
+
+.header_font{
+	color: #eeeeee;
+	font-family: Sans-Serif;
+	font-size: 15pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: -0.5px;
+}
+
+.navigator {
+	float: right;
+	clear: none;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	vertical-align: center;
+}
+
+.navi_link {
+	margin-right:12px;
+	margin-left:12px;
+	color:#cccccc; 
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;
+	white-space: nowrap;
+	text-align: right;
+}
+
+.navi_arrow {
+	padding-left:8px;
+/*	padding-right:12px;*/
+}
+
+.header_underline{
+	background: url(../ui/banner_hsmworks_underline.gif) repeat-x;
+}
+
+.main {
+	margin: 0;
+	padding-top: 12pt;
+	padding-left: 10pt;
+	padding-bottom: 6pt;
+	padding-right: 10pt;
+	background: #FFFFFF url(../ui/banner_hsmworks_underline.gif) repeat-x;
+}
+
+.footer-navigator {
+	padding: 4pt 10pt 4pt 10pt;
+	color:#404040; 
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;	
+	border-top: 1px solid #BEBEBE;
+	background: url(../ui/footer-bg.gif) repeat-x;
+	clear: both;
+}
+
+.footer_background {
+	background: url(../ui/footer-bg.gif) repeat-x;
+}
+
+.footer {
+	padding: 10pt;
+	color:#000000; 
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;	
+	border-top: 1px solid #BEBEBE;
+	background: url(../ui/footer-bg.gif) repeat-x;
+	clear: both;
+}
+
+.footer_font_small {
+	color:#888888; 
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	word-spacing: 0px;
+	margin: 0pt;
+}
+
+/* Inherited by all imagebox'es */
+.imagebox {
+	color: #888888;
+	font-size: 7pt;
+	text-align: center;
+}
+
+.imagebox td {
+}
+
+.imageboxTable {
+	margin: 0pt auto;
+}
+
+/* imagebox3D */
+.imagebox3D {
+}
+
+.imagebox3D .imageboxImage {
+	border: 1px solid #888888;
+/*	background-color: #C6CFDE;*/
+	background: url(../ui/model-bg.png);
+	padding: 8px;
+}
+
+/* imageboxSimple */
+.imageboxSimple {
+}
+
+/* infobox & warningbox */
+.infobox, .warningbox, .contentsbox {
+	margin: 10pt 0pt 10pt 0pt;
+	padding: 8px 15px 10px 15px;
+}
+
+.infobox img, .warningbox img, .contentsbox img {
+	margin: 4pt;
+}
+
+.infobox p, .infobox li {
+	margin-right: 4pt;
+	margin-left: 10pt;
+	color: #333232;
+	font-size: 12px;
+	text-align: left;
+}
+
+.warningbox p, .warningbox li {
+	margin-right: 4pt;
+	margin-left: 10pt;
+	color: #ffffff;
+	font-size: 12px;
+	text-align: left;
+}
+
+.contentsbox p, .contentsbox li  {
+	margin-right: 4pt;
+	color: #555;
+	font-size: 12px;
+	text-align: left;
+}
+
+.infobox {
+	background-color: #fbed8a;
+}
+
+.warningbox {
+	background-color:#424242;
+}
+
+.contentsbox {
+	background-color:#EEE;
+}
+
+.setparam, .checkparam {
+	background-color: #e0e0e0;
+	padding: 6px;
+	margin: 4px;
+	width: 180px;
+	white-space: nowrap;
+	border: 1px solid #888888;
+	vertical-align: middle;
+}
+.setparam img {
+	vertical-align: top;
+	position: relative;
+	top: 2px;
+}
+.checkparam img {
+}
+.setparamval {
+	padding: 0px;
+	padding-right: 1px;
+	padding-top: 2px;
+	background-color: #ffffff;
+	border: 1px solid #7F9DB9;
+	width: 150px;
+	height: 17px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+.setparamvalinner {
+	position: relative;
+	top: -2px;
+	vertical-align: bottom;
+	display: inline;
+}
+.setparamval img {
+	position: relative;
+	top: -1px;
+	vertical-align: top;
+}
+
+/* Contents menu */
+.menu_main {
+	margin: 0;
+	width: 240px;
+	padding-top: 12pt;
+	padding-left: 0pt;
+	padding-bottom: 6pt;
+	padding-right: 4pt;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu_main img {
+	position: relative;
+	top: 0px;
+	vertical-align: top;
+}
+
+.menu_background {
+	color:#404040; 
+	border-right: 1px solid #BEBEBE;
+	background: url(../ui/banner_hsmworks_underline.gif) repeat-x;
+}
+
+a.menu_link {
+	color: #404040;
+	text-decoration: none;
+}
+
+a.menu_active {
+	color: #404040;
+	font-weight: bold;
+	word-spacing: -2px;
+	text-decoration: none;
+}
+
+a.menu_link:hover, a.menu_active:hover {
+	background: #eee;
+}
+
+table.ImageTable {
+	width:660px;
+	border:0;
+}
+
+/* CNC Book */
+.BookTable {
+	border-top: 1px solid #414141;
+	border-left: 1px solid #414141;
+	border-spacing: 0px;
+}
+/*
+.BookTable table {
+    table-layout: auto;
+}
+*/
+.BookTable td, th {
+	border-right: 1px solid #414141;
+	border-bottom: 1px solid #414141;
+	padding: 3pt 8pt 3pt 5pt;
+	text-align: left;
+	vertical-align: top;
+}
+
+.BookTable th {
+    background-color: #414141;
+    color: #FFFFFF;
+}
+.BookTableHeader td {
+	background-color: #414141;
+	color: #FFFFFF;
+}
+.BookTableHeader p {
+	margin: 0pt;
+	color: #FFFFFF;
+}
+
+.BookTableCentered {
+	border-top: 1px solid #414141;
+	border-left: 1px solid #414141;
+	border-spacing: 0px;
+	text-align: center;
+}
+.BookTable p, .BookTableCentered p, .OperationTable p {
+	margin: 0pt;
+	
+}
+.BookTableCentered td {
+	border-right: 1px solid #414141;
+	border-bottom: 1px solid #414141;
+	
+	padding: 3pt 5pt 3pt 5pt;
+}
+
+
+#page_wrapper {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 951px;
+	border: 1px solid #BEBEBE;
+}
+
+#header_logo {
+	background: #000000 url(../ui/header_background_hsmworks.png) no-repeat;
+	vertical-align: middle;
+	height: 40px;
+	padding: 10px;
+}
+
+@media print {
+	.header {
+		display: none;
+	}
+	
+	.anchor {
+		display: none;
+	}
+
+	.header_underline {
+		display: none;
+	}
+	
+	.navigator {
+		display: none;
+	}
+
+	.main {
+		background: none;
+	}
+	.footer {
+		background: none;
+	}
+
+	.imageboxtd {
+		/* Firefox prints 1px as 1dpi, but 1pt != 1px on screen. */
+		border: 1pt solid #888888;
+	}
+}
+
+#menu ul {
+	padding-left: 20px;
+}
+
+
+/*
+    From: https://websemantics.uk/articles/displaying-code-in-web-pages/
+*/
+pre, code {
+    /*
+    font-family: monospace, monospace;
+    background-color: lightyellow;
+    */
+}
+
+pre.code {
+    border: 1px solid rgb(187,187,187);
+    border-radius: 5px;
+    background-color: rgb(245,245,240);
+    padding: 8px;
+    display: block;
+    word-wrap: normal;
+    overflow: auto;
+    white-space: pre;
+    margin-top: 5px;
+    //margin-bottom: 0px;
+}

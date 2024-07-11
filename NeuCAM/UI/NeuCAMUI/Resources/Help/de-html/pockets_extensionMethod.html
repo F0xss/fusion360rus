@@ -1,0 +1,23 @@
+<div id="pockets_extensionMethod"><p>Erweitert die Auswahl offener Ketten auf die Grenzen des virtuellen Rahmens des Rohteils, um eine geschlossene Kontur zu bestimmen, die zum Berechnen eines Werkzeugwegs für offene Taschen verwendet wird.</p>
+<p>Wenn sich die erweiterten offenen Ketten vor Erreichen des virtuellen Rahmens schneiden, wird keine geschlossene Kontur erstellt, und die Werkzeugwegberechnung kann daher nicht abgeschlossen werden.</p>
+<p>Je nach Geometrie der offenen Tasche stehen drei Arten von Erweiterungsmethoden zur Verfügung:</p>
+<p><b>Tangente</b> - Erweitert alle Kettenauswahlen tangential.<br>
+<b>Nächstgelegene Begrenzung</b> - Erweitert alle Kettenauswahlen in die Richtung, die dem virtuellen Rahmen am nächsten liegt.<br>
+<b>Parallel</b> - Verlängert die sich überschneidenden Kettenauswahlen so, dass sie parallel sind, wenn sie den virtuellen Rahmen erreichen. Die übrigen Ketten werden tangential verlängert.<br></p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="185" height="197" src="../images/tangent_extension_method.png"/></center></td>
+<td><center><img border="0" width="185" height="197" src="../images/closest_boundary_extension_method.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Tangente</b></p></center></td>
+<td><center><p><b>Nächstliegende Begrenzung</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="185" height="197" src="../images/parallel_extension_method.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Parallel</b></p></center></td>
+</tr></table>
+<p>Anmerkung: Die <b>Erweiterungsmethode</b> gilt nur für Auswahlen offener Taschen und hat keine Auswirkungen auf geschlossene Taschen.</p>
+</div>

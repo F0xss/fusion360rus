@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="Before / After No of Defects" devLabel="Before / After" translation="" />
+	<label commandName="BodyToCalculateFaceGroups" devLabel="Bodies/Face Groups" translation="" />
+	<label commandName="BodyToCalculateFaceGroupsToolTip" devLabel="Select mesh bodies or face groups to generate new face groups." translation="" />
+	<label commandName="BodyToEdit" devLabel="Body" translation="" />
+	<label commandName="BodyToEditToolTip" devLabel="Select a mesh body to edit directly" translation="" />
+	<label commandName="BodyToExtractFrom" devLabel="Body" translation="" />
+	<label commandName="BodyToExtractFromToolTip" devLabel="Select mesh body to separate." translation="" />
+	<label commandName="BodyToHollow" devLabel="Body" translation="" />
+	<label commandName="BodyToHollowToolTip" devLabel="Select a mesh body to shell." translation="" />
+	<label commandName="BodyToPlanarSection" devLabel="Body" translation="" />
+	<label commandName="BodyToPlanarSectionToolTip" devLabel="Select a mesh body to generate the section line from." translation="" />
+	<label commandName="BodyToPlaneCut" devLabel="Body" translation="" />
+	<label commandName="BodyToPlaneCutToolTip" devLabel="Select mesh body to cut." translation="" />
+	<label commandName="BodyToPosition" devLabel="Body" translation="" />
+	<label commandName="BodyToPositionToolTip" devLabel="" translation="" />
+	<label commandName="BodyToQuadMesh" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToQuadMeshToolTip" devLabel="" translation="" />
+	<label commandName="BodyToReduce" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToReduceDM" devLabel="Selection" translation="" />
+	<label commandName="BodyToReduceDMToolTip" devLabel="Select a mesh body, face groups or faces to reduce." translation="" />
+	<label commandName="BodyToReducePM" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToReducePMToolTip" devLabel="Select a mesh body or face groups to reduce." translation="" />
+	<label commandName="BodyToReduceToolTip" devLabel="Select mesh body or face groups to reduce." translation="" />
+	<label commandName="BodyToRemesh" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToRemeshDM" devLabel="Selection" translation="" />
+	<label commandName="BodyToRemeshDMToolTip" devLabel="Select a mesh body, face groups or faces to remesh." translation="" />
+	<label commandName="BodyToRemeshPM" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToRemeshPMToolTip" devLabel="Select a mesh body or face groups to remesh." translation="" />
+	<label commandName="BodyToRemeshToolTip" devLabel="Select a mesh body or face groups to remesh." translation="" />
+	<label commandName="BodyToRemove" devLabel="Body" translation="" />
+	<label commandName="BodyToRemoveToolTip" devLabel="Select a mesh body to remove" translation="" />
+	<label commandName="BodyToSmooth" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToSmoothDM" devLabel="Selection" translation="" />
+	<label commandName="BodyToSmoothDMToolTip" devLabel="Select a mesh body, face groups or faces to smooth." translation="" />
+	<label commandName="BodyToSmoothPM" devLabel="Body/Face Groups" translation="" />
+	<label commandName="BodyToSmoothPMToolTip" devLabel="Select a mesh body or face groups to smooth." translation="" />
+	<label commandName="BodyToSmoothToolTip" devLabel="Select a mesh body or face groups to smooth." translation="" />
+	<label commandName="BodyToTessellate" devLabel="Body" translation="" />
+	<label commandName="BodyToTessellateToolTip" devLabel="Select a solid or surface body to tessellate." translation="" />
+	<label commandName="BrushSize" devLabel="Brush Size" translation="" />
+	<label commandName="BrushSizeToolTip" devLabel="Adjust the brush size for paint selection." translation="" />
+	<label commandName="CalculateFacegroupsSelectTargetBody" devLabel="Select mesh body" translation="" />
+	<label commandName="CalculateFacegroupsSelectedTargetBody" devLabel="Select type and adjust settings" translation="" />
+	<label commandName="CenterTransform" devLabel="Center" translation="" />
+	<label commandName="CenterTransformToolTip" devLabel="Centers the mesh body on the origin of the active component." translation="" />
+	<label commandName="CmMKS" devLabel="Centimeter" translation="" />
+	<label commandName="CmMKSToolTip" devLabel="One unit from the original file equals one centimeter." translation="" />
+	<label commandName="ConvertMeshAdjustConversionSettings" devLabel="Adjust conversion settings" translation="" />
+	<label commandName="ConvertMeshBaseFeature" devLabel="Base Feature" translation="" />
+	<label commandName="ConvertMeshBaseFeatureToolTip" devLabel="Creates a base feature or T-Spline form in the timeline that does not maintain any upstream parametric relationships." translation="" />
+	<label commandName="ConvertMeshOperation" devLabel="Operation" translation="" />
+	<label commandName="ConvertMeshOperationBaseFeatureToolTipDescription" devLabel="Converts the mesh body to a T-Spline form and opens the Form contextual environment. You can edit the form before completing the conversion." translation="" />
+	<label commandName="ConvertMeshOperationParametricToolTipDescription" devLabel="Converts the mesh body to an organically shaped solid or surface body. You cannot edit the form before completing the conversion. If this method fails, try the Base Feature operation and select the Organic method." translation="" />
+	<label commandName="ConvertMeshParametric" devLabel="Parametric" translation="" />
+	<label commandName="ConvertMeshParametricToolTip" devLabel="Creates a feature in the timeline that maintains its upstream parametric relationships." translation="" />
+	<label commandName="ConvertMeshSelectTargetBody" devLabel="Select mesh body to convert" translation="" />
+	<label commandName="ConvertOrganicTargetType" devLabel="Resolution" translation="" />
+	<label commandName="ConvertSmoothBoundary" devLabel="Preprocess Holes" translation="" />
+	<label commandName="ConvertSmoothBoundaryToolTip" devLabel="Smooths the boundaries of open holes in the mesh body.&lt;br/&gt;&lt;br/&gt;Improves the chance of successful conversion by refining the shape of holes that will remain open." translation="" />
+	<label commandName="ConvertTargetFaceNumberInput" devLabel="" translation="" />
+	<label commandName="ConvertTargetOrganicAccuracy" devLabel="Accuracy" translation="" />
+	<label commandName="CreateFaceGroupInput" devLabel="Faces" translation="" />
+	<label commandName="CreateFaceGroupInputToolTip" devLabel="Select faces to include in the face group." translation="" />
+	<label commandName="CustomRefinementOption" devLabel="Custom" translation="" />
+	<label commandName="CustomRefinementOptionToolTip" devLabel="Applies custom refinement settings to tessellate the body." translation="" />
+	<label commandName="Cut" devLabel="Cut" translation="" />
+	<label commandName="CutSelectTargetBody" devLabel="Select mesh body to cut" translation="" />
+	<label commandName="CutToolTip" devLabel="Removes overlapping areas from target body." translation="" />
+	<label commandName="Defect Type" devLabel="Issue Type" translation="" />
+	<label commandName="Defect TypeToolTip" devLabel="" translation="" />
+	<label commandName="DefectTable" devLabel="Defect Table" translation="" />
+	<label commandName="DefectTableToolTip" devLabel="" translation="" />
+	<label commandName="DefectTypeTitle" devLabel="Issue Type" translation="" />
+	<label commandName="DefectTypeTitleToolTip" devLabel="" translation="" />
+	<label commandName="DegenerateEdge" devLabel="Degenerate Edges" translation="" />
+	<label commandName="DegenerateThreshold" devLabel="Degenerate Threshold" translation="" />
+	<label commandName="DegenerateThresholdToolTip" devLabel="Specify the maximum size of degenerate edges and faces to repair." translation="" />
+	<label commandName="DegenerateTriangle" devLabel="Degenerate Faces" translation="" />
+	<label commandName="DensityTolInput" devLabel="" translation="" />
+	<label commandName="DirectEditSelectTargetBody" devLabel="Select a mesh body to edit directly" translation="" />
+	<label commandName="EnableDefect" devLabel="" translation="" />
+	<label commandName="EnterIntoCreateMeshEnvironment" devLabel="You have entered into Mesh Direct Edit." translation="" />
+	<label commandName="EraseAndFillDensity" devLabel="Density" translation="" />
+	<label commandName="EraseAndFillDensityToolTip" devLabel="Specify density to control the number of faces created." translation="" />
+	<label commandName="EraseAndFillInput" devLabel="Selection" translation="" />
+	<label commandName="EraseAndFillInputToolTip" devLabel="Select faces around a hole to fill or faces of a region to repair on a mesh body." translation="" />
+	<label commandName="EraseAndFillMeshingType" devLabel="Type" translation="" />
+	<label commandName="EraseAndFillMeshingTypeToolTip" devLabel="" translation="" />
+	<label commandName="EraseAndFillMinimalType" devLabel="Minimal" translation="" />
+	<label commandName="EraseAndFillMinimalTypeToolTip" devLabel="Fills the selected region with the minimum number of faces, typically resulting in long, thin triangles." translation="" />
+	<label commandName="EraseAndFillScale" devLabel="Scale" translation="" />
+	<label commandName="EraseAndFillScaleToolTip" devLabel="Specify weight to control the influence of surrounding faces on the new faces." translation="" />
+	<label commandName="EraseAndFillSmoothType" devLabel="Smooth" translation="" />
+	<label commandName="EraseAndFillSmoothTypeToolTip" devLabel="Fills the selected region with the very smoothly with triangles and tries to keep the shape of the model." translation="" />
+	<label commandName="EraseAndFillUniformType" devLabel="Uniform" translation="" />
+	<label commandName="EraseAndFillUniformTypeToolTip" devLabel="Fills the selected region with regular-shaped triangles." translation="" />
+	<label commandName="EraseDensitySlider" devLabel="" translation="" />
+	<label commandName="EraseDensitySliderToolTip" devLabel="" translation="" />
+	<label commandName="EraseScaleSlider" devLabel="" translation="" />
+	<label commandName="EraseScaleSliderToolTip" devLabel="" translation="" />
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="" />
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="" />
+	<label commandName="ExpandToConnectedSelToolTip" devLabel="Expand face selection to all faces connected to the current selection." translation="" />
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="" />
+	<label commandName="ExpandToGroupSelToolTip" devLabel="Expand face selection to include all faces in the same face group." translation="" />
+	<label commandName="FaceGroupCount" devLabel="Face Group Count" translation="" />
+	<label commandName="FaceGroupCountToolTip" devLabel="" translation="" />
+	<label commandName="FaceGroupPreviewCalculation" devLabel="Preview Calculation" translation="" />
+	<label commandName="FaceGroupPreviewCalculationToolTip" devLabel="Displays a preview of the face groups on the mesh body in the canvas." translation="" />
+	<label commandName="FaceGroupPreviewGroup" devLabel="Preview" translation="" />
+	<label commandName="FaceGroupPreviewGroupToolTip" devLabel="" translation="" />
+	<label commandName="FaceGroupsToMerge" devLabel="Face Groups" translation="" />
+	<label commandName="FaceGroupsToMergeToolTip" devLabel="Select two or more adjacent face groups on a mesh body to combine them." translation="" />
+	<label commandName="FacesToReverse" devLabel="Body/Face Group" translation="" />
+	<label commandName="FacesToReverseDM" devLabel="Selection" translation="" />
+	<label commandName="FacesToReverseDMToolTip" devLabel="Select a mesh body, face groups or faces to reverse." translation="" />
+	<label commandName="FacesToReversePM" devLabel="Body/Face Groups" translation="" />
+	<label commandName="FacesToReversePMToolTip" devLabel="Select a mesh body or face groups to reverse." translation="" />
+	<label commandName="FacesToReverseToolTip" devLabel="Select a mesh body or face groups to reverse." translation="" />
+	<label commandName="FacetCount" devLabel="Facet Count" translation="" />
+	<label commandName="FastSegmentAreaInput" devLabel="" translation="" />
+	<label commandName="FinishMeshPanel" devLabel="Finish Direct Editing" translation="" />
+	<label commandName="GridAspectRatio" devLabel="Aspect Ratio" translation="" />
+	<label commandName="GridAspectRatioSlider" devLabel="" translation="" />
+	<label commandName="GridAspectRatioSliderToolTip" devLabel="" translation="" />
+	<label commandName="GridAspectRatioToolTip" devLabel="Specify ratio between the height and width of each face on the mesh body." translation="" />
+	<label commandName="GroundTransform" devLabel="Move To Ground" translation="" />
+	<label commandName="GroundTransformToolTip" devLabel="Positions the bottom of the mesh body to rest on the ground plane of the active component." translation="" />
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="" />
+	<label commandName="GrowMeshSelToolTip" devLabel="Increases the boundary of the selection set." translation="" />
+	<label commandName="HighRefinementOption" devLabel="High" translation="" />
+	<label commandName="HighRefinementOptionToolTip" devLabel="Applies a preset with high refinement settings to tessellate the body." translation="" />
+	<label commandName="HollowSelectTargetBody" devLabel="Select mesh body to shell" translation="" />
+	<label commandName="HollowSelectedTargetBody" devLabel="Adjust direction and thickness" translation="" />
+	<label commandName="Imperial" devLabel="Foot" translation="" />
+	<label commandName="ImperialToolTip" devLabel="One unit from the original file equals one foot." translation="" />
+	<label commandName="InchImperial" devLabel="Inch" translation="" />
+	<label commandName="InchImperialToolTip" devLabel="One unit from the original file equals one inch." translation="" />
+	<label commandName="InfoPreview" devLabel="Preview" translation="" />
+	<label commandName="InfoPreviewToolTip" devLabel="Displays a preview of the shelled mesh body in the canvas." translation="" />
+	<label commandName="InsertMesh" devLabel="Insert" translation="" />
+	<label commandName="InsideThicknessInput" devLabel="" translation="" />
+	<label commandName="InspectDefects" devLabel="Detailed Analysis" translation="" />
+	<label commandName="InspectDefectsToolTip" devLabel="Check to see a granular analysis of specific issues." translation="" />
+	<label commandName="Intersect" devLabel="Intersect" translation="" />
+	<label commandName="IntersectToolTip" devLabel="Combines overlapping areas into a mesh body." translation="" />
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="" />
+	<label commandName="InvertMeshSelToolTip" devLabel="Selects all faces that were previously not selected and deselects all faces that were previously selected." translation="" />
+	<label commandName="Join" devLabel="Join" translation="" />
+	<label commandName="JoinToolTip" devLabel="Combines multiple mesh bodies into a single mesh body by enclosing their volumes." translation="" />
+	<label commandName="KeepToolBodiesOption" devLabel="Keep Tools" translation="" />
+	<label commandName="KeepToolBodiesOptionToolTip" devLabel="Preserves a copy of each tool body." translation="" />
+	<label commandName="LoadMeshFilter" devLabel="Mesh Files (*.3mf *.obj *.stl);;STL File (*.stl);;3MF File (*.3mf);;OBJ File (*.obj)" translation="" />
+	<label commandName="LowRefinementOption" devLabel="Low" translation="" />
+	<label commandName="LowRefinementOptionToolTip" devLabel="Applies a preset with low refinement settings to tessellate the body" translation="" />
+	<label commandName="MESH_MANY_TRIANGLE_WARNING" devLabel="This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="" />
+	<label commandName="MMKS" devLabel="Meter" translation="" />
+	<label commandName="MMKSToolTip" devLabel="One unit from the original file equals one meter." translation="" />
+	<label commandName="MakeSolid" devLabel="Rebuild" translation="" />
+	<label commandName="MakeSolidToolTip" devLabel="Reconstructs the mesh body using one of 4 rebuild types. All inner structures are destroyed. (Slowest)" translation="" />
+	<label commandName="MaxEdgeLengthSlider" devLabel="" translation="" />
+	<label commandName="MaxEdgeLengthSliderToolTip" devLabel="" translation="" />
+	<label commandName="MaximumEdgeLength" devLabel="Maximum Edge Length" translation="" />
+	<label commandName="MaximumEdgeLengthToolTip" devLabel="Specify maximum length of any face edge on the mesh body." translation="" />
+	<label commandName="MediumRefinementOption" devLabel="Medium" translation="" />
+	<label commandName="MediumRefinementOptionToolTip" devLabel="Applies a preset with medium refinement settings to tessellate the body." translation="" />
+	<label commandName="Merge" devLabel="Merge" translation="" />
+	<label commandName="MergeFaceGroupsSelectTargetBody" devLabel="Select two or more adjacent face groups" translation="" />
+	<label commandName="MergeToolTip" devLabel="Combines multiple mesh bodies into a single mesh body without altering the faces of the original mesh bodies." translation="" />
+	<label commandName="Mesh" devLabel="Mesh" translation="" />
+	<label commandName="MeshBodyPrompt" devLabel="Select mesh body" translation="" />
+	<label commandName="MeshCombineOperation" devLabel="Operation" translation="" />
+	<label commandName="MeshCombineOperationToolTip" devLabel="Select mesh bodies to combine with the target body." translation="" />
+	<label commandName="MeshCutSplitFaces" devLabel="Split Faces" translation="" />
+	<label commandName="MeshCutSplitFacesToolTip" devLabel="Splits mesh faces along the cut plane and maintains a single mesh body." translation="" />
+	<label commandName="MeshDensity" devLabel="Density" translation="" />
+	<label commandName="MeshDensityToolTip" devLabel="Increase or decrease density of triangles in mesh body." translation="" />
+	<label commandName="MeshDistance" devLabel="Offset" translation="" />
+	<label commandName="MeshDistanceToolTip" devLabel="Specify distance to offset repaired mesh from original mesh body." translation="" />
+	<label commandName="MeshExtractAllFaceGroupsOption" devLabel="All Face Groups" translation="" />
+	<label commandName="MeshExtractAllFaceGroupsOptionToolTip" devLabel="Separates all face groups into independent mesh bodies." translation="" />
+	<label commandName="MeshExtractAsSeparateBodies" devLabel="Multiple Bodies" translation="" />
+	<label commandName="MeshExtractAsSeparateBodiesToolTip" devLabel="Separates each face group into an independent mesh body." translation="" />
+	<label commandName="MeshExtractPreserveSourceBody" devLabel="Keep Body" translation="" />
+	<label commandName="MeshExtractPreserveSourceBodyToolTip" devLabel="Preserves a copy of the original mesh body." translation="" />
+	<label commandName="MeshExtractSelectedFaceGroups" devLabel="Face Groups" translation="" />
+	<label commandName="MeshExtractSelectedFaceGroupsOption" devLabel="Select Face Groups" translation="" />
+	<label commandName="MeshExtractSelectedFaceGroupsOptionToolTip" devLabel="Separates a selection of face groups into one ore more independent mesh bodies." translation="" />
+	<label commandName="MeshExtractSelectedFaceGroupsToolTip" devLabel="Select face groups on mesh body to separate." translation="" />
+	<label commandName="MeshExtractSelectedFaces" devLabel="Faces" translation="" />
+	<label commandName="MeshExtractSelectedFacesOption" devLabel="Select Faces" translation="" />
+	<label commandName="MeshExtractSelectedFacesOptionToolTip" devLabel="Separates a selection of faces into an independent mesh body." translation="" />
+	<label commandName="MeshExtractSelectedFacesToolTip" devLabel="Select face groups on mesh body to separate." translation="" />
+	<label commandName="MeshExtractShellsOption" devLabel="Mesh Shells" translation="" />
+	<label commandName="MeshExtractShellsOptionToolTip" devLabel="Separates all mesh shells into independent mesh bodies." translation="" />
+	<label commandName="MeshExtractTypeInput" devLabel="Type" translation="" />
+	<label commandName="MeshExtractTypeInputToolTip" devLabel="" translation="" />
+	<label commandName="MeshModifyFastSegmentAreaInput" devLabel="Minimum Face Group Size" translation="" />
+	<label commandName="MeshModifyFastSegmentAreaInputToolTip" devLabel="Specify percentage of the overall mesh area to determine smallest face group." translation="" />
+	<label commandName="MeshModifyInsideThicknessInput" devLabel="Thickness" translation="" />
+	<label commandName="MeshModifyInsideThicknessInputToolTip" devLabel="Specify the distance to offset the mesh body." translation="" />
+	<label commandName="MeshModifyOpeningAngleInput" devLabel="Angle Threshold" translation="" />
+	<label commandName="MeshModifyOpeningAngleInputToolTip" devLabel="Specify normal angle threshold between faces to determine face group boundaries." translation="" />
+	<label commandName="MeshModifySegmentToleranceInput" devLabel="Boundary Tolerance" translation="" />
+	<label commandName="MeshModifySegmentToleranceInputToolTip" devLabel="Specify tolerance to define face group boundaries, as a proportion of the largest distance value on the mesh body." translation="" />
+	<label commandName="MeshModifySmoothnessInput" devLabel="Smoothness" translation="" />
+	<label commandName="MeshModifySmoothnessInputToolTip" devLabel="Specify the degree of smoothness to apply to the mesh body." translation="" />
+	<label commandName="MeshPlanarSectionPlaneSel" devLabel="Section Plane" translation="" />
+	<label commandName="MeshPlanarSectionPlaneSelToolTip" devLabel="Select a plane to intersect the mesh body." translation="" />
+	<label commandName="MeshPlanarSectionTransfPlane" devLabel="Transform Plane" translation="" />
+	<label commandName="MeshPlanarSectionTransfPlaneToolTip" devLabel="" translation="" />
+	<label commandName="MeshPlaneCutFillMinimal" devLabel="Minimal" translation="" />
+	<label commandName="MeshPlaneCutFillMinimalToolTip" devLabel="Adds a minimal number of mesh faces to close mesh body." translation="" />
+	<label commandName="MeshPlaneCutFillNone" devLabel="No Fill" translation="" />
+	<label commandName="MeshPlaneCutFillNoneToolTip" devLabel="Does not add mesh faces to close mesh body." translation="" />
+	<label commandName="MeshPlaneCutFillType" devLabel="Fill Type" translation="" />
+	<label commandName="MeshPlaneCutFillTypeToolTip" devLabel="" translation="" />
+	<label commandName="MeshPlaneCutFillUniform" devLabel="Uniform" translation="" />
+	<label commandName="MeshPlaneCutFillUniformToolTip" devLabel="Adds a uniform set of mesh faces to close mesh body." translation="" />
+	<label commandName="MeshPlaneCutFlipTrimDir" devLabel="Flip" translation="" />
+	<label commandName="MeshPlaneCutFlipTrimDirToolTip" devLabel="Flips side of mesh body to trim relative to cut plane." translation="" />
+	<label commandName="MeshPlaneCutPlanePrompt" devLabel="Select section plane" translation="" />
+	<label commandName="MeshPlaneCutPlaneSel" devLabel="Cut Plane" translation="" />
+	<label commandName="MeshPlaneCutPlaneSelToolTip" devLabel="Select plane to cut through mesh body." translation="" />
+	<label commandName="MeshPlaneCutSelectPlanePrompt" devLabel="Select a cut plane" translation="" />
+	<label commandName="MeshPlaneCutSelectTransformPlanePrompt" devLabel="Position cut plane or select cut type and fill type" translation="" />
+	<label commandName="MeshPlaneCutSplitBody" devLabel="Split Body" translation="" />
+	<label commandName="MeshPlaneCutSplitBodyToolTip" devLabel="Splits mesh faces along the cut plane, then separates the mesh body into two mesh bodies." translation="" />
+	<label commandName="MeshPlaneCutTransfPlane" devLabel="Transform Plane" translation="" />
+	<label commandName="MeshPlaneCutTransfPlaneToolTip" devLabel="Select plane to cut through mesh body." translation="" />
+	<label commandName="MeshPlaneCutTransformPlanePrompt" devLabel="Adjust distance and angles to orient section plane" translation="" />
+	<label commandName="MeshPlaneCutTrim" devLabel="Trim" translation="" />
+	<label commandName="MeshPlaneCutTrimToolTip" devLabel="Splits mesh faces along the cut plane, then removes one side of the mesh body." translation="" />
+	<label commandName="MeshPlaneCutType" devLabel="Type" translation="" />
+	<label commandName="MeshPlaneCutTypeToolTip" devLabel="" translation="" />
+	<label commandName="MeshRepairRebuildInput" devLabel="Rebuild Type" translation="" />
+	<label commandName="MeshRepairRebuildInputToolTip" devLabel="" translation="" />
+	<label commandName="MeshRepairTypeInput" devLabel="Repair Type" translation="" />
+	<label commandName="MeshRepairTypeInputToolTip" devLabel="" translation="" />
+	<label commandName="MeshSanityCheck" devLabel="Quick Analysis" translation="" />
+	<label commandName="MeshSanityCheckToolTip" devLabel="" translation="" />
+	<label commandName="MeshToAdopt" devLabel="Mesh To Adopt" translation="" />
+	<label commandName="MeshToAdoptToolTip" devLabel="" translation="" />
+	<label commandName="MeshToBREPAlgorithmInput" devLabel="Method" translation="" />
+	<label commandName="MeshToDemote" devLabel="Mesh To Convert" translation="" />
+	<label commandName="MeshToDemoteToolTip" devLabel="" translation="" />
+	<label commandName="MeshToToBREP" devLabel="Body" translation="" />
+	<label commandName="MeshToToBREPToolTip" devLabel="Select a mesh body to convert." translation="" />
+	<label commandName="MeshToolTip" devLabel="" translation="" />
+	<label commandName="MeshingTypeOption_1" devLabel="Remesh Type" translation="" />
+	<label commandName="MeshingTypeOption_1ToolTip" devLabel="" translation="" />
+	<label commandName="MmMKS" devLabel="Millimeter" translation="" />
+	<label commandName="MmMKSToolTip" devLabel="One unit from the original file equals one millimeter." translation="" />
+	<label commandName="ModelOpacity" devLabel="Opacity" translation="" />
+	<label commandName="ModelOpacityToolTip" devLabel="Adjust the opacity of the mesh body to investigate issues more easily." translation="" />
+	<label commandName="NDefectsTitle" devLabel="Number of Defects" translation="" />
+	<label commandName="NDefectsTitleToolTip" devLabel="" translation="" />
+	<label commandName="Ndefects" devLabel="Number of Defects" translation="" />
+	<label commandName="NdefectsToolTip" devLabel="" translation="" />
+	<label commandName="NewComponentOption" devLabel="New Component" translation="" />
+	<label commandName="NewComponentOptionToolTip" devLabel="Creates a new component to contain combined mesh bodies." translation="" />
+	<label commandName="No" devLabel="No" translation="" />
+	<label commandName="No of Defects" devLabel="Number" translation="" />
+	<label commandName="NonManifold" devLabel="Non-Manifold Edges" translation="" />
+	<label commandName="NormalThresholdInput" devLabel="" translation="" />
+	<label commandName="NormalTolSlider" devLabel="" translation="" />
+	<label commandName="NormalTolSliderToolTip" devLabel="" translation="" />
+	<label commandName="NormalTolerance" devLabel="Normal Deviation" translation="" />
+	<label commandName="NormalToleranceToolTip" devLabel="Specify maximum angle between the normal vectors of each face on the mesh body." translation="" />
+	<label commandName="NumericalInputsGroup" devLabel="Numerical Inputs" translation="" />
+	<label commandName="NumericalInputsGroupToolTip" devLabel="" translation="" />
+	<label commandName="OpenBoundary" devLabel="Open Boundaries" translation="" />
+	<label commandName="Organic Conversion" devLabel="Organic conversion" translation="" />
+	<label commandName="ParaMEshMeshEditText" devLabel="Directly editing this mesh body will create a copy of the original up to this point in history.&#10;&#10;Preserve the history of the original body?" translation="" />
+	<label commandName="ParaMesh" devLabel="Mesh" translation="" />
+	<label commandName="ParaMesh Environment" devLabel="ParaMesh" translation="" />
+	<label commandName="ParaMeshAdoptCommand" devLabel="Convert Mesh body to Parametric Mesh" translation="" />
+	<label commandName="ParaMeshBaseFeatureActivateCommand" devLabel="Edit" translation="" />
+	<label commandName="ParaMeshBaseFeatureCreateCommand" devLabel="Direct Edit" translation="" />
+	<label commandName="ParaMeshBaseFeatureStopCommand" devLabel="Finish Direct Edit" translation="" />
+	<label commandName="ParaMeshCalculateFaceGroupsCommand" devLabel="Generate Face Groups" translation="" />
+	<label commandName="ParaMeshCombineCommand" devLabel="Combine" translation="" />
+	<label commandName="ParaMeshConvertCommand" devLabel="Convert Mesh" translation="" />
+	<label commandName="ParaMeshCreateFaceGroupCommand" devLabel="Create Face Group" translation="" />
+	<label commandName="ParaMeshCreateFaceGroupSelectPrompt" devLabel="Select faces on mesh body" translation="" />
+	<label commandName="ParaMeshDcCalculateFaceGroupsEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcCombineEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcConvertEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcConvertEditCommandRestricted" devLabel="Convert Mesh, Cannot be edited" translation="" />
+	<label commandName="ParaMeshDcExtractEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcHollowEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcMergeFaceGroupsEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcMoveEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcPlanarSectionEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcPlaneCutEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcReduceEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcRemeshEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcRepairEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcReverseNormalsEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcScaleEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcSmoothEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcTessellateEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDcToQuadMeshEditCommand" devLabel="Edit Feature" translation="" />
+	<label commandName="ParaMeshDemoteCommand" devLabel="Convert Parametric Mesh to Mesh body " translation="" />
+	<label commandName="ParaMeshEmptyBaseFeatureCommand" devLabel="Create Base Mesh Feature" translation="" />
+	<label commandName="ParaMeshEraseAndFillCommand" devLabel="Erase And Fill" translation="" />
+	<label commandName="ParaMeshEraseAndFillSelectPrompt" devLabel="Select faces to repair or double-click a face at the edge of a hole to fill" translation="" />
+	<label commandName="ParaMeshExtractCommand" devLabel="Separate" translation="" />
+	<label commandName="ParaMeshFaceGroup" devLabel="Face Group on Parametric Mesh" translation="" />
+	<label commandName="ParaMeshFlatMeshShading" devLabel="Flat Shaded" translation="" />
+	<label commandName="ParaMeshHollowCommand" devLabel="Shell" translation="" />
+	<label commandName="ParaMeshInsertAlignCommand" devLabel="Insert Mesh" translation="" />
+	<label commandName="ParaMeshInsertCommand" devLabel="Insert Mesh" translation="" />
+	<label commandName="ParaMeshMergeFaceGroupsCommand" devLabel="Combine Face Groups" translation="" />
+	<label commandName="ParaMeshMeshEditTitle" devLabel="Direct mesh editing" translation="" />
+	<label commandName="ParaMeshPlanarSectionCommand" devLabel="Create Mesh Section Sketch" translation="" />
+	<label commandName="ParaMeshPlaneCutCommand" devLabel="Plane Cut" translation="" />
+	<label commandName="ParaMeshPositionCommand" devLabel="Insert Mesh" translation="" />
+	<label commandName="ParaMeshPropAppearance" devLabel="Appearance" translation="" />
+	<label commandName="ParaMeshPropArea" devLabel="Area" translation="" />
+	<label commandName="ParaMeshPropBody" devLabel="Body" translation="" />
+	<label commandName="ParaMeshPropDensity" devLabel="Density" translation="" />
+	<label commandName="ParaMeshPropFaceGroupCount" devLabel="Face Group Count" translation="" />
+	<label commandName="ParaMeshPropFacetCount" devLabel="Facet Count" translation="" />
+	<label commandName="ParaMeshPropHasColor" devLabel="Color" translation="" />
+	<label commandName="ParaMeshPropHasPositiveVolume" devLabel="Mesh has Positive Volume" translation="" />
+	<label commandName="ParaMeshPropHasTextures" devLabel="Texture Count" translation="" />
+	<label commandName="ParaMeshPropIsClosed" devLabel="Mesh is Closed" translation="" />
+	<label commandName="ParaMeshPropIsOriented" devLabel="Mesh is Oriented" translation="" />
+	<label commandName="ParaMeshPropMass" devLabel="Mass" translation="" />
+	<label commandName="ParaMeshPropMaterial" devLabel="Physical Material" translation="" />
+	<label commandName="ParaMeshPropMesh" devLabel="Mesh" translation="" />
+	<label commandName="ParaMeshPropMeshAnalysis" devLabel="Mesh Analysis" translation="" />
+	<label commandName="ParaMeshPropShellCount" devLabel="Shell Count" translation="" />
+	<label commandName="ParaMeshPropVertexCount" devLabel="Vertex Count" translation="" />
+	<label commandName="ParaMeshPropVolume" devLabel="Volume" translation="" />
+	<label commandName="ParaMeshReduceCommand" devLabel="Reduce" translation="" />
+	<label commandName="ParaMeshRemeshCommand" devLabel="Remesh" translation="" />
+	<label commandName="ParaMeshRemoveCommand" devLabel="Remove" translation="" />
+	<label commandName="ParaMeshRepairCommand" devLabel="Repair" translation="" />
+	<label commandName="ParaMeshReverseNormalsCommand" devLabel="Reverse Normal" translation="" />
+	<label commandName="ParaMeshScaleCommand" devLabel="Scale Mesh" translation="" />
+	<label commandName="ParaMeshSelectionPalette" devLabel="Mesh Selection Palette" translation="" />
+	<label commandName="ParaMeshShowSelectionPanel" devLabel="Mesh Palette" translation="" />
+	<label commandName="ParaMeshSmoothCommand" devLabel="Smooth" translation="" />
+	<label commandName="ParaMeshSmoothMeshShading" devLabel="Smooth Shaded" translation="" />
+	<label commandName="ParaMeshStatusClosed" devLabel="Mesh is closed." translation="" />
+	<label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="" />
+	<label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="" />
+	<label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="" />
+	<label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="" />
+	<label commandName="ParaMeshStatusOriented" devLabel="Mesh is oriented." translation="" />
+	<label commandName="ParaMeshStatusPositiveVolume" devLabel="Mesh has a positive volume." translation="" />
+	<label commandName="ParaMeshTessellateCommand" devLabel="Tessellate" translation="" />
+	<label commandName="ParaMeshToQuadMeshCommand" devLabel="Convert To Quad Mesh" translation="" />
+	<label commandName="PositionInputsGroup" devLabel="Position" translation="" />
+	<label commandName="PositionInputsGroupToolTip" devLabel="" translation="" />
+	<label commandName="PositionMeshTransformInput" devLabel="Distance" translation="" />
+	<label commandName="PositionMeshTransformInputToolTip" devLabel="" translation="" />
+	<label commandName="PreviewCalculation" devLabel="Preview Calculation" translation="" />
+	<label commandName="PreviewCalculationToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="" />
+	<label commandName="PreviewGroupStart" devLabel="Preview" translation="" />
+	<label commandName="PreviewGroupStartToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="" />
+	<label commandName="PreviewInput" devLabel="Preview" translation="" />
+	<label commandName="PreviewInputToolTip" devLabel="Displays a preview of the combined mesh bodies in the canvas." translation="" />
+	<label commandName="Prismatic Conversion" devLabel="Prismatic conversion" translation="" />
+	<label commandName="QuadCount" devLabel="Quad Count" translation="" />
+	<label commandName="QuadCountToolTip" devLabel="Displays the total number of quads that will be created on the new mesh body." translation="" />
+	<label commandName="QuadMeshModifyPreserveBoundaries" devLabel="Preserve Boundaries" translation="" />
+	<label commandName="QuadMeshModifyPreserveBoundariesToolTip" devLabel="" translation="" />
+	<label commandName="QuadMeshModifyPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="" />
+	<label commandName="QuadMeshModifyPreserveSharpEdgesToolTip" devLabel="" translation="" />
+	<label commandName="QuadMeshModifyTargetEdgeLengthInput" devLabel="Target Edge Length" translation="" />
+	<label commandName="QuadMeshModifyTargetEdgeLengthInputToolTip" devLabel="" translation="" />
+	<label commandName="QuadMeshOutputType" devLabel="Output type" translation="" />
+	<label commandName="QuadMeshOutputTypeToolTip" devLabel="" translation="" />
+	<label commandName="ReduceFacetCount" devLabel="Face Count" translation="" />
+	<label commandName="ReduceFacetCountToolTip" devLabel="Specify the number of faces to include in the reduced mesh." translation="" />
+	<label commandName="ReduceFacetsInput" devLabel="" translation="" />
+	<label commandName="ReduceMaxDeviationInput" devLabel="" translation="" />
+	<label commandName="ReducePreviewInput" devLabel="Preview" translation="" />
+	<label commandName="ReducePreviewInputToolTip" devLabel="Displays a preview of the reduced mesh body in the canvas." translation="" />
+	<label commandName="ReduceProportion" devLabel="Proportion" translation="" />
+	<label commandName="ReduceProportionInput" devLabel="" translation="" />
+	<label commandName="ReduceProportionToolTip" devLabel="Specify a percentage of the original number of faces to include in the reduced mesh." translation="" />
+	<label commandName="ReduceSelectTargetBody" devLabel="Select mesh body or face groups to reduce" translation="" />
+	<label commandName="ReduceSelectTargetBodyFaces" devLabel="Select parts of mesh body to reduce" translation="" />
+	<label commandName="ReduceSelectedTargetBody" devLabel="Adjust reduce type and settings" translation="" />
+	<label commandName="ReduceType" devLabel="Type" translation="" />
+	<label commandName="ReduceTypeProportion" devLabel="Proportion" translation="" />
+	<label commandName="ReduceTypeProportionToolTip" devLabel="Reduces mesh to a proportion of the number of faces on the original mesh." translation="" />
+	<label commandName="ReduceTypeToolTip" devLabel="" translation="" />
+	<label commandName="ReduceTypetolerance" devLabel="Tolerance" translation="" />
+	<label commandName="ReduceTypetoleranceToolTip" devLabel="Reduces mesh by merging faces within a maximum deviation from the original mesh shape." translation="" />
+	<label commandName="RefinementGroup" devLabel="Refinement Settings" translation="" />
+	<label commandName="RefinementGroupToolTip" devLabel="" translation="" />
+	<label commandName="RefinementOptionsInput" devLabel="Refinement" translation="" />
+	<label commandName="RefinementOptionsInputToolTip" devLabel="" translation="" />
+	<label commandName="RemeshBoundaryOption" devLabel="Preserve Boundaries" translation="" />
+	<label commandName="RemeshBoundaryOptionToolTip" devLabel="Preserves the shape of any open boundary edges from the original mesh." translation="" />
+	<label commandName="RemeshDensity" devLabel="Density" translation="" />
+	<label commandName="RemeshDensityToolTip" devLabel="Specify density to control the number of faces created." translation="" />
+	<label commandName="RemeshNormalThreshold" devLabel="Shape Preservation" translation="" />
+	<label commandName="RemeshNormalThresholdToolTip" devLabel="Specify how much of the original mesh shape to preserve." translation="" />
+	<label commandName="RemeshPreviewInput" devLabel="Preview" translation="" />
+	<label commandName="RemeshPreviewInputToolTip" devLabel="Displays a preview of the remeshed mesh body in the canvas." translation="" />
+	<label commandName="RemeshSelectTargetBody" devLabel="Select mesh body or face groups to remesh" translation="" />
+	<label commandName="RemeshSelectTargetBodyFaces" devLabel="Select parts of mesh body to remesh" translation="" />
+	<label commandName="RemeshSelectedTargetBody" devLabel="Adjust remesh type and settings" translation="" />
+	<label commandName="RemeshSharpOption" devLabel="Preserve Sharp Edges" translation="" />
+	<label commandName="RemeshSharpOptionToolTip" devLabel="Preserves sharp edges from the original mesh." translation="" />
+	<label commandName="RemoveMeshSelectTargetBody" devLabel="Select a mesh body to remove" translation="" />
+	<label commandName="RepairAdjustAccurate" devLabel="Adjust repair type, rebuild type, density, or offset" translation="" />
+	<label commandName="RepairAdjustNotAccurate" devLabel="Adjust repair type, rebuild type, or density" translation="" />
+	<label commandName="RepairAdjustType" devLabel="Adjust repair type" translation="" />
+	<label commandName="RepairBodyToRepair" devLabel="Body" translation="" />
+	<label commandName="RepairBodyToRepairToolTip" devLabel="Select mesh body to repair." translation="" />
+	<label commandName="RepairDensityInput" devLabel="" translation="" />
+	<label commandName="RepairSelect" devLabel="Select mesh body to repair" translation="" />
+	<label commandName="RepairSolidAccurate" devLabel="Accurate" translation="" />
+	<label commandName="RepairSolidAccurateToolTip" devLabel="Rebuilds mesh body as accurately as possible." translation="" />
+	<label commandName="RepairSolidBlocky" devLabel="Blocky" translation="" />
+	<label commandName="RepairSolidBlockyToolTip" devLabel="Rebuilds mesh body in a blocky style." translation="" />
+	<label commandName="RepairSolidPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="" />
+	<label commandName="RepairSolidPreserveSharpEdgesToolTip" devLabel="Rebuilds mesh body while preserving sharp edges." translation="" />
+	<label commandName="RepairSolidTypeFast" devLabel="Fast" translation="" />
+	<label commandName="RepairSolidTypeFastToolTip" devLabel="Rebuilds mesh body quickly, but not accurately." translation="" />
+	<label commandName="RepairTypeDefault" devLabel="Stitch and Remove" translation="" />
+	<label commandName="RepairTypeDefaultToolTip" devLabel="Makes the same changes as Close Holes, and also stitches triangles, removes double triangles, removes degenerated faces, and removes tiny shells. (Fast)" translation="" />
+	<label commandName="RepairTypeExtended" devLabel="Wrap" translation="" />
+	<label commandName="RepairTypeExtendedToolTip" devLabel="Makes the same changes as Stitch and Remove, and also wraps the surface of the mesh body. All inner structures are destroyed. (Average)" translation="" />
+	<label commandName="RepairTypeSimple" devLabel="Close Holes" translation="" />
+	<label commandName="RepairTypeSimpleToolTip" devLabel="Makes the fewest number of changes to the mesh body. Fixes flipped triangles and closes holes. (Fastest)" translation="" />
+	<label commandName="ResetTransform" devLabel="Reset" translation="" />
+	<label commandName="ResetTransformToolTip" devLabel="Resets the default position settings for the mesh body." translation="" />
+	<label commandName="ReverseNormalsSelectTargetBody" devLabel="Select a mesh body, face groups or faces to reverse" translation="" />
+	<label commandName="SegmentationMethod" devLabel="Type" translation="" />
+	<label commandName="SegmentationMethodAccurate" devLabel="Accurate" translation="" />
+	<label commandName="SegmentationMethodAccurateToolTip" devLabel="Generates face groups by matching mesh faces to simple geometric primitives. Prioritizes accuracy over speed." translation="" />
+	<label commandName="SegmentationMethodFast" devLabel="Fast" translation="" />
+	<label commandName="SegmentationMethodFastToolTip" devLabel="Generates face groups based on an angle threshold between faces. Prioritizes speed over accuracy." translation="" />
+	<label commandName="SegmentationMethodToolTip" devLabel="" translation="" />
+	<label commandName="SelectBodiesToRemove" devLabel="Select bodies to remove" translation="" />
+	<label commandName="SelectTargetBody" devLabel="Select target body" translation="" />
+	<label commandName="SelectToolBodies" devLabel="Select bodies to combine with target body" translation="" />
+	<label commandName="SelectedBodiesToRemove" devLabel="Adjust selection set" translation="" />
+	<label commandName="SelectedToolBodies" devLabel="Adjust operation or selection set" translation="" />
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="" />
+	<label commandName="SelectionFilterToolTip" devLabel="Choose a geometry type to filter your selections in the canvas by type." translation="" />
+	<label commandName="SelectionType" devLabel="Selection Type" translation="" />
+	<label commandName="SelectionTypeToolTip" devLabel="Choose a selection method." translation="" />
+	<label commandName="SelfIntersection" devLabel="Self Intersections" translation="" />
+	<label commandName="SeperateTargetBody" devLabel="Select mesh body to separate" translation="" />
+	<label commandName="SeperateTargetFacegroups" devLabel="Select mesh face groups to separate" translation="" />
+	<label commandName="SeperateTargetFaces" devLabel="Select mesh faces to separate" translation="" />
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="" />
+	<label commandName="ShrinkMeshSelToolTip" devLabel="Decreases the boundary of the selection set." translation="" />
+	<label commandName="SmallComponentThreshold" devLabel="Small Shell Threshold" translation="" />
+	<label commandName="SmallComponentThresholdToolTip" devLabel="Specify the maximum size of small shells to repair." translation="" />
+	<label commandName="SmallShell" devLabel="Small Shells" translation="" />
+	<label commandName="SmoothPreviewInput" devLabel="Preview" translation="" />
+	<label commandName="SmoothPreviewInputToolTip" devLabel="Displays a preview of the smoothed mesh body in the canvas." translation="" />
+	<label commandName="SmoothSelectTargetBody" devLabel="Select mesh body or face groups to smooth" translation="" />
+	<label commandName="SmoothSelectTargetBodyFaces" devLabel="Select parts of mesh body to smooth" translation="" />
+	<label commandName="SmoothSelectedTargetBody" devLabel="Adjust smoothness" translation="" />
+	<label commandName="SmothnessInput" devLabel="" translation="" />
+	<label commandName="SolidType" devLabel="Rebuild Type" translation="" />
+	<label commandName="SolidTypeToolTip" devLabel="" translation="" />
+	<label commandName="SuccessfulSanityCheck" devLabel="Successful Sanity Check" translation="" />
+	<label commandName="SuccessfulSanityCheckTooltip" devLabel="Quick analysis succeeded. Check Detailed Analysis for a granular analysis of specific issues." translation="" />
+	<label commandName="SurfaceTolSlider" devLabel="" translation="" />
+	<label commandName="SurfaceTolSliderToolTip" devLabel="" translation="" />
+	<label commandName="SurfaceTolerance" devLabel="Surface Deviation" translation="" />
+	<label commandName="SurfaceToleranceToolTip" devLabel="Specify maximum distance between the surface of the original body and the surface of the mesh body." translation="" />
+	<label commandName="TSpline" devLabel="Form" translation="" />
+	<label commandName="TSplineToolTip" devLabel="" translation="" />
+	<label commandName="Target Body" devLabel="Target Body" translation="" />
+	<label commandName="Target BodyToolTip" devLabel="Select the target mesh body." translation="" />
+	<label commandName="TesselateSelectTargetBody" devLabel="Select a solid or surface body to tessellate" translation="" />
+	<label commandName="TesselateSelectedTargetBody" devLabel="Adjust refinement settings" translation="" />
+	<label commandName="Tool Bodies" devLabel="Tool Bodies" translation="" />
+	<label commandName="Tool BodiesToolTip" devLabel="Select mesh bodies to combine with the target body." translation="" />
+	<label commandName="TransformTriad" devLabel="Transform" translation="" />
+	<label commandName="TransformTriadToolTip" devLabel="" translation="" />
+	<label commandName="Triangle Warning" devLabel="&lt;b&gt;Warning&lt;/b&gt;: This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="" />
+	<label commandName="TriangleCount" devLabel="Triangle Count" translation="" />
+	<label commandName="TriangleCountToolTip" devLabel="Displays the total number of triangles that will be created on the new mesh body." translation="" />
+	<label commandName="TriangulateMesh" devLabel="Create Quads" translation="" />
+	<label commandName="TriangulateMeshToolTip" devLabel="Creates quad faces on the mesh body where possible." translation="" />
+	<label commandName="UnitsType" devLabel="Unit Type" translation="" />
+	<label commandName="UnitsTypeToolTip" devLabel="" translation="" />
+	<label commandName="UnsuccessfulSanityCheck" devLabel="Unsuccessful Sanity Check" translation="" />
+	<label commandName="UnsuccessfulSanityCheckTooltip" devLabel="Check Detailed Analysis for a granular analysis of specific issues." translation="" />
+	<label commandName="UpDirType" devLabel="Flip Up Direction" translation="" />
+	<label commandName="UpDirTypeToolTip" devLabel="Flips direction of Y and Z axes." translation="" />
+	<label commandName="Warning" devLabel="Warning" translation="" />
+	<label commandName="Yes" devLabel="Yes" translation="" />
+	<label commandName="allow_backface_facet_sel" devLabel="Select Back Faces" translation="" />
+	<label commandName="allow_backface_facet_selToolTip" devLabel="Sets whether to allow face selection from both sides." translation="" />
+	<label commandName="infoAdaptiveType" devLabel="Adaptive" translation="" />
+	<label commandName="infoAdaptiveTypeToolTip" devLabel="Creates smaller faces in areas of high detail and larger faces in areas of low detail." translation="" />
+	<label commandName="infoInspect" devLabel="Analyze" translation="" />
+	<label commandName="infoInspectToolTip" devLabel="" translation="" />
+	<label commandName="infoMeshingType" devLabel="Type" translation="" />
+	<label commandName="infoMeshingTypeToolTip" devLabel="" translation="" />
+	<label commandName="infoMethodOrganic" devLabel="Organic" translation="" />
+	<label commandName="infoMethodOrganicToolTip" devLabel="" translation="" />
+	<label commandName="infoMethodPrismatic" devLabel="Prismatic" translation="" />
+	<label commandName="infoMethodPrismaticToolTip" devLabel="Merges groups of faces in prismatic features into singular faces on the new solid or surface body. Face groups are used to infer prismatic features." translation="" />
+	<label commandName="infoMethodTriangleBased" devLabel="Faceted" translation="" />
+	<label commandName="infoMethodTriangleBasedToolTip" devLabel="Converts individual faces on the mesh body to individual faces on the new solid or surface body." translation="" />
+	<label commandName="infoPreview" devLabel="Preview" translation="" />
+	<label commandName="infoPreviewToolTip" devLabel="Displays a preview of the repaired mesh body." translation="" />
+	<label commandName="infoSelectDefect" devLabel="Select Defect" translation="" />
+	<label commandName="infoSelectDefectTitle" devLabel="Select Defect Title" translation="" />
+	<label commandName="infoSelectDefectTitleToolTip" devLabel="" translation="" />
+	<label commandName="infoSelectDefectToolTip" devLabel="" translation="" />
+	<label commandName="infoTargetFaceNumber" devLabel="Number Of Faces" translation="" />
+	<label commandName="infoTargetFaceNumberToolTip" devLabel="Specify the number of faces to generate for the converted body." translation="" />
+	<label commandName="infoTargetOrganicAccuracyExtreme" devLabel="Precise" translation="" />
+	<label commandName="infoTargetOrganicAccuracyExtremeToolTip" devLabel="Converts the body with the highest possible accuracy compared to the original mesh body. (Slowest)" translation="" />
+	<label commandName="infoTargetOrganicAccuracyHigh" devLabel="High" translation="" />
+	<label commandName="infoTargetOrganicAccuracyHighToolTip" devLabel="Converts the body with high accuracy compared to the original mesh body. (Average)" translation="" />
+	<label commandName="infoTargetOrganicAccuracyLow" devLabel="Low" translation="" />
+	<label commandName="infoTargetOrganicAccuracyLowToolTip" devLabel="Converts the body with low accuracy compared to the original mesh body. (Fastest)" translation="" />
+	<label commandName="infoTargetOrganicAccuracyMedium" devLabel="Medium" translation="" />
+	<label commandName="infoTargetOrganicAccuracyMediumToolTip" devLabel="Converts the body with medium accuracy compared to the original mesh body. (Fast)" translation="" />
+	<label commandName="infoUniformType" devLabel="Uniform" translation="" />
+	<label commandName="infoUniformTypeToolTip" devLabel="Creates faces of similar size in all areas." translation="" />
+	<label commandName="lclzMeshSelect" devLabel="Select" translation="" />
+	<label commandName="lclzParaMeshAdoptDesc1" devLabel="Converts a mesh body to a parametric mesh body." translation="" />
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc1" devLabel="Creates a mesh base feature that you can edit directly." translation="" />
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc2" devLabel="Select the mesh body to edit. A mesh base feature displays on the timeline and you can make local modifications to the mesh body without capturing the changes in the parametric history of the design." translation="" />
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTips" devLabel="Use the Direct Edit command to make local modifications to mesh bodies outside the parametric timeline of the design." translation="" />
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTitle" devLabel="Direct Edit Information" translation="" />
+	<label commandName="lclzParaMeshBaseFeatureStopDesc1" devLabel="Finish directly editing the mesh body and return to parametric modeling in the Design workspace." translation="" />
+	<label commandName="lclzParaMeshBaseFeatureTab" devLabel="Direct Mesh Editing" translation="" />
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc1" devLabel="Automatically generates face groups on a mesh body using the normal angles between faces to determine the boundaries of each face group." translation="" />
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select mesh bodies or face groups, select the generation method, then adjust the face opening angle, tolerance, and minimal area ratio." translation="" />
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="" />
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTips" devLabel="When you insert a mesh that has no face groups, use the &lt;b&gt;Fast&lt;/b&gt; generation method to generate an initial set of face groups on the mesh body. Then select specific sets of face groups and use the &lt;b&gt;Accurate&lt;/b&gt; generation method to capture detailed areas more accurately." translation="" />
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTitle" devLabel="Generate Face Groups Information" translation="" />
+	<label commandName="lclzParaMeshCombineDesc1" devLabel="Joins, intersects, cuts, or merges two or more mesh bodies to create a single mesh body." translation="" />
+	<label commandName="lclzParaMeshCombineDesc2" devLabel="Select the target body, select one or more tool bodies to combine with the target body, then select the operation to use to combine the bodies together." translation="" />
+	<label commandName="lclzParaMeshCombineTipsAndTricksDesc" devLabel="You can also choose to create a new component to contain the combined bodies or keep a copy of the original bodies." translation="" />
+	<label commandName="lclzParaMeshCombineTipsAndTricksTips" devLabel="Overlapping boundary edges are stitched." translation="" />
+	<label commandName="lclzParaMeshCombineTipsAndTricksTitle" devLabel="Combine Information" translation="" />
+	<label commandName="lclzParaMeshConvertDesc1" devLabel="Converts a mesh body to a solid or surface body." translation="" />
+	<label commandName="lclzParaMeshConvertDesc2" devLabel="Select the mesh body to convert, then select the operation and method. In the browser and the canvas, the mesh body converts to a solid or surface body. Face groups are used to infer prismatic features." translation="" />
+	<label commandName="lclzParaMeshConvertTipsAndTricksDesc" devLabel="If the mesh body is watertight, it coverts to a solid body. If the mesh is not watertight, it converts to a surface body." translation="" />
+	<label commandName="lclzParaMeshConvertTipsAndTricksTips" devLabel="Use the &lt;b&gt;Faceted&lt;/b&gt; operation to generate one face on the solid or surface body for each individual face on the mesh body. Use the &lt;b&gt;Prismatic&lt;/b&gt; operation to convert geometry originally created using solid or surface modeling tools. Use the &lt;b&gt;Organic&lt;/b&gt; operation to convert geometry originally created from scan data or organic modeling tools." translation="" />
+	<label commandName="lclzParaMeshConvertTipsAndTricksTitle" devLabel="Convert Mesh Information" translation="" />
+	<label commandName="lclzParaMeshCreate" devLabel="Create" translation="" />
+	<label commandName="lclzParaMeshCreateFaceGroupDesc1" devLabel="Creates a face group from a selection of faces on a mesh body." translation="" />
+	<label commandName="lclzParaMeshCreateFaceGroupDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select faces on a mesh body to include in the face group. Adjust the settings in the Mesh Selection Palette to refine the selection set." translation="" />
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTips" devLabel="You can select any faces on the same mesh body to include in the face group, even if they are not connected." translation="" />
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTitle" devLabel="Create Face Group Information" translation="" />
+	<label commandName="lclzParaMeshDemoteDesc1" devLabel="Converts a parametric mesh body to a mesh body." translation="" />
+	<label commandName="lclzParaMeshEmptyBaseFeatureDesc1" devLabel="Creates an empty Mesh Base Feature." translation="" />
+	<label commandName="lclzParaMeshEraseAndFillDesc1" devLabel="Removes and replaces faces on a mesh body to fill holes and repair regions." translation="" />
+	<label commandName="lclzParaMeshEraseAndFillDesc2" devLabel="Select the boundary of faces around a hole to fill, or select the faces of a region to remove and replace." translation="" />
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksDesc" devLabel="Use the Uniform type to achieve the smoothest and most usable result. Use the Minimal type to reduce the number of triangles on the mesh body, but note the long, thin triangular faces may be more difficult to work with downstream." translation="" />
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTips" devLabel="Hover over a face along the boundary of a hole in the mesh body, then double-click to select all the faces along the edge of the boundary and fill the hole." translation="" />
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTitle" devLabel="Erase And Fill Information" translation="" />
+	<label commandName="lclzParaMeshExport" devLabel="Export" translation="" />
+	<label commandName="lclzParaMeshExtractDesc1" devLabel="Separates regions of a mesh body into independent mesh bodies." translation="" />
+	<label commandName="lclzParaMeshExtractDesc2" devLabel="Select a separation type, then select a mesh body or face groups to separate into individual bodies." translation="" />
+	<label commandName="lclzParaMeshExtractTipsAndTricksDesc" devLabel="You can keep a copy of the original mesh body or choose to replace it." translation="" />
+	<label commandName="lclzParaMeshExtractTipsAndTricksTips" devLabel="After you generate face groups on a mesh body, use Separate to split features or regions into independent mesh bodies to make it easier to work with them." translation="" />
+	<label commandName="lclzParaMeshExtractTipsAndTricksTitle" devLabel="Separate Information" translation="" />
+	<label commandName="lclzParaMeshGenerateFaceGroupTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="" />
+	<label commandName="lclzParaMeshHollowDesc1" devLabel="Hollows the interior of a mesh body." translation="" />
+	<label commandName="lclzParaMeshHollowDesc2" devLabel="Select a mesh body, then adjust the direction and thickness to hollow the interior volume." translation="" />
+	<label commandName="lclzParaMeshHollowTipsAndTricksTips" devLabel="You can use the Shell command to hollow a mesh body and significantly reduce the amount of print material, time, and cost required for 3D printing." translation="" />
+	<label commandName="lclzParaMeshHollowTipsAndTricksTitle" devLabel="Shell Information" translation="" />
+	<label commandName="lclzParaMeshInsertAlignDesc1" devLabel="Inserts an existing STL, OBJ, or 3MF file as a mesh body into the active component in a design." translation="" />
+	<label commandName="lclzParaMeshInsertAlignDesc2" devLabel="Select a file to insert. The contents of the file displays as a mesh body in the canvas and the browser." translation="" />
+	<label commandName="lclzParaMeshInsertAlignDesc3" devLabel="For STL or OBJ files, select the unit type that matches the units from the original design that generated the STL or OBJ." translation="" />
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTips" devLabel="If you insert an OBJ or 3MF file with existing textures, they will display on the mesh body in the canvas. Turn off the Mesh Display &gt; Face Groups display setting to see the textures on the mesh body." translation="" />
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTitle" devLabel="Insert Mesh Information" translation="" />
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc1" devLabel="Combines two or more adjacent face groups on a mesh body." translation="" />
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select two or more adjacent face groups on the mesh body to combine them." translation="" />
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="" />
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTips" devLabel="You can combine two or more face groups on a mesh body as long as they share a common edge." translation="" />
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTitle" devLabel="Combine Face Groups Information" translation="" />
+	<label commandName="lclzParaMeshModify" devLabel="Modify" translation="" />
+	<label commandName="lclzParaMeshOuterTab" devLabel="Mesh" translation="" />
+	<label commandName="lclzParaMeshPlanarSectionDesc1" devLabel="Creates a sketch that contains a section line where a plane intersects a mesh body." translation="" />
+	<label commandName="lclzParaMeshPlanarSectionDesc2" devLabel="Select a mesh body, select a plane, then adjust the location of the section line. Edit the sketch and use the Fit Curves To Mesh Section command to create sketch geometry to match the section line." translation="" />
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTips" devLabel="Create a series of mesh section sketches to reverse-engineer complex mesh bodies. Edit each section sketch and use the Fit Curves To Mesh Section command to generate a series of sketch profiles. You can use the sketch profiles to create parametric solid and surface bodies to recreate the design." translation="" />
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTitle" devLabel="Create Mesh Section Sketch Information" translation="" />
+	<label commandName="lclzParaMeshPlaneCutDesc1" devLabel="Uses a plane to trim or split a mesh body." translation="" />
+	<label commandName="lclzParaMeshPlaneCutDesc2" devLabel="Select a mesh body, then select and position the cutting plane. The cut can trim the body, split the body into multiple bodies, or split the faces only. For the Trim and Split Body cut types, select a fill type to generate watertight bodies." translation="" />
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksDesc" devLabel="Adjust the Fill Type to either leave a mesh open or close the mesh body after you cut it. You can fill the voids that the cut plane leaves behind with either uniform or minimal mesh faces." translation="" />
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTips" devLabel="Use the Plane Cut command to slice a mesh body along a plane and either trim away one side of the body, split the mesh body into two separate bodies, or slice the mesh faces but leave the mesh body whole." translation="" />
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTitle" devLabel="Plane Cut Information" translation="" />
+	<label commandName="lclzParaMeshPrepare" devLabel="Prepare" translation="" />
+	<label commandName="lclzParaMeshReduceDesc1" devLabel="Reduces the number of faces on a mesh body to minimize complexity." translation="" />
+	<label commandName="lclzParaMeshReduceDesc2" devLabel="Select a mesh body or face groups, select a reduction target, then adjust the settings to reduce the number of mesh faces." translation="" />
+	<label commandName="lclzParaMeshReduceTipsAndTricksDesc" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="" />
+	<label commandName="lclzParaMeshReduceTipsAndTricksTips" devLabel="Use the Tolerance reduction type to reduce complexity and improve computational performance while working with the mesh. The Tolerance reduction type merges faces while remaining within a maximum deviation from the original mesh shape." translation="" />
+	<label commandName="lclzParaMeshReduceTipsAndTricksTitle" devLabel="Reduce Information" translation="" />
+	<label commandName="lclzParaMeshRemeshDesc1" devLabel="Refines or coarsens faces on a mesh body or face groups." translation="" />
+	<label commandName="lclzParaMeshRemeshDesc2" devLabel="Select a mesh body or face groups on a mesh body, then adjust the settings to regenerate the mesh faces." translation="" />
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTips" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="" />
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTitle" devLabel="Remesh Information" translation="" />
+	<label commandName="lclzParaMeshRemoveDesc1" devLabel="Remove meshes" translation="" />
+	<label commandName="lclzParaMeshRemoveDesc2" devLabel="Select the mesh bodies to be removed. For every mesh which is removed, a feature appears in the timeline. The removal can be, in contrast to delete, be undone and meshes can be restored parametrically." translation="" />
+	<label commandName="lclzParaMeshRepairDesc1" devLabel="Repairs a mesh body to prepare it for further design and manufacturing operations." translation="" />
+	<label commandName="lclzParaMeshRepairDesc2" devLabel="Select a mesh body to repair, then select a repair type. For the Rebuild repair type, select a rebuild type, then adjust density and offset." translation="" />
+	<label commandName="lclzParaMeshRepairTipsAndTricksDesc" devLabel="Use the Repair command to fix errors in a mesh body to prepare it for further design and manufacturing operations. Errors may include holes in the mesh body or suboptimal arrangement, orientation, or intersection of triangles in the mesh body." translation="" />
+	<label commandName="lclzParaMeshRepairTipsAndTricksTips" devLabel="Use the &lt;b&gt;Close Holes&lt;/b&gt; or &lt;b&gt;Stitch and Remove&lt;/b&gt; repair types for faster results and fewer changes to the mesh body. For more complex repairs, use the &lt;b&gt;Wrap&lt;/b&gt; or &lt;b&gt;Rebuild&lt;/b&gt; repair types, but keep in mind that these will take longer to compute and will make more significant changes to the mesh body." translation="" />
+	<label commandName="lclzParaMeshRepairTipsAndTricksTitle" devLabel="Repair Information" translation="" />
+	<label commandName="lclzParaMeshReverseNormalsDesc1" devLabel="Reverses the normal direction of selected faces on a mesh body." translation="" />
+	<label commandName="lclzParaMeshReverseNormalsDesc2" devLabel="Select faces on a mesh body to reverse their normal direction." translation="" />
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTips" devLabel="Some faces on imported mesh bodies may be oriented incorrectly, and the Reverse Normal command lets you orient those faces correctly in a targeted way." translation="" />
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTitle" devLabel="Reverse Normal Information" translation="" />
+	<label commandName="lclzParaMeshScaleDesc1" devLabel="Scales mesh bodies from a reference point." translation="" />
+	<label commandName="lclzParaMeshScaleDesc2" devLabel="Select mesh bodies, select a reference point to scale from and a scale type, then specify the scale factor to scale the mesh bodies." translation="" />
+	<label commandName="lclzParaMeshScaleTipsAndTricksDesc" devLabel="Select multiple mesh bodies to scale them all at once from a common reference point." translation="" />
+	<label commandName="lclzParaMeshScaleTipsAndTricksTips" devLabel="Use the Nonuniform scale type to scale mesh bodies by a different scale factor along the X, Y, and Z axes." translation="" />
+	<label commandName="lclzParaMeshScaleTipsAndTricksTitle" devLabel="Scale Mesh Information" translation="" />
+	<label commandName="lclzParaMeshSmoothDesc1" devLabel="Smooths rough or creased regions on a mesh body." translation="" />
+	<label commandName="lclzParaMeshSmoothDesc2" devLabel="Select a mesh body or face groups, select a smoothing type, then adjust the smoothness and scale to smooth rough or creased regions." translation="" />
+	<label commandName="lclzParaMeshSmoothTipsAndTricksDesc" devLabel="Use the Smooth command to soften rough areas or sharp creases on a mesh body." translation="" />
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTips" devLabel="Specify Smoothness on a scale from 0-1.00, where 0 applies minimal smoothing effects to the mesh body and 1.00 applies maximum smoothing effects." translation="" />
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTitle" devLabel="Smooth Information" translation="" />
+	<label commandName="lclzParaMeshTessellateDesc1" devLabel="Converts an existing solid or surface body into a mesh body." translation="" />
+	<label commandName="lclzParaMeshTessellateDesc2" devLabel="Select the solid or surface body to tessellate, then adjust the mesh refinement settings to convert the body to a mesh body." translation="" />
+	<label commandName="lclzParaMeshTessellateTipsAndTricksDesc" devLabel="Start with one of the Refinement presets, then customize the refinement settings to fine-tune the result before you complete the tessellation." translation="" />
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTips" devLabel="Check the Preview setting to see what the new mesh body will look like as you adjust the Refinement Settings." translation="" />
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTitle" devLabel="Tesselate Information" translation="" />
+	<label commandName="lclzParaMeshToQuadMeshDesc1" devLabel="Converts a mesh body or face groups with triangular faces to a mesh body or face groups with quad faces." translation="" />
+	<label commandName="lclzParaMeshToQuadMeshDesc2" devLabel="Select a mesh body or face groups, select an output type, then adjust the settings to convert from triangular to quad faces." translation="" />
+	<label commandName="lclzStopMeshBaseFeature" devLabel="Finish direct editing" translation="" />
+	<label commandName="targetOrganicEdgeAccuracy" devLabel="By Accuracy" translation="" />
+	<label commandName="targetOrganicEdgeAccuracyToolTip" devLabel="Creates a solid or surface body that matches the shape of the original mesh body more or less accurately, based on the resolution you select." translation="" />
+	<label commandName="targetOrganicFaceNumber" devLabel="By Face Number" translation="" />
+	<label commandName="targetOrganicFaceNumberToolTip" devLabel="Creates solid or surface body with a specific number of faces." translation="" />
+	<label commandName="tolerance" devLabel="Tolerance" translation="" />
+	<label commandName="toleranceToolTip" devLabel="Specify the maximum percentage deviation of the reduced mesh from the original mesh shape." translation="" />
+	<label commandName="triCount" devLabel="Face Count" translation="" />
+	<label commandName="triCountToolTip" devLabel="Reduces mesh to a specific number of faces." translation="" />
+</Resource>

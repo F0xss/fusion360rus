@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CreatePDFOutputConfigError" devLabel="Error when create AcCoreConsole script file for output pdf!" translation="Wystąpił błąd podczas tworzenia pliku skryptu AcCoreConsole dla wyjściowego pliku pdf!"/>
+	<label commandName="DrawingFileFilterDescription" devLabel="DWG Files (*.dwg);;PDF Files (*.pdf)" translation="Pliki DWG (*.dwg);;Pliki PDF (*.pdf)"/>
+	<label commandName="FindAcCoreConsoleError" devLabel="Cannot located AcCoreConsole application!" translation="Nie można zlokalizować aplikacji AcCoreConsole!"/>
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.13mm" translation="0,13 mm"/>
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.18mm" translation="0,18 mm"/>
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.25mm" translation="0,25 mm"/>
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.35mm" translation="0,35 mm"/>
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.5mm" translation="0,5 mm"/>
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.7mm" translation="0,7 mm"/>
+	<label commandName="FusDocCustomLineWidth7" devLabel="1.0mm" translation="1,0 mm"/>
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0,07 cala"/>
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0,1 cala"/>
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0,12 cala"/>
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0,24 cala"/>
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0,35 cala"/>
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0,5 cala"/>
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0,75 cala"/>
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1,8 mm"/>
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2,5 mm"/>
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3,5 mm"/>
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5 mm"/>
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7 mm"/>
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10 mm"/>
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14 mm"/>
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20 mm"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Dziesiętne"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Ułamkowo"/>
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Inżynierski"/>
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Architektoniczny"/>
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Duże"/>
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Średnie"/>
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Małe"/>
+</Resource>

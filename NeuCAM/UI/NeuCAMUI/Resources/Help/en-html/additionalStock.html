@@ -1,0 +1,22 @@
+<div id="additionalStock"><p>An estimated value used to produce a safer order of machining passes between two nearby steep walls when <b>Steep first</b> is selected as <b>Priority</b>.</p>
+<p>When uneven stock material remains from a previous operation between two steep walls, cutting to a large depth on just one of the steep walls creates a heavy load on the tool as it interacts with left-over material around it. It is better to cut alternately between the two steep walls to avoid damaging the tool.</p>
+<p><b>Maximum Remaining Stock</b> is used to reorder the toolpath such that two steep walls near each other are machined at the same Z-level before proceeding to the next Z-level.</p>
+<p>Estimate a value that is greater than the distance between toolpath segments around both walls. The tool and model geometry affects when and where the reordering takes place.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="136" src="../images/Max_remaining_stock_2mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximum Remaining Stock = 2mm</b><br>
+Steep walls are machined exclusively.</p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="133" src="../images/Max_remaining_stock_4mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximum Remaining Stock = 4mm</b><br>
+Steep walls are machined simultaneously.</p></center></td>
+</tr></table>
+<p>In this example, changing the Maximum Remaining Stock value from 2 mm to 4 mm reorders the machining passes.</p>
+<p>Note: If no Maximum Remaining Stock value is entered, a default minimum value of 10% of the tool<span>&#39;</span>s radius is used.</p>
+</div>

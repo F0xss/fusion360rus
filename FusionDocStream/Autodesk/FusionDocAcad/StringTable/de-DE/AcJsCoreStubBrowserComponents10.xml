@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_ASYNC_FUNCTION" devLabel="Function must be called asynchronously" translation="Funktion muss asynchron aufgerufen werden"/>
+	<label commandName="IDS_COMMAND_LINE_BUSY" devLabel="Busy processing previous command" translation="Ausgelastet mit Verarbeitung von vorherigem Befehl"/>
+	<label commandName="IDS_CREATE_JIG_ERROR" devLabel="Failed to create a new instance of jig" translation="Es konnte keine neue Instanz der Vorschaugrafik erstellt werden"/>
+	<label commandName="IDS_GET_CURGSVIEW_ERROR" devLabel="Failed to get current viewport" translation="Fehler beim Abrufen des aktuellen Ansichtsfensters"/>
+	<label commandName="IDS_GET_DRAWABLE_ERROR" devLabel="Failed to get transient drawable object" translation="Fehler beim Abrufen des temporären Zeichnungsobjekts"/>
+	<label commandName="IDS_GET_SYSVAR_ERROR" devLabel="Failed to get system variable" translation="Fehler beim Abrufen der Systemvariablen"/>
+	<label commandName="IDS_INVALID_INPUT_ARGUMENTS" devLabel="Invalid arguments" translation="Ungültige Argumente"/>
+	<label commandName="IDS_INVALID_TOOLTIP_ID" devLabel="Invalid tooltip ID" translation="Ungültige QuickInfo-ID"/>
+	<label commandName="IDS_INVALID_TRANSIENT_ID" devLabel="Invalid Transient ID" translation="Ungültige transiente ID"/>
+	<label commandName="IDS_JIGPROMPT_SET_ERROR" devLabel="Jig prompt option has already been set" translation="Eingabeaufforderungsoption für Vorschaugrafik wurde bereits festgelegt"/>
+	<label commandName="IDS_NATIVE_FUNCTION_ERROR" devLabel="Failed to execute function" translation="Fehler beim Ausführen der Funktion"/>
+	<label commandName="IDS_NODOCUMENT" devLabel="No current document" translation="Kein aktuelles Dokument"/>
+	<label commandName="IDS_NONE" devLabel="NONE" translation="KEINE"/>
+	<label commandName="IDS_NOTAVAILABLE_IN_LOCKED_VP" devLabel="View change not available in locked viewport." translation="In gesperrten Ansichtsfenstern ist keine Ansichtsänderung verfügbar."/>
+	<label commandName="IDS_NOTSUPPORTED_IN_PAPERSPACE" devLabel="Not supported in paper space" translation="Im Papierbereich nicht unterstützt"/>
+	<label commandName="IDS_SUCCESS" devLabel="Success" translation="Erfolg"/>
+	<label commandName="IDS_SYNC_FUNCTION" devLabel="Function must be called synchronously" translation="Funktion muss synchron aufgerufen werden"/>
+	<label commandName="IDS_UNKNOWN_CALLBACK_NAME" devLabel="Unknown registered callback function name" translation="Unbekannter Funktionsname für registrierte Rückmeldung"/>
+	<label commandName="IDS_UNKNOWN_COMPLETE_CALLBACK" devLabel="Undefined complete callback" translation="Nicht definierte abgeschlossene Rückmeldung"/>
+	<label commandName="IDS_UNKNOWN_ERROR" devLabel="Unknown error" translation="Unbekannter Fehler"/>
+	<label commandName="IDS_UNKNOWN_ERROR_CALLBACK" devLabel="Undefined error callback" translation="Nicht definierte Fehlerrückmeldung"/>
+	<label commandName="IDS_UNKNOWN_FUNCTION_NAME" devLabel="Undefined function name" translation="Nicht definierter Funktionsname"/>
+	<label commandName="IDS_UNLOAD_ERROR" devLabel="Failed to unload" translation="Fehler beim Entfernen"/>
+	<label commandName="IDS_UNSUPPORTED_SYSVAR_VALUE_TYPE" devLabel="Unsupported system variable value type" translation="Werttyp für Systemvariable nicht unterstützt"/>
+	<label commandName="IDS_WEBLOAD_APP_NOT_FOUND" devLabel="Application not found" translation="Anwendung nicht gefunden"/>
+	<label commandName="IDS_WEBLOAD_ENTER_OPTION" devLabel="Enter an option [Load/Unload/?]" translation="Option eingeben [Laden/Entfernen/?]"/>
+	<label commandName="IDS_WEBLOAD_ENTER_UNLOAD_URL" devLabel="Enter javascript URL to unload" translation="Zu entfernende Javascript-URL eingeben"/>
+	<label commandName="IDS_WEBLOAD_ENTER_URL" devLabel="Enter javascript URL to load" translation="Zu ladende Javascript-URL eingeben"/>
+	<label commandName="IDS_WEBLOAD_LOADED_JS_FILES" devLabel="Loaded JavaScript Files" translation="Geladene JavaScript-Dateien"/>
+</Resource>

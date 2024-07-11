@@ -1,0 +1,12 @@
+<div id="smoothingFilter"><p>Smooths the toolpath by removing excessive points and fitting arcs where possible within the given filtering tolerance.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="200" src="../images/SmoothingOff.png"/></center></td>
+<td><center><img border="0" width="200" height="200" src="../images/SmoothingOn.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Smoothing Off</b></p></center></td>
+<td><center><p><b>Smoothing On</b></p></center></td>
+</tr></table>
+<p>Smoothing is used to reduce code size without sacrificing accuracy. Smoothing works by replacing collinear lines with one line and tangent arcs to replace multiple lines in curved areas.</p>
+<p>The effects of smoothing can be dramatic. G-code file size may be reduced by as much as 50% or more. The machine will run faster and more smoothly and surface finish improves. The amount of code reduction depends on how well the toolpath lends itself to smoothing. Toolpaths that lay primarily in a major plane (XY, XZ, YZ), like parallel paths, filter well. Those that do not, such as 3D Scallop, are reduced less.</p>
+</div>

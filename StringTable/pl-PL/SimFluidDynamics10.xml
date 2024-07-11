@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="SimAmbientTemperatureHigherThanCritical" devLabel="Warning: The ambient temperature is higher than the temperature threshold." translation="Ostrzeżenie: Temperatura otoczenia jest wyższa niż próg temperatury."/>
+	<label commandName="SimAmbientTemperatureName" devLabel="Ambient Temperature" translation="Temperatura otoczenia"/>
+	<label commandName="SimAmbientTemperatureValue" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimCallAmbientTemperaturesAttribute" devLabel="Click here to select Ambient Temperature." translation="Kliknij tutaj, aby wybrać temperaturę otoczenia."/>
+	<label commandName="SimCallCriticalTemperaturesAttribute" devLabel="Click here to set Temperature thresholds." translation="Kliknij tutaj, aby ustawić progi temperatury."/>
+	<label commandName="SimCallFDInternalHeatAttribute" devLabel="Click here to select 'Thermal Load'." translation="Kliknij tutaj, aby wybrać opcję „Obciążenie termiczne”."/>
+	<label commandName="SimCallFanAttribute" devLabel="Click here to select 'Fan'." translation="Kliknij tutaj, aby wybrać opcję „Wentylator”."/>
+	<label commandName="SimCallShowAttributesDlg" devLabel="Click here to inspect all loads in this case." translation="Kliknij tutaj, aby sprawdzić wszystkie obciążenia w tym przypadku."/>
+	<label commandName="SimCaseIsMissing" devLabel="Simulation Study is missing" translation="Brak badania symulacyjnego"/>
+	<label commandName="SimCaseNameFluidDynamics" devLabel="Study %1% - Electronics Cooling" translation="Badanie %1% — chłodzenie elektroniki"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimCriticalTemperatureInitialTemperatureValue" devLabel="InitialTemperatureValue" translation="Wartość temperatury początkowej"/>
+	<label commandName="SimCriticalTemperatureName" devLabel="Thresholds" translation="Progi"/>
+	<label commandName="SimCriticalTemperatureValue" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimFDHeatAndFanAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the fan bodies %1%%2%." translation="Nie można rozwiązać: obciążenie cieplne zostało przypisane do brył wentylatora %1%%2%."/>
+	<label commandName="SimFDHeatAndHeatSinkAssignedToSamePart" devLabel="Cannot solve: A heat load has been assigned to the heat sink bodies %1%%2%." translation="Nie można rozwiązać: obciążenie cieplne zostało przypisane do brył radiatorów %1%%2%."/>
+	<label commandName="SimFDHeatSinkAndFanAssignedToSamePart" devLabel="Cannot solve: A fan has been assigned to the heat sink bodies %1%%2%." translation="Nie można rozwiązać: wentylator został przypisany do brył radiatorów %1%%2%."/>
+	<label commandName="SimFDMultipleFansAssignedToSamePart" devLabel="Cannot solve: Multiple fans had been assigned to %1%%2%." translation="Nie można rozwiązać: wiele wentylatorów zostało przypisanych do %1%%2%."/>
+	<label commandName="SimFDMultipleHeatSinksAssignedToSamePart" devLabel="Cannot solve: Multiple heat sinks had been assigned to %1%%2%." translation="Nie można rozwiązać: do %1%%2% przypisano wiele radiatorów."/>
+	<label commandName="SimFailedToCreaterCriticalTemperature" devLabel="Failed to create the temperature threshold" translation="Nie można utworzyć progu temperatury"/>
+	<label commandName="SimFanAttributeName" devLabel="Fan" translation="Wentylator"/>
+	<label commandName="SimFluidDynamics" devLabel="Electronics Cooling" translation="Chłodzenie elektroniki"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsAnalysisType" devLabel="Analysis Type" translation="Typ analizy"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxMin" devLabel="Bounding Box Extension Minimal Voxel Count" translation="Minimalna liczba wokseli przedłużenia ramki ograniczającej"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxPercent" devLabel="Bounding Box Extension Percentage" translation="Procent przedłużenia ramki ograniczającej"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsBoundingBoxType" devLabel="Bounding Box Extension Type" translation="Typ przedłużenia ramki ograniczającej"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsNumberOfIterations" devLabel="Number of Iterations" translation="Liczba iteracji"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsResolution" devLabel="Resolution" translation="Rozdzielczość"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsResolutionType" devLabel="Resolution Type" translation="Typ rozwiązania"/>
+	<label commandName="SimFluidDynamicsGeneralSettingsUseGPU" devLabel="Use GPU" translation="Użyj procesora graficznego"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Addytywne"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Wszystkie metody"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Skrawanie 2-osiowe"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Odlewanie"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Frezowanie"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Nieograniczone"/>
+	<label commandName="SimGeometrySimplifierFlag" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimHeatSinkAttributeName" devLabel="Heat Sink" translation="Radiator"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimInternalHeatAttributeNegative" devLabel="Cannot solve: Heat loads must be positive%1%." translation="Nie można rozwiązać: obciążenia cieplne muszą być dodatnie%1%."/>
+	<label commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="Ostrzeżenie: nieprawidłowe obciążenie: %1%%2%."/>
+	<label commandName="SimLoadCaseString" devLabel=" in &quot;%1%&quot;" translation=" w „%1%”"/>
+	<label commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="Ostrzeżenie: obciążenie z utraconymi obiektami docelowymi: %1%%2%."/>
+	<label commandName="SimNoCriticalTemperaturesDefined" devLabel="Warning: No Temperature thresholds are listed. The Threshold result cannot be calculated without Temperature threshold values." translation="Ostrzeżenie: Brak progów temperatury. Nie można obliczyć wartości progowych bez wartości progowych temperatury."/>
+	<label commandName="SimNoFDInternalHeatAttribute" devLabel="Cannot solve: There has to be a Heat load assigned %1%." translation="Nie można rozwiązać: Musi być przypisane obciążenie cieplne %1%."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSelectionIsMissing" devLabel="Missing selection" translation="Brak wyboru"/>
+	<label commandName="SimSelectionReference" devLabel="Selection Reference" translation="Odniesienie wyboru"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procentowo"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+</Resource>

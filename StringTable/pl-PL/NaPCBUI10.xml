@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="3D PCB Environment" devLabel="3D PCB" translation="Płytka PCB 3D"/>
+	<label commandName="3DPCBTypeCanvas" devLabel="Canvas" translation="Obszar rysunku"/>
+	<label commandName="3DPCBTypeComplete" devLabel="Complete 3D" translation="Kompletna 3D"/>
+	<label commandName="3DPCBTypeInput" devLabel="3D PCB Type" translation="Typ płytki PCB 3D"/>
+	<label commandName="3DPCBTypeSimple" devLabel="Simple 3D" translation="Prosta 3D"/>
+	<label commandName="ChooseEagleProfile" devLabel="Choose EAGLE Board Shape" translation="Wybierz kształt płytki EAGLE"/>
+	<label commandName="ChooseFusionProfile" devLabel="Choose Fusion Board Shape" translation="Wybierz kształt płytki Fusion"/>
+	<label commandName="Create Hole on Board" devLabel="PCBHole" translation="Otwór w płytce PCB"/>
+	<label commandName="Create PCB" devLabel="Create Independent PCB" translation="Utwórz niezależną płytkę PCB"/>
+	<label commandName="Create PCB Document" devLabel="New 3D PCB" translation="Nowa płytka PCB 3D"/>
+	<label commandName="Create PCB Workspace" devLabel="Create PCB" translation="Utwórz płytkę PCB"/>
+	<label commandName="CreatePCBCircNPTHInput" devLabel="Convert Circles to NPTHs" translation="Przekształć okręgi na otwory NPT"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="CreatePCBNPTHDiameterInput" devLabel="Max NPTH Diameter" translation="Maksymalna średnica otworu NPT"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="DerivePCBProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="DerivePCBXDirRefInput" devLabel="X Axis" translation="Oś X"/>
+	<label commandName="Edit PCB Board" devLabel="Edit Board" translation="Edytuj płytkę"/>
+	<label commandName="EnterIntoPCBEnvironment" devLabel="You have entered into the PCB Mechanical Environment." translation="Otwarto środowisko mechaniczne płytki PCB."/>
+	<label commandName="FusionMovePCBComponent" devLabel="Hold SHIFT while moving to snap to grid" translation="Przytrzymaj naciśnięty klawisz SHIFT podczas przesuwania, aby przyciągnąć do siatki"/>
+	<label commandName="FusionPCB3DFlipComponent" devLabel="Flip 3D PCB Component" translation="Odwróć komponent płytki PCB 3D"/>
+	<label commandName="FusionPCBActivate" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="FusionPCBFlipComponent" devLabel="Flip Component" translation="Odwróć komponent"/>
+	<label commandName="FusionPCBStop" devLabel="Finish PCB" translation="Zakończ płytkę PCB"/>
+	<label commandName="FusionPCBUpdateDocument" devLabel="Update 3D PCB" translation="Aktualizuj płytkę PCB 3D"/>
+	<label commandName="FusionSelectDeriveProfileError" devLabel="Can't select 3d sketch to derive" translation="Nie można wybrać szkicu 3D do wyprowadzenia"/>
+	<label commandName="FusionSelectFaceForHole" devLabel="Select face to locate hole" translation="Wybierz powierzchnię, aby zlokalizować otwór"/>
+	<label commandName="FusionSelectOriginRefPCBDefineBoard" devLabel="Select sketch point for PCB board origin reference" translation="Wybierz punkt szkicu jako odniesienie początku płytki PCB"/>
+	<label commandName="FusionSelectPCBComponent" devLabel="Select PCB components" translation="Wybierz komponenty płytki PCB"/>
+	<label commandName="FusionSelectPCBComponentBodyEdit" devLabel="Select Body from PCB component" translation="Wybierz bryłę z komponentu płytki PCB"/>
+	<label commandName="FusionSelectPCBComponentEdit" devLabel="Select a PCB component" translation="Wybierz komponent płytki PCB"/>
+	<label commandName="FusionSelectProfileCreatePCB" devLabel="Select sketch profile(s) for PCB" translation="Wybierz profile szkicu dla płytki PCB"/>
+	<label commandName="FusionSelectProfileDerivePCB" devLabel="Select sketch profile(s) for PCB" translation="Wybierz profile szkicu dla płytki PCB"/>
+	<label commandName="FusionSelectProfileError" devLabel="Can't select 3d sketch to create PCB" translation="Nie można wybrać szkicu 3D do utworzenia płytki PCB"/>
+	<label commandName="FusionSelectProfilePCBDefineBoard" devLabel="Select sketch profile(s) and origin for PCB" translation="Wybierz profile szkicu i początek dla płytki PCB"/>
+	<label commandName="FusionSelectProfilePCBEditBoard" devLabel="Select sketch profile for PCB" translation="Wybierz profil szkicu dla płytki PCB"/>
+	<label commandName="FusionSelectReferencesForHole" devLabel="Select linear or circular reference edges to fully define hole location" translation="Wybierz liniowe lub kołowe krawędzie odniesienia, aby w pełni zdefiniować położenie otworu"/>
+	<label commandName="FusionSelectSingleForHole" devLabel="Select face to locate hole" translation="Wybierz powierzchnię, aby zlokalizować otwór"/>
+	<label commandName="FusionSelectXDirPointRefPCBDefineBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="Wybierz linię szkicu do ustawienia orientacji osi pomocniczej płytki"/>
+	<label commandName="FusionSelectXDirPointRefPCBEditBoard" devLabel="Select Sketch Line for board secondary axis orientation" translation="Wybierz linię szkicu do ustawienia orientacji osi pomocniczej płytki"/>
+	<label commandName="InvalidProfileSelection" devLabel="The selected profiles must be able to be merged into single one!" translation="Wybrane profile muszą umożliwiać scalenie ich w jeden!"/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Tworzony obiekt nie jest widoczny. Przełącz widoczność w przeglądarce."/>
+	<label commandName="MissingExtrudeProfile" devLabel="Missing profiles" translation="Brak profili"/>
+	<label commandName="MissingHoleOrigin" devLabel="missing face" translation="brak powierzchni"/>
+	<label commandName="MissingPCBAxis" devLabel="Missing axis" translation="Niewłaściwa oś"/>
+	<label commandName="MissingPCBOrigin" devLabel="Missing origin" translation="Brak początku"/>
+	<label commandName="Move 3D PCB components" devLabel="Move 3D PCB Component" translation="Przesuń komponent płytki PCB 3D"/>
+	<label commandName="Move PCB component Body" devLabel="Move PCB Component body" translation="Przesuń bryłę komponentu płytki PCB"/>
+	<label commandName="Move PCB components" devLabel="Move PCB Components" translation="Przesuń komponenty płytki PCB"/>
+	<label commandName="MoveAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="MoveMethodFreeMove" devLabel="Free Move" translation="Przesunięcie swobodne"/>
+	<label commandName="MoveMethodPoint2Point" devLabel="Point to Point" translation="Punkt-punkt"/>
+	<label commandName="MoveMethodRotate" devLabel="Rotate" translation="Obrót"/>
+	<label commandName="MoveMethodType" devLabel="Move Type" translation="Typ przesunięcia"/>
+	<label commandName="MoveP2POrigin" devLabel="Origin Point" translation="Punkt początkowy"/>
+	<label commandName="MoveP2POriginPrompt" devLabel="Select first point" translation="Wybierz pierwszy punkt"/>
+	<label commandName="MoveP2PTarget" devLabel="Target Point" translation="Punkt celu"/>
+	<label commandName="MoveP2PTargetPrompt" devLabel="Select second point" translation="Wybierz drugi punkt"/>
+	<label commandName="MoveRotateAxis" devLabel="Axis" translation="Oś"/>
+	<label commandName="PCB Environment" devLabel="PCB" translation="Płytka PCB"/>
+	<label commandName="PCB Profile" devLabel="PCB Profile" translation="Profil płytki PCB"/>
+	<label commandName="PCB Sketch" devLabel="Edit EAGLE Profile" translation="Edytuj profil EAGLE"/>
+	<label commandName="PCB3DBoardOutlineEditCommand" devLabel="Edit Sketch" translation="Edycja szkicu"/>
+	<label commandName="PCBConstruction" devLabel="Construction" translation="Konstrukcyjna"/>
+	<label commandName="PCBCreateCmdFlipXAxis" devLabel="Flip X Axis" translation="Odwróć oś X"/>
+	<label commandName="PCBCreateCmdFlipYAxis" devLabel="Flip Y Axis" translation="Odwróć oś Y"/>
+	<label commandName="PCBCreateCmdFlipZAxis" devLabel="Flip Z Axis" translation="Odwróć oś Z"/>
+	<label commandName="PCBCreateLimitText" devLabel="The maximum number of PCBs within a Design, %1%, has been reached.&#xA;PCBs can be inserted from other Designs." translation="Osiągnięto maksymalną liczbę %1% płytek PCB w projekcie.&#xA;Płytki PCB można wstawiać z innych projektów."/>
+	<label commandName="PCBCreateLimitTitle" devLabel="PCB Limit Reached" translation="Osiągnięto limit płytek PCB"/>
+	<label commandName="PCBCreateOriginRefInput" devLabel="Origin" translation="Początek"/>
+	<label commandName="PCBCreateSimExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Funkcja płytki PCB nie obsługuje obecnie synchronizacji płytek PCB w zespołach programu Fusion zawierających połączone komponenty lub badania symulacji.      &#xA;&#xA;Aby kontynuować, usuń połączone komponenty lub badania symulacji w zespole lub umieść płytkę PCB w oddzielnym projekcie programu Fusion i wstaw ją do zespołu."/>
+	<label commandName="PCBCreateXDirRefInput" devLabel="X Axis" translation="Oś X"/>
+	<label commandName="PCBCreateXRefExisting" devLabel="The PCB Feature does not currently support syncing PCBs in Fusion assemblies containing linked components or simulation studies.            &#xA;&#xA;Remove linked components or simulation studies in your assembly to continue, or put the PCB in a separate Fusion design and insert it into your assembly." translation="Funkcja płytki PCB nie obsługuje obecnie synchronizacji płytek PCB w zespołach programu Fusion zawierających połączone komponenty lub badania symulacji.      &#xA;&#xA;Aby kontynuować, usuń połączone komponenty lub badania symulacji w zespole lub umieść płytkę PCB w oddzielnym projekcie programu Fusion i wstaw ją do zespołu."/>
+	<label commandName="PCBDefineBoardFlipInput" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="PCBDefineBoardHeightInput" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="PCBDefineBoardOriginGroup" devLabel="Origin" translation="Początek"/>
+	<label commandName="PCBDefineBoardOriginRefInput" devLabel="Origin" translation="Początek"/>
+	<label commandName="PCBDefineBoardProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="PCBDefineBoardProfileOnBottom" devLabel="PCB Bottom Layer" translation="Warstwa dolna płytki PCB"/>
+	<label commandName="PCBDefineBoardProfileOnInput" devLabel="Profile On" translation="Profil włączony"/>
+	<label commandName="PCBDefineBoardProfileOnTop" devLabel="PCB Top Layer" translation="Warstwa górna płytki PCB"/>
+	<label commandName="PCBDefineBoardReorientInput" devLabel="Reorient" translation="Zmień orientację"/>
+	<label commandName="PCBDefineBoardShapeGroup" devLabel="Shape" translation="Kształt"/>
+	<label commandName="PCBDefineBoardTopInput" devLabel="PCB Top" translation="Góra płytki PCB"/>
+	<label commandName="PCBDefineBoardXDirRefInput" devLabel="X Axis" translation="Oś X"/>
+	<label commandName="PCBDerive" devLabel="Create Associative PCB" translation="Utwórz skojarzoną płytkę PCB"/>
+	<label commandName="PCBDeriveCmdFlipXAxis" devLabel="Flip X Axis" translation="Odwróć oś X"/>
+	<label commandName="PCBDeriveCmdFlipYAxis" devLabel="Flip Y Axis" translation="Odwróć oś Y"/>
+	<label commandName="PCBDeriveCmdFlipZAxis" devLabel="Flip Z Axis" translation="Odwróć oś Z"/>
+	<label commandName="PCBDeriveOriginRefInput" devLabel="Origin" translation="Początek"/>
+	<label commandName="PCBEditCmdFlipXAxis" devLabel="Flip X Axis" translation="Odwróć oś X"/>
+	<label commandName="PCBEditCmdFlipYAxis" devLabel="Flip Y Axis" translation="Odwróć oś Y"/>
+	<label commandName="PCBEditOriginRefInput" devLabel="Origin" translation="Początek"/>
+	<label commandName="PCBEditXDirRefInput" devLabel="X Axis" translation="Oś X"/>
+	<label commandName="PCBFixed" devLabel="Fixed" translation="Stały"/>
+	<label commandName="PCBHoleCenterInput" devLabel="Center" translation="Centralnie"/>
+	<label commandName="PCBHoleDiameterInput" devLabel="Diameter" translation="Średnica"/>
+	<label commandName="PCBHoleEdit" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="PCBHoleFaceInput" devLabel="Face" translation="Powierzchnia"/>
+	<label commandName="PCBHoleFail" devLabel="PCB Hole Creation Failed: 3D PCB is outdated, please create it again." translation="Błąd tworzenia otworu płytki PCB: płytka PCB 3D jest nieaktualna, utwórz ją ponownie."/>
+	<label commandName="PCBHoleRef0" devLabel="Distance" translation="Odległość"/>
+	<label commandName="PCBHoleRef0Btn" devLabel="Reference" translation="Odniesienie"/>
+	<label commandName="PCBHoleRef1" devLabel="Distance" translation="Odległość"/>
+	<label commandName="PCBHoleRef1Btn" devLabel="Reference" translation="Odniesienie"/>
+	<label commandName="PCBImprintEagle" devLabel="Copy EAGLE Profile" translation="Kopiuj profil EAGLE"/>
+	<label commandName="PCBImprintSelPrompt" devLabel="Select destination plane or sketch" translation="Wybierz płaszczyznę docelową lub szkic"/>
+	<label commandName="PCBIncrementalMoveInput" devLabel="Use 2D PCB Grid" translation="Użyj siatki płytki PCB 2D"/>
+	<label commandName="PCBMoveBodySelectionInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="PCBMoveBodyTransformInput" devLabel="Distance" translation="Odległość"/>
+	<label commandName="PCBMoveRerouteInput" devLabel="Reroute" translation="Ponownie utwórz trasę"/>
+	<label commandName="PCBMoveSelectionInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="PCBMoveTransformInput" devLabel="Distance" translation="Odległość"/>
+	<label commandName="PCBMoveUpdateInput" devLabel="Update 2D PCB" translation="Aktualizuj płytkę PCB 2D"/>
+	<label commandName="PCBOpenFileInput" devLabel="Select Board file" translation="Wybierz plik płytki"/>
+	<label commandName="PCBSketchSelect" devLabel="Destination" translation="Przeznaczenie"/>
+	<label commandName="PCBStatus" devLabel="PCB Status" translation="Stan płytki PCB"/>
+	<label commandName="PCBStatusBoardHeight" devLabel="Board Height" translation="Wysokość płytki"/>
+	<label commandName="PCBStatusBoardShape" devLabel="Board Shape" translation="Kształt płytki"/>
+	<label commandName="PCBStatusChanged" devLabel="Changed" translation="Zmieniony"/>
+	<label commandName="PCBStatusComponents" devLabel="PCB Components" translation="Komponenty płytki PCB"/>
+	<label commandName="PCBStatusEagleInput" devLabel="EAGLE Board Shape" translation="Kształt płytki EAGLE"/>
+	<label commandName="PCBStatusFusionInput" devLabel="Fusion Board Shape" translation="Kształt płytki Fusion"/>
+	<label commandName="PCBStatusUnchanged" devLabel="Unchanged" translation="Niezmieniony"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="Wyślij do płytki PCB 2D"/>
+	<label commandName="PushDeriveInvalidSelectionMsg" devLabel="Unexpected invalid selection" translation="Nieoczekiwany nieprawidłowy wybór"/>
+	<label commandName="PushDeriveToExistingTxnMessage" devLabel="New Derive Feature" translation="Nowy element pochodny"/>
+	<label commandName="Replace PCB component" devLabel="Replace Component Body" translation="Zamień bryłę komponentu"/>
+	<label commandName="RotateAxisPrompt" devLabel="Pick a Rotate Axis" translation="Wskaż oś obrotu"/>
+	<label commandName="StepFFilesFilter" devLabel="STEP Files (*.stp *.step)" translation="Pliki STEP (*.stp *.step)"/>
+	<label commandName="UnSupportedDeriveObject" devLabel="Target document is 3D PCB, which only accepts sketch for derive" translation="Docelowym dokumentem jest płytka PCB 3D, który do wyprowadzenia dopuszcza tylko szkic"/>
+	<label commandName="Update PCB component" devLabel="Update PCB Component" translation="Aktualizuj komponent płytki PCB"/>
+	<label commandName="XmlFilesFilter" devLabel="Xml Files (*.xml)" translation="Pliki XML (*.xml)"/>
+	<label commandName="createPCBFlipXDirectionInputTooltip" devLabel="Flip X direction for create PCB" translation="Odwróć kierunek X, aby utworzyć płytkę PCB"/>
+	<label commandName="createPCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for create PCB" translation="Odwróć kierunek Y, aby utworzyć płytkę PCB"/>
+	<label commandName="createPCBFlipZDirectionInputTooltip" devLabel="Flip Z direction for create PCB" translation="Odwróć kierunek Z, aby utworzyć płytkę PCB"/>
+	<label commandName="derivePCBFlipXDirectionInputTooltip" devLabel="Flip X direction for derive PCB" translation="Odwróć kierunek X, aby wyprowadzić płytkę PCB"/>
+	<label commandName="derivePCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for derive PCB" translation="Odwróć kierunek Y, aby wyprowadzić płytkę PCB"/>
+	<label commandName="derivePCBFlipZDirectionInputTooltip" devLabel="Flip Z direction for derive PCB" translation="Odwróć kierunek Z, aby wyprowadzić płytkę PCB"/>
+	<label commandName="editPCBFlipXDirectionInputTooltip" devLabel="Flip X direction for Edit Board" translation="Odwróć kierunek X, aby edytować płytkę"/>
+	<label commandName="editPCBFlipYDirectionInputTooltip" devLabel="Flip Y direction for Edit Board" translation="Odwróć kierunek Y, aby edytować płytkę"/>
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="Mechanical 3D PCB Workspace" translation="Obszar roboczy Projekt mechaniczny płytki PCB 3D"/>
+	<label commandName="lclzPCBBoardSketchEditCmd1" devLabel="Edit the sketch generated from EAGLE board." translation="Edytuj szkic wygenerowany na podstawie płytki EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksDesc" devLabel="This command is only available when there's sketch generated from EAGLE board." translation="To polecenie jest dostępne tylko wtedy, gdy istnieje szkic wygenerowany na podstawie płytki EAGLE."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTips" devLabel="This command will activate the sketch generated from EAGLE board for editing." translation="To polecenie uaktywni szkic wygenerowany na podstawie płytki EAGLE do edycji."/>
+	<label commandName="lclzPCBBoardSketchEditCmdTipsAndTricksTitle" devLabel="Edit the sketch generated from EAGLE board" translation="Edytuj szkic wygenerowany na podstawie płytki EAGLE"/>
+	<label commandName="lclzPCBComponentLocked" devLabel="Component or layer is locked. Switch to the 2D PCB document and unlock the component or layer. Edit the object position, then retry updating the 3D PCB." translation="Zablokowano komponent lub warstwę. Przełącz do dokumentu PCB 2D i odblokuj komponent lub warstwę. Edytuj położenie obiektu, a następnie spróbuj ponownie zaktualizować płytkę PCB 3D."/>
+	<label commandName="lclzPCBCreateCommand1" devLabel="Create a 3D PCB document from the selected sketch or face." translation="Utwórz dokument płytki PCB 3D na podstawie wybranego szkicu lub powierzchni."/>
+	<label commandName="lclzPCBCreateCommand2" devLabel="Use the 3D PCB document as an external reference in the enclosure design." translation="Użyj dokumentu płytki PCB 3D jako odnośnika zewnętrznego w projekcie obudowy."/>
+	<label commandName="lclzPCBDefineBoardCmd1" devLabel="Define the shape of the PCB via a sketched profile." translation="Zdefiniuj kształt płytki PCB za pomocą szkicowanego profilu."/>
+	<label commandName="lclzPCBDefineBoardCmd2" devLabel="Select a profile and an origin point." translation="Wybierz profil i punkt początkowy."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksDesc" devLabel="After selecting the profile, you must choose an origin to ensure the communication with EAGLE is precise. One corner of the PCB normally works well. Decide if the profile is on the top or bottom of the PCB, and be sure that the extrusion direction is correct. The PCB shape will become visible to EAGLE after the model is saved, and the EAGLE user can change the shape of the board as well." translation="Po wybraniu profilu należy wybrać początek, aby zapewnić dokładność komunikacji z programem EAGLE. Jeden narożnik płytki PCB standardowo działa poprawnie. Zdecyduj, czy profil znajduje się u góry czy u dołu płytki PCB, i upewnij się, że kierunek wyciągnięcia prostego jest prawidłowy. Kształt płytki PCB będzie widoczny dla programu EAGLE po zapisaniu modelu, a użytkownik programu EAGLE będzie mógł również zmienić kształt płytki."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTips" devLabel="Select a profile and an origin point." translation="Wybierz profil i punkt początkowy."/>
+	<label commandName="lclzPCBDefineBoardCmdTipsAndTricksTitle" devLabel="PCB Define Board Information" translation="Definiowanie płytki PCB — informacje"/>
+	<label commandName="lclzPCBDeriveCommand1" devLabel="Derive a sketch from this design to a 3D PCB design. The selected profiles will be used to create the board outline. " translation="Wyprowadź szkic na podstawie tego projektu do projektu płytki PCB 3D. Wybrane profile zostaną użyte do utworzenia zarysu płytki. "/>
+	<label commandName="lclzPCBDeriveCommand2" devLabel="The board outline updates with changes to this design." translation="Zarys płytki będzie aktualizowany zgodnie ze zmianami wprowadzonymi w tym projekcie."/>
+	<label commandName="lclzPCBImprintCmd1" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch." translation="Kopiuje profil dostarczony z programu EAGLE do poprzedzającego go szkicu programu Fusion."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksDesc" devLabel="This command is primarily useful when both the Fusion and EAGLE user are actively changing the shape of the PCB." translation="To polecenie jest przydatne przede wszystkim wtedy, gdy zarówno użytkownik programu Fusion, jak i użytkownik programu EAGLE aktywnie zmieniają kształt płytki PCB."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTips" devLabel="Copies the profile supplied from EAGLE to an upstream Fusion sketch. You can copy to a pre-existing sketch, or create a new sketch by selecting a planar face or construction plane. The selected sketch or plane must be parallel to the PCB.  If there is already an upstream sketch that drives the PCB feature, that sketch will be selected by default." translation="Kopiuje profil dostarczony z programu EAGLE do poprzedzającego go szkicu programu Fusion. Profil można skopiować do istniejącego szkicu lub utworzyć nowy szkic, wybierając powierzchnię płaską lub płaszczyznę konstrukcyjną. Wybrany szkic lub wybrana płaszczyzna muszą być równoległe do płytki PCB. Jeśli istnieje już szkic poprzedzający będący podstawą elementu płytki PCB, zostanie on wybrany domyślnie."/>
+	<label commandName="lclzPCBImprintCmdTipsAndTricksTitle" devLabel="Copy EAGLE Profile Information" translation="Kopiuj profil EAGLE — informacje"/>
+	<label commandName="lclzPCBMoveComponentBodyCommand1" devLabel="Move PCB component body to align with the footprint on the board." translation="Przesuń bryłę komponentu płytki PCB, aby wyrównać ją z footprintem na płytce."/>
+	<label commandName="lclzPCBMoveComponentBodyCommand2" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Wybierz bryłę z komponentu płytki PCB i przesuń ją, przeciągając lub wpisując wartości."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion." translation="Należy pamiętać, że na osi czasu nie zostanie utworzony żaden element przesuwania. Nowe położenia zostaną jednak zapamiętane w programie Fusion."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTips" devLabel="Select a body from PCB component and move it by dragging or typing in values." translation="Wybierz bryłę z komponentu płytki PCB i przesuń ją, przeciągając lub wpisując wartości."/>
+	<label commandName="lclzPCBMoveComponentBodyCommandTipsAndTricksTitle" devLabel="Move PCB Component Body Information" translation="Przesuń bryłę komponentu płytki PCB — informacje"/>
+	<label commandName="lclzPCBMoveComponentsCommand1" devLabel="Move PCB components to new locations on the board." translation="Przesuń komponenty płytki PCB do nowych położeń na płytce."/>
+	<label commandName="lclzPCBMoveComponentsCommand2" devLabel="Select a component and move it by dragging or typing in values." translation="Wybierz komponent i przesuń go, przeciągając lub wpisując wartości."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the new locations will be remembered by Fusion, and will become visible to EAGLE after the model is saved, and the EAGLE user can move the components as well." translation="Należy pamiętać, że na osi czasu nie zostanie utworzony żaden element przesuwania. Nowe położenia zostaną jednak zapamiętane w programie Fusion i będą widoczne w programie EAGLE po zapisaniu modelu, a użytkownik programu EAGLE również będzie mógł przesuwać komponenty."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTips" devLabel="Select a component and move it by dragging or typing in values." translation="Wybierz komponent i przesuń go, przeciągając lub wpisując wartości."/>
+	<label commandName="lclzPCBMoveComponentsCommandTipsAndTricksTitle" devLabel="Move PCB Components Information" translation="Przesuń komponenty płytki PCB — informacje"/>
+	<label commandName="lclzPCBReplaceComponentCommand1" devLabel="Replace PCB component with different one." translation="Zamień komponent płytki PCB na inny."/>
+	<label commandName="lclzPCBReplaceComponentCommand2" devLabel="Select a PCB 3d model(step, stp file format) to replace existing PCB component." translation="Wybierz model 3D płytki PCB (plik w formacie STEP, STP), aby zamienić istniejący komponent płytki PCB."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Należy pamiętać, że na osi czasu nie zostanie utworzony żaden element przesuwania. Jednak komponent płytki PCB zostanie zastąpiony nowym modelem, a powrót do wersji EAGLE będzie niemożliwy."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTips" devLabel="Select a model to replace selected PCB component and move it to adjust its position." translation="Wybierz model, aby zamienić wybrany komponent płytki PCB, i przesuń go, aby dopasować jego położenie."/>
+	<label commandName="lclzPCBReplaceComponentCommandTipsAndTricksTitle" devLabel="Replace PCB Component Information" translation="Zamiana komponentu płytki PCB — informacje"/>
+	<label commandName="lclzPCBStatusCommand1" devLabel="Check the status of the PCB shape and component positions. " translation="Sprawdź stan kształtu płytki PCB i położenia komponentów. "/>
+	<label commandName="lclzPCBStatusCommand2" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Zarówno kształt płytki, jak i położenia komponentów można ustawić w programie Fusion lub EAGLE. Użyj tego polecenia, aby zapoznać się ze stanem modelu."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksDesc" devLabel="If the board shape and/or component positions have been edited in Fusion after the last EAGLE update, this command will allow you to see both PCB shapes. Also, it will tell you if your current component positions are different from the last EAGLE update." translation="Jeśli kształt płytki i/lub położenia komponentów zostały zmienione w programie Fusion od czasu ostatniej aktualizacji w programie EAGLE, to polecenie umożliwi wyświetlenie obu kształtów płytki PCB. Ponadto zostanie wyświetlony komunikat z informacją, czy bieżące położenia komponentów różnią się od położeń z ostatniej aktualizacji w programie EAGLE."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTips" devLabel="Both the board shape and the component positions can be driven by either Fusion or EAGLE. Use this command to understand the state of the model." translation="Zarówno kształt płytki, jak i położenia komponentów można ustawić w programie Fusion lub EAGLE. Użyj tego polecenia, aby zapoznać się ze stanem modelu."/>
+	<label commandName="lclzPCBStatusCommandTipsAndTricksTitle" devLabel="PCB Status Information" translation="Stan płytki PCB — informacje"/>
+	<label commandName="lclzPCBStop1" devLabel="Return to the Model workspace." translation="Powrót do obszaru roboczego Model."/>
+	<label commandName="lclzPCBUpdateComponentCommand1" devLabel="Update PCB component from library." translation="Aktualizuj komponent płytki PCB z biblioteki."/>
+	<label commandName="lclzPCBUpdateComponentCommand2" devLabel="Download PCB component from library to replace existing PCB component." translation="Pobierz komponent płytki PCB z biblioteki, aby zamienić istniejący komponent płytki PCB."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksDesc" devLabel="Note that no Move feature will be created in the timeline. However, the PCB component will be replace with new model, the change will not able to get back to eagle." translation="Należy pamiętać, że na osi czasu nie zostanie utworzony żaden element przesuwania. Jednak komponent płytki PCB zostanie zastąpiony nowym modelem, a powrót do wersji EAGLE będzie niemożliwy."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTips" devLabel="Download PCB component from library to replace the selected PCB component and move it to adjust its position." translation="Pobierz komponent płytki PCB z biblioteki, aby zamienić wybrany komponent płytki PCB i przesunąć go w celu dopasowania jego położenia."/>
+	<label commandName="lclzPCBUpdateComponentCommandTipsAndTricksTitle" devLabel="Update PCB Component Information" translation="Aktualizuj komponent płytki PCB — informacje"/>
+	<label commandName="lclzPCBWorkspaceTitle" devLabel="Mechanical PCB Workspace" translation="Obszar roboczy Projekt mechaniczny płytki PCB"/>
+</Resource>

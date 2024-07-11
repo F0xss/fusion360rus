@@ -1,0 +1,24 @@
+<div id="exitPositions"><p>Bestimmt die Ausfahrposition des Werkzeugs für eine sicherere Bearbeitung.</p>
+<p>Wählen Sie einen Punkt aus, um die Ausfahrposition zu bestimmen. Der Punkt muss so nah wie möglich an dem Bereich liegen, den Sie bearbeiten, z. B. der Eingang einer offenen Tasche, damit der Punkt während der Werkzeugwegberechnung erkannt wird.</p>
+<p>Wenn Sie mehr als einen Punkt auswählen, wird das Werkzeug nach Abschluss der Schnittbewegungen vom nächstgelegenen Punkt aus zurückgezogen.</p>
+<p>Im folgenden Beispiel wird eine offene Tasche mit einem Hinterschnitt bearbeitet. Zunächst wird das Werkzeug am Ende der Tasche zurückgezogen, was zu einer Kollision mit der direkt darüber liegenden Geometrie führt. Mithilfe einer Ausfahrposition können Sie erzwingen, dass das Werkzeug unten verbleibt und aus der Tasche ausfährt, sodass es mit ausreichendem Abstand zurückgezogen werden kann.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="200" src="../images/undercut_open_pocket_machining.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Bearbeitung eines Hinterschnitts</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_unsafe_retract.png"/></center></td>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_safe_retract.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Werkzeug zieht sich am Ende zurück</b> <br>
+Kollision mit Bauteil</p></center></td>
+<td><center><p><b>Rückzug an Ausfahrtsposition</b> <br>
+Ausreichender Abstand</p></center></td>
+</tr></table>
+<p>Verfügbar für 2D-Tasche, 2D-Kontur und 2D Adaptive.</p>
+<p><b>Anmerkung</b>: Das Werkzeug führt eine Flächenkontakt-Verknüpfungsbewegungen durch, wenn es an eine Ausfahrposition verschoben wird. <b>Maximaler Flächenkontaktabstand</b> muss groß genug sein, um diese Bewegung zu ermöglichen. Für 2D-Tasche und 2D-Kontur müssen Sie das Kontrollkästchen <b>Werkzeug unten halten</b> aktivieren, um einen Wert für <b>Maximaler Flächenkontaktabstand</b> einzugeben.</p>
+</div>

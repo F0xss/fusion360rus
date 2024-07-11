@@ -1,0 +1,9 @@
+<div id="bore_compensationType"><p>Specifies the compensation type.</p>
+<ul>
+<li><b>In computer</b> - Tool compensation is calculated automatically by the program, based on the selected tool diameter. The post-processed output contains the compensated path directly, instead of G41/G42 codes.</li>
+<li><b>In control</b> - Tool compensation is <em>not</em> calculated, but rather G41/G42 codes are output to allow the operator to set the compensation amount and wear on the machine tool control.</li>
+<li><b>Wear</b> - Works as if <em>In computer</em> was selected, but also outputs the G41/G42 codes. This lets the machine tool operator adjust for tool wear at the machine tool control by entering the difference in tool size as a negative number.</li>
+<li><b>Inverse wear</b> - Identical to the <em>Wear</em> option, except that the wear adjustment is entered as a positive number.</li>
+</ul>
+<p>Note: Control compensation (including Wear and Inverse wear) is only done on finishing passes.</p>
+</div>

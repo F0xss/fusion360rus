@@ -1,0 +1,22 @@
+<div id="flatMinThickness"><p>Avoids machining flat areas that are smaller than the specified value.</p>
+<p>The specified value is used by the strategy as the diameter of a circle that is used to evaluate the flat faces. If the circle does not fit anywhere on a flat face, the face gets filtered out.</p>
+<p>It is useful to filter out flat areas that are long and thin, such as chamfers, when the tool you are using is unsuitable to machine chamfers.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="146" src="../images/filter_flats_smaller_than_chamfered_edges.png"/></center></td>
+</tr><tr>
+<td><center><p>1 mm chamfers</p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="107" src="../images/filter_flats_smaller_than_chamfered_edges_machined.png"/></center></td>
+<td><center><img border="0" width="175" height="107" src="../images/filter_flats_smaller_than_chamfered_edges_avoided.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Filter value of 0.5 mm</b> <br>
+Chamfers are machined</p></center></td>
+<td><center><p><b>Filter value of 1.5 mm</b> <br>
+Chamfers are avoided</p></center></td>
+</tr></table>
+<p>Note: The filter option is available only when <b>Machined Inclined Flats</b> is selected in the <b>Multi-axis</b> tab.</p>
+</div>

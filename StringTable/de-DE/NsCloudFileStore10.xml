@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CFSErrorMessageTitle" devLabel="Fusion Team Error Message" translation="Fusion Team-Fehlermeldung"/>
+	<label commandName="CloudFileExceptionUpload2" devLabel="[CFSUploader] Unknown exception when uploading file %1%. Please ensure network connectivity." translation="[CFSUploader] Unbekannte Ausnahme beim Hochladen der Datei %1%. Stellen Sie sicher, dass eine Netzwerkverbindung besteht."/>
+	<label commandName="CloudFileStoreAutoSaveDescription" devLabel="Auto save." translation="Automatisch speichern"/>
+	<label commandName="CloudFileStoreCloseSaveDescription" devLabel="Save on Close." translation="Beim Schließen speichern"/>
+	<label commandName="Tooltip_CurrentlyReservedBy" devLabel="Currently reserved by %1%" translation="Derzeit reserviert durch %1%"/>
+	<label commandName="UploaderThread::Upload failed" devLabel="Upload failed. Original File: %1%" translation="Hochladen fehlgeschlagen. Ursprüngliche Datei: %1%"/>
+	<label commandName="UploaderThread::std::exception" devLabel="[CFSUploader] Exception %1% when uploading file %2%. Please ensure network connectivity." translation="[CFSUploader] Ausnahme %1% beim Hochladen der Datei %2%. Stellen Sie sicher, dass eine Netzwerkverbindung besteht."/>
+	<label commandName="UserNotAuthenticated" devLabel="Upload queued attachment %1% error, user isn't authenticated by Autodesk 360, please login to Autodesk 360 first." translation="Fehler beim Hochladen des Anhangs %1% in der Warteschlange. Der Benutzer ist nicht für Autodesk 360 authentifiziert. Melden Sie sich zuerst bei Autodesk 360 an."/>
+	<label commandName="WaitMessageForQueuedFile" devLabel="Waiting for %1% to complete" translation="Warten auf %1% für Abschluss"/>
+	<label commandName="filenotexist" devLabel="Could not import document. The specified file (%1%) does not exist." translation="Dokument konnte nicht importiert werden. Die angegebene Datei (%1%) ist nicht vorhanden."/>
+	<label commandName="jobManagerReserving" devLabel="Waiting to reserve" translation="Warten auf Reservierung"/>
+	<label commandName="progress manager reimport text" devLabel="Uploading %1% to %2%" translation="%1% wird in %2% hochgeladen"/>
+	<label commandName="uploadAbortedReservationFailed" devLabel="&quot;%1%&quot; could not be uploaded. This occurs when you have lost access to the project or your permissions for a folder have changed. Please contact the project moderator for assistance." translation="&quot;%1%&quot; konnte nicht hochgeladen werden. Dieses Problem tritt auf, wenn Sie den Zugriff auf das Projekt verloren haben oder Ihre Berechtigungen für einen Ordner geändert wurden. Wenden Sie sich an den Projektmoderator, um Unterstützung zu erhalten."/>
+	<label commandName="uploadAddQueueFailed" devLabel="Failed to add specified file to the upload queue: %1%" translation="Fehler beim Hinzufügen der angegebenen Datei zur Upload-Warteschlange: %1%"/>
+	<label commandName="uploadAlreadyExists" devLabel="Specified file already exists in the upload queue: %1%" translation="Die angegebene Datei ist in der Warteschlange zum Hochladen bereits vorhanden: %1%"/>
+	<label commandName="uploadFileDoesNotExist" devLabel="Specified file does not exist: %1%" translation="Angegebene Datei ist nicht vorhanden: %1%"/>
+	<label commandName="uploadPIMAlreadyExists" devLabel="Specified PIM data file already exists in the upload queue: %1%" translation="Die angegebene PIM-Datendatei ist bereits in der Upload-Warteschlange vorhanden: %1%"/>
+	<label commandName="userNotAuthenticated" devLabel="User is not authenticated. Could not queue file %1% for upload." translation="Benutzer ist nicht authentifiziert. Datei %1% konnte nicht zum Hochladen in die Warteschlange gestellt werden."/>
+</Resource>

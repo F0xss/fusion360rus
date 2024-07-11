@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="CalloutCommand" devLabel="Create Callout" translation="" />
+	<label commandName="CalloutEditCommand" devLabel="Edit Callout" translation="" />
+	<label commandName="DragCalloutCmd" devLabel="Move Callout" translation="" />
+	<label commandName="PublisherTrailAutoElbowCommand" devLabel="Auto Trail Line Elbow" translation="" />
+	<label commandName="PublisherTrailHideAllCommand" devLabel="Hide All Trail Lines" translation="" />
+	<label commandName="PublisherTrailRemoveElbowCommand" devLabel="Remove Trail Line Elbow" translation="" />
+	<label commandName="PublisherTrailShowAllCommand" devLabel="Show All Trail Lines" translation="" />
+	<label commandName="PublisherTrailVisibilityCommand" devLabel="Show/Hide Trail Lines" translation="" />
+	<label commandName="TrailDragCmd" devLabel="Move Trail Line" translation="" />
+	<label commandName="infoCancel" devLabel="Cancel" translation="" />
+	<label commandName="infoImage" devLabel="Insert Image" translation="" />
+	<label commandName="infoLink" devLabel="Link" translation="" />
+	<label commandName="infoOK" devLabel="OK" translation="" />
+	<label commandName="infoProperty" devLabel="Insert Properties" translation="" />
+	<label commandName="lclzCallout" devLabel="Drop the pin onto a component and enter text to add an associated 3D annotation." translation="" />
+	<label commandName="select" devLabel="Component:" translation="" />
+</Resource>

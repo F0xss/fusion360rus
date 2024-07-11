@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IMReportAdvice" devLabel="Advice" translation="Empfehlung"/>
+	<label commandName="IMReportFlatnessNotAvailable" devLabel="No flatness face is selected" translation="Keine Ebenheits-Fläche ausgewählt"/>
+	<label commandName="IMReportItemAestheticFaces" devLabel="Aesthetic faces" translation="Ästhetische Flächen"/>
+	<label commandName="IMReportItemAirTraps" devLabel="Air traps" translation="Lufteinschlüsse"/>
+	<label commandName="IMReportItemAuthor" devLabel="Author" translation="Autor"/>
+	<label commandName="IMReportItemAverageTemperature" devLabel="Avg. temperature (end of fill)" translation="Mittlere Temperatur (Ende der Füllung)"/>
+	<label commandName="IMReportItemCompensateForShrinkage" devLabel="Compensate for shrinkage" translation="Schwund kompensieren"/>
+	<label commandName="IMReportItemCoolingTime" devLabel="Cooling time" translation="Abkühlzeit"/>
+	<label commandName="IMReportItemDeflectionAllEffects" devLabel="Deflection (all effects)" translation="Verzug (alle Einflüsse)"/>
+	<label commandName="IMReportItemEnvironmentalProperties" devLabel="Environmental properties" translation="Umwelteigenschaften"/>
+	<label commandName="IMReportItemFamilyName" devLabel="Family name" translation="Familienname"/>
+	<label commandName="IMReportItemFill" devLabel="Fill" translation="Füllen"/>
+	<label commandName="IMReportItemFillAnimation" devLabel="Fill animation" translation="Füllanimation"/>
+	<label commandName="IMReportItemFillConfidence" devLabel="Fill confidence" translation="Füllsicherheit"/>
+	<label commandName="IMReportItemFilledFromInjectionLocation" devLabel="Filled from injection location" translation="Gefüllt vom Anspritzpunkt"/>
+	<label commandName="IMReportItemFilling" devLabel="Filling" translation="Füllen"/>
+	<label commandName="IMReportItemFinalPartShape" devLabel="Final part shape" translation="Endgültige Form des Formteils"/>
+	<label commandName="IMReportItemFlatnessIndicator" devLabel="Flatness indicator" translation="Ebenheitsindikator"/>
+	<label commandName="IMReportItemFlowFrontTemperature" devLabel="Flow-front temperature" translation="Temperatur der Fließfront"/>
+	<label commandName="IMReportItemGeometry" devLabel="Geometry" translation="Geometrie"/>
+	<label commandName="IMReportItemGuidedResults" devLabel="Guided Results" translation="Erläuternde Ergebnisse"/>
+	<label commandName="IMReportItemHeader" devLabel="Header" translation="Header"/>
+	<label commandName="IMReportItemInjectionLocations" devLabel="Injection locations" translation="Anspritzpunkte"/>
+	<label commandName="IMReportItemInjectionPressure" devLabel="Injection pressure" translation="Einspritzdruck"/>
+	<label commandName="IMReportItemInjectionTime" devLabel="Injection time" translation="Einspritzzeit"/>
+	<label commandName="IMReportItemMachineSetup" devLabel="Machine setup" translation="Maschineneinrichtung"/>
+	<label commandName="IMReportItemManufacturer" devLabel="Manufacturer" translation="Hersteller"/>
+	<label commandName="IMReportItemMaterialStructure" devLabel="Material structure" translation="Materialstruktur"/>
+	<label commandName="IMReportItemMaterialTradeName" devLabel="Material trade name" translation="Handelsname des Materials"/>
+	<label commandName="IMReportItemMaterials" devLabel="Materials" translation="Materialien"/>
+	<label commandName="IMReportItemMeltTemperature" devLabel="Melt temperature" translation="Schmelztemperatur"/>
+	<label commandName="IMReportItemMoldSurfaceTemperature" devLabel="Mold surface temperature" translation="Werkzeugoberflächentemperatur"/>
+	<label commandName="IMReportItemMoldingProcess" devLabel="Molding Process" translation="Gussprozess"/>
+	<label commandName="IMReportItemName" devLabel="Name" translation="Name"/>
+	<label commandName="IMReportItemNumber" devLabel="Number" translation="Nummer"/>
+	<label commandName="IMReportItemPackingCooling" devLabel="Packing &amp; Cooling" translation="Nachdruck und Temperierung"/>
+	<label commandName="IMReportItemProcessSettings" devLabel="Process settings" translation="Prozesseinstellungen"/>
+	<label commandName="IMReportItemQualityPrediction" devLabel="Quality prediction" translation="Qualitätsprognose"/>
+	<label commandName="IMReportItemResults" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="IMReportItemSetup" devLabel="Study Setup" translation="Studieneinrichtung"/>
+	<label commandName="IMReportItemShrinkageAllowance" devLabel="Shrinkage allowance (%)" translation="Schwindungszugabe (%)"/>
+	<label commandName="IMReportItemSinkMarkDepthEstimate" devLabel="Sink mark depth - Estimate" translation="Tiefe der Einfallstellen - Schätzung"/>
+	<label commandName="IMReportItemSinkMarkDepthThreshold" devLabel="Sink mark depth - Threshold" translation="Tiefe der Einfallstellen - Grenzwert"/>
+	<label commandName="IMReportItemSinkMarkDepthVisualization" devLabel="Sink mark depth - Visualization" translation="Tiefe der Einfallstellen - Visualisierung"/>
+	<label commandName="IMReportItemSolidifiedPlastic" devLabel="Solidified plastic (ejection)" translation="Erstarrter Kunststoff (Entformung)"/>
+	<label commandName="IMReportItemSolidifiedPlasticEndOfFill" devLabel="Solidified plastic (end of fill)" translation="Erstarrter Kunststoff (Ende der Füllung)"/>
+	<label commandName="IMReportItemStudyName" devLabel="Study Name" translation="Studienname"/>
+	<label commandName="IMReportItemTargetBody" devLabel="Target body" translation="Zielkörper"/>
+	<label commandName="IMReportItemTimeToEjectionTemperature" devLabel="Time to ejection temperature" translation="Zeit bis zur Entformungstemperatur"/>
+	<label commandName="IMReportItemTradeName" devLabel="Trade name" translation="Handelsname"/>
+	<label commandName="IMReportItemVisualDefects" devLabel="Visual defects" translation="Optische Mängel"/>
+	<label commandName="IMReportItemVolumetricShrinkageEjection" devLabel="Volumetric shrinkage (ejection)" translation="Volumetrische Schwindung (Entformung)"/>
+	<label commandName="IMReportItemWarpage" devLabel="Warpage" translation="Verzug"/>
+	<label commandName="IMReportItemWarpageTolerance" devLabel="Warpage tolerance" translation="Verzugstoleranz"/>
+	<label commandName="IMReportItemWeldLines" devLabel="Weld lines" translation="Bindenähte"/>
+	<label commandName="IMReportResultUnavailable" devLabel="The result is unavailable" translation="Ergebnis ist nicht verfügbar"/>
+	<label commandName="IMReportTargetBodyNone" devLabel="None" translation="Keine"/>
+	<label commandName="ImCallEditInjectionPoints" devLabel="Click here to edit '%1%'." translation="Klicken Sie hier, um '%1%' zu bearbeiten."/>
+	<label commandName="ImCallEditProcessSettings" devLabel="Click here to modify this value in 'Process Settings'." translation="Klicken Sie hier, um diesen Wert in den Prozesseinstellungen zu ändern."/>
+	<label commandName="ImCallEditVisualSurfaces" devLabel="Click here to select 'Aesthetic Faces'." translation="Klicken Sie hier, um Ästhetische Flächen auszuwählen."/>
+	<label commandName="ImCallInjectionBodies" devLabel="Click here to select 'Target Body'." translation="Klicken Sie hier, um die Option Zielkörper auszuwählen."/>
+	<label commandName="ImCallInjectionPoints" devLabel="Click here to select 'Injection Locations'." translation="Klicken Sie hier, um Anspritzpunkte auszuwählen."/>
+	<label commandName="ImCallMaterials" devLabel="Click here to choose a different material." translation="Klicken Sie hier, um ein anderes Material auszuwählen."/>
+	<label commandName="ImCallMaterialsDefaultReset" devLabel="Click here to select a different material, or to set a new default material." translation="Klicken Sie hier, um ein anderes Material auszuwählen oder ein neues Vorgabematerial festzulegen."/>
+	<label commandName="ImCancelSolveLogMessageAfter" devLabel="Your job has been canceled. Some results are available for review." translation="Ihr Job wurde abgebrochen. Einige Ergebnisse können überprüft werden."/>
+	<label commandName="ImCancelSolveLogMessageBefore" devLabel="Your job has been canceled. No results are available." translation="Ihr Job wurde abgebrochen. Es sind keine Ergebnisse verfügbar."/>
+	<label commandName="ImHiddenSettingsWarning" devLabel="Warning: Visibility is turned off for some simulation settings. Hidden settings will still participate in the Simulation Solve. To exclude them from the solve, use the &quot;Toggle Suppress&quot; command in the browser." translation="Warnung: Die Sichtbarkeit einiger Simulationseinstellungen ist deaktiviert. Ausgeblendete Einstellungen werden dennoch bei der Simulationslösung berücksichtigt. Um sie von der Lösung auszuschließen, verwenden Sie den Befehl Unterdrücken ein/aus im Browser."/>
+	<label commandName="ImInjectionPointsOnVisualSurfaces" devLabel="Warning: there are injection locations on aesthetic faces.  These may cause the visual faces to be marred when the part is produced." translation="Warnung: Auf ästhetischen Flächen sind Anspritzpunkte vorhanden. Diese können bei der Fertigung auf den visuellen Flächen zu Oberflächenfehlern führen."/>
+	<label commandName="ImMaterialEditedInLibrary" devLabel="Warning: This study will run with a material that has been deleted from the materials database and is unavailable for selection in subsequent studies." translation="Warnung: Diese Studie wird mit einem Material ausgeführt, das aus der Materialdatenbank gelöscht wurde und in nachfolgenden Studien nicht mehr zur Auswahl steht."/>
+	<label commandName="ImNoBodies" devLabel="Cannot solve: The study requires a solid body." translation="Lösung nicht möglich: Für die Studie ist ein Volumenkörper erforderlich."/>
+	<label commandName="ImNoInjectionBodies" devLabel="Cannot solve: Please specify a target body." translation="Lösung nicht möglich: Geben Sie einen Zielkörper an."/>
+	<label commandName="ImNoInjectionPoints" devLabel="Cannot solve: Please specify at least one injection location." translation="Lösung nicht möglich: Geben Sie mindestens einen Anspritzpunkt an."/>
+	<label commandName="ImNonsolidInjectionBodies" devLabel="Cannot solve: A target body is not solid." translation="Lösung nicht möglich: Ein Zielkörper ist kein Volumenkörper."/>
+	<label commandName="ImNotSpecified" devLabel="Not specified" translation="Nicht angegeben"/>
+	<label commandName="ImProcessMeltTempOutOfRangeForMaterial" devLabel="Warning: the melt temperature specified in the process settings is out of range for the selected material." translation="Warnung: Die in den Prozesseinstellungen angegebene Schmelztemperatur liegt außerhalb des Bereichs für das ausgewählte Material."/>
+	<label commandName="ImProcessMoldTempOutOfRangeForMaterial" devLabel="Warning: the mold temperature specified in the process settings is out of range for the selected material." translation="Warnung: Die in den Prozesseinstellungen angegebene Werkzeugtemperatur liegt außerhalb des Bereichs für das ausgewählte Material."/>
+	<label commandName="ImSickInjectionBodies" devLabel="Cannot solve: A target body is sick" translation="Lösung nicht möglich: Ein Zielkörper ist beschädigt."/>
+	<label commandName="ImSickInjectionPoints" devLabel="Cannot solve: One or more injection locations are sick." translation="Lösung nicht möglich: Mindestens ein Anspritzpunkt ist beschädigt."/>
+	<label commandName="ImSuppressedInjectionPoints" devLabel="Cannot solve: All of the injection locations are suppressed." translation="Lösung nicht möglich: Alle Anspritzpunkte werden unterdrückt."/>
+	<label commandName="ImSystemDefaultResetInLibrary" devLabel="Warning: Your default material was deleted in the latest material database update. We will apply the system default material until you set a new default." translation="Warnung: Das Vorgabematerial wurde aus dem neuesten Update der Materialdatenbank gelöscht. Das Vorgabematerial des Systems wird angewendet, bis Sie eine neue Vorgabe festlegen."/>
+	<label commandName="InjectionBodyName" devLabel="Target Body" translation="Zielkörper"/>
+	<label commandName="InjectionBodyRequestNoCollection" devLabel="No injection bodies collection is found in this study" translation="In dieser Studie wurde keine Sammlung von Anspritzkörpern gefunden"/>
+	<label commandName="InjectionMoldingSimulation" devLabel="Injection Molding Simulation" translation="Spritzgusssimulation"/>
+	<label commandName="InjectionPointName" devLabel="Injection Location" translation="Anspritzpunkt"/>
+	<label commandName="InjectionPointRequestNoCollection" devLabel="No injection locations collection is found in this study" translation="In dieser Studie wurde keine Anspritzpunktsammlung gefunden"/>
+	<label commandName="InjectionPointRequestNotOnBody" devLabel="Injection locations must be placed on the target body." translation="Anspritzpunkte müssen auf dem Zielkörper platziert werden."/>
+	<label commandName="InjectionPointSelectionName" devLabel="Injection Location" translation="Anspritzpunkt"/>
+	<label commandName="LayersThroughThickenss" devLabel="No. of layers through thickness" translation="Anzahl der Schichten für Dicke"/>
+	<label commandName="SimCaseNameInjectionMoldingSimulation" devLabel="Study %1% - Injection Molding Simulation" translation="Studie %1% - Spritzgusssimulation"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimInjectionTimeAutomatic" devLabel="Automatic" translation="Automatisch"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimSolveJobFailedBeforeRelaunch" devLabel="&#xA;&#xA;Before relaunching the analysis," translation="&#xA;&#xA;Bevor Sie die Analyse erneut starten,"/>
+	<label commandName="SimSolveJobFailedBeforeRelaunchCheckAdjust" devLabel="&#xA;&#xA;Before relaunching the analysis check,  and adjust,  the" translation="&#xA;&#xA;Bevor Sie die Analyseprüfung erneut starten und anpassen,"/>
+	<label commandName="SimSolveJobFailedBeforeRelaunchCheckModify" devLabel="&#xA;&#xA;Before relaunching the analysis check,  and consider modifying,  the" translation="&#xA;&#xA;Bevor Sie die Analyseprüfung erneut starten und ggf. ändern,"/>
+	<label commandName="SimSolveJobFailedErrorCodes" devLabel="&#xA;Error code(s): %1%" translation="&#xA;Fehlercode(s): %1%"/>
+	<label commandName="SimSolveJobFailedErrorsFound" devLabel="&#xA;The following errors were found:" translation="&#xA;Die folgenden Fehler wurden gefunden:"/>
+	<label commandName="SimSolveJobFailedFillingGeometry" devLabel="The job failed during the filling phase,  due to errors encountered with the model geometry." translation="Der Job ist während der Füllphase aufgrund von Fehlern mit der Modellgeometrie fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedFillingInjectionLocation" devLabel="The job failed during the filling phase,  due to a problem with the injection location." translation="Der Job ist während der Füllphase aufgrund eines Problems mit dem Anspritzpunkt fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedFillingMaterial" devLabel="The job failed during the filling phase,  while reading the material data." translation="Der Job ist während der Füllphase fehlgeschlagen, während die Materialdaten gelesen wurden."/>
+	<label commandName="SimSolveJobFailedFillingProcessSetting" devLabel="The job failed during the filling phase,  due to process settings errors." translation="Der Job ist während der Füllphase aufgrund von Fehlern in den Prozesseinstellungen fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedFillingSimplify" devLabel="The job failed during the filling phase,  because the model is too large." translation="Der Job ist während der Füllphase fehlgeschlagen, da das Modell zu groß ist."/>
+	<label commandName="SimSolveJobFailedFixCAD" devLabel="&#xA;- Try fixing the problem areas of the CAD geometry" translation="&#xA;- Versuchen Sie, die Problembereiche der CAD-Geometrie zu beheben"/>
+	<label commandName="SimSolveJobFailedFixCADDetailed" devLabel="&#xA;- Check the CAD geometry for zero thickness regions or other geometry errors" translation="&#xA;- Prüfen Sie die CAD-Geometrie auf Bereiche mit einer Dicke von null oder andere Geometriefehler"/>
+	<label commandName="SimSolveJobFailedGoldRatedMaterial" devLabel="&#xA;If possible,  select a Gold rated material." translation="&#xA;Wählen Sie, wenn möglich, ein Material mit Goldbewertung aus."/>
+	<label commandName="SimSolveJobFailedMaterialSelection" devLabel="&#xA;- Material selection" translation="&#xA;- Materialauswahl"/>
+	<label commandName="SimSolveJobFailedMeshCollapsed" devLabel="&#xA;        Collapsed (0 thickness) surfaces: %1%" translation="&#xA;        Reduzierte Flächen (Dicke 0): %1%"/>
+	<label commandName="SimSolveJobFailedMeshFreeEdge" devLabel="&#xA;        Free edges: %1%" translation="&#xA;        Freie Kanten: %1%"/>
+	<label commandName="SimSolveJobFailedMeshIntersect" devLabel="&#xA;        Intersections: %1%" translation="&#xA;        Schnittpunkte: %1%"/>
+	<label commandName="SimSolveJobFailedMeshNonManifold" devLabel="&#xA;        Non-manifold edges: %1%" translation="&#xA;        Nicht-bündige Kanten: %1%"/>
+	<label commandName="SimSolveJobFailedMeshOverlap" devLabel="&#xA;        Overlaps: %1%" translation="&#xA;        Überlappungen: %1%"/>
+	<label commandName="SimSolveJobFailedModelGeometry" devLabel="The job failed while preparing the model geometry." translation="Der Job ist während der Vorbereitung der Modellgeometrie fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedModifyAddInjectionLocation" devLabel="&#xA;- Modify or add an injection location" translation="&#xA;- Ändern Sie einen Anspritzpunkt, oder fügen Sie ihn hinzu"/>
+	<label commandName="SimSolveJobFailedModifySimplifyModel" devLabel="&#xA;- Use the Simplify tools to simplify your Simulation model.  Modifications to your Simulation model do not affect your original design" translation="&#xA;- Verwenden Sie die Vereinfachungswerkzeuge, um das Simulationsmodell zu vereinfachen. Änderungen am Simulationsmodell haben keine Auswirkungen auf die ursprüngliche Konstruktion"/>
+	<label commandName="SimSolveJobFailedProblemPersists" devLabel="&#xA;If the problem persists," translation="&#xA;Wenn das Problem weiterhin besteht,"/>
+	<label commandName="SimSolveJobFailedProcessSettings" devLabel="&#xA;- Process settings" translation="&#xA;- Prozesseinstellungen"/>
+	<label commandName="SimSolveJobFailedProductSupport" devLabel="&#xA;&#xA;To notify Product Support of the problem:&#xA;1.  Open the Contact Support page: https://knowledge.autodesk.com/contact-support&#xA;2.  Click 'Post-purchase support'.&#xA;3.  Click 'Help using my software'&#xA;4.  Select 'Fusion 360'" translation="&#xA;&#xA;Benachrichtigen Sie den Produktsupport wie folgt:&#xA;1. Öffnen Sie die Support-Kontaktseite: https://knowledge.autodesk.com/contact-support&#xA;2. Klicken Sie auf Support nach dem Kauf.&#xA;3. Klicken Sie auf Hilfe bei der Nutzung der Software&#xA;4. Wählen Sie Fusion 360 aus"/>
+	<label commandName="SimSolveJobFailedRecommendedRanges" devLabel="&#xA;Ideally,  select values within the recommended ranges." translation="&#xA;Wählen Sie idealerweise Werte innerhalb der empfohlenen Bereiche aus."/>
+	<label commandName="SimSolveJobFailedRemoveComplexityCAD" devLabel="&#xA;- Remove complexity from your original CAD design in the Design workspace" translation="&#xA;- Reduzieren Sie die Komplexität Ihrer ursprünglichen CAD-Konstruktion im Arbeitsbereich Konstruktion"/>
+	<label commandName="SimSolveJobFailedSetupStudyGeometry" devLabel="The job failed while setting up the study,  due to errors encountered with the model geometry." translation="Der Job ist beim Einrichten der Studie aufgrund von Fehlern in der Modellgeometrie fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedSetupStudyInjectionLocation" devLabel="The job failed to set up the study,  due to a problem with the injection location." translation="Der Job zum Einrichten der Studie ist aufgrund eines Problems mit dem Anspritzpunkt fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedSetupStudyMaterial" devLabel="The job failed to set up the study,  while reading the material data." translation="Der Job zum Einrichten der Studie ist fehlgeschlagen, während die Materialdaten gelesen wurden."/>
+	<label commandName="SimSolveJobFailedSetupStudyProcessSetting" devLabel="The job failed while setting up the study,  due to process settings errors." translation="Der Job ist beim Einrichten der Studie aufgrund von Fehlern in den Prozesseinstellungen fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedSetupStudySetupData" devLabel="The job failed while reading the study setup data." translation="Der Job ist beim Lesen der Studiensetup-Daten fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedSetupStudySimplify" devLabel="The job failed to set up the study,  because the model is too large." translation="Der Job zum Einrichten der Studie ist fehlgeschlagen, da das Modell zu groß ist."/>
+	<label commandName="SimSolveJobFailedSimplify" devLabel="&#xA;- Consider using the Simplify commands to remove unimportant model details" translation="&#xA;- Verwenden Sie ggf. die Befehle unter Vereinfachen, um unwichtige Modelldetails zu entfernen"/>
+	<label commandName="SimSolveJobFailedWarpGeometry" devLabel="The job failed while calculating the final part shape,  due to errors encountered with the model geometry." translation="Der Job ist während der Berechnung der endgültigen Bauteilform aufgrund von Fehlern in der Modellgeometrie fehlgeschlagen."/>
+	<label commandName="SimSolveJobFailedWarpMaterial" devLabel="The job failed to calculate the final part shape,  while reading the material data.  Fill + Pack results are available." translation="Der Job zur Berechnung der endgültigen Bauteilform ist fehlgeschlagen, während die Materialdaten gelesen wurden. Es sind Füll- und Paketergebnisse verfügbar."/>
+	<label commandName="SimSolveJobFailedWarpProcessSetting" devLabel="The job failed while calculating the final part shape,  due to process settings errors.  Fill + Pack results are available." translation="Der Job ist während der Berechnung der endgültigen Bauteilform aufgrund von Fehlern in den Prozesseinstellungen fehlgeschlagen. Es sind Füll- und Paketergebnisse verfügbar."/>
+	<label commandName="SimSolveJobFailedWarpSimplify" devLabel="The job failed while calculating the final part shape,  because the model is too large.  Fill + Pack results are available." translation="Der Job ist während der Berechnung der endgültigen Bauteilform fehlgeschlagen, da das Modell zu groß ist. Es sind Füll- und Paketergebnisse verfügbar."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="VisualFaceName" devLabel="Aesthetic Face" translation="Ästhetische Fläche"/>
+	<label commandName="VisualFaceRequestNotOnBody" devLabel="Aesthetic faces must be placed on the target body." translation="Ästhetische Flächen müssen auf dem Zielkörper platziert werden."/>
+	<label commandName="VisualFaceSelectionName" devLabel="Aesthetic Face" translation="Ästhetische Fläche"/>
+	<label commandName="VisualFacesRequestNoCollection" devLabel="No Aesthetic Faces are found in this study" translation="In dieser Studie wurden keine ästhetischen Flächen gefunden"/>
+</Resource>

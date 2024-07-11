@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CollectComponentsForExportStepError" devLabel="Autodesk Translation Services failed to translate the current document to step file!" translation="Nie można przekształcić bieżącego dokumentu do pliku step za pomocą usług Autodesk Translation Services!"/>
+	<label commandName="CreateComponentsByImportStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Nie można przekształcić pliku step za pomocą usług Autodesk Translation Services. Upewnij się, że plik step nie jest uszkodzony."/>
+	<label commandName="CreateComponentsByOpenStepError" devLabel="Autodesk Translation Services failed to translate the step file, please make sure the step file isn't corrupt!" translation="Nie można przekształcić pliku step za pomocą usług Autodesk Translation Services. Upewnij się, że plik step nie jest uszkodzony."/>
+	<label commandName="STEPFileFilterDescription" devLabel="STEP Files (*.stp *.step)" translation="Pliki STEP (*.stp *.step)"/>
+</Resource>

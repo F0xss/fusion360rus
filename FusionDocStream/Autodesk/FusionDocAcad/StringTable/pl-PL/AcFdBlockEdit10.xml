@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_CMD_FD_ATTDEF" devLabel="FD_ATTDEF" translation="FD_ATTDEF"/>
+	<label commandName="IDS_CMD_FD_ATTEDIT" devLabel="FD_ATTEDIT" translation="FD_ATTEDIT"/>
+	<label commandName="IDS_CMD_FD_BCLOSE" devLabel="FD_BCLOSE" translation="FD_BCLOSE"/>
+	<label commandName="IDS_CMD_FD_BEDIT" devLabel="FD_BEDIT" translation="FD_BEDIT"/>
+	<label commandName="IDS_CMD_FD_BORDERTOGGLE" devLabel="FD_BORDERTOGGLE" translation="FD_BORDERTOGGLE"/>
+	<label commandName="IDS_CMD_FD_SHEETTOGGLE" devLabel="FD_SHEETTOGGLE" translation="FD_SHEETTOGGLE"/>
+	<label commandName="IDS_CMD_FD_SKETCHEDIT" devLabel="FD_SKETCH" translation="FD_SKETCH"/>
+	<label commandName="IDS_FD_BEDIT_KWORDS" devLabel="Generic Titleblock Border _Generic Titleblock Border" translation="Ogólne Tabelka Ramka _Generic Titleblock Border"/>
+	<label commandName="IDS_FD_BEDIT_PROMPT" devLabel="&#xA;Enter an option [Generic/Titleblock/Border]&lt;Generic&gt;:" translation="&#xA;Wprowadź opcję [Ogólne/Tabelka rysunkowa/Ramka] &lt;Ogólne&gt;:"/>
+	<label commandName="IDS_FD_CUSTOM_ATTR" devLabel="CUSTOM" translation="DOSTOSOWANE"/>
+	<label commandName="IDS_FD_LAYERONOFFKEYWORDS" devLabel="Show Hide Reset _Show Hide Reset" translation="Pokaż Ukryj Resetuj _Show Hide Reset"/>
+	<label commandName="IDS_FD_LAYERONOFFOPTION" devLabel="&#xA;Enter layer visibility option [Show/Hide/Reset] : " translation="&#xA;Wprowadź opcję widoczności warstwy [Pokaż/Ukryj/Resetuj]: "/>
+	<label commandName="IDS_FD_SKETCHEDIT_KWORDS" devLabel="New Edit Delete eXit _New Edit Delete eXit" translation="Nowy Edycja Usuń Zakończ _New Edit Delete eXit"/>
+	<label commandName="IDS_FD_SKETCHEDIT_PROMPT" devLabel="&#xA;Enter an option [New/Edit/Delete/eXit]:" translation="&#xA;Wprowadź opcję [Nowy/Edycja/Usuń/Zakończ]:"/>
+	<label commandName="IDS_FD_SKETCHNAME_PROMPT" devLabel="&#xA;Enter the sketch name:" translation="&#xA;Wprowadź nazwę szkicu:"/>
+	<label commandName="IDS_PLACE_ATTDEF" devLabel="&#xA;Place Attribute" translation="&#xA;Umieść atrybut"/>
+</Resource>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CFDImportSatToMat" devLabel="CFD ImportSatToMat" translation="CFD ImportSatToMat"/>
+	<label commandName="CFDLoadLibrary" devLabel="Load CFD Library" translation="Wczytaj bibliotekę CFD"/>
+	<label commandName="GetProcAddressCFDProdInfo" devLabel="Unable to Set Fusion Product Information" translation="Nie można ustawić informacji o produkcie Fusion"/>
+	<label commandName="GetProcAddressMoldflowProdInfo" devLabel="Unable to Set Fusion Product Information" translation="Nie można ustawić informacji o produkcie Fusion"/>
+	<label commandName="MoldflowLoadLibrary" devLabel="Load Moldflow Library" translation="Wczytaj bibliotekę Moldflow"/>
+	<label commandName="PushFusionToCFD" devLabel="Unable to push data from Fusion 360 to CFD." translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji CFD."/>
+	<label commandName="PushFusionToCFDBusy" devLabel="Unable to push data from Fusion 360 to CFD. CFD application may be busy" translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji CFD. Aplikacja CFD może być zajęta."/>
+	<label commandName="PushFusionToCFDMat" devLabel="Unable to push data from Fusion 360 to CFD." translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji CFD."/>
+	<label commandName="PushFusionToCFDPlugin" devLabel="Unable to communicate with Fusion 360 to CFD plugin." translation="Nie można połączyć się z wtyczką Fusion 360 do aplikacji CFD."/>
+	<label commandName="PushFusionToMoldflow" devLabel="Unable to push data from Fusion 360 to Moldflow." translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji Moldflow."/>
+	<label commandName="PushFusionToMoldflowBusy" devLabel="Unable to push data from Fusion 360 to Moldflow. Moldflow application may be busy" translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji Moldflow. Aplikacja Moldflow może być zajęta."/>
+	<label commandName="PushFusionToMoldflowPlugin" devLabel="Unable to communicate with Fusion 360 to Moldflow plugin." translation="Nie można połączyć się z wtyczką Fusion 360 do aplikacji Moldflow."/>
+	<label commandName="PushFusionToMoldflowSetPath" devLabel="Unable to push data from Fusion 360 to Moldflow." translation="Nie można wypchnąć danych z programu Fusion 360 do aplikacji Moldflow."/>
+	<label commandName="WinAPIFailed" devLabel="Windows API %s failed with error %d: %s" translation="Działanie interfejsu API systemu Windows %s zakończyło się niepowodzeniem z błędem %d: %s"/>
+</Resource>

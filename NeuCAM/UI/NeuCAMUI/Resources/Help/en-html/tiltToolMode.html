@@ -1,0 +1,16 @@
+<div id="tiltToolMode"><p>Sets the direction in which the tool should tilt when avoiding a collision.</p>
+<p><b>Automatic:</b> Automatically selects the direction in which to tilt the tool away from the part until the collision is avoided. Useful for parts that contain lots of features, but it may increase the time needed to calculate the toolpath. Available only when <b>Vertical</b> is selected as the <b>Primary Mode</b> for the tool axis.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="250" height="239" src="../images/avoidance-automatic.png"/></center></td>
+</tr><tr>
+<td><center></center></td>
+</tr></table>
+<p>For simpler parts, the following <b>To</b> and <b>From</b> options can provide smoother tool axis movement and use less time to calculate the toolpath.</p>
+<p>When avoiding a collision:</p>
+<p><b>From point</b>: Tilts the tip of the tool in a direction that is away from a point.<br>
+<b>To point</b>: Tilts the tip of the tool in a direction that is towards a point.<br>
+<b>From curve</b>: Tilts the tip of the tool in a direction that is away from a curve.<br>
+<b>To curve</b>: Tilts the tip of the tool in a direction that is towards a curve.</p>
+<p>Note: If the tool needs to tilt beyond the <b>Maximum Tilt</b> tool axis limit to avoid a collision, then that portion of the toolpath is removed.</p>
+</div>

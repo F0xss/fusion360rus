@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ArchiveFiles" devLabel="Archive Files" translation="" />
+	<label commandName="BrowserClippingPlanesLabel" devLabel="Slice Planes" translation="" />
+	<label commandName="BrowserMeshLabel" devLabel="Mesh" translation="" />
+	<label commandName="BrowserResultsLabel" devLabel="Results" translation="" />
+	<label commandName="ExportNotAllowedForAssemblies4" devLabel="Local export to f3d is not supported for designs with referenced components. Please view design details on web and export there." translation="" />
+	<label commandName="ExportNotAllowedForAssembliesTitle" devLabel="Export warning" translation="" />
+	<label commandName="FinishResultsCmd" devLabel="Finish Results" translation="" />
+	<label commandName="GenGenerateDetailsCmdDesc1" devLabel="Displays information about the generation of outcomes for one or more studies." translation="" />
+	<label commandName="GenGenerateDetailsCmdDesc2" devLabel="Available information includes the outcome generation status. You can save this information to a log file." translation="" />
+	<label commandName="HideAllProbesCmdDesc2" devLabel="If you no longer need the probe information, an alternative is to delete the probes, using Delete All Probes from the toolbar Inspect panel." translation="" />
+	<label commandName="PointProbeSelectPrompt" devLabel="Select Point Probe to be plotted" translation="" />
+	<label commandName="PromoteDesc1" devLabel="Converts the Shape Optimization results to a new Mesh Body. The Mesh Body can be edited using the modeling tools." translation="" />
+	<label commandName="PromoteTipsAndTricksDesc" devLabel="" translation="" />
+	<label commandName="PromoteTipsAndTricksTips" devLabel="Computed results will be converted into the new Mesh Body." translation="" />
+	<label commandName="PromoteTipsAndTricksTitle" devLabel="Promote Information" translation="" />
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="" />
+	<label commandName="ShowFilename" devLabel="Show file name" translation="" />
+	<label commandName="Sim2DChart" devLabel="2D Time Plot" translation="" />
+	<label commandName="Sim2DPlotPanelName" devLabel="Transient Results Plot" translation="" />
+	<label commandName="Sim2dPlotAddToReport" devLabel="Add to Report" translation="" />
+	<label commandName="Sim2dPlotClose" devLabel="Removes the current plot" translation="" />
+	<label commandName="Sim2dPlotMax" devLabel="Max." translation="" />
+	<label commandName="Sim2dPlotMin" devLabel="Min." translation="" />
+	<label commandName="Sim2dPlotSwitch" devLabel="Toggle the plot view between graph and table" translation="" />
+	<label commandName="Sim2dPlotSynchronize" devLabel="Synchronize the plot or graph with the graphics" translation="" />
+	<label commandName="Sim2dPlotZoom" devLabel="Fit" translation="" />
+	<label commandName="SimActivateSimLoadCaseCmd" devLabel="Activate Load Case" translation="" />
+	<label commandName="SimActiveSimCaseCommand" devLabel="Active Study View" translation="" />
+	<label commandName="SimActiveSimCaseDesc1" devLabel="Select simulation study for comparison from list of studies in your document." translation="" />
+	<label commandName="SimAnimateCommand" devLabel="Animate" translation="" />
+	<label commandName="SimAnimateDesc1" devLabel="Interpolates results values based on the loading factor (Static Stress Analysis, Thermal Stress Analysis) or based on the period of the observed mode (Modal Analysis)." translation="" />
+	<label commandName="SimAnimateDomain" devLabel="Animate" translation="" />
+	<label commandName="SimAnimateLoopPlay" devLabel="Two-way" translation="" />
+	<label commandName="SimAnimatePause" devLabel="Pause" translation="" />
+	<label commandName="SimAnimatePlay" devLabel="Play" translation="" />
+	<label commandName="SimAnimateRecord" devLabel="Record" translation="" />
+	<label commandName="SimAnimateRecording" devLabel="Recording..." translation="" />
+	<label commandName="SimAnimateRepeatPlay" devLabel="One-way" translation="" />
+	<label commandName="SimAnimateShowOriginal" devLabel="Show Original" translation="" />
+	<label commandName="SimAnimateSliderInt" devLabel="Step" translation="" />
+	<label commandName="SimAnimateSpeed" devLabel="Speed" translation="" />
+	<label commandName="SimAnimateSpeedFast" devLabel="Fast" translation="" />
+	<label commandName="SimAnimateSpeedFastest" devLabel="Fastest" translation="" />
+	<label commandName="SimAnimateSpeedNormal" devLabel="Normal" translation="" />
+	<label commandName="SimAnimateSpeedSlow" devLabel="Slow" translation="" />
+	<label commandName="SimAnimateSpeedSlowest" devLabel="Slowest" translation="" />
+	<label commandName="SimAnimateSteps" devLabel="Steps" translation="" />
+	<label commandName="SimAnimateStop" devLabel="Stop" translation="" />
+	<label commandName="SimAnimateTipsAndTricksDesc" devLabel="Set the animation speed and the number of steps. The maximum number of steps is 100. Each step is an individual image or frame. Change the observed result quantities listed on the legend as needed. To save your animation to either an AVI (Windows) or MOV (Mac) file, click &lt;b&gt;Record&lt;/b&gt; and specify the filename." translation="" />
+	<label commandName="SimAnimateTipsAndTricksTips" devLabel="Use animation to observe how the results develop with the changing loading factor (Static Stress Analysis, Thermal Stress Analysis) or with changing period of the observed mode (Modal Analysis)." translation="" />
+	<label commandName="SimAnimateTipsAndTricksTitle" devLabel="Animate Information" translation="" />
+	<label commandName="SimAnimationFilesFilterAvi" devLabel="avi files (*.avi);;" translation="" />
+	<label commandName="SimAnimationFilesFilterMov" devLabel="mov files (*.mov)" translation="" />
+	<label commandName="SimCheckBoxUpdateRangePerStep" devLabel="Update Range Per Step" translation="" />
+	<label commandName="SimCheckBoxVisibleOnly" devLabel="Visible Only" translation="" />
+	<label commandName="SimClipping" devLabel="Clipping" translation="" />
+	<label commandName="SimClippingPlaneDesc1" devLabel="Use a slice plane to clip the result plot and see the results inside the model." translation="" />
+	<label commandName="SimClippingPlaneEditFailed" devLabel="Failed to edit clipping plane." translation="" />
+	<label commandName="SimClippingPlaneEditTipsAndTricksDesc" devLabel="To move or re-orient the plane, drag the manipulator." translation="" />
+	<label commandName="SimClippingPlaneEditTipsAndTricksTips" devLabel="Edit slice plane." translation="" />
+	<label commandName="SimClippingPlaneEditTipsAndTricksTitle" devLabel="Slice Plane Information" translation="" />
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksDesc" devLabel="Hover the cursor over the visible mesh surface and left-click on the desired location. After the initial position is picked, the newly created slice plane can be adjusted more precisely." translation="" />
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksTips" devLabel="Start to create a slice plane by selecting a point on the mesh surface." translation="" />
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksTitle" devLabel="Slice Plane Information" translation="" />
+	<label commandName="SimClippingPlanesCountExceededError" devLabel="Maximum number of applied slice planes has been exceeded.&#10;Your current hardware supports %1% slice planes." translation="" />
+	<label commandName="SimCloneStudiesInput" devLabel="Clone Studies" translation="" />
+	<label commandName="SimColorTransition" devLabel="Color Transition" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimCompareEnvironment" devLabel="Compare" translation="" />
+	<label commandName="SimComputeGenResultsNow" devLabel="There are no outcomes to view in Explore yet.&#10;Would you like to generate outcomes now?" translation="" />
+	<label commandName="SimComputeGenResultsNowTitle" devLabel="Explore" translation="" />
+	<label commandName="SimComputeMeshNow" devLabel="The mesh has not been computed yet. Would you like to compute the mesh now?" translation="" />
+	<label commandName="SimComputeMeshNowTitle" devLabel="Mesh view" translation="" />
+	<label commandName="SimComputeResultsNow" devLabel="The results have not been computed yet.&#10;Would you like to compute the results now?" translation="" />
+	<label commandName="SimComputeResultsNowTitle" devLabel="View Results" translation="" />
+	<label commandName="SimConfigurationThin" devLabel="Thin" translation="" />
+	<label commandName="SimConfigurationWide" devLabel="Wide" translation="" />
+	<label commandName="SimContours" devLabel="Contours" translation="" />
+	<label commandName="SimCreateClippingPlane" devLabel="Slice Plane" translation="" />
+	<label commandName="SimCreateClippingPlaneCmd" devLabel="Create Slice Plane" translation="" />
+	<label commandName="SimCreatePointProbe" devLabel="Point Probe" translation="" />
+	<label commandName="SimCreatePointProbeCmd" devLabel="Create Point Probe" translation="" />
+	<label commandName="SimCreateProbePoint" devLabel="Create" translation="" />
+	<label commandName="SimCurrentModelInput" devLabel="To Current Model:" translation="" />
+	<label commandName="SimCustomDomainPoint" devLabel="Custom" translation="" />
+	<label commandName="SimDeleteAllProbesCmd" devLabel="Delete All Probes" translation="" />
+	<label commandName="SimDeleteAllProbesCmdDesc1" devLabel="Removes all probes and the information associated with them." translation="" />
+	<label commandName="SimDeleteAllProbesCmdDesc2" devLabel="To hide the probe information, without deleting the probes, select Hide All Probes from the toolbar Inspect panel." translation="" />
+	<label commandName="SimDisplacementScaleActualCmd" devLabel="Actual" translation="" />
+	<label commandName="SimDisplacementScaleDesc1" devLabel="The actual deformation may be so small that the model shape is unaltered. To view the deformed shape, select a scaling option." translation="" />
+	<label commandName="SimDisplacementScaleDesc2" devLabel="Undeformed: Displays original model shape" translation="" />
+	<label commandName="SimDisplacementScaleDesc3" devLabel="Actual: Displays the computed deformation." translation="" />
+	<label commandName="SimDisplacementScaleDesc4" devLabel="Use these options to display the maximum deformation as a percentage of the model size:" translation="" />
+	<label commandName="SimDisplacementScaleDesc5" devLabel="Adjusted 0.5x: 2.5%" translation="" />
+	<label commandName="SimDisplacementScaleDesc6" devLabel="Adjusted: 5%" translation="" />
+	<label commandName="SimDisplacementScaleDesc7" devLabel="Adjusted 2x: 10%" translation="" />
+	<label commandName="SimDisplacementScaleDesc8" devLabel="Adjusted 5x: 25%" translation="" />
+	<label commandName="SimDisplacementScaleLargeCmd" devLabel="Adjusted 2x" translation="" />
+	<label commandName="SimDisplacementScaleLargestCmd" devLabel="Adjusted 5x" translation="" />
+	<label commandName="SimDisplacementScaleNoneCmd" devLabel="Undeformed" translation="" />
+	<label commandName="SimDisplacementScaleNormalCmd" devLabel="Adjusted" translation="" />
+	<label commandName="SimDisplacementScaleSmallCmd" devLabel="Adjusted 0.5x" translation="" />
+	<label commandName="SimDisplacementScaleSmallCmdWithComma" devLabel="Adjusted 0,5x" translation="" />
+	<label commandName="SimDisplayGlyphScale" devLabel="Glyph Scale" translation="" />
+	<label commandName="SimDisplayGlyphSize" devLabel="Glyph Size" translation="" />
+	<label commandName="SimDisplayGlyphSizeConstant" devLabel="Constant" translation="" />
+	<label commandName="SimDisplayGlyphSizeProportional" devLabel="Proportional" translation="" />
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="" />
+	<label commandName="SimDisplayVector" devLabel="Display Vector" translation="" />
+	<label commandName="SimDomainPoint1Cmd" devLabel="Result Frequency" translation="" />
+	<label commandName="SimDomainPoint2Cmd" devLabel="Result Configuration" translation="" />
+	<label commandName="SimDomainPoint3Cmd" devLabel="Result Configuration" translation="" />
+	<label commandName="SimDomainPointInterpolable1Cmd" devLabel="Result Configuration" translation="" />
+	<label commandName="SimDomainPointInterpolable2Cmd" devLabel="Result Configuration" translation="" />
+	<label commandName="SimDomainPointInterpolable3Cmd" devLabel="Result Configuration" translation="" />
+	<label commandName="SimDragInput" devLabel="DragInput" translation="" />
+	<label commandName="SimEditClippingPlaneCmd" devLabel="Edit Slice Plane" translation="" />
+	<label commandName="SimEditPointProbeCmd" devLabel="Edit Point Probe" translation="" />
+	<label commandName="SimEditPointProbeCmdDesc1" devLabel="Edit existing point probe." translation="" />
+	<label commandName="SimEditPointProbeCmdTipsAndTricksDesc" devLabel="Drag the manipulator to edit probing point position. Drag the labels to edit position of labels." translation="" />
+	<label commandName="SimEditPointProbeCmdTipsAndTricksTips" devLabel="Edit probing point position" translation="" />
+	<label commandName="SimEditPointProbeCmdTipsAndTricksTitle" devLabel="Point Probe Information" translation="" />
+	<label commandName="SimEditResultsLegendCmd" devLabel="Legend Min/Max" translation="" />
+	<label commandName="SimEditResultsLegendDesc1" devLabel="Focus on a particular results value by modifying the legend range." translation="" />
+	<label commandName="SimEditResultsLegendSizeShapeText" devLabel="Legend Size/Shape" translation="" />
+	<label commandName="SimFailedToOpen" devLabel="Failed to open " translation="" />
+	<label commandName="SimFinishCompareCmd" devLabel="Finish Compare" translation="" />
+	<label commandName="SimFinishCompareCmdText" devLabel="Exits the Compare environment and returns you to the Results environment." translation="" />
+	<label commandName="SimFlipClipDir" devLabel="Flip Clip Direction" translation="" />
+	<label commandName="SimGlobalResultScope" devLabel="Global" translation="" />
+	<label commandName="SimGraphStep" devLabel="Time (s)" translation="" />
+	<label commandName="SimGrid" devLabel="Grid" translation="" />
+	<label commandName="SimGridLines" devLabel="Grid Lines" translation="" />
+	<label commandName="SimGridSize" devLabel="Grid Size" translation="" />
+	<label commandName="SimHideAllProbesCmd" devLabel="Hide All Probes" translation="" />
+	<label commandName="SimHideAllProbesCmdDesc1" devLabel="Hides all probes and the information labels associated with them." translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimInputGrapherGrid" devLabel="Grid" translation="" />
+	<label commandName="SimInputGrapherLockYAxis" devLabel="Lock Y Axis" translation="" />
+	<label commandName="SimInputGrapherZoomAll" devLabel="Zoom All" translation="" />
+	<label commandName="SimLayout1H2V" devLabel="One Horizontal and Two Vertical Views" translation="" />
+	<label commandName="SimLayout1H2VDesc1" devLabel="Compare results views from up to three different studies." translation="" />
+	<label commandName="SimLayout1H3V" devLabel="One Horizontal and Three Vertical Views" translation="" />
+	<label commandName="SimLayout1H3VDesc1" devLabel="Compare results views from up to four different studies." translation="" />
+	<label commandName="SimLayout1V2H" devLabel="One Vertical and Two Horizontal Views" translation="" />
+	<label commandName="SimLayout1V2HDesc1" devLabel="Compare results views from up to three different studies." translation="" />
+	<label commandName="SimLayout1V3H" devLabel="One Vertical and Three Horizontal Views" translation="" />
+	<label commandName="SimLayout1V3HDesc1" devLabel="Compare results views from up to four different studies." translation="" />
+	<label commandName="SimLayout2H" devLabel="Two Horizontal Views" translation="" />
+	<label commandName="SimLayout2HDesc" devLabel="Compare results views from one or two different studies." translation="" />
+	<label commandName="SimLayout2V" devLabel="Two Vertical Views" translation="" />
+	<label commandName="SimLayout2VDesc1" devLabel="Compare results views from one or two different studies." translation="" />
+	<label commandName="SimLayout2x2" devLabel="Four Views" translation="" />
+	<label commandName="SimLayout2x2Desc1" devLabel="Compare results views from up to four different studies." translation="" />
+	<label commandName="SimLogFilesFilter" devLabel="Log Files (*.log)" translation="" />
+	<label commandName="SimMaxValueEdit" devLabel="Max." translation="" />
+	<label commandName="SimMaxValueLabel" devLabel="Max." translation="" />
+	<label commandName="SimMaxValueLabels" devLabel="Max." translation="" />
+	<label commandName="SimMeshDbFileExists" devLabel="File with same name already exists. Would you like to overwrite?" translation="" />
+	<label commandName="SimMeshDbWarning" devLabel="Warning" translation="" />
+	<label commandName="SimMeshEdges" devLabel="Mesh Lines" translation="" />
+	<label commandName="SimMinMaxProbesDesc2" devLabel="Display the location of the maximum and minimum values of the current result quantity." translation="" />
+	<label commandName="SimMinMaxProbesHide" devLabel="Hide Min/Max" translation="" />
+	<label commandName="SimMinMaxProbesShow" devLabel="Show Min/Max" translation="" />
+	<label commandName="SimMinMaxProbesTextMax" devLabel="Max" translation="" />
+	<label commandName="SimMinMaxProbesTextMin" devLabel="Min" translation="" />
+	<label commandName="SimMinMaxShow" devLabel="Show Min/Max" translation="" />
+	<label commandName="SimMinValueEdit" devLabel="Min." translation="" />
+	<label commandName="SimMinValueLabel" devLabel="Min." translation="" />
+	<label commandName="SimOptimizationAddYGoal" devLabel="Add Goal" translation="" />
+	<label commandName="SimOptimizationConfigId" devLabel="Configuration" translation="" />
+	<label commandName="SimOptimizationCreateBookmarkFailed" devLabel="Unable to create bookmark(s)" translation="" />
+	<label commandName="SimOptimizationDeleteBookmarkFailed" devLabel="Unable to delete bookmark(s)" translation="" />
+	<label commandName="SimOptimizationGoal" devLabel="Goal" translation="" />
+	<label commandName="SimOptimizationGoals" devLabel="Goals" translation="" />
+	<label commandName="SimOptimizationIteration" devLabel="Iteration" translation="" />
+	<label commandName="SimOptimizationIterationTag" devLabel="Iteration %1%" translation="" />
+	<label commandName="SimOptimizationPLotUICaption" devLabel="Optimization Plot" translation="" />
+	<label commandName="SimOptimizationParams" devLabel="Parameters" translation="" />
+	<label commandName="SimOptimizationPlotStyleGoalGoal" devLabel="Pareto (Goal vs. Goal)" translation="" />
+	<label commandName="SimOptimizationPlotStyleGoalParam" devLabel="Sensitivity (Goal vs. Parameter)" translation="" />
+	<label commandName="SimOptimizationPlotStyleGoalStep" devLabel="Progress History" translation="" />
+	<label commandName="SimOptimizationPlotUIConfigurationHeader" devLabel="Configuration" translation="" />
+	<label commandName="SimOptimizationPlotUIContextMenuBookmark" devLabel="Bookmark" translation="" />
+	<label commandName="SimOptimizationPlotUIContextMenuDownload" devLabel="Download" translation="" />
+	<label commandName="SimOptimizationStyle" devLabel="Style" translation="" />
+	<label commandName="SimOptimizationXAxis" devLabel="X Parameter" translation="" />
+	<label commandName="SimOptimizationXGoal" devLabel="X Goal" translation="" />
+	<label commandName="SimOptimizationYGoal" devLabel="Y Goal" translation="" />
+	<label commandName="SimOutputFilesFilter" devLabel="Output Files (*.out)" translation="" />
+	<label commandName="SimPlotAddBtn" devLabel="Add Plot" translation="" />
+	<label commandName="SimPlotCurrentValue" devLabel="Current Value" translation="" />
+	<label commandName="SimPlotGridLayout" devLabel="Grid" translation="" />
+	<label commandName="SimPlotHorizontalLayout" devLabel="Horizontal" translation="" />
+	<label commandName="SimPlotLayotLabel" devLabel="Layout" translation="" />
+	<label commandName="SimPlotResultsCbo" devLabel="Results" translation="" />
+	<label commandName="SimPlotUnitsCbo" devLabel="Units" translation="" />
+	<label commandName="SimPlotVerticalLayout" devLabel="Vertical" translation="" />
+	<label commandName="SimPointProbe" devLabel="Point Probe" translation="" />
+	<label commandName="SimPointProbeCmd" devLabel="Point Probe" translation="" />
+	<label commandName="SimPointProbeCreateCmdDesc1" devLabel="Query the result value for position in global coordinate space." translation="" />
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksDesc" devLabel="" translation="" />
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksTips" devLabel="" translation="" />
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksTitle" devLabel="" translation="" />
+	<label commandName="SimPointProbeSelection" devLabel="Probe Selection" translation="" />
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksDesc" devLabel="Initial position of a point probe can be picked from any visible surface including slice planes and thresholding iso-surfaces. Point Probe is always fixed in the global coordinate system, however the displacement is honored in the scene. To query values only on the surface of the meshed components, use &lt;b&gt;Surface Probes&lt;/b&gt; instead." translation="" />
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksTips" devLabel="To create a point probe, pick its initial position." translation="" />
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksTitle" devLabel="Point Probe Information" translation="" />
+	<label commandName="SimPointProbeTipsAndTricksDesc" devLabel="" translation="" />
+	<label commandName="SimPointProbeTipsAndTricksTips" devLabel="" translation="" />
+	<label commandName="SimPointProbeTipsAndTricksTitle" devLabel="" translation="" />
+	<label commandName="SimPointTransformInput" devLabel="Position" translation="" />
+	<label commandName="SimPositioning" devLabel="Positioning" translation="" />
+	<label commandName="SimProbeDrag" devLabel="Probe Drag" translation="" />
+	<label commandName="SimProbePointResultScope" devLabel="Probe" translation="" />
+	<label commandName="SimProbePointSelectionInput" devLabel="Point Probe" translation="" />
+	<label commandName="SimProbePropertiesCmd" devLabel="Properties" translation="" />
+	<label commandName="SimProbePropertiesType" devLabel="Type" translation="" />
+	<label commandName="SimProbeUndeformedX" devLabel="X (undeformed)" translation="" />
+	<label commandName="SimProbeUndeformedY" devLabel="Y (undeformed)" translation="" />
+	<label commandName="SimProbeUndeformedZ" devLabel="Z (undeformed)" translation="" />
+	<label commandName="SimProbeValue" devLabel="Value" translation="" />
+	<label commandName="SimPromoteActiveAssetSession" devLabel="No Active Asset Session" translation="" />
+	<label commandName="SimPromoteActiveAssetShell" devLabel="No Active Asset Shell" translation="" />
+	<label commandName="SimPromoteCmd" devLabel="Promote" translation="" />
+	<label commandName="SimPromoteFileInfo" devLabel="" translation="" />
+	<label commandName="SimPromoteFileInfoCommon" devLabel="Filename" translation="" />
+	<label commandName="SimPromoteFileInfoWM_1" devLabel="New geometry will be added to &lt;br/&gt; &quot;%1%&quot;" translation="" />
+	<label commandName="SimPromoteFileNameInput" devLabel="Filename" translation="" />
+	<label commandName="SimPromoteInvalidFilename" devLabel="Invalid file name for promote action" translation="" />
+	<label commandName="SimPromoteLayoutButtonAndFilename" devLabel="Layout button and filename" translation="" />
+	<label commandName="SimPromoteMesh" devLabel="Mesh" translation="" />
+	<label commandName="SimPromoteSaveOnPromote" devLabel="Save on Promote" translation="" />
+	<label commandName="SimPromoteSolid" devLabel="Solid" translation="" />
+	<label commandName="SimPromoteSurface" devLabel="Surface" translation="" />
+	<label commandName="SimPromoteToBaseModel" devLabel="Design Workspace" translation="" />
+	<label commandName="SimPromoteToClonedWorkingModel" devLabel="Clone Current Simulation Model" translation="" />
+	<label commandName="SimPromoteToFile" devLabel="Export as new geometry" translation="" />
+	<label commandName="SimPromoteToOpenedDocument" devLabel="Create a new Fusion Document" translation="" />
+	<label commandName="SimPromoteToWorkingModel" devLabel="Existing Simulation Model" translation="" />
+	<label commandName="SimPromoteType" devLabel="Result type" translation="" />
+	<label commandName="SimPromoteTypeDropDownInput" devLabel="Add mesh object to:" translation="" />
+	<label commandName="SimRecomputeGenResultsNow" devLabel="One or more studies have not been generated yet so their outcomes will not appear in Explore. Do you want to generate these studies now?" translation="" />
+	<label commandName="SimRecomputeGenResultsNowFailed" devLabel="There are no outcomes for any generated studies. Check the Generate Details for more information." translation="" />
+	<label commandName="SimRecomputeGenResultsNowTitle" devLabel="Explore" translation="" />
+	<label commandName="SimRenderStyleExactColor" devLabel="Default Colors" translation="" />
+	<label commandName="SimRenderStylePresentation" devLabel="Presentation" translation="" />
+	<label commandName="SimRenderStyleShaded" devLabel="Shaded" translation="" />
+	<label commandName="SimResultLegendCallChartCmd" devLabel="2D Chart" translation="" />
+	<label commandName="SimResultLegendOptionsCmd" devLabel="Legend Options" translation="" />
+	<label commandName="SimResultLegendShape" devLabel="Legend Shape" translation="" />
+	<label commandName="SimResultLegendSize" devLabel="Legend Size" translation="" />
+	<label commandName="SimResultLegendWide" devLabel="Wide Legend" translation="" />
+	<label commandName="SimResultNodeAverageCmd" devLabel="Node Average" translation="" />
+	<label commandName="SimResultRecommendationButtonText" devLabel="Results Details" translation="" />
+	<label commandName="SimResultRecommendationMarginallySafeButtonTooltip" devLabel="Your design marginally withstands the applied loads." translation="" />
+	<label commandName="SimResultRecommendationReallySafeButtonTooltip" devLabel="Your design easily withstands the applied loads." translation="" />
+	<label commandName="SimResultRecommendationSafeButtonTooltip" devLabel="Your design sufficiently withstands the applied loads." translation="" />
+	<label commandName="SimResultRecommendationUnsafeButtonTooltip" devLabel="The applied loads may cause your design to deform permanently." translation="" />
+	<label commandName="SimResultRecommendationsAutomaticallyShowCmdText" devLabel="Automatically Show" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Actual" devLabel="Actual" translation="" />
+	<label commandName="SimResultRecommendationsCmd_ActualMinSF" devLabel="Actual Minimum Safety Factor" translation="" />
+	<label commandName="SimResultRecommendationsCmd_AdjustScale" devLabel="Deformation Scale" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Adjusted" devLabel="Adjusted" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Adjusted0_5x" devLabel="Adjusted 0.5x" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Adjusted2x" devLabel="Adjusted 2x" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Adjusted5x" devLabel="Adjusted 5x" translation="" />
+	<label commandName="SimResultRecommendationsCmd_DoNotAutoShow" devLabel="Don't show this automatically" translation="" />
+	<label commandName="SimResultRecommendationsCmd_LSFTarget" devLabel="Lower Target" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Recommendations" devLabel="Recommendations" translation="" />
+	<label commandName="SimResultRecommendationsCmd_SFDefaultValues" devLabel="Default Values" translation="" />
+	<label commandName="SimResultRecommendationsCmd_SFGroup" devLabel="Safety Factor Targets" translation="" />
+	<label commandName="SimResultRecommendationsCmd_ShowStrongest" devLabel="Show strongest areas of design" translation="" />
+	<label commandName="SimResultRecommendationsCmd_ShowWeakest" devLabel="Show weakest areas of design" translation="" />
+	<label commandName="SimResultRecommendationsCmd_USFTarget" devLabel="Upper Target" translation="" />
+	<label commandName="SimResultRecommendationsCmd_Undeformed" devLabel="Undeformed" translation="" />
+	<label commandName="SimResultRecommendationsDeformationScaleCmdText" devLabel="Adjust Deformation Scale" translation="" />
+	<label commandName="SimResultRecommendationsDeformationScaleCmd_errsetup" devLabel="Error trying to execute deformation scale command." translation="" />
+	<label commandName="SimResultRecommendationsEditSafetyFactorCmdText" devLabel="Edit Safety Factors" translation="" />
+	<label commandName="SimResultRecommendationsShowDesignCmdText" devLabel="Show design" translation="" />
+	<label commandName="SimResultScopeCbo" devLabel="Result Scope" translation="" />
+	<label commandName="SimResultTypeCmd" devLabel="Result Type" translation="" />
+	<label commandName="SimResultTypeGroupCmd" devLabel="Result Type Group" translation="" />
+	<label commandName="SimResultUnitsCmd" devLabel="Result Units" translation="" />
+	<label commandName="SimResultsAnimationCreationError" devLabel="Could not create the animation file." translation="" />
+	<label commandName="SimResultsAnimationDeleteError" devLabel="Could not delete the existing animation file." translation="" />
+	<label commandName="SimResultsLegendConfigurationDesc1" devLabel="Specify the shape and size of the Results Legend. The appearance of the legend can be unique in every view displayed." translation="" />
+	<label commandName="SimResultsLegendConfiguration_Bar" devLabel="Bar" translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarBig" devLabel="Big" translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarNormal" devLabel="Normal" translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarSmall" devLabel="Small" translation="" />
+	<label commandName="SimResultsLegendConfiguration_HudOnLeft" devLabel="Left" translation="" />
+	<label commandName="SimResultsLegendConfiguration_HudOnTop" devLabel="Top" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Large" devLabel="Large" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Normal" devLabel="Normal" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Quarter" devLabel="Quarter" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Small" devLabel="Small" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Wreath" devLabel="Wreath" translation="" />
+	<label commandName="SimResultsLegendHideCmd" devLabel="Hide result legend" translation="" />
+	<label commandName="SimResultsLegendMaxRefValueResetCmd" devLabel="Reset" translation="" />
+	<label commandName="SimResultsLegendMaxRefValueResetText" devLabel="Resets maximum referential value." translation="" />
+	<label commandName="SimResultsLegendMinRefValueResetCmd" devLabel="Reset" translation="" />
+	<label commandName="SimResultsLegendMinRefValueResetText" devLabel="Resets minimum referential value." translation="" />
+	<label commandName="SimResultsLegendOptionsDesc1" devLabel="Customize the legend appearance." translation="" />
+	<label commandName="SimResultsLegendOptionsDesc2" devLabel="Specify the size, color transition, and plot shading. The Legend appearance can be unique in every displayed view." translation="" />
+	<label commandName="SimResultsLegendOptionsTipsAndTricksDesc" devLabel="To display results only for visible components, select &lt;b&gt;Visible Only&lt;/b&gt;." translation="" />
+	<label commandName="SimResultsLegendOptionsTipsAndTricksTips" devLabel="Customize the legend appearance with the &lt;b&gt;Legend Size&lt;/b&gt; drop-down list.&lt;br&gt;To display results within a certain threshold range, drag the arrows at the ends of the legend inward. Results outside of this range are hidden from view.&lt;br&gt;To change the number of value labels, hover over the legend while holding the left mouse button. As you move the mouse toward the upper or lower ends of the legend, labels are added or removed." translation="" />
+	<label commandName="SimResultsLegendOptionsTipsAndTricksTitle" devLabel="Legend Options Information" translation="" />
+	<label commandName="SimResultsLegendShowCmd" devLabel="Show result legend" translation="" />
+	<label commandName="SimResultsRecommendationsCmd_Tips" devLabel="The information in this dialog is based on the safety factor of the current setup. Safety factor is a ratio of the maximum strength of the material to the stress calculated in the simulation. The conclusions here are general recommendations that may not be appropriate to your particular industry or application. Please see the help documentation for more information." translation="" />
+	<label commandName="SimResultsRecommendationsCmd_TipsAndTricksTitle" devLabel="Results Recommendations Information" translation="" />
+	<label commandName="SimResultsRecommendationsCmd_Tooltip" devLabel="Shows result recommendations." translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimSaveDetails" devLabel="Save" translation="" />
+	<label commandName="SimSaveDetailsToolTip" devLabel="Save text file" translation="" />
+	<label commandName="SimSaveResultsAnimationAsCaption" devLabel="Save Results Animation As" translation="" />
+	<label commandName="SimSaveSolverData" devLabel="Save As" translation="" />
+	<label commandName="SimSelectClippingPlane" devLabel="Select slice plane" translation="" />
+	<label commandName="SimSelectClippingPlaneToBeEdited" devLabel="Select a slice plane to be edited" translation="" />
+	<label commandName="SimSelectProbePoint" devLabel="Select" translation="" />
+	<label commandName="SimShaded" devLabel="Shaded" translation="" />
+	<label commandName="SimShadingStyleBanded" devLabel="Banded" translation="" />
+	<label commandName="SimShadingStyleSmooth" devLabel="Smooth" translation="" />
+	<label commandName="SimShowAllProbesCmd" devLabel="Show All Probes" translation="" />
+	<label commandName="SimShowAllProbesCmdDesc1" devLabel="Makes visible all probes that you have previously hidden, so you can see the data in their labels again." translation="" />
+	<label commandName="SimSolveDetailsDesc1" devLabel="Displays information about jobs in the active document, including whether or not they ran successfully." translation="" />
+	<label commandName="SimSolveDetailsDesc2" devLabel="Errors and warnings are also listed, with suggestions on how to resolve them. You can save this information to a log file, or share it in an e-mail." translation="" />
+	<label commandName="SimSolveLog" devLabel="Solver Data" translation="" />
+	<label commandName="SimSolveLogDesc1" devLabel="View solver information and statistics about the current study." translation="" />
+	<label commandName="SimSolverDataFilter" devLabel="Solver Data filter" translation="" />
+	<label commandName="SimSolverDataItem" devLabel="Solver Data" translation="" />
+	<label commandName="SimSolverDataMeshDetails" devLabel="Mesh Details" translation="" />
+	<label commandName="SimSolverDataSummary" devLabel="Summary" translation="" />
+	<label commandName="SimSolverOutputItem" devLabel="Solver Output" translation="" />
+	<label commandName="SimStyle" devLabel="Style" translation="" />
+	<label commandName="SimSurfaceProbe" devLabel="Surface Probe" translation="" />
+	<label commandName="SimSurfaceProbeDesc1" devLabel="Query interactively for the result values on the mesh surface." translation="" />
+	<label commandName="SimSurfaceProbeTipsAndDesc" devLabel="You can set an unlimited number of Surface Probes. The spatial location of the probing point is based on the global coordinate system of the un-deformed model, however it is always bound to the meshed model surface. Surface Probe updates its position automatically when model geometry is changed or model is re-meshed. To query result values inside of the meshed components, use a &lt;b&gt;Point Probe&lt;/b&gt; instead." translation="" />
+	<label commandName="SimSurfaceProbeTipsAndTricksTitle" devLabel="Surface Probe Information" translation="" />
+	<label commandName="SimSurfaceProbeTipsAndTricksTricksTips" devLabel="To see the exact result value at a point of interest, hover the mouse over the mesh surface. To pin the Surface Probe to a point of interest, left-click on the location." translation="" />
+	<label commandName="SimSurfaceProbesCmd" devLabel="Create Surface Probes" translation="" />
+	<label commandName="SimSyncRefValuesCmd" devLabel="Synchronize Min/Max" translation="" />
+	<label commandName="SimSyncResultTypeCmd" devLabel="Synchronize Result Type" translation="" />
+	<label commandName="SimText" devLabel="Text" translation="" />
+	<label commandName="SimToggleMeshCmd" devLabel="Toggle Mesh Visibility" translation="" />
+	<label commandName="SimToggleMeshDesc1" devLabel="Enable or disable the display of the mesh." translation="" />
+	<label commandName="SimToggleMeshDesc2" devLabel="In the Model View, ensure the mesh resolves the geometric features of the model adequately. In the Results View, determine if the mesh artifically affects the results, and refine the mesh as necessary." translation="" />
+	<label commandName="SimToggleWireframeCmd" devLabel="Toggle Wireframe Visibility" translation="" />
+	<label commandName="SimToggleWireframeText" devLabel="Toggle Wireframe Visibility" translation="" />
+	<label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+	<label commandName="SimVectors" devLabel="Vectors" translation="" />
+	<label commandName="SimWarnOutOfDateMesh" devLabel="The mesh is not up-to-date with the current settings." translation="" />
+	<label commandName="SimWarnOutOfDateResults" devLabel="The results are not up-to-date with the current settings." translation="" />
+	<label commandName="SimWrapText" devLabel="Wrap text" translation="" />
+	<label commandName="TargetModel" devLabel="" translation="" />
+	<label commandName="lclzProbeText" devLabel="Point Probe" translation="" />
+</Resource>

@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AdjustSettingsForRest" devLabel="Adjust the rest settings" translation="Dostosuj ustawienia pozostałych"/>
+	<label commandName="AlertDTT" devLabel="Displays this alert in the canvas. If you use Design Advice to check this solid body again, this alert will be included in the results if you have not resolved it." translation="Wyświetla ten alert w obszarze rysunku. Jeśli użyjesz narzędzia Porada projektowa do ponownego sprawdzenia bryły, alert ten zostanie uwzględniony w wynikach, jeśli nie został rozwiązany."/>
+	<label commandName="AlertRegion" devLabel="  Region %1%" translation="  Obszar %1%"/>
+	<label commandName="AlertStatusDropDownOptions" devLabel="Status" translation="Stan:"/>
+	<label commandName="AlertStatusErrorOption" devLabel="Alert" translation="Ostrzeżenie"/>
+	<label commandName="AlertStatusIgnoreOption" devLabel="Ignore" translation="Ignoruj"/>
+	<label commandName="AnalyzePrompt" devLabel="Click Analyze, then review results and recommendations" translation="Kliknij przycisk Analiza, a następnie przejrzyj wyniki i zalecenia"/>
+	<label commandName="AssignedRuleName" devLabel="Rule Details: " translation="Szczegóły reguły: "/>
+	<label commandName="BCCannotCreateCloudFolder" devLabel="&lt;b&gt;Bolt folder cannot be created in offline mode.&lt;/b&gt;&lt;p&gt;Bolt component is not created.&lt;/p&gt;" translation="&lt;b&gt;Nie można utworzyć folderu śrub w trybie offline.&lt;/b&gt;&lt;p&gt;Komponent śruby nie został utworzony.&lt;/p&gt;"/>
+	<label commandName="BCSaveTitle" devLabel="&lt;b&gt;Bolted Connection requires saved target design.&lt;/b&gt;" translation="&lt;b&gt;Połączenie gwintowe wymaga zapisanego projektu docelowego.&lt;/b&gt;"/>
+	<label commandName="BodySelectionDTT" devLabel="Select a solid body to analyze." translation="Wybierz korpus bryłowy do analizy."/>
+	<label commandName="BoltConnCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener while Fusion 360 is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode." translation="Nie można utworzyć komponentu zewnętrznego dla części złącznej, gdy program Fusion 360 jest w trybie offline.&lt;br/&gt;&lt;br/&gt;Spróbuj przełączyć na tryb online."/>
+	<label commandName="BoltConnCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design." translation="Nie można utworzyć komponentu zewnętrznego dla części złącznej, dopóki projekt nie zostanie przekazany do chmury.&lt;br/&gt;&lt;br/&gt;Przekaż projekt."/>
+	<label commandName="BoltConnCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design." translation="Nie można utworzyć komponentu zewnętrznego dla części złącznej, dopóki projekt nie zostanie zapisany.&lt;br/&gt;&lt;br/&gt;Zapisz projekt."/>
+	<label commandName="BoltConnCmdBoltCreate" devLabel="Create Component" translation="Utwórz komponent"/>
+	<label commandName="BoltConnCmdBoltCreateToolTip" devLabel="Creates an external component that contains the geometry of the fastener and references it into the active design.&#xA;&#xA;Identical fasteners reference the same external component." translation="Tworzy komponent zewnętrzny zawierający geometrię części złącznej i odwołuje się do niego w aktywnym projekcie.&#xA;&#xA;Identyczne części złącznej odnoszą się do tego samego komponentu zewnętrznego."/>
+	<label commandName="BoltConnCmdBoltGroup" devLabel="Fastener" translation="Część złączna"/>
+	<label commandName="BoltConnCmdDiameter" devLabel="Thread Diameter" translation="Średnica gwintu"/>
+	<label commandName="BoltConnCmdDiameterToolTip" devLabel="Select a diameter to apply to the fastener." translation="Wybierz średnicę, która ma zostać zastosowana do części złącznej."/>
+	<label commandName="BoltConnCmdFinish" devLabel="Surface Finish" translation="Wykończenie powierzchni"/>
+	<label commandName="BoltConnCmdFinishToolTip" devLabel="Specify a surface finish to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Określa wykończenie powierzchni, które ma zostać dodane do części złącznej jako właściwość tylko tekstowa.&#xA;&#xA;Nie ma to wpływu na materiał fizyczny ani wygląd."/>
+	<label commandName="BoltConnCmdHeadType" devLabel="Head" translation="Nagłówek"/>
+	<label commandName="BoltConnCmdHeadTypeFlat" devLabel="Flat" translation="Płaski"/>
+	<label commandName="BoltConnCmdHeadTypeFlatToolTip" devLabel="Creates a fastener with a flat head." translation="Tworzy część złączną z płaskim łbem."/>
+	<label commandName="BoltConnCmdHeadTypeHex" devLabel="Hex" translation="Szesnastkowo"/>
+	<label commandName="BoltConnCmdHeadTypeHexToolTip" devLabel="Creates a fastener with a hex head." translation="Tworzy część złączną z łbem sześciokątnym."/>
+	<label commandName="BoltConnCmdHeadTypeHexWasher" devLabel="Hex Washer" translation="Podkładka sześciokątna"/>
+	<label commandName="BoltConnCmdHeadTypeHexWasherToolTip" devLabel="Creates a fastener with a hex washer head." translation="Tworzy część złączną z łbem kołnierzowym sześciokątnym."/>
+	<label commandName="BoltConnCmdHeadTypeOval" devLabel="Oval" translation="Owalny"/>
+	<label commandName="BoltConnCmdHeadTypeOvalToolTip" devLabel="Creates a fastener with an oval head." translation="Tworzy część złączną z owalnym łbem."/>
+	<label commandName="BoltConnCmdHeadTypePan" devLabel="Pan" translation="Przesuwanie"/>
+	<label commandName="BoltConnCmdHeadTypePanToolTip" devLabel="Creates a fastener with a pan head." translation="Tworzy część złączną z łbem walcowym wypukłym."/>
+	<label commandName="BoltConnCmdHeadTypeRound" devLabel="Round" translation="Okrągłe"/>
+	<label commandName="BoltConnCmdHeadTypeRoundToolTip" devLabel="Creates a fastener with a round head." translation="Tworzy część złączną z łbem kulistym."/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasher" devLabel="Round Washer" translation="Podkładka okrągła"/>
+	<label commandName="BoltConnCmdHeadTypeRoundWasherToolTip" devLabel="Creates a fastener with a round washer head." translation="Tworzy część złączną z łbem kołnierzowym kulistym."/>
+	<label commandName="BoltConnCmdLength" devLabel="Length" translation="Długość"/>
+	<label commandName="BoltConnCmdLengthToolTip" devLabel="Select a length to apply to the fastener." translation="Wybierz długość, która ma być zastosowana do części złącznej."/>
+	<label commandName="BoltConnCmdMaterial" devLabel="Fastener Material" translation="Materiał części złącznej"/>
+	<label commandName="BoltConnCmdMaterialToolTip" devLabel="Specify a material to add as a text-only property to the fastener.&#xA;&#xA;Does not affect physical material or appearance." translation="Określa materiał, który ma zostać dodany do części złącznej jako właściwość tylko tekstowa.&#xA;&#xA;Nie ma to wpływu na materiał fizyczny ani wygląd."/>
+	<label commandName="BoltConnCmdPosition" devLabel="Position" translation="Położenie"/>
+	<label commandName="BoltConnCmdPositionToolTip" devLabel="Select a circular edge to position the feature on a body." translation="Wybierz krawędź kołową, aby umieścić element na bryle."/>
+	<label commandName="BoltConnCmdSlotType" devLabel="Drive" translation="Sterowanie"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHex" devLabel="Hex" translation="Szesnastkowo"/>
+	<label commandName="BoltConnCmdSlotTypeInternalHexToolTip" devLabel="Creates a hex style drive in the head of the fastener." translation="Tworzy sześciokątne gniazdo we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeNoSlot" devLabel="None" translation="Brak"/>
+	<label commandName="BoltConnCmdSlotTypeNoSlotToolTip" devLabel="Creates no drive in the head of the fastener." translation="Nie tworzy żadnego gniazda we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypePhillips" devLabel="Phillips" translation="Phillips"/>
+	<label commandName="BoltConnCmdSlotTypePhillipsToolTip" devLabel="Creates a Phillips style drive in the head of the fastener." translation="Tworzy gniazdo krzyżowe we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypePozidriv" devLabel="Pozidriv" translation="Pozidriv"/>
+	<label commandName="BoltConnCmdSlotTypePozidrivToolTip" devLabel="Creates a Pozidriv style drive in the head of the fastener." translation="Tworzy gniazdo Pozidriv we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorx" devLabel="Security Torx Plus" translation="Security Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeSecurityTorxToolTip" devLabel="Creates a Security Torx Plus style drive in the head of the fastener." translation="Tworzy gniazdo Security Torx Plus we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeSlotted" devLabel="Slot" translation="Rowek"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillips" devLabel="Slotted Phillips" translation="Gniazdo Philips z rowkiem"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPhillipsToolTip" devLabel="Creates a slotted Phillips style drive in the head of the fastener." translation="Tworzy gniazdo krzyżowe z rowkiem we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidriv" devLabel="Slotted Pozidriv" translation="Pozidriv z rowkiem"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedPozidrivToolTip" devLabel="Creates a slotted Pozidriv style drive in the head of the fastener." translation="Tworzy gniazdo Pozidriv z rowkiem we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedToolTip" devLabel="Creates a slot style drive in the head of the fastener." translation="Tworzy gniazdo z rowkiem we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlus" devLabel="Slotted Torx Plus" translation="Torx Plus z rowkiem"/>
+	<label commandName="BoltConnCmdSlotTypeSlottedTorxPlusToolTip" devLabel="Creates a slotted Torx Plus style drive in the head of the fastener." translation="Tworzy gniazdo Torx Plus z rowkiem we łbie części złącznej."/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlus" devLabel="Torx Plus" translation="Torx Plus"/>
+	<label commandName="BoltConnCmdSlotTypeTorxPlusToolTip" devLabel="Creates a Torx Plus style drive in the head of the fastener." translation="Tworzy gniazdo Torx Plus we łbie części złącznej."/>
+	<label commandName="BoltConnCmdThread30deg" devLabel="30°" translation="30°"/>
+	<label commandName="BoltConnCmdThread30degToolTip" devLabel="Applies a 30-degree angle to the threads on the fastener." translation="Stosuje kąt 30 stopni do gwintów na części złącznej."/>
+	<label commandName="BoltConnCmdThread45deg" devLabel="45°" translation="45°"/>
+	<label commandName="BoltConnCmdThread45degToolTip" devLabel="Applies a 45-degree angle to the threads on the fastener." translation="Stosuje kąt 45 stopni do gwintów na części złącznej."/>
+	<label commandName="BoltConnCmdThread60deg" devLabel="60°" translation="60°"/>
+	<label commandName="BoltConnCmdThread60degToolTip" devLabel="Applies a 60-degree angle to the threads on the fastener." translation="Stosuje kąt 60 stopni do gwintów na części złącznej."/>
+	<label commandName="BoltConnCmdThreadType" devLabel="Thread Form" translation="Kształt gwintu"/>
+	<label commandName="BoltConnCmdThreadTypeToolTip" devLabel="Select a thread form to apply to the fastener." translation="Wybierz kształt gwintu, który ma być zastosowany do części złącznej."/>
+	<label commandName="BoltConnCmdThreadVariant" devLabel="Thread Angle" translation="Kąt gwintu"/>
+	<label commandName="BoltConnCmdThreadVariantToolTip" devLabel="Select a thread angle to apply to the fastener." translation="Wybierz kąt gwintu, który ma być zastosowany do części złącznej."/>
+	<label commandName="BoltConnSelectPosition" devLabel="Select a circles to locate bolt" translation="Wybierz okręgi do umieszczenia śruby"/>
+	<label commandName="BossCannotCreateFastener" devLabel="Cannot create fastener" translation="Nie można utworzyć części złącznej"/>
+	<label commandName="BossCannotCreateFolderOffline" devLabel="Cannot create an external component for the fastener in the boss while Fusion 360 is in Offline Mode.&lt;br/&gt;&lt;br/&gt;Try to switch to Online Mode or continue without creating the fastener?" translation="Nie można utworzyć zewnętrznego komponentu dla części złącznej w kominku, gdy program Fusion 360 jest w trybie offline.&lt;br/&gt;&lt;br/&gt;Spróbuj przełączyć się do trybu online lub kontynuować bez tworzenia części złącznej?"/>
+	<label commandName="BossCannotCreateForLocalDocument" devLabel="Cannot create an external component for the fastener in the boss until you upload the design to the cloud.&lt;br/&gt;&lt;br/&gt;Upload the design or continue without creating the fastener?" translation="Nie można utworzyć zewnętrznego komponentu dla części złącznej w kominku, dopóki projekt nie zostanie przekazany do chmury.&lt;br/&gt;&lt;br/&gt;Przekazać projekt czy kontynuować bez tworzenia części złącznej?"/>
+	<label commandName="BossCannotCreateForUnsavedDocument" devLabel="Cannot create an external component for the fastener in the boss until you save the design.&lt;br/&gt;&lt;br/&gt;Save the design or continue without creating the fastener?" translation="Nie można utworzyć zewnętrznego komponentu dla części złącznej w kominku, dopóki projekt nie zostanie zapisany.&lt;br/&gt;&lt;br/&gt;Zapisać projekt czy kontynuować bez tworzenia części złącznej?"/>
+	<label commandName="BossCmdBossTab" devLabel="Boss" translation="Kominek"/>
+	<label commandName="BossCmdBossTab1A" devLabel="A₁" translation="A₁"/>
+	<label commandName="BossCmdBossTab1AToolTipL0" devLabel="Counterbore Diameter" translation="Średnica pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab1AToolTipL1" devLabel="Specify the diameter value of the counterbore hole for Side 1 of the boss feature." translation="Określa wartość średnicy otworu z pogłębieniem walcowym dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Kąt pochylenia pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab1Alpha1ToolTipSuffix" devLabel="Specify the draft angle value of the counterbore for Side 1 of the boss feature." translation="Określa wartość kąta pochylenia pogłębienia walcowego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Kąt pochylenia otworu"/>
+	<label commandName="BossCmdBossTab1Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 1 of the boss feature." translation="Określa wartość kąta pochylenia otworu dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Kąt pochylenia stopnia"/>
+	<label commandName="BossCmdBossTab1Alpha3ToolTipSuffix" devLabel="Specify the draft angle value of the step for Side 1 of the boss feature." translation="Określa wartość kąta pochylenia dla stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Kąt pochylenia kominka"/>
+	<label commandName="BossCmdBossTab1Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 1 of the boss feature." translation="Określa wartość kąta pochylenia zewnętrznego elementu wypukłego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1AlphaImage" devLabel="BossCmdBossTab1AlphaImage" translation="BossCmdBossTab1AlphaImage"/>
+	<label commandName="BossCmdBossTab1AlphaTable" devLabel="BossCmdBossTab1AlphaTable" translation="BossCmdBossTab1AlphaTable"/>
+	<label commandName="BossCmdBossTab1BToolTipL0" devLabel="Inner Hole Diameter" translation="Średnica otworu wewnętrznego"/>
+	<label commandName="BossCmdBossTab1BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 1 of the boss feature." translation="Określa wartość średnicy otworu wewnętrznego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1CToolTipL0" devLabel="Step Diameter" translation="Średnica stopnia"/>
+	<label commandName="BossCmdBossTab1CToolTipL1" devLabel="Specify the diameter value of the step for Side 1 of the boss feature." translation="Określa wartość średnicy stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1CounterSinkAngle" devLabel="Countersink Angle" translation="Kąt pogłębienia stożkowego"/>
+	<label commandName="BossCmdBossTab1CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 1 of the boss feature." translation="Określa wartość kąta dla otworu z pogłębieniem stożkowym dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1DToolTipL0" devLabel="Boss Diameter" translation="Średnica kominka"/>
+	<label commandName="BossCmdBossTab1DToolTipSuffix" devLabel="Specify the overall diameter value for Side 1 of the boss feature." translation="Określa wartość średnicy całkowitej dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1EToolTipL0" devLabel="Inner Hole Depth" translation="Głębokość otworu wewnętrznego"/>
+	<label commandName="BossCmdBossTab1EToolTipL1" devLabel="Specify the depth value of the inner hole for Side 1 of the boss feature." translation="Określa wartość głębokości otworu wewnętrznego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1FToolTipL0" devLabel="Step Depth" translation="Głębokość stopnia"/>
+	<label commandName="BossCmdBossTab1FToolTipSuffix" devLabel="Specify the depth value of the step for Side 1 of the boss feature." translation="Określa wartość głębokości stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Hole" devLabel="Hole Type" translation="Typ otworu"/>
+	<label commandName="BossCmdBossTab1HoleCommon" devLabel="Simple" translation="Prosty"/>
+	<label commandName="BossCmdBossTab1HoleCommonToolTip" devLabel="Creates a simple hole for Side 1 of the boss feature." translation="Tworzy prosty otwór dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1HoleCounterBore" devLabel="Counterbore" translation="Pogłębienie walcowe"/>
+	<label commandName="BossCmdBossTab1HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 1 of the boss feature." translation="Tworzy otwór z pogłębieniem walcowym dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1HoleCounterSink" devLabel="Countersink" translation="Pogłębienie stożkowe"/>
+	<label commandName="BossCmdBossTab1HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 1 of the boss feature." translation="Tworzy otwór z pogłębieniem stożkowym dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Image" devLabel="Boss1Image" translation="Boss1Image"/>
+	<label commandName="BossCmdBossTab1OToolTipL0" devLabel="Offset Clearance" translation="Odsunięcie prześwitu"/>
+	<label commandName="BossCmdBossTab1OToolTipL1" devLabel="Specify the clearance value between the sketch plane and the inner face of the step for Side 1 of the boss feature." translation="Określa wartość prześwitu między płaszczyzną szkicu a wewnętrzną powierzchnią stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R1ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Promień zaokrąglenia zewnętrznego pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab1R1ToolTipL1" devLabel="Specify the radius value of the outer counterbore fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia zewnętrznego pogłębienia walcowego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Promień zaokrąglenia wewnętrznego pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab1R2ToolTipSuffix" devLabel="Specify the radius value of the inner counterbore fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia wewnętrznego pogłębienia walcowego dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R3ToolTipL0" devLabel="Upper Hole Fillet Radius" translation="Promień górnego zaokrąglenia otworu"/>
+	<label commandName="BossCmdBossTab1R3ToolTipL1" devLabel="Specify the radius value of the upper hole fillet for Side 1 of the boss feature." translation="Określa wartość promienia górnego zaokrąglenia otworu dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R4ToolTipL0" devLabel="Lower Hole Fillet Radius" translation="Promień dolnego zaokrąglenia otworu"/>
+	<label commandName="BossCmdBossTab1R4ToolTipSuffix" devLabel="Specify the radius value of the lower hole fillet for Side 1 of the boss feature." translation="Określa wartość promienia dolnego zaokrąglenia otworu dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Promień zewnętrznego zaokrąglenia kominka"/>
+	<label commandName="BossCmdBossTab1R5ToolTipL1" devLabel="Specify the radius value of the outer boss fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia kominka dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Promień zewnętrznego zaokrąglenia stopnia"/>
+	<label commandName="BossCmdBossTab1R6ToolTipSuffix" devLabel="Specify the radius value of the outer step fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia zewnętrznego stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Promień wewnętrznego zaokrąglenia stopnia"/>
+	<label commandName="BossCmdBossTab1R7ToolTipL1" devLabel="Specify the radius value of the inner step fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia wewnętrznego stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1RImage" devLabel="BossCmdBossTab1RImage" translation="BossCmdBossTab1RImage"/>
+	<label commandName="BossCmdBossTab1RTable" devLabel="BossCmdBossTab1RTable" translation="BossCmdBossTab1RTable"/>
+	<label commandName="BossCmdBossTab1RToolTipL0" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdBossTab1RToolTipSuffix" devLabel="Specify the radius value of the base fillet for Side 1 of the boss feature." translation="Określa wartość promienia zaokrąglenia podstawy dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Step" devLabel="Step Type" translation="Typ stopnia"/>
+	<label commandName="BossCmdBossTab1StepIn" devLabel="In" translation="W"/>
+	<label commandName="BossCmdBossTab1StepInToolTip" devLabel="Creates a step to the inside of Side 1 of the boss feature." translation="Tworzy stopień do wnętrza Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1StepNone" devLabel="None" translation="Brak"/>
+	<label commandName="BossCmdBossTab1StepNoneToolTip" devLabel="Creates no step for Side 1 of the boss feature." translation="Nie tworzy stopnia dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1StepOut" devLabel="Out" translation="Na zewnątrz"/>
+	<label commandName="BossCmdBossTab1StepOutToolTip" devLabel="Creates a step to the outside of Side 1 of the boss feature." translation="Tworzy stopień na zewnątrz Strony 1 elementu kominka."/>
+	<label commandName="BossCmdBossTab1Table" devLabel="Boss1Table" translation="Boss1Table"/>
+	<label commandName="BossCmdBossTab2AToolTipL0" devLabel="Counterbore Diameter" translation="Średnica pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab2AToolTipSuffix" devLabel="Specify the diameter value of the counterbore hole for Side 2 of the boss feature." translation="Określa wartość średnicy otworu z pogłębieniem walcowym dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL0" devLabel="Counterbore Draft Angle" translation="Kąt pochylenia pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab2Alpha1ToolTipL1" devLabel="Specify the draft angle value of the counterbore for Side 2 of the boss feature." translation="Określa wartość kąta pochylenia pogłębienia walcowego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL0" devLabel="Hole Draft Angle" translation="Kąt pochylenia otworu"/>
+	<label commandName="BossCmdBossTab2Alpha2ToolTipL1" devLabel="Specify the draft angle value of the hole for Side 2 of the boss feature." translation="Określa wartość kąta pochylenia otworu dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL0" devLabel="Step Draft Angle" translation="Kąt pochylenia stopnia"/>
+	<label commandName="BossCmdBossTab2Alpha3ToolTipL1" devLabel="Specify the draft angle value of the step for Side 2 of the boss feature." translation="Określa wartość kąta pochylenia stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL0" devLabel="Boss Draft Angle" translation="Kąt pochylenia kominka"/>
+	<label commandName="BossCmdBossTab2Alpha4ToolTipL1" devLabel="Specify the draft angle value of the outer boss for Side 2 of the boss feature." translation="Określa wartość kąta pochylenia zewnętrznego elementu wypukłego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2BToolTipL0" devLabel="Inner Hole Diameter" translation="Średnica otworu wewnętrznego"/>
+	<label commandName="BossCmdBossTab2BToolTipL1" devLabel="Specify the diameter value of the inner hole for Side 2 of the boss feature." translation="Określa wartość średnicy wewnętrznego otworu dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2CToolTipL0" devLabel="Step Diameter" translation="Średnica stopnia"/>
+	<label commandName="BossCmdBossTab2CToolTipSuffix" devLabel="Specify the diameter value of the step for Side 2 of the boss feature." translation="Określa wartość średnicy stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2CounterSinkAngle" devLabel="Countersink Angle" translation="Kąt pogłębienia stożkowego"/>
+	<label commandName="BossCmdBossTab2CounterSinkAngleToolTipL1" devLabel="Specify the angle value for the countersink hole for Side 2 of the boss feature." translation="Określa wartość kąta dla otworu z pogłębieniem stożkowym dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2DToolTipL0" devLabel="Boss Diameter" translation="Średnica kominka"/>
+	<label commandName="BossCmdBossTab2DToolTipL1" devLabel="Specify the overall diameter value for Side 2 of the boss feature." translation="Określa wartość średnicy całkowitej dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Depth" devLabel="Hole Depth Type" translation="Typ głębokości otworu"/>
+	<label commandName="BossCmdBossTab2DepthFromBottom" devLabel="From Bottom" translation="Od Dołu"/>
+	<label commandName="BossCmdBossTab2DepthFromBottomToolTip" devLabel="Measures the clearance between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Mierzy prześwit między zewnętrzną powierzchnią bryły a spodem otworu wewnętrznego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2DepthFromTop" devLabel="From Top" translation="Od Góry"/>
+	<label commandName="BossCmdBossTab2DepthFromTopToolTip" devLabel="Measures the depth value of the inner hole from the top of Side 2 of the boss feature." translation="Mierzy wartość głębokości wewnętrznego otworu od góry Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2DepthThroughBody" devLabel="Through Body" translation="Przez bryłę"/>
+	<label commandName="BossCmdBossTab2DepthThroughBodyToolTip" devLabel="Extrudes the hole through the entire body for Side 2 of the boss feature." translation="Wyciąga otwór przez całą bryłę dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2FToolTipL0" devLabel="Step Depth" translation="Głębokość stopnia"/>
+	<label commandName="BossCmdBossTab2FToolTipSuffix" devLabel="Specify the depth value of the step for Side 2 of the boss feature." translation="Określa wartość głębokości stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2GToolTipL0" devLabel="Inner Hole Depth" translation="Głębokość otworu wewnętrznego"/>
+	<label commandName="BossCmdBossTab2GToolTipL1" devLabel="Specify the depth value of the inner hole for Side 2 of the boss feature." translation="Określa wartość głębokości otworu wewnętrznego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Hole" devLabel="Hole Type" translation="Typ otworu"/>
+	<label commandName="BossCmdBossTab2HoleCommon" devLabel="Simple" translation="Prosty"/>
+	<label commandName="BossCmdBossTab2HoleCommonToolTip" devLabel="Creates a simple hole for Side 2 of the boss feature." translation="Tworzy prosty otwór dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2HoleCounterBore" devLabel="Counterbore" translation="Pogłębienie walcowe"/>
+	<label commandName="BossCmdBossTab2HoleCounterBoreToolTip" devLabel="Creates a counterbore hole for Side 2 of the boss feature." translation="Tworzy otwór z pogłębieniem walcowym dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2HoleCounterSink" devLabel="Countersink" translation="Pogłębienie stożkowe"/>
+	<label commandName="BossCmdBossTab2HoleCounterSinkToolTip" devLabel="Creates a countersink hole for Side 2 of the boss feature." translation="Tworzy otwór z pogłębieniem stożkowym dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2IToolTipL0" devLabel="Counterbore Depth" translation="Głębokość pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab2IToolTipSuffix" devLabel="Specify the depth value of the counterbore hole for Side 2 of the boss feature." translation="Określa wartość głębokości otworu z pogłębieniem walcowym dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2JToolTipL0" devLabel="Inner Hole Clearance" translation="Prześwit otworu wewnętrznego"/>
+	<label commandName="BossCmdBossTab2JToolTipL1" devLabel="Specify the clearance value between the exterior face of the body and the bottom of the inner hole for Side 2 of the boss feature." translation="Określa wartość prześwitu między zewnętrzną powierzchnią bryły a dnem otworu wewnętrznego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2OToolTipL0" devLabel="Offset Clearance" translation="Odsunięcie prześwitu"/>
+	<label commandName="BossCmdBossTab2OToolTipSuffix" devLabel="Specify the clearance value between the sketch plane and the nearest face for Side 2 of the boss feature." translation="Określa wartość prześwitu między płaszczyzną szkicu a najbliższą powierzchnią dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R1ToolTipL0" devLabel="Outer Hole Fillet Radius" translation="Promień zewnętrznego zaokrąglenia otworu"/>
+	<label commandName="BossCmdBossTab2R1ToolTipSuffix" devLabel="Specify the radius value of the outer hole fillet for Side 2 of the boss feature." translation="Określa wartość promienia zewnętrznego zaokrąglenia otworu dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R2ToolTipL0" devLabel="Inner Counterbore Fillet Radius" translation="Promień zaokrąglenia wewnętrznego pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab2R2ToolTipL1" devLabel="Specify the radius value of the inner counterbore fillet for Side 2 of the boss feature." translation="Określa wartość promienia wewnętrznego zaokrąglenia pogłębienia walcowego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R3ToolTipL0" devLabel="Outer Counterbore Fillet Radius" translation="Promień zaokrąglenia zewnętrznego pogłębienia walcowego"/>
+	<label commandName="BossCmdBossTab2R3ToolTipSuffix" devLabel="Specify the radius value of the outer counterbore fillet for Side 2 of the boss feature." translation="Określa wartość promienia zewnętrznego zaokrąglenia pogłębienia walcowego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R4ToolTipL0" devLabel="Inner Hole Fillet Radius" translation="Promień wewnętrznego zaokrąglenia otworu"/>
+	<label commandName="BossCmdBossTab2R4ToolTipL1" devLabel="Specify the radius value of the inner hole fillet for Side 2 of the boss feature." translation="Określa wartość promienia wewnętrznego zaokrąglenia otworu dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R5ToolTipL0" devLabel="Outer Boss Fillet Radius" translation="Promień zewnętrznego zaokrąglenia kominka"/>
+	<label commandName="BossCmdBossTab2R5ToolTipSuffix" devLabel="Specify the radius value of the outer boss fillet for Side 2 of the boss feature." translation="Określa wartość promienia zewnętrznego zaokrąglenia elementu wypukłego dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R6ToolTipL0" devLabel="Outer Step Fillet Radius" translation="Promień zewnętrznego zaokrąglenia stopnia"/>
+	<label commandName="BossCmdBossTab2R6ToolTipL1" devLabel="Specify the radius value of the outer step fillet for Side 2 of the boss feature." translation="Określa wartość promienia zewnętrznego zaokrąglenia stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2R7ToolTipL0" devLabel="Inner Step Fillet Radius" translation="Promień wewnętrznego zaokrąglenia stopnia"/>
+	<label commandName="BossCmdBossTab2R7ToolTipSuffix" devLabel="Specify the radius value of the inner step fillet for Side 2 of the boss feature." translation="Określa wartość promienia wewnętrznego zaokrąglenia stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2RToolTipL0" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdBossTab2RToolTipL1" devLabel="Specify the radius value of the base fillet for Side 2 of the boss feature." translation="Określa wartość promienia zaokrąglenia podstawy dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2Step" devLabel="Step Type" translation="Typ stopnia"/>
+	<label commandName="BossCmdBossTab2StepIn" devLabel="In" translation="W"/>
+	<label commandName="BossCmdBossTab2StepInToolTip" devLabel="Creates a step to the inside of Side 2 of the boss feature." translation="Tworzy stopień do wewnątrz Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2StepNone" devLabel="None" translation="Brak"/>
+	<label commandName="BossCmdBossTab2StepNoneToolTip" devLabel="Creates no step for Side 2 of the boss feature." translation="Nie tworzy stopnia dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTab2StepOut" devLabel="Out" translation="Na zewnątrz"/>
+	<label commandName="BossCmdBossTab2StepOutToolTip" devLabel="Creates a step to the outside of Side 2 of the boss feature." translation="Tworzy stopień na zewnątrz Strony 2 elementu kominka."/>
+	<label commandName="BossCmdBossTabFlipDirection" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="BossCmdBossTabFlipDirectionToolTip" devLabel="Flips boss feature over selected sketch point to switch Side 1 and Side 2 bodies." translation="Odwraca element kominka w wybranym punkcie szkicu, aby zamienić bryły Strony 1 i Strony 2."/>
+	<label commandName="BossCmdBossTabOffset" devLabel="Offset Position" translation="Położenie odsunięcia"/>
+	<label commandName="BossCmdBossTabOffsetToolTip" devLabel="Specify a distance to offset the position of the boss feature from the sketch plane." translation="Określa odległość odsunięcia położenia elementu kominka od płaszczyzny szkicu."/>
+	<label commandName="BossCmdBossTabSide1" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="BossCmdBossTabSide1AO" devLabel="Advanced" translation="Zaawansowany"/>
+	<label commandName="BossCmdBossTabSide2" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="BossCmdBossTabSide2AO" devLabel="Advanced" translation="Zaawansowany"/>
+	<label commandName="BossCmdBossTabSketchPoints" devLabel="Sketch Points" translation="Punkty szkicu"/>
+	<label commandName="BossCmdBossTabSketchPointsToolTip" devLabel="Select a sketch point to position the boss feature on a body." translation="Wybierz punkt szkicu, aby umieścić element kominka na bryle."/>
+	<label commandName="BossCmdBossTabType" devLabel="Type" translation="Typ"/>
+	<label commandName="BossCmdBossTabTypePinned" devLabel="Pinned" translation="Przypięty"/>
+	<label commandName="BossCmdBossTabTypeTappedFlat" devLabel="Tapped Hole With Flat End" translation="Otwór gwintowany z końcem płaskim"/>
+	<label commandName="BossCmdBossTabTypeTappedTip" devLabel="Tapped Hole With Tool Tip" translation="Otwór gwintowany z końcówką narzędzia"/>
+	<label commandName="BossCmdPreviewOpts" devLabel="Visibility" translation="Widoczność"/>
+	<label commandName="BossCmdPreviewSection" devLabel="Section Analysis" translation="Analiza przekroju"/>
+	<label commandName="BossCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the boss feature while you edit." translation="Wycina przekrój przez środek elementu kominka podczas edycji."/>
+	<label commandName="BossCmdRibs1Extent" devLabel="Extent/Suppress" translation="Zakres/wyłączenie"/>
+	<label commandName="BossCmdRibs2Extent" devLabel="Extent/Suppress" translation="Zakres/wyłączenie"/>
+	<label commandName="BossCmdRibsExtent1Tip" devLabel="Manage each rib" translation="Zarządzaj każdym żebrem"/>
+	<label commandName="BossCmdRibsExtent1TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 1." translation="Zakres wyłączenia lub użycia profilu dla poszczególnych żeber na Stronie 1."/>
+	<label commandName="BossCmdRibsExtent2Tip" devLabel="Manage each rib" translation="Zarządzaj każdym żebrem"/>
+	<label commandName="BossCmdRibsExtent2TipDesc" devLabel="Extent suppress or use Profile for individual rib on Side 2." translation="Zakres wyłączenia lub użycia profilu dla poszczególnych żeber na Stronie 2."/>
+	<label commandName="BossCmdRibsTab" devLabel="Ribs" translation="Wzmocnienia"/>
+	<label commandName="BossCmdRibsTab1AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 1 of the boss feature." translation="Określ wartość kąta, aby rozmieścić żebra wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTip" devLabel="Outer Draft Angle" translation="Zewnętrzny kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab1Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 1 of the boss feature." translation="Określ wartość kąta pochylenia dla zewnętrznej powierzchni żeber wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTip" devLabel="Chamfer Angle" translation="Kąt fazy"/>
+	<label commandName="BossCmdRibsTab1Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Określ wartość kąta powierzchni fazowanej na żebrach dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Draft" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab1DraftTip" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab1DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 1 of the boss feature." translation="Określ wartość kąta pochylenia dla grubości żeber wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1KToolTipL0" devLabel="Rib Length" translation="Długość żebra"/>
+	<label commandName="BossCmdRibsTab1KToolTipL1" devLabel="Specify the distance value from the center of Side 1 of the boss feature to the nearest point on the outermost face of the rib." translation="Określ wartość odległości od środka Strony 1 elementu kominka do najbliższego punktu na skrajnej powierzchni żebra."/>
+	<label commandName="BossCmdRibsTab1LToolTip" devLabel="Step Offset" translation="Odsunięcie stopnia"/>
+	<label commandName="BossCmdRibsTab1LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 1 of the boss feature." translation="Określ wartość odległości odsunięcia góry żeber od stopnia na Stronie 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1MToolTip" devLabel="Chamfer Distance" translation="Odległość fazy"/>
+	<label commandName="BossCmdRibsTab1MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 1 of the boss feature." translation="Określ wartość odległości fazowanej powierzchni na żebrach dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Quantity" devLabel="Quantity" translation="Ilość"/>
+	<label commandName="BossCmdRibsTab1QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 1 of the boss feature." translation="Określ liczbę żeber do podparcia Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1RRToolTip" devLabel="Fillet Radius" translation="Promień zaokrąglenia"/>
+	<label commandName="BossCmdRibsTab1RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 1 of the boss feature." translation="Określ wartość promienia zaokrągleń żeber dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1RootR" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdRibsTab1RootRTip" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdRibsTab1RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 1 of the boss feature." translation="Określ wartość promienia zaokrąglenia u podstawy żeber dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Rotation" devLabel="Rotation Angle" translation="Kąt obrotu"/>
+	<label commandName="BossCmdRibsTab1RotationToolTipDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 1 of the boss feature." translation="Określ wartość kąta obrotu, aby zorientować żebra wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Shape" devLabel="Profile" translation="Profil"/>
+	<label commandName="BossCmdRibsTab1ShapeRound" devLabel="Round" translation="Zaokrąglenie"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTip" devLabel="Fillet" translation="Zaokrąglenie"/>
+	<label commandName="BossCmdRibsTab1ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 1 of the boss feature." translation="Tworzy żebra z zaokrąglonym profilem zaokrąglenia wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1ShapeSquare" devLabel="Chamfer" translation="Faza"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTip" devLabel="Chamfer" translation="Faza"/>
+	<label commandName="BossCmdRibsTab1ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 1 of the boss feature." translation="Tworzy żebra z kątowym profilem fazy wokół Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="BossCmdRibsTab1ThicknessToolTipDescription" devLabel="Specify the distance value to extrude the ribs, perpendicular to the outer face of Side 1 of the boss feature." translation="Określ wartość odległości, aby wyciągnąć żebra prostopadle do zewnętrznej powierzchni Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab1TipR" devLabel="Outer Fillet Radius" translation="Promień zaokrąglenia zewnętrznego"/>
+	<label commandName="BossCmdRibsTab1TipRTip" devLabel="Outer Fillet Radius" translation="Promień zaokrąglenia zewnętrznego"/>
+	<label commandName="BossCmdRibsTab1TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 1 of the boss feature." translation="Określ wartość promienia zaokrąglenia wzdłuż zewnętrznych krawędzi żeber dla Strony 1 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTip" devLabel="Outer Draft Angle" translation="Zewnętrzny kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab2Beta1ToolTipDesc" devLabel="Specify the draft angle value for the outermost face of the ribs around Side 2 of the boss feature." translation="Określ wartość kąta pochylenia dla zewnętrznej powierzchni żeber wokół Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTip" devLabel="Chamfer Angle" translation="Kąt fazy"/>
+	<label commandName="BossCmdRibsTab2Beta2ToolTipDesc" devLabel="Specify the angle value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Określ wartość kąta powierzchni fazowanej na żebrach dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Draft" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab2DraftTip" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdRibsTab2DraftToolTipDescription" devLabel="Specify the draft angle value for the thickness of the ribs around Side 2 of the boss feature." translation="Określ wartość kąta pochylenia dla grubości żeber wokół Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2KToolTipL0" devLabel="Rib Length" translation="Długość żebra"/>
+	<label commandName="BossCmdRibsTab2KToolTipL1" devLabel="Specify the distance value from the center of Side 2 of the boss feature to the nearest point on the outermost face of the rib." translation="Określ wartość odległości od środka Strony 2 elementu kominka do najbliższego punktu na skrajnej powierzchni żebra."/>
+	<label commandName="BossCmdRibsTab2LToolTip" devLabel="Step Offset" translation="Odsunięcie stopnia"/>
+	<label commandName="BossCmdRibsTab2LToolTipDesc" devLabel="Specify the distance value to offset the top of the ribs from the step on Side 2 of the boss feature." translation="Określ wartość odległości odsunięcia góry żeber od stopnia na Stronie 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2MToolTip" devLabel="Chamfer Distance" translation="Odległość fazy"/>
+	<label commandName="BossCmdRibsTab2MToolTipDesc" devLabel="Specify the distance value of the chamfered face on the ribs for Side 2 of the boss feature." translation="Określ wartość odległości fazowanej powierzchni na żebrach dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Quantity" devLabel="Quantity" translation="Ilość"/>
+	<label commandName="BossCmdRibsTab2QuantityToolTipDescription" devLabel="Specify the number of ribs to support Side 2 of the boss feature." translation="Określ liczbę żeber do podparcia Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2RRToolTip" devLabel="Fillet Radius" translation="Promień zaokrąglenia"/>
+	<label commandName="BossCmdRibsTab2RRToolTipDesc" devLabel="Specify the radius value of the rib fillets for Side 2 of the boss feature." translation="Określ wartość promienia zaokrągleń żeber dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2RootR" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdRibsTab2RootRTip" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="BossCmdRibsTab2RootRToolTipDescription" devLabel="Specify the radius value for the fillet at the base of the ribs for Side 2 of the boss feature." translation="Określ wartość promienia zaokrąglenia u podstawy żeber dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Rotation" devLabel="Rotation Angle" translation="Kąt obrotu"/>
+	<label commandName="BossCmdRibsTab2RotationDescription" devLabel="Specify the rotation angle value to orient the ribs around Side 2 of the boss feature." translation="Określ wartość kąta obrotu, aby zorientować żebra wokół Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Shape" devLabel="Profile" translation="Profil"/>
+	<label commandName="BossCmdRibsTab2ShapeRound" devLabel="Fillet" translation="Zaokrąglenie"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTip" devLabel="Fillet" translation="Zaokrąglenie"/>
+	<label commandName="BossCmdRibsTab2ShapeRoundTipDesc" devLabel="Creates ribs with a rounded fillet profile around Side 2 of the boss feature." translation="Tworzy żebra z zaokrąglonym profilem zaokrąglenia wokół Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2ShapeSquare" devLabel="Chamfer" translation="Faza"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTip" devLabel="Chamfer" translation="Faza"/>
+	<label commandName="BossCmdRibsTab2ShapeSquareTipDesc" devLabel="Creates ribs with an angular chamfer profile around Side 2 of the boss feature." translation="Tworzy żebra z kątowym profilem fazy wokół Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="BossCmdRibsTab2ThicknessToolTipDescription" devLabel="Specify the distance value for rib thickness, perpendicular to the outer face of Side 2 of the boss feature." translation="Określ wartość odległości dla grubości żebra, prostopadle do zewnętrznej powierzchni Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTab2TipR" devLabel="Outer Fillet Radius" translation="Promień zaokrąglenia zewnętrznego"/>
+	<label commandName="BossCmdRibsTab2TipRTip" devLabel="Outer Fillet Radius" translation="Promień zaokrąglenia zewnętrznego"/>
+	<label commandName="BossCmdRibsTab2TipRToolTipDescription" devLabel="Specify the radius value for the fillet along the outer edges of the ribs for Side 2 of the boss feature." translation="Określ wartość promienia zaokrąglenia wzdłuż zewnętrznych krawędzi żeber dla Strony 2 elementu kominka."/>
+	<label commandName="BossCmdRibsTabSide1" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="BossCmdRibsTabSide2" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="BossCmdTabBar" devLabel="Boss Tab Bar" translation="Pasek karty Kominek"/>
+	<label commandName="BossCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Strona 1 — przezroczystość"/>
+	<label commandName="BossCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the boss feature." translation="Zmniejsza nieprzezroczystość bryły Strony 1 podczas edycji elementu kominka."/>
+	<label commandName="BossCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Strona 2 — przezroczystość"/>
+	<label commandName="BossCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the boss feature." translation="Zmniejsza nieprzezroczystość bryły Strony 2 podczas edycji elementu kominka."/>
+	<label commandName="BossCmdWebTab" devLabel="Web" translation="Sieć"/>
+	<label commandName="BossCmdWebTab1AngularSpacing" devLabel="Web1AngularSpacing" translation="Środnik1OdstępyKątowe"/>
+	<label commandName="BossCmdWebTab1AngularSpacingAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="BossCmdWebTab1AngularSpacingFull" devLabel="Full" translation="Pełny"/>
+	<label commandName="BossCmdWebTab1AngularSpacingLabel" devLabel="Angular Spacing" translation="Odstęp kątowy"/>
+	<label commandName="BossCmdWebTab1Depth" devLabel="Web1Depth" translation="Środnik1Głębokość"/>
+	<label commandName="BossCmdWebTab1DepthButton" devLabel="Web1DepthButton" translation="Środnik1Przyciskgłębokości"/>
+	<label commandName="BossCmdWebTab1DepthLabel" devLabel="Depth" translation="Głębokość"/>
+	<label commandName="BossCmdWebTab1DraftAngle" devLabel="Web1DraftAngle" translation="Środnik1Kąt pochylenia"/>
+	<label commandName="BossCmdWebTab1DraftAngleLabel" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdWebTab1NumberOfRibs" devLabel="Web1NumberOfRibs" translation="Środnik1LiczbaŻeber"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsCheckBox" devLabel="Web1NumberOfRibsCheckBox" translation="Pole wyboru Liczba żeber środnika 1"/>
+	<label commandName="BossCmdWebTab1NumberOfRibsLabel" devLabel="Number of Ribs" translation="Liczba żeber"/>
+	<label commandName="BossCmdWebTab1Rotation" devLabel="Web1Rotation" translation="Środnik1Obrót"/>
+	<label commandName="BossCmdWebTab1RotationButton" devLabel="Web1RotationButton" translation="Środnik1PrzyciskObrotu"/>
+	<label commandName="BossCmdWebTab1RotationLabel" devLabel="Rotation" translation="Obrót"/>
+	<label commandName="BossCmdWebTab1Table" devLabel="Web1Table" translation="Środnik1Tabela"/>
+	<label commandName="BossCmdWebTab1Thickness" devLabel="Web1Thickness" translation="Środnik1Grubość"/>
+	<label commandName="BossCmdWebTab1ThicknessButton" devLabel="Web1ThicknessButton" translation="Środnik1PrzyciskGrubości"/>
+	<label commandName="BossCmdWebTab1ThicknessLabel" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="BossCmdWebTab1TotalAngle" devLabel="Web1TotalAngle" translation="Środnik1Kąt całkowity"/>
+	<label commandName="BossCmdWebTab1TotalAngleFlipButton" devLabel="Web1TotalAngleFlipButton" translation="Środnik1KątCałkowityPrzyciskOdbicia"/>
+	<label commandName="BossCmdWebTab1TotalAngleLabel" devLabel="Total Angle" translation="Kąt całkowity"/>
+	<label commandName="BossCmdWebTab2AngularSpacing" devLabel="Web2AngularSpacing" translation="Środnik2OdstępyKątowe"/>
+	<label commandName="BossCmdWebTab2AngularSpacingAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="BossCmdWebTab2AngularSpacingFull" devLabel="Full" translation="Pełny"/>
+	<label commandName="BossCmdWebTab2AngularSpacingLabel" devLabel="Angular Spacing" translation="Odstęp kątowy"/>
+	<label commandName="BossCmdWebTab2Depth" devLabel="Web2Depth" translation="Środnik2Głębokość"/>
+	<label commandName="BossCmdWebTab2DepthButton" devLabel="Web2DepthButton" translation="Środnik2Przycisk głębokości"/>
+	<label commandName="BossCmdWebTab2DepthLabel" devLabel="Depth" translation="Głębokość"/>
+	<label commandName="BossCmdWebTab2DraftAngle" devLabel="Web2DraftAngle" translation="Środnik2Kąt pochylenia"/>
+	<label commandName="BossCmdWebTab2DraftAngleLabel" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="BossCmdWebTab2NumberOfRibs" devLabel="Web2NumberOfRibs" translation="Środnik2LiczbaŻeber"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsCheckBox" devLabel="Web2NumberOfRibsCheckBox" translation="Pole wyboru Liczba żeber środnika 2"/>
+	<label commandName="BossCmdWebTab2NumberOfRibsLabel" devLabel="Number of Ribs" translation="Liczba żeber"/>
+	<label commandName="BossCmdWebTab2Rotation" devLabel="Web2Rotation" translation="Środnik2Obrót"/>
+	<label commandName="BossCmdWebTab2RotationButton" devLabel="Web2RotationButton" translation="Środnik2PrzyciskObrotu"/>
+	<label commandName="BossCmdWebTab2RotationLabel" devLabel="Rotation" translation="Obrót"/>
+	<label commandName="BossCmdWebTab2Table" devLabel="Web2Table" translation="Środnik2Tabela"/>
+	<label commandName="BossCmdWebTab2Thickness" devLabel="Web2Thickness" translation="Środnik2 Grubość"/>
+	<label commandName="BossCmdWebTab2ThicknessButton" devLabel="BossWeb2ThicknessButton" translation="BossWeb2ThicknessButton"/>
+	<label commandName="BossCmdWebTab2ThicknessLabel" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="BossCmdWebTabSide1" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="BossCmdWebTabSide2" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="BossCmdribsTab1AngularSpacing" devLabel="Total Angle" translation="Kąt całkowity"/>
+	<label commandName="BossCmdribsTab2AngularSpacing" devLabel="Total Angle" translation="Kąt całkowity"/>
+	<label commandName="BossCmdribsTab2AngularSpacingDescription" devLabel="Specify the angle value to distribute ribs around Side 2 of the boss feature." translation="Określ wartość kąta, aby rozmieścić żebra wokół Strony 2 elementu kominka."/>
+	<label commandName="BossContinue" devLabel="Continue" translation="Kontynuuj"/>
+	<label commandName="BossGoOnline" devLabel="Go Online" translation="Przejdź do trybu online"/>
+	<label commandName="BossSave" devLabel="Save" translation="Zapisz"/>
+	<label commandName="ChangeBossExtentStates" devLabel="Profile/Extent/Suppress" translation="Profil/zakres/wyłączenie"/>
+	<label commandName="CheckDesignDTT" devLabel="Analyzes the selected solid body against the plastic rule." translation="Analizuje wybrany korpus bryłowy względem reguły tworzywa sztucznego."/>
+	<label commandName="CheckDesignInfo" devLabel="Analyze" translation="Analiza"/>
+	<label commandName="CreateInjectionMoldingStudy" devLabel="Create an Injection Molding Simulation Study" translation="Utwórz badanie symulacji formowania wtryskowego"/>
+	<label commandName="DAAnalyzingBody" devLabel="Analyzing Solid Body..." translation="Analizowanie korpusu bryłowego..."/>
+	<label commandName="DAAssignPlaticRule" devLabel="Assign Plastic Rule" translation="Przypisz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="DAContinue" devLabel="Continue" translation="Kontynuuj"/>
+	<label commandName="DAErrorTitle" devLabel="Cannot analyze body" translation="Nie można przeanalizować bryły"/>
+	<label commandName="DAFlipDirectionInputTooltip" devLabel="Flips the pull direction used to identify undercuts and insufficient draft." translation="Odwraca kierunek wyciągnięcia używany do identyfikacji podcięć i niewystarczającego pochylenia."/>
+	<label commandName="DAFlipPullDirectionInput" devLabel="Flip Pull Direction" translation="Odwróć kierunek wyciągnięcia"/>
+	<label commandName="DAInjectionMolding" devLabel="Injection Molding" translation="Formowanie wtryskowe"/>
+	<label commandName="DAIsolateDTT" devLabel="Displays the selected alert and hides all other alerts in the canvas." translation="Wyświetla wybrany alert i ukrywa wszystkie inne alerty w obszarze rysunku."/>
+	<label commandName="DAMeshingError" devLabel="Cannot analyze %1% because the geometry cannot be used to compute the analysis." translation="Nie można przeanalizować %1%, ponieważ geometria nie może być użyta do obliczenia analizy."/>
+	<label commandName="DAModellingErrors" devLabel="Cannot analyze %1% because it contains modeling errors that must be resolved before you can analyze it." translation="Nie można przeanalizować %1%, ponieważ zawiera błędy modelowania, które muszą być rozwiązane przed rozpoczęciem analizy."/>
+	<label commandName="DANoPlasticRule" devLabel="The component that contains the solid body has no plastic rule assigned.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="Komponent zawierający korpus bryłowy nie ma przypisanej reguły tworzywa sztucznego.&#xA;&#xA;Przypisz regułę dotyczącą tworzywa sztucznego do %1% lub kontynuuj pracę z narzędziem Porada projektowa i użyj domyślnej reguły tworzywa sztucznego do analizy %2%? "/>
+	<label commandName="DANoRuleAssigned" devLabel="No plastic rule assigned" translation="Nie przypisano reguły dotyczącej tworzywa sztucznego"/>
+	<label commandName="DAPlasticRuleRemoved" devLabel="The plastic rule has been removed from the component that contains the solid body.&#xA;&#xA;Assign a plastic rule to %1%, or continue to Design Advice and use the default plastic rule to analyze %2% ? " translation="Reguła tworzywa sztucznego została usunięta z komponentu zawierającego korpus bryłowy.&#xA;&#xA;Przypisz regułę dotyczącą tworzywa sztucznego do %1% lub kontynuuj pracę z narzędziem Porada projektowa i użyj domyślnej reguły tworzywa sztucznego do analizy %2%? "/>
+	<label commandName="DARuleRemoved" devLabel="Plastic rule removed" translation="Usunięto regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="DAUnIsolateDTT" devLabel="Shows all alerts in the canvas." translation="Wyświetla wszystkie alerty w obszarze rysunku."/>
+	<label commandName="DAdvVoxelProblemSelectionName" devLabel="Voxel Problem" translation="Problem z wokselem"/>
+	<label commandName="DesignAdvice" devLabel="Design Advice" translation="Porada projektowa"/>
+	<label commandName="DesignAdviceCmd" devLabel="Design Advice" translation="Porada projektowa"/>
+	<label commandName="DraftAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Adjust draft to meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dostosuj pochylenie, aby spełnić &lt;b&gt;Minimalny kąt pochylenia&lt;/b&gt;."/>
+	<label commandName="DraftAdvice2" devLabel="Confirm pull direction." translation="Potwierdź kierunek wyciągnięcia."/>
+	<label commandName="DraftAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Zarządzaj regułami dotyczącymi tworzywa sztucznego&lt;/b&gt;, aby sprawdzić, czy &lt;b&gt;Minimalny kąt pochylenia&lt;/b&gt; jest poprawnie zdefiniowany dla materiału tworzywa sztucznego."/>
+	<label commandName="DraftAlert" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;: %1% %2% meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt;." translation="&lt;b&gt;Niewystarczający kąt pochylenia&lt;/b&gt;: %1%%2% spełnia &lt;b&gt;Minimalny kąt pochylenia&lt;/b&gt;."/>
+	<label commandName="DraftAlertsInfo" devLabel="DraftAlerts" translation="Ostrzeżenia o pochyleniu"/>
+	<label commandName="DraftAnalysisLink" devLabel="Draft Analysis" translation="Analiza pochylenia ściany"/>
+	<label commandName="DraftAnglesRecommendationInfo" devLabel="DraftAngleRecommendation" translation="Zalecenia dotyczące kąta pochylenia"/>
+	<label commandName="DraftDTTDesc" devLabel="Analyzes the solid body for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analizuje korpus bryłowy pod kątem powierzchni, które nie spełniają warunku &lt;b&gt;Minimalny kąt pochylenia&lt;/b&gt; zdefiniowanego w regule tworzywa sztucznego przypisanej do jego komponentu."/>
+	<label commandName="DraftGroup" devLabel="Draft" translation="Pochylenie"/>
+	<label commandName="DraftLink" devLabel="Draft" translation="Pochylenie"/>
+	<label commandName="DraftProblemMessage" devLabel="&lt;b&gt;Insufficient Draft&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Faces with insufficient draft may block the ejection of the part from the injection mold.If the mold requires more ejection features, it may increase cost.Textured surfaces may also require more draft to eject the part without smearing the finish." translation="&lt;b&gt;Niewystarczające pochylenie&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Powierzchnie z niewystarczającym pochyleniem mogą blokować wypchnięcie części z formy wtryskowej. Jeśli forma wymaga większej liczby elementów wypchnięcia, może to zwiększyć koszt. Teksturowane powierzchnie mogą również wymagać większego pochylenia, aby wypchnąć część bez rozmazywania wykończenia."/>
+	<label commandName="DraftRegion" devLabel="region doesn't" translation="obszar nie"/>
+	<label commandName="DraftRegions" devLabel="regions don't" translation="obszary nie"/>
+	<label commandName="DraftTab" devLabel="Draft" translation="Pochylenie"/>
+	<label commandName="DraftTabDTTDesc" devLabel="Displays the details of alerts for faces that don't meet the &lt;b&gt;Minimum Draft Angle&lt;/b&gt; defined in the plastic rule." translation="Wyświetla szczegóły alertów dotyczących powierzchni, które nie spełniają warunku &lt;b&gt;Minimalny kąt pochylenia&lt;/b&gt; zdefiniowanego w regule tworzywa sztucznego."/>
+	<label commandName="FusionBoltConn" devLabel="Bolted Connection" translation="Połączenie gwintowe"/>
+	<label commandName="FusionBoltConnEdit" devLabel="Edit Bolted Connection" translation="Edytuj połączenie gwintowe"/>
+	<label commandName="FusionBoss" devLabel="Boss" translation="Kominek"/>
+	<label commandName="FusionDcBossEdit" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="FusionDcLipEdit" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="FusionDcRestEdit" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="FusionDcSnapFitEdit" devLabel="Edit Feature" translation="Edytuj element"/>
+	<label commandName="FusionLip" devLabel="Lip" translation="Występ"/>
+	<label commandName="FusionPlasticFeatureRemoveRule" devLabel="Remove Plastic Rule" translation="Usuń regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="FusionPlasticFeatureRules" devLabel="Manage Plastic Rules" translation="Zarządzanie regułami dotyczącymi tworzywa sztucznego"/>
+	<label commandName="FusionPlasticFeatureSpecifyRule" devLabel="Assign Plastic Rule" translation="Przypisz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="FusionPlasticFeatureSwitchRule" devLabel="Assign Plastic Rule" translation="Przypisz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="FusionRest" devLabel="Rest" translation="Półka"/>
+	<label commandName="FusionSelectRestToObject" devLabel="Select body, face, or plane to extend to" translation="Wybierz bryłę, powierzchnię lub płaszczyznę do wydłużenia"/>
+	<label commandName="FusionSnapFit" devLabel="Snap Fit" translation="Połączenie zatrzaskowe"/>
+	<label commandName="GradientDTTBase" devLabel="Full Range" translation="Pełny zakres"/>
+	<label commandName="GradientDTTDesc" devLabel="Displays the full range of thickness results as a gradient overlay on the solid body in the canvas.&#xA;&#xA;Red represents the thickest regions and dark blue represents the thinnest regions." translation="Wyświetla pełny zakres wyników grubości jako nakładkę gradientową na korpusie bryłowym w obszarze rysunku.&#xA;&#xA;Kolor czerwony reprezentuje najgrubsze miejsca, a ciemnoniebieski — najcieńsze miejsca."/>
+	<label commandName="HoldCommandToModifySelection" devLabel="Hold Command to modify selection" translation="Przytrzymaj naciśnięty klawisz Command, aby zmodyfikować wybór"/>
+	<label commandName="HoldCtrlToModifySelection" devLabel="Hold Ctrl to modify selection" translation="Przytrzymaj naciśnięty klawisz Ctrl, aby zmodyfikować wybór"/>
+	<label commandName="IgnoreDTT" devLabel="Hides this alert so that it does not display in the canvas." translation="Ukrywa ten alert, tak aby nie był wyświetlany w obszarze rysunku."/>
+	<label commandName="InputTable" devLabel="" translation=""/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Tworzony obiekt nie jest widoczny. Przełącz widoczność w przeglądarce."/>
+	<label commandName="IsolateSingleAlertInfo" devLabel="Isolate Alert" translation="Ostrzeżenia dotyczące izolowania"/>
+	<label commandName="KnifeEdgeAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase space between part features to eliminate thin, sharp edges in the mold." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Zwiększ odstęp między elementami części, aby wyeliminować cienkie, ostre krawędzie formy."/>
+	<label commandName="KnifeEdgeAdvice2" devLabel="Apply fillets or radii to remove thin, sharp features." translation="Zastosuj zaokrąglenia lub promienie, aby usunąć cienkie, ostre elementy."/>
+	<label commandName="KnifeEdgeAdvice3" devLabel="Consult a mold designer." translation="Skontaktuj się z projektantem formy."/>
+	<label commandName="KnifeEdgeAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Zarządzaj regułami dotyczącymi tworzywa sztucznego&lt;/b&gt;, aby sprawdzić, czy &lt;b&gt;Próg ostrza noża&lt;/b&gt; jest poprawnie zdefiniowany dla materiału z tworzywa sztucznego."/>
+	<label commandName="KnifeEdgeAlert" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;: %1% %2% thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt;." translation="&lt;b&gt;Ostrza noża&lt;/b&gt;: %1%%2% małe odstępy, które mają wartość poniżej &lt;b&gt;progu ostrza noża&lt;/b&gt;."/>
+	<label commandName="KnifeEdgeDTTDesc" devLabel="Analyzes the solid body for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analizuje korpus bryłowy pod kątem małych odstępów, które znajdują się poniżej &lt;b&gt;progu ostrza noża&lt;/b&gt; zdefiniowanego w regule tworzywa sztucznego przypisanej do jego komponentu."/>
+	<label commandName="KnifeEdgeProblemMessage" devLabel="&lt;b&gt;Knife Edges&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Thin gaps in a part require a mold with thin, sharp features, sometimes called knife edges.These tend to break due to high injection pressure on the molten plastic and can cause the mold to fail prematurely." translation="&lt;b&gt;Ostrza noża&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Małe odstępy w części wymagają formy z cienkimi, ostrymi elementami, zwanymi czasami ostrzami noża. Są one zwykle przerywane z powodu wysokiego ciśnienia wtrysku płynnego tworzywa i mogą spowodować przedwczesne uszkodzenie formy."/>
+	<label commandName="KnifeEdgeRegion" devLabel="region contains" translation="obszar zawiera"/>
+	<label commandName="KnifeEdgeRegions" devLabel="regions contain" translation="obszary zawierają"/>
+	<label commandName="KnifeEdgesAlertsInfo" devLabel="KnifeEdgesAlerts" translation="Ostrzeżenia o ostrzach noża"/>
+	<label commandName="KnifeEdgesGroup" devLabel="Knife Edges" translation="Ostrza noża"/>
+	<label commandName="KnifeEdgesRecommendationInfo" devLabel="KnifeEdgesRecommendation" translation="ZaleceniadlaOstrzynoża"/>
+	<label commandName="KnifeEdgesTab" devLabel="Knife Edges" translation="Ostrza noża"/>
+	<label commandName="KnifeEdgesTabDTTDesc" devLabel="Displays the details of alerts for thin gaps that fall below the &lt;b&gt;Knife Edge Threshold&lt;/b&gt; defined in the plastic rule." translation="Wyświetla szczegóły alertów o małych odległościach, które mają wartość poniżej &lt;b&gt;progu ostrza noża&lt;/b&gt; zdefiniowanego w regule dotyczącej tworzywa sztucznego."/>
+	<label commandName="LargeVariationDTT" devLabel="Displays only the thickness alerts for regions that exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Wyświetla tylko alerty o grubości dla obszarów, które przekraczają &lt;b&gt;Odchylenie grubości&lt;/b&gt; zdefiniowane w regule tworzywa sztucznego."/>
+	<label commandName="LipCmdAdvancedImage" devLabel="AdvancedImage" translation="Obraz zaawansowany"/>
+	<label commandName="LipCmdAdvancedTab" devLabel="Advanced" translation="Zaawansowany"/>
+	<label commandName="LipCmdAdvancedTable" devLabel="AdvancedTable" translation="Tabela zaawansowana"/>
+	<label commandName="LipCmdClearance" devLabel="Clearance" translation="Luz"/>
+	<label commandName="LipCmdClearanceInput" devLabel="E" translation="E"/>
+	<label commandName="LipCmdClearanceToolTip" devLabel="Specify the Clearance for the feature." translation="Określ prześwit dla elementu."/>
+	<label commandName="LipCmdClearanceToolTip_groove" devLabel="Specify the clearance for the groove feature." translation="Określ prześwit dla elementu rowka."/>
+	<label commandName="LipCmdClearanceToolTip_lipAndGroove" devLabel="Specify the clearance gap between the lip and groove. This dimension defines the offset values for the groove feature." translation="Określ prześwit między występem a rowkiem. Ten wymiar definiuje wartości odsunięcia dla elementu rowka."/>
+	<label commandName="LipCmdDefaultSide1BodyName" devLabel="side 1 body" translation="bryła strony 1"/>
+	<label commandName="LipCmdDefaultSide2BodyName" devLabel="side 2 body" translation="bryła strony 2"/>
+	<label commandName="LipCmdExtent1" devLabel="Extent 1" translation="Zakres 1"/>
+	<label commandName="LipCmdExtent1ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Wybierz punkt, wierzchołek, powierzchnię lub płaszczyznę, do której chcesz wydłużyć."/>
+	<label commandName="LipCmdExtent2" devLabel="Extent 2" translation="Zakres 2"/>
+	<label commandName="LipCmdExtent2ToolTip" devLabel="Select a point, vertex, face, or plane to extend to." translation="Wybierz punkt, wierzchołek, powierzchnię lub płaszczyznę, do której chcesz wydłużyć."/>
+	<label commandName="LipCmdFeatureTab" devLabel="Feature" translation="Element kształtujący"/>
+	<label commandName="LipCmdFlipToolTip_groove" devLabel="Flips the groove feature to " translation="Odwraca element rowka do "/>
+	<label commandName="LipCmdFlipToolTip_lip" devLabel="Flips the lip feature to " translation="Odwraca element występu do "/>
+	<label commandName="LipCmdFlipToolTip_lipandgroove" devLabel="Swaps the lip and groove features." translation="Zamienia elementy występu i rowka."/>
+	<label commandName="LipCmdGuide" devLabel="Guide Surface" translation="Powierzchnia prowadnicy"/>
+	<label commandName="LipCmdGuideToolTip" devLabel="Select a face on either side of the selected edge to locate the lip feature." translation="Wybierz powierzchnię po obu stronach zaznaczonej krawędzi, aby zlokalizować element występu."/>
+	<label commandName="LipCmdHeight" devLabel="Height" translation="Wysokość"/>
+	<label commandName="LipCmdHeightInput" devLabel="A" translation="A"/>
+	<label commandName="LipCmdHeightToolTip" devLabel="Specify the Height of the Lip." translation="Określ wysokość występu."/>
+	<label commandName="LipCmdHeightToolTip_basegroove" devLabel="Groove Height" translation="Wysokość rowka"/>
+	<label commandName="LipCmdHeightToolTip_baselip" devLabel="Lip Height" translation="Wysokość występu"/>
+	<label commandName="LipCmdHeightToolTip_baselipAndGroove" devLabel="Lip Height" translation="Wysokość występu"/>
+	<label commandName="LipCmdHeightToolTip_groove" devLabel="Specify the height of the groove feature." translation="Określ wysokość elementu rowka."/>
+	<label commandName="LipCmdHeightToolTip_lip" devLabel="Specify the height of the lip feature." translation="Określ wysokość elementu występu."/>
+	<label commandName="LipCmdHeightToolTip_lipAndGroove" devLabel="Specify the height of the Lip. Groove dimensions are calculated automatically." translation="Określ wysokość występu. Wymiary rowka są obliczane automatycznie."/>
+	<label commandName="LipCmdInsideAngle" devLabel="Side 1 Draft" translation="Pochylenie strony 1"/>
+	<label commandName="LipCmdInsideAngleInput" devLabel="α1" translation="α1"/>
+	<label commandName="LipCmdInsideAngleToolTip" devLabel="Specify the draft angle for the face farther from the selected edge." translation="Określ kąt pochylenia powierzchni dalszej od wybranej krawędzi."/>
+	<label commandName="LipCmdLipTabPath" devLabel="Path" translation="Ścieżka"/>
+	<label commandName="LipCmdLipTabPathTT" devLabel="Path" translation="Ścieżka"/>
+	<label commandName="LipCmdLipTabPathToolTip" devLabel="Select an edge to place a lip feature on a solid body." translation="Wybierz krawędź, aby umieścić element występu na korpusie bryłowym."/>
+	<label commandName="LipCmdOutsideAngle" devLabel="Side 2 Draft" translation="Pochylenie strony 2"/>
+	<label commandName="LipCmdOutsideAngleInput" devLabel="α2" translation="α2"/>
+	<label commandName="LipCmdOutsideAngleToolTip" devLabel="Specify the draft angle for the face closer to the selected edge." translation="Określ kąt pochylenia dla powierzchni bliżej wybranej krawędzi."/>
+	<label commandName="LipCmdPathToolTip_groove" devLabel="Select an edge to place a groove feature on a solid body." translation="Wybierz krawędź, aby umieścić element rowka na korpusie bryłowym."/>
+	<label commandName="LipCmdPathToolTip_lip" devLabel="Select an edge to place a lip feature on a solid body." translation="Wybierz krawędź, aby umieścić element występu na korpusie bryłowym."/>
+	<label commandName="LipCmdPathToolTip_lipandgroove" devLabel="Select an edge to place a lip feature on a solid body. The groove feature will automatically be placed on the corresponding body." translation="Wybierz krawędź, aby umieścić element występu na korpusie bryłowym. Element rowka zostanie automatycznie umieszczony na odpowiedniej bryle."/>
+	<label commandName="LipCmdPullDirection" devLabel="Pull Direction" translation="Kierunek wyciągnięcia"/>
+	<label commandName="LipCmdPullDirectionToolTip" devLabel="Select a plane or face to define the pull direction." translation="Wybierz płaszczyznę lub powierzchnię, aby zdefiniować kierunek wyciągnięcia."/>
+	<label commandName="LipCmdRevealWidth" devLabel="Reveal Height" translation="Wysokość boniowania"/>
+	<label commandName="LipCmdRevealWidthInput" devLabel="D" translation="S"/>
+	<label commandName="LipCmdRevealWidthToolTip" devLabel="Specify the reveal height." translation="Określ wysokość boniowania."/>
+	<label commandName="LipCmdShoulderWidth" devLabel="Shoulder Width" translation="Szerokość pobocza"/>
+	<label commandName="LipCmdShoulderWidthInput" devLabel="C" translation="C"/>
+	<label commandName="LipCmdShoulderWidthToolTip" devLabel="Specify the Shoulder Width for the Lip." translation="Określ szerokość pobocza dla występu."/>
+	<label commandName="LipCmdShoulderWidthToolTip_groove" devLabel="Specify the distance between the selected edge and the groove feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Określ odległość między wybraną krawędzią a elementem rowka.&#xA; &#xA;Domyślnie jest ustawiona wartość 0. Jeśli stosowana jest reguła dotycząca tworzyw sztucznych, a chcesz utworzyć ramię, wartość ta powinna być nie mniejsza niż grubości reguły, aby zapobiec powstaniu ostrej krawędzi."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lip" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Określ odległość między wybraną krawędzią a elementem występu.&#xA; &#xA;Domyślnie jest ustawiona wartość 0. Jeśli stosowana jest reguła dotycząca tworzyw sztucznych, a chcesz utworzyć ramię, wartość ta powinna być nie mniejsza niż grubości reguły, aby zapobiec powstaniu ostrej krawędzi."/>
+	<label commandName="LipCmdShoulderWidthToolTip_lipAndGroove" devLabel="Specify the distance between the selected edge and the lip feature.&#xA; &#xA;This is set to 0 by default. If a plastic rule is applied and you would like to create a shoulder, this value should be equal to or higher than the rule thickness to prevent a knife edge." translation="Określ odległość między wybraną krawędzią a elementem występu.&#xA; &#xA;Domyślnie jest ustawiona wartość 0. Jeśli stosowana jest reguła dotycząca tworzyw sztucznych, a chcesz utworzyć ramię, wartość ta powinna być nie mniejsza niż grubości reguły, aby zapobiec powstaniu ostrej krawędzi."/>
+	<label commandName="LipCmdTabBar" devLabel="Lip Tab Bar" translation="Pasek karty Występ"/>
+	<label commandName="LipCmdTangentChain" devLabel="Tangent Chain" translation="Łańcuch styczny"/>
+	<label commandName="LipCmdTangentChainTip" devLabel="Automatically select tangent edges." translation="Automatycznie wybierz krawędzie styczne."/>
+	<label commandName="LipCmdTransparencyOptions" devLabel="Visibility" translation="Widoczność"/>
+	<label commandName="LipCmdTransparentSide1" devLabel="Side 1 Body Transparency" translation="Przezroczystość bryły strony 1"/>
+	<label commandName="LipCmdTransparentSide1TT" devLabel="Side 1 Transparency" translation="Strona 1 — przezroczystość"/>
+	<label commandName="LipCmdTransparentSide1ToolTip" devLabel="Lowers the opacity of the side 1 body while you edit." translation="Zmniejsza nieprzezroczystość bryły strony 1 podczas edycji."/>
+	<label commandName="LipCmdTransparentSide2" devLabel="Side 2 Body Transparency" translation="Przezroczystość bryły strony 2"/>
+	<label commandName="LipCmdTransparentSide2TT" devLabel="Side 2 Transparency" translation="Strona 2 — przezroczystość"/>
+	<label commandName="LipCmdTransparentSide2ToolTip" devLabel="Lowers the opacity of the side 2 body while you edit." translation="Zmniejsza nieprzezroczystość bryły strony 2 podczas edycji."/>
+	<label commandName="LipCmdVisibilityToolTip_prefix" devLabel="Lowers the opacity of " translation="Zmniejsza nieprzezroczystość "/>
+	<label commandName="LipCmdVisibilityToolTip_suffix" devLabel=" while you edit." translation=" podczas edycji."/>
+	<label commandName="LipCmdWidth" devLabel="Width" translation="Szerokość"/>
+	<label commandName="LipCmdWidthInput" devLabel="B" translation="R"/>
+	<label commandName="LipCmdWidthToolTip" devLabel="Specify the Width of the Lip." translation="Określ szerokość występu."/>
+	<label commandName="LipCmdWidthToolTip_basegroove" devLabel="Groove Width" translation="Szerokość rowka"/>
+	<label commandName="LipCmdWidthToolTip_baselip" devLabel="Lip Width" translation="Szerokość występu"/>
+	<label commandName="LipCmdWidthToolTip_baselipAndGroove" devLabel="Lip Width" translation="Szerokość występu"/>
+	<label commandName="LipCmdWidthToolTip_groove" devLabel="Specify the width of the groove feature." translation="Określ szerokość elementu rowka."/>
+	<label commandName="LipCmdWidthToolTip_lip" devLabel="Specify the width of the lip feature." translation="Określ szerokość elementu występu."/>
+	<label commandName="LipCmdWidthToolTip_lipAndGroove" devLabel="Specify the width of the Lip. Groove dimensions are calculated automatically." translation="Określ szerokość występu. Wymiary rowka są obliczane automatycznie."/>
+	<label commandName="LipCursorAdjustInputs1" devLabel="Adjust dimensions or modify edge, guide, or extent selections" translation="Dopasuj wymiary lub zmień wybór krawędzi, prowadnicy lub zakresu"/>
+	<label commandName="LipCursorAdjustInputs2" devLabel="Adjust Extent Result, dimensions, and settings or modify selections" translation="Dopasuj wynik zakresu, wymiary i ustawienia lub zmień wybór"/>
+	<label commandName="LipFlipDirectionInput" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="LipFlipDirectionInputTooltip" devLabel="Flips lip feature to other body." translation="Odwraca element występu względem innej bryły."/>
+	<label commandName="LipFlipSides" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="LipGrooveShoulderExclude" devLabel="Exclude Groove Shoulder" translation="Wyklucz ramię rowka"/>
+	<label commandName="LipGrooveShoulderExcludeToolTip" devLabel="Select to turn off Groove Shoulder." translation="Wybierz tę opcję, aby wyłączyć ramię rowka."/>
+	<label commandName="LipGrooveShoulderInclude" devLabel="Include Groove Shoulder" translation="Uwzględnij ramię rowka"/>
+	<label commandName="LipGrooveShoulderIncludeToolTip" devLabel="Select to build Groove Shoulder. Dimensions are automatically calculated based on the Shoulder Width." translation="Wybierz tę opcję, aby utworzyć ramię rowka. Wymiary są automatycznie obliczane na podstawie szerokości ramienia."/>
+	<label commandName="LipGrooveShoulderOption" devLabel="Groove Shoulder" translation="Ramię rowka"/>
+	<label commandName="LipGuideTypeFace" devLabel="Face Guide" translation="Prowadnica powierzchni"/>
+	<label commandName="LipGuideTypeFaceToolTip" devLabel="Lets you select a face to place the lip feature." translation="Umożliwia wybranie powierzchni w celu umieszczenia elementu występu."/>
+	<label commandName="LipGuideTypeOption" devLabel="Guide Type" translation="Typ prowadnicy"/>
+	<label commandName="LipGuideTypePull" devLabel="Pull Direction" translation="Kierunek wyciągnięcia"/>
+	<label commandName="LipGuideTypePullDirection" devLabel="Pull Direction" translation="Kierunek wyciągnięcia"/>
+	<label commandName="LipGuideTypePullDirectionToolTip" devLabel="Lets you select a plane or face to define the pull direction." translation="Umożliwia wybranie płaszczyzny lub powierzchni w celu zdefiniowania kierunku wyciągnięcia."/>
+	<label commandName="LipPartialResultOption" devLabel="Extent Result" translation="Wynik zakresu"/>
+	<label commandName="LipResultChoice1" devLabel="Option 1" translation="Opcja 1"/>
+	<label commandName="LipResultChoice1ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Wybierz wynik z możliwych wyników na podstawie wybranego zakresu."/>
+	<label commandName="LipResultChoice2" devLabel="Option 2" translation="Opcja 2"/>
+	<label commandName="LipResultChoice2ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Wybierz wynik z możliwych wyników na podstawie wybranego zakresu."/>
+	<label commandName="LipResultChoice3" devLabel="Option 3" translation="Opcja 3"/>
+	<label commandName="LipResultChoice3ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Wybierz wynik z możliwych wyników na podstawie wybranego zakresu."/>
+	<label commandName="LipResultChoice4" devLabel="Option 4" translation="Opcja 4"/>
+	<label commandName="LipResultChoice4ToolTip" devLabel="Choose a result from the possible outcomes based on the extents that you select." translation="Wybierz wynik z możliwych wyników na podstawie wybranego zakresu."/>
+	<label commandName="LipTypeOption" devLabel="Type" translation="Typ"/>
+	<label commandName="LipTypeOptionGrooveOnly" devLabel="Groove" translation="Rowek"/>
+	<label commandName="LipTypeOptionGrooveOnlyToolTip" devLabel="Creates a recessed groove feature on a solid body." translation="Tworzy element rowka z wgłębieniem na korpusie bryłowym."/>
+	<label commandName="LipTypeOptionLipAndGroove" devLabel="Lip And Groove" translation="Występ i rowek"/>
+	<label commandName="LipTypeOptionLipOnly" devLabel="Lip" translation="Występ"/>
+	<label commandName="LipTypeOptionLipOnlyToolTip" devLabel="Creates a raised lip feature on a solid body." translation="Tworzy element występu podniesionego na korpusie bryłowym."/>
+	<label commandName="LipTypeOptionLoopAndGrooveToolTip" devLabel="Creates a lip feature with a lip and groove on a pair of solid bodies." translation="Tworzy element występu z występem i rowkiem na parze korpusów bryłowych."/>
+	<label commandName="MainTabBar" devLabel="MainTabBar" translation="Główny pasek kart"/>
+	<label commandName="ManagePlasticRuleLink" devLabel="Manage Plastic Rules" translation="Zarządzanie regułami dotyczącymi tworzywa sztucznego"/>
+	<label commandName="ManufactureMethod" devLabel="Manufacture" translation="Wytwarzanie"/>
+	<label commandName="MinimumDraftInfo" devLabel="Minimum Draft Angle" translation="Minimalny kąt pochylenia"/>
+	<label commandName="MissingLipGuideFace" devLabel="Missing Guide Face" translation="Brak powierzchni prowadzącej"/>
+	<label commandName="MissingLipPath" devLabel="Missing Path" translation="Brak ścieżki"/>
+	<label commandName="MissingLipPullDirection" devLabel="missing pull direction" translation="brak kierunku wyciągnięcia"/>
+	<label commandName="MissingRestProfile" devLabel="missing profiles" translation="brak profili"/>
+	<label commandName="MissingSnapFitRotationDirection" devLabel="Missing rotation direction" translation="Brak kierunku obrotu"/>
+	<label commandName="NoBodySelectedPrompt" devLabel="Select a solid body to analyze" translation="Wybierz korpus bryłowy do analizy"/>
+	<label commandName="NoPullDirectionSelectedPrompt" devLabel="Select a pull direction" translation="Wybierz kierunek wyciągnięcia"/>
+	<label commandName="PlasticFeatureRuleData" devLabel="Plastic Rule: " translation="Reguła dotycząca tworzywa sztucznego: "/>
+	<label commandName="PresetNotCompatibleWithEditedFeatureSettings" devLabel="The preset isn't compatible with edited feature settings." translation="Ustawienie wstępne nie jest zgodne z edytowanymi ustawieniami elementu."/>
+	<label commandName="PullDirection" devLabel="Pull Direction" translation="Kierunek wyciągnięcia"/>
+	<label commandName="PullDirectionDTT" devLabel="Select a face, plane, linear edge, or axis to define the pull direction to use to identify undercuts and insufficient draft." translation="Wybierz powierzchnię, płaszczyznę, krawędź liniową lub oś, aby zdefiniować kierunek wyciągnięcia, który ma być użyty do identyfikacji podcięć i niewystarczającego pochylenia."/>
+	<label commandName="RecommendationsGroupInfo" devLabel="Recommendations" translation="Zalecenia"/>
+	<label commandName="Region" devLabel="region is" translation="obszar jest"/>
+	<label commandName="RegionIcon" devLabel="" translation=""/>
+	<label commandName="RegionNumberString" devLabel="" translation=""/>
+	<label commandName="RegionValueString" devLabel="RegionValueString" translation="Ciąg wartości obszaru"/>
+	<label commandName="Regions" devLabel="regions are" translation="obszary są"/>
+	<label commandName="RequireSaveBeforeBC" devLabel="Please save this design before inserting Bolted Connection." translation="Zapisz ten projekt przed wstawieniem połączenia śrubowego."/>
+	<label commandName="RestAdvancedGroup" devLabel="Advanced" translation="Zaawansowany"/>
+	<label commandName="RestBothDirectionInput" devLabel="Symmetric" translation="Symetrycznie"/>
+	<label commandName="RestBothDirectionTooltip" devLabel="Symmetric" translation="Symetrycznie"/>
+	<label commandName="RestBothDirectionTooltipDesc" devLabel="Centers the thickness on the sketch profile." translation="Wyśrodkowuje grubość na profilu szkicu."/>
+	<label commandName="RestCmdDraftAngleInput" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="RestCmdDraftAngleInput2" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="RestCmdDraftAngleTooltip" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="RestCmdDraftAngleTooltip2" devLabel="Draft Angle" translation="Kąt pochylenia"/>
+	<label commandName="RestCmdDraftAngleTooltipDesc" devLabel="Specify the draft angle for Side 1 of the rest feature." translation="Określ kąt pochylenia dla boku 1 elementu półki."/>
+	<label commandName="RestCmdDraftAngleTooltipDesc2" devLabel="Specify the draft angle for Side 2 of the rest feature." translation="Określ kąt pochylenia dla boku 2 elementu półki."/>
+	<label commandName="RestCmdLandingFaces" devLabel="Top Faces" translation="Powierzchnie górne"/>
+	<label commandName="RestCmdLandingFacesBodyToolTipDesc" devLabel="Select top faces of the solid body to specify areas where the rest feature will be created." translation="Wybierz górne powierzchnie korpusu bryłowego, aby określić obszary, w których zostanie utworzony element półki."/>
+	<label commandName="RestCmdLandingFacesToolTip" devLabel="Top Faces" translation="Powierzchnie górne"/>
+	<label commandName="RestCmdRestOffsetInput" devLabel="Offset Position" translation="Położenie odsunięcia"/>
+	<label commandName="RestCmdRestOffsetTooltip" devLabel="Offset Position" translation="Położenie odsunięcia"/>
+	<label commandName="RestCmdRestOffsetTooltipDesc" devLabel="Specify the distance to offset the position of the rest plane from the selected profile." translation="Określ odległość odsunięcia położenia płaszczyzny półki od wybranego profilu."/>
+	<label commandName="RestCmdRestTabBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="RestCmdRestTabBodyToolTip" devLabel="Body" translation="Bryła"/>
+	<label commandName="RestCmdRestTabBodyToolTipDesc" devLabel="Select a solid body for the rest feature." translation="Wybierz korpus bryłowy dla elementu półki."/>
+	<label commandName="RestCmdRestTabSketch" devLabel="Profile" translation="Profil"/>
+	<label commandName="RestCmdRestTabSketchToolTip" devLabel="Profiles" translation="Profile"/>
+	<label commandName="RestCmdRestTabSketchToolTipDesc" devLabel="Select closed sketch profiles to create a rest." translation="Wybierz zamknięte profile szkicu, aby utworzyć półkę."/>
+	<label commandName="RestCmdRestThicknessInput" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="RestCmdRestThicknessTooltip" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="RestCmdRestThicknessTooltipDesc" devLabel="Specify the thickness of the rest wall." translation="Określ grubość ściany półki."/>
+	<label commandName="RestCmdSide1Group" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="RestCmdSide2Group" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="RestCmdTrimPlatform" devLabel="Trim" translation="Utnij"/>
+	<label commandName="RestCmdTrimPlatformToolTipDesc" devLabel="Removes an unwanted rest area extending out of the solid body." translation="Usuwa niechciany obszar półki wychodzący z korpusu bryłowego."/>
+	<label commandName="RestCmdTrimPlatformTooltip" devLabel="Trim" translation="Utnij"/>
+	<label commandName="RestDirection" devLabel="Thickness Direction" translation="Kierunek grubości"/>
+	<label commandName="RestExtentType" devLabel="Extent Type" translation="Typ zakresu"/>
+	<label commandName="RestExtentTypeToObjectInput" devLabel="Object" translation="Obiekt"/>
+	<label commandName="RestExtentTypeToObjectInput2" devLabel="Object" translation="Obiekt"/>
+	<label commandName="RestExtentTypeToObjectTooltip2" devLabel="Object" translation="Obiekt"/>
+	<label commandName="RestExtentTypeToObjectTooltipDesc2" devLabel="Select a body, a face, or a plane to extrude to." translation="Wybierz bryłę, powierzchnię lub płaszczyznę, do której ma zostać wykonane wyciągnięcie."/>
+	<label commandName="RestFlipDirectionInput" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="RestFlipDirectionInputTooltip" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="RestFlipDirectionInputTooltipDesc" devLabel="Flips the rest feature over the selected sketch profile." translation="Odwraca element półki na wybranym profilu szkicu."/>
+	<label commandName="RestInsideDirectionInput" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="RestInsideDirectionTooltip" devLabel="Side 1" translation="Strona 1"/>
+	<label commandName="RestInsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Odsuwa grubość na jedną stronę profilu szkicu."/>
+	<label commandName="RestOutsideDirectionInput" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="RestOutsideDirectionTooltip" devLabel="Side 2" translation="Strona 2"/>
+	<label commandName="RestOutsideDirectionTooltipDesc" devLabel="Offsets the thickness to one side of the sketch profile." translation="Odsuwa grubość na jedną stronę profilu szkicu."/>
+	<label commandName="RestSide1ToObjectSelectInfoDesc" devLabel="Select a body, a face, or a plane to extrude to." translation="Wybierz bryłę, powierzchnię lub płaszczyznę, do której ma zostać wykonane wyciągnięcie."/>
+	<label commandName="RestThroughAllExtentTypeInput" devLabel="All" translation="Na wylot"/>
+	<label commandName="RestThroughAllExtentTypeInput2" devLabel="All" translation="Na wylot"/>
+	<label commandName="RestThroughAllExtentTypeTooltip" devLabel="All" translation="Na wylot"/>
+	<label commandName="RestThroughAllExtentTypeTooltip2" devLabel="All" translation="Na wylot"/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc" devLabel="Extrudes the rest through the selected body." translation="Wyciąga resztę przez wybraną bryłę."/>
+	<label commandName="RestThroughAllExtentTypeTooltipDesc2" devLabel="Extrudes the rest through the selected body." translation="Wyciąga resztę przez wybraną bryłę."/>
+	<label commandName="RestToObjectExtentTypeInput" devLabel="To Object" translation="Do obiektu"/>
+	<label commandName="RestToObjectExtentTypeInput2" devLabel="To Object" translation="Do obiektu"/>
+	<label commandName="RestToObjectExtentTypeTooltip" devLabel="To Object" translation="Do obiektu"/>
+	<label commandName="RestToObjectExtentTypeTooltip2" devLabel="To Object" translation="Do obiektu"/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Wyciąga resztę z profilu szkicu do wybranej bryły, powierzchni lub płaszczyzny."/>
+	<label commandName="RestToObjectExtentTypeTooltipDesc2" devLabel="Extrudes the rest from the sketch profile to a  body, a face, or a plane that you select." translation="Wyciąga resztę z profilu szkicu do wybranej bryły, powierzchni lub płaszczyzny."/>
+	<label commandName="RuleGroupInfo" devLabel="Rule Details" translation="Szczegóły reguły"/>
+	<label commandName="RulesWidget" devLabel="Rules Widget" translation="Widget Reguł"/>
+	<label commandName="SelectBodiesForSnapFit" devLabel="Select target body to place a snap fit" translation="Wybierz bryłę docelową, aby umieścić połączenie zatrzaskowe"/>
+	<label commandName="SelectExtentForLip" devLabel="Select a point, vertex, face, or plane to extend to" translation="Wybierz punkt, wierzchołek, powierzchnię lub płaszczyznę, do której wydłużyć"/>
+	<label commandName="SelectGuideFaceLip" devLabel="Select a face on either side of the selected edge to locate the lip feature" translation="Wybierz powierzchnię po obu stronach wybranej krawędzi, aby zlokalizować element występu"/>
+	<label commandName="SelectLandingFacesForRest" devLabel="Select Landing faces for the rest feature" translation="Wybierz powierzchnie linii łączącej dla elementu półki"/>
+	<label commandName="SelectMorePathForLip" devLabel="Modify edge selection or adjust lip settings" translation="Modyfikuj wybór krawędzi lub dostosuj ustawienia występu"/>
+	<label commandName="SelectMoreSketchPointsForBoss" devLabel="Select additional sketch points or adjust boss settings" translation="Wybierz dodatkowe punkty szkicu lub dostosuj ustawienia elementu kominka"/>
+	<label commandName="SelectMoreSketchPointsForSnapFit" devLabel="Select additional sketch points or adjust snap fit settings" translation="Wybierz dodatkowe punkty szkicu lub dostosuj ustawienia połączenia zatrzaskowego"/>
+	<label commandName="SelectPathForLip" devLabel="Select an edge to place lip" translation="Wybierz krawędź do umieszczenia występu"/>
+	<label commandName="SelectPullDirectionLip" devLabel="Select a plane or face to define the pull direction" translation="Wybierz płaszczyznę lub powierzchnię, aby zdefiniować kierunek wyciągnięcia"/>
+	<label commandName="SelectRotationDirectionForSnapFit" devLabel="Select a line, an edge, a vertex or point to define Custom alignment direction" translation="Wybierz linię, krawędź, wierzchołek lub punkt, aby zdefiniować niestandardowy kierunek wyrównania"/>
+	<label commandName="SelectSketchForRest" devLabel="Select a closed sketch profile to place a rest feature" translation="Wybierz zamknięty profil szkicu, aby umieścić element półki"/>
+	<label commandName="SelectSketchForSnapFit" devLabel="Select sketch to place snap fit" translation="Wybierz szkic, aby umieścić połączenie zatrzaskowe"/>
+	<label commandName="SelectSketchPointsForBoss" devLabel="Select sketch point to place a boss" translation="Wybierz punkt szkicu, aby umieścić element kominka"/>
+	<label commandName="SelectSketchPointsForSnapFit" devLabel="Select sketch point to place a snap fit" translation="Wybierz punkt szkicu, aby umieścić połączenie zatrzaskowe"/>
+	<label commandName="SelectTargetBodyForRest" devLabel="Select a solid body for the rest feature" translation="Wybierz korpus bryłowy dla elementu półki"/>
+	<label commandName="SelectedCompName" devLabel="Component" translation="Komponent"/>
+	<label commandName="Separator" devLabel="" translation=""/>
+	<label commandName="SnapFitAlignmentFlipInput" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="SnapFitAlignmentFlipInputToolTip" devLabel="Flips the alignment of snap fits 180 degrees relative to the selected alignment object." translation="Odwraca wyrównanie połączenia zatrzaskowego o 180 stopni względem wybranego obiektu wyrównania."/>
+	<label commandName="SnapFitBottomExtentDistanceInput" devLabel="Depth" translation="Głębokość"/>
+	<label commandName="SnapFitBottomExtentDistanceInputTooltip" devLabel="Specify the distance to extrude the bottom of the snap fit, in a direction parallel to the sketch plane, toward the nearest faces on a solid body." translation="Określ odległość wyciągnięcia dolnego połączenia zatrzaskowego w kierunku równoległym do płaszczyzny szkicu w kierunku najbliższych powierzchni bryły."/>
+	<label commandName="SnapFitBottomExtentOption" devLabel="Extent Type" translation="Typ zakresu"/>
+	<label commandName="SnapFitBottomExtentOptionDistance" devLabel="Distance" translation="Odległość"/>
+	<label commandName="SnapFitBottomExtentOptionDistanceToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to a specified depth." translation="Wyciąga spód połączenia zatrzaskowego z profilu szkicu na określoną głębokość."/>
+	<label commandName="SnapFitBottomExtentOptionToNext" devLabel="To Next" translation="Do powierzchni"/>
+	<label commandName="SnapFitBottomExtentOptionToNextToolTip" devLabel="Extrudes the bottom of the snap fit from the sketch profile to the nearest faces on a solid body." translation="Wyciąga spód połączenia zatrzaskowego z profilu szkicu do najbliższych powierzchni korpusu bryłowego."/>
+	<label commandName="SnapFitCmdGrooveGroup" devLabel="Groove" translation="Rowek"/>
+	<label commandName="SnapFitCmdHookGroup" devLabel="Hook" translation="Hak"/>
+	<label commandName="SnapFitCmdHookImage" devLabel="HookImage" translation="ObrazZaczepu"/>
+	<label commandName="SnapFitCmdHookTable" devLabel="HookTable" translation="Tabela zaczepów"/>
+	<label commandName="SnapFitCmdLoopGroup" devLabel="Loop" translation="Pętla"/>
+	<label commandName="SnapFitCmdLoopHookImage" devLabel="LoopHookImage" translation="Obraz zaczepu pętlowego"/>
+	<label commandName="SnapFitCmdLoopHookTable" devLabel="LoopHookTable" translation="Tabela zaczepu pętlowego"/>
+	<label commandName="SnapFitCmdLoopImage" devLabel="LoopImage" translation="Obraz pętli"/>
+	<label commandName="SnapFitCmdLoopTable" devLabel="LoopTable" translation="Tabela pętli"/>
+	<label commandName="SnapFitCmdParallelGrooveImage" devLabel="ParallelGrooveImage" translation="Obraz rowka równoległego"/>
+	<label commandName="SnapFitCmdParallelGrooveTable" devLabel="ParallelGrooveTable" translation="Tabela rowka równoległego"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveImage" devLabel="PerpendicularGrooveImage" translation="Obraz rowka poprzecznego"/>
+	<label commandName="SnapFitCmdPerpendicularGrooveTable" devLabel="PerpendicularGrooveTable" translation="Tabela rowka poprzecznego"/>
+	<label commandName="SnapFitCmdPreviewOpts" devLabel="Visibility" translation="Widoczność"/>
+	<label commandName="SnapFitCmdPreviewSection" devLabel="Section Analysis" translation="Analiza przekroju"/>
+	<label commandName="SnapFitCmdPreviewSectionToolTip" devLabel="Cuts a section through the center of the snap fit feature while you edit." translation="Wycina przekrój przez środek elementu połączenia zatrzaskowego podczas edycji."/>
+	<label commandName="SnapFitCmdSelectOption" devLabel="Selection Mode" translation="Tryb wyboru"/>
+	<label commandName="SnapFitCmdSelectPoints" devLabel="Manual" translation="Ręcznie"/>
+	<label commandName="SnapFitCmdSelectPointsToolTip" devLabel="Lets you manually select each sketch point to create snap fits." translation="Umożliwia ręczne wybranie każdego punktu szkicu, aby utworzyć połączenia zatrzaskowe."/>
+	<label commandName="SnapFitCmdSelectSketch" devLabel="Automatic" translation="Automatycznie"/>
+	<label commandName="SnapFitCmdSelectSketchToolTip" devLabel="Automatically selects all visible sketch points to create snap fits." translation="Automatycznie wybiera wszystkie widoczne punkty szkicu, aby utworzyć połączenia zatrzaskowe."/>
+	<label commandName="SnapFitCmdTransparentSide1" devLabel="Side 1 Transparency" translation="Strona 1 — przezroczystość"/>
+	<label commandName="SnapFitCmdTransparentSide1ToolTip" devLabel="Reduces the opacity of the Side 1 body while you edit the snap fit feature." translation="Zmniejsza nieprzezroczystość bryły strony 1 podczas edycji elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitCmdTransparentSide2" devLabel="Side 2 Transparency" translation="Strona 2 — przezroczystość"/>
+	<label commandName="SnapFitCmdTransparentSide2ToolTip" devLabel="Reduces the opacity of the Side 2 body while you edit the snap fit feature." translation="Zmniejsza nieprzezroczystość bryły strony 2 podczas edycji elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitCmdUndercutGroup" devLabel="Hook Undercut" translation="Podcięcie zaczepu"/>
+	<label commandName="SnapFitCmdUndercutImage" devLabel="UndercutImage" translation="UndercutImage"/>
+	<label commandName="SnapFitCmdUndercutTable" devLabel="UndercutTable" translation="UndercutTable"/>
+	<label commandName="SnapFitDummy" devLabel="Dummy" translation="Pusty"/>
+	<label commandName="SnapFitFlipDirectionInput" devLabel="Flip" translation="Odwróć"/>
+	<label commandName="SnapFitHookBeamLength" devLabel="B" translation="R"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL0" devLabel="Beam Length" translation="Długość belki"/>
+	<label commandName="SnapFitHookBeamLengthToolTipL1" devLabel="Specify the length of the beam between the base and the tip of the hook." translation="Określa długość belki między podstawą a wierzchołkiem zaczepu."/>
+	<label commandName="SnapFitHookBeamThicknessAtRetention" devLabel="C" translation="C"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL0" devLabel="Transition Depth" translation="Głębokość przejścia"/>
+	<label commandName="SnapFitHookBeamThicknessAtRetentionToolTipL1" devLabel="Specify the depth of the hook at the transition between the beam and the tip of the hook." translation="Określa głębokość zaczepu w przejściu między belką a wierzchołkiem zaczepu."/>
+	<label commandName="SnapFitHookBeamThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Głębokość warstwy podstawowej"/>
+	<label commandName="SnapFitHookBeamThicknessAtWallToolTipL1" devLabel="Specify the depth of the beam at the base of the hook." translation="Określa głębokość belki u podstawy zaczepu."/>
+	<label commandName="SnapFitHookBeamWidthAtRetention" devLabel="E" translation="E"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL0" devLabel="Transition Width" translation="Szerokość przejścia"/>
+	<label commandName="SnapFitHookBeamWidthAtRetentionToolTipL1" devLabel="Specify width of the hook at the transition between the beam and the tip of the hook." translation="Określa szerokość zaczepu w przejściu między belką a wierzchołkiem zaczepu."/>
+	<label commandName="SnapFitHookBeamWidthAtWall" devLabel="D" translation="S"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL0" devLabel="Base Width" translation="Szerokość podstawy"/>
+	<label commandName="SnapFitHookBeamWidthAtWallToolTipL1" devLabel="Specify the width of the beam at the base of the hook." translation="Określa szerokość belki u podstawy zaczepu."/>
+	<label commandName="SnapFitHookBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="SnapFitHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Wybierz bryłę dla strony zaczepu elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitHookInsertionAngle" devLabel="α2" translation="α2"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL0" devLabel="Entry Angle" translation="Kąt wejścia"/>
+	<label commandName="SnapFitHookInsertionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it enters the groove." translation="Określa kąt końcówki zaczepu, pod którym wchodzi on w rowek."/>
+	<label commandName="SnapFitHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL0" devLabel="Exit Angle" translation="Kąt wyjścia"/>
+	<label commandName="SnapFitHookRetentionAngleToolTipL1" devLabel="Specify the angle of the tip of the hook where it exits the groove." translation="Określa kąt końcówki zaczepu w miejscu, w którym wychodzi z rowka."/>
+	<label commandName="SnapFitHookRetentionHookTip" devLabel="G" translation="G"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL0" devLabel="Tip Length" translation="Długość końcówki"/>
+	<label commandName="SnapFitHookRetentionHookTipToolTipL1" devLabel="Specify the length of the tip of the hook where it meets the entry angle." translation="Określa długość końcówki zaczepu, w miejscu, w którym styka się on z kątem wejścia."/>
+	<label commandName="SnapFitHookRetentionLength" devLabel="H" translation="H"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL0" devLabel="Hook Length" translation="Długość haka"/>
+	<label commandName="SnapFitHookRetentionLengthToolTipL1" devLabel="Specify overall length of the tip of the hook." translation="Określa całkowitą długość końcówki zaczepu."/>
+	<label commandName="SnapFitHookRetentionUndercut" devLabel="F" translation="D"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL0" devLabel="Hook Depth" translation="Głębokość zaczepu"/>
+	<label commandName="SnapFitHookRetentionUndercutToolTipL1" devLabel="Specify the depth of the tip of the hook." translation="Określa głębokość końcówki zaczepu."/>
+	<label commandName="SnapFitHorizontalDirectionInput" devLabel="Alignment Object" translation="Obiekt wyrównania"/>
+	<label commandName="SnapFitHorizontalDirectionInputToolTip" devLabel="Select a plane, line, or point to align snap fits." translation="Wybierz płaszczyznę, linię lub punkt, aby wyrównać połączenia zatrzaskowe."/>
+	<label commandName="SnapFitIndependentRotationInput" devLabel="Rotation Angle" translation="Kąt obrotu"/>
+	<label commandName="SnapFitIndependentRotationInputTooltipL1" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Określ wartość kąta obrotu, aby zorientować połączenie zatrzaskowe wokół osi prostopadłej do punktu szkicu."/>
+	<label commandName="SnapFitIndependentRotationToolTipL0" devLabel="Independent Rotation Angle" translation="Niezależny kąt obrotu"/>
+	<label commandName="SnapFitLoopBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="SnapFitLoopBodyToolTip" devLabel="Select a body for the loop side of the snap fit feature." translation="Wybierz bryłę dla strony pętli elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitLoopCatchLength" devLabel="E" translation="E"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL0" devLabel="Loop Length" translation="Długość obwodu"/>
+	<label commandName="SnapFitLoopCatchLengthToolTipL1" devLabel="Specify the length of the opening of the loop." translation="Określa długość otworu pętli."/>
+	<label commandName="SnapFitLoopCatchWidthAtSide" devLabel="G" translation="G"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL0" devLabel="Side Width" translation="Szerokość strony"/>
+	<label commandName="SnapFitLoopCatchWidthAtSideToolTipL1" devLabel="Specify the width of the edges on the sides of the loop." translation="Określa szerokość krawędzi po stronach pętli."/>
+	<label commandName="SnapFitLoopCatchWidthAtTop" devLabel="F" translation="F"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL0" devLabel="Tip Length" translation="Długość końcówki"/>
+	<label commandName="SnapFitLoopCatchWidthAtTopToolTipL1" devLabel="Specify the length of the edge at the tip of the loop." translation="Określa długość krawędzi na końcu pętli."/>
+	<label commandName="SnapFitLoopClipLength" devLabel="B" translation="B"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL0" devLabel="Beam Length" translation="Długość belki"/>
+	<label commandName="SnapFitLoopClipLengthToolTipL1" devLabel="Specify the overall length of the beam for the loop." translation="Określa całkowitą długość belki dla pętli."/>
+	<label commandName="SnapFitLoopClipThicknessAtTop" devLabel="C" translation="O"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL0" devLabel="Loop Depth" translation="Głębokość pętli"/>
+	<label commandName="SnapFitLoopClipThicknessAtTopToolTipL1" devLabel="Specify the depth of the tip of the loop" translation="Określa głębokość wierzchołka pętli"/>
+	<label commandName="SnapFitLoopClipThicknessAtWall" devLabel="A" translation="A"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL0" devLabel="Base Depth" translation="Głębokość warstwy podstawowej"/>
+	<label commandName="SnapFitLoopClipThicknessAtWallToolTipL1" devLabel="Specify the depth at the base of the loop." translation="Określa głębokość u podstawy pętli."/>
+	<label commandName="SnapFitLoopClipWidth" devLabel="D" translation="S"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL0" devLabel="Base Width" translation="Szerokość podstawy"/>
+	<label commandName="SnapFitLoopClipWidthToolTipL1" devLabel="Specify the width at the base of the loop." translation="Określa szerokość u podstawy pętli."/>
+	<label commandName="SnapFitLoopHookBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="SnapFitLoopHookBodyToolTip" devLabel="Select a body for the hook side of the snap fit feature." translation="Wybierz bryłę dla strony zaczepu elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitLoopHookRetentionAngle" devLabel="α1" translation="α1"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL0" devLabel="Entry Angle" translation="Kąt wejścia"/>
+	<label commandName="SnapFitLoopHookRetentionAngleToolTipL1" devLabel="Specify the angle of the hook where it enters the loop." translation="Określa kąt zaczepu w miejscu, w którym wchodzi on w pętlę."/>
+	<label commandName="SnapFitLoopHookRetentionClearance" devLabel="L" translation="L"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL0" devLabel="Hook Clearance" translation="Prześwit zaczepu"/>
+	<label commandName="SnapFitLoopHookRetentionClearanceToolTipL1" devLabel="Specify the clearance to maintain between the the hook and the edge of the loop." translation="Określa prześwit, który ma być zachowany między zaczepem a krawędzią pętli."/>
+	<label commandName="SnapFitLoopHookRetentionDepth" devLabel="J" translation="J"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL0" devLabel="Hook Depth" translation="Głębokość zaczepu"/>
+	<label commandName="SnapFitLoopHookRetentionDepthToolTipL1" devLabel="Specify the depth of the hook, measured from the edge where it enters the loop." translation="Określa głębokość zaczepu mierzoną od krawędzi, w której wchodzi on w pętlę."/>
+	<label commandName="SnapFitLoopHookRetentionRibThickness" devLabel="M" translation="M"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL0" devLabel="Rib Width" translation="Szerokość żebra"/>
+	<label commandName="SnapFitLoopHookRetentionRibThicknessToolTipL1" devLabel="Specify the width of the ribs for the hook." translation="Określa szerokość żeber dla zaczepu."/>
+	<label commandName="SnapFitLoopHookRetentionTip" devLabel="K" translation="K"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL0" devLabel="Hook Tip Length" translation="Długość końcówki haka"/>
+	<label commandName="SnapFitLoopHookRetentionTipToolTipL1" devLabel="Specify length of the tip of the hook." translation="Określa długość końcówki zaczepu."/>
+	<label commandName="SnapFitLoopHookRibsInput" devLabel="Ribs" translation="Wzmocnienia"/>
+	<label commandName="SnapFitLoopHookRibsInputToolTip" devLabel="Adds ribs to the hook side of the snap fit." translation="Dodaje żebra po stronie zaczepu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitParallelGrooveBackClearance" devLabel="K" translation="K"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL0" devLabel="Deflection Clearance" translation="Prześwit ugięcia"/>
+	<label commandName="SnapFitParallelGrooveBackClearanceToolTipL1" devLabel="Specify the clearance to maintain when the hook deflects as it snaps into the groove." translation="Określa prześwit, który ma zostać zachowany, gdy zaczep odchyli się podczas zatrzaskiwania w rowku."/>
+	<label commandName="SnapFitParallelGrooveBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="SnapFitParallelGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Wybierz bryłę dla strony rowka elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitParallelGrooveCornerRadius" devLabel="R" translation="R"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Promień Naroża"/>
+	<label commandName="SnapFitParallelGrooveCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Określa promień w narożnikach rowka."/>
+	<label commandName="SnapFitParallelGrooveDepth" devLabel="J" translation="J"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL0" devLabel="Groove Depth" translation="Głębokość rowka"/>
+	<label commandName="SnapFitParallelGrooveDepthToolTipL1" devLabel="Specify the depth of the groove to receive the hook, measured from the nearest face on the tip of the hook." translation="Określa głębokość rowka, do którego ma zostać wprowadzony zaczep, mierzoną od najbliższej powierzchni na końcu zaczepu."/>
+	<label commandName="SnapFitParallelGrooveLengthClearance" devLabel="M" translation="M"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL0" devLabel="Length Clearance" translation="Prześwit długości"/>
+	<label commandName="SnapFitParallelGrooveLengthClearanceToolTipL1" devLabel="Specify the clearance to maintain between the tip of the hook and the edge of the groove." translation="Określa prześwit do utrzymania między wierzchołkiem zaczepu a krawędzią rowka."/>
+	<label commandName="SnapFitParallelGrooveWidth" devLabel="L" translation="L"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL0" devLabel="Groove Width" translation="Szerokośc rowka"/>
+	<label commandName="SnapFitParallelGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Określa szerokość rowka, do którego ma zostać wprowadzony zaczep."/>
+	<label commandName="SnapFitPerpendicularGrooveBody" devLabel="Body" translation="Bryła"/>
+	<label commandName="SnapFitPerpendicularGrooveBodyToolTip" devLabel="Select a body for the groove side of the snap fit feature." translation="Wybierz bryłę dla strony rowka elementu połączenia zatrzaskowego."/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearance" devLabel="J" translation="J"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL0" devLabel="Beam Clearance" translation="Prześwit belki"/>
+	<label commandName="SnapFitPerpendicularGrooveHookClearanceToolTipL1" devLabel="Specify the clearance to maintain between the beam of the hook and the edge of the groove." translation="Określa prześwit do utrzymania między belką zaczepu a krawędzią rowka."/>
+	<label commandName="SnapFitPerpendicularGrooveLength" devLabel="M" translation="M"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL0" devLabel="Groove Length" translation="Długość rowka"/>
+	<label commandName="SnapFitPerpendicularGrooveLengthToolTipL1" devLabel="Specify the length of the groove to receive the hook." translation="Określa długość rowka, do którego ma zostać wprowadzony zaczep."/>
+	<label commandName="SnapFitPerpendicularGrooveRadius" devLabel="R" translation="R"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL0" devLabel="Corner Radius" translation="Promień Naroża"/>
+	<label commandName="SnapFitPerpendicularGrooveRadiusToolTipL1" devLabel="Specify the radius at the corners of the groove." translation="Określa promień w narożnikach rowka."/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngle" devLabel="α3" translation="α3"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL0" devLabel="Ramp Angle" translation="Kąt zejścia"/>
+	<label commandName="SnapFitPerpendicularGrooveRampAngleToolTipL1" devLabel="Specify the angle of the ramp where the hook enters the groove." translation="Określa kąt zejścia, pod którym zaczep wchodzi w rowek."/>
+	<label commandName="SnapFitPerpendicularGrooveRampSize" devLabel="K" translation="K"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL0" devLabel="Ramp Depth" translation="Głębokość zejścia"/>
+	<label commandName="SnapFitPerpendicularGrooveRampSizeToolTipL1" devLabel="Specify the depth of the ramp, measured from the outer edge of the groove." translation="Określa głębokość zejścia mierzoną od zewnętrznej krawędzi rowka."/>
+	<label commandName="SnapFitPerpendicularGrooveWidth" devLabel="L" translation="L"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL0" devLabel="Groove Width" translation="Szerokośc rowka"/>
+	<label commandName="SnapFitPerpendicularGrooveWidthToolTipL1" devLabel="Specify the width of the groove to receive the hook." translation="Określa szerokość rowka, do którego ma zostać wprowadzony zaczep."/>
+	<label commandName="SnapFitRadiusHookRoot" devLabel="Radius Hook Root" translation="Promień — podstawa zaczepu"/>
+	<label commandName="SnapFitRadiusHookRootToolTip" devLabel="Specify the radius for the hook root." translation="Określa promień dla podstawy zaczepu."/>
+	<label commandName="SnapFitRootBlendRadiusInput" devLabel="Base Fillet Radius" translation="Promień zaokrąglenia podstawy"/>
+	<label commandName="SnapFitRootBlendRadiusInputTooltip" devLabel="Specify the radius value of the fillet at the base of the hook." translation="Określ wartość promienia zaokrąglenia u podstawy zaczepu."/>
+	<label commandName="SnapFitRotationInput" devLabel="Rotation Angle" translation="Kąt obrotu"/>
+	<label commandName="SnapFitRotationInputTooltip" devLabel="Specify the rotation angle value to orient the snap fit around an axis perpendicular to the sketch point." translation="Określ wartość kąta obrotu, aby zorientować połączenie zatrzaskowe wokół osi prostopadłej do punktu szkicu."/>
+	<label commandName="SnapFitRotationOption" devLabel="Rotation Type" translation="Typ obrotu"/>
+	<label commandName="SnapFitRotationOptionDirection" devLabel="Aligned" translation="Wyrównany"/>
+	<label commandName="SnapFitRotationOptionDirectionToolTip" devLabel="Aligns all snap fits to planar, linear, or point geometry that you select." translation="Wyrównuje wszystkie połączenia zatrzaskowe względem wybranej geometrii płaskiej, liniowej lub punktowej."/>
+	<label commandName="SnapFitRotationOptionIndependent" devLabel="Independent" translation="Niezależny"/>
+	<label commandName="SnapFitRotationOptionIndependentToolTip" devLabel="Rotates each snap fit independently around its own sketch point." translation="Obraca każde dopasowanie połączenie zatrzaskowe wokół swojego punktu szkicu."/>
+	<label commandName="SnapFitRotationOptionUnified" devLabel="Uniform" translation="Równomierne"/>
+	<label commandName="SnapFitRotationOptionUnifiedToolTip" devLabel="Rotates all snap fits to the same angle around their sketch points." translation="Obraca wszystkie połączenia zatrzaskowe o ten sam kąt wokół punktów szkicu."/>
+	<label commandName="SnapFitSketchPointInput" devLabel="Sketch Points" translation="Punkty szkicu"/>
+	<label commandName="SnapFitSketchPointInputToolTip" devLabel="Select a sketch point to position the snap fit feature on a body." translation="Wybierz punkt szkicu, aby umieścić element połączenia zatrzaskowego na bryle."/>
+	<label commandName="SnapFitTypeOption" devLabel="Type" translation="Typ"/>
+	<label commandName="SnapFitTypeOptionLoop" devLabel="Hook And Loop" translation="Zaczep i Pętla"/>
+	<label commandName="SnapFitTypeOptionLoopToolTip" devLabel="Creates a snap fit feature with a hook and loop on a pair of solid bodies." translation="Tworzy element połączenia zatrzaskowego z zaczepem i pętlą na parze korpusów bryłowych."/>
+	<label commandName="SnapFitTypeOptionParallelHook" devLabel="Parallel Hook And Groove" translation="Równoległy zaczep i rowek"/>
+	<label commandName="SnapFitTypeOptionParallelHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, parallel to a face on a pair of solid bodies." translation="Tworzy element połączenia zatrzaskowego z zaczepem i rowkiem równoległym do powierzchni pary korpusów bryłowych."/>
+	<label commandName="SnapFitTypeOptionPerpendicularHook" devLabel="Perpendicular Hook And Groove" translation="Prostopadły zaczep i rowek"/>
+	<label commandName="SnapFitTypeOptionPerpendicularHookToolTip" devLabel="Creates a snap fit feature with a hook and groove, perpendicular to a face on a pair of solid bodies." translation="Tworzy element połączenia zatrzaskowego z zaczepem i rowkiem, prostopadłym do powierzchni pary korpusów bryłowych."/>
+	<label commandName="SnapFitUndercutCornerRadius" devLabel="RU" translation="RU"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL0" devLabel="Corner Radius" translation="Promień narożnika"/>
+	<label commandName="SnapFitUndercutCornerRadiusToolTipL1" devLabel="Specify the radius at the corners of the undercut." translation="Określ promień w narożnikach podcięcia."/>
+	<label commandName="SnapFitUndercutLength" devLabel="V" translation="V"/>
+	<label commandName="SnapFitUndercutLengthToolTipL0" devLabel="Undercut Length" translation="Długość podcięcia"/>
+	<label commandName="SnapFitUndercutLengthToolTipL1" devLabel="Specify the length of the groove to receive the undercut." translation="Określ długość rowka, dla którego ma zostać dodane podcięcie."/>
+	<label commandName="SnapFitUndercutWidth" devLabel="U" translation="U"/>
+	<label commandName="SnapFitUndercutWidthToolTipL0" devLabel="Undercut Width" translation="Szerokość podcięcia"/>
+	<label commandName="SnapFitUndercutWidthToolTipL1" devLabel="Specify the width of the groove to receive the undercut." translation="Określ szerokość rowka, dla którego ma zostać dodane podcięcie."/>
+	<label commandName="SolidSelection" devLabel="Solid Body" translation="Ciało bryły"/>
+	<label commandName="SpecifyRule" devLabel="Plastic Rule" translation="Reguła dotycząca tworzywa sztucznego"/>
+	<label commandName="SpecifyRuleSelectComponentTooltip" devLabel="Select a component to assign a plastic rule." translation="Wybierz komponent, aby przypisać regułę dotyczącą tworzywa sztucznego."/>
+	<label commandName="SpeficyRuleSelectComponentCursor1" devLabel="Select a component in the browser or canvas" translation="Wybierz komponent w przeglądarce lub obszarze rysunku"/>
+	<label commandName="SpeficyRuleSelectComponentCursor2" devLabel="Select a plastic rule" translation="Wybierz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="StatusError" devLabel="" translation=""/>
+	<label commandName="StatusIgnore" devLabel="" translation=""/>
+	<label commandName="SummaryTab" devLabel="Summary" translation="Podsumowanie"/>
+	<label commandName="SummaryTabDTTDesc" devLabel="Displays an overview of all the alerts found during the analysis of the solid body." translation="Wyświetla przegląd wszystkich wpisów wykrytych podczas analizy korpusu bryłowego."/>
+	<label commandName="SwitchRule" devLabel="Plastic Rule" translation="Reguła dotycząca tworzywa sztucznego"/>
+	<label commandName="SwitchRuleSelectComponentTooltip" devLabel="Assign Plastic Rule&#xA;&#xA;Assign a different plastic rule to this component." translation="Przypisz regułę dotyczącą tworzywa sztucznego&#xA;&#xA;Przypisz inną regułę dotycząca tworzywa sztucznego do tego komponentu."/>
+	<label commandName="ThicknessAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Try to maintain uniform thickness." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Spróbuj zachować jednolitą grubość."/>
+	<label commandName="ThicknessAdvice2" devLabel="Increase or decrease thickness in regions of high variation. In general, thickness variation should be kept under 25%." translation="Zwiększ lub zmniejsz grubość w obszarach o dużej zmienności. Ogólnie, zmienność grubości powinna być utrzymywana na poziomie poniżej 25%."/>
+	<label commandName="ThicknessAdvice3" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Dopasuj kąt pochylenia. Zazwyczaj żebra powinny mieć 50% grubości."/>
+	<label commandName="ThicknessAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Variation&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Zarządzaj regułami dotyczącymi tworzywa sztucznego&lt;/b&gt;, aby sprawdzić, czy &lt;b&gt;Odchylenie grubości&lt;/b&gt; jest poprawnie zdefiniowane dla materiału z tworzywa sztucznego."/>
+	<label commandName="ThicknessAdvice5" devLabel="Set up an &lt;b&gt;Injection Molding&lt;/b&gt; simulation study to get accurate information based on process settings, material selection, and injection location." translation="Skonfiguruj badanie symulacji &lt;b&gt;Formowanie wtryskowe&lt;/b&gt;, aby uzyskać dokładne informacje na podstawie ustawień procesu, wyboru materiału i położenia wtrysku."/>
+	<label commandName="ThicknessAlertLargeWallWariation" devLabel="&lt;b&gt;Large Thickness Variation:&lt;/b&gt; %1% %2% the maximum percentage &lt;b&gt;Thickness Variation&lt;/b&gt;." translation="&lt;b&gt;Duża zmiana grubości:&lt;/b&gt; %1% %2% maksymalna wartość procentowa &lt;b&gt;Odchylenia grubości&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThick" devLabel="%1%&lt;b&gt;Too Thick:&lt;/b&gt; %2% %3% thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Zbyt gruba:&lt;/b&gt; %2%%3% grubsza niż górna granica &lt;b&gt;Zakresu grubości&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertTooThin" devLabel="%1%&lt;b&gt;Too Thin:&lt;/b&gt; %2% %3% thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt;." translation="%1%&lt;b&gt;Zbyt cienka:&lt;/b&gt; %2% %3% cieńsza niż dolna granica &lt;b&gt;Zakresu grubości&lt;/b&gt;."/>
+	<label commandName="ThicknessAlertsInfo" devLabel="ThicknessAlerts" translation="Alerty dotyczące grubości"/>
+	<label commandName="ThicknessDTTDesc" devLabel="Analyzes the solid body for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule assigned to its component." translation="Analizuje korpus bryłowy dla elementów, które znajdują się poza &lt;b&gt;Zakresem grubości&lt;/b&gt; lub przekraczają &lt;b&gt;Odchylenie grubości&lt;/b&gt; zdefiniowane w regule tworzywa sztucznego przypisanej do jego komponentu."/>
+	<label commandName="ThicknessGroup" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="ThicknessInfo" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="ThicknessIssueTypeInfo" devLabel="Alert Type" translation="Typ alertu"/>
+	<label commandName="ThicknessIssueTypeLargeVariationInfo" devLabel="Large Thickness Variation" translation="Duża zmiana grubości"/>
+	<label commandName="ThicknessIssueTypeTooThickInfo" devLabel="Too Thick" translation="Zbyt gruba"/>
+	<label commandName="ThicknessIssueTypeTooThinInfo" devLabel="Too Thin" translation="Zbyt cienka"/>
+	<label commandName="ThicknessRangeInfo" devLabel="Thickness Range" translation="Zakres grubości"/>
+	<label commandName="ThicknessRecommendationInfo" devLabel="ThicknessRecommendation" translation="Zalecenia dotyczące grubości"/>
+	<label commandName="ThicknessTab" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="ThicknessTabDTTDesc" devLabel="Displays the details of alerts for features that fall outside the &lt;b&gt;Thickness Range&lt;/b&gt; or exceed the &lt;b&gt;Thickness Variation&lt;/b&gt; defined in the plastic rule." translation="Wyświetla szczegóły alertów dotyczących elementów, które wykraczają poza &lt;b&gt;Zakres grubości&lt;/b&gt; lub przekraczają &lt;b&gt;Odchylenie grubości&lt;/b&gt; zdefiniowane w regule tworzywa sztucznego."/>
+	<label commandName="ThicknessVariationInfo" devLabel="Thickness Variation" translation="Zmiana grubości"/>
+	<label commandName="ThicknessViewGradientInfo" devLabel="" translation=""/>
+	<label commandName="ThicknessViewInfo" devLabel="Display" translation="Wyświetlanie"/>
+	<label commandName="ThicknessViewTransparentInfo" devLabel="" translation=""/>
+	<label commandName="ThinSteelConditionInfo" devLabel="Knife Edge Threshold" translation="Próg ostrza noża"/>
+	<label commandName="TooThickAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Decrease thickness in thicker regions." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Zmniejsz grubość w grubszych obszarach."/>
+	<label commandName="TooThickAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Dopasuj kąt pochylenia. Zazwyczaj żebra powinny mieć 50% grubości."/>
+	<label commandName="TooThickAdvice3" devLabel="Use a tool like &lt;b&gt;Shell&lt;/b&gt; to core out thick sections to maintain uniform thickness." translation="Użyj narzędzia, takiego jak &lt;b&gt;Skorupa&lt;/b&gt;, aby wytyczyć grube przekroje w celu zachowania jednorodnej grubości."/>
+	<label commandName="TooThickAdvice4" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Zarządzaj regułami dotyczącymi tworzywa sztucznego&lt;/b&gt;, aby sprawdzić, czy &lt;b&gt;Zakres grubości&lt;/b&gt; jest poprawnie zdefiniowany dla materiału z tworzywa sztucznego."/>
+	<label commandName="TooThickDTT" devLabel="Displays only the thickness alerts for regions that are thicker than the upper limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Wyświetla tylko alerty o grubości dla obszarów grubszych niż górna granica &lt;b&gt;Zakresu grubości&lt;/b&gt; zdefiniowanego w regule dotyczącej tworzywa sztucznego."/>
+	<label commandName="TooThickProblemMessage" devLabel="&lt;b&gt;Too Thick&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thick take longer to cool.This can lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part as the molten plastic solidifies." translation="&lt;b&gt;Zbyt grube&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Obszary, które są zbyt grube, wymagają więcej czasu, aby je schłodzić. Może to spowodować wydłużenie czasu cyklu produkcyjnego. Powolniejsze chłodzenie może spowodować nierówny skurcz i zapadnięcia, co spowoduje deformację części w czasie krzepnięcia roztopionego tworzywa."/>
+	<label commandName="TooThinAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Increase thickness in thinner regions." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Zwiększ grubość w cieńszych obszarach."/>
+	<label commandName="TooThinAdvice2" devLabel="Adjust draft angle. In general, ribs should be 50% of thickness." translation="Dopasuj kąt pochylenia. Zazwyczaj żebra powinny mieć 50% grubości."/>
+	<label commandName="TooThinAdvice3" devLabel="&lt;b&gt;Manage Plastic Rules&lt;/b&gt; to verify the &lt;b&gt;Thickness Range&lt;/b&gt; is defined correctly for the plastic material." translation="&lt;b&gt;Zarządzaj regułami dotyczącymi tworzywa sztucznego&lt;/b&gt;, aby sprawdzić, czy &lt;b&gt;Zakres grubości&lt;/b&gt; jest poprawnie zdefiniowany dla materiału z tworzywa sztucznego."/>
+	<label commandName="TooThinDTT" devLabel="Displays only the thickness alerts for regions that are thinner than the lower limit of the &lt;b&gt;Thickness Range&lt;/b&gt; defined in the plastic rule." translation="Wyświetla tylko alerty o grubości dla obszarów, które są cieńsze niż dolna granica &lt;b&gt;Zakresu grubości&lt;/b&gt; zdefiniowanego w regule dotyczącej tworzywa sztucznego."/>
+	<label commandName="TooThinProblemMessage" devLabel="&lt;b&gt;Too Thin&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions that are too thin may fill slower or have difficulty filling completely.They cool faster than thicker regions.This can cause uneven shrinkage, which warps the part as the molten plastic solidifies." translation="&lt;b&gt;Zbyt cienkie&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Obszary zbyt cienkie mogą wypełniać się wolniej lub mieć problemy z całkowitym wypełnianiem. Ochładzają szybciej niż obszary grubsze. Może to spowodować nierówny skurcz, który deformuje część, podczas krzepnięcia stopionego tworzywa sztucznego."/>
+	<label commandName="TransparentDTTBase" devLabel="Alerts Only" translation="Tylko alerty"/>
+	<label commandName="TransparentDTTDesc" devLabel="Displays the areas affected by thickness alerts as a red overlay on the solid body in the canvas." translation="Wyświetla obszary, na które mają wpływ alerty o grubości, jako czerwoną nakładkę na korpus bryłowy w obszarze rysunku."/>
+	<label commandName="UnIsolateSingleAlertInfo" devLabel="Unisolate Alert" translation="Anuluj izolowanie alertu"/>
+	<label commandName="UndercutAdvice1" devLabel="&lt;b&gt;Advice&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Remove undercuts to simplify the mold design." translation="&lt;b&gt;Porada&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Usuń podcięcia, aby uprościć projekt formy."/>
+	<label commandName="UndercutAdvice2" devLabel="Confirm pull direction." translation="Potwierdź kierunek wyciągnięcia."/>
+	<label commandName="UndercutAdvice3" devLabel="Redesign undercut features to align with the pull direction." translation="Przeprojektuj podcięcia, aby wyrównać je z kierunkiem wyciągnięcia."/>
+	<label commandName="UndercutAdvice4" devLabel="Check draft on the undercut feature." translation="Sprawdź pochylenie podcięcia."/>
+	<label commandName="UndercutAdvice5" devLabel="Investigate to make sure the part can be removed from the mold." translation="Dokonaj analizy, aby upewnić się, że część może zostać usunięta z formy."/>
+	<label commandName="UndercutAdvice6" devLabel="Highlight undercuts as features of concern, and consult a mold designer. Confirm whether sliders, lifters, or inserts could be added to the mold to help remove the part." translation="Podświetl podcięcia jako elementy potencjalnie niebezpieczne i skonsultuj się z projektantem formy. Sprawdź, czy do formy można dodać suwaki, wypychacze lub wkładki, aby pomóc w usunięciu części."/>
+	<label commandName="UndercutAlert" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;: %1% %2% undercuts that will interfere with ejection from a mold." translation="&lt;b&gt;Podcięcia&lt;/b&gt;: %1%%2% podcięcia, które będą kolidować z wypchnięciem z formy."/>
+	<label commandName="UndercutProblemMessagen" devLabel="&lt;b&gt;Undercuts&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Undercuts are trapped features that can't be ejected from the mold. If the mold requires sliders, lifters, or inserts to help eject the part from the mold, it may increase the cost. Not all undercuts can be avoided, but they should be minimized." translation="&lt;b&gt;Podcięcia&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Podcięcia są elementami zagnieżdżonymi, których nie można wypchnąć z formy. Jeśli forma wymaga suwaków, wypychaczy lub wkładek do wypchnięcia części z formy, może to spowodować zwiększenie kosztów. Nie można uniknąć wszystkich podcięć, ale należy je zminimalizować."/>
+	<label commandName="UndercutRegion" devLabel="region contains" translation="obszar zawiera"/>
+	<label commandName="UndercutRegions" devLabel="regions contain" translation="obszary zawierają"/>
+	<label commandName="UndercutTabDTTDesc" devLabel="Displays the details of alerts for features that will interfere with ejection from a mold, based on the pull direction." translation="Wyświetla szczegóły alertów dotyczących elementów, które będą kolidować z wypchnięciem z formy, w zależności od kierunku wyciągnięcia."/>
+	<label commandName="UndercutsAlertsInfo" devLabel="UndercutsAlerts" translation="Ostrzeżenia dotyczące podcięć"/>
+	<label commandName="UndercutsDTTDesc" devLabel="Analyzes the solid body for features that will interfere with ejection from a mold, based on the pull direction." translation="Analizuje korpus bryłowy pod kątem elementów, które będą kolidować z wypchnięciem z formy, w oparciu o kierunek wyciągnięcia."/>
+	<label commandName="UndercutsGroup" devLabel="Undercuts" translation="Podcięcia"/>
+	<label commandName="UndercutsRecommendationInfo" devLabel="UndercutsRecommendation" translation="Zalecenia dotyczące podcięć"/>
+	<label commandName="UndercutsTab" devLabel="Undercuts" translation="Podcięcia"/>
+	<label commandName="ViewDetails" devLabel="View Details" translation="Pokaż szczegóły"/>
+	<label commandName="ViewDetailsGroupInfo" devLabel="Details" translation="Szczegóły"/>
+	<label commandName="WVRegion" devLabel="region exceeds" translation="obszar przekracza"/>
+	<label commandName="WVRegions" devLabel="regions exceed" translation="obszary przekraczają"/>
+	<label commandName="WallVariationProblemMessage" devLabel="&lt;b&gt;Large Thickness Variation&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Regions with large variation in thickness may fill and cool unevenly.Thick regions may lead to longer manufacturing cycle times.Slower cooling can cause uneven shrinkage and sink marks, which warp the part.Thin regions may fill slower or have difficulty filling completely.They cool faster than thicker regions. This can cause uneven shrinkage, which warps the part." translation="&lt;b&gt;Duża zmiana grubości&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Obszary o dużej zmienności grubości mogą być wypełniane i chłodzone nierównomiernie. Grube obszary mogą prowadzić do dłuższego czasu cyklu produkcyjnego. Wolniejsze chłodzenie może spowodować nierówne skurcze i zapadnięcia, które powodują deformację części. Cienkie obszary mogą wypełniać wolniej lub mieć problemy z całkowitym wypełnianiem. Ochładzają się one szybciej niż grubsze obszary. Może to spowodować nierówny skurcz, który powoduje zdeformowanie części."/>
+	<label commandName="componentSelection" devLabel="Component" translation="Komponent"/>
+	<label commandName="design-advice-feature-desc" devLabel="Identify manufacturability concerns based on industry best practices and company standards, and receive recommendations to improve the manufacturability and performance of your design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Learn More&lt;/a&gt;" translation="Zidentyfikuj problemy z wykonalnością produkcji w oparciu o najlepsze praktyki branżowe i standardy firmowe, a także otrzymuj zalecenia dotyczące poprawy wykonalności produkcji i wydajności projektu. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-DESIGN-ADVICE&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="design-advice-feature-title" devLabel="Design Advice" translation="Porada projektowa"/>
+	<label commandName="finishBlack" devLabel="Black" translation="Czarny"/>
+	<label commandName="finishChrome" devLabel="Chrome" translation="Chrom"/>
+	<label commandName="finishNickelPlated" devLabel="Nickel Plated" translation="Niklowany"/>
+	<label commandName="finishPassivated" devLabel="Passivated" translation="Pasywowany"/>
+	<label commandName="finishZincPlated" devLabel="Zinc Plated" translation="Cynkowany"/>
+	<label commandName="geometric-pattern-feature-desc" devLabel="Create complex patterns with adjustable size and distribution gradients across a selected face. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Learn More&lt;/a&gt;" translation="Twórz złożone wzory z regulowanymi rozmiarami i gradientami rozkładu na wybranej powierzchni. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-GEOMETRIC-PATTERN&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="geometric-pattern-feature-title" devLabel="Geometric Pattern" translation="Szyk geometryczny"/>
+	<label commandName="lclzAssignPlasticRule1" devLabel="Assigns a plastic rule to a component to automatically control the properties of plastic features, like physical material and thickness." translation="Przypisuje regułę dotyczącą tworzywa sztucznego do komponentu w celu automatycznego sterowania właściwościami elementów z tworzywa sztucznego, takimi jak materiał fizyczny i grubość."/>
+	<label commandName="lclzAssignPlasticRule2" devLabel="Select a component, then select the plastic rule to assign to it." translation="Wybierz komponent, a następnie wybierz regułę dotyczącą tworzywa sztucznego, aby ją do niego przypisać."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksDesc" devLabel="In the Browser, you can switch the plastic rule assigned to a component, and all the associated features will update to reflect the values defined in the new rule." translation="W przeglądarce można przełączyć regułę dotycząca tworzywa sztucznego przypisaną do komponentu, a wszystkie skojarzone elementy zostaną zaktualizowane, aby odzwierciedlić wartości zdefiniowane w nowej regule."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTips" devLabel="Assign a plastic rule to a component to automatically control values like plastic material, thickness, and draft angle when you create features using tools like Rib, Web, and Boss." translation="Przypisz regułę dotyczącą tworzywa sztucznego do komponentu, aby automatycznie sterować wartościami, takimi jak materiał z tworzywa sztucznego, grubość i kąt pochylenia podczas tworzenia elementów za pomocą narzędzi, takich jak Żebro, Środnik i Kominek."/>
+	<label commandName="lclzAssignPlasticRuleTipsAndTricksTitle" devLabel="Assign Plastic Rule" translation="Przypisz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="lclzBoltConn1" devLabel="Inserts bolt into existing hole." translation="Wstawia śrubę do istniejącego otworu."/>
+	<label commandName="lclzBoltConn2" devLabel="Select a circular edge." translation="Wybierz krawędź kołową."/>
+	<label commandName="lclzBoltConnTipsAndTricksTips" devLabel="Select a circular edge." translation="Wybierz krawędź kołową."/>
+	<label commandName="lclzBoltConnTipsAndTricksTitle" devLabel="Bolted Connection Information" translation="Informacje o połączeniu śrubowym"/>
+	<label commandName="lclzBoss1" devLabel="Creates a boss feature to fasten two solid bodies together and reinforce thin areas of a design." translation="Tworzy element kominka, aby połączyć dwa korpusy bryłowe i wzmocnić cienkie obszary projektu."/>
+	<label commandName="lclzBoss2" devLabel="Select a sketch point between two solid bodies, then adjust the settings for each side of the boss feature and the fastener that will assemble them together." translation="Wybierz punkt szkicu między dwoma korpusami bryłowymi, a następnie dostosuj ustawienia dla każdej strony elementu kominka i części złącznej, która będzie je łączyć."/>
+	<label commandName="lclzBossTipsAndTricksDesc" devLabel="On the Ribs tab, add ribs to each side of the boss feature to strengthen and support them." translation="Na karcie Żebra dodaj żebra po każdej stronie elementu kominka, aby je wzmocnić i podeprzeć."/>
+	<label commandName="lclzBossTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create bosses between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each boss, or constrain or dimension them in the sketch to define precise locations." translation="Utwórz szkic i umieść punkty, w których chcesz utworzyć kominki między dwiema bryłami w projekcie. Możesz pozostawić punkty szkicu bez wiązań i przeciągnąć je na płaszczyznę szkicu, aby dopasować położenie każdego kominka, lub związać je lub wymiarować w szkicu, aby zdefiniować dokładne położenia."/>
+	<label commandName="lclzBossTipsAndTricksTitle" devLabel="Boss Information" translation="Kominek — informacje"/>
+	<label commandName="lclzChangePlasticRule1" devLabel="Assign Plastic Rule" translation="Przypisz regułę dotyczącą tworzywa sztucznego"/>
+	<label commandName="lclzChangePlasticRule2" devLabel="Assign a different plastic rule to this component." translation="Przypisz inną regułę dotyczącą tworzywa sztucznego do tego komponentu."/>
+	<label commandName="lclzDesignAdviceCmd1" devLabel="Identifies manufacturability concerns based on best practices for plastic injection molding, and provides recommendations to address them." translation="Określa problemy z produkcją na podstawie wzorców postępowania w przypadku formowania wtryskowego tworzyw sztucznych i przedstawia zalecenia dotyczące ich rozwiązania."/>
+	<label commandName="lclzDesignAdviceCmd2" devLabel="Select a solid body and the pull direction, then click Analyze. Once the analysis is complete, the rules, results, and recommendations display." translation="Wybierz korpus bryłowy i kierunek wyciągnięcia, a następnie kliknij przycisk Analiza. Po zakończeniu analizy zostaną wyświetlone reguły, wyniki i zalecenia."/>
+	<label commandName="lclzLip1" devLabel="Creates a lip, groove, or combined feature on one or two solid bodies." translation="Tworzy występ, rowek lub element połączony na maksymalnie dwóch korpusach bryłowych."/>
+	<label commandName="lclzLip2" devLabel="Select an edge on a solid body then choose between the Lip, Groove, or Lip And Groove types. Select a guide type, a pull direction or guide face to locate the feature, then adjust the dimension settings. Optionally, select one or two extents for the feature and choose a result option." translation="Wybierz krawędź korpusu bryłowego, a następnie wybierz typ Występ, Rowek lub Występ i rowek. Wybierz typ prowadnicy, kierunek wyciągnięcia lub powierzchnię prowadnicy, aby zlokalizować element, a następnie dostosuj ustawienia wymiaru. Opcjonalnie wybierz maksymalnie dwa zakresy dla elementu i wybierz opcję wyniku."/>
+	<label commandName="lclzLipTipsAndTricksDesc" devLabel="When you create a lip and groove together, the groove dimensions are automatically determined by the lip dimensions and clearance." translation="Podczas jednoczesnego tworzenia występu i rowka wymiary rowka są automatycznie określane przez wymiary występu i prześwit."/>
+	<label commandName="lclzLipTipsAndTricksTips" devLabel="Select the inside edge to place your lip feature to ensure the reveal is on the outside of your design." translation="Wybierz krawędź wewnętrzną, aby umieścić element występu, aby upewnić się, że boniowanie znajduje się na zewnątrz projektu."/>
+	<label commandName="lclzLipTipsAndTricksTitle" devLabel="Lip And Groove Information" translation="Występ i rowek— informacje"/>
+	<label commandName="lclzManagePlasticRules1" devLabel="Manages plastic rules in the active design to automatically control properties of plastic features, like physical material and thickness." translation="Umożliwia zarządzanie zasadami dotyczącymi tworzyw sztucznych w aktywnym projekcie w celu automatycznego sterowania właściwościami elementów z tworzywa sztucznego, takimi jak materiał fizyczny i grubość."/>
+	<label commandName="lclzManagePlasticRules2" devLabel="Create new rules, edit existing rules, or save rules to a library to use them in multiple designs." translation="Można tworzyć nowe reguły, edytować istniejące lub zapisywać reguły w bibliotece, aby używać ich w wielu projektach."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksDesc" devLabel="Plastic rules that appear in the &lt;b&gt;In This Design&lt;/b&gt; section are stored in the active design document. Plastic rules that appear in the &lt;b&gt;Library&lt;/b&gt; section are stored in the cloud." translation="Reguły dotyczące tworzyw sztucznych, które są wyświetlane w sekcji &lt;b&gt;W tym projekcie&lt;/b&gt;, są przechowywane w aktywnym dokumencie projektu. Reguły dotyczące tworzyw sztucznych, które są wyświetlane w sekcji &lt;b&gt;Biblioteka&lt;/b&gt;, są przechowywane w chmurze."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTips" devLabel="When you edit the values in a plastic rule, any plastic features in components that use that plastic rule will update to reflect the new values." translation="Podczas edycji wartości w regule dotyczącej tworzywa sztucznego wszystkie elementy z tworzywa sztucznego w komponentach, które używają tej reguły dotyczącej tworzywa sztucznego, zostaną zaktualizowane, aby odzwierciedlić nowe wartości."/>
+	<label commandName="lclzManagePlasticRulesTipsAndTricksTitle" devLabel="Manage Plastic Rules Information" translation="Zarządzanie informacjami o regułach dotyczących tworzyw sztucznych"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Operacja przerwana ręcznie przez użytkownika"/>
+	<label commandName="lclzRest1" devLabel="Creates a rest feature that intersects the overall shape and forms a flat area that can be used for other features or placement of other components." translation="Tworzy element półki, który przecina ogólny kształt i tworzy płaski obszar, który może być użyty dla innych elementów lub do umieszczenia innych komponentów."/>
+	<label commandName="lclzRest2" devLabel="Select a closed sketch profile and a solid body, then specify the thickness." translation="Wybierz profil zamkniętego szkicu i korpus bryłowy, a następnie określ grubość."/>
+	<label commandName="lclzRestTipsAndTricksDesc" devLabel="The landing area can be used for the placement of another part or to provide a surface that has an orientation different from the adjacent wall." translation="Powierzchnia podestu może zostać użyta do umieszczenia innej części lub do zapewnienia powierzchni o orientacji innej niż przylegająca ściana."/>
+	<label commandName="lclzRestTipsAndTricksTips" devLabel="A rest is a feature on a plastic part that is applied to a wall to form a “landing area” that protrudes partially inside and outside the body." translation="Półka to element części z tworzywa sztucznego, który jest stosowany do ściany w celu utworzenia „powierzchni podestu”, który wystaje częściowo wewnątrz i na zewnątrz bryły."/>
+	<label commandName="lclzRestTipsAndTricksTitle" devLabel="Rest Information" translation="Informacje o półce"/>
+	<label commandName="lclzSnapFit1" devLabel="Creates a cantilever snap fit feature to fasten two solid bodies together in a design." translation="Tworzy element połączenia zatrzaskowego wspornika, aby połączyć dwa korpusy bryłowe w projekt."/>
+	<label commandName="lclzSnapFit2" devLabel="Select a snap fit type, select a sketch point between two solid bodies, then adjust the settings for the hook, groove, or loop on each side of the snap fit feature." translation="Wybierz typ połączenia zatrzaskowego, wybierz punkt szkicu między dwoma korpusami bryłowymi, a następnie dostosuj ustawienia dla zaczepu, rowka lub pętli po każdej stronie elementu połączenia zatrzaskowego."/>
+	<label commandName="lclzSnapFitTipsAndTricksTips" devLabel="Create a sketch and place points where you want to create snap fit features between two bodies in your design. You can leave the sketch points unconstrained and drag them on the sketch plane to adjust the position of each snap fit, or constrain or dimension them in the sketch to define precise locations." translation="Utwórz szkic i umieść punkty, w których chcesz utworzyć elementy połączenia zatrzaskowego między dwiema bryłami w projekcie. Możesz pozostawić punkty szkicu bez wiązań i przeciągnąć je na płaszczyznę szkicu, aby dopasować położenie każdego połączenia zatrzaskowego, lub związać je lub wymiarować w szkicu, aby zdefiniować dokładne położenia."/>
+	<label commandName="lclzSnapFitTipsAndTricksTitle" devLabel="Snap Fit Information" translation="Informacje o połączeniu zatrzaskowym"/>
+	<label commandName="matAluminium" devLabel="Aluminium" translation="Aluminium"/>
+	<label commandName="matBrass" devLabel="Brass" translation="Mosiądz"/>
+	<label commandName="matCarbonSteel" devLabel="Carbon Steel" translation="Stal węglowa"/>
+	<label commandName="matStainlessSteelA2" devLabel="Stainless Steel A2" translation="Stal nierdzewna A2"/>
+	<label commandName="matStainlessSteelA4" devLabel="Stainless Steel A4" translation="Stal nierdzewna A4"/>
+	<label commandName="matTitanium" devLabel="Titanium" translation="Tytan"/>
+	<label commandName="organic-mesh-feature-desc" devLabel="Convert organically shaped meshes to solid, surface, or T-Spline bodies. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Learn More&lt;/a&gt;" translation="Przekonwertuj siatki o kształcie organicznym na bryły, powierzchnie lub bryły T-splajn. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=MESH-CONVERT-TO-SOLID&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="organic-mesh-feature-title" devLabel="Organic Mesh Conversion" translation="Konwersja siatki organicznej"/>
+	<label commandName="plastic-design-tools-feature-desc" devLabel="Use the Boss and Snap Fit tools to create plastic features. Add draft angle, draft pull direction, and fillet radius to Web and Rib features. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Learn More&lt;/a&gt;" translation="Użyj narzędzi Kominek i Połączenie zatrzaskowe, aby utworzyć elementy z tworzywa sztucznego. Dodaj kąt pochylenia, kierunek pochylenia wyciągnięcia i promień zaokrąglenia do elementów środnika i żebra. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-BOSS&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="plastic-design-tools-feature-title" devLabel="Plastic Design Tools" translation="Narzędzia do projektowania tworzyw sztucznych"/>
+	<label commandName="plastic-rules-feature-desc" devLabel="Assign plastic rules to components to automatically control the properties of plastic features, like physical material and thickness. Create new rules, edit existing rules, or save rules to a library to use them in multiple designs. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Learn More&lt;/a&gt;" translation="Przypisz reguły dotyczące tworzywa sztucznego do komponentów, aby automatycznie sterować właściwościami elementów z tworzywa sztucznego, takimi jak materiał fizyczny i grubość. Utwórz nowe reguły, edytuj istniejące reguły lub zapisz reguły w bibliotece, aby używać ich w wielu projektach. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-SETUP-PLASTIC-RULES&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="plastic-rules-feature-title" devLabel="Plastic Rules" translation="Reguły dotyczące tworzyw sztucznych"/>
+	<label commandName="presets-feature-desc" devLabel="Create setting presets to quickly reuse common values. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Learn More&lt;/a&gt;" translation="Utwórz ustawienia wstępne, aby szybko ponownie użyć wartości wspólnych. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-PRESETS&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="presets-feature-title" devLabel="Presets" translation="Ustawienia wstępne"/>
+	<label commandName="productdesign-featurepack-desc" devLabel="Amplify your product design capabilities in Fusion 360. Use advanced tools to automate the design of complex plastic features, apply intelligent patterns, and add shape-altering properties to your designs. Receive manufacturing-aware advice to improve product performance and prepare your designs for manufacturing. Empower your design process and turn your ideas into finished products faster. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Learn More&lt;/a&gt;" translation="Zwiększ możliwości projektowania produktów w programie Fusion 360. Używaj zaawansowanych narzędzi do automatyzacji projektowania złożonych elementów z tworzyw sztucznych, stosowania inteligentnych wzorów i dodawania do projektów właściwości zmieniających kształt. Otrzymuj porady dotyczące produkcji, aby poprawić charakterystyki produktu i przygotować projekty do produkcji. Zwiększ możliwości procesu projektowania i szybciej przekształcaj pomysły w gotowe produkty. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-PRODUCT-DESIGN&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="snapFitFlipDirectionInputTooltip" devLabel="Flips snap fit feature over selected sketch point." translation="Odwraca element połączenia zatrzaskowego względem wybranego punktu szkicu."/>
+	<label commandName="volumetric-lattice-feature-desc" devLabel="Modify existing solid bodies or mesh bodies to create complex volumetric lattices that alter the shape and appearance of a design. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Learn More&lt;/a&gt;" translation="Zmodyfikuj istniejące korpusy bryłowe lub bryły siatkowe, aby utworzyć złożone kratownice objętościowe, które zmieniają kształt i wygląd projektu. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=SLD-VOLUMETRIC-LATTICE&quot;&gt;Dowiedz się więcej &lt;/a&gt;"/>
+	<label commandName="volumetric-lattice-feature-title" devLabel="Volumetric Lattice" translation="Kratownica objętościowa"/>
+	<label commandName="xRefSwitchPlasticRuleCommandTooltip" devLabel="Assigning a different plastic rule in a referenced design is not supported." translation="Przypisywanie innej reguły dotyczącej tworzywa sztucznego w projekcie, do którego istnieją odniesienia, nie jest obsługiwane."/>
+</Resource>

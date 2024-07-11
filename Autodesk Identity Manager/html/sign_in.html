@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html onkeydown="handle_html_key_down(event)">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <link type="text/css" rel="stylesheet" href="assets/style/style.css" />
+        <script src="scripts/language.js"></script>
+        <script src="scripts/utility.js"></script>
+    </head>
+    <body onload="language_init(); utility_init();">
+        <span id="language_init">
+            <script src="assets/lang/en-US.js"></script>
+        </span>
+        <div class="div-container">
+            <div class="div-header">
+                <img class="img-logo" src="assets/image/logo.svg" draggable="false">
+                <img id="img-close" class="img-close" src="assets/image/close.svg" onclick="close_window()" draggable="false">
+            </div>
+            <div class="div-blurred-rectangle">
+                <span class="span-title" locale_str="sign_in_title"></span>
+                <span class="span-message" locale_str="sign_in_message_1"></span>
+                <span class="span-message" locale_str="sign_in_message_2"></span>
+                <div class="div-button-container-margin">
+                    <div class="div-button-container" onclick="sign_in()" contenteditable="true" onkeydown="handle_sign_in_button_key_down(event)">
+                        <div class="div-button">
+                            <span class="span-button" locale_str="sign_in_restart_button" contenteditable="false"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="error-container-wrapper">
+                    <div class="error-container">
+                        <img class="img-error-icon" src="assets/image/icon.svg" draggable="false">
+                        <span class="span-error-message" locale_str="error_message"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

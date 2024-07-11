@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale" >
+
+  <description>English</description>
+  <country>en</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-contextid">English Feature Flag Info Link</message>
+	  OR
+	  <message name="feature-flag-contextid">CONTEXT_ID</message>
+
+	If a context id is specified, a URL will be constructed, along the lines of:
+	https://help.autodesk.com/view/fusion360/<LANG>/?contextId=<CONTEXT_ID>
+	with the language code filled in based on the active language.
+  -->
+  <message name="additive-angled-volume-support-name">Additive Angled Volume Supports</message>
+  <message name="additive-angled-volume-support-desc">Volume supports created during an additive manufacturing setup follow a vector towards the build plate. This preview feature offers an option to break that vector in to two. Using an angle between the two vectors, you can avoid creating supports that connect Downskin regions with Upskin regions of your parts. This will result in better surface quality and reduced post processing time for the Upskin regions.</message>
+  <message name="additive-angled-volume-support-contextid">MFG-ADDITIVE-ANGLED-VOLUME-SUPPORTS-PREVIEW</message>
+
+  <message name="Additive-General-name">Additive Manufacturing</message>
+  <message name="Additive-General-desc">Select print parameters, automatically orient parts for build success, and generate support structures and toolpaths. Export directly to select powder bed machines or export a 3MF file.</message>
+  <message name="Additive-General-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="Additive-Tech-DED-name">Additive Multi-Axis Deposition</message>
+  <message name="Additive-Tech-DED-desc">Creates an additive toolpath for building features using multi-axis deposition technologies. For example, DED (directed energy deposition).</message>
+  <message name="Additive-Tech-DED-contextid">MFG-AM-FEATURE-CONSTRUCTION-PREVIEW</message>
+
+  <message name="Additive-Tech-SLM-name">Additive Manufacturing</message>
+  <message name="Additive-Tech-SLM-desc">Allows you to select a Metal Powder Bed Fusion (MPBF) machine, arrange and orient parts on the platform, create fully associative support structures, and slice models. Outputs a native build file including laser parameters or a 3MF file.</message>
+  <message name="Additive-Tech-SLM-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="additive-process-simulation-name">Additive Process Simulation</message>
+  <message name="additive-process-simulation-desc">Additive manufacturing simulation allows you to replicate real - world additive manufacturing processes. The software predicts distortion and common print failures such as recoater interference based on thermo - mechanical simulation. Based on simulation results, the software can automatically compensate geometries to achieve the desired shape when 3D printing. Available only as a Preview feature, can be enabled in preferences</message>
+  <message name="additive-process-simulation-contextid">EXT-MFG-ADDITIVE-SIMULATION</message>
+	
+  <message name="cam-of-cams-name">Import CAM Data from Linked Designs</message>
+  <message name="cam-of-cams-desc">Enhances the Insert into Current Design feature so that CAM data, such as setups and operations, get added from linked designs. The CAM data is read-only but can be simulated and post processed.</message>
+
+  <message name="enable-residual-cut-suppression-name">Reduce Whisper Cuts for 3D Adaptive Clearing</message>
+  <message name="enable-residual-cut-suppression-desc">Reduces whisper cuts when performing fine stepdowns on surfaces that are parallel to the tool orientation. Whisper cuts occur when the tool is performing a cutting move but cutting little to no material.</message>
+	
+  <message name="cmm-setup-name">CMM Inspection</message>
+  <message name="cmm-setup-desc">Add a new type of setup so you can take measurements with manual CMMs (coordinate measuring machines), such as portable arms. Align a CAD model to a physical part and collect measurement data to compare measured results with nominal values.</message>
+	
+  <message name="configurable-tolerance-colors-name">Tolerance Colors</message>
+  <message name="configurable-tolerance-colors-desc">Sets tolerance colors for inspection results and stock simulation, so that they match. Adds a setting in Preferences that lets you choose between two color conventions. In addition, in the canvas, displays any out-of-tolerance inspection results from Probe Geometry, Probe WCS, and Manual Inspection in orange and the nominal values for Manual Inspection in black.</message>
+  <message name="configurable-tolerance-colors-contextid">MFG-TOLERANCE-COLORS</message>
+
+  <message name="cutting-force-analysis-name">Cutting Force Analysis</message>
+  <message name="cutting-force-analysis-desc">Collect cutting force data during simulation.</message>
+  
+  <message name="hig-styled-qt-name">Updated Styling</message>
+  <message name="hig-styled-qt-desc">Get a sneak peek of the style update in progress for the Fusion Manufacture Dialogs.</message>
+
+  <message name="import-macro-results-name">Import Macro Print Results</message>
+  <message name="import-macro-results-desc">Import the 'Print Results' created on the machine tool controller by Probe WCS or Probe Geometry operations.</message>
+  <message name="import-macro-results-contextid">MFG-IMPORT-MACRO-RESULTS</message>
+
+  <message name="inspection-results-projection-name">Inspect Surface CAD Projection</message>
+  <message name="inspection-results-projection-desc">Provides more accurate results when evaluating probed points where the part form or location differs from the CAD file. Calculates the deviation of the measured point relative to the CAD surface rather than to the expected point for the Inspect Surface strategy.</message>
+  <message name="inspection-results-projection-contextid">MFG-PROBE-PROJECT-POINTS</message>
+
+  <message name="invalid-parameter-error-name">Invalid Parameter Error</message>
+  <message name="invalid-parameter-error-desc">Adds additional parameter validation checks at toolpath generation time.</message>
+
+  <message name="live-machine-connection-name">Live Machine Data Connection</message>
+  <message name="live-machine-connection-desc">Evaluate results in real time through live data acquisition of probed points from Haas Controls for the Inspect Surface, Probe Geometry, and Probe WCS strategies.</message>
+  <message name="live-machine-connection-contextid">MFG-PROBE-LIVE-CONNECTION</message>
+
+  <message name="live-part-alignment-name">Live Machine Part Alignment</message>
+  <message name="live-part-alignment-desc">Enable use of Part Alignment over the Live Machine Data Connection.</message>
+  <message name="live-part-alignment-contextid">MFG-LIVE-PART-ALIGNMENT-PREVIEW</message>
+
+  <message name="machine-space-geometry-simulator-name">Machine Collision Detection</message>
+  <message name="machine-space-geometry-simulator-desc">Detect machine collisions when using machine simulation.</message>
+  <message name="machine-space-geometry-simulator-contextid">MFG-SIMULATE-MACHINE-COLLISION-DETECTION-PREVIEW</message>
+
+  <message name="tool-space-geometry-simulator-name">Stock Simulation Improvements</message>
+  <message name="tool-space-geometry-simulator-desc">Uses a more stable algorithm for simulating stock during toolpath simulation, in-process stock (IPS), rest machining, and turning stock preview.</message>
+
+  <message name="simulation-disable-visualization-collisions-name">Skip Collision Detection for Visual Stock Simulation</message>
+  <message name="simulation-disable-visualization-collisions-desc">Skips additional collision detection while calculating the visual stock during simulation. This helps speed up the visual simulation of the stock in the canvas, especially when simulating many operations, simulating with a machine, or both. Collision detection is still performed as part of the verification process.</message>
+	
+  <message name="simulation-overtravel-reporting-name">Machine Axis Overtravel Reporting</message>
+  <message name="simulation-overtravel-reporting-desc">Enable machine axis overtravel reporting when using Machine Collision Detection.</message>
+  
+  <message name="simulation-retract-and-reconfigure-name">Machine Retract and Reconfigure Reporting</message>
+  <message name="simulation-retract-and-reconfigure-desc">Enable machine retract and reconfigure reporting when using Machine Collision Detection.</message>
+
+  <message name="manual-inspect-measure-method-name">Center-to-Center Distance for Manual Inspection</message>
+  <message name="manual-inspect-measure-method-desc">Lets you choose how to measure the distance between the centers of two holes, or bosses, in a manual inspection. If your measuring instrument does not support measurements of center-to-center distances, Fusion 360 can calculate the distance using the diameters of the holes, or bosses, and the maximum, or minimum, distance between them.</message>
+  <message name="manual-inspect-measure-method-contextid">MFG-MANUAL-INSPECTION-CENTERS-PREVIEW</message>
+
+  <message name="manual-measure-name">Manual Inspection</message>
+  <message name="manual-measure-desc">Create a list of features to be measured physically using a manual inspection device, such as a caliper, micrometer, or height gauge. Record the measurements to compare them against specified tolerances and optionally save the results as an inspection report.</message>
+  <message name="manual-measure-contextid">MFG-CREATE-MANUAL-INSPECTION</message>
+
+  <message name="mesh-check-safety-name">In Process Stock - Mesh Check Safety</message>
+  <message name="mesh-check-safety-desc">Adds extra checks to mesh handling that assures valid mesh geometries. WARNING: This will cause performance issues and should only be enabled as a last resort if instabilities occurs when using In Process Stock.</message>
+
+  <message name="pattern-instance-control-name">Pattern instance control</message>
+  <message name="pattern-instance-control-desc">Allows posting the first instance of a pattern through the NC Program dialog.</message>
+  
+  <message name="bottom-up-pattern-unfolding-name">Operation ordering for nested patterns</message>
+  <message name="bottom-up-pattern-unfolding-desc">Patterns within patterns, which are instances of folders within folders in the browser, have their operations ordered more efficiently when you create an NC Program. Each pattern is sorted using its specified Operation Ordering, starting with the pattern that is innermost in the browser. Previously, the sorting would begin with the pattern that is outermost in the browser.</message>
+  <message name="bottom-up-pattern-unfolding-contextid">MFG-REF-PATTERNS</message>
+
+  <message name="new-chaining-name">New Chaining</message>
+  <message name="new-chaining-desc">Enable the new chaining engine for edge selections in the Manufacture workspace.</message>
+
+  <message name="new_import_results-name">Import Inspection Results</message>
+  <message name="new_import_results-desc">Select the bodies onto which probed points are projected when importing inspection results.</message>
+  <message name="new_import_results-contextid">MFG-PROBE-IMPORT-RESULTS</message>
+
+  <message name="old-turning-profile-strategy-name">Old Profile Turning</message>
+  <message name="old-turning-profile-strategy-desc">Enables old profile turning strategies. This will be available for a limited time.</message>
+
+  <message name="old-pocket-detector-name">2D Pocket Legacy Detection</message>
+  <message name="old-pocket-detector-desc">If this flag is set, the legacy algorithm for detection of 2D open pockets will be used.</message>
+
+  <message name="probe-angle-measure-name">Probing: Off Axis Angle Measurement</message>
+  <message name="probe-angle-measure-desc">Allows Probe Geometry to measure the rotation angle of vertical faces.</message>
+
+  <message name="probe-geometry-strategy-name">Macro-based Inspection</message>
+  <message name="probe-geometry-strategy-desc">Measure features in-process with the probing cycles on your machine. Verify dimensions and positions of critical geometric features, update tool wear parameters, and pause or stop your programs to address out-of-tolerance features. &lt;i&gt;Includes: Probe Geometry, Inspection Reports, and more.&lt;/i&gt;</message>
+  <message name="probe-geometry-strategy-contextid">MFG-EXT-MACRO-BASED-INSPECTION</message>
+
+  <message name="pmi-inspection-plan-name">PMI Inspection Plan</message>
+  <message name="pmi-inspection-plan-desc">Enables the ability to automatically generate an inspection plan based on existing PMI.</message>
+  <message name="pmi-inspection-plan-contextid">MFG-PMI-INSPECTION-PLAN-PREVIEW</message>
+
+  <message name="probe-on-pcd-name">Probe Holes and Bosses on PCD</message>
+  <message name="probe-on-pcd-desc">Allows additional options in the Probe WCS and Probe Geometry strategies to allow probing of holes and bosses on a PCD.</message>
+
+  <message name="hide-warnings-name">Hide Warnings</message>
+  <message name="hide-warnings-desc">If you encounter warnings when programming operations, you can choose to hide the warnings for individual operations after reading them and deciding that they do not require further attention. The warnings remain hidden until you regenerate the operation.</message>
+
+  <message name="post-processing-with-legacy-dialog-off-name">Post Process NC code with legacy post processing dialog</message>
+  <message name="post-processing-with-legacy-dialog-off-desc">Revert back to the older style post processing dialog if you are experiencing problems with the new NC Program post processing interface.</message>
+  <message name="post-processing-with-legacy-dialog-off-contextid">MFG-POST-PROCESS-OPERATIONS</message>
+
+  <message name="restrict-to-4-axis-name">Restrict To 4-axis</message>
+  <message name="restrict-to-4-axis-desc">Generates a 4-axis toolpath from a 5-axis strategy to use on a machine tool with at least 4 axes. Currently for the Flow strategy only.</message>
+
+  <message name="moduleworks-swarf-name">Advanced Swarf Strategy (future extension capability)</message>
+  <message name="moduleworks-swarf-desc">Use the Advanced Swarf strategy to machine with the side of a tool, allowing you to machine a straight wall in a single pass. Generate a 3-, 4-, or 5-axis toolpath depending on your machine's capabilities.</message>
+
+  <message name="moduleworks-geodesic-name">Geodesic Strategy</message>
+  <message name="moduleworks-geodesic-desc">Use the Geodesic strategy to machine freeform surfaces and undercuts. Generate a 3-, 4-, or 5-axis toolpath depending on your machine's capabilities.</message>
+
+  <message name="setup-sheet-configurations-name">Setup Sheet Configurations</message>
+  <message name="setup-sheet-configurations-desc">Enables the creation of custom setup sheet configurations.</message>
+
+  <message name="spun-profile-dmk-name">Spun Profile</message>
+  <message name="spun-profile-dmk-desc">Improve stability and performance of the Spun Profile feature by using a new Spun Profile algorithm. The feature enables you to create a profile curve by revolving a selected model for turning operations.</message>
+
+  <message name="stock-drag-handles-name">Stock Drag Handles</message>
+  <message name="stock-drag-handles-desc">Enables drag handles for adjusting stock size.</message>
+
+  <message name="strategy-blend-name">Blend Strategy</message>
+  <message name="strategy-blend-desc">Improve surface finish with the new Blend Strategy, which is driven by 2 guide rails and surface selections.</message>
+
+  <message name="fusion-mfg-blend-strategy-name">Improve Toolpath Quality for Blend</message>
+  <message name="fusion-mfg-blend-strategy-desc">Improves the quality of the toolpath when machining internal corners that have a corner radius less than or equal to the tool radius. With closed drive curves, this improvement also enables a continuous spiral toolpath. The new algorithm is applied when the stepover is calculated relative to the tip of the tool, rather than on the surface of the model. Currently, this improvement does not apply when you are machining undercuts.</message>
+
+  <message name="strategy-inspect-surface-name">Surface Inspection</message>
+  <message name="strategy-inspect-surface-desc">Use CAD-based probing capability to measure the accuracy of complex surface geometry with a spindle-mounted probe. Use intelligent part alignment to automate the setup and machining of non-prismatic parts, like forgings and castings. &lt;i&gt;Includes: Inspect Surface, Inspection Reports, Automatic Part Alignment, and more.&lt;/i&gt;</message>
+  <message name="strategy-inspect-surface-contextid">MFG-EXT-SURFACE-INSPECTION-PART-ALIGNMENT</message>
+
+  <message name="customize-inspection-report-name">Customized Inspection Reports</message>
+  <message name="customize-inspection-report-desc">Enables you to choose from, and edit, a selection of predefined templates when creating an inspection report.</message>
+
+  <message name="strategy-rotary-name">Rotary Strategy</message>
+  <message name="strategy-rotary-desc">Machine complex, non-geometric shapes with the Rotary strategy for 4-axis milling.</message>
+  <message name="strategy-rotary-contextid">MFG-MULTI-AXIS-ROTARY</message>
+
+  <message name="extension-3-axis-name">Automated 3-axis Machining</message>
+  <message name="extension-3-axis-desc">Simplify the drilling and milling of complex, feature-rich parts with a range of intelligent 3-axis strategies that can be applied to an entire part for faster CAM programming. &lt;i&gt;Includes: 3-axis Hole Recognition and 3-axis Steep &amp; Shallow.&lt;/i&gt;</message>
+  <message name="extension-3-axis-contextid">MFG-EXT-3-AXIS-MACHINING</message>
+
+  <message name="extension-3-plus-2-name">Automated 3+2 Machining</message>
+  <message name="extension-3-plus-2-desc">Access additional strategies and tool axis controls that can use the rotary axes of your CNC machine to drill and mill entire parts with 3+2 (positional) machining. &lt;i&gt;Includes: 3+2 Hole Recognition.&lt;/i&gt;</message>
+  <message name="extension-3-plus-2-contextid">MFG-EXT-3-PLUS-2-AXIS-MACHINING</message>
+
+  <message name="template-library-name">Template Library</message>
+  <message name="template-library-desc">Brand-new interface for Templates. Store, browse, or reuse Templates in a new library.</message>
+
+  <message name="toolpath-modifications-name">Toolpath Modifications</message>
+  <message name="toolpath-modifications-desc">Access a range of powerful modification tools to make global or local edits to toolpaths without the need for a complete recalculation. Modifications can themselves be edited for greater flexibility. &lt;i&gt;Includes: Toolpath Trimming, Delete Passes, Replace Tool, and more.&lt;/i&gt;</message>
+  <message name="toolpath-modifications-contextid">MFG-EXT-MODIFY-A-TOOLPATH</message>
+
+  <message name="tool-library-v4-dynamic-tool-preview-release-name">Tool Library - 3D Preview</message>
+  <message name="tool-library-v4-dynamic-tool-preview-release-desc">Enables the 3D tool preview in the Tool Library.</message>
+
+  <message name="tool-library-v4-fusion-make-parser-name">Tool Library - Fusion Parser</message>
+  <message name="tool-library-v4-fusion-make-parser-desc">Enables the use of the Fusion parser in the Tool Library, for better consistency of user expressions.</message>
+
+  <message name="tool-library-v4-save-user-expressions-release-name">Tool Library - User Expressions</message>
+  <message name="tool-library-v4-save-user-expressions-release-desc">Enables the persistence of user expressions in the Tool Library.</message>
+
+  <message name="extension-multi-axis-name">4-axis &amp; 5-axis Simultaneous Machining</message>
+  <message name="extension-multi-axis-desc">Unlock multi-axis strategies and tool axis options to drive the linear and rotary axes of your CNC machine simultaneously to machine the most complex shapes safely and efficiently. &lt;i&gt;Includes: Swarf, Multi-axis Steep &amp; Shallow, and Multi-axis Contour, and more.&lt;/i&gt;</message>
+  <message name="extension-multi-axis-contextid">MFG-EXT-MULTI-AXIS-SIMULTANEOUS-MACHINING</message>
+
+  <message name="mfg-working-model-name">Manufacturing Working Model</message>
+  <message name="mfg-working-model-desc">Enables manufacturing models in the Manufacture workspace. Required for using the Nesting and Arrange functionality.</message>
+  <message name="mfg-working-model-contextid">MFG-MANUFACTURING-MODEL-OVERVIEW</message>
+
+  <message name="import-inventor-cam-data-name">Import Inventor CAM Data on Upload</message>
+  <message name="import-inventor-cam-data-desc">Enables the importing of any existing Inventor CAM data from an Inventor model being uploaded from the Fusion data panel.</message>
+
+  <message name="disable-rest-shadow-pocket-name">Don't detect rest machining undercuts for 3D Pocket Clearing</message>
+  <message name="disable-rest-shadow-pocket-desc">Reverts to the old way of calculating the toolpath, which increases machining time when undercuts are present in the stock. Use this if you are experiencing problems with the new way of calculating the toolpath.</message>
+  <message name="disable-rest-shadow-pocket-contextid">REDUCE-AIR-CUTTING-POCKET</message>
+
+  <message name="strategy-improved-flow-name">Enhanced Flow strategy</message>
+  <message name="strategy-improved-flow-desc">Introduces a new Flow strategy that uses a maximum stepover distance instead of number of steps for ease of programming. The newer strategy also improves how surfaces are defined to create a more precise toolpath.</message>
+
+  <message name="force-inclined-flats-name">Enhanced Flats</message>
+  <message name="force-inclined-flats-desc">Switches to a newer version of the flat toolpath algorithm that supports small area filtering and advanced ordering options.</message>
+
+  <message name="online-system-library-name">Automatically get latest Posts, Machines and Print Settings</message>
+  <message name="online-system-library-desc">The Fusion 360 Library section of the Post Library, the Machine Library and the Print Setting Library gets updated with the latest versions and additions of posts, machines and print settings when they become available. Checks for updates occur each time you restart Fusion 360.</message>
+
+  <message name="contour2D-select-faces-name">2D Contour Face Selection</message>
+  <message name="contour2D-select-faces-desc">This allows geometry selection by face and same plane faces for 2D Contour operations.</message>
+  
+  <message name="fff-energy-prediction-name">FFF energy consumption prediction</message>
+  <message name="fff-energy-prediction-desc">Enables the prediction of energy consumption and print costs for additive FFF prints.</message>
+  <message name="fff-energy-prediction-contextid">MFG-AM-PRINT-STATISTICS-ENERGY-COST-PREVIEW</message>
+
+  <message name="geometry-features-name">Geometry Selections</message>
+  <message name="geometry-features-desc">Adds additional control over geometry selections when programming operations. Any selections made can be found in the browser, so that they can be reused across multiple operations, potentailly saving a lot of time when working with complex geometry.</message>
+
+  <message name="secondary-spindle-pull-name">Secondary Spindle Pull</message>
+  <message name="secondary-spindle-pull-desc">Enables the Secondary Spindle Pull strategy.</message>
+
+  <message name="iron-object-states-name">Browser Icons to Indicate an Item's Status</message>
+  <message name="iron-object-states-desc">Additional icons appear in the Browser for individual operations, Setups, Folders, and NC Programs to indicate their status. When you place the pointer over the icons, you can view additional information, such as any error or warning messages, without needing to open the log.</message>
+  <message name="iron-object-states-contextid">MFG-TOOLPATH-STATUS-ICONS</message>
+
+  <message name="import-pmi-name">Import PMI Data on file Upload</message>
+  <message name="import-pmi-desc">Enables the import of PMI (Product Manufacturing Information) from a design created in another CAD application when opened from the Data Panel.</message>
+  <message name="import-pmi-contextid">MFG-PMI-FOR-INSPECTION-PREVIEW</message>
+	
+  <message name="turn-in-negative-diameter-name">Turn in Negative Diameter</message>
+  <message name="turn-in-negative-diameter-desc">Allow turning in negative diameter for roughing and finishing strategies.</message>
+
+  <message name="arrange-3D-simple-outbox-name">3D Arrange</message>
+  <message name="arrange-3D-simple-outbox-desc">Lets you arrange objects in 3D space when using Arrange. The algorithm creates a bounding box around each object and then uses the dimensions of the box to arrange the objects in the available space.</message>
+  <message name="arrange-3D-simple-outbox-contextid">NEST-ARRANGE-3D-ARRANGE</message>
+
+  <message name="dmk-leadslinks-improvements-name">Improved lead-in and lead-out moves</message>
+  <message name="dmk-leadslinks-improvements-desc">Enables the specified lead-in and lead-out to be added by trimming the ends of cutting passes to accommodate them. Improves the safety of approach and retract moves by extending lead-in and lead-out moves from beneath overhanging surfaces. Applies only to the Steep and Shallow and Rotary strategies.</message>
+
+  <message name="tool-axis-options-name">Additional multi-axis options for the Contour, Ramp, Flow, and Blend strategies</message>
+  <message name="tool-axis-options-desc">Machine more areas in a single operation by using options to define the tool axis, tilt the tool to avoid collisions, and restrict motion within specified axis limits.</message>
+
+  <message name="mac-tool-axis-options-name">Additional multi-axis options for the Multi-Axis Contour strategy</message>
+  <message name="mac-tool-axis-options-desc">Provides more options to define the tool axis along the selected contour, tilt the tool to avoid collisions, and restrict motion within specified axis limits.</message>
+
+  <message name="moduleworks-editing-4-axis-contour-name">Modifications for Rotary Contour</message>
+  <message name="moduleworks-editing-4-axis-contour-desc">Increase the efficiency of the Rotary Contour toolpath by applying modifications such as Trim, Delete Passes, and Move Entry Positions.</message>
+
+  <message name="moduleworks-editing-deburr-name">Modifications for Deburr</message>
+  <message name="moduleworks-editing-deburr-desc">Increase the efficiency of the Deburr toolpath by applying modifications such as Trim, Delete Passes, and Move Entry Positions.</message>
+
+  <message name="moduleworks-editing-swarf-name">Modifications for Advanced Swarf</message>
+  <message name="moduleworks-editing-swarf-desc">Increase the efficiency of the Advanced Swarf toolpath by applying modifications such as Trim, Delete Passes, and Move Entry Positions.</message>
+
+  <message name="moduleworks-editing-geodesic-name">Modifications for Geodesic</message>
+  <message name="moduleworks-editing-geodesic-desc">Increase the efficiency of the Geodesic toolpath by applying modifications such as Trim, Delete Passes, and Move Entry Positions.</message>
+
+  <message name="dmk-touch-surfaces-name">Improved machining of Touch surfaces</message>
+  <message name="dmk-touch-surfaces-desc">Machines entire Touch surfaces by allowing the tool to safely contact adjacent surfaces where necessary. Applies only to the Steep and Shallow, Corner and Rotary strategies.</message>
+
+  <message name="dmk-projection-finishing-name">Additional options to the Project strategy.</message>
+  <message name="dmk-projection-finishing-desc">Machine undercuts by projecting patterns to or from a designated point or curve.</message>
+
+  <message name="turn-improve-precision-name">Turning Precision Improvement</message>
+  <message name="turn-improve-precision-desc">Improve the precision used in toolpath calculation of new turning strategies.</message>
+
+  <message name="turn-toolholder-clearance-grooveFinishing-name">Turn Clearance Groove Finishing</message>
+  <message name="turn-toolholder-clearance-grooveFinishing-desc">Enable use of undercut clearance for groove finishing.</message>
+
+  <message name="turn-undercut-profileFinishing-name">Turn Clearance Profile Finishing</message>
+  <message name="turn-undercut-profileFinishing-desc">Enable use of undercut clearance for profile finishing.</message>
+  
+  <message name="hole-builder-rework-name">Hole Builder Rework</message>
+  <message name="hole-builder-rework-desc">Enables the use of new HoleBuilder classes for Hole Making strategies</message>
+
+  <message name="exclude-inclined-flats-name">Exclude inclined flat surfaces (future extension capability)</message>
+  <message name="exclude-inclined-flats-desc">Automatically exclude inclined flat surfaces to avoid machining them. Useful when you want to target only organic surfaces with a ball-end mill. Available in the Steep and Shallow strategy.</message>
+
+  <message name="turn-profile-finishing-multiple-regions-name">Profile Finishing Multiple Regions</message>
+  <message name="turn-profile-finishing-multiple-regions-desc">Allow machining of multiple regions for profile finishing</message>
+</locale>

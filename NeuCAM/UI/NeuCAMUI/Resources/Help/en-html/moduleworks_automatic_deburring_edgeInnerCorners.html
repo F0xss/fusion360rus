@@ -1,0 +1,21 @@
+<div id="moduleworks_automatic_deburring_edgeInnerCorners"><p>Specifies what to do when the tool encounters inner corners that it cannot reach because of the geometry of the tool.</p>
+<p><b>Do not deburr</b> - Moves the tool to the next edge of the inner corner after it can no longer machine any more of the current edge. As a result, burrs remain on some inner corners. Use this option to prioritise a faster cycle time over deburring more of the internal corners.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_dont_deburr_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Unreachable corner</b></p></center></td>
+<td><center><p><b>Burrs on inner corners</b></p></center></td>
+</tr></table>
+<p><b>Cut with tip of tool</b> - Attempts to cut more of the inner corner by using more of the tip of the tool. This removes as much material as possible from inner corners.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_1.png"/></center></td>
+<td><center><img border="0" width="200" height="159" src="../images/mw_deburr_unreachable_corners_cut_with_tip_2.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Cutting with tip of tool</b></p></center></td>
+<td><center><p><b>Inner corners deburred</b></p></center></td>
+</tr></table>
+<p><b>Note</b>: To use the <b>Cut at Fixed Point on Tool</b> feature, you need to select <b>Do not deburr</b>.</p>
+</div>

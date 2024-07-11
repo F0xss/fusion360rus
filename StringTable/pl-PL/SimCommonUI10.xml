@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AGDJobID" devLabel="Job ID: " translation="Identyfikator zadania: "/>
+	<label commandName="ActiveAccountInsufficientForAnyGenDesignTaskString" devLabel="The active account contract %1does not have enough Cloud Credits to complete a generative design." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby jednostek chmury, aby ukończyć projektowanie generatywne."/>
+	<label commandName="ActiveAccountInsufficientForAnyGenDesignTaskTokenString" devLabel="The active account contract %1does not have enough Tokens to complete a generative design." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby tokenów, aby ukończyć projektowanie generatywne."/>
+	<label commandName="ActiveAccountInsufficientForAnySimTaskString" devLabel="The active account contract %1does not have enough Cloud Credits to complete a simulation." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby jednostek chmury, aby ukończyć symulację."/>
+	<label commandName="ActiveAccountInsufficientForAnySimTaskTokenString" devLabel="The active account contract %1does not have enough Tokens to complete a simulation." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby tokenów, aby ukończyć symulację."/>
+	<label commandName="ActiveAccountInsufficientLevelString" devLabel="The active account contract %1does not have enough Cloud Credits to complete the selected tasks." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby jednostek chmury, aby ukończyć wybrane zadania."/>
+	<label commandName="ActiveAccountInsufficientLevelTokenString" devLabel="The active account contract %1does not have enough Tokens to complete the selected tasks." translation="W aktywnej umowie dotyczącej konta %1 nie ma wystarczającej liczby tokenów, aby ukończyć wybrane zadania."/>
+	<label commandName="ActiveAccountLowLevelString" devLabel="The active account contract %1is running low on Cloud Credits." translation="Jednostki chmury w ramach aktywnej umowy konta %1 są bliskie wyczerpania."/>
+	<label commandName="ActiveAccountLowLevelTokensString" devLabel="The active account contract %1is running low on Tokens." translation="Limit tokenów w ramach aktywnej umowy konta %1 jest bliski wyczerpania."/>
+	<label commandName="BrowserConnectorsLabel" devLabel="Connectors" translation="Złącza"/>
+	<label commandName="BrowserConstraintsLabel" devLabel="Constraints" translation="Wiązania"/>
+	<label commandName="BrowserContactsLabel" devLabel="Contacts" translation="Kontakty"/>
+	<label commandName="BrowserLoadCasesLabel" devLabel="LoadCases" translation="Przypadki obciążenia"/>
+	<label commandName="BrowserLoadsLabel" devLabel="Loads" translation="Obciążenia"/>
+	<label commandName="BrowserMaterialOverridesLabel" devLabel="Study Materials" translation="Materiały badania"/>
+	<label commandName="BrowserSimConstraintsHealthTooltipAllSick" devLabel="All valid Constraints are missing targets" translation="Wszystkie prawidłowe wiązania nie zawierają obiektów docelowych"/>
+	<label commandName="BrowserSimConstraintsHealthTooltipSomeSick" devLabel="A Constraint is missing a target" translation="Brak obiektu docelowego w wiązaniu"/>
+	<label commandName="BrowserSimLoadCaseHealthTooltipAllSick" devLabel="All load case attributes have missing geometry references" translation="We wszystkich atrybutach przypadków obciążenia brakuje odniesień do geometrii"/>
+	<label commandName="BrowserSimLoadCaseHealthTooltipSomeSick" devLabel="One or more load case attributes have missing geometry references" translation="W co najmniej jednym atrybucie przypadku obciążenia brakuje odniesienia do geometrii"/>
+	<label commandName="BrowserSimLoadsHealthTooltipAllSick" devLabel="All valid Loads are missing targets" translation="Wszystkie prawidłowe obciążenia nie zawierają obiektów docelowych"/>
+	<label commandName="BrowserSimLoadsHealthTooltipSomeSick" devLabel="A Load is missing a target" translation="Brak obiektu docelowego w obciążeniu"/>
+	<label commandName="BrowserTopOptSettingsLabel" devLabel="Shape Optimization Settings" translation="Ustawienia optymalizacji kształtu"/>
+	<label commandName="CameraSyncCmd" devLabel="Synchronize Camera" translation="Synchronizuj kamerę"/>
+	<label commandName="CheckLogForMoreInfo" devLabel="Please check the log file for more information or click to view it: " translation="Sprawdź plik dziennika, aby uzyskać więcej informacji, lub kliknij, aby go wyświetlić: "/>
+	<label commandName="ClickToCancelSimJob" devLabel="Click here to cancel the job currently in progress." translation="Kliknij tutaj, aby anulować zadanie w toku."/>
+	<label commandName="ClickToUseCommand" devLabel="Click to select '%1%'." translation="Kliknij, aby wybrać „%1%”."/>
+	<label commandName="Close" devLabel="Close" translation="Zamknij"/>
+	<label commandName="CloudCreditSimulationStudiesLabelAdvanced" devLabel="Structural Buckling, Nonlinear Static Stress, Dynamic and Quasi-static Event Simulation, Injection Molding Simulation, and Electronics Cooling Simulation studies" translation="Analizy wyboczenia konstrukcyjnego, nieliniowego naprężenia statycznego, dynamicznej i pseudostatycznej symulacji zdarzeń, symulacji formowania wtryskowego i symulacji chłodzenia elektroniki"/>
+	<label commandName="CloudCreditSimulationStudiesLabelStandard" devLabel="Modal Frequencies, Thermal, Thermal Stress, and Shape Optimization studies" translation="Analizy częstotliwości modalnych, termiczne, naprężeń termicznych i optymalizacji kształtu"/>
+	<label commandName="CloudCreditSimulationStudyLabelStaticStress" devLabel="Static Stress study" translation="Analiza naprężeń statycznych"/>
+	<label commandName="CompareCmd" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="CurrentCloudCreditsBalance" devLabel="Current balance: " translation="Bieżące saldo: "/>
+	<label commandName="CuttingPlaneCmd" devLabel="Cutting Planes" translation="Płaszczyzny cięcia"/>
+	<label commandName="Cycles" devLabel="Cycles" translation="Cykle"/>
+	<label commandName="DataSizeErrorMessage" devLabel="Both columns in the table must have the same number of values." translation="Obie kolumny w tabeli muszą mieć taką samą liczbę wartości."/>
+	<label commandName="DeleteAllProbesCmd" devLabel="Delete All Probes" translation="Usuń wszystkie sondy"/>
+	<label commandName="DeleteAllProbesCmdDesc1" devLabel="Removes all probes and the information associated with them." translation="Usuwa wszystkie sondy i skojarzone z nimi informacje."/>
+	<label commandName="DoNotAllowInstallIDEDuringUpdate" devLabel="Fusion is unable to install %1% because a software update is currently in progress.&lt;br&gt;&lt;br&gt;Please try again after the update completes." translation="Program Fusion nie może zainstalować aplikacji %1%, ponieważ trwa aktualizacja oprogramowania.&lt;br&gt;&lt;br&gt;Spróbuj ponownie po zakończeniu aktualizacji."/>
+	<label commandName="DoNotAllowInstallIDEWithUnknownError" devLabel="Fusion is unable to install %1% due to unknown error.&lt;br&gt;&lt;br&gt;Please restart application and try again." translation="Program Fusion nie może zainstalować aplikacji %1% z powodu nieznanego błędu.&lt;br&gt;&lt;br&gt;Uruchom ponownie aplikację i spróbuj ponownie."/>
+	<label commandName="DoNotAllowInstallIDEWithoutInternet" devLabel="Fusion is unable to install %1% due to network issues.&lt;br&gt;&lt;br&gt;Please try again after you are on a stable network connection." translation="Program Fusion nie może zainstalować aplikacji %1% z powodu problemów z siecią.&lt;br&gt;&lt;br&gt;Spróbuj ponownie po nawiązaniu stabilnego połączenia sieciowego."/>
+	<label commandName="DoNotAllowInstallIDEWithoutUpdateCheck" devLabel="Fusion is unable to install %1% because a software update may be pending.&lt;br&gt;&lt;br&gt;Please try again after the update check is done." translation="Program Fusion nie może zainstalować aplikacji %1%, ponieważ aktualizacja oprogramowania może być w toku.&lt;br&gt;&lt;br&gt;Spróbuj ponownie po zakończeniu sprawdzania aktualizacji."/>
+	<label commandName="DofPalette" devLabel="Degrees of Freedom" translation="Stopnie swobody"/>
+	<label commandName="DoraHawkeyeServicesOfflineTitle" devLabel="Hawkeye Services are offline" translation="Usługi Hawkeye działają w trybie offline"/>
+	<label commandName="DoraHawkeyeViewerOfflineDescription" devLabel="Results will become available when connectivity is restored. You can still view results that you previously viewed in this session." translation="Wyniki staną się dostępne po przywróceniu połączenia. Wciąż można wyświetlać wyniki, które były wyświetlane dotychczas w tej sesji."/>
+	<label commandName="DoraHawkeyeViewerOfflineTitle" devLabel="The results viewer is offline" translation="Przeglądarka wyników działa w trybie offline"/>
+	<label commandName="DoraRedoCommand" devLabel="Redo" translation="Wykonaj ponownie"/>
+	<label commandName="DoraUndoCommand" devLabel="Undo" translation="Cofnij"/>
+	<label commandName="DownloadIDEDlgDescriptionLabel" devLabel="Installing %1% for local solve..." translation="Trwa instalowanie aplikacji %1% do rozwiązania lokalnego..."/>
+	<label commandName="EF" devLabel="EF" translation="EF"/>
+	<label commandName="EN_Data" devLabel="E-N Data" translation="Dane E-N"/>
+	<label commandName="Elastic" devLabel="Elastic" translation="Sprężysty"/>
+	<label commandName="Elastic_SF" devLabel="SF" translation="SF"/>
+	<label commandName="Elastic_Slope" devLabel="Slope" translation="Pochylenia"/>
+	<label commandName="Endurance_Limit" devLabel="Se" translation="Se"/>
+	<label commandName="EquibiaxialTensionRangeErrorMessage" devLabel="The Stretch Ratio value must greater than zero.The Engineering Stress value must be greater than or equal to zero." translation="Wartość współczynnika rozciągania musi być większa od zera. Wartość naprężenia obliczeniowego musi być równa zero lub większa."/>
+	<label commandName="Equibiaxial_Tension_Engineering_Stress" devLabel="Engineering Stress" translation="Naprężenie obliczeniowe"/>
+	<label commandName="Equibiaxial_Tension_Stretch_Ratio" devLabel="Stretch Ratio" translation="Współczynnik rozciągania"/>
+	<label commandName="ExploreCSVExportExportFailed" devLabel="Failed to save CSV file." translation="Nie można zapisać pliku CSV."/>
+	<label commandName="ExploreCSVExportFileExists" devLabel="%1% already exists.&#xA;Do you want to replace it?" translation="Plik %1% już istnieje.&#xA;Czy chcesz go zastąpić?"/>
+	<label commandName="ExploreCSVExportFileExistsTitle" devLabel="Confirm Save As" translation="Potwierdzanie zapisywania jako"/>
+	<label commandName="ExploreCommand" devLabel="Explore Generative Results" translation="Eksploruj wyniki generatywne"/>
+	<label commandName="ExploreDisplayPropertiesViewCommand" devLabel="Properties View" translation="Widok właściwości"/>
+	<label commandName="ExploreDisplayScatterPlotViewCommand" devLabel="Scatter Plot View" translation="Widok wykresu punktowego"/>
+	<label commandName="ExploreDisplayTableViewCommand" devLabel="Table View" translation="Widok tabeli"/>
+	<label commandName="ExploreDisplayThumbnailViewCommand" devLabel="Thumbnail View" translation="Widok miniatur"/>
+	<label commandName="ExploreEnvironment" devLabel="Explore" translation="Eksploruj"/>
+	<label commandName="ExploreFavoritesCmd" devLabel="Add to Favorites" translation="Dodaj do ulubionych"/>
+	<label commandName="ExploreFluidsCommand" devLabel="Explore Generative Results" translation="Eksploruj wyniki generatywne"/>
+	<label commandName="ExploreLabelsCmd" devLabel="Add Label" translation="Dodaj etykietę"/>
+	<label commandName="ExploreOutcomeProfileCompareAddDisabledCommand" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="ExploreOutcomeProfileCompareAddEnabledCommand" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="ExploreOutcomeProfileCompareCommand" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="ExploreOutcomeProfileCompareFluidsCommand" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="ExploreOutcomeProfileDisplayExportPreviewCommand" devLabel="Design Preview" translation="Podgląd projektu"/>
+	<label commandName="ExploreOutcomeProfileDisplayExportPreviewFluidsCommand" devLabel="Design Preview" translation="Podgląd projektu"/>
+	<label commandName="ExploreOutcomeProfileDisplayFlowLineViewFluidsCommand" devLabel="Flow Line View" translation="Widok linii przepływu"/>
+	<label commandName="ExploreOutcomeProfileDisplayModelViewCommand" devLabel="Model View" translation="Widok modelu"/>
+	<label commandName="ExploreOutcomeProfileDisplayModelViewFluidsCommand" devLabel="Model View" translation="Widok modelu"/>
+	<label commandName="ExploreOutcomeProfileDisplayObstacleViewCommand" devLabel="Obstacle Geometry View" translation="Widok geometrii przeszkody"/>
+	<label commandName="ExploreOutcomeProfileDisplayObstacleViewFluidsCommand" devLabel="Obstacle Geometry View" translation="Widok geometrii przeszkody"/>
+	<label commandName="ExploreOutcomeProfileDisplayPreserveViewCommand" devLabel="Preserve Geometry View" translation="Widok zachowanej geometrii"/>
+	<label commandName="ExploreOutcomeProfileDisplayPreserveViewFluidsCommand" devLabel="Preserve Geometry View" translation="Widok zachowanej geometrii"/>
+	<label commandName="ExploreOutcomeProfileDisplayStartingShapeViewCommand" devLabel="Starting Shape View" translation="Widok kształtu początkowego"/>
+	<label commandName="ExploreOutcomeProfileDisplayStartingShapeViewFluidsCommand" devLabel="Starting Shape View" translation="Widok kształtu początkowego"/>
+	<label commandName="ExploreOutcomeProfileDisplayStressViewCommand" devLabel="Stress View" translation="Widok naprężenia"/>
+	<label commandName="ExploreOutcomeProfileDisplayStressViewFluidsCommand" devLabel="Pressure View" translation="Widok ciśnienia"/>
+	<label commandName="ExploreOutcomeProfileDisplayTransparentViewCommand" devLabel="Transparent View" translation="Widok przezroczysty"/>
+	<label commandName="ExploreOutcomeProfileDisplayTransparentViewFluidsCommand" devLabel="Transparent View" translation="Widok przezroczysty"/>
+	<label commandName="ExploreOutcomeProfileExportSmtCommand" devLabel="Design from Outcome" translation="Projekt z wyników"/>
+	<label commandName="ExploreOutcomeProfileExportSmtFluidsCommand" devLabel="Design from Outcome" translation="Projekt z wyników"/>
+	<label commandName="ExploreOutcomeProfileExportStlCommand" devLabel="Mesh Design from Outcome" translation="Projekt siatki z wyniku"/>
+	<label commandName="ExploreOutcomeProfileExportStlFluidsCommand" devLabel="Mesh Design from Outcome" translation="Projekt siatki z wyniku"/>
+	<label commandName="ExploreSaveCSVCmd" devLabel="Export CSV" translation="Eksportuj do pliku CSV"/>
+	<label commandName="FinishCompareCmd" devLabel="Finish Compare" translation="Zakończ porównywanie"/>
+	<label commandName="FinishDoraCmd" devLabel="Finish Results" translation="Zakończ wyniki"/>
+	<label commandName="FinishExploreCmd" devLabel="Finish Explore" translation="Zakończ eksplorację"/>
+	<label commandName="FinishHawkeyeCmd" devLabel="Finish Results" translation="Zakończ wyniki"/>
+	<label commandName="FinishOutcomeViewCmd" devLabel="Finish Outcome View" translation="Zakończ widok wyniku"/>
+	<label commandName="FusionComponentInstanceFoldername" devLabel="Model Components" translation="Komponenty modelu"/>
+	<label commandName="GenCasePropertiesCmd" devLabel="Study Settings" translation="Ustawienia badania"/>
+	<label commandName="GenCasePropertiesDesc1" devLabel="Enables you to define the settings for the current generative study." translation="Umożliwia zdefiniowanie ustawień dla bieżącego badania generatywnego."/>
+	<label commandName="GenCasePropertiesDesc2" devLabel="Use the Study Settings dialog to control the resolution and accuracy of outcomes. Additional options are available if you enable the &quot;Experimental Generative Solvers and Features&quot; preview feature in the Preferences dialog." translation="Za pomocą okna dialogowego Ustawienia badania można kontrolować rozdzielczość i dokładność wyników. Dodatkowe opcje są dostępne, jeśli funkcja w wersji Preview „Eksperymentalne funkcje i solwery generatywne” zostanie włączona w oknie dialogowym Preferencje."/>
+	<label commandName="GenEntitlementIsRequiredToSolveDescription" devLabel="Your account is missing the entitlement needed to generate new outcomes. Contact your contract administrator to have the appropriate &lt;b&gt;Fusion 360 Generative Design&lt;/b&gt; entitlement assigned." translation="Na Twoim koncie brakuje uprawnień potrzebnych do generowania nowych wyników. Skontaktuj się z administratorem umowy, aby przypisał odpowiednie uprawnienie do dodatku &lt;b&gt;Fusion 360 Generative Design&lt;/b&gt;."/>
+	<label commandName="GenEntitlementIsRequiredToSolveTitle" devLabel="Generative Design entitlement is required" translation="Wymagane jest uprawnienie do Generative Design"/>
+	<label commandName="GenHideGenerateDetails" devLabel="Hide Generate Details" translation="Ukryj szczegóły generowania"/>
+	<label commandName="GenInputNotAvailableTitle" devLabel="Generative Design Inputs Not Available" translation="Niedostępne dane wejściowe projektu generatywnego"/>
+	<label commandName="GenMaterialEditCommand" devLabel="Manage Physical Materials" translation="Zarządzaj materiałami fizycznymi"/>
+	<label commandName="GenMaterialEditCommandDesc1" devLabel="Lists properties for each material in the Fusion 360 libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." translation="Wyświetla właściwości każdego materiału w bibliotekach programu Fusion 360, które określają zachowanie cieplne, mechaniczne i sprężyste materiału, jak również jego wygląd."/>
+	<label commandName="GenMaterialEditCommandDesc2" devLabel="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." translation="Przeglądarka materiałów umożliwia identyfikowanie ulubionych elementów, modyfikowanie właściwości, tworzenie nowych materiałów i zarządzanie osobistymi bibliotekami."/>
+	<label commandName="GenProjectNotAvailable" devLabel="The source Design of this Generative Design outcome is no longer available.  The Simulation setup information will have to be input manually." translation="Projekt źródłowy tego wynikowego projektu generatywnego nie jest już dostępny. Informacje o ustawieniach symulacji należy wprowadzić ręcznie."/>
+	<label commandName="GenShowJobsDlgCmd" devLabel="Job Status" translation="Stan zadania"/>
+	<label commandName="GenerateDetails" devLabel="Generate Details" translation="Szczegóły generowania"/>
+	<label commandName="GuidedResultsCmd" devLabel="Guided Results" translation="Wyniki z przewodnikiem"/>
+	<label commandName="HideAllProbesCmd" devLabel="Hide All Probes" translation="Ukryj wszystkie sondy"/>
+	<label commandName="HideAllProbesCmdDesc1" devLabel="Hides all probes and the information labels associated with them." translation="Ukrywa wszystkie sondy i skojarzone z nimi etykiety informacji."/>
+	<label commandName="HideAllProbesCmdDesc2" devLabel="If you no longer need the probe information, an alternative is to delete the probes, using Delete All Probes from the toolbar Inspect panel." translation="Jeśli informacje o sondzie nie są już potrzebne, alternatywą jest usunięcie sond za pomocą polecenia Usuń wszystkie sondy z paska narzędzi w panelu Sprawdź."/>
+	<label commandName="ImageFiles" devLabel="Image Files " translation="Pliki obrazów "/>
+	<label commandName="Import Curve" devLabel="Insert" translation="Płytki"/>
+	<label commandName="InstallErrorTitleStr" devLabel="Unable to install %1%" translation="Nie można zainstalować %1%"/>
+	<label commandName="Intercept_Cycle" devLabel="No" translation="Nie"/>
+	<label commandName="Isotropic_Linear_Message" devLabel="There are no advanced physical properties for the above settings. The basic physical properties will be used." translation="Brak zaawansowanych właściwości fizycznych dla powyższych ustawień. Zostaną użyte podstawowe właściwości fizyczne."/>
+	<label commandName="JM cancelling" devLabel="Canceling" translation="Anulowanie"/>
+	<label commandName="JMCloseButtonLocal" devLabel="It's not possible to close the Job Status dialog while &lt;b&gt;%1%&lt;/b&gt; study is being solved on a local machine" translation="Nie można zamknąć okna dialogowego Stan zadania, gdy badanie &lt;b&gt;%1%&lt;/b&gt; jest rozwiązywane na komputerze lokalnym"/>
+	<label commandName="JMOkButtonLocal" devLabel="It's not possible to close the Job Status dialog while &lt;b&gt;%1%&lt;/b&gt; study is being solved on a local machine" translation="Nie można zamknąć okna dialogowego Stan zadania, gdy badanie &lt;b&gt;%1%&lt;/b&gt; jest rozwiązywane na komputerze lokalnym"/>
+	<label commandName="JMSimulations" devLabel="Simulations" translation="Symulacje"/>
+	<label commandName="Layout1H2VCmd" devLabel="One Horizontal and Two Vertical Views" translation="Jeden widok poziomy i dwa widoki pionowe"/>
+	<label commandName="Layout1H3VCmd" devLabel="One Horizontal and Three Vertical Views" translation="Jeden widok poziomy i trzy widoki pionowe"/>
+	<label commandName="Layout1V2HCmd" devLabel="One Vertical and Two Horizontal Views" translation="Jeden widok pionowy i dwa widoki poziome"/>
+	<label commandName="Layout1V3HCmd" devLabel="One Vertical and Three Horizontal Views" translation="Jeden widok pionowy i trzy widoki poziome"/>
+	<label commandName="Layout2HCmd" devLabel="Two Horizontal Views" translation="Dwa widoki poziome"/>
+	<label commandName="Layout2VCmd" devLabel="Two Vertical Views" translation="Dwa widoki pionowe"/>
+	<label commandName="Layout2x2Cmd" devLabel="Four Views" translation="Cztery widoki"/>
+	<label commandName="LiveReviewPreviewAgreement1" devLabel="&lt;p&gt;The study you have chosen is one of our Advanced Simulation Studies that are part of our Preview Program so that we can gather feedback.&lt;/p&gt;" translation="&lt;p&gt;Wybrane badanie jest jednym z naszych zaawansowanych badań symulacyjnych objętych naszym programem wersji Preview, który umożliwia nam gromadzenie opinii.&lt;/p&gt;"/>
+	<label commandName="LiveReviewPreviewAgreement1Generative" devLabel="&lt;p&gt;The study you have chosen is a new Generative study type that is part of our Preview Program so that we can gather feedback.&lt;/p&gt;" translation="&lt;p&gt;Wybrane badanie jest nowym rodzajem badania generatywnego objętym naszym programem wersji Preview, który umożliwia nam gromadzenie opinii.&lt;/p&gt;"/>
+	<label commandName="LiveReviewPreviewAgreement2" devLabel="&lt;p&gt;Would you like to enable this study type now?&lt;/p&gt;&lt;p&gt;  &lt;a href=" translation="&lt;p&gt;Czy chcesz teraz włączyć ten rodzaj badania?&lt;/p&gt;&lt;p&gt; &lt;a href="/>
+	<label commandName="LiveReviewPreviewAgreement3" devLabel="&gt;Terms and Conditions&lt;/a&gt;.&lt;/p&gt;" translation="&gt;Warunki&lt;/a&gt;.&lt;/p&gt;"/>
+	<label commandName="LogZeroError" devLabel=" does not allow a zero or negative value." translation=" nie może być zerem ani wartością ujemną."/>
+	<label commandName="ManageCreditsLink" devLabel="Manage cloud credits" translation="Zarządzaj jednostkami chmury"/>
+	<label commandName="ManageTokensLink" devLabel="Manage tokens" translation="Zarządzaj tokenami"/>
+	<label commandName="MeasureCommand" devLabel="Measure" translation="Zmierz"/>
+	<label commandName="MoreRunningCloudJobsOnDocumentCloseInformationText" devLabel="Cloud solves for the following studies in %s are running in the background:&lt;br /&gt; %s" translation="Rozwiązania w chmurze dla następujących badań w %s są uruchomione w tle:&lt;br /&gt; %s"/>
+	<label commandName="MoreRunningCloudJobsOnDocumentCloseTitle" devLabel="Cloud Solves Are Running In The Background" translation="Rozwiązania w chmurze są uruchomione w tle"/>
+	<label commandName="NoResultsWhenEditing" devLabel="To view &lt;strong&gt;%1%&lt;/strong&gt; results you need to finish editing of the model first." translation="Aby wyświetlić wyniki &lt;strong&gt;%1%&lt;/strong&gt;, najpierw należy zakończyć edycję modelu."/>
+	<label commandName="NoSimulationJobs" devLabel="There are no simulation jobs in progress for open documents." translation="Brak zadań symulacji w toku dla otwartych dokumentów."/>
+	<label commandName="NonLinearTableDelete" devLabel="Delete" translation="Usuń"/>
+	<label commandName="NonLinearTableInsert" devLabel="Insert" translation="Płytki"/>
+	<label commandName="Nonlinear_Aspect" devLabel="Nonlinear" translation="Nieliniowy"/>
+	<label commandName="Nonlinear_Elastic_Bad_Origin" devLabel="The elastic curve must pass the origin, Please change any point to the origin except the first and last point" translation="Krzywa sprężysta musi przechodzić przez początek. Zamień dowolny punkt na początek, z wyjątkiem pierwszego i ostatniego punktu"/>
+	<label commandName="Nonlinear_Elastic_Bad_Sign" devLabel="The point on the elastic curve must be in first or the third quadrant" translation="Punkt na krzywej sprężystej musi znajdować się w pierwszym lub trzecim kwadrancie"/>
+	<label commandName="Nonlinear_Elastic_Bad_Size" devLabel="Both columns in the table must have the same number of values." translation="Obie kolumny w tabeli muszą mieć taką samą liczbę wartości."/>
+	<label commandName="Nonlinear_Elastic_Bad_Slope" devLabel="The slope between any two points on the elastic curve must not be negative." translation="Nachylenie między dwoma dowolnymi punktami na krzywej sprężystej nie może być ujemne."/>
+	<label commandName="Nonlinear_Elastic_Empty_Compression" devLabel="The elastic curve must have the compression data." translation="Krzywa sprężysta musi mieć dane kompresji."/>
+	<label commandName="Nonlinear_Elastic_Empty_Curve" devLabel="The curve table cannot be empty." translation="Tabela krzywych nie może być pusta."/>
+	<label commandName="Nonlinear_Elastic_Empty_Tension" devLabel="The elastic curve must have the tension data." translation="Krzywa sprężysta musi mieć dane naprężenia."/>
+	<label commandName="Nonlinear_Elastic_Title" devLabel="Nonlinear Elastic Plot" translation="Wykres sprężysty nieliniowy"/>
+	<label commandName="Nonlinear_Plastic_Bad_Curve" devLabel="All the points on the Plastic curve must be in the first quadrant (positive values only)" translation="Wszystkie punkty na krzywej plastycznej muszą znajdować się w pierwszym kwadrancie (tylko wartości dodatnie)"/>
+	<label commandName="Nonlinear_Plastic_Bad_Size" devLabel="Both columns in the table must have the same number of values." translation="Obie kolumny w tabeli muszą mieć taką samą liczbę wartości."/>
+	<label commandName="Nonlinear_Plastic_Empty_Curve" devLabel="The curve table cannot be empty." translation="Tabela krzywych nie może być pusta."/>
+	<label commandName="Nonlinear_Plastic_Title" devLabel="Nonlinear Plastic Plot" translation="Wykres plastyczny nieliniowy"/>
+	<label commandName="Nonlinear_Strain" devLabel="Strain" translation="Odkształcenie"/>
+	<label commandName="Nonlinear_Stress" devLabel="Stress" translation="Naprężenie"/>
+	<label commandName="OneRunningCloudJobOnDocumentCloseInformationText" devLabel="Cloud solve for %s in %s is running in the background." translation="Rozwiązanie w chmurze dla %s w %s jest uruchomione w tle."/>
+	<label commandName="OneRunningCloudJobOnDocumentCloseTitle" devLabel="Cloud Solve Is Running In The Background" translation="Rozwiązanie w chmurze jest uruchomione w tle"/>
+	<label commandName="Plastic" devLabel="Plastic" translation="Tworzywo sztuczne"/>
+	<label commandName="Plastic_Slope" devLabel="Slope" translation="Pochylenia"/>
+	<label commandName="PointProbesCmd" devLabel="Point Probes" translation="Sondy punktowe"/>
+	<label commandName="PointProbesDesc1" devLabel="Query the result value for position in the global coordinate space." translation="Wykonaj zapytanie o wartość wynikową dla położenia w globalnym obszarze współrzędnych."/>
+	<label commandName="PoissonsRatioRangeErrorMessage" devLabel="The Poisson's Ratio value must be between -1.0 and +0.5." translation="Wartość współczynnika Poissona musi zawierać się między -1,0 a +0,5."/>
+	<label commandName="Poissons_Ratio" devLabel="Poisson's Ratio" translation="Współczynnik Poissona"/>
+	<label commandName="Poissons_Ratio_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="PreviewEnableBtn" devLabel="Enable" translation="Włącz"/>
+	<label commandName="PureShearRangeErrorMessage" devLabel="The Stretch Ratio value must greater than zero.The Nominal Stress value must be greater than or equal to zero." translation="Wartość współczynnika rozciągania musi być większa od zera. Wartość naprężenia nominalnego musi być równa zero lub większa."/>
+	<label commandName="PureVolumetricRangeErrorMessage" devLabel="The Volume Ratio value must greater than zero.The Pressure value must be greater than or equal to zero." translation="Wartość współczynnika objętości musi być większa od zera. Wartość ciśnienia musi być równa zero lub większa."/>
+	<label commandName="Pure_Shear_Nominal_Stress" devLabel="Nominal Stress" translation="Naprężenie nominalne"/>
+	<label commandName="Pure_Shear_Stretch_Ratis" devLabel="Stretch Ratio" translation="Współczynnik rozciągania"/>
+	<label commandName="Pure_Volumetric_Compression_Pressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="Pure_Volumetric_Compression_Volume_Ratio" devLabel="Volume Ratio" translation="Współczynnik objętości"/>
+	<label commandName="QSimStudyDialog__Cancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="QSimStudyDialog__Create" devLabel="Create Study" translation="Utwórz badanie"/>
+	<label commandName="QSimStudyDialog__IWantToBack" devLabel="Back" translation="Tył"/>
+	<label commandName="QSimStudyDialog__IWantToEmpty" devLabel="Empty" translation="Puste"/>
+	<label commandName="QSimStudyDialog__IWantToNotSure" devLabel="Help me choose a study type." translation="Pomóż mi wybrać typ badania."/>
+	<label commandName="QSimStudyDialog__OK_ToSimplify" devLabel="Simplify Model" translation="Uprość model"/>
+	<label commandName="QTOverrideMaterialWidgetSearch" devLabel="Search..." translation="Szukaj..."/>
+	<label commandName="QTSimContactsManagerWidgetListByContacts" devLabel="List by Contact Set" translation="Utwórz listę wg zestawu kontaktowego"/>
+	<label commandName="QTSimContactsManagerWidgetListByParts" devLabel="List by Bodies" translation="Wyświetl według brył"/>
+	<label commandName="QTSimContactsManagerWidgetNewContact" devLabel="Create Contact Set" translation="Utwórz zestaw kontaktowy"/>
+	<label commandName="QTSimSolveDlgAccount" devLabel="Account" translation="Konto"/>
+	<label commandName="QTSimSolveDlgAvailable" devLabel="Available: " translation="Dostępne "/>
+	<label commandName="QTSimSolveDlgMonthlySubscriptionActive" devLabel="Monthly Subscription Active" translation="Aktywna subskrypcja miesięczna"/>
+	<label commandName="QTSimSolveDlgRequired" devLabel="Required: " translation="Wymagane: "/>
+	<label commandName="QTSimSolveDlgSubscriptionActive" devLabel="Monthly Subscription Active" translation="Aktywna subskrypcja miesięczna"/>
+	<label commandName="QTSimSolveDlgWillRemain" devLabel="Will Remain: " translation="Pozostanie "/>
+	<label commandName="QTSimSolveDlgYearlySubscriptionActive" devLabel="Yearly Subscription Active" translation="Aktywna subskrypcja roczna"/>
+	<label commandName="QTSimulationSolveTabActionErrorTitle" devLabel="Job Status" translation="Stan zadania"/>
+	<label commandName="RedoCommandDesc" devLabel="Redo" translation="Wykonaj ponownie"/>
+	<label commandName="RequiredCloudCredits" devLabel="Required: " translation="Wymagane: "/>
+	<label commandName="RestartAppStr" devLabel="Restart Application" translation="Uruchom ponownie aplikację"/>
+	<label commandName="RestartLinkStr" devLabel="Click to save your work and restart now." translation="Kliknij, aby zapisać pracę, i uruchom ponownie teraz."/>
+	<label commandName="RestartMsgStr" devLabel="The %1% has been installed." translation="Zainstalowano %1%."/>
+	<label commandName="ResultsBrowserCmd" devLabel="Results" translation="Wyniki"/>
+	<label commandName="ResultsViewerEnvironmentDora" devLabel="ResultsViewerDora" translation="ResultsViewerDora"/>
+	<label commandName="ResultsViewerEnvironmentHawkeye" devLabel="ResultsViewerHawkeye" translation="ResultsViewerHawkeye"/>
+	<label commandName="ResultsWebViewerRadioCmdDefNotAvailableOffline" devLabel="Not available while offline" translation="Niedostępne w trybie offline"/>
+	<label commandName="SN_Curve_Slope" devLabel="B" translation="R"/>
+	<label commandName="SN_Data" devLabel="S-N Data" translation="Dane S-N"/>
+	<label commandName="SaveAsScalarisMechanical" devLabel="Fusion 360 Simulation Data files" translation="Pliki danych symulacji programu Fusion 360"/>
+	<label commandName="SaveCurve" devLabel="Save As" translation="Zapisz jako"/>
+	<label commandName="SaveCurveAsCSV" devLabel="CSV files" translation="Pliki CSV"/>
+	<label commandName="SaveCurveAsXML" devLabel="XML files" translation="Pliki XML"/>
+	<label commandName="Select_Base_Material" devLabel="Select Base Material" translation="Wybierz materiał bazowy"/>
+	<label commandName="SendStudyToDiscovery" devLabel="Send Study to Ansys® Discovery™" translation="Wyślij badanie do Ansys® Discovery™"/>
+	<label commandName="SendStudyToMechanical" devLabel="Send Study to Ansys® Mechanical™" translation="Wyślij badanie do Ansys® Mechanical™"/>
+	<label commandName="SendStudyToScalaris" devLabel="Export Study to Ansys® Setup" translation="Eksportuj badanie do bazy Ansys®"/>
+	<label commandName="ShowAllProbesCmd" devLabel="Show All Probes" translation="Pokaż wszystkie sondy"/>
+	<label commandName="ShowAllProbesCmdDesc1" devLabel="Makes visible all probes that you have previously hidden, so you can see the data in their labels again." translation="Powoduje, że wszystkie sondy, które zostały wcześniej ukryte, stają się widoczne, dzięki czemu dane na ich etykietach będą ponownie widoczne."/>
+	<label commandName="ShowHideBodyCmd" devLabel="Show/Hide" translation="Pokaż/Ukryj"/>
+	<label commandName="Show_XY_Plot" devLabel="Show XY Plot" translation="Pokaż wykres XY"/>
+	<label commandName="Sim2DPlotDlgWindowTitle" devLabel="2D plot" translation="Wykres 2D"/>
+	<label commandName="Sim7DayTrialInfo" devLabel="Performance and manufacturing process insights" translation="Analiza wydajności i procesu wytwarzania"/>
+	<label commandName="SimActivateCommandTooltip" devLabel="Activate" translation="Uaktywnij"/>
+	<label commandName="SimActivateCompareCmd" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="SimActivateCompareDesc1" devLabel="Enters Compare mode. Setup comparisons and access results of multiple simulations simultaneously.  View results from different studies side by side." translation="Otwiera tryb porównania. Konfiguruj porównania i zyskaj dostęp do wyników wielu symulacji jednocześnie. Wyświetlaj wyniki różnych badań obok siebie."/>
+	<label commandName="SimActivateCompareDesc2" devLabel="Select Finish Compare to exit out of the mode." translation="Wybierz opcję Zakończ porównanie, aby wyjść z trybu."/>
+	<label commandName="SimActivateCompareText" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="SimActivateSimCase" devLabel="Activate Study" translation="Aktywuj badanie"/>
+	<label commandName="SimActivateSimLoadCaseCmd" devLabel="Activate Load Case" translation="Aktywuj przypadek obciążenia"/>
+	<label commandName="SimActivateSimStudy" devLabel="Activate Simulation Study" translation="Aktywuj badanie symulacyjne"/>
+	<label commandName="SimAlert" devLabel="Alert" translation="Ostrzeżenie"/>
+	<label commandName="SimAllImagesFilter" devLabel="All images files ( *.bmp;*.gif;*.png;*.jpg )" translation="Wszystkie pliki obrazów (*.bmp;*.gif;*.png;*.jpg)"/>
+	<label commandName="SimAllSupportedFiles" devLabel="All supported files ( %1% ) ;;" translation="Wszystkie obsługiwane pliki ( %1% ) ;;"/>
+	<label commandName="SimAusoneScalarisError" devLabel="Error: One or more objects are not supported for Export" translation="Błąd: operacja eksportu nie obsługuje co najmniej jednego obiektu"/>
+	<label commandName="SimAutoContactsMsg1" devLabel="Do you want to generate automatic contacts before creating manual contacts?" translation="Czy chcesz wygenerować kontakty automatyczne przed utworzeniem kontaktów ręcznych?"/>
+	<label commandName="SimAutoContactsMsg2" devLabel="Do you want to generate automatic contacts before starting simulation?" translation="Czy chcesz wygenerować kontakty automatyczne przed rozpoczęciem symulacji?"/>
+	<label commandName="SimAutoSolverContactsDisableCmd" devLabel="Disable" translation="Wyłącz"/>
+	<label commandName="SimAutoSolverContactsEnableCmd" devLabel="Enable" translation="Włącz"/>
+	<label commandName="SimBMPFilter" devLabel="BMP (*.bmp)" translation="BMP (*.bmp)"/>
+	<label commandName="SimBack" devLabel="Back" translation="Tył"/>
+	<label commandName="SimBrUnits" devLabel="Units" translation="Jednostki"/>
+	<label commandName="SimBtnCancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="SimBtnGenerate" devLabel="Generate" translation="Generuj"/>
+	<label commandName="SimBtnPreview" devLabel="Preview" translation="Podgląd"/>
+	<label commandName="SimCanSolveDetails" devLabel="The study setup has all the information required." translation="Ustawienia badania zawierają wszystkie wymagane informacje."/>
+	<label commandName="SimCanSolveWithWarningsDetails" devLabel="The missing input may impact your results." translation="Brak danych wejściowych może wpłynąć na wyniki."/>
+	<label commandName="SimCancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="SimCancelMoreRunningJobs" devLabel="Running cloud solves for the following studies need to be canceled before new cloud solves are scheduled." translation="Uruchomione rozwiązania w chmurze dla poniższych badań należy anulować przed zaplanowaniem nowych rozwiązań w chmurze."/>
+	<label commandName="SimCancelOneRunningJob" devLabel="Running cloud solve for &quot;%1%&quot; needs to be canceled before a new cloud solve is scheduled." translation="Rozwiązanie w chmurze uruchomione dla badania „%1%” należy anulować przed zaplanowaniem nowego rozwiązania w chmurze."/>
+	<label commandName="SimCancelRunningJob" devLabel="Job is currently in progress. Are you sure you want to cancel it?" translation="Zadanie jest w toku. Czy na pewno chcesz je anulować?"/>
+	<label commandName="SimCancelRunningJobTitle" devLabel="Cancel Job" translation="Anuluj zadanie"/>
+	<label commandName="SimCannotCancelJobWhileOffline" devLabel="A cloud solve job cannot be canceled while you don't have Internet access." translation="Nie można anulować zadania rozwiązania w chmurze, gdy nie masz dostępu do Internetu."/>
+	<label commandName="SimCannotDeleteStudyInProgressPrompt" devLabel="The study (%s%) is still processing Results. It cannot be deleted until the process is complete." translation="Badanie (%s%) nadal przetwarza wyniki. Nie można go usunąć, dopóki proces nie zostanie zakończony."/>
+	<label commandName="SimCannotProceed" devLabel="Cannot %1%" translation="Nie można %1%"/>
+	<label commandName="SimCaseDefaultName" devLabel="Study Template Name" translation="Nazwa szablonu badania"/>
+	<label commandName="SimCaseExistModel" devLabel="Use an existing Simulation Model" translation="Użyj istniejącego modelu symulacji"/>
+	<label commandName="SimCaseExistModelCopy" devLabel="Copy Simulation Model" translation="Kopiuj model symulacji"/>
+	<label commandName="SimCaseExistModelShare" devLabel="Share Simulation Model" translation="Udostępnij model symulacji"/>
+	<label commandName="SimCaseModelPrompt" devLabel="It is necessary to select a Simulation Model!" translation="Należy wybrać model symulacji!"/>
+	<label commandName="SimCaseNew" devLabel="New Study" translation="Nowe badanie"/>
+	<label commandName="SimCaseNewModel" devLabel="Create a new Simulation Model" translation="Utwórz nowy model symulacji"/>
+	<label commandName="SimCasePropertiesCmd" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimCasePropertiesDesc1" devLabel="Enables you to view and modify all settings for the current simulation study." translation="Umożliwia wyświetlanie i modyfikowanie wszystkich ustawień bieżącego badania symulacyjnego."/>
+	<label commandName="SimCaseTypes" devLabel="Study Type" translation="Typ badania"/>
+	<label commandName="SimChangeActiveItemTooltip" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="SimChangeCaseContinueQuestion" devLabel="&#xA;&#xA;Do you wish to continue changing the study type?" translation="&#xA;&#xA;Czy chcesz kontynuować zmianę typu badania?"/>
+	<label commandName="SimChangeStudyTypeWillResult" devLabel="WARNING: Changing the study type to %1% will result in the following:&#xA;" translation="OSTRZEŻENIE: Zmiana typu badania na %1% będzie miała następujące konsekwencje:&#xA;"/>
+	<label commandName="SimCloneGenerativeModel" devLabel="Clone Generative Model" translation="Klonuj model generatywny"/>
+	<label commandName="SimCloneLCOnlyOneAttributeAllowed" devLabel="One or more of the loads being cloned are only allowed to be active in a single load case in this study.  Those loads in the clone will be suppressed." translation="Co najmniej jedno z klonowanych obciążeń może być aktywne tylko w pojedynczym przypadku obciążenia w tym badaniu. Obciążenia te zostaną wyłączone w klonie."/>
+	<label commandName="SimCloneSimulationModel" devLabel="Clone Simulation Model" translation="Klonuj model symulacji"/>
+	<label commandName="SimCloudCreditInfoInfo" devLabel="Cloud Credit Info" translation="Jednostki chmury — informacje"/>
+	<label commandName="SimCloudCreditsFAQ" devLabel="FAQ" translation="Często zadawane pytania"/>
+	<label commandName="SimCloudCreditsInfo" devLabel="The cloud credits are used only if solve succeeds." translation="Jednostki chmury są zużywane tylko wtedy, gdy rozwiązywanie zakończy się powodzeniem."/>
+	<label commandName="SimCloudCreditsTitle" devLabel="CLOUD CREDITS" translation="JEDNOSTKI CHMURY"/>
+	<label commandName="SimCloudSolve" devLabel="Cloud Solve" translation="Rozwiązywanie w chmurze"/>
+	<label commandName="SimCloudSolveAssetModified" devLabel="Study is modified. Please save the document prior scheduling cloud job." translation="Badanie zostało zmodyfikowane. Zapisz dokument przed zaplanowaniem zadania w chmurze."/>
+	<label commandName="SimColorBlack" devLabel="Black" translation="Czarny"/>
+	<label commandName="SimColorBlue" devLabel="Blue" translation="Niebieski"/>
+	<label commandName="SimColorCyan" devLabel="Cyan" translation="Błękitny"/>
+	<label commandName="SimColorDefault" devLabel="Default" translation="Domyślne"/>
+	<label commandName="SimColorGreen" devLabel="Green" translation="Zielone"/>
+	<label commandName="SimColorInvisible" devLabel="Invisible" translation="Niewidoczny"/>
+	<label commandName="SimColorMagenta" devLabel="Magenta" translation="Fioletowy"/>
+	<label commandName="SimColorRed" devLabel="Red" translation="Czerwone"/>
+	<label commandName="SimColorWhite" devLabel="White" translation="Biały"/>
+	<label commandName="SimColorYellow" devLabel="Yellow" translation="Żółty"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimCommandWorksInSimCaseOnly" devLabel="There is no SimCase parameter." translation="Brak parametru SimCase."/>
+	<label commandName="SimContactBondedType" devLabel="Bonded" translation="Związany"/>
+	<label commandName="SimContactManualPreffix" devLabel="[M] " translation="[M] "/>
+	<label commandName="SimContactOffsetBonded" devLabel="Offset Bonded" translation="Odsunięty związany"/>
+	<label commandName="SimContactRBE3" devLabel="RBE3" translation="RBE3"/>
+	<label commandName="SimContactRough" devLabel="Rough" translation="Zgrubne"/>
+	<label commandName="SimContactSeparationType" devLabel="Separation" translation="Rozdzielenie"/>
+	<label commandName="SimContactSickSuffix" devLabel=" (Sick)" translation=" (Uszkodzone)"/>
+	<label commandName="SimContactSliding" devLabel="Sliding" translation="Przesuwny"/>
+	<label commandName="SimContactSuppressedSuffix" devLabel=" (Suppressed)" translation=" (Pominięty)"/>
+	<label commandName="SimContactSymmetricType" devLabel="Symmetric" translation="Symetryczny"/>
+	<label commandName="SimContactUnsymmetricType" devLabel="Unsymmetric" translation="Niesymetryczny"/>
+	<label commandName="SimContactsDeleteAction" devLabel="Delete Contact Set" translation="Usuń zestaw kontaktowy"/>
+	<label commandName="SimContactsDeleteforPartAction" devLabel="Delete Contacts on selected bodies" translation="Usuń kontakty z wybranych brył"/>
+	<label commandName="SimContactsEditAction" devLabel="Edit Contact Set" translation="Edytuj zestaw kontaktowy"/>
+	<label commandName="SimContactsIsolateAction" devLabel="Isolate Contact Set" translation="Izoluj zestaw kontaktowy"/>
+	<label commandName="SimContactsIsolateForPartAction" devLabel="Isolate" translation="Izoluj"/>
+	<label commandName="SimContactsManagerBodyAndEdgeText" devLabel="%1%, Edge %2%" translation="%1%, krawędź %2%"/>
+	<label commandName="SimContactsManagerBodyAndFaceText" devLabel="%1%, Face %2%" translation="%1%, powierzchnia %2%"/>
+	<label commandName="SimContactsManagerContactSetColumn" devLabel="Contact Set" translation="Zestaw kontaktowy"/>
+	<label commandName="SimContactsManagerContactTypeColumn" devLabel="Contact Type" translation="Typ kontaktu"/>
+	<label commandName="SimContactsManagerEdgeText" devLabel="Edge %1%" translation="Krawędź %1%"/>
+	<label commandName="SimContactsManagerEntitiesColumn" devLabel="Entities" translation="Elementy"/>
+	<label commandName="SimContactsManagerFaceText" devLabel="Face %1%" translation="Powierzchnia %1%"/>
+	<label commandName="SimContactsManagerNoContact" devLabel="No Contact" translation="Brak kontaktu"/>
+	<label commandName="SimContactsManagerNoContactText" devLabel="No Contact" translation="Brak kontaktu"/>
+	<label commandName="SimContactsManagerPartsColumn" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="SimContactsManagerPenetrableSuffix" devLabel=" (Penetrable)" translation=" (Przepuszczalne)"/>
+	<label commandName="SimContactsManagerPenetrableText" devLabel=" (Penetrable)" translation=" (Przepuszczalne)"/>
+	<label commandName="SimContactsManagerPenetrationTypeColumn" devLabel="Penetration Type" translation="Typ penetracji"/>
+	<label commandName="SimContactsManagerSymmetricPenetrationType" devLabel="Symmetric" translation="Symetrycznie"/>
+	<label commandName="SimContactsManagerUnsymmetricPenetrationType" devLabel="Unsymmetric" translation="Niesymetryczna"/>
+	<label commandName="SimContactsRenameAction" devLabel="Rename Contact Set" translation="Zmień nazwę zestawu kontaktowego"/>
+	<label commandName="SimContactsSettingsCmd" devLabel="Contact Settings" translation="Ustawienia kontaktu"/>
+	<label commandName="SimContactsSuppressAction" devLabel="Suppress Contact Set" translation="Wyłącz zestaw kontaktowy"/>
+	<label commandName="SimContactsSuppressForPartAction" devLabel="Suppress Contacts on selected bodies" translation="Wyłącz kontakty na wybranych bryłach"/>
+	<label commandName="SimContactsUnisolateAction" devLabel="Unisolate Contact Set" translation="Zakończ izolację zestawu kontaktowego"/>
+	<label commandName="SimContactsUnisolateForPartAction" devLabel="Undo isolate" translation="Cofnij izolowanie"/>
+	<label commandName="SimContactsUnsuppressAction" devLabel="Unsuppress Contact Set" translation="Włącz zestaw kontaktowy"/>
+	<label commandName="SimContactsUnsuppressForPartAction" devLabel="Unsuppress Contacts on selected bodies" translation="Włącz kontakty na wybranych bryłach"/>
+	<label commandName="SimContinue" devLabel="Continue" translation="Dalej"/>
+	<label commandName="SimConvergencePlot" devLabel="Convergence Plot" translation="Wykres zbieżności"/>
+	<label commandName="SimConvergencePlotCmd" devLabel="Convergence Plot" translation="Wykres zbieżności"/>
+	<label commandName="SimConvergencePlotDesc1" devLabel="Monitor the progress of the simulation. Values of the active result type are displayed for each iteration as well as the convergence rate." translation="Monitoruj postęp symulacji. Wartości aktywnego typu wyników są wyświetlane dla każdej iteracji, podobnie jak współczynnik zbieżności."/>
+	<label commandName="SimConvergencePlotResult" devLabel="Result" translation="Rezultat"/>
+	<label commandName="SimConvergencePlotResultComponent" devLabel="Result component" translation="Komponent wynikowy"/>
+	<label commandName="SimConvergenceRate" devLabel="Convergence Rate" translation="Współczynnik zbieżności:"/>
+	<label commandName="SimConvergenceRateActual" devLabel="Actual" translation="Rzeczywisty"/>
+	<label commandName="SimConvergenceRateTarget" devLabel="Target" translation="Cel"/>
+	<label commandName="SimConvergenceSettings" devLabel="Adaptive Mesh Refinement" translation="Adaptacyjne zagęszczanie siatki"/>
+	<label commandName="SimConvergenceSettingsDesc1" devLabel="Enable and modify Adaptive Mesh Refinement." translation="Włącz i zmodyfikuj adaptacyjne zagęszczanie siatki."/>
+	<label commandName="SimConvergenceSettingsDesc2" devLabel="Adaptive Mesh Refinement iteratively improves the mesh based on computed results. The goal is to reach a solution that does not change with further mesh refinement." translation="Adaptacyjne zagęszczanie siatki iteracyjnie poprawia siatkę na podstawie obliczonych wyników. Celem jest osiągnięcie rozwiązania, które nie zmienia się przy dalszym zagęszczaniu siatki."/>
+	<label commandName="SimConvergenceStep" devLabel="Solution Step" translation="Krok rozwiązania"/>
+	<label commandName="SimCopyCommand" devLabel="Copy" translation="Kopiuj"/>
+	<label commandName="SimCopySimCase" devLabel="Clone Study" translation="Klonuj badanie"/>
+	<label commandName="SimCreateGenCaseCmdDesc1" devLabel="Creates a generative study where you can define a design problem to generate outcomes for it." translation="Tworzy badanie generatywne, w którym można zdefiniować problem projektowy w celu wygenerowania dla niego wyników."/>
+	<label commandName="SimCreateGenCaseCmdDesc2" devLabel="You can create multiple studies in one design to define different design problems for a common set of geometry called a generative model." translation="Można utworzyć wiele badań w jednym projekcie, aby zdefiniować różne problemy projektowe dla wspólnego zestawu geometrii nazywanego modelem generatywnym."/>
+	<label commandName="SimCreateGenCaseFluidsCmdDesc1" devLabel="Creates a generative study where you can define a design problem to generate an outcome(s) for it." translation="Tworzy badanie generatywne, w którym można zdefiniować problem projektowy w celu wygenerowania dla niego wyników."/>
+	<label commandName="SimCreateGenCaseFluidsCmdDesc2" devLabel="You can create multiple studies in one project to define different design problems for a common set of geometry called a generative model." translation="W jednym projekcie można utworzyć wiele badań, aby zdefiniować różne problemy projektowe dla wspólnego zestawu geometrii nazywanego modelem generatywnym."/>
+	<label commandName="SimCreateSimCase" devLabel="New Simulation Study" translation="Nowe badanie symulacyjne"/>
+	<label commandName="SimCreateSimCaseFromGenerativeDesign" devLabel="New Simulation Study From Generative Design" translation="Nowe badanie symulacyjne z projektu generatywnego"/>
+	<label commandName="SimCreateSimCaseFromTemplate" devLabel="New Simulation Study" translation="Nowe badanie symulacyjne"/>
+	<label commandName="SimCreateSimCaseGen" devLabel="New Generative Study" translation="Nowe badanie generatywne"/>
+	<label commandName="SimCreateSimCaseGenFluids" devLabel="New Generative Study" translation="Nowe badanie generatywne"/>
+	<label commandName="SimCreateSimLoadCaseCmd" devLabel="New Load Case" translation="Nowy przypadek obciążenia"/>
+	<label commandName="SimCreateSimStudyPrompt" devLabel="The following problem is found:" translation="Znaleziono następujący problem:"/>
+	<label commandName="SimCreateTemplateFail" devLabel="Fail to create a template." translation="Nie można utworzyć szablonu."/>
+	<label commandName="SimCreateTemplateOK" devLabel="Simulation template created successfully" translation="Pomyślnie utworzono szablon symulacji"/>
+	<label commandName="SimDCUIActivateStudy" devLabel="Activate Study" translation="Aktywuj badanie"/>
+	<label commandName="SimDCUIActiveStudy" devLabel="Activate Study&#xA;(This study is active)" translation="Aktywuj badanie&#xA;(to badanie jest aktywne)"/>
+	<label commandName="SimDCUIAddCaseRef" devLabel="Add Study to Comparison" translation="Dodaj badanie do porównania"/>
+	<label commandName="SimDCUIAddCaseResRefFailed" devLabel="Unable to add Study" translation="Nie można dodać badania"/>
+	<label commandName="SimDCUIAddComparisonAction" devLabel="New Comparison" translation="Nowe porównanie"/>
+	<label commandName="SimDCUIAddComparisonBigButton" devLabel="New Comparison" translation="Nowe porównanie"/>
+	<label commandName="SimDCUIAddComparisonSmallButton" devLabel="Add a new Comparison" translation="Dodaj nowe porównanie"/>
+	<label commandName="SimDCUIAddGoal" devLabel="Add Goal" translation="Dodaj cel"/>
+	<label commandName="SimDCUIAddGoals" devLabel="Add Goals" translation="Dodaj cele"/>
+	<label commandName="SimDCUIAnyValue" devLabel="Any" translation="Wszystkie"/>
+	<label commandName="SimDCUIAvoidRange" devLabel="Avoid range" translation="Unikaj zakresu"/>
+	<label commandName="SimDCUIBarsHide" devLabel="Hide Bar Charts" translation="Ukryj wykresy słupkowe"/>
+	<label commandName="SimDCUIBarsShow" devLabel="Show Bar Charts" translation="Pokaż wykresy słupkowe"/>
+	<label commandName="SimDCUICaption" devLabel="Decision Center" translation="Centrum decyzyjne"/>
+	<label commandName="SimDCUICaptionFmt" devLabel="Decision Center - %1%" translation="Centrum decyzyjne — %1%"/>
+	<label commandName="SimDCUIChooseCases" devLabel="Choose Studies" translation="Wybierz badania"/>
+	<label commandName="SimDCUICollapseComparisons" devLabel="Collapse Browser" translation="Zwiń przeglądarkę"/>
+	<label commandName="SimDCUICollapseDefault" devLabel="Collapse to default" translation="Zwiń do domyślnego"/>
+	<label commandName="SimDCUICollapseMinimum" devLabel="Collapse to minimum" translation="Zwiń do minimum"/>
+	<label commandName="SimDCUIComparisonRenameFailed" devLabel="Could not rename Comparison" translation="Nie można zmienić nazwy porównania"/>
+	<label commandName="SimDCUICreateCaseResCmpFailed" devLabel="Failed to create Goal" translation="Nie można utworzyć celu"/>
+	<label commandName="SimDCUICreateComparisonFailed" devLabel="Failed to create a new Comparison" translation="Nie można utworzyć nowego porównania"/>
+	<label commandName="SimDCUIDecisionCenterAppendixToUsedSimCase" devLabel="(already in Comparison)" translation="(jest już w porównaniu)"/>
+	<label commandName="SimDCUIDecisionTypeMax" devLabel="Max" translation="Maks."/>
+	<label commandName="SimDCUIDecisionTypeMin" devLabel="Min" translation="Min."/>
+	<label commandName="SimDCUIDeleteAction1CaseResRef" devLabel="Remove Study" translation="Usuń badanie"/>
+	<label commandName="SimDCUIDeleteAction1CaseResRefQ" devLabel="Are you sure you want to remove this Study?" translation="Czy na pewno chcesz usunąć to badanie?"/>
+	<label commandName="SimDCUIDeleteAction1Comparison" devLabel="Delete Comparison" translation="Usuń porównanie"/>
+	<label commandName="SimDCUIDeleteAction1ComparisonQ" devLabel="Do you want to delete a Comparison?" translation="Czy chcesz usunąć porównanie?"/>
+	<label commandName="SimDCUIDeleteAction1ResCmp" devLabel="Delete Goal" translation="Usuń cel"/>
+	<label commandName="SimDCUIDeleteActionNCaseResRefsFmt" devLabel="Remove %1% Studies" translation="Usuń badania (%1%)"/>
+	<label commandName="SimDCUIDeleteActionNCaseResRefsFmtQ" devLabel="Are you sure you want to remove %1% Studies?" translation="Czy na pewno chcesz usunąć badania (%1%)?"/>
+	<label commandName="SimDCUIDeleteActionNComparisonsFmt" devLabel="Delete %1% Comparisons" translation="Usuń porównania (%1%)"/>
+	<label commandName="SimDCUIDeleteActionNComparisonsFmtQ" devLabel="Do you want to delete %1% Comparisons?" translation="Czy chcesz usunąć porównania (%1%)?"/>
+	<label commandName="SimDCUIDeleteActionNItemsFmt" devLabel="Delete %1% items" translation="Usuń elementy (%1%)"/>
+	<label commandName="SimDCUIDeleteActionNItemsFmtQ" devLabel="Do you want to delete %1% items?" translation="Czy chcesz usunąć elementy (%1%)?"/>
+	<label commandName="SimDCUIDeleteActionNResCmpsFmt" devLabel="Delete %1% Goals" translation="Usuń cele (%1%)"/>
+	<label commandName="SimDCUIEditCaseResCmpFailed" devLabel="Failed to edit Goal" translation="Nie można edytować celu"/>
+	<label commandName="SimDCUIEditGoal" devLabel="Edit Goal" translation="Edytuj cel"/>
+	<label commandName="SimDCUIExpand" devLabel="Expand" translation="Rozwiń"/>
+	<label commandName="SimDCUIFitInRange" devLabel="Fit in range" translation="Zmieść w zakresie"/>
+	<label commandName="SimDCUIGoal" devLabel="Goal: " translation="Cel: "/>
+	<label commandName="SimDCUILimitLabel" devLabel="Goal" translation="Cel"/>
+	<label commandName="SimDCUILower" devLabel="Greater than or equal to" translation="Więcej niż lub równo"/>
+	<label commandName="SimDCUIMaximum" devLabel="Maximum" translation="Koniec"/>
+	<label commandName="SimDCUIMinimum" devLabel="Minimum" translation="Początek"/>
+	<label commandName="SimDCUIPoint" devLabel="Step" translation="Krok"/>
+	<label commandName="SimDCUIPreDeleteRowQuestion" devLabel="Do you want to delete a Goal?" translation="Czy chcesz usunąć cel?"/>
+	<label commandName="SimDCUIPreDeleteRowsQuestionFmt" devLabel="Do you want to delete %1% Goals?" translation="Czy chcesz usunąć cele (%1%)?"/>
+	<label commandName="SimDCUIRange" devLabel="Range" translation="Zakres"/>
+	<label commandName="SimDCUIRenameComparison" devLabel="Rename Comparison" translation="Zmień nazwę porównania"/>
+	<label commandName="SimDCUIRenameComparisonPrompt" devLabel="New Name:" translation="Nowa nazwa"/>
+	<label commandName="SimDCUIRenameComparisonTitle" devLabel="Rename Comparison" translation="Zmień nazwę porównania"/>
+	<label commandName="SimDCUIResCmpLabel" devLabel="Result Component" translation="Komponent wynikowy"/>
+	<label commandName="SimDCUIResult" devLabel="Result: " translation="Wynik: "/>
+	<label commandName="SimDCUIResultMissing" devLabel="The result is missing." translation="Brak wyniku."/>
+	<label commandName="SimDCUIResultNotApplicable" devLabel="The goal is not applicable." translation="Cel nie ma zastosowania."/>
+	<label commandName="SimDCUIResultsBad" devLabel="Results do not fit the goal." translation="Wyniki nie pasują do celu."/>
+	<label commandName="SimDCUIResultsBadOutOfDate" devLabel="Current results do not fit the goal and they are out of date." translation="Bieżące wyniki nie mieszczą się w celu i są nieaktualne."/>
+	<label commandName="SimDCUIResultsGood" devLabel="Results fit the goal." translation="Wyniki mieszczą się w celu."/>
+	<label commandName="SimDCUIResultsGoodOutOfDate" devLabel="Current results fit the goal, but they are out of date." translation="Bieżące wyniki mieszczą się w celu, ale są nieaktualne."/>
+	<label commandName="SimDCUISettings" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimDCUIShowChart" devLabel="Show Chart" translation="Pokaż wykres"/>
+	<label commandName="SimDCUIShowInCompare" devLabel="Display studies in Compare workspace" translation="Wyświetl badania w obszarze roboczym Porównaj"/>
+	<label commandName="SimDCUISolveFailed" devLabel="Solve failed." translation="Nie można rozwiązać."/>
+	<label commandName="SimDCUIStateComputedBad" devLabel="Bad: " translation="Nieprawidłowe: "/>
+	<label commandName="SimDCUIStateComputedFailed" devLabel="Failed: " translation="Niepowodzenie: "/>
+	<label commandName="SimDCUIStateComputedGood" devLabel="Good: " translation="Prawidłowe: "/>
+	<label commandName="SimDCUIStateComputedMissingData" devLabel="Missing data: " translation="Brak danych: "/>
+	<label commandName="SimDCUIStateComputedNotApplicable" devLabel="Not applicable: " translation="Nie dotyczy: "/>
+	<label commandName="SimDCUIStateComputedOutOfDate" devLabel="Obsolete: " translation="Przestarzałe: "/>
+	<label commandName="SimDCUIStudyNotFound" devLabel="Decision Center data not found." translation="Nie znaleziono danych w Centrum decyzyjnym."/>
+	<label commandName="SimDCUIUnableToDeleteCaseResCmp" devLabel="Unable to delete a Goal" translation="Nie można usunąć celu"/>
+	<label commandName="SimDCUIUnableToDeleteCaseResCmps" devLabel="Unable to delete Goals" translation="Nie można usunąć celów"/>
+	<label commandName="SimDCUIUnableToDeleteCaseResRef" devLabel="Unable to delete Result Reference" translation="Nie można usunąć odniesienia do wyniku"/>
+	<label commandName="SimDCUIUnableToDeleteCaseResRefs" devLabel="Unable to delete Result References" translation="Nie można usunąć odniesień do wyników"/>
+	<label commandName="SimDCUIUnableToDeleteComparison" devLabel="Unable to delete a Comparison" translation="Nie można usunąć porównania"/>
+	<label commandName="SimDCUIUnableToDeleteComparisons" devLabel="Unable to delete Comparisons" translation="Nie można usunąć porównań"/>
+	<label commandName="SimDCUIUpper" devLabel="Less than or equal to" translation="Mniej niż lub równo"/>
+	<label commandName="SimDOFColors" devLabel="DOF Colors" translation="Kolory stopnia swobody"/>
+	<label commandName="SimDecisionCenterCmd" devLabel="Decision Center" translation="Centrum decyzyjne"/>
+	<label commandName="SimDecisionCenterHideCmd" devLabel="Hide Decision Center" translation="Ukryj Centrum decyzyjne"/>
+	<label commandName="SimDecisionCenterPanelTitle" devLabel="Decision Center" translation="Centrum decyzyjne"/>
+	<label commandName="SimDecisionCenterShowCmd" devLabel="Show Decision Center" translation="Pokaż Centrum decyzyjne"/>
+	<label commandName="SimDefaultSelectionInputText" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimDeleteAllProbesCmdDesc2" devLabel="To hide the probe information, without deleting the probes, select Hide All Probes from the toolbar Inspect panel." translation="Aby ukryć informacje o sondach bez usuwania sond, wybierz opcję Ukryj wszystkie sondy z paska narzędzi na panelu Sprawdź."/>
+	<label commandName="SimDeleteCommand" devLabel="Delete" translation="Usuń"/>
+	<label commandName="SimDeleteGenStudiesPrompt" devLabel="Are you sure you want to delete the following studies and their results?" translation="Czy na pewno chcesz usunąć następujące badania i ich wyniki?"/>
+	<label commandName="SimDeleteGenStudyPrompt" devLabel="Deleting the %1% Study will remove the respective Outcomes from Explore, but they can be viewed in a previous version of this Fusion design." translation="Usunięcie badania %1% spowoduje usunięcie odpowiednich wyników z obszaru Eksploruj, jednak można je wyświetlić w poprzedniej wersji tego projektu Fusion."/>
+	<label commandName="SimDeleteLastGenStudyPrompt" devLabel="Deleting the last %1% Study will generate a new Study automatically.  Outcomes for the deleted Study will be removed from Explore, but they can be viewed in a previous version of this Fusion design." translation="Usunięcie ostatniego badania %1% spowoduje automatyczne wygenerowanie nowego badania. Wyniki dla usuniętego badania zostaną usunięte z obszaru Eksploruj, jednak będzie można je wyświetlić w poprzedniej wersji tego projektu Fusion."/>
+	<label commandName="SimDeleteLastGenStudyRestrictedPrompt" devLabel="Unable to delete the last study, please go to the Edit Model workspace and delete the Generative Model." translation="Nie można usunąć ostatniego badania. Przejdź do obszaru roboczego Edytuj model i usuń model generatywny."/>
+	<label commandName="SimDeleteLastSimStudiesPrompt" devLabel="Deleting the following studies will generate a new Study automatically.  Outcomes for the deleted Study will be removed from Explore, but they can be viewed in a previous version of this Fusion design." translation="Usunięcie poniższych badań spowoduje automatyczne wygenerowanie nowego badania. Wyniki usuniętego badania zostaną usunięte z obszaru Eksploruj, jednak będzie je można wyświetlić w poprzedniej wersji tego projektu programu Fusion."/>
+	<label commandName="SimDeleteLastSimStudyRestrictedPrompt" devLabel="Unable to delete the last study, please go to the Simplify workspace and delete the Simulation Model." translation="Nie można usunąć ostatniego badania. Przejdź do obszaru roboczego Uprość i usuń model symulacji."/>
+	<label commandName="SimDeleteSimCaseCommand" devLabel="Delete Study" translation="Usuń badanie"/>
+	<label commandName="SimDeleteSimLoadCasePrompt" devLabel="Are you sure you want to delete the selected Load Case and any associated Results?" translation="Czy na pewno chcesz usunąć wybrany przypadek obciążenia i wszystkie skojarzone wyniki?"/>
+	<label commandName="SimDeleteSimLoadCasesPrompt" devLabel="Are you sure you want to delete the selected Load Cases and any associated Results?" translation="Czy na pewno chcesz usunąć wybrane przypadki obciążenia i wszystkie skojarzone wyniki?"/>
+	<label commandName="SimDeleteSimStudiesPrompt" devLabel="Deleting following studies will remove the respective Outcomes from Explore, but they can be viewed in a previous version of this Fusion design." translation="Usunięcie poniższych badań spowoduje usunięcie odpowiednich wyników z obszaru Eksploruj, jednak będzie je można wyświetlić w poprzedniej wersji tego projektu Fusion."/>
+	<label commandName="SimDeleteSimStudyPrompt" devLabel="Are you sure you want to delete the %1% study and its results?" translation="Czy na pewno chcesz usunąć badanie %1% i jego wyniki?"/>
+	<label commandName="SimDiscoveryUnableToExport" devLabel="Error: Unable to export to Ansys® Discovery™" translation="Błąd: nie można wyeksportować do programu Ansys® Discovery™"/>
+	<label commandName="SimDiscoveryZipFailed" devLabel="Error: Unable to zip up Scalaris files" translation="Błąd: nie można skompresować plików programu Scalaris"/>
+	<label commandName="SimDisplayDOFViewDesc1" devLabel="Use colors to indicate the constraint status of all bodies in the model. Use this to check your model to ensure that all bodies are appropriately constrained. This is how to recognize missing constraints or contacts." translation="Użyj kolorów, aby wskazać stan wiązania wszystkich brył w modelu. Użyj tej opcji, aby sprawdzić model i upewnić się, że wszystkie bryły są odpowiednio związane. W ten sposób można rozpoznać brakujące wiązania lub kontakty."/>
+	<label commandName="SimDisplayDOFViewDesc10" devLabel="Note that these are the default colors, and you can customize them." translation="Należy pamiętać, że są to kolory domyślne i można je dostosować."/>
+	<label commandName="SimDisplayDOFViewDesc2" devLabel="Green" translation="Zielone"/>
+	<label commandName="SimDisplayDOFViewDesc3" devLabel="Body is fully fixed with no degrees of freedom." translation="Bryła jest całkowicie nieruchoma bez stopni swobody."/>
+	<label commandName="SimDisplayDOFViewDesc4" devLabel="Cyan" translation="Błękitny"/>
+	<label commandName="SimDisplayDOFViewDesc5" devLabel="Body is potentially fixed, and depends on other conditions." translation="Bryła jest potencjalnie nieruchoma i zależy od innych warunków."/>
+	<label commandName="SimDisplayDOFViewDesc6" devLabel="Yellow" translation="Żółty"/>
+	<label commandName="SimDisplayDOFViewDesc7" devLabel="Body is partially fixed, and has some degrees of freedom." translation="Bryła jest częściowo nieruchoma i ma pewne stopnie swobody."/>
+	<label commandName="SimDisplayDOFViewDesc8" devLabel="Red" translation="Czerwone"/>
+	<label commandName="SimDisplayDOFViewDesc9" devLabel="Body is not fixed, and has all degrees of freedom." translation="Bryła nie jest nieruchoma i ma wszystkie stopnie swobody."/>
+	<label commandName="SimDisplayDoFView" devLabel="DOF View" translation="Widok stopnia swobody"/>
+	<label commandName="SimDisplayGroupsView" devLabel="Groups View" translation="Widok grup"/>
+	<label commandName="SimDisplayGroupsViewDesc1" devLabel="Display groups of bodies with bonded contacts." translation="Wyświetl grupy brył ze związanymi kontaktami."/>
+	<label commandName="SimDisplayGroupsViewDesc2" devLabel="Each group is colored differently. Ungrouped bodies (bodies that do not have bonded contacts) are colored gray. This is how to recognize missing bonded contacts." translation="Każda grupa jest oznaczona innym kolorem. Niezgrupowane bryły (bryły, które nie mają związanych kontaktów) są oznaczone na szaro. W ten sposób można rozpoznać brakujące związane kontakty."/>
+	<label commandName="SimDisplayNormalView" devLabel="Model View" translation="Widok modelu"/>
+	<label commandName="SimDisplayNormalViewDesc1" devLabel="Display model using material colors." translation="Wyświetl model, używając kolorów materiału."/>
+	<label commandName="SimDisplayPostProcViewDesc1" devLabel="Display model using calculated results." translation="Wyświetl model, używając obliczonych wyników."/>
+	<label commandName="SimDofToolProps" devLabel="Degrees of Freedom" translation="Stopnie swobody"/>
+	<label commandName="SimDuplicateSimLoadCaseCmd" devLabel="Clone Load Case" translation="Klonuj przypadek obciążenia"/>
+	<label commandName="SimEllipsisSuffixForOperation" devLabel="..." translation="..."/>
+	<label commandName="SimEnablePreviewStudyCommand" devLabel="Enable Preview Study" translation="Włącz badanie w wersji Preview"/>
+	<label commandName="SimEntitlementIsRequiredToSolveDescription" devLabel="Your account is missing the entitlement needed to solve new studies. Contact your contract administrator to have the appropriate &lt;b&gt;Fusion 360 Simulation&lt;/b&gt; entitlement assigned." translation="Na Twoim koncie brakuje uprawnień potrzebnych do rozwiązywania nowych badań. Skontaktuj się z administratorem umowy, aby przypisał odpowiednie uprawnienie do modułu &lt;b&gt;Fusion 360 Simulation&lt;/b&gt;."/>
+	<label commandName="SimEntitlementIsRequiredToSolveMoreInformation" devLabel="More information" translation="Więcej informacji"/>
+	<label commandName="SimEntitlementIsRequiredToSolveTitle" devLabel="Simulation entitlement is required to solve" translation="W celu rozwiązywania wymagane jest uprawnienie do modułu Simulation"/>
+	<label commandName="SimEntitlementsRequiredLearnMore" devLabel="Learn more" translation="Dowiedz się więcej"/>
+	<label commandName="SimExpandActiveSimCase" devLabel="Expand active simulation Study" translation="Rozwiń aktywne badanie symulacyjne"/>
+	<label commandName="SimExploreCmdProjInfoErr" devLabel="An error has occurred, unable to display the Explore environment." translation="Wystąpił błąd, nie można wyświetlić środowiska Eksploruj."/>
+	<label commandName="SimExportAnsys" devLabel="Export to Ansys® setup" translation="Eksportuj do ustawień Ansys®"/>
+	<label commandName="SimExportAnsysBlockedByPrecheck" devLabel="Pre-check has identified study setup errors in Fusion 360 that prevent your export to Ansys® setup. Fix all errors, then try again. Would you like to view the Pre-check messages?" translation="Podczas wstępnego sprawdzenia wykryto błędy ustawień badania w programie Fusion 360, które uniemożliwiają eksport do ustawień Ansys®. Napraw wszystkie błędy, a następnie spróbuj ponownie. Czy chcesz wyświetlić komunikaty dotyczące wstępnego sprawdzenia?"/>
+	<label commandName="SimExportAnsysBlockedByPrecheckWarnings" devLabel="Pre-check has identified study setup warnings in Fusion 360 that you may need to edit, or delete and reapply in Ansys® setup. Would you like to view the Pre-check warnings before you proceed?" translation="Podczas wstępnego sprawdzenia w programie Fusion 360 zidentyfikowano ostrzeżenia dotyczące ustawień badania, które mogą wymagać edycji lub usunięcia i ponownego zastosowania w ustawień Ansys®. Czy chcesz wyświetlić ostrzeżenia dotyczące wstępnego sprawdzenia, zanim przejdziesz dalej?"/>
+	<label commandName="SimExportAnsysDiscovery" devLabel="Export to Ansys® Discovery™ setup" translation="Eksportuj do ustawień Ansys® Discovery™"/>
+	<label commandName="SimExportAnsysDiscoveryBlockedByPrecheck" devLabel="Pre-check has identified study setup errors in Fusion 360 that prevent your export to Ansys® Discovery™ setup. Fix all errors, then try again. Would you like to view the Pre-check messages?" translation="Podczas wstępnego sprawdzenia wykryto błędy ustawień badania w programie Fusion 360, które uniemożliwiają eksport do ustawień Ansys® Discovery™. Napraw wszystkie błędy, a następnie spróbuj ponownie. Czy chcesz wyświetlić komunikaty dotyczące wstępnego sprawdzenia?"/>
+	<label commandName="SimExportAnsysDiscoveryBlockedByPrecheckWarnings" devLabel="Pre-check has identified study setup warnings in Fusion 360 that you may need to edit, or delete and reapply in Ansys® Discovery™ setup. Would you like to view the Pre-check warnings before you proceed?" translation="Podczas wstępnego sprawdzenia w programie Fusion 360 zidentyfikowano ostrzeżenia dotyczące ustawień badania, które mogą wymagać edycji lub usunięcia i ponownego zastosowania w ustawieniach Ansys® Discovery™. Czy chcesz wyświetlić ostrzeżenia dotyczące wstępnego sprawdzenia, zanim przejdziesz dalej?"/>
+	<label commandName="SimExportAnsysMechBlockedByPrecheck" devLabel="Pre-check has identified study setup errors in Fusion 360 that prevent your export to Ansys® Mechanical™ setup. Fix all errors, then try again. Would you like to view the Pre-check messages?" translation="Podczas wstępnego sprawdzenia wykryto błędy ustawień badania w programie Fusion 360, które uniemożliwiają eksport do ustawień Ansys® Mechanical™. Napraw wszystkie błędy, a następnie spróbuj ponownie. Czy chcesz wyświetlić komunikaty dotyczące wstępnego sprawdzenia?"/>
+	<label commandName="SimExportAnsysMechBlockedByPrecheckWarnings" devLabel="Pre-check has identified study setup warnings in Fusion 360 that you may need to edit, or delete and reapply in Ansys® Mechanical™ setup. Would you like to view the Pre-check warnings before you proceed?" translation="Podczas wstępnego sprawdzenia w programie Fusion 360 zidentyfikowano ostrzeżenia dotyczące ustawień badania, które mogą wymagać edycji lub usunięcia i ponownego zastosowania w ustawieniach Ansys® Mechanical™. Czy chcesz wyświetlić ostrzeżenia dotyczące wstępnego sprawdzenia, zanim przejdziesz dalej?"/>
+	<label commandName="SimExportAnsysMechanical" devLabel="Export to Ansys® Mechanical™ setup" translation="Eksportuj do ustawień Ansys® Mechanical™"/>
+	<label commandName="SimF3dFilter" devLabel="Fusion Files (*.f3d)" translation="Pliki programu Fusion (*.f3d)"/>
+	<label commandName="SimFDCriticalTemperatureCmdNoSimCase" devLabel="No active simulation study!" translation="Brak aktywnego badania symulacyjnego!"/>
+	<label commandName="SimFDCriticalTemperatureWidgetView" devLabel="View" translation="Widok"/>
+	<label commandName="SimFailChangeTypeJobDownloading" devLabel="Changing the study type is currently not allowed. This study has results being downloaded at this moment. Please watch for the notification that results are finished downloading. If you wish to continue in setup we recommend you clone this study then change the clone.&#xA;" translation="Zmiana typu badania jest obecnie niedozwolona. W tej chwili są pobierane wyniki tego badania. Poczekaj na powiadomienie o zakończeniu pobierania wyników. Jeśli chcesz kontynuować ustawienia, zalecamy sklonowanie tego badania, a następnie wprowadzanie zmian w klonie.&#xA;"/>
+	<label commandName="SimFailToActivateStudy" devLabel="Failed to activate simulation study." translation="Nie można aktywować badania symulacyjnego."/>
+	<label commandName="SimFailedToCreateInstanceOfExistingModel" devLabel="Failed to create instance of existing model." translation="Nie można utworzyć wystąpienia istniejącego modelu."/>
+	<label commandName="SimFailedToCreateReport" devLabel="Failed to create Report." translation="Nie można utworzyć raportu."/>
+	<label commandName="SimFailedToOpen" devLabel="Failed to open " translation="Nie można otworzyć "/>
+	<label commandName="SimFileImageKilobytes" devLabel="KB" translation="KB"/>
+	<label commandName="SimFreeContact" devLabel="Free" translation="Swobodna"/>
+	<label commandName="SimFtgMaterialInvalid" devLabel="Material values out of limits. Simulation cannot be performed." translation="Wartości materiału przekraczają wartości graniczne. Nie można wykonać symulacji."/>
+	<label commandName="SimFtgMaterialNotFound" devLabel="Material not found in library" translation="Nie znaleziono materiału w bibliotece"/>
+	<label commandName="SimGIFFilter" devLabel="GIF (*.gif)" translation="GIF (*.gif)"/>
+	<label commandName="SimGen7DayTrialInfo" devLabel="Objective-based design exploration" translation="Badanie projektów oparte na celach"/>
+	<label commandName="SimGenCloudCreditInfo" devLabel="Cloud Credit Info" translation="Jednostki chmury — informacje"/>
+	<label commandName="SimGenTokenInfo" devLabel="Token Info" translation="Informacje o tokenach"/>
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Ogólne"/>
+	<label commandName="SimGeneralSettings" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimGeneralTab" devLabel="General" translation="Ogólne"/>
+	<label commandName="SimGenerate" devLabel="Generate" translation="Generuj"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Addytywne"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Wszystkie metody"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Skrawanie 2-osiowe"/>
+	<label commandName="SimGenerativeDesignInputsAvailableOfflineText" devLabel="Simulation Study setup information from Generative Design will be available when you are back online, but you can create a Study manually while offline." translation="Informacje o konfiguracji badania symulacyjnego z projektu generatywnego będą dostępne po powrocie do trybu online, ale badanie można utworzyć ręcznie w trybie offline."/>
+	<label commandName="SimGenerativeDesignInputsAvailableText" devLabel="This design was created with Generative Design. Do you want to create a Static Stress study using settings from the generative study?&lt;br&gt;&lt;br&gt;Click &lt;b&gt;Yes&lt;/b&gt; if you want Fusion 360 to automatically create a Static Stress study using the generative study settings. It is recommended that you check the Static Stress study before solving to make sure the settings are as you expect.&lt;br&gt;&lt;br&gt;Click &lt;b&gt;No&lt;/b&gt; if you prefer to enter the Simulation workspace to select and set up a simulation study manually.&lt;br&gt;&lt;br&gt;&lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=SIM-STUDY-FROM-GD'&gt;Learn more&lt;/a&gt;" translation="Ten projekt został utworzony za pomocą projektowania generatywnego. Czy chcesz utworzyć analizę naprężenia statycznego za pomocą ustawień z badania generatywnego?&lt;br&gt;&lt;br&gt;Kliknij przycisk &lt;b&gt;Tak&lt;/b&gt;, jeśli chcesz, aby program Fusion 360 automatycznie utworzył analizę naprężenia statycznego za pomocą ustawień badania generatywnego. Zaleca się sprawdzenie analizy naprężenia statycznego przed rozpoczęciem rozwiązywania, aby upewnić się, że ustawienia są zgodne z oczekiwaniami.&lt;br&gt;&lt;br&gt;Kliknij przycisk &lt;b&gt;Nie&lt;/b&gt;, jeśli wolisz wprowadzić obszar roboczy Symulacja, w którym można wybrać i skonfigurować badanie symulacji ręcznie.&lt;br&gt;&lt;br&gt;&lt;a href='https://help.autodesk.com/view/fusion360/PLK/?contextId=SIM-STUDY-FROM-GD'&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="SimGenerativeDesignInputsAvailableTitle" devLabel="Create a Static Stress study automatically?" translation="Czy automatycznie utworzyć analizę naprężeń statycznych?"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Odlewanie"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Frezowanie"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Nieograniczone"/>
+	<label commandName="SimGettingStartedHeader" devLabel="Welcome to the Simulation workspace, here's how to get started." translation="Witamy w obszarze roboczym Symulacja. Poniżej przedstawiono, jak rozpocząć pracę."/>
+	<label commandName="SimGettingStartedItemDoNowECOOLING" devLabel="&lt;b&gt;Electronics Cooling:&lt;/b&gt; Adjust the design of a power supply enclosure to reduce board component temperatures to below their temperature thresholds.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Chłodzenie elektroniki:&lt;/b&gt; dostosuj projekt obudowy zasilacza, aby zmniejszyć temperatury komponentu płyty do wartości poniżej progów temperatury.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowFIM" devLabel="&lt;b&gt;Injection Molding Simulation:&lt;/b&gt; Modify a hedge trimmer design to improve the fill pattern and part quality.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Symulacja formowania wtryskowego:&lt;/b&gt; zmodyfikuj projekt maszyny do przycinania żywopłotów, aby poprawić wzór wypełnienia i jakość części.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowMFA" devLabel="&lt;b&gt;Modal Frequencies:&lt;/b&gt; Adjust a tuning fork to hit the desired musical pitch.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Częstotliwości modalne:&lt;/b&gt; Regulacja widełek strojowych w celu uzyskania wymaganej wysokości tonu.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowNLSS" devLabel="&lt;b&gt;Nonlinear Static Stress:&lt;/b&gt; Load a simply-supported beam beyond its yield strength, to the verge of collapse.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Nieliniowe naprężenie statyczne:&lt;/b&gt; Obciążenie belki swobodnie podpartej ponad jej granicę plastyczności, aż do granicy zniszczenia.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowPRED" devLabel="&lt;b&gt;Dynamic Event Simulation:&lt;/b&gt; Insert a snapfit connector or roll sheet metal. See how they deform over time.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Dynamiczna symulacja zdarzeń:&lt;/b&gt; Wstawienie złącza zatrzaskowego lub walcowanej konstrukcji blachowej. Obserwowanie, jak ulegają odkształceniu w czasie.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowPREQS" devLabel="&lt;b&gt;Quasi-static Event Simulation:&lt;/b&gt; Push it, squeeze it, load it. See the stresses and large deformations, due to heavy loads applied at a constant rate.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Kwazistatyczna symulacja zdarzeń:&lt;/b&gt; Pchanie, ściskanie i obciążanie. Zobacz naprężenia i duże odkształcenia powodowane stałym oddziaływaniem dużych obciążeń.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowSBA" devLabel="&lt;b&gt;Structural Buckling:&lt;/b&gt; Simulate a compressive load on a plastic table.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Wyboczenie konstrukcyjne:&lt;/b&gt; Symulacja obciążenia ściskającego wywieranego na stół z tworzywa sztucznego.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowSHAPE" devLabel="&lt;b&gt;Shape Optimization:&lt;/b&gt; Optimize a robot gripper arm to produce a much lighter version.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Optymalizacja kształtu:&lt;/b&gt; Optymalizacja ramienia chwytaka robota w celu uzyskania znacznie lżejszej wersji.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowSSA" devLabel="&lt;b&gt;Static Stress:&lt;/b&gt; Simulate a connecting rod with a 3,600 pound tensile load.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Naprężenie statyczne:&lt;/b&gt; Symulacja łącznika z zastosowaniem obciążenia rozciągającego o wartości 3600 funtów.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowTA" devLabel="&lt;b&gt;Thermal:&lt;/b&gt; Compare temperature profiles from two different radiator designs.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Termiczne:&lt;/b&gt; Porównanie profili temperaturowych dwóch różnych konstrukcji grzejników.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemDoNowTSA" devLabel="&lt;b&gt;Thermal Stress:&lt;/b&gt; Simulate stress in a brake rotor caused by uneven heating.&lt;a href=&quot;%1%&quot;&gt;  Do now&lt;/a&gt;." translation="&lt;b&gt;Naprężenie termiczne:&lt;/b&gt; Symulacja naprężenia w tarczy hamulcowej spowodowanego nierównomiernym nagrzewaniem.&lt;a href=&quot;%1%&quot;&gt; Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowECOOLING" devLabel="&lt;b&gt;Electronics Cooling:&lt;/b&gt; Simulate the temperature. Is the design likely to overheat given natural air convection or a fan?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;" translation="&lt;b&gt;Chłodzenie elektroniki:&lt;/b&gt; Symuluj temperaturę. Czy projekt może się przegrzewać przy naturalnej konwekcji powietrza lub zastosowaniu wentylatora?&lt;a href=&quot;%1%&quot;&gt;  Obejrzyj teraz&lt;/a&gt;"/>
+	<label commandName="SimGettingStartedItemWatchNowFIM" devLabel="&lt;b&gt;Injection Molding Simulation:&lt;/b&gt; Inject plastic. How well does it fill and how much will it warp?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Symulacja formowania wtryskowego:&lt;/b&gt; Wtryskiwanie tworzywa sztucznego. Na ile dobrze wypełnia formę i jakim ulega deformacjom?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowMFA" devLabel="&lt;b&gt;Modal Frequencies:&lt;/b&gt; Shake it.  Does the design vibrate apart?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Częstotliwości modalne:&lt;/b&gt; Wstrząsanie. Czy drgania spowodują rozpad konstrukcji?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowNLSS" devLabel="&lt;b&gt;Nonlinear Static Stress:&lt;/b&gt; Large deformations, nonlinear materials, and load or contact changes?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Nieliniowe naprężenie statyczne:&lt;/b&gt; Duże odkształcenia, materiały nieliniowe oraz zmiany obciążenia lub kontaktu?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowPRED" devLabel="&lt;b&gt;Dynamic Event Simulation:&lt;/b&gt; Move it, hit it. Does it withstand rapidly changing time-dependent loads and constraints?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;" translation="&lt;b&gt;Dynamiczna symulacja zdarzeń:&lt;/b&gt; Przesuwanie i uderzanie. Czy wytrzyma gwałtowną zmianę obciążeń i ograniczeń w czasie?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;"/>
+	<label commandName="SimGettingStartedItemWatchNowPREQS" devLabel="&lt;b&gt;Quasi-static Event Simulation:&lt;/b&gt; Push it, squeeze it, load it. How does it respond to heavy loads applied at a constant rate?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;" translation="&lt;b&gt;Kwazistatyczna symulacja zdarzeń:&lt;/b&gt; Pchanie, ściskanie, obciążanie. Jaka będzie reakcja na stałe i duże obciążenia?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;"/>
+	<label commandName="SimGettingStartedItemWatchNowSBA" devLabel="&lt;b&gt;Structural Buckling:&lt;/b&gt; Compress.  Does the part or assembly collapse?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Wyboczenie konstrukcyjne:&lt;/b&gt; Ściskanie. Czy część lub zespół ulegną zniszczeniu?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowSHAPE" devLabel="&lt;b&gt;Shape Optimization:&lt;/b&gt; Want to make your part lighter without compromising strength or stiffness?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Optymalizacja kształtu:&lt;/b&gt; Chcesz obniżyć wagę części bez uszczerbku dla jej wytrzymałości lub sztywności?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowSSA" devLabel="&lt;b&gt;Static Stress:&lt;/b&gt; Push, pull or twist.  Does the design bend...or break?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Naprężenie statyczne:&lt;/b&gt; Pchanie, ciągnięcie lub skręcanie. Czy konstrukcja się zegnie, czy może pęknie?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowTA" devLabel="&lt;b&gt;Thermal:&lt;/b&gt; Apply heat.  Does the temperature get too high?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Termiczne:&lt;/b&gt; Nagrzewanie. Czy temperatura zrobi się zbyt wysoka?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedItemWatchNowTSA" devLabel="&lt;b&gt;Thermal Stress:&lt;/b&gt; Apply heat unevenly.  How much does it bend or warp?&lt;a href=&quot;%1%&quot;&gt;  Watch now&lt;/a&gt;." translation="&lt;b&gt;Naprężenie termiczne:&lt;/b&gt; Nierównomierne nagrzewanie. Jak duże będzie wygięcie lub deformacja?&lt;a href=&quot;%1%&quot;&gt; Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="SimGettingStartedTutorialHeader" devLabel="&lt;b&gt;Tutorials: learn how to setup and run each study.&lt;/b&gt;" translation="&lt;b&gt;Samouczki: dowiedz się, jak skonfigurować i przeprowadzić każde badanie.&lt;/b&gt;"/>
+	<label commandName="SimGettingStartedVideoHeader" devLabel="&lt;b&gt;Videos: learn about the studies by type.&lt;/b&gt;" translation="&lt;b&gt;Filmy: dowiedz się więcej na temat poszczególnych typów badań.&lt;/b&gt;"/>
+	<label commandName="SimHTMLFilesFilter" devLabel="Web Page (*.html)" translation="Strona internetowa (*.html)"/>
+	<label commandName="SimHealthExcluded" devLabel="Excluded" translation="Wykluczone"/>
+	<label commandName="SimHealthLostReference" devLabel="Lost Target" translation="Utracony cel"/>
+	<label commandName="SimHealthOutOfDate" devLabel="Out of date" translation="Nieaktualne"/>
+	<label commandName="SimHealthSick" devLabel="Sick" translation="Niepoprawny"/>
+	<label commandName="SimHealthSuppressed" devLabel="Suppressed" translation="Wygaszone"/>
+	<label commandName="SimHealthUnknown" devLabel="Unknown" translation="Nieznany"/>
+	<label commandName="SimHiddenGeometryWarningDialogMessage" devLabel="Bodies or components that are hidden in the browser are still included in the Simulation solve. To exclude them from the solve, use the &lt;b&gt;Remove&lt;/b&gt; tool in the Simplify environment." translation="Bryły lub komponenty ukryte w przeglądarce są nadal zawarte w rozwiązaniu symulacji. Aby wykluczyć je z rozwiązania, użyj narzędzia &lt;b&gt;Usuń&lt;/b&gt; w środowisku Uprość."/>
+	<label commandName="SimHiddenGeometryWarningDialogTitle" devLabel="Hidden bodies or components" translation="Ukryte bryły lub komponenty"/>
+	<label commandName="SimHiddenSettingsWarningDialogMessage" devLabel="Study settings that are hidden in the browser are still included in the Simulation solve. To exclude them from the solve, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; in the browser instead." translation="Ustawienia badania ukryte w przeglądarce są nadal zawarte w rozwiązaniu symulacji. Aby wykluczyć je z rozwiązania, usuń zaznaczenie pola wyboru &lt;b&gt;Włącz/wyłącz&lt;/b&gt; w przeglądarce."/>
+	<label commandName="SimHiddenSettingsWarningDialogTitle" devLabel="Hidden study settings" translation="Ukryte ustawienia badania"/>
+	<label commandName="SimHideCommand" devLabel="Hide" translation="Ukryj"/>
+	<label commandName="SimIdxForJobOperation" devLabel=" #%1%" translation=" #%1%"/>
+	<label commandName="SimImageFilesFilter" devLabel="All types (*.bmp *.gif *.jpg *.jpeg *.png *.tif *.tiff);;BMP (*.bmp);;GIF (*.gif);;JPEG (*.jpg *.jpeg);;PNG (*.png);;TIFF (*.tif *.tiff)" translation="Wszystkie typy (*.bmp *.gif *.jpg *.jpeg *.png *.tif *.tiff);;BMP (*.bmp);;GIF (*.gif);;JPEG (*.jpg *.jpeg);;PNG (*.png);;TIFF (*.tif *.tiff)"/>
+	<label commandName="SimInProgressFlag" devLabel=" (in-progress)" translation=" (w toku)"/>
+	<label commandName="SimInProgressJobPleaseWait" devLabel="Job is currently in progress. Please wait for job to complete." translation="Zadanie jest w toku. Poczekaj na zakończenie zadania."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimInputGraphDlgCollapse" devLabel="&lt;&lt;" translation="&lt;&lt;"/>
+	<label commandName="SimInputGraphDlgCurveCustom" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimInputGraphDlgCurveLabel" devLabel="Selection Curve" translation="Krzywa wyboru"/>
+	<label commandName="SimInputGraphDlgCurveLinear" devLabel="Linear ramp" translation="Rampa liniowa"/>
+	<label commandName="SimInputGraphDlgCurveSawTooth" devLabel="Saw-tooth" translation="Ząb piłowy"/>
+	<label commandName="SimInputGraphDlgCurveSin" devLabel="Sin" translation="Sinus"/>
+	<label commandName="SimInputGraphDlgCurveStep" devLabel="Step" translation="Krok"/>
+	<label commandName="SimInputGraphDlgDelete" devLabel="Delete" translation="Usuń"/>
+	<label commandName="SimInputGraphDlgDependentTitle" devLabel="Magnitude" translation="Wielkość"/>
+	<label commandName="SimInputGraphDlgExpand" devLabel="&gt;&gt;" translation="&gt;&gt;"/>
+	<label commandName="SimInputGraphDlgImportBtnTooltip" devLabel="Import Curve" translation="Importuj krzywą"/>
+	<label commandName="SimInputGraphDlgIndependentTitle" devLabel="Time" translation="Czas"/>
+	<label commandName="SimInputGraphDlgSaveBtnTooltip" devLabel="Export Curve" translation="Eksportuj krzywą"/>
+	<label commandName="SimInputGraphDlgWindowTitle" devLabel="Input Grapher" translation="Grapher wejściowy"/>
+	<label commandName="SimInputGraphDlgXAxisLabel" devLabel="Time(s)" translation="Czas (s)"/>
+	<label commandName="SimInputGraphDlgZoomBtnTooltip" devLabel="Zoom to Fit" translation="Dopasuj przez powiększenie"/>
+	<label commandName="SimInputGraphFileExtensionUnrecognized" devLabel="A file cannot be exported with that extension:  only &quot;xml&quot; and &quot;csv&quot; extensions are supported." translation="Nie można wyeksportować pliku z tym rozszerzeniem: obsługiwane są tylko rozszerzenia „xml” i „csv”."/>
+	<label commandName="SimInputGraphFileFilter" devLabel="All supported files (*.xml;*.csv)" translation="Wszystkie obsługiwane pliki (*.xml;*.csv)"/>
+	<label commandName="SimInputGrapherDelete" devLabel="Delete" translation="Usuń"/>
+	<label commandName="SimInputGrapherGrid" devLabel="Grid" translation="Siatka"/>
+	<label commandName="SimInputGrapherLoad" devLabel="Load" translation="Załaduj"/>
+	<label commandName="SimInputGrapherLockYAxis" devLabel="Lock Y Axis" translation="Zablokuj oś Y"/>
+	<label commandName="SimInputGrapherSave" devLabel="Save" translation="Zapisz"/>
+	<label commandName="SimInputGrapherZoomAll" devLabel="Zoom All" translation="Powiększ wszystko"/>
+	<label commandName="SimInvalidCurve" devLabel="Invalid curve: " translation="Nieprawidłowa krzywa: "/>
+	<label commandName="SimInvalidCurveDomain" devLabel="Curve domain (x) should be within [%1%, %2%]." translation="Domena krzywej (x) powinna mieścić się w zakresie [%1%, %2%]."/>
+	<label commandName="SimInvalidCurveRange" devLabel="Curve range (y) should be within [%1%, %2%]." translation="Zakres krzywej (y) powinien mieścić się w zakresie [%1%, %2%]."/>
+	<label commandName="SimIsolateCommand" devLabel="Isolate" translation="Wyodrębnij"/>
+	<label commandName="SimIsolateCommandDesc1" devLabel="Hides all unselected or unrelated Bodies and Components." translation="Ukrywa wszystkie niewybrane lub niepowiązane bryły i komponenty."/>
+	<label commandName="SimIsolateCommandDesc2" devLabel="It can be used for components, bodies, and study attributes such as loads. The Unisolate will show all of the components and bodies that were hidden." translation="Polecenie można stosować do komponentów, brył i atrybutów badania, takich jak obciążenia. Polecenie Zakończ izolację wyświetli wszystkie ukryte komponenty i bryły."/>
+	<label commandName="SimJPGFilter" devLabel="JPG (*.jpg * jpeg)" translation="JPG (*.jpg * jpeg)"/>
+	<label commandName="SimJobAborted" devLabel="Aborted" translation="Przerwane"/>
+	<label commandName="SimJobAbortedTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve has been aborted" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało przerwane"/>
+	<label commandName="SimJobActionTooltip" devLabel="Display details of why &lt;b&gt;%1%&lt;/b&gt; study solve was unsuccessful" translation="Wyświetl szczegóły przyczyny niepowodzenia rozwiązywania badania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="SimJobAppliedStateA360Tooltip" devLabel="Display results of &lt;b&gt;%1%&lt;/b&gt; study solve on web" translation="Wyświetl wyniki rozwiązania badania &lt;b&gt;%1%&lt;/b&gt; w Internecie"/>
+	<label commandName="SimJobAppliedStateAction" devLabel="Results" translation="Wyniki"/>
+	<label commandName="SimJobAppliedStateSceneTooltip" devLabel="Display results of &lt;b&gt;%1%&lt;/b&gt; study solve in scene" translation="Wyświetl wyniki rozwiązania badania &lt;b&gt;%1%&lt;/b&gt; w prezentacji"/>
+	<label commandName="SimJobAppliedStateSceneTooltipFail" devLabel="It's not possible to display results of &lt;b&gt;%1%&lt;/b&gt; study solve in scene while &lt;b&gt;%2%&lt;/b&gt; study is being solved on a local machine" translation="Nie można wyświetlić wyników rozwiązania badania &lt;b&gt;%1%&lt;/b&gt; w prezentacji, gdy badanie &lt;b&gt;%2%&lt;/b&gt; jest rozwiązywane na komputerze lokalnym"/>
+	<label commandName="SimJobCancelled" devLabel="Canceled" translation="Anulowano"/>
+	<label commandName="SimJobCancelledTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve has been canceled" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało anulowane"/>
+	<label commandName="SimJobCannotProceed" devLabel="This job cannot proceed because" translation="Nie można kontynuować tego zadania, ponieważ"/>
+	<label commandName="SimJobChildAbortedTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study solve has been aborted" translation="Rozwiązywanie badania %1% z &lt;b&gt;%2%&lt;/b&gt; zostało przerwane"/>
+	<label commandName="SimJobChildCancelledTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study solve has been canceled" translation="Rozwiązywanie badania %1% z &lt;b&gt;%2%&lt;/b&gt; zostało anulowane"/>
+	<label commandName="SimJobChildCompleteTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study solve has successfuly completed" translation="Rozwiązywanie badania %1% z &lt;b&gt;%2%&lt;/b&gt; zostało pomyślnie zakończone"/>
+	<label commandName="SimJobChildFailedTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study solve was unsuccessful" translation="Rozwiązywanie badania %1% z &lt;b&gt;%2%&lt;/b&gt; nie powiodło się"/>
+	<label commandName="SimJobChildProgressTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study is %3%%% complete." translation="%1% z badania &lt;b&gt;%2%&lt;/b&gt; ukończono w %3%%%."/>
+	<label commandName="SimJobChildScheduledTooltip" devLabel="%1% of &lt;b&gt;%2%&lt;/b&gt; study is scheduled." translation="Zaplanowano %1% z badania &lt;b&gt;%2%&lt;/b&gt;."/>
+	<label commandName="SimJobComplete" devLabel="Complete" translation="Gotowe"/>
+	<label commandName="SimJobCompleteTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve has successfuly completed" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało pomyślnie zakończone"/>
+	<label commandName="SimJobFail" devLabel="Fail" translation="Niepowodzenie"/>
+	<label commandName="SimJobFailedStateAction" devLabel="Details" translation="Szczegóły"/>
+	<label commandName="SimJobFailedStateTooltip" devLabel="Display details of why &lt;b&gt;%1%&lt;/b&gt; study solve was unsuccessful" translation="Wyświetl szczegóły przyczyny niepowodzenia rozwiązywania badania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="SimJobFailedStateTooltipFail" devLabel="It's not possible to display details of why &lt;b&gt;%1%&lt;/b&gt; study solve was unsuccessful while &lt;b&gt;%2%&lt;/b&gt; study is being solved on a local machine" translation="Nie można wyświetlić szczegółów dotyczących przyczyny niepowodzenia rozwiązywania badania &lt;b&gt;%1%&lt;/b&gt; podczas rozwiązywania badania &lt;b&gt;%2%&lt;/b&gt; na komputerze lokalnym"/>
+	<label commandName="SimJobFailedTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve was unsuccessful" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; nie powiodło się"/>
+	<label commandName="SimJobGenImportDesignAction" devLabel="Open Design" translation="Otwórz projekt"/>
+	<label commandName="SimJobGenOpenDesignActionTooltip" devLabel="Process and open the design from &lt;b&gt;%1%&lt;/b&gt; in a separate tab." translation="Przetwórz i otwórz projekt z &lt;b&gt;%1%&lt;/b&gt; na osobnej karcie."/>
+	<label commandName="SimJobGenViewOutcomesAction" devLabel="View Outcomes" translation="Wyświetl wyniki"/>
+	<label commandName="SimJobGenViewOutcomesActionTooltip" devLabel="View outcomes for &lt;b&gt;%1%&lt;/b&gt; in the Explore workspace." translation="Wyświetl wyniki dla &lt;b&gt;%1%&lt;/b&gt; w obszarze roboczym Eksploruj."/>
+	<label commandName="SimJobGenerativeFailedLink" devLabel="View Generative Details" translation="Wyświetl szczegóły generatywne"/>
+	<label commandName="SimJobMessagesCase" devLabel="Studies" translation="Badania"/>
+	<label commandName="SimJobPending" devLabel="Pending" translation="Oczekiwanie"/>
+	<label commandName="SimJobPendingStateAction" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="SimJobPendingStateTooltipJob" devLabel="Cancel &lt;b&gt;%1%&lt;/b&gt; study solve" translation="Anuluj rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="SimJobPendingStateTooltipSubJob" devLabel="Cancel %1% of &lt;b&gt;%2%&lt;/b&gt; study solve and entire solve" translation="Rozwiązywanie badania %1% z &lt;b&gt;%2%&lt;/b&gt; i całe rozwiązanie"/>
+	<label commandName="SimJobPendingTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study is pending" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; oczekuje na ukończenie"/>
+	<label commandName="SimJobProgressAndSubOperationTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve is %2%%% complete.&#xA;%3% is currently in progress" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało ukończone w %2%%%.&#xA;%3% jest obecnie w toku"/>
+	<label commandName="SimJobProgressTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve is %2%%% complete." translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało ukończone w %2%%%."/>
+	<label commandName="SimJobSaveDocumentFailed" devLabel="Failed to Save Document to Cloud, try again once the document is successfully saved." translation="Nie można zapisać dokumentu w chmurze. Spróbuj ponownie po pomyślnym zapisaniu dokumentu."/>
+	<label commandName="SimJobScheduled" devLabel="Scheduled" translation="Harmonogram"/>
+	<label commandName="SimJobShowOnA360Action" devLabel="Web" translation="Sieć"/>
+	<label commandName="SimJobSolveFailed" devLabel="Job Failed" translation="Zadanie nie powiodło się"/>
+	<label commandName="SimJobSolveFailedLink" devLabel="View Solve Details" translation="Wyświetl szczegóły rozwiązania"/>
+	<label commandName="SimJobSolveSuccessful" devLabel="Job Succeeded" translation="Zadanie zakończone pomyślnie"/>
+	<label commandName="SimJobSolveSuccessfulDetail" devLabel="Study: %1% in Document: %2% has finished successfully." translation="Badanie: %1% w dokumencie: %2% zakończyło się pomyślnie."/>
+	<label commandName="SimJobSolveSuccessfulLink" devLabel="View Results" translation="Wyświetl wyniki"/>
+	<label commandName="SimJobSolveUnsuccessfulDetail" devLabel="Study: %1% in Document: %2% has failed." translation="Badanie: %1% w dokumencie: %2% nie powiodło się."/>
+	<label commandName="SimJobSolving" devLabel="Solving" translation="Rozwiązywanie"/>
+	<label commandName="SimJobSolvingTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study is being solved" translation="Trwa rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="SimJobTestReplayFailAbort" devLabel="Failed to replay the script. Job has been aborted." translation="Nie można ponownie wykonać skryptu. Zadanie zostało przerwane."/>
+	<label commandName="SimJobTestReplayFailCancel" devLabel="Failed to replay the script. Job has been canceled." translation="Nie można ponownie wykonać skryptu. Zadanie zostało anulowane."/>
+	<label commandName="SimLinkedStudyFlag" devLabel=" (linked)" translation=" (połączone)"/>
+	<label commandName="SimLogFilesFilter" devLabel="Log Files (*.log)" translation="Pliki dziennika (*.log)"/>
+	<label commandName="SimManageTemplateTittle" devLabel="Organize Templates" translation="Organizowanie szablonów"/>
+	<label commandName="SimManageTemplates" devLabel="Manage Templates" translation="Zarządzaj szablonami"/>
+	<label commandName="SimMatEmptySelection" devLabel="(No component selected)" translation="(Nie wybrano komponentu)"/>
+	<label commandName="SimMatForRigid" devLabel="Note: This part is behaving as &quot;rigid&quot;. Only Density will be used by the solver." translation="Uwaga: ta część zachowuje się jak „sztywna”. W solwerze zostanie użyta tylko gęstość."/>
+	<label commandName="SimMatNonlinearMat" devLabel="Nonlinear material" translation="Materiał nieliniowy"/>
+	<label commandName="SimMatPropsCollapse" devLabel="Properties &gt;&gt;" translation="Właściwości &gt;&gt;"/>
+	<label commandName="SimMatPropsCollapseTT" devLabel="Hide study material properties for selected component." translation="Ukryj właściwości materiału badania dla wybranego komponentu."/>
+	<label commandName="SimMatPropsExpand" devLabel="&lt;&lt; Properties" translation="&lt;&lt; Właściwości"/>
+	<label commandName="SimMatPropsExpandTT" devLabel="Show study material properties of the selected component." translation="Wyświetl właściwości materiału badania wybranego komponentu."/>
+	<label commandName="SimMatViewAdvancedPropertiesBtn" devLabel="View advanced material properties" translation="Wyświetl zaawansowane właściwości materiału"/>
+	<label commandName="SimMatViewAdvancedPropertiesLbl" devLabel="Your material data is using advanced properties, click below to view it." translation="Dane materiału używają zaawansowanych właściwości, kliknij poniżej, aby je wyświetlić."/>
+	<label commandName="SimMaterialAsOriginal" devLabel="(Same as Model)" translation="(Tak jak w modelu)"/>
+	<label commandName="SimMaterialCombo" devLabel="Material" translation="Materiał"/>
+	<label commandName="SimMaterialEditCommand" devLabel="Manage Physical Materials" translation="Zarządzaj materiałami fizycznymi"/>
+	<label commandName="SimMaterialEditCommandDesc1" devLabel="Lists properties for each material in the Fusion 360 libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." translation="Wyświetla właściwości każdego materiału w bibliotekach programu Fusion 360, które określają zachowanie cieplne, mechaniczne i sprężyste materiału, jak również jego wygląd."/>
+	<label commandName="SimMaterialEditCommandDesc2" devLabel="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." translation="Przeglądarka materiałów umożliwia identyfikowanie ulubionych elementów, modyfikowanie właściwości, tworzenie nowych materiałów i zarządzanie osobistymi bibliotekami."/>
+	<label commandName="SimMaterialLibraryAll" devLabel="All Libraries" translation="Wszystkie biblioteki"/>
+	<label commandName="SimMaterialName" devLabel="Material" translation="Materiał"/>
+	<label commandName="SimMaterialProperties" devLabel="Material Properties" translation="Właściwości materiałowe"/>
+	<label commandName="SimMaterialPropertiesClose" devLabel="Close" translation="Zamknij"/>
+	<label commandName="SimMaterialPropertiesCmd" devLabel="Material Properties" translation="Właściwości materiałowe"/>
+	<label commandName="SimMaterialPropertiesDesc1" devLabel="Displays material properties." translation="Wyświetla właściwości materiału."/>
+	<label commandName="SimMaterialSelectionCombo" devLabel="Select Material" translation="Wybierz materiał"/>
+	<label commandName="SimMaxLabelColon" devLabel="Max.:" translation="Maks.:"/>
+	<label commandName="SimMeasureCommandDesc1" devLabel="Reports distance, angle, area, or position data of the selected object." translation="Raportuje dane dotyczące odległości, kąta, powierzchni lub położenia w przypadku wybranego obiektu."/>
+	<label commandName="SimMeasureCommandDesc2" devLabel="Select a vertex, edge, face, body, or component." translation="Wybierz wierzchołek, krawędź, powierzchnię, bryłę lub komponent."/>
+	<label commandName="SimMeasureTipsAndTricksDesc" devLabel="Click a value in the dialog to copy the value to the clipboard." translation="Kliknij wartość w oknie dialogowym, aby skopiować ją do schowka."/>
+	<label commandName="SimMeasureTipsAndTricksTips" devLabel="Select the geometry to measure. The results reported are determined by the type of geometry selected. The measurement is the minimun distance between the two selections." translation="Wybierz geometrię do pomiaru. Raportowane wyniki zależą od typu wybranej geometrii. Pomiar określa minimalną odległość między dwoma wybranymi elementami."/>
+	<label commandName="SimMeasureTipsAndTricksTitle" devLabel="Measure Information" translation="Zmierz — informacje"/>
+	<label commandName="SimMechanicalUnableToExport" devLabel="Error: Unable to export to Ansys® Mechanical™" translation="Błąd: nie można wyeksportować do Ansys® Mechanical™"/>
+	<label commandName="SimMechanicalZipFailed" devLabel="Error: Unable to zip up Scalaris files" translation="Błąd: nie można skompresować plików programu Scalaris"/>
+	<label commandName="SimMeshSettings" devLabel="Mesh Settings" translation="Ustawienia siatki"/>
+	<label commandName="SimMeshSettingsDesc1" devLabel="View and modify mesh definition for whole model." translation="Wyświetlanie i modyfikowanie definicji siatki dla całego modelu."/>
+	<label commandName="SimMeshSettingsDesc2" devLabel="Customize the mesh distribution for your simulation study. It is a good idea to check the mesh using the Generate Mesh command prior to running the simulation." translation="Dostosuj rozkład siatki do badania symulacyjnego. Przed uruchomieniem symulacji warto sprawdzić siatkę za pomocą polecenia Generuj siatkę."/>
+	<label commandName="SimMinLabelColon" devLabel="Min.:" translation="Min.:"/>
+	<label commandName="SimNOI" devLabel="Not implemented" translation="Nie zaimplementowano"/>
+	<label commandName="SimNewGenerativeStudy" devLabel="New Generative Study" translation="Nowe badanie generatywne"/>
+	<label commandName="SimNewSimulationStudyDesc1" devLabel="Creates a new simulation study." translation="Tworzy nowe badanie symulacyjne."/>
+	<label commandName="SimNewSimulationStudyDesc2" devLabel="Select a study type and define settings specific to this study type. " translation="Wybierz typ badania i zdefiniuj ustawienia specyficzne dla tego typu badania. "/>
+	<label commandName="SimNewSimulationStudyFromGenerativeDesignDesc1" devLabel="Creates a new Static Stress simulation study from the setup of a generative study." translation="Tworzy nowe badanie symulacyjne naprężeń statycznych na podstawie ustawienia badania generatywnego."/>
+	<label commandName="SimNewSimulationStudyFromGenerativeDesignDesc2" devLabel="The new study has the same load case attributes as the generative study. The material from the selected outcome is applied. Select the same units as for the outcome in the Explore workspace." translation="Nowe badanie ma takie same atrybuty przypadku obciążenia jak badanie generatywne. Materiał z wybranego wyniku został zastosowany. Wybierz te same jednostki, co dla wyniku w obszarze roboczym Eksploruj."/>
+	<label commandName="SimNewStudy" devLabel="New Study" translation="Nowe badanie"/>
+	<label commandName="SimNewStudyTemplateTitle" devLabel="New Study Template" translation="Nowy szablon badania"/>
+	<label commandName="SimNoSelection" devLabel="No selection." translation="Brak wyboru."/>
+	<label commandName="SimNoStudiesCanBeSolved" devLabel="No studies can be solved" translation="Nie można rozwiązać żadnych badań"/>
+	<label commandName="SimNoStudySelected" devLabel="No study selected for being saved as a template." translation="Nie wybrano badania do zapisania jako szablon."/>
+	<label commandName="SimNoStudySelectedForActivation" devLabel="No study selected for being activated." translation="Nie wybrano badania do aktywacji."/>
+	<label commandName="SimOK" devLabel="OK" translation="OK"/>
+	<label commandName="SimOk" devLabel="OK" translation="OK"/>
+	<label commandName="SimOptimizationSetupConditionAboveEqualText" devLabel="&gt; OR =" translation="&gt; LUB ="/>
+	<label commandName="SimOptimizationSetupConditionAboveText" devLabel="&gt;" translation="&gt;"/>
+	<label commandName="SimOptimizationSetupConditionBelowEqualText" devLabel="&lt; OR =" translation="&lt; LUB ="/>
+	<label commandName="SimOptimizationSetupConditionBelowText" devLabel="&lt;" translation="&lt;"/>
+	<label commandName="SimOptimizationSetupConditionEqualText" devLabel="=" translation="="/>
+	<label commandName="SimOptimizationSetupConditionIsText" devLabel="is" translation="jest"/>
+	<label commandName="SimOptimizationSetupConditionNAText" devLabel="N/A" translation="Nie dotyczy"/>
+	<label commandName="SimOptimizationSetupConstraintsRowText" devLabel="Global Constraints" translation="Wiązania globalne"/>
+	<label commandName="SimOptimizationSetupExpressionsColumn" devLabel="Expression" translation="Wyrażenie"/>
+	<label commandName="SimOptimizationSetupGoalTextEmpty" devLabel="None" translation="Brak"/>
+	<label commandName="SimOptimizationSetupGoalTextExplore" devLabel="Explore" translation="Eksploruj"/>
+	<label commandName="SimOptimizationSetupGoalTextMax" devLabel="Maximize" translation="Maksymalizuj"/>
+	<label commandName="SimOptimizationSetupGoalTextMin" devLabel="Minimize" translation="Minimalizuj"/>
+	<label commandName="SimOptimizationSetupLoadCaseRowText" devLabel="%1% Constraints" translation="Wiązania %1%"/>
+	<label commandName="SimOptimizationSetupObjectivesRowText" devLabel="Global Objectives" translation="Cele globalne"/>
+	<label commandName="SimOptimizationSetupParametersColumn" devLabel="Parameter" translation="Parametr"/>
+	<label commandName="SimOptimizationSetupUnitsColumn" devLabel="Units" translation="Jednostki"/>
+	<label commandName="SimOptimizationSetupValuesColumn" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimOptimizationSetupWidgetAllAttrsInUse" devLabel="All available parameters are currently being used in this section.  Please select one you would like to edit." translation="Wszystkie dostępne parametry są obecnie używane w tej sekcji. Wybierz jeden z nich do edycji."/>
+	<label commandName="SimOverrideMaterialDesc1" devLabel="Compares the materials chosen for the Simulation model against those in the Design model, and enables you to change the Simulation model materials." translation="Porównuje materiały wybrane pod kątem modelu symulacji z materiałami w modelu projektu i umożliwia zmianę materiałów modelu symulacji."/>
+	<label commandName="SimOverrideMaterialDesc2" devLabel="For accurate results, make sure you assign materials to your Simulation model that best represent the actual material that will be used for production." translation="Aby uzyskać dokładne wyniki, należy przypisać do modelu symulacji materiały, które najlepiej odzwierciedlają rzeczywisty materiał, który ma zostać użyty do produkcji."/>
+	<label commandName="SimOverrideMaterialDialogName" devLabel="Study Materials" translation="Materiały badania"/>
+	<label commandName="SimOverrideMaterialSelectionCommandInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="SimOverrideMaterialSetupWidgetInput" devLabel="Setup" translation="Ustawienia"/>
+	<label commandName="SimOverrideMaterialWidgetComponentPath" devLabel="Component Path" translation="Ścieżka komponentu"/>
+	<label commandName="SimOverrideMaterialWidgetDesignMaterial" devLabel="Design Material" translation="Materiał projektu"/>
+	<label commandName="SimOverrideMaterialWidgetLibrary" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="SimOverrideMaterialWidgetLibraryLabel" devLabel="Material Library" translation="Biblioteka materiałów"/>
+	<label commandName="SimOverrideMaterialWidgetLibraryTooltip" devLabel="Select a library to filter the material choice under the Study Material." translation="Wybierz bibliotekę, aby filtrować wybrane materiały w obszarze Materiał badania."/>
+	<label commandName="SimOverrideMaterialWidgetStudyMaterial" devLabel="Study Material" translation="Materiał badania"/>
+	<label commandName="SimOverrideMaterialWidgetViewAllMaterials" devLabel="All Materials" translation="Wszystkie materiały"/>
+	<label commandName="SimOverrideMaterialWidgetViewMaterialsWithInvalidProperties" devLabel="Materials with Invalid Properties" translation="Materiały z nieprawidłowymi właściwościami"/>
+	<label commandName="SimOverrideMaterialWidgetViewMaterialsWithOverrides" devLabel="Materials with Overrides" translation="Materiały z nadpisaniami"/>
+	<label commandName="SimOverrideMaterialWidgetWindowTitle" devLabel="Study Materials" translation="Materiały badania"/>
+	<label commandName="SimPDFFilesFilter" devLabel="PDF Document (*.pdf)" translation="Dokument PDF (*.pdf)"/>
+	<label commandName="SimPNGFilter" devLabel="PNG (*.png)" translation="PNG (*.png)"/>
+	<label commandName="SimPassedValidation" devLabel="Pre-check validation passed successfully." translation="Sprawdzenie wstępne zakończyło się pomyślnie."/>
+	<label commandName="SimProceedWithWarnings" devLabel="Ready to %1% with Warnings" translation="Gotowość do: %1% (z ostrzeżeniami)"/>
+	<label commandName="SimProgressOfCloudSolvesIsNotBeingTracked" devLabel="Progress of cloud solves is not being tracked in offline mode." translation="Postęp rozwiązywania w chmurze nie jest śledzony w trybie offline."/>
+	<label commandName="SimProjectPropertiersTab" devLabel="Project Properties" translation="Właściwości projektu"/>
+	<label commandName="SimPurgeAll" devLabel="Purge all" translation="Usuń wszystko"/>
+	<label commandName="SimPurgeOld" devLabel="Purge old" translation="Usuń stare"/>
+	<label commandName="SimPurgeOldToolTip" devLabel="Keep only last solve messages for every study" translation="Zachowaj tylko ostatnie komunikaty rozwiązania dla każdego badania"/>
+	<label commandName="SimRangeLabelColon" devLabel="Range:" translation="Zakres:"/>
+	<label commandName="SimRangeTo" devLabel="To" translation="Do"/>
+	<label commandName="SimReadyTo" devLabel="Ready to %1%" translation="Gotowość do: %1%"/>
+	<label commandName="SimReattachConstraints" devLabel="Automatically Remattach Constraints" translation="Automatycznie dołącz ponownie wiązania"/>
+	<label commandName="SimReattachConstraintsTooltip" devLabel="TODO" translation="DO ZROBIENIA"/>
+	<label commandName="SimReattachLoads" devLabel="Automatically Remattach Loads" translation="Automatycznie dołącz ponownie obciążenia"/>
+	<label commandName="SimReattachLoadsTooltip" devLabel="TODO" translation="DO ZROBIENIA"/>
+	<label commandName="SimRemoveRigidBodyTargetCommand" devLabel="Remove" translation="Skasuj"/>
+	<label commandName="SimReport" devLabel="Report" translation="Report"/>
+	<label commandName="SimReportAddRow" devLabel="Add" translation="Dodaj"/>
+	<label commandName="SimReportDesc1" devLabel="Generate a report summarizing your simulation setup and results." translation="Wygeneruj raport podsumowujący ustawienia i wyniki symulacji."/>
+	<label commandName="SimReportDesc2" devLabel="Select the report type, format, and general information. Choose the model details and simulation results to be included in the report." translation="Wybierz typ raportu, format i informacje ogólne. Wybierz szczegóły modelu i wyniki symulacji, które mają być uwzględnione w raporcie."/>
+	<label commandName="SimReportFormatDynamicCheck" devLabel="Use Dynamic Content (Javascript)" translation="Użyj zawartości dynamicznej (JavaScript)"/>
+	<label commandName="SimReportFormatHTMLEmbededImages" devLabel="Web Page - embeded images (*.html)" translation="Strona internetowa — osadzone obrazy (*.html)"/>
+	<label commandName="SimReportFormatLable" devLabel="Report Format:" translation="Format raportu:"/>
+	<label commandName="SimReportGenerateProgressText" devLabel="Generating your report" translation="Generowanie raportu"/>
+	<label commandName="SimReportImageSize" devLabel="Image Size (w x h)" translation="Rozmiar obrazu (szer. x wys.)"/>
+	<label commandName="SimReportLogoCheck" devLabel="Logo" translation="Logo"/>
+	<label commandName="SimReportMiddleName" devLabel="_Report_" translation="_Raport_"/>
+	<label commandName="SimReportPreviewProgressText" devLabel="Preparing your report" translation="Przygotowanie raportu"/>
+	<label commandName="SimReportPrompt" devLabel="The following problem is found:" translation="Znaleziono następujący problem:"/>
+	<label commandName="SimReportPropertiersTab" devLabel="Report Properties" translation="Właściwości raportu"/>
+	<label commandName="SimReportPropertiesProject" devLabel="Project" translation="Rzutowanie"/>
+	<label commandName="SimReportPropertiesStatus" devLabel="Status" translation="Stan:"/>
+	<label commandName="SimReportPropertiesSummary" devLabel="Summary" translation="Podsumowanie"/>
+	<label commandName="SimReportPropsTableProperty" devLabel="Property" translation="Własność"/>
+	<label commandName="SimReportPropsTableValue" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimReportRemoveRow" devLabel="Remove" translation="Skasuj"/>
+	<label commandName="SimReportReset" devLabel="Reset" translation="Resetuj"/>
+	<label commandName="SimReportTitleValue" devLabel="Study Report" translation="Raport z badania"/>
+	<label commandName="SimResultsInvalidated" devLabel="Results currently solved will be out of date." translation="Aktualnie rozwiązane wyniki będą nieaktualne."/>
+	<label commandName="SimResultsInvalidatedDetails" devLabel="Study has been just modified. Job currently in progress may provide out of date results. Please click here if you wish to cancel the job currently in progress. You may also consider undoing your changes to the study." translation="Badanie zostało zmodyfikowane. Aktualnie wykonywane zadanie może dostarczyć nieaktualnych wyników. Kliknij tutaj, aby anulować bieżące zadanie. Możesz również rozważyć cofnięcie zmian w badaniu."/>
+	<label commandName="SimRigidBodyCmdWarningMessage" devLabel="One or more Constraints on the selected Body are not compatible with the Rigid Body attribute and will be deleted." translation="Co najmniej jedno wiązanie w wybranej bryle nie jest zgodne z atrybutem Ciało sztywne i zostanie usunięte."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSaveDetails" devLabel="Save" translation="Zapisz"/>
+	<label commandName="SimSaveDetailsToolTip" devLabel="Save text file" translation="Zapisz plik tekstowy"/>
+	<label commandName="SimSaveReportAs" devLabel="Save Report As" translation="Zapisz raport jako"/>
+	<label commandName="SimSaveSolveDetials" devLabel="Save" translation="Zapisz"/>
+	<label commandName="SimSaveStudyAsTemplate" devLabel="Save as Template" translation="Zapisz jako szablon"/>
+	<label commandName="SimScalarisZipFailedLocal" devLabel="Error: Unable to zip up Scalaris files" translation="Błąd: nie można skompresować plików programu Scalaris"/>
+	<label commandName="SimSelectAllOccurrencesCommand" devLabel="Select All Occurrences" translation="Wybierz wszystkie wystąpienia"/>
+	<label commandName="SimSelectAllOccurrencesCommandDesc1" devLabel="Selects other instances of the same body and component automatically." translation="Automatycznie wybiera inne wystąpienia tej samej bryły i tego samego komponentu."/>
+	<label commandName="SimSelectBodiesByName" devLabel="Select By Name" translation="Wybierz według nazwy"/>
+	<label commandName="SimSelectBodiesBySize" devLabel="Select By Size" translation="Wybierz według rozmiaru"/>
+	<label commandName="SimSelectBodiesBySizeCommandDefDesc1" devLabel="Selects objects based on size." translation="Wybiera obiekty w oparciu o rozmiar."/>
+	<label commandName="SimSelectBodiesBySizeCommandDefDesc2" devLabel="Use the slider bars or directly input minimum and maximum size values to select objects." translation="Użyj suwaków lub wprowadź bezpośrednio minimalną i maksymalną wartość rozmiaru, aby wybrać obiekty."/>
+	<label commandName="SimSelectBodiesLocationText" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="SimSelectBodyLocationText" devLabel="Body" translation="Bryła"/>
+	<label commandName="SimSelectByBoundaryCommand" devLabel="Select By Boundary" translation="Wybierz według obwiedni"/>
+	<label commandName="SimSelectByBoundaryCommandDefDesc1" devLabel="Selects objects defined by boundaries." translation="Wybiera obiekty zdefiniowane przez obwiednie."/>
+	<label commandName="SimSelectByBoundaryCommandDefDesc2" devLabel="Set the centroid, shape, and shape direction of the boundary. Specify if objects are selected within the boundary and if they can intersect the boundary." translation="Ustaw centroidę, kształt i kierunek kształtu obwiedni. Określ, czy obiekty wewnątrz obwiedni mają być wybrane oraz czy mogą one przecinać obwiednię."/>
+	<label commandName="SimSelectByInvertCommand" devLabel="Invert Selection" translation="Odwróć wybór"/>
+	<label commandName="SimSelectByInvertCommandDesc1" devLabel="Inverts the active selection by obeying the options of Selection Tools and Selection Filters." translation="Odwraca aktywny wybór, uwzględniając ustawienia narzędzi wyboru i filtrów wyboru."/>
+	<label commandName="SimSelectByNameCommandDefDesc1" devLabel="Selects objects by name." translation="Wybiera obiekty według nazwy."/>
+	<label commandName="SimSelectByNameCommandDefDesc2" devLabel="Enter the object name and set the type. Find the object and select if appropriate." translation="Wprowadź nazwę obiektu i ustaw typ. Znajdź obiekt i w razie potrzeby go wybierz."/>
+	<label commandName="SimSelectEdgeLocationText" devLabel="Edge" translation="Krawędź"/>
+	<label commandName="SimSelectEdgesLocationText" devLabel="Edges" translation="Krawędzie"/>
+	<label commandName="SimSelectFaceLocationText" devLabel="Face" translation="Powierzchnia"/>
+	<label commandName="SimSelectFacesLocationText" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="SimSelectGenerativeSimCasesLabel" devLabel="Select Studies to clone with the Generative Model." translation="Wybierz opcję Badania do sklonowania z modelem generatywnym."/>
+	<label commandName="SimSelectSimCases" devLabel="Clone Model" translation="Klonuj model"/>
+	<label commandName="SimSelectSimCasesDlgSelectAll" devLabel="Select All" translation="Wybierz wszystko"/>
+	<label commandName="SimSelectSimCasesLabel" devLabel="Select Studies to clone with the Model." translation="Wybierz opcję Badania do sklonowania z modelem."/>
+	<label commandName="SimSelectSimilarOccurrencesCommand" devLabel="Select Similar Occurrences" translation="Wybierz podobne wystąpienia"/>
+	<label commandName="SimSelectSimilarOccurrencesCommandDesc1" devLabel="Selects other bodies in the model that resemble the same dimensions." translation="Wybiera inne bryły o podobnych wymiarach w modelu."/>
+	<label commandName="SimSelectSimulationSimCasesLabel" devLabel="Select Studies to clone with the Simulation Model." translation="Wybierz opcję Badania do sklonowania z modelem symulacji."/>
+	<label commandName="SimSelectVertexLocationText" devLabel="Vertex" translation="Wierzchołek"/>
+	<label commandName="SimSelectVerticesLocationText" devLabel="Vertices" translation="Wierzchołki"/>
+	<label commandName="SimServiceMgrOutdatedFusionTitle" devLabel="Outdated Fusion" translation="Nieaktualna platforma Fusion"/>
+	<label commandName="SimSettings" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimSettingsTitle" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimShowCommand" devLabel="Show" translation="Pokaż"/>
+	<label commandName="SimShowJobsDlgCmd" devLabel="Job Status" translation="Stan zadania"/>
+	<label commandName="SimSolve" devLabel="Solve" translation="Rozwiąż"/>
+	<label commandName="SimSolveActions" devLabel="Action" translation="Działanie"/>
+	<label commandName="SimSolveConfiguration" devLabel="Configuration" translation="Konfiguracja"/>
+	<label commandName="SimSolveDetails" devLabel="Solve Details" translation="Szczegóły rozwiązania"/>
+	<label commandName="SimSolveDlgBasicAccess" devLabel="Studies cannot be solved because you have Basic Access." translation="Nie można rozwiązać badań, ponieważ masz dostęp podstawowy."/>
+	<label commandName="SimSolveDocument" devLabel="Document" translation="Dokument"/>
+	<label commandName="SimSolveModel" devLabel="Model" translation="Model"/>
+	<label commandName="SimSolveName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="SimSolvePreparingNewJobs" devLabel="New job(s) are being prepared..." translation="Trwa przygotowywanie nowych zadań..."/>
+	<label commandName="SimSolveScheduled" devLabel="Scheduled" translation="Harmonogram"/>
+	<label commandName="SimSolveSettings" devLabel="Solve Settings" translation="Ustawienia rozwiązywania"/>
+	<label commandName="SimSolveStatus" devLabel="Status" translation="Stan"/>
+	<label commandName="SimSolveStudy" devLabel="Study" translation="Badanie"/>
+	<label commandName="SimSolvingNotificationMessageLocalSolve" devLabel="Study: %1% in Document: %2% has started successfully." translation="Badanie: %1% w dokumencie: %2% zostało pomyślnie uruchomione."/>
+	<label commandName="SimSolvingNotificationTitleLocalSolve" devLabel="Local Job Started" translation="Zadanie lokalne rozpoczęte"/>
+	<label commandName="SimStateCanceled" devLabel="Solve canceled" translation="Rozwiązywanie anulowane"/>
+	<label commandName="SimStateComplete" devLabel="Solve completed" translation="Rozwiązywanie zakończone"/>
+	<label commandName="SimStateFailed" devLabel="Solve failed" translation="Rozwiązywanie nie powiodło się"/>
+	<label commandName="SimStateInProgress" devLabel="Solve in progress..." translation="Trwa rozwiązywanie..."/>
+	<label commandName="SimStateOutOfDate" devLabel="Out of date results" translation="Nieaktualne wyniki"/>
+	<label commandName="SimStateTemplates" devLabel="Templates" translation="Szablony"/>
+	<label commandName="SimStudiesColon" devLabel="Studies: " translation="Badania: "/>
+	<label commandName="SimStudyInProgressJobScheduledTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study solve is %2%%% complete.&#xA;%3% is currently scheduled for solve" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; zostało ukończone w %2%%%.&#xA;Rozwiązanie badania %3% jest obecnie zaplanowane"/>
+	<label commandName="SimStudyMaterials" devLabel="Study Materials" translation="Materiały badania"/>
+	<label commandName="SimStudyNotEntitled" devLabel="Cannot solve: your account does not have permission to solve this study type" translation="Nie można rozwiązać: konto nie ma uprawnień do rozwiązywania tego typu badania"/>
+	<label commandName="SimStudyScheduledTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study is scheduled." translation="Badanie &lt;b&gt;%1%&lt;/b&gt; jest zaplanowane."/>
+	<label commandName="SimSuppressAppearanceCmd" devLabel="Display Study Material Colors" translation="Wyświetl kolory materiałów badania"/>
+	<label commandName="SimSuppressAppearanceCommandDesc1" devLabel="Colors the model according to the materials selected for the Simulation study." translation="Umożliwia pokolorowanie modelu zgodnie z materiałami wybranymi do badania symulacyjnego."/>
+	<label commandName="SimSuppressAppearanceCommandDesc2" devLabel="When this option is not selected, the study material colors are hidden and the Design workspace material colors are shown instead." translation="Gdy ta opcja nie jest wybrana, kolory materiałów badania są ukryte, a wyświetlane są kolory materiałów obszaru roboczego projektowania."/>
+	<label commandName="SimSuppressCommand" devLabel="Suppress" translation="Wygaś"/>
+	<label commandName="SimSuppressed" devLabel="(Suppressed)" translation="(Wyłączone)"/>
+	<label commandName="SimSuppressedByPointMass" devLabel="(Suppressed by Point Mass)" translation="(Wyłączone na podstawie masy punktu)"/>
+	<label commandName="SimSurfaceTransparencyCmd" devLabel="Transparent Surfaces Toggle" translation="Przełącz powierzchnie przezroczyste"/>
+	<label commandName="SimSwitchToFusionAndRunInterferencesCommand" devLabel="Switch and check Interference" translation="Przełącz i sprawdź przenikania"/>
+	<label commandName="SimSwitchToPostProcessing" devLabel="View Results" translation="Wyświetl wyniki"/>
+	<label commandName="SimSwitchToPreviewMesh" devLabel="Mesh View" translation="Widok siatki"/>
+	<label commandName="SimSwitchToPreviewMeshDesc1" devLabel="Display model using computed mesh." translation="Wyświetl model, używając obliczonej siatki."/>
+	<label commandName="SimSyncCamera" devLabel="Synchronize Camera" translation="Synchronizuj kamerę"/>
+	<label commandName="SimTemplateBrowseThumbnail" devLabel="Browse for thumbnail" translation="Wyszukaj miniaturę"/>
+	<label commandName="SimTemplateDescription" devLabel="Description" translation="Opis"/>
+	<label commandName="SimTemplateGeneral" devLabel="General" translation="Ogólne"/>
+	<label commandName="SimTemplateName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="SimTemplateNoStudies" devLabel="No Study is selected!" translation="Nie wybrano badania!"/>
+	<label commandName="SimTemplatePreview" devLabel="Thumbnail" translation="Miniatura"/>
+	<label commandName="SimTemplateStudies" devLabel="Studies" translation="Badania"/>
+	<label commandName="SimTemplates" devLabel="Templates: " translation="Szablony: "/>
+	<label commandName="SimTextItemDoubleClick" devLabel="Double-Click to activate" translation="Kliknij dwukrotnie, aby aktywować"/>
+	<label commandName="SimThumbnailBrowse" devLabel="Browse" translation="Przeglądaj"/>
+	<label commandName="SimToggleSuppress" devLabel="Toggle Suppress" translation="Włącz/wyłącz"/>
+	<label commandName="SimTokenInfoInfo" devLabel="Token Info" translation="Informacje o tokenach"/>
+	<label commandName="SimTokensInfo" devLabel="The tokens are used only if solve succeeds." translation="Tokeny są pobierane tylko wtedy, gdy rozwiązywanie zakończy się powodzeniem."/>
+	<label commandName="SimTokensTitle" devLabel="TOKENS" translation="TOKENY"/>
+	<label commandName="SimUndoIsolateAllCommand" devLabel="Unisolate All" translation="Zakończ izolację wszystkich"/>
+	<label commandName="SimUndoIsolateCommand" devLabel="Unisolate" translation="Anuluj izolowanie"/>
+	<label commandName="SimUnisolateCommandDesc1" devLabel="Reverts all isolations." translation="Cofa wszystkie izolacje."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procentowo"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+	<label commandName="SimUnknownStudyType" devLabel="This is unknown study type. The functionality is limited. All changes (except model changes) in this study won't be saved!" translation="To jest nieznany typ badania. Funkcjonalność jest ograniczona. Żadne zmiany (z wyjątkiem zmian modelu) w tym badaniu nie zostaną zapisane!"/>
+	<label commandName="SimUnsupportedBodyType" devLabel="(Unsupported body type)" translation="(Nieobsługiwany typ bryły)"/>
+	<label commandName="SimUnsuppressCommand" devLabel="Unsuppress" translation="Włącz"/>
+	<label commandName="SimUnsuppressOnlyOneAttributeAllowed" devLabel="One or more of the loads being unsuppressed are only allowed to be active in a single load case in this study.  Loads in other load cases will be suppressed." translation="Co najmniej jedno wyłączane obciążenie może być aktywne tylko w pojedynczym przypadku obciążenia w tym badaniu. Obciążenia w innych przypadkach obciążenia zostaną wyłączone."/>
+	<label commandName="SimUpToDateMesh" devLabel="Mesh is already available and up-to-date." translation="Siatka jest już dostępna i aktualna."/>
+	<label commandName="SimUpToDateResults" devLabel="Results are already available and up-to-date." translation="Wyniki są już dostępne i aktualne."/>
+	<label commandName="SimUpdate" devLabel="Update Simulation Study" translation="Aktualizuj badanie symulacyjne"/>
+	<label commandName="SimUpdateDesc1" devLabel="Update Active Simulation Study" translation="Aktualizuj aktywne badanie symulacyjne"/>
+	<label commandName="SimUpdateFromDownloadedRslts" devLabel="Update simulation study results from cloud storage." translation="Aktualizuj wyniki badania symulacyjnego z magazynu w chmurze."/>
+	<label commandName="SimUpdateMaterial" devLabel="Update Material" translation="Uaktualnij materiał"/>
+	<label commandName="SimV2ViewResultsAction" devLabel="Results" translation="Wyniki"/>
+	<label commandName="SimV2ViewResultsTooltip" devLabel="Display results of &lt;b&gt;%1%&lt;/b&gt; study solve" translation="Wyświetl wyniki rozwiązania badania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="SimVisibilityAllCommand" devLabel="Show All Components" translation="Pokaż wszystkie komponenty"/>
+	<label commandName="SimVisibilityAllCommand1" devLabel="Show All Components" translation="Pokaż wszystkie komponenty"/>
+	<label commandName="SimVisibilityAllCommand2" devLabel="Show All Bodies" translation="Pokaż wszystkie bryły"/>
+	<label commandName="SimWantToContinue" devLabel="Are you sure you want to continue?" translation="Czy na pewno chcesz kontynuować?"/>
+	<label commandName="SimpleShearRangeErrorMessage" devLabel="The Shear Tangent value must be greater than or equal to zero.The Engineering Stress value must greater than or equal to zero." translation="Wartość ścinania stycznego musi być równa zero lub większa. Wartość naprężenia obliczeniowego musi być równa zero lub większa."/>
+	<label commandName="SimpleTensionRangeErrorMessage" devLabel="The Stretch Ratio value must be greater than zero.The Engineering Stress value must be greater than or equal to zero." translation="Wartość współczynnika rozciągania musi być większa od zera. Wartość naprężenia obliczeniowego musi być równa zero lub większa."/>
+	<label commandName="Simple_Shear_Engineering_Stress" devLabel="Engineering Stress" translation="Naprężenie obliczeniowe"/>
+	<label commandName="Simple_Shear_Shear_Tangent" devLabel="Shear Tangent" translation="Ścinanie styczne"/>
+	<label commandName="Simple_Tension_Compression_Engineering_Stress" devLabel="Engineering Stress" translation="Naprężenie obliczeniowe"/>
+	<label commandName="Simple_Tension_Compression_Stretch_Ratio" devLabel="Stretch Ratio" translation="Współczynnik rozciągania"/>
+	<label commandName="SimplifyModelDesc" devLabel="Choose &quot;Simplify...&quot; to clean up your CAD model for simulation, or select a study type from the left and &quot;Create Study&quot;. You can also choose to simplify your model after you've created a study." translation="Wybierz opcję „Uprość...”, aby wyczyścić model CAD na potrzeby symulacji, lub wybierz typ badania z lewej strony i opcję „Utwórz badanie”. Możesz również wybrać opcję uproszczenia modelu po utworzeniu badania."/>
+	<label commandName="SimplifyModelLabel" devLabel="Simplify" translation="Uprość"/>
+	<label commandName="SimplifyModelName" devLabel="Simplify geometry for use in Simulation" translation="Uprość geometrię do użycia w symulacji"/>
+	<label commandName="SimtitleGenerateJobMessages" devLabel="Generate Details" translation="Szczegóły generowania"/>
+	<label commandName="SimtitleJobMessages" devLabel="Solve Details" translation="Szczegóły rozwiązania"/>
+	<label commandName="SimtitleMaterialProperties" devLabel="Material Properties" translation="Właściwości materiałowe"/>
+	<label commandName="SimulationEnvironment" devLabel="Simulation" translation="Symulacja"/>
+	<label commandName="SimulationScalarisToFile" devLabel="Export to Ansys® Setup" translation="Eksportuj do ustawień Ansys®"/>
+	<label commandName="SimulationStudiesBrowserText" devLabel="(Simulations)" translation="(Symulacje)"/>
+	<label commandName="SinInputGrapherClear" devLabel="Clear" translation="Wyczyść"/>
+	<label commandName="Slop" devLabel="Slop" translation="Nachylenie"/>
+	<label commandName="Slope_After_EnduranceLimit" devLabel="Be" translation="Do"/>
+	<label commandName="SolverContactsDisabled" devLabel=" (Disabled)" translation=" (Wyłączone)"/>
+	<label commandName="SolverContactsEnabled" devLabel=" (Enabled)" translation=" (Włączone)"/>
+	<label commandName="SpecificHeatRangeErrorMessage" devLabel="The Specific Heat value must be greater than or equal to zero." translation="Wartość ciepła właściwego musi być równa zero lub większa."/>
+	<label commandName="Specific_Heat" devLabel="Specific Heat" translation="Ciepło właściwe"/>
+	<label commandName="Specific_Heat_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="StopDofTT" devLabel="Close" translation="Zamknij"/>
+	<label commandName="Strain" devLabel="Strain" translation="Odkształcenie"/>
+	<label commandName="Stress" devLabel="Stress" translation="Naprężenie"/>
+	<label commandName="SurfaceProbesCmd" devLabel="Surface Probes" translation="Sondy powierzchni"/>
+	<label commandName="SurfaceProbesDesc1" devLabel="Uses labels to show you critical data at surface locations of importance to you." translation="Wykorzystuje etykiety do wyświetlania kluczowych danych w ważnych położeniach powierzchni."/>
+	<label commandName="SurfaceProbesDesc2" devLabel="Probe as many points as necessary. Hover to preview the data, click the surface to attach the labels, and select OK to save the probe locations." translation="Umieść sondy w dowolnej liczbie punktów. Najedź kursorem, aby wyświetlić podgląd danych, kliknij powierzchnię, aby dołączyć etykiety, i wybierz przycisk OK, aby zapisać położenia sond."/>
+	<label commandName="SwitchToFusion" devLabel="Switch to Fusion Model" translation="Przełącz na model Fusion"/>
+	<label commandName="SwitchToFusionDesc1" devLabel="Go to the Model workspace where you can view and edit the model." translation="Przejdź do obszaru roboczego Model, w którym można przeglądać i edytować model."/>
+	<label commandName="TableDeleteExplicitContacts" devLabel="Delete Contacts" translation="Usuń kontakty"/>
+	<label commandName="TableEditContactTypeExplicitContact" devLabel="Switch Contact Type" translation="Przełącz typ kontaktu"/>
+	<label commandName="TableEditExplicitContact" devLabel="Edit Contact" translation="Edytuj kontakt"/>
+	<label commandName="TableSuppressExplicitContact" devLabel="Suppress Contact" translation="Wyłącz kontakt"/>
+	<label commandName="TableSuppressExplicitContacts" devLabel="Suppress Contacts" translation="Wyłącz kontakty"/>
+	<label commandName="TableTableDeleteExplicitContact" devLabel="Delete Contact" translation="Usuń kontakt"/>
+	<label commandName="TableUnSuppressExplicitContact" devLabel="Unsuppress Contact" translation="Włącz kontakt"/>
+	<label commandName="TableUnSuppressExplicitContacts" devLabel="Unsuppress Contacts" translation="Włącz kontakty"/>
+	<label commandName="TableWidgetDeleteRows" devLabel="Delete" translation="Usuń"/>
+	<label commandName="TableWidgetInsertRow" devLabel="Insert" translation="Płytki"/>
+	<label commandName="ThermalConductivityRangeErrorMessage" devLabel="The Thermal Conductivity value must be greater than zero." translation="Wartość przewodności cieplnej musi być większa od zera."/>
+	<label commandName="ThermalExpansionRangeErrorMessage" devLabel="The Thermal Expansion value must be greater than or equal to zero." translation="Wartość rozszerzalności cieplnej musi być równa zero lub większa."/>
+	<label commandName="Thermal_Conductivity" devLabel="Thermal Conductivity" translation="Przewodność cieplna"/>
+	<label commandName="Thermal_Conductivity_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="Thermal_Expansion_Coefficient" devLabel="Thermal Expansion" translation="Rozszerzalność cieplna"/>
+	<label commandName="Thermal_Expansion_Coefficient_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="ToggleLearningPanelCmd" devLabel="Toggle Learning Panel" translation="Przełącz panel szkoleniowy"/>
+	<label commandName="UltimateStrengthRangeErrorMessage" devLabel="The Ultimate Tensile Strength value must be greater than or equal to zero." translation="Wartość wytrzymałości na rozciąganie musi być równa zero lub większa."/>
+	<label commandName="Ultimate_Strength" devLabel="Su" translation="Su"/>
+	<label commandName="Ultimate_Tensile_Strength" devLabel="Ultimate Tensile Strength" translation="Wytrzymałość na rozciąganie"/>
+	<label commandName="Ultimate_Tensile_Strength_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="UndoCommandDesc" devLabel="Undo" translation="Cofnij"/>
+	<label commandName="UseSimWithPCBError" devLabel="PCB feature is currently incompatible with linked components and simulation studies in Fusion assemblies." translation="Funkcja płytki PCB jest obecnie niezgodna z połączonymi komponentami i badaniami symulacyjnymi w zespołach programu Fusion."/>
+	<label commandName="XRefOutOfDateParentIconMessage" devLabel="The Component is out of date. Update to the latest version using Get Latest in the Design workspace." translation="Komponent jest nieaktualny. Zaktualizuj go do najnowszej wersji, korzystając z polecenia Pobierz najnowszą wersję w obszarze roboczym Projektowanie."/>
+	<label commandName="X_Label_Log" devLabel="Log" translation="Rejestracja"/>
+	<label commandName="Y_Label_Log" devLabel="Log" translation="Rejestracja"/>
+	<label commandName="YieldStrengthRangeErrorMessage" devLabel="The Yield Strength value must be greater than or equal to zero." translation="Wartość granicy plastyczności musi być równa zero lub większa."/>
+	<label commandName="Yield_Strength" devLabel="Yield Strength" translation="Granica plastyczności"/>
+	<label commandName="Yield_Strength_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="YoungsModulusRangeErrorMessage" devLabel="The Young's Modulus value must be greater than or equal to zero." translation="Wartość modułu Younga musi być równa zero lub większa."/>
+	<label commandName="Youngs_Modulus" devLabel="Young's Modulus" translation="Moduł Younga"/>
+	<label commandName="Youngs_Modulus_Temperature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="ZeroGenerateCongratulationsMessage" devLabel="Congratulations!" translation="Gratulacje!"/>
+	<label commandName="ZeroGenerateParticipationMessage" devLabel="You have been randomly selected to participate in a test that we are conducting which will give you the ability to submit generative studies without consuming cloud credits for a limited time during the test period." translation="Wybrano Cię losowo do udziału w przeprowadzanym teście, dzięki czemu przez ograniczony czas trwania testu będziesz mieć możliwość przesyłania badań generatywnych bez wykorzystywania jednostek chmury."/>
+	<label commandName="ZeroGenerateParticipationTokenMessage" devLabel="You have been randomly selected to participate in a test that we are conducting which will give you the ability to submit generative studies without consuming tokens for a limited time during the test period." translation="Wybrano Cię losowo do udziału w przeprowadzanym teście, dzięki czemu przez ograniczony czas trwania testu będziesz mieć możliwość przesyłania badań generatywnych bez wykorzystywania tokenów."/>
+	<label commandName="creditsAvailable" devLabel="Available" translation="Dostępne"/>
+	<label commandName="creditsRequired" devLabel="Required" translation="Wymagany"/>
+	<label commandName="creditsused" devLabel="Used" translation="Wykorzystane"/>
+	<label commandName="dlgSimCloseStudiesButtonTooltip" devLabel="Close Studies dialog" translation="Zamknij okno dialogowe Badania"/>
+	<label commandName="lclzExploreCmd1" devLabel="Explores design alternatives, called outcomes, using tools that help you identify the optimal outcome." translation="Umożliwia analizowanie alternatywnych rozwiązań projektowych, nazywanych wynikami, przy użyciu narzędzi ułatwiających ustalenie optymalnego wyniku."/>
+	<label commandName="lclzExploreCmd2" devLabel="Use different views to visually explore outcomes and examine their properties. Apply filters and compare multiple outcomes. Explore an outcome in detail in the 3D view and select an outcome iteration." translation="Użyj różnych widoków, aby wizualnie analizować wyniki i sprawdzać ich właściwości. Zastosuj filtry i porównaj wiele wyników. Przeanalizuj wyniki szczegółowo w widoku 3D i wybierz iterację wyniku."/>
+	<label commandName="lclzExploreDisplayPropertiesViewCmdDesc1" devLabel="Displays properties of individual outcomes." translation="Wyświetla właściwości poszczególnych wyników."/>
+	<label commandName="lclzExploreDisplayPropertiesViewCmdDesc2" devLabel="To identify outcomes that best meet your requirements, sort them by properties and apply view filters. To examine an outcome in 3D, click a thumbnail." translation="Aby zidentyfikować wyniki, które najlepiej spełniają wymagania, posortuj je według właściwości i zastosuj filtry widoku. Aby sprawdzić wynik w 3D, kliknij miniaturę."/>
+	<label commandName="lclzExploreDisplayScatterPlotViewCmdDesc1" devLabel="Displays a scatter plot of outcomes." translation="Wyświetla wykres punktowy wyników."/>
+	<label commandName="lclzExploreDisplayScatterPlotViewCmdDesc2" devLabel="Select properties to display on axes and see the outcomes' distribution on the scatter plot. Consider removing view filters to display all outcomes. Map a property to dots' colors. Click a dot to select an outcome and access outcome options." translation="Wybierz właściwości, które mają być widoczne na osiach, i wyświetl rozkład wyników na wykresie punktowym. Rozważ usunięcie filtrów widoku, aby wyświetlić wszystkie wyniki. Odwzoruj właściwość na kolory punktów. Kliknij punkt, aby wybrać wynik i uzyskać dostęp do opcji wyniku."/>
+	<label commandName="lclzExploreDisplayTableViewCmdDesc1" devLabel="Displays a table of outcomes' properties." translation="Wyświetla tabelę właściwości wyników."/>
+	<label commandName="lclzExploreDisplayTableViewCmdDesc2" devLabel="To identify outcomes that best meet your requirements, sort them by properties by clicking column headers and apply view filters. Click a row to select an outcome and access its options. To examine an outcome in 3D, click an outcome image." translation="Aby zidentyfikować wyniki, które najlepiej spełniają wymagania, posortuj je według właściwości, klikając nagłówki kolumn, i zastosuj filtry widoku. Kliknij wiersz, aby wybrać wynik i uzyskać dostęp do jego opcji. Aby sprawdzić wynik w 3D, kliknij obraz wyniku."/>
+	<label commandName="lclzExploreDisplayThumbnailViewCmdDesc1" devLabel="Displays thumbnails of individual outcomes." translation="Wyświetla miniatury poszczególnych wyników."/>
+	<label commandName="lclzExploreDisplayThumbnailViewCmdDesc2" devLabel="To identify outcomes that best meet your requirements, sort them by properties and apply view filters. To examine an outcome in 3D, click a thumbnail. View an outcome's previous iterations by moving the cursor over the blue bar." translation="Aby zidentyfikować wyniki, które najlepiej spełniają wymagania, posortuj je według właściwości i zastosuj filtry widoku. Aby sprawdzić wynik w 3D, kliknij miniaturę. Wyświetl poprzednie iteracje wyniku, przesuwając kursor na niebieski pasek."/>
+	<label commandName="lclzExploreFavoritesCmdDesc1" devLabel="Adds an outcome iteration to favorites." translation="Dodaje iterację wyniku do ulubionych."/>
+	<label commandName="lclzExploreFavoritesCmdDesc2" devLabel="The design preview and cost estimates are prepared for favorite iterations. You can view them in the Explore views and compare with outcomes. To display the iterations, use the Favorites filter." translation="Podgląd projektu i oszacowania kosztów są przygotowywane dla ulubionych iteracji. Można je przeglądać w widokach eksplorowania i porównywać z wynikami. Aby wyświetlić iteracje, użyj filtru Ulubione."/>
+	<label commandName="lclzExploreFluidsCmd1" devLabel="Explores design alternatives, called outcomes, using tools that help you identify the optimal outcome." translation="Umożliwia analizowanie alternatywnych rozwiązań projektowych, nazywanych wynikami, przy użyciu narzędzi ułatwiających ustalenie optymalnego wyniku."/>
+	<label commandName="lclzExploreFluidsCmd2" devLabel="Use different views to visually explore outcomes and examine their properties. Apply filters and compare multiple outcomes. Explore an outcome in detail in the 3D view and select an outcome iteration." translation="Użyj różnych widoków, aby wizualnie analizować wyniki i sprawdzać ich właściwości. Zastosuj filtry i porównaj wiele wyników. Przeanalizuj wyniki szczegółowo w widoku 3D i wybierz iterację wyniku."/>
+	<label commandName="lclzExploreLabelsCmdDesc1" devLabel="Adds a label to an outcome iteration." translation="Dodaje etykietę do iteracji wyniku."/>
+	<label commandName="lclzExploreLabelsCmdDesc2" devLabel="Add labels to organize and group outcomes. To display the outcomes, use the Labels filters. To rename and delete labels, go to the Outcome filters pane." translation="Dodaj etykiety w celu organizowania i pogrupowania wyników. Aby wyświetlić wyniki, użyj filtrów etykiet. Aby zmienić nazwę i usunąć etykiety, przejdź do panelu Filtry wyników."/>
+	<label commandName="lclzExploreOutcomeProfileCompareAddDisabledCmdDesc1" devLabel="You are comparing the maximum number of outcomes." translation="Porównujesz maksymalną liczbę wyników."/>
+	<label commandName="lclzExploreOutcomeProfileCompareAddDisabledCmdDesc2" devLabel="You can compare up to four outcomes. Outcome views are synchronized. To remove an outcome from the view, click X." translation="Można porównać maksymalnie cztery wyniki. Widoki wyników są zsynchronizowane. Aby usunąć wynik z widoku, kliknij przycisk X."/>
+	<label commandName="lclzExploreOutcomeProfileCompareAddEnabledCmdDesc1" devLabel="Adds a new outcome to the comparison view." translation="Dodaje nowy wynik do widoku porównania."/>
+	<label commandName="lclzExploreOutcomeProfileCompareAddEnabledCmdDesc2" devLabel="You can compare up to four outcomes. Outcome views are synchronized. To remove an outcome from the view, click X." translation="Można porównać maksymalnie cztery wyniki. Widoki wyników są zsynchronizowane. Aby usunąć wynik z widoku, kliknij przycisk X."/>
+	<label commandName="lclzExploreOutcomeProfileCompareCmdDesc1" devLabel="Adds a new outcome to the comparison view." translation="Dodaje nowy wynik do widoku porównania."/>
+	<label commandName="lclzExploreOutcomeProfileCompareCmdDesc2" devLabel="You can compare up to four outcomes. Outcome views are synchronized. To remove an outcome from the view, click X." translation="Można porównać maksymalnie cztery wyniki. Widoki wyników są zsynchronizowane. Aby usunąć wynik z widoku, kliknij przycisk X."/>
+	<label commandName="lclzExploreOutcomeProfileCompareFluidsCmdDesc1" devLabel="Adds a new outcome to the comparison view." translation="Dodaje nowy wynik do widoku porównania."/>
+	<label commandName="lclzExploreOutcomeProfileCompareFluidsCmdDesc2" devLabel="You can compare up to four outcomes. Outcome views are synchronized. To remove an outcome from the view, click X." translation="Można porównać maksymalnie cztery wyniki. Widoki wyników są zsynchronizowane. Aby usunąć wynik z widoku, kliknij przycisk X."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayExportPreviewCmdDesc1" devLabel="Displays a preview of a design to be created from the outcome." translation="Wyświetla podgląd projektu, który ma zostać utworzony na podstawie wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayExportPreviewCmdDesc2" devLabel="It enables you to view the design with the appearance of the material selected in your study. Available for the final iteration of an outcome. To close the preview, click the color button in the top left corner of the view." translation="Umożliwia wyświetlanie projektu z użyciem wyglądu materiału wybranego w badaniu. Dostępne dla końcowej iteracji wyniku. Aby zamknąć podgląd, kliknij kolorowy przycisk w lewym górnym rogu widoku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayExportPreviewFluidsCmdDesc1" devLabel="Displays a preview of a flow path design to be created from the outcome." translation="Wyświetla podgląd projektu ścieżki przepływu, który ma zostać utworzony na podstawie wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayExportPreviewFluidsCmdDesc2" devLabel="It enables you to view the design with the appearance of the fluid material defined in your study. Available for the final iteration of an outcome. To close, the preview, click the color button in the top left corner of the view." translation="Umożliwia wyświetlanie projektu z wyglądem materiału cieczy zdefiniowanym w badaniu. Dostępny dla końcowej iteracji wyniku. Aby zamknąć podgląd, kliknij kolorowy przycisk w lewym górnym rogu widoku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayFlowLineViewFluidsCmdDesc1" devLabel="Displays lines and arrows that help you understand the fluid motion through a device." translation="Wyświetla linie i strzałki, które ułatwiają zilustrowanie przepływu cieczy przez urządzenie."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayFlowLineViewFluidsCmdDesc2" devLabel="Flow lines represent the fluid velocity. Blue indicates a low velocity and red - high. Flow lines grow thicker as the velocity increases. Arrows represent the flow direction and grow with the flow velocity." translation="Linie przepływu ilustrują prędkość cieczy. Kolor niebieski wskazuje niską prędkość, a czerwony — wysoką. Linie przepływu stają się grubsze wraz ze wzrostem prędkości. Strzałki oznaczają kierunek przepływu i stają się większe wraz ze wzrostem prędkości przepływu."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayModelViewCmdDesc1" devLabel="Displays an outcome’s 3D view." translation="Wyświetla widok 3D wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayModelViewCmdDesc2" devLabel="To examine details, orbit, pan, and zoom the outcome using tools on the 3D view toolbar." translation="Pozwala sprawdzić szczegóły wyniku, ustawić jego orbitę, obrót i powiększenie za pomocą narzędzi na pasku narzędzi widoku 3D."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayModelViewFluidsCmdDesc1" devLabel="Displays an outcome’s 3D view." translation="Wyświetla widok 3D wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayModelViewFluidsCmdDesc2" devLabel="To examine details, orbit, pan, and zoom the outcome using tools on the 3D view toolbar." translation="Pozwala sprawdzić szczegóły wyniku, ustawić jego orbitę, obrót i powiększenie za pomocą narzędzi na pasku narzędzi widoku 3D."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayObstacleViewCmdDesc1" devLabel="Displays obstacle geometries from your study setup in the Outcome View." translation="Wyświetla geometrie przeszkód z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayObstacleViewCmdDesc2" devLabel="Obstacle geometries display in red on the canvas and they are semi-transparent. Manipulate the outcome to see how they influenced the final shape." translation="Geometrie przeszkód są wyświetlane na obszarze rysunku w kolorze czerwonym i są półprzezroczyste. Manipulując wynikami, możesz zobaczyć, w jaki sposób wpłynęły one na końcowy kształt."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayObstacleViewFluidsCmdDesc1" devLabel="Displays obstacle geometries from your study setup in the Outcome View." translation="Wyświetla geometrie przeszkód z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayObstacleViewFluidsCmdDesc2" devLabel="Obstacle geometries display in red on the canvas and they are semi-transparent. Manipulate the outcome to see how they influenced the final shape." translation="Geometrie przeszkód są wyświetlane na obszarze rysunku w kolorze czerwonym i są półprzezroczyste. Manipulując wynikami, możesz zobaczyć, w jaki sposób wpłynęły one na końcowy kształt."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayPreserveViewCmdDesc1" devLabel="Displays preserve geometries from your study setup in the Outcome View." translation="Wyświetla zachowane geometrie z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayPreserveViewCmdDesc2" devLabel="Preserve geometries display in green on the canvas. Manipulate the outcome to see how they influenced the final shape." translation="Zachowaj geometrie wyświetlane na obszarze rysunku w kolorze zielonym. Manipulując wynikiem sprawdź, jak wpłynęły one na kształt końcowy."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayPreserveViewFluidsCmdDesc1" devLabel="Displays preserve geometries from your study setup in the Outcome View." translation="Wyświetla zachowane geometrie z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayPreserveViewFluidsCmdDesc2" devLabel="Preserve geometries display in green on the canvas. Manipulate the outcome to see how they influenced the final shape." translation="Zachowaj geometrie wyświetlane na obszarze rysunku w kolorze zielonym. Manipulując wynikiem sprawdź, jak wpłynęły one na kształt końcowy."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStartingShapeViewCmdDesc1" devLabel="Displays a starting shape from your study setup in the Outcome View." translation="Wyświetla kształt początkowy z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStartingShapeViewCmdDesc2" devLabel="The starting shape displays in yellow on the canvas and it’s semi-transparent. Manipulate the outcome to see how it influenced the final shape." translation="Kształt początkowy jest wyświetlany na obszarze rysunku w kolorze żółtym i jest półprzezroczysty. Manipulując wynikiem, sprawdź, w jaki sposób wpłynął on na końcowy kształt."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStartingShapeViewFluidsCmdDesc1" devLabel="Displays a starting shape from your study setup in the Outcome View." translation="Wyświetla kształt początkowy z ustawień badania w widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStartingShapeViewFluidsCmdDesc2" devLabel="The starting shape displays in yellow on the canvas and is semi-transparent. Manipulate the outcome to see how the starting shape influenced the final shape." translation="Kształt początkowy jest wyświetlany na obszarze rysunku w kolorze żółtym i jest półprzezroczysty. Manipulując wynikiem, sprawdź, w jaki sposób kształt początkowy wpłynął na końcowy kształt."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStressViewCmdDesc1" devLabel="Displays the stress distribution map based on the factor of safety set in the Objectives and Limits dialog in the Generative Design workspace." translation="Wyświetla mapę rozkładu naprężeń na podstawie współczynnika bezpieczeństwa ustawionego w oknie dialogowym Cele i ograniczenia w obszarze roboczym Projektowanie generatywne."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStressViewCmdDesc2" devLabel="To view colors' explanations, mouse over the Stress reference legend. Red indicates the factor of safety lower than the target set in the dialog. To examine details, manipulate the outcome using tools on the 3D view toolbar." translation="Aby wyświetlić objaśnienia kolorów, ustaw wskaźnik myszy na legendzie odniesienia naprężenia. Kolor czerwony wskazuje współczynnik bezpieczeństwa niższy niż wartość docelowa ustawiona w oknie dialogowym. Szczegóły można sprawdzić, manipulując wynikiem za pomocą narzędzi na pasku narzędzi widoku 3D."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStressViewFluidsCmdDesc1" devLabel="Displays the pressure distribution map to help you evaluate the pressure drop across the fluid path." translation="Wyświetla mapę rozkładu ciśnienia, która pomaga w ocenie spadku ciśnienia na ścieżce cieczy."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayStressViewFluidsCmdDesc2" devLabel="To view the values that correspond to colors in the map, refer to the legend. To examine details, manipulate the outcome using tools on the Outcome View toolbar." translation="Aby wyświetlić wartości odpowiadające kolorom na mapie, zapoznaj się z legendą. Szczegóły można sprawdzić, manipulując wynikiem za pomocą narzędzi na pasku narzędzi widoku wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayTransparentViewCmdDesc1" devLabel="Displays a transparent view of the outcome." translation="Wyświetla przezroczysty widok wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayTransparentViewCmdDesc2" devLabel="It enables you to see the internal empty spaces, called voids, that may occur during the outcome generation. To examine details, manipulate the outcome using tools on the 3D view toolbar." translation="Umożliwia wyświetlenie wewnętrznych pustych przestrzeni nazywanych pustkami, które mogą się pojawić podczas generowania wyniku. Szczegóły można sprawdzić, manipulując wynikiem za pomocą narzędzi na pasku narzędzi widoku 3D."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayTransparentViewFluidsCmdDesc1" devLabel="Displays a transparent view of the outcome." translation="Wyświetla przezroczysty widok wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileDisplayTransparentViewFluidsCmdDesc2" devLabel="It enables you to see the internal empty spaces, called voids, that may occur during the outcome generation. To examine details, manipulate the outcome using tools on the 3D view toolbar." translation="Umożliwia wyświetlenie wewnętrznych pustych przestrzeni nazywanych pustkami, które mogą się pojawić podczas generowania wyniku. Szczegóły można sprawdzić, manipulując wynikiem za pomocą narzędzi na pasku narzędzi widoku 3D."/>
+	<label commandName="lclzExploreOutcomeProfileExportSmtCmdDesc1" devLabel="Creates an editable 3D design from the current outcome's iteration." translation="Tworzy edytowalny projekt 3D na podstawie iteracji bieżącego wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileExportSmtCmdDesc2" devLabel="Track the processing status in the Job Status dialog. When the design is ready, open it on another tab and edit using T-Spline tools." translation="Śledź stan przetwarzania w oknie dialogowym Stan zadania. Gdy projekt będzie gotowy, otwórz go na innej karcie i edytuj za pomocą narzędzi T-splajn."/>
+	<label commandName="lclzExploreOutcomeProfileExportSmtFluidsCmdDesc1" devLabel="Creates a 3D flow path design which you can edit, from the current outcome's iteration." translation="Tworzy projekt ścieżki przepływu 3D, który można edytować na podstawie iteracji bieżącego wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileExportSmtFluidsCmdDesc2" devLabel="Track the processing status in the Job Status dialog. When the design is ready, open it on another tab and edit using T-Spline tools." translation="Śledź stan przetwarzania w oknie dialogowym Stan zadania. Gdy projekt będzie gotowy, otwórz go na innej karcie i edytuj za pomocą narzędzi T-splajn."/>
+	<label commandName="lclzExploreOutcomeProfileExportStlCmdDesc1" devLabel="Creates a 3D design where a mesh represents model's surfaces, from the current outcome's iteration." translation="Tworzy projekt 3D, w którym siatka reprezentuje powierzchnie modelu na podstawie iteracji bieżącego wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileExportStlCmdDesc2" devLabel="Track the processing status in the Job Status dialog. When the mesh design is ready, open it on another tab." translation="Śledź stan przetwarzania w oknie dialogowym Stan zadania. Gdy projekt siatki będzie gotowy, otwórz go na innej karcie."/>
+	<label commandName="lclzExploreOutcomeProfileExportStlFluidsCmdDesc1" devLabel="Creates a 3D flow path design where a mesh represents model's surfaces, from the current outcome's iteration." translation="Tworzy projekt ścieżki przepływu 3D, w którym siatka reprezentuje powierzchnie modelu na podstawie iteracji bieżącego wyniku."/>
+	<label commandName="lclzExploreOutcomeProfileExportStlFluidsCmdDesc2" devLabel="Track the processing status in the Job Status dialog. When the mesh design is ready, open it on another tab." translation="Śledź stan przetwarzania w oknie dialogowym Stan zadania. Gdy projekt siatki będzie gotowy, otwórz go na innej karcie."/>
+	<label commandName="lclzExploreSaveCSVCmdDesc1" devLabel="Exports a table of outcomes' data to a CSV file." translation="Eksportuje tabelę danych wyników do pliku CSV."/>
+	<label commandName="lclzExploreSaveCSVCmdDesc2" devLabel="Create a CSV file for the current filters and settings that you can import to spreadsheet programs or text editors. For example, you can create the file for selected manufacturing methods or materials. The file contains only numbers and text." translation="Utwórz plik CSV dla bieżących filtrów i ustawień, który można importować do programów arkuszy kalkulacyjnych lub edytorów tekstu. Przykładowo można utworzyć plik dla wybranych metod wytwarzania lub materiałów. Plik zawiera tylko liczby i tekst."/>
+	<label commandName="lclzExploreWorkspaceTitle" devLabel="Explores outcomes using tools that help you identify the optimal outcome." translation="Umożliwia analizowanie wyników za pomocą narzędzi ułatwiających ustalenie optymalnego wyniku."/>
+	<label commandName="lclzExportToAnsysMechanical1" devLabel="Send geometry, loads, constraints, and materials of the active study to Ansys Mechanical." translation="Wyślij geometrię, obciążenia, wiązania i materiały aktywnego badania do programu Ansys Mechanical."/>
+	<label commandName="lclzExportToAnsysMechanical2" devLabel="The same study that was set up in Fusion 360 is created automatically, although some loads and constraints may need to be recreated in Ansys Mechanical." translation="To samo badanie, które zostało skonfigurowane w programie Fusion 360, zostanie utworzone automatycznie, chociaż niektóre obciążenia i wiązania mogą wymagać odtworzenia w programie Ansys Mechanical."/>
+	<label commandName="lclzExportToDiscovery1" devLabel="Send geometry, loads, constraints, and materials of the active study to Ansys Discovery." translation="Wyślij geometrię, obciążenia, wiązania i materiały aktywnego badania do programu Ansys Discovery."/>
+	<label commandName="lclzExportToDiscovery2" devLabel="The same study that was set up in Fusion 360 is created automatically, although some loads and constraints may need to be recreated in Ansys Discovery." translation="To samo badanie, które zostało skonfigurowane w programie Fusion 360, zostanie utworzone automatycznie, chociaż niektóre obciążenia i wiązania mogą wymagać odtworzenia w programie Ansys Discovery."/>
+	<label commandName="lclzExportToScalaris1" devLabel="Export geometry, loads, constraints, and materials of the active study to Ansys Setup." translation="Eksportuj geometrię, obciążenia, wiązania i materiały aktywnego badania do ustawień Ansys."/>
+	<label commandName="lclzExportToScalaris2" devLabel="When you import the .sdz file into an Ansys product, the same study that was set up in Fusion 360 is created automatically, although some loads and constraints may need to be recreated." translation="Podczas importowania pliku .sdz do produktu Ansys automatycznie tworzone jest to samo badanie, które zostało skonfigurowane w programie Fusion 360, chociaż niektóre obciążenia i wiązania mogą wymagać ponownego utworzenia."/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Plik"/>
+	<label commandName="lclzFinishDoraCmd1" devLabel="Exits the Results environment and returns you to the Setup environment." translation="Zamyka środowisko Wyniki i powraca do środowiska Ustawienia."/>
+	<label commandName="lclzFinishExploreCmd1" devLabel="Exits the Explore workspace and returns to the Generative Design workspace." translation="Zamyka obszar roboczy Eksploruj i następuje powrót do obszaru roboczego Projektowanie generatywne."/>
+	<label commandName="lclzFinishHawkeyeCmd1" devLabel="Exits the Results environment and returns you to the Setup environment." translation="Zamyka środowisko Wyniki i powraca do środowiska Ustawienia."/>
+	<label commandName="lclzFinishOutcomeViewCmd1" devLabel="Return to Explore" translation="Powrót do eksploracji"/>
+	<label commandName="lclzSimulationWorkspaceTitle" devLabel="Performs a simulation to help you understand how a design behaves under specific conditions." translation="Przeprowadza symulację, aby ułatwić zrozumienie zachowania projektu w określonych warunkach."/>
+	<label commandName="lclzWorkingModelWorkspaceTitle" devLabel="Removes detailed features that are unnecessary for simulations without affecting your production geometry." translation="Usuwa szczegółowe elementy, które są zbędne w symulacjach, bez naruszania geometrii produkcyjnej."/>
+	<label commandName="materialStatusBottomMessage" devLabel="This material is not saved to a Library yet." translation="Ten materiał nie został jeszcze zapisany w bibliotece."/>
+	<label commandName="simCloudCreditInfoHeaderTableLabel1" devLabel="Task" translation="Zadanie"/>
+	<label commandName="simCloudCreditInfoHeaderTableLabel2" devLabel="Cost" translation="Koszt"/>
+	<label commandName="simCloudCreditInfoLabelBottom" devLabel="Show balances and costs in dialogs for tasks requiring cloud credits" translation="Pokaż salda i koszty w oknach dialogowych zadań wymagających jednostek chmury"/>
+	<label commandName="simCloudCreditInfoTextBottom" devLabel="For more information on tokens and cloud credits, your default account, and balances, please go to Fusion 360 Preferences &gt; Tokens &amp; Cloud Credits." translation="Aby uzyskać więcej informacji na temat tokenów i jednostek chmury, domyślnego konta i sald, przejdź do strony Fusion 360 — preferencje &gt; Tokeny i jednostki chmury."/>
+	<label commandName="simCloudCreditInfoTextTop" devLabel="Simulation requires cloud credits for the following tasks, which use cloud services:" translation="Symulacja wymaga jednostek chmury do następujących zadań, które korzystają z usług chmurowych:"/>
+	<label commandName="simCloudCreditInfoWindowTitle" devLabel="Simulation and Cloud Credits" translation="Symulacja i jednostki chmury"/>
+	<label commandName="simCloudCreditsWidgetUnlimitedRemain" devLabel="unlimited" translation="nieograniczony"/>
+	<label commandName="simDevSaveOnlyButtonTitle" devLabel="Save Only" translation="Tylko zapis"/>
+	<label commandName="simDevSaveUploadButtonTitle" devLabel="Save and Upload" translation="Zapisz i przekaż"/>
+	<label commandName="simDevSolveButtonTitle" devLabel="Force Local Solve" translation="Wymuś rozwiązywanie lokalne"/>
+	<label commandName="simDialogBaseAcceptBtn" devLabel="Confirm" translation="Zatwierdź"/>
+	<label commandName="simGenCloudCreditInfoOtcomeGenerationLabel" devLabel="Outcome generation and use of outcome-based designs" translation="Generowanie wyników i wykorzystanie projektów opartych na wynikach"/>
+	<label commandName="simGenCloudCreditInfoTextBottom" devLabel="For more information on tokens and cloud credits, your default account, and balances, please go to Fusion 360 Preferences &gt; Tokens &amp; Cloud Credits." translation="Aby uzyskać więcej informacji na temat tokenów i jednostek chmury, domyślnego konta i sald, przejdź do strony Fusion 360 — preferencje &gt; Tokeny i jednostki chmury."/>
+	<label commandName="simGenCloudCreditInfoTextTop" devLabel="Generative Design requires cloud credits for the following tasks, which use cloud services:" translation="Projektowanie generatywne wymaga jednostek chmury do następujących zadań, które korzystają z usług chmurowych:"/>
+	<label commandName="simGenCloudCreditInfoWindowTitle" devLabel="Generative Design and Cloud Credits" translation="Projektowanie generatywne i jednostki chmury"/>
+	<label commandName="simGenTokenInfoTextTop" devLabel="Generative Design requires tokens for the following tasks, which use cloud services:" translation="Projektowanie generatywne wymaga tokenów do następujących zadań, które korzystają z usług w chmurze:"/>
+	<label commandName="simGenTokenInfoWindowTitle" devLabel="Generative Design and Tokens" translation="Projektowanie generatywne i tokeny"/>
+	<label commandName="simSolveDlgBasicAccess2" devLabel="You cannot solve studies because you currently have Basic Access to this design." translation="Nie można rozwiązać badań, ponieważ obecnie masz podstawowy dostęp do tego projektu."/>
+	<label commandName="simSolveDlgBasicAccess3" devLabel="Click on the Basic Access button for more information." translation="Kliknij przycisk Dostęp podstawowy, aby uzyskać więcej informacji."/>
+	<label commandName="simSolveDlgBtnSolveMultiple" devLabel="Solve %1% Studies" translation="Rozwiąż następującą liczbę badań: %1%"/>
+	<label commandName="simSolveDlgBtnSolveOne" devLabel="Solve 1 Study" translation="Rozwiąż 1 badanie"/>
+	<label commandName="simSolveDlgClose" devLabel="Close" translation="Zamknij"/>
+	<label commandName="simSolveDlgCloudCreditsAccountEducation" devLabel="Education" translation="Edukacja"/>
+	<label commandName="simSolveDlgContact Us" devLabel="Contact Us" translation="Skontaktuj się z nami"/>
+	<label commandName="simSolveDlgContactUsTooltip" devLabel="Show contact information" translation="Pokaż dane kontaktowe"/>
+	<label commandName="simSolveDlgDetails" devLabel="Details" translation="Szczegóły"/>
+	<label commandName="simSolveDlgDirtyDocument" devLabel="&lt;b&gt;The document is modified.&lt;/b&gt;&lt;br&gt;&lt;br&gt;A new version will be created before the solve." translation="&lt;b&gt;Dokument został zmodyfikowany.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Przed rozwiązaniem zostanie utworzona nowa wersja."/>
+	<label commandName="simSolveDlgDirtyReadOnlyDocument" devLabel="&lt;b&gt;The document is read only.&lt;/b&gt;&lt;br&gt;&lt;br&gt;A copy of the document will be created before the solve." translation="&lt;b&gt;Dokument jest tylko do odczytu.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Kopia dokumentu zostanie utworzona przed rozpoczęciem rozwiązywania."/>
+	<label commandName="simSolveDlgErrorDetailsTooltip" devLabel="Display details of why &lt;b&gt;%1%&lt;/b&gt; contains errors in the results" translation="Wyświetl szczegóły przyczyny, dla których &lt;b&gt;%1%&lt;/b&gt; zawiera błędy w wynikach"/>
+	<label commandName="simSolveDlgExpiredAccount" devLabel="&lt;b&gt;Term has expired.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Studies cannot be solved because your Fusion 360 term has expired." translation="&lt;b&gt;Termin minął.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nie można rozwiązać badań, ponieważ wygasł okres ważności programu Fusion 360."/>
+	<label commandName="simSolveDlgExpiredAccount2" devLabel="You cannot solve any studies because your Fusion 360 term has expired." translation="Nie można rozwiązać żadnych badań, ponieważ upłynął okres ważności programu Fusion 360."/>
+	<label commandName="simSolveDlgExpiredAccountContactPrefix" devLabel="If you want to continue using simulation solve please " translation="Aby kontynuować korzystanie z rozwiązania symulacji, "/>
+	<label commandName="simSolveDlgForcedLocal" devLabel="Your account doesn't support running simulation solves." translation="Twoje konto nie obsługuje uruchamiania rozwiązywania symulacji."/>
+	<label commandName="simSolveDlgForcedLocalContactPrefix" devLabel="If you want to run simulation solves please " translation="Aby uruchomić symulację, należy:"/>
+	<label commandName="simSolveDlgForedLocalContactSuffix" devLabel=" for more information." translation=" aby uzyskać więcej informacji."/>
+	<label commandName="simSolveDlgHeaderTooltip" devLabel="Select all studies which can be solved" translation="Wybierz wszystkie badania, które mogą być rozwiązane"/>
+	<label commandName="simSolveDlgHideStudies" devLabel="Hide studies that cannot be solved" translation="Ukryj badania, których nie można rozwiązać"/>
+	<label commandName="simSolveDlgNewDocument" devLabel="&lt;b&gt;The document has not been saved yet.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Save will be performed before the solve." translation="&lt;b&gt;Dokument nie został jeszcze zapisany.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Przed rozwiązaniem zostanie wykonane zapisanie."/>
+	<label commandName="simSolveDlgNoFgd1" devLabel="You cannot solve because no Fusion Generative Design entitlement exists for this account." translation="Nie można rozwiązać problemu, ponieważ dla tego konta nie istnieje uprawnienie do projektowania generatywnego programu Fusion."/>
+	<label commandName="simSolveDlgNoFsim1" devLabel="You cannot solve on cloud because no Fusion Simulation entitlement exists for this account." translation="Rozwiązywanie w chmurze jest niemożliwe, ponieważ to konto nie ma uprawnień do symulacji w programie Fusion."/>
+	<label commandName="simSolveDlgNoFsimContactServices" devLabel="Autodesk Account Services." translation="Usługi Autodesk Account."/>
+	<label commandName="simSolveDlgNoFsimPrefix" devLabel="If you want to solve, sign in with a different account or contact " translation="Aby rozwiązać ten problem, zaloguj się przy użyciu innego konta lub skontaktuj się z"/>
+	<label commandName="simSolveDlgNoReadyStudiesStatement" devLabel="&lt;b&gt;No studies can be solved.&lt;/b&gt;&lt;br&gt;&lt;br&gt;There are no studies which can be solved." translation="&lt;b&gt;Nie można rozwiązać żadnych badań.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nie ma badań, które można rozwiązać."/>
+	<label commandName="simSolveDlgNoSelectedStudiesStatement" devLabel="&lt;b&gt;No studies selected.&lt;/b&gt;&lt;br&gt;&lt;br&gt;No studies have been selected to be solved." translation="&lt;b&gt;Nie wybrano żadnych badań.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nie wybrano żadnych badań do rozwiązania."/>
+	<label commandName="simSolveDlgNotEnoughCreditsStatement" devLabel="&lt;b&gt;Not enough tokens or cloud credits.&lt;/b&gt;&lt;br&gt;&lt;br&gt;You need to buy more tokens to solve the selected studies on the cloud." translation="&lt;b&gt;Za mało tokenów lub jednostek chmury.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Aby rozwiązać wybrane badania w chmurze, należy kupić więcej tokenów."/>
+	<label commandName="simSolveDlgOffline" devLabel="To solve these studies, go to Online Mode to solve on the cloud." translation="Aby rozwiązać te badania, przejdź do trybu online w celu rozwiązania w chmurze."/>
+	<label commandName="simSolveDlgRenew" devLabel="renew your Fusion 360 term." translation="odnów okres subskrypcji programu Fusion 360."/>
+	<label commandName="simSolveDlgRestartPendingForDownloadedNastran" devLabel="&lt;b&gt;Fusion update pending.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Local solve will be available once you restart Fusion." translation="&lt;b&gt;Aktualizacja programu Fusion oczekuje na zainstalowanie.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Rozwiązanie lokalne będzie dostępne po ponownym uruchomieniu programu Fusion."/>
+	<label commandName="simSolveDlgStudyCheckboxRadioTooltip" devLabel="Solve &lt;b&gt;%1%&lt;/b&gt; locally" translation="Rozwiąż badanie &lt;b&gt;%1%&lt;/b&gt; lokalnie"/>
+	<label commandName="simSolveDlgStudyCheckboxTooltip" devLabel="Solve &lt;b&gt;%1%&lt;/b&gt; on the cloud" translation="Rozwiąż badanie &lt;b&gt;%1%&lt;/b&gt; w chmurze"/>
+	<label commandName="simSolveDlgStudyStatusErrorTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; cannot be solved because it contains following errors:" translation="Nie można rozwiązać badania &lt;b&gt;%1%&lt;/b&gt;, ponieważ zawiera następujące błędy:"/>
+	<label commandName="simSolveDlgStudyStatusFailed" devLabel="Failed" translation="Nie udało się"/>
+	<label commandName="simSolveDlgStudyStatusFailedTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; study generation failed. No outcomes have been generated." translation="Generowanie badania &lt;b&gt;%1%&lt;/b&gt; nie powiodło się. Nie wygenerowano żadnych wyników."/>
+	<label commandName="simSolveDlgStudyStatusInProgress" devLabel="In Progress" translation="W toku"/>
+	<label commandName="simSolveDlgStudyStatusInProgressTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; solve is currently in progress" translation="Rozwiązywanie badania &lt;b&gt;%1%&lt;/b&gt; jest obecnie w toku"/>
+	<label commandName="simSolveDlgStudyStatusReady" devLabel="Ready" translation="Gotowy"/>
+	<label commandName="simSolveDlgStudyStatusReadyTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; is ready to be solved" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; jest gotowe do rozwiązania"/>
+	<label commandName="simSolveDlgStudyStatusSolvedWithErrors" devLabel="Solved With Errors" translation="Rozwiązano z błędami"/>
+	<label commandName="simSolveDlgStudyStatusSolvedWithErrorsTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been solved but contains errors" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; zostało rozwiązane, ale zawiera błędy"/>
+	<label commandName="simSolveDlgStudyStatusSolvedWithWarnings" devLabel="Solved With Warnings" translation="Rozwiązano z ostrzeżeniami"/>
+	<label commandName="simSolveDlgStudyStatusSolvedWithWarningsTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been solved but contains warnings" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; zostało rozwiązane, ale zawiera ostrzeżenia"/>
+	<label commandName="simSolveDlgStudyStatusUpToDate" devLabel="Solved" translation="Rozwiązano"/>
+	<label commandName="simSolveDlgStudyStatusUpToDateTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been solved" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; zostało rozwiązane"/>
+	<label commandName="simSolveDlgStudyStatusWarningTooltip" devLabel="&lt;b&gt;%1%&lt;/b&gt; can be solved but it contains following warnings:" translation="Badanie &lt;b&gt;%1%&lt;/b&gt; można rozwiązać, ale zawiera następujące ostrzeżenia:"/>
+	<label commandName="simSolveDlgTableColumnConfiguration" devLabel="Configuration" translation="Konfiguracja"/>
+	<label commandName="simSolveDlgTableColumnCredits" devLabel="Cloud Credits" translation="Jednostki chmury"/>
+	<label commandName="simSolveDlgTableColumnModel" devLabel="Model" translation="Model"/>
+	<label commandName="simSolveDlgTableColumnName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="simSolveDlgTableColumnStatus" devLabel="Status" translation="Stan"/>
+	<label commandName="simSolveDlgTableColumnStudy" devLabel="Study" translation="Badanie"/>
+	<label commandName="simSolveDlgTableColumnTokens" devLabel="Tokens" translation="Tokeny"/>
+	<label commandName="simSolveDlgTitle" devLabel="Solve" translation="Rozwiąż"/>
+	<label commandName="simSolveDlgViewProgressTooltip" devLabel="View the solve progress of &lt;b&gt;%1%&lt;/b&gt;" translation="Wyświetl postęp rozwiązywania &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="simTokenInfoLabelBottom" devLabel="Show balances and costs in dialogs for tasks requiring tokens" translation="Pokaż salda i koszty w oknach dialogowych dla zadań wymagających tokenów"/>
+	<label commandName="simTokenInfoTextTop" devLabel="Simulation requires tokens for the following tasks, which use cloud services:" translation="Symulacja wymaga tokenów do następujących zadań, które korzystają z usług w chmurze:"/>
+	<label commandName="simTokenInfoWindowTitle" devLabel="Simulation and Tokens" translation="Symulacja i tokeny"/>
+	<label commandName="simViewOptionsShowCredit" devLabel="Cloud credit costs &amp; balances" translation="Koszty i salda jednostek w chmurze"/>
+	<label commandName="simViewOptionsShowErrors" devLabel="Studies with errors" translation="Badania z błędami"/>
+	<label commandName="simViewOptionsShowLabel" devLabel="Show" translation="Pokaż"/>
+	<label commandName="simViewOptionsShowSolved" devLabel="Solved studies" translation="Rozwiązywane analizy"/>
+	<label commandName="simViewOptionsShowToken" devLabel="Token costs &amp; balances" translation="Koszty tokenów i salda"/>
+	<label commandName="text" devLabel="%1%%2%%3%" translation="%1%%2%%3%"/>
+	<label commandName="xAxis" devLabel="X Axis : " translation="Oś X: "/>
+	<label commandName="yAxis" devLabel="Y Axis : " translation="Oś Y: "/>
+</Resource>

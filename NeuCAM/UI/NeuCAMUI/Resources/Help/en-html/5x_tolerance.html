@@ -1,0 +1,14 @@
+<div id="5x_tolerance"><p>The machining tolerance is the sum of the tolerances used for toolpath generation and geometry triangulation. Any additional filtering tolerances must be added to this tolerance to get the total tolerance.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceLoose.png"/></center></td>
+<td><center><img border="0" width="200" height="200" src="../images/ToleranceTight.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Loose Tolerance .100</b></p></center></td>
+<td><center><p><b>Tight Tolerance .001</b></p></center></td>
+</tr></table>
+<p>CNC machine contouring motion is controlled using line G1 and arc G2 G3 commands. To accommodate this, CAM approximates spline and surface toolpaths by linearizing them; creating many short line segments to approximate the desired shape. How accurately the toolpath matches the desired shape depends largely on the number of lines used. More lines result in a toolpath that more closely approximates the nominal shape of the spline or surface.</p>
+<p><b>Data Starving</b></p>
+<p>It is tempting to always use very tight tolerances, but there are trade-offs including longer toolpath calculation times, large G-code files, and very short line moves. The first two are not much of a problem because the program calculates very quickly and most modern controls have at least 1MB of RAM. However, short line moves, coupled with high feedrates, may result in a phenomenon known as data starving.</p>
+<p>Data starving occurs when the control becomes so overwhelmed with data that it cannot keep up. CNC controls can only process a finite number of lines of code (blocks) per second. That can be as few as 40 blocks/second on older machines and 1,000 blocks/second or more on a newer machine like the Haas Automation control. Short line moves and high feedrates can force the processing rate beyond what the control can handle. When that happens, the machine must pause after each move and wait for the next servo command from the control.</p>
+</div>

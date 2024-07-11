@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Parse Message" devLabel="Unknown message type." translation="Unbekannter Meldungstyp"/>
+	<label commandName="UnknownStatusMessageType" devLabel="Unknown status message type." translation="Unbekannter Typ der Statusmeldung"/>
+	<label commandName="run case error" devLabel="Cannot find script file." translation="Skriptdatei nicht gefunden"/>
+</Resource>

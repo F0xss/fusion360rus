@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="BoltConnectorInvalidEntity" devLabel="Entity provided is not a bolted connection" translation="Angegebenes Objekt ist keine Schraubverbindung"/>
+	<label commandName="BoltConnectorInvalidHeadWasherSpecs" devLabel="Invalid head-side washer parameters" translation="Ungültige Parameter für Kopfunterlegscheibe"/>
+	<label commandName="BoltConnectorInvalidNutWasherSpecs" devLabel="Invalid nut-side washer parameters" translation="Ungültige Parameter für Mutterunterlegscheibe"/>
+	<label commandName="BoltTypeUndefined" devLabel="Type of bolt connection is not defined" translation="Typ der Schraubverbindung ist nicht definiert"/>
+	<label commandName="ConnectorInvalidEntitySelection" devLabel="Invalid entity for connector application" translation="Ungültiges Objekt für Verbinderanwendung"/>
+	<label commandName="ConnectorInvalidParent" devLabel="No parent given for connector" translation="Kein übergeordnetes Objekt für Verbinder angegeben"/>
+	<label commandName="ConnectorNoConnectorCreated" devLabel="Error creating connector" translation="Fehler beim Erstellen des Verbinders"/>
+	<label commandName="ConnectorWithMaterialInvalidEntity" devLabel="Entity provided is not a connection containing material" translation="Angegebenes Objekt ist keine Verbindung mit Material"/>
+	<label commandName="ConnectorWithMaterialInvalidMaterial" devLabel="Invalid material provided for connection" translation="Ungültiges Material für Verbindung angegeben"/>
+	<label commandName="ErrorDownloadingGCPResults" devLabel="Error receiving result data." translation="Fehler beim Empfangen der Ergebnisdaten."/>
+	<label commandName="ErrorRefreshingOSSUrls" devLabel="Error receiving partial result data." translation="Fehler beim Empfangen von Teilergebnisdaten."/>
+	<label commandName="FailedToExtractReceivedGCPResults" devLabel="Received archive is corrupted." translation="Empfangenes Archiv ist beschädigt."/>
+	<label commandName="FailedToExtractReceivedResults" devLabel="Received archive is corrupted." translation="Empfangenes Archiv ist beschädigt."/>
+	<label commandName="GenAttributeSelectionCategory" devLabel="Generative Attributes" translation="Generative Attribute"/>
+	<label commandName="InterferencesWarningMessageInformationText" devLabel="Interferences can cause problems with your simulation and we recommend they be removed. Use the Interference command in the Simplify workspace to analyze and remove these interferences" translation="Kollisionen können zu Problemen mit der Simulation führen. Wir empfehlen daher, sie zu entfernen. Verwenden Sie den Befehl Kollision im Arbeitsbereich Vereinfachen, um diese Kollisionen zu analysieren und zu entfernen"/>
+	<label commandName="InterferencesWarningMessageTitle" devLabel="Warning: Some components/bodies in the Model have interferences" translation="Warnung: Einige Komponenten/Körper im Modell weisen Kollisionen auf"/>
+	<label commandName="NotCompatibleLoadCasesError" devLabel="Load Cases not compatible!" translation="Lastfälle nicht kompatibel."/>
+	<label commandName="PlatformError" devLabel="Error: Platform error.&#xA;Cause: %1%.&#xA;Action: Try again later. If the problem persists, click Contact Support, then&#xA;1. Click 'Post-purchase support'&#xA;2. Click 'Help using my software'&#xA;3. Select 'Fusion 360'&#xA;" translation="Fehler: Plattformfehler.&#xA;Ursache: %1%.&#xA;Aktion: Versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, klicken Sie auf Support kontaktieren und &#xA;1. Klicken Sie dann auf Support nach dem Kauf&#xA;2. Klicken Sie auf Hilfe bei der Nutzung der Software&#xA;3. Wählen Sie Fusion 360 aus&#xA;"/>
+	<label commandName="RigidBodyConnectorInvalidEntity" devLabel="Entity provided is not a rigid body connection" translation="Angegebenes Objekt ist keine Verbindung zwischen starren Körpern."/>
+	<label commandName="RigidBodyConnectorInvalidSubType" devLabel="Invalid rigid body connector sub type specified" translation="Ungültiger Untertyp für Verbinder zwischen starren Körpern angegeben"/>
+	<label commandName="SimAddJobCloudFailed" devLabel="Solve failed." translation="Lösung fehlgeschlagen"/>
+	<label commandName="SimAddJobFailed" devLabel="Solve failed." translation="Lösung fehlgeschlagen"/>
+	<label commandName="SimAddJobLocalFailed" devLabel="Local solve failed." translation="Lokale Lösung fehlgeschlagen"/>
+	<label commandName="SimAttributeHasNoCase" devLabel="Sim Attribute has no Study" translation="Simulation-Attribut enthält keine Studie."/>
+	<label commandName="SimAttributeIsMissing" devLabel="Sim Attribute is missing" translation="Simulation-Attribut fehlt."/>
+	<label commandName="SimAttributeSelectionCategory" devLabel="Simulation Attributes" translation="Simulationsattribute"/>
+	<label commandName="SimAttributeSelectionName" devLabel="Attribute" translation="Attribut"/>
+	<label commandName="SimAttributesSelectionCategory" devLabel="Simulation Attributes" translation="Simulationsattribute"/>
+	<label commandName="SimAttributesSelectionName" devLabel="Attributes" translation="Attribute"/>
+	<label commandName="SimAutoContactGenerationSelectionName" devLabel="Automatic Contact Generation" translation="Automatisches Kontaktwerkzeug"/>
+	<label commandName="SimAutoContactsOperationLocalProgressDescription" devLabel="Generating Contacts" translation="Kontakte werden erstellt"/>
+	<label commandName="SimBadInputSelection" devLabel="Bad Input Selection" translation="Ungültige Auswahl für Eingabe"/>
+	<label commandName="SimBoltConnectorLibraryMaterialName" devLabel="Material Name" translation="Materialname"/>
+	<label commandName="SimBoltConnectorLibraryMaterialUnknown" devLabel="Unknown" translation="Unbekannt"/>
+	<label commandName="SimBoltConnectorName" devLabel="Bolt Connector" translation="Schraubverbindung"/>
+	<label commandName="SimBoltConnectorSelectionName" devLabel="Bolt Connector" translation="Schraubverbindung"/>
+	<label commandName="SimCallApplyMaterial" devLabel="Click here to select 'Study Materials' to set a material." translation="Klicken Sie hier, um die Option Studienmaterialien zum Festlegen eines Materials auszuwählen."/>
+	<label commandName="SimCallDOFView" devLabel="Click here to select 'DOF View' to inspect." translation="Klicken Sie hier, um die Option FHG-Ansicht zum Prüfen auszuwählen."/>
+	<label commandName="SimCallEnablePreviewStudy" devLabel="Click here for information about how to enable this study for solving." translation="Klicken Sie hier, um Informationen zum Aktivieren dieser Studie für die Lösung anzuzeigen."/>
+	<label commandName="SimCallGroupsView" devLabel="Click here to select 'Groups View' to inspect." translation="Klicken Sie hier, um die Option Gruppenansicht zum Prüfen auszuwählen."/>
+	<label commandName="SimCallMissingEntitlementWithHyperlink" devLabel="Contact your contract administrator for the necessary entitlements. Click &lt;a href=&quot;%1%&quot;&gt;here&lt;/a&gt; to learn more." translation="Wenden Sie sich an Ihren Vertragsadministrator, um die erforderlichen Berechtigungen zu erhalten. Klicken Sie &lt;a href=&quot;%1%&quot;&gt;hier&lt;/a&gt;, um mehr zu erfahren."/>
+	<label commandName="SimCallMissingEntitlementWithoutHyperlink" devLabel="Contact your contract administrator for the necessary entitlements. Click here to learn more." translation="Wenden Sie sich an Ihren Vertragsadministrator, um die erforderlichen Berechtigungen zu erhalten. Klicken Sie hier, um mehr zu erfahren."/>
+	<label commandName="SimCallModelEnvAndInferences" devLabel="Click here to switch to 'Simplify Environment' and open 'Interferences'." translation="Klicken Sie hier, um zur Optimierungsumgebung zu wechseln und Kollisionen zu öffnen."/>
+	<label commandName="SimCallPrecheckAgain" devLabel="Click here to re-run 'Pre-check'." translation="Klicken Sie hier, um die Vorüberprüfung erneut auszuführen."/>
+	<label commandName="SimCallSave" devLabel="Click here to select 'Settings'." translation="Klicken Sie hier, um die Option Einstellungen auszuwählen."/>
+	<label commandName="SimCallSaveAs" devLabel="Click here to select 'Save as'." translation="Klicken Sie hier, um die Option Speichern unter auszuwählen."/>
+	<label commandName="SimCallStudySettings" devLabel="Click here to select 'Settings'." translation="Klicken Sie hier, um die Option Einstellungen auszuwählen."/>
+	<label commandName="SimCaseAssetType" devLabel="Simulation Case" translation="Simulationsfall"/>
+	<label commandName="SimCaseCopyFailed" devLabel="An error occurred during Study copy operation." translation="Beim Kopieren der Studie ist ein Fehler aufgetreten."/>
+	<label commandName="SimCaseIsMissing" devLabel="Simulation Study is missing" translation="Simulationsstudie fehlt"/>
+	<label commandName="SimCaseMissing" devLabel="Study is missing" translation="Studie fehlt"/>
+	<label commandName="SimCaseNoAutoContactGen" devLabel="Simulation Study does not support automatic contact generation" translation="Simulationsstudie unterstützt automatisches Kontaktwerkzeug nicht"/>
+	<label commandName="SimCaseNotSupportMultipleLoadCases" devLabel="Study does not support multiple load cases." translation="Studie unterstützt nicht mehrere Lastfälle."/>
+	<label commandName="SimCaseOverruleIsMissing" devLabel="Study is missing a defining overrule." translation="Studie enthält keine Definitionsüberschreibung."/>
+	<label commandName="SimCaseSelectionName" devLabel="Study" translation="Studie"/>
+	<label commandName="SimCloudCreditsInvalidAuthorization" devLabel="Sorry, your authorization failed." translation="Ihre Autorisierung ist fehlgeschlagen."/>
+	<label commandName="SimCloudCreditsInvalidCloudCredits" devLabel="Sorry, access validation failed." translation="Zugriffsvalidierung fehlgeschlagen."/>
+	<label commandName="SimCloudCreditsInvalidUser" devLabel="Sorry, you don't have access to the resource." translation="Sie haben keinen Zugriff auf die Ressource."/>
+	<label commandName="SimCloudCreditsNoContract" devLabel="Sorry, your contract isn't configured or the contract has expired." translation="Ihr Vertrag ist nicht konfiguriert, oder der Vertrag ist abgelaufen."/>
+	<label commandName="SimCloudCreditsNoEntitlement" devLabel="Sorry, you don't have an entitlement." translation="Sie haben keine ausreichende Berechtigung."/>
+	<label commandName="SimCloudCreditsNotEnough" devLabel="Sorry, you don't have enough tokens or cloud credits." translation="Sie haben leider nicht genügend Token oder Cloud-Punkte."/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimComparison" devLabel="Comparison" translation="Vergleich"/>
+	<label commandName="SimConnectorName" devLabel="Connector" translation="Verbinder"/>
+	<label commandName="SimContactBonded" devLabel="Bonded" translation="Verklebt"/>
+	<label commandName="SimContactManual" devLabel="Manual Contact" translation="Manueller Kontakt"/>
+	<label commandName="SimContactManualPrefix" devLabel="[M] " translation="[M] "/>
+	<label commandName="SimContactParameterValueIllegal" devLabel="%1% has an illegal value" translation="%1% enthält einen ungültigen Wert"/>
+	<label commandName="SimContactSelectionName" devLabel="Contact" translation="Kontakt"/>
+	<label commandName="SimContactsBadSelection" devLabel="Two entities have to be selected." translation="Es müssen zwei Objekte ausgewählt werden."/>
+	<label commandName="SimCurveCubicParamX1" devLabel="X1" translation="X1"/>
+	<label commandName="SimCurveCubicParamX2" devLabel="X2" translation="X2"/>
+	<label commandName="SimCurveCubicParamY1" devLabel="Y1" translation="Y1"/>
+	<label commandName="SimCurveCubicParamY2" devLabel="Y2" translation="Y2"/>
+	<label commandName="SimCurveEquationEval" devLabel="Equation" translation="Gleichung"/>
+	<label commandName="SimCurveLineEvalParamSlope" devLabel="Slope" translation="Neigung"/>
+	<label commandName="SimCurveSawToothParamAmplitude" devLabel="Amplitude" translation="Amplitude"/>
+	<label commandName="SimCurveSawToothParamWidth" devLabel="Width" translation="Breite"/>
+	<label commandName="SimCurveSegmentParamX1" devLabel="X1" translation="X1"/>
+	<label commandName="SimCurveSegmentParamX2" devLabel="X2" translation="X2"/>
+	<label commandName="SimCurveSegmentParamY1" devLabel="Y1" translation="Y1"/>
+	<label commandName="SimCurveSegmentParamY2" devLabel="Y2" translation="Y2"/>
+	<label commandName="SimCurveSinParamAmplitude" devLabel="Amplitude" translation="Amplitude"/>
+	<label commandName="SimCurveSinParamPeriod" devLabel="Period" translation="Periode"/>
+	<label commandName="SimCurveSinParamPhase" devLabel="Phase (deg)" translation="(Grad)"/>
+	<label commandName="SimCurveStepParamAmplitude" devLabel="Amplitude" translation="Amplitude"/>
+	<label commandName="SimCurveStepParamWidth" devLabel="Width" translation="Breite"/>
+	<label commandName="SimDOFSolverIsMissing" devLabel="Sim DOF Solver is missing" translation="FHG-Solver für Simulation fehlt."/>
+	<label commandName="SimDOFsolverIsMissing" devLabel="DOF solver is missing" translation="FHG-Solver fehlt."/>
+	<label commandName="SimDoFSolverNotFound" devLabel="Failed to find DoF solver." translation="FHG-Solver wurde nicht gefunden."/>
+	<label commandName="SimEdgeContactOnSolidsPrecheckFailed" devLabel="Error: Contact definitions containing solid body edges are no longer supported. Please reconfigure contact pair &quot;%1%&quot; to use faces rather than edges." translation="Fehler: Kontaktdefinitionen mit Volumenkörperkanten werden nicht mehr unterstützt. Konfigurieren Sie das Kontaktpaar &quot;%1%&quot; neu, um Flächen anstelle von Kanten zu verwenden."/>
+	<label commandName="SimEdgeDesignation" devLabel="E" translation="K"/>
+	<label commandName="SimError" devLabel="Error: " translation="Fehler: "/>
+	<label commandName="SimErrorMissingExtensionHandlerDownloadVolume" devLabel="Simulation extension for this job is not loaded." translation="Die Simulation Extension für diesen Job ist nicht geladen."/>
+	<label commandName="SimErrorMissingExtensionHandlerFinished" devLabel="Update data from finished job has failed. Simulation extension for this job is not loaded." translation="Daten aus dem fertig gestellten Job konnten nicht aktualisiert werden. Die Simulation Extension für diesen Job ist nicht geladen."/>
+	<label commandName="SimExportNasFileFailed" devLabel="Export Nastran file failed." translation="Exportieren der Nastran-Datei fehlgeschlagen."/>
+	<label commandName="SimExportOperationLocalProgressDescription" devLabel="Exporting" translation="Exportieren"/>
+	<label commandName="SimFEACSV2DownloadFailedVPNReminder" devLabel="Remember, internal builds must be connected to VPN to download results!" translation="Denken Sie daran, dass interne Builds über VPN verbunden sein müssen, um Ergebnisse herunterladen zu können!"/>
+	<label commandName="SimFEACSV2DownloadRetryLimitMsg" devLabel="Unable to download result data, retry limit exceeded." translation="Ergebnisdaten können nicht heruntergeladen werden, Grenzwert für Wiederholversuche überschritten."/>
+	<label commandName="SimFaceDesignation" devLabel="F" translation="F"/>
+	<label commandName="SimFailCreateComparisonMissingStudy" devLabel="Failed to create comparison. Decision center asset is missing." translation="Fehler beim Erstellen des Vergleichs. Entscheidungscenter-Objekt fehlt."/>
+	<label commandName="SimFailCreateComparisonUnexpected" devLabel="Unexpected error. Failed to create comparison." translation="Unerwarteter Fehler. Vergleich konnte nicht erstellt werden."/>
+	<label commandName="SimFailCreateResultComponent" devLabel="Failed to create result component. Please verify inputs." translation="Fehler beim Erstellen der Ergebniskomponente. Überprüfen Sie die Eingaben."/>
+	<label commandName="SimFailCreateResultRefUnexpected" devLabel="Unexpected error. Failed to create reference to a study." translation="Unerwarteter Fehler. Fehler beim Erstellen der Referenz auf eine Studie"/>
+	<label commandName="SimFailCreateResultReferenceInvalidInput" devLabel="Failed to create reference to a study. Please verify inputs." translation="Fehler beim Erstellen der Referenz auf eine Studie. Überprüfen Sie Ihre Eingaben."/>
+	<label commandName="SimFailMakePresentation" devLabel="Failed to set presentation." translation="Fehler beim Festlegen der Präsentation"/>
+	<label commandName="SimFailToActivateStudy" devLabel="Failed to activate simulation study." translation="Fehler beim Aktivieren der Simulationsstudie."/>
+	<label commandName="SimFailToCreateSimCaseOutsideOfStudiesAsset" devLabel="Failed to create simulation study outside of studies asset." translation="Fehler beim Erstellen der Simulationsstudie außerhalb des Studienobjekts"/>
+	<label commandName="SimFailToDeleteComparison" devLabel="Failed to remove comparison." translation="Fehler beim Entfernen des Vergleichs"/>
+	<label commandName="SimFailToDeleteComparisonNotSet" devLabel="Failed to delete comparison. Comparison is not set." translation="Fehler beim Löschen des Vergleichs. Vergleich ist nicht festgelegt."/>
+	<label commandName="SimFailToDeleteObjectNotSet" devLabel="Failed to delete the object. Object is not set." translation="Fehler beim Löschen des Objekts. Objekt ist nicht festgelegt."/>
+	<label commandName="SimFailToDeleteObjectNullParent" devLabel="Failed to remove object from a collection" translation="Fehler beim Entfernen des Objekts aus einer Sammlung"/>
+	<label commandName="SimFailToDeleteSimCaseOutsideOfStudiesAsset" devLabel="Failed to delete Study outside of studies asset." translation="Fehler beim Löschen der Studie außerhalb des Studienobjekts."/>
+	<label commandName="SimFailedMaterials" devLabel="Some components are using a material with invalid properties." translation="Einige Komponenten enthalten ein Material mit ungültigen Eigenschaften."/>
+	<label commandName="SimFailedMissingEntitlement" devLabel="Your account may not have been assigned the necessary entitlements." translation="Möglicherweise wurden Ihrem Konto nicht die erforderlichen Berechtigungen zugewiesen."/>
+	<label commandName="SimFailedNativeSurfaces" devLabel="Surface bodies detected and will be excluded from the solve. If this is not expected consider Stitching the surfaces into a solid, or Removing them in Simplify workspace." translation="Flächenkörper wurden erkannt und werden von der Lösung ausgeschlossen. Wenn dies nicht erwartet wurde, sollten Sie die Flächen in einen Volumenkörper heften oder sie im Arbeitsbereich Vereinfachen entfernen."/>
+	<label commandName="SimFailedNativeSurfaces2" devLabel="%1% Surface bodies detected and will be excluded from the solve. Please repair the model by Stitching the surfaces into a solid or Removing them in Simplify workspace." translation="%1% Flächenkörper wurden erkannt und werden von der Lösung ausgeschlossen. Reparieren Sie das Modell, indem Sie die Flächen in einen Volumenkörper heften oder sie im Arbeitsbereich Vereinfachen entfernen."/>
+	<label commandName="SimFailedNativeSurfaces3" devLabel="No solid bodies found. Please include solid bodies or repair the model by Stitching the surfaces into a solid." translation="Keine Volumenkörper gefunden. Schließen Sie Volumenkörper ein, oder reparieren Sie das Modell, indem Sie die Flächen in einen Volumenkörper heften."/>
+	<label commandName="SimFailedSurfacesWithContact11" devLabel="%1% Contacts on surface bodies detected and will be excluded from the solve. Please delete the contacts or repair the surface bodies to make it a solid." translation="%1% Kontakte auf Flächenkörpern wurden erkannt und werden von der Lösung ausgeschlossen. Löschen Sie die Kontakte, oder reparieren Sie die Flächenkörper, um einen Volumenkörper zu erstellen."/>
+	<label commandName="SimFailedToChangeStudy" devLabel="Failed to change Study." translation="Studie konnte nicht geändert werden."/>
+	<label commandName="SimFailedToCreateInstanceOfExistingModel" devLabel="Failed to create instance of existing model." translation="Es konnte kein Exemplar des vorhandenen Modells erstellt werden."/>
+	<label commandName="SimFailedToCreateReport" devLabel="Failed to create Report." translation="Fehler beim Erstellen des Berichts"/>
+	<label commandName="SimFailedToCreateSimCase2" devLabel="Failed to create Study." translation="Studie konnte nicht erstellt werden."/>
+	<label commandName="SimFailedToCreateSimCaseAsset" devLabel="Failed to create Study Asset." translation="Studienobjekt konnte nicht erstellt werden."/>
+	<label commandName="SimFailedToCreateSimCaseUnableToApplyOverrules" devLabel="Failed to create Study - unable to apply overrules." translation="Studie konnte nicht erstellt werden - Überschreibungen können nicht angewendet werden."/>
+	<label commandName="SimFailedToCreateSimCasesAssets" devLabel="Failed to create Study based on template." translation="Fehler beim Erstellen der Studie basierend auf Vorlage."/>
+	<label commandName="SimFailedToCreateSimStudy" devLabel="Failed to create Sim Study." translation="Simulationsstudie konnte nicht erstellt werden."/>
+	<label commandName="SimFailedToLoadSimStudy" devLabel="Failed to load Study." translation="Fehler beim Laden der Studie."/>
+	<label commandName="SimFailedToRemoveSimCases" devLabel="Failed to remove Study(ies)." translation="Fehler beim Entfernen der Studie(n)."/>
+	<label commandName="SimFailedToSetActiveUnits" devLabel="Failed to set active units." translation="Fehler beim Festlegen der aktiven Einheiten"/>
+	<label commandName="SimFixed" devLabel="Fixed" translation="Fest"/>
+	<label commandName="SimFocused" devLabel="Focused" translation="Fokussiert"/>
+	<label commandName="SimFree" devLabel="Free" translation="Frei"/>
+	<label commandName="SimFusionModelFailed" devLabel="Failed to convert Bodies to Components" translation="Fehler beim Konvertieren von Körper in Komponenten"/>
+	<label commandName="SimFusionModelIsMissing" devLabel="Model is missing" translation="Modell fehlt."/>
+	<label commandName="SimGeneralSettingsUseScientificNotation" devLabel="Use Scientific Notation" translation="Wissenschaftliche Schreibweise verwenden"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimGlobal" devLabel="Global" translation="Global"/>
+	<label commandName="SimGroupedColor" devLabel="Group %1%" translation="Gruppe %1%"/>
+	<label commandName="SimHiddenBodiesOrComponentsWarning" devLabel="Warning: Visibility is turned off for some Bodies or Components. Hidden Bodies and Components will still participate in the Simulation Solve. To exclude Bodies and Components from the Simulation Solve, use the &quot;Remove&quot; tool in Simplify workspace." translation="Warnung: Die Sichtbarkeit einiger Körper oder Komponenten wurde deaktiviert. Ausgeblendete Körper und Komponenten werden dennoch für die Simulationsauflösung berücksichtigt. Verwenden Sie das Werkzeug Entfernen im Arbeitsbereich Vereinfachen, um Körper und Komponenten aus der Simulationsauflösung auszuschließen."/>
+	<label commandName="SimHiddenSettingsWarning" devLabel="Warning: Visibility is turned off for some Loads or Constraints. Hidden Loads and Constraints will still participate in the Simulation Solve. To exclude them from the solve, use the &quot;Toggle Suppress&quot; command in the browser." translation="Warnung: Die Sichtbarkeit einiger Lasten oder Abhängigkeiten ist deaktiviert. Ausgeblendete Lasten und Abhängigkeiten werden weiterhin bei der Simulationslösung berücksichtigt. Um sie von der Lösung auszuschließen, verwenden Sie den Befehl Unterdrücken ein/aus im Browser."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimInvalidBoltConnectorLocationForBoltHead" devLabel="Warning: Invalid Bolt Connector bolt head: %1%. Please reselect the edge for Location for Bolt Head." translation="Warnung: Ungültiger Schraubverbindungs-Schraubenkopf: %1%. Wählen Sie die Kante für die Position des Schraubenkopfs erneut aus."/>
+	<label commandName="SimInvalidBoltConnectorLocationForNut" devLabel="Warning: Invalid Bolt Connector nut: %1%. Please reselect the edge or face for Location for Nut." translation="Warnung: Ungültige Schraubverbindungs-Mutter: %1%. Wählen Sie die Kante oder Fläche für die Position der Mutter erneut aus."/>
+	<label commandName="SimInvalidBoltConnectorLocationForThreads" devLabel="Warning: Invalid Bolt Connector threads: %1%. Please reselect the face for Location for Threads." translation="Warnung: Ungültige Schraubverbindungs-Gewinde: %1%. Wählen Sie die Fläche für die Position der Gewinde erneut aus."/>
+	<label commandName="SimInvalidInput" devLabel="Invalid input." translation="Ungültige Eingabe"/>
+	<label commandName="SimInvalidJobStateErr" devLabel="Unexpected failure. Invalid job state." translation="Unerwarteter Fehler. Ungültiger Jobstatus"/>
+	<label commandName="SimInvalidMaterialLinearMaterialPoissonHigh" devLabel="Some components are using a linear isotropic material with a Poisson's ratio of 0.5 or greater. Incompressible materials such as this are best represented by a hyperelastic material model such as Mooney-Rivlin. Alternatively, the Poisson's ratio can be modified slightly to a value just below 0.5 provided that the Young's and shear moduli values are appropriately adjusted to maintain the relationship E=2G(1+NU)." translation="Einige Komponenten verwenden ein lineares isotropes Material mit einer Poissonzahl von 0,5 oder größer. Inkompressible Materialien wie dieses werden am besten durch ein hyperelastisches Materialmodell wie Mooney-Rivlin dargestellt. Alternativ kann die Poissonzahl leicht in einen Wert knapp unter 0,5 geändert werden, sofern die Werte für Young- und Schermodule so angepasst werden, dass die Beziehung E=2G(1+NU) erhalten bleibt."/>
+	<label commandName="SimInvalidMaterialLinearMaterialPoissonLow" devLabel="Some components are using a linear isotropic material with a Poisson's ratio of -1.0 or less (extreme auxetic behavior). This violates the material model's requirements for positive Young's, shear, and bulk moduli values and is not supported." translation="Einige Komponenten verwenden ein lineares isotropes Material mit einer Poissonzahl von -1,0 oder weniger (extrem auxetisches Verhalten). Dies verstößt gegen die Voraussetzungen des Materialmodells für positive Werte für Young-, Scher- und Kompressionsmodule und wird nicht unterstützt."/>
+	<label commandName="SimInvalidMaterialNolinearMaterialInExplicitStudy" devLabel="Some components are using a nonlinear elastic material, which is not supported by the Event Simulation study type. Try using nonlinear plastic or nonlinear elasto-plastic instead." translation="Einige Komponenten verwenden ein nichtlineares elastisches Material, das von der Ereignissimulationsstudie nicht unterstützt wird. Versuchen Sie es stattdessen mit einem nichtlinearen plastischen oder nichtlinearen elasto-plastischen Material."/>
+	<label commandName="SimJobDocumentIsNotOnDisc" devLabel="Please save the document prior executing your cloud job." translation="Speichern Sie das Dokument vor dem Ausführen des Cloud-Jobs."/>
+	<label commandName="SimJobInfoTimeMessageFinished" devLabel="Finished" translation="Abgeschlossen"/>
+	<label commandName="SimJobInfoTimeMessageStarted" devLabel="Started" translation="Gestartet"/>
+	<label commandName="SimJobIsOfflineSuspendJob" devLabel="Internet connection lost. Cloud job suspended." translation="Internetverbindung unterbrochen. Cloud-Job angehalten."/>
+	<label commandName="SimJobIsOnlineResumeJob" devLabel="Internet connection available. Resuming cloud job." translation="Internetverbindung verfügbar. Cloud-Job wird fortgesetzt."/>
+	<label commandName="SimJobUIWaitForUploadFailed" devLabel="Upload of the model to the cloud failed.  Please try to run this job later." translation="Beim Hochladen des Modells in die Cloud ist ein Fehler aufgetreten. Versuchen Sie, diesen Job später auszuführen."/>
+	<label commandName="SimJobUIWaitForUploadFailedOffline" devLabel="Fusion is currently running offline.  Please try to run this job later." translation="Fusion wird derzeit offline ausgeführt. Versuchen Sie, diesen Job später auszuführen."/>
+	<label commandName="SimLoadCase" devLabel="Load Case" translation="Lastfall"/>
+	<label commandName="SimLoadCaseHasNoCase" devLabel="Load case has no study" translation="Lastfall enthält keine Studie"/>
+	<label commandName="SimLoadCaseIsMissing" devLabel="Load case is missing" translation="Lastfall fehlt"/>
+	<label commandName="SimLoadCaseSelectionName" devLabel="Load Case" translation="Lastfall"/>
+	<label commandName="SimLoadOnConstrainedGeometryIgnored" devLabel="Warning: &quot;%1%&quot;  may be in conflict with &quot;%2%&quot;." translation="Warnung: &quot;%1%&quot; verursacht möglicherweise einen Konflikt mit &quot;%2%&quot;."/>
+	<label commandName="SimMaterialDiscoveryNotSupported" devLabel="Temperature-dependent, non-linear or hyperelastic materials used in Fusion 360 are not supported in Ansys Discovery." translation="In Fusion 360 verwendete temperaturabhängige, nichtlineare oder hyperelastische Materialien werden in Ansys Discovery nicht unterstützt."/>
+	<label commandName="SimMaterialNotExist" devLabel="Material doesn't exist" translation="Material ist nicht vorhanden"/>
+	<label commandName="SimMaterialPropertyCompressiveStrength" devLabel="Compressive Strength" translation="Druckfestigkeit"/>
+	<label commandName="SimMaterialPropertyCompressiveYield" devLabel="Compressive Yield" translation="Druckgrenze"/>
+	<label commandName="SimMaterialPropertyCyclicHardenCoeff" devLabel="Cyclic Hardening Coefficient" translation="Zyklischer Verfestigungskoeffizient"/>
+	<label commandName="SimMaterialPropertyCyclicHardenExp" devLabel="Cyclic Hardening Exponent" translation="Zyklischer Verfestigungsexponent"/>
+	<label commandName="SimMaterialPropertyDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="SimMaterialPropertyDuctilityCoeff" devLabel="Ductility Coefficient" translation="Duktilitätskoeffizient"/>
+	<label commandName="SimMaterialPropertyDuctilityExp" devLabel="Ductility Exponent" translation="Duktilitätsexponent"/>
+	<label commandName="SimMaterialPropertyEnduranceLimitNumberOfCycles" devLabel="Endurance Limit Number of Cycles" translation="Ermüdungsgrenze Zyklusanzahl"/>
+	<label commandName="SimMaterialPropertyEnduranceLimitStress" devLabel="Endurance Limit Stress" translation="Ermüdungsgrenzspannung"/>
+	<label commandName="SimMaterialPropertyLinearExpansion" devLabel="Thermal Expansion Coefficient" translation="Thermischer Ausdehnungskoeffizient"/>
+	<label commandName="SimMaterialPropertyPoissonsRatio" devLabel="Poisson's Ratio" translation="Querdehnung"/>
+	<label commandName="SimMaterialPropertySNCurve" devLabel="S-N Curve" translation="S-N-Kurve"/>
+	<label commandName="SimMaterialPropertySafetyFactor" devLabel="Safety Factor" translation="Sicherheitsfaktor"/>
+	<label commandName="SimMaterialPropertySpecificHeat" devLabel="Specific Heat" translation="Spezifische Wärme"/>
+	<label commandName="SimMaterialPropertyStrengthCoeff" devLabel="Strength Coefficient" translation="Festigkeitskoeffizient"/>
+	<label commandName="SimMaterialPropertyStrengthExp" devLabel="Strength Exponent" translation="Festigkeitsexponent"/>
+	<label commandName="SimMaterialPropertyThermalConductivity" devLabel="Thermal Conductivity" translation="Wärmeleitfähigkeit"/>
+	<label commandName="SimMaterialPropertyUltimateTensileStrenght" devLabel="Ultimate Tensile Strength" translation="Zugfestigkeit"/>
+	<label commandName="SimMaterialPropertyYieldStrenght" devLabel="Yield Strength" translation="Streckgrenze"/>
+	<label commandName="SimMaterialPropertyYoungsModulus" devLabel="Young's Modulus" translation="Elastizitätsmodul"/>
+	<label commandName="SimMaterialsDiffer" devLabel="Study materials of the linked study differ from the active study materials." translation="Studienmaterialien für die verknüpfte Studie unterscheiden sich von den Materialien für die aktive Studie."/>
+	<label commandName="SimMaxCond" devLabel=", Min. " translation="Min. "/>
+	<label commandName="SimMeshOperationLocalProgressDescription" devLabel="Meshing" translation="Netzerstellung"/>
+	<label commandName="SimMinCond" devLabel=", Max. " translation=", Max. "/>
+	<label commandName="SimMissingAddin" devLabel="Cannot solve: Required addin is missing." translation="Lösung nicht möglich: Erforderliches Add-In fehlt."/>
+	<label commandName="SimMissingContactTarget" devLabel="The contact '%1%' is missing a target." translation="Dem Kontakt %1% fehlt ein Ziel."/>
+	<label commandName="SimMissingControllerJob" devLabel="Failed to create job." translation="Fehler beim Erstellen des Jobs."/>
+	<label commandName="SimMissingExportMonitorJob" devLabel="Failed to create job." translation="Fehler beim Erstellen des Jobs."/>
+	<label commandName="SimMissingRequestSubject" devLabel="Missing request subject." translation="Anforderungsthema fehlt."/>
+	<label commandName="SimMoreThenOneBodyLoadWarning" devLabel="Warning: Model contains more then one %2% in load case &quot;%1%&quot;." translation="Warnung: Modell enthält mehrere %2% in Lastfall &quot;%1%&quot;."/>
+	<label commandName="SimNlinearCombinedIsoNotSupported" devLabel="The nonlinear Combined (isotropic  + kinematic) Hardening Rule for material strength, used in Fusion 360, is not supported in Ansys." translation="Die in Fusion 360 verwendete nichtlineare kombinierte Verfestigungsregel (isotrop und kinematisch) für die Materialfestigkeit wird in Ansys nicht unterstützt."/>
+	<label commandName="SimNlinearElasticNotSupported" devLabel="The nonlinear elastic material property used in Fusion 360 is not supported in Ansys." translation="Die in Fusion 360 verwendete nichtlineare elastische Materialeigenschaft wird in Ansys nicht unterstützt."/>
+	<label commandName="SimNlinearYieldCriterionNotSupported" devLabel="The nonlinear material yield criteria, Tresca, Mohr-Coulomb, and Drucker-Prager, used in Fusion 360, are not supported in Ansys." translation="Die in Fusion 360 verwendeten nichtlinearen Materialbeanspruchungskriterien Tresca, Mohr-Coulomb und Drucker-Prager werden in Ansys nicht unterstützt."/>
+	<label commandName="SimNo" devLabel="No" translation="Nein"/>
+	<label commandName="SimNoModelSelected" devLabel="No model selected." translation="Kein Modell ausgewählt"/>
+	<label commandName="SimNoSimCaseIsSelected" devLabel="No Study is selected." translation="Keine Studie ausgewählt."/>
+	<label commandName="SimNullName" devLabel="null" translation="Null"/>
+	<label commandName="SimNullSimCaseErr" devLabel="Failed to update data from finished job. Missing target simulation study." translation="Daten aus dem fertig gestellten Job konnten nicht aktualisiert werden. Zielsimulationsstudie fehlt."/>
+	<label commandName="SimNullSimJobErr" devLabel="Unexpected failure. Missing job." translation="Unerwarteter Fehler. Job fehlt."/>
+	<label commandName="SimOnlyOneBodyInTO" devLabel="Only single part/body geometries are supported for shape optimization at this time. Please suppress all but the part/body to be optimized and try again." translation="Derzeit werden nur einzelne Bauteil-/Körpergeometrien für Formoptimierung unterstützt. Unterdrücken Sie alle Bauteile/Körper bis auf das/den zu optimierende/n, und versuchen Sie es erneut."/>
+	<label commandName="SimOptCriteriaAbove" devLabel="Above " translation="Über "/>
+	<label commandName="SimOptCriteriaAboveOrEqual" devLabel="Above or equal " translation="Über oder gleich "/>
+	<label commandName="SimOptCriteriaBelow" devLabel="Below " translation="Unter "/>
+	<label commandName="SimOptCriteriaBelowOrEqual" devLabel="Below or equal " translation="Unter oder gleich "/>
+	<label commandName="SimOptCriteriaEqual" devLabel="Equal " translation="Gleich "/>
+	<label commandName="SimOptGoalExplore" devLabel="Explore" translation="Durchsuchen"/>
+	<label commandName="SimOptGoalMaximize" devLabel="Maximize" translation="Maximieren"/>
+	<label commandName="SimOptGoalMinimize" devLabel="Minimize" translation="Minimieren"/>
+	<label commandName="SimOptimizationCriteriaValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimOptimizationVariableValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimOverridesSelectionCategory" devLabel="Simulation Overrides" translation="Simulationsüberschreibungen"/>
+	<label commandName="SimOverridesSelectionName" devLabel="Simulation Overrides" translation="Simulationsüberschreibungen"/>
+	<label commandName="SimPhysicalMaterialOverrideSelectionCategory" devLabel="Study Material" translation="Studienmaterial"/>
+	<label commandName="SimPhysicalMaterialOverrideSelectionName" devLabel="Study Material" translation="Studienmaterial"/>
+	<label commandName="SimPrepareModelOperationLocalProgressDescription" devLabel="Preparing Model" translation="Modell wird vorbereitet"/>
+	<label commandName="SimProcessCompletedJobUnexpected" devLabel="Unexpected failure during processing finished job. No results downloaded." translation="Unerwarteter Fehler bei der Verarbeitung des abgeschlossenen Jobs. Keine Ergebnisse heruntergeladen."/>
+	<label commandName="SimProjectPropertiesAuthority" devLabel="Authority" translation="Bevollmächtigter"/>
+	<label commandName="SimProjectPropertiesCosdtCenter" devLabel="Cost Center" translation="Kostenstelle"/>
+	<label commandName="SimProjectPropertiesCreationDate" devLabel="Creation Date" translation="Erstellungsdatum"/>
+	<label commandName="SimProjectPropertiesDescription" devLabel="Description" translation="Beschreibung"/>
+	<label commandName="SimProjectPropertiesDesigner" devLabel="Designer" translation="Konstrukteur"/>
+	<label commandName="SimProjectPropertiesEngineer" devLabel="Engineer" translation="Ingenieur"/>
+	<label commandName="SimProjectPropertiesEstimatedCost" devLabel="Estimated Cost" translation="Geschätzte Kosten"/>
+	<label commandName="SimProjectPropertiesLocation" devLabel="Location" translation="Position"/>
+	<label commandName="SimProjectPropertiesPartNumber" devLabel="Part Number" translation="Bauteilnummer"/>
+	<label commandName="SimProjectPropertiesProject" devLabel="Project" translation="Projekt"/>
+	<label commandName="SimProjectPropertiesRevNumber" devLabel="Revision Number" translation="Revisionsnummer"/>
+	<label commandName="SimProjectPropertiesStockNumber" devLabel="Stock Number" translation="Bestandsnummer"/>
+	<label commandName="SimProjectPropertiesVendor" devLabel="Vendor" translation="Hersteller"/>
+	<label commandName="SimProjectPropertiesWebLink" devLabel="Web Link" translation="Web-Verknüpfung"/>
+	<label commandName="SimPropertyBoltDiameterValue" devLabel="Bolt Diameter" translation="Schraubendurchmesser"/>
+	<label commandName="SimPropertyBoltHeadDensityValue" devLabel="Density" translation="Dichte"/>
+	<label commandName="SimPropertyBoltHeadNutWasherThicknessValue" devLabel="Nut Washer Height" translation="Höhe der Mutterunterlegscheibe"/>
+	<label commandName="SimPropertyBoltHeadWasher" devLabel="Head Washer" translation="Kopfunterlegscheibe"/>
+	<label commandName="SimPropertyBoltHeadWasherThicknessValue" devLabel="Head Washer Height" translation="Höhe der Kopfunterlegscheibe"/>
+	<label commandName="SimPropertyBoltLengthValue" devLabel="Bolt Length" translation="Schraubenlänge"/>
+	<label commandName="SimPropertyBoltNutWasher" devLabel="Nut Washer" translation="Mutterunterlegscheibe"/>
+	<label commandName="SimPropertyBoltNutWasherThicknessValue" devLabel="Nut Washer Height" translation="Höhe der Mutterunterlegscheibe"/>
+	<label commandName="SimPropertyBoltPreloadWithTorque" devLabel="Torque Preload" translation="Drehmomentvorspannung"/>
+	<label commandName="SimPropertyBoltTorqueCoeffValue" devLabel="Torque Coefficient" translation="Drehmomentkoeffizient"/>
+	<label commandName="SimPropertyBoltWithNut" devLabel="Bolt With Nut" translation="Schraube mit Mutter"/>
+	<label commandName="SimPropertyConnectorMaterialValue" devLabel="Material Value" translation="Materialwert"/>
+	<label commandName="SimPropertyConnectorUserDefinedMaterialValue" devLabel="User Defined Material" translation="Benutzerdefiniertes Material"/>
+	<label commandName="SimPropertyDamping" devLabel="Axial Damping Value" translation="Wert für axiale Dämpfung"/>
+	<label commandName="SimPropertyDensityValue" devLabel="Density" translation="Dichte"/>
+	<label commandName="SimPropertyDynamicDampingValue" devLabel="Rotational Damping Value" translation="Wert für Drehdämpfung"/>
+	<label commandName="SimPropertyElasticModulusValue" devLabel="Elastic Modulus" translation="Elastizitätsmodul"/>
+	<label commandName="SimPropertyHeadWasherDiameterValue" devLabel="Head Washer Diameter" translation="Durchmesser der Kopfunterlegscheibe"/>
+	<label commandName="SimPropertyNutWasherDiameterValue" devLabel="Nut Washer Diameter" translation="Durchmesser der Mutterunterlegscheibe"/>
+	<label commandName="SimPropertyPoissonsRatioValue" devLabel="Poisson's Ratio" translation="Querdehnung"/>
+	<label commandName="SimPropertyPreloadValue" devLabel="Preload" translation="Vorspannung"/>
+	<label commandName="SimPropertyRigidFixRotXValue" devLabel="Fix Rotation in X Axis Value" translation="Wert für feste Drehung auf X-Achse"/>
+	<label commandName="SimPropertyRigidFixRotYValue" devLabel="Fix Rotation in Y Axis Value" translation="Wert für feste Drehung auf Y-Achse"/>
+	<label commandName="SimPropertyRigidFixRotZValue" devLabel="Fix Rotation in Z Axis Value" translation="Wert für feste Drehung auf Z-Achse"/>
+	<label commandName="SimPropertyRigidFixTransXValue" devLabel="Fix Translation in X Axis Value" translation="Wert für feste Translation auf X-Achse"/>
+	<label commandName="SimPropertyRigidFixTransYValue" devLabel="Fix Translation in Y Axis Value" translation="Wert für feste Translation auf Y-Achse"/>
+	<label commandName="SimPropertyRigidFixTransZValue" devLabel="Fix Translation in Z Axis Value" translation="Wert für feste Translation auf Z-Achse"/>
+	<label commandName="SimPropertyRigidIsInterpolatedValue" devLabel="Rigid Body Interpolated Value" translation="Interpolierter Wert für starren Körper"/>
+	<label commandName="SimPropertyStiffness" devLabel="Axial Stiffness Value" translation="Wert für axiale Steifigkeit"/>
+	<label commandName="SimPropertyStrainRecoveryRotValue" devLabel="Strain Recovery Rotational Value" translation="Drehwert für Dehnungswiederherstellung"/>
+	<label commandName="SimPropertyStrainRecoveryTransValue" devLabel="Strain Recovery Transitional Value" translation="Übergangswert für Dehnungswiederherstellung"/>
+	<label commandName="SimPropertyStressRecoveryRotValue" devLabel="Stress Recovery Rotational Value" translation="Drehwert für Spannungswiederherstellung"/>
+	<label commandName="SimPropertyStressRecoveryTransValue" devLabel="Stress Recovery Transitional Value" translation="Übergangswert für Spannungswiederherstellung"/>
+	<label commandName="SimPropertyThermalExpansionValue" devLabel="Thermal Expansion Coefficient" translation="Thermischer Ausdehnungskoeffizient"/>
+	<label commandName="SimPropertyThreadedLengthValue" devLabel="Usable Thread Length" translation="Nutzbare Gewindelänge"/>
+	<label commandName="SimQuestionableLinearMaterialInNonlinearStudy" devLabel="Warning: One or more of the physical materials do not contain nonlinear properties. The material may not behave as expected in the current analysis type. Nonlinear properties are recommended." translation="Warnung: Mindestens ein Material enthält keine nichtlinearen Eigenschaften. Das Material verhält sich im aktuellen Analysetyp möglicherweise nicht wie erwartet. Die Verwendung nichtlinearer Eigenschaften wird empfohlen."/>
+	<label commandName="SimReceiveResultsFailed" devLabel="Failed to receive results from cloud storage." translation="Fehler beim Empfangen von Ergebnissen aus Cloud-Speicher."/>
+	<label commandName="SimReceivingResultsAborted" devLabel="Receiving results has been aborted." translation="Empfangen von Ergebnissen wurde abgebrochen."/>
+	<label commandName="SimRefineMeshOperationLocalProgressDescription" devLabel="Refining Mesh" translation="Netz wird verfeinert"/>
+	<label commandName="SimReportAnalyzedFile" devLabel="Analyzed File" translation="Analysierte Datei"/>
+	<label commandName="SimReportAuthor" devLabel="Author" translation="Autor"/>
+	<label commandName="SimReportAuthorToolTip" devLabel="Author name" translation="Autorenname"/>
+	<label commandName="SimReportAuthorUserName" devLabel="Author" translation="Autor"/>
+	<label commandName="SimReportCreationDate" devLabel="Creation Date" translation="Erstellungsdatum"/>
+	<label commandName="SimReportFitWidth" devLabel="Fit Width" translation="Breite einpassen"/>
+	<label commandName="SimReportImageHeightToolTip" devLabel="Image height" translation="Bildhöhe"/>
+	<label commandName="SimReportImageHeightUserName" devLabel="Image Height" translation="Bildhöhe"/>
+	<label commandName="SimReportImageWidth" devLabel="Image Width (pixels):" translation="Bildbreite (Pixel):"/>
+	<label commandName="SimReportImageWidthToolTip" devLabel="Image width" translation="Bildbreite"/>
+	<label commandName="SimReportImageWidthUserName" devLabel="Image Width" translation="Bildbreite"/>
+	<label commandName="SimReportJavaScriptToolTip" devLabel="Should report contain dynamic content driven by javascript" translation="Gibt an, ob der Bericht über von JavaScript gesteuerten, dynamischen Inhalt verfügt"/>
+	<label commandName="SimReportJavaScriptUserName" devLabel="Use Dynamic Content (Javascript)" translation="Dynamischen Inhalt verwenden (JavaScript)"/>
+	<label commandName="SimReportLastFolderToolTip" devLabel="Last result file location" translation="Speicherort der letzten Ergebnisdatei"/>
+	<label commandName="SimReportLastFolderUserName" devLabel="Last Folder" translation="Letzter Ordner"/>
+	<label commandName="SimReportLogoPathToolTip" devLabel="Path to logo image" translation="Pfad zum Logo"/>
+	<label commandName="SimReportLogoPathUserName" devLabel="Logo Path" translation="Pfad für Logo"/>
+	<label commandName="SimReportOptionGroupToolTip" devLabel="Preferences controlling simulation report behavior" translation="Voreinstellungen zum Steuern des Simulationsberichtsverhaltens"/>
+	<label commandName="SimReportOptionGroupUserName" devLabel="Simulation Report" translation="Simulationsbericht"/>
+	<label commandName="SimReportOriginal" devLabel="Original" translation="Original"/>
+	<label commandName="SimReportProjectProperties" devLabel="Project Properties" translation="Projekteigenschaften"/>
+	<label commandName="SimReportPropertiesProblem" devLabel="Problem with data" translation="Problem mit Daten"/>
+	<label commandName="SimReportPropertiesProject" devLabel="Project" translation="Projekt"/>
+	<label commandName="SimReportPropertiesStatus" devLabel="Status" translation="Status"/>
+	<label commandName="SimReportPropertiesStatusPending" devLabel="Pending" translation="Ausstehend"/>
+	<label commandName="SimReportPropertiesStatusRelease" devLabel="Release" translation="Version"/>
+	<label commandName="SimReportPropertiesStatusWorkInProgres" devLabel="WorkInProgress" translation="WorkInProgress"/>
+	<label commandName="SimReportPropertiesSummary" devLabel="Summary" translation="Zusammenfassung"/>
+	<label commandName="SimReportReportProperties" devLabel="Report Properties" translation="Berichtseigenschaften"/>
+	<label commandName="SimReportRequestDataFail" devLabel="No data was specified." translation="Es wurden keine Daten angegeben."/>
+	<label commandName="SimReportSummary" devLabel="Summary" translation="Zusammenfassung"/>
+	<label commandName="SimReportTitle" devLabel="Report Title" translation="Berichttitel"/>
+	<label commandName="SimReportUseLogoToolTip" devLabel="Should report contain logo" translation="Gibt an, ob der Bericht das Logo enthalten soll"/>
+	<label commandName="SimReportUseLogoUserName" devLabel="Use Logo" translation="Logo verwenden"/>
+	<label commandName="SimReportUseSummaryToolTip" devLabel="Should report contain summary" translation="Gibt an, ob der Bericht eine Zusammenfassung enthalten soll"/>
+	<label commandName="SimReportUseSummaryUserName" devLabel="Use Summary" translation="Zusammenfassung verwenden"/>
+	<label commandName="SimReportVersion" devLabel="Version" translation="Version"/>
+	<label commandName="SimRigidBodyConnectorName" devLabel="Rigid Body Connector" translation="Verbinder zwischen starren Körpern"/>
+	<label commandName="SimRigidBodyConnectorSelectionName" devLabel="Rigid Body Connector" translation="Verbinder zwischen starren Körpern"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimServiceRetiredLegacyResultsError" devLabel="Unable to download results for this document. Please update your Fusion 360 to the latest version." translation="Ergebnisse für dieses Dokument können nicht heruntergeladen werden. Aktualisieren Sie Fusion 360 auf die neueste Version."/>
+	<label commandName="SimServiceRetiredLocalSolveUploadError" devLabel="Unable to upload local solve results data for this document. Please update your Fusion 360 to the latest version." translation="Lokale Lösungsergebnisdaten für dieses Dokument können nicht hochgeladen werden. Aktualisieren Sie Fusion 360 auf die neueste Version."/>
+	<label commandName="SimSettings" devLabel="No settings was specified." translation="Es wurden keine Einstellungen angegeben."/>
+	<label commandName="SimSettingsSelectionCategory" devLabel="Simulation Settings" translation="Simulationseinstellungen"/>
+	<label commandName="SimSettingsSelectionName" devLabel="Settings" translation="Einstellungen"/>
+	<label commandName="SimShellsAreNotSupported" devLabel="Cannot solve: Shells and native surfaces are not supported yet." translation="Lösung nicht möglich: Wandstärken und Flächen werden noch nicht unterstützt."/>
+	<label commandName="SimSolveJobAborted" devLabel="Job has been aborted." translation="Job wurde abgebrochen."/>
+	<label commandName="SimSolveJobCancelled" devLabel="Job has been canceled." translation="Job wurde abgebrochen."/>
+	<label commandName="SimSolveJobFailed" devLabel="Job has finished with errors." translation="Job wurde mit Fehlern abgeschlossen."/>
+	<label commandName="SimSolveJobFailedRefundingCloudCredits" devLabel="The job has finished with errors. The cloud credits for this job will be refunded." translation="Der Job wurde mit Fehlern abgeschlossen. Die Cloud-Punkte für diesen Job werden erstattet."/>
+	<label commandName="SimSolveJobFailedRefundingTokens" devLabel="The job has finished with errors. The tokens used for this job will be refunded." translation="Der Job wurde mit Fehlern abgeschlossen. Die für diesen Job verwendeten Token werden erstattet."/>
+	<label commandName="SimSolveJobFinished" devLabel="Job has finished successfully." translation="Job wurde erfolgreich abgeschlossen."/>
+	<label commandName="SimSolveOperationDownload" devLabel="Receiving" translation="Wird empfangen"/>
+	<label commandName="SimSolveOperationLocalProgressDescription" devLabel="Solving" translation="Wird aufgelöst"/>
+	<label commandName="SimSolveOperationUpload" devLabel="Sending" translation="Wird gesendet"/>
+	<label commandName="SimSolveReceivingResults" devLabel=" Receiving results." translation=" Ergebnisse werden empfangen."/>
+	<label commandName="SimSolveUIWaitForUpload" devLabel="Document is being uploaded to cloud storage. Cloud job is pending." translation="Dokument wird in den Cloud-Speicher hochgeladen. Cloud-Job ist ausstehend."/>
+	<label commandName="SimSolveWaitForUpload" devLabel="Document is being uploaded to cloud storage. Cloud job is pending." translation="Dokument wird in den Cloud-Speicher hochgeladen. Cloud-Job ist ausstehend."/>
+	<label commandName="SimSolverContactsPrefix" devLabel="Solver Contacts" translation="Solver-Kontakte"/>
+	<label commandName="SimSolverContactsSelectionName" devLabel="Solver Contacts" translation="Solver-Kontakte"/>
+	<label commandName="SimSourceSimCaseIsMissing" devLabel="Source Study is missing." translation="Quellstudie fehlt."/>
+	<label commandName="SimSourceSimModelIsMissing" devLabel="Simulation Model is missing." translation="Simulationsmodell fehlt."/>
+	<label commandName="SimSpringConnectorName" devLabel="Spring Connector" translation="Federverbindung"/>
+	<label commandName="SimSpringConnectorSelectionName" devLabel="Spring Connector" translation="Federverbindung"/>
+	<label commandName="SimStatusPropertiesCheckedBy" devLabel="Checked By" translation="Geprüft von"/>
+	<label commandName="SimStatusPropertiesCheckedDate" devLabel="Checked Date" translation="Kontrolldatum"/>
+	<label commandName="SimStatusPropertiesDesignDate" devLabel="Design State" translation="Designstatus"/>
+	<label commandName="SimStatusPropertiesEngApprovedBy" devLabel="Eng. Approved By" translation="Konstr. genehmigt von"/>
+	<label commandName="SimStatusPropertiesEngApprovedDate" devLabel="Eng. Approved Date" translation="Genehmigungsdatum Konstruktion"/>
+	<label commandName="SimStatusPropertiesMfgApprovedBy" devLabel="Mfg. Approved By" translation="Fertigung genehmigt von"/>
+	<label commandName="SimStatusPropertiesMfgApprovedDate" devLabel="Mfg. Approved Date" translation="Genehmigungsdatum Fertigung"/>
+	<label commandName="SimStatusPropertiesStatus" devLabel="Status" translation="Status"/>
+	<label commandName="SimStudies" devLabel="Studies" translation="Studien"/>
+	<label commandName="SimStudiesIsMissing" devLabel="Sim Studies is missing" translation="Simulationsstudien fehlen"/>
+	<label commandName="SimStudiesSelectionName" devLabel="Studies" translation="Studien"/>
+	<label commandName="SimSummaryPropertiesAuthor" devLabel="Author" translation="Autor"/>
+	<label commandName="SimSummaryPropertiesCategory" devLabel="Category" translation="Kategorie"/>
+	<label commandName="SimSummaryPropertiesComments" devLabel="Comments" translation="Kommentare"/>
+	<label commandName="SimSummaryPropertiesCompany" devLabel="Company" translation="Firma"/>
+	<label commandName="SimSummaryPropertiesKeywords" devLabel="Keywords" translation="Schlüsselwörter"/>
+	<label commandName="SimSummaryPropertiesManager" devLabel="Manager" translation="Manager"/>
+	<label commandName="SimSummaryPropertiesSubject" devLabel="Subject" translation="Betreff"/>
+	<label commandName="SimSummaryPropertiesTitle" devLabel="Title" translation="Titel"/>
+	<label commandName="SimTemp" devLabel="( %1% ) " translation="(%1%) "/>
+	<label commandName="SimTempDepYsUtsNotSupported" devLabel="The material property Temperature-Dependent Yield Strength, and Ultimate Tensile Strength used in Fusion 360, is not supported in Ansys." translation="Die in Fusion 360 verwendeten Materialeigenschaften für temperaturabhängige Streckgrenze und Zugfestigkeit werden in Ansys nicht unterstützt."/>
+	<label commandName="SimTemplatesStatusAttached" devLabel="Attached" translation="Angehängt"/>
+	<label commandName="SimTemplatesStatusNotAttached" devLabel="Not Attached" translation="Nicht zugeordnet"/>
+	<label commandName="SimTemplatesStatusSuppressed" devLabel="Suppressed" translation="Unterdrückt"/>
+	<label commandName="SimThisCommandWorksOnlyInTheActiveSimCase" devLabel="This command works only in the active Study." translation="Dieser Befehl kann nur in der aktiven Studie ausgeführt werden."/>
+	<label commandName="SimTopOptExportMeshSettingsExportCachePathDesc" devLabel="Directory for ASM journal files" translation="Verzeichnis für ASM-Protokolldateien"/>
+	<label commandName="SimTopOptExportMeshSettingsExportOutputFileDesc" devLabel="Path for TO result" translation="Pfad für TO-Ergebnis"/>
+	<label commandName="SimTopOptExportMeshSettingsJournalASMDesc" devLabel="Journal ASM" translation="Protokoll-ASM"/>
+	<label commandName="SimTotalTime" devLabel="Total time: %1%" translation="Gesamtzeit: %1%"/>
+	<label commandName="SimUnexpected" devLabel="Unexpected failure." translation="Unerwarteter Fehler"/>
+	<label commandName="SimUngroupedColor" devLabel="Ungrouped" translation="Gruppierung aufgehoben"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimUnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Nicht gespeichert)"/>
+	<label commandName="SimV2ControllerJob_CreateJobFailed" devLabel="Unable to start the solve as we couldn't create the job on the cloud" translation="Lösung konnte nicht gestartet werden, da der Job nicht in der Cloud erstellt werden konnte"/>
+	<label commandName="SimV2ControllerJob_DidNotAllocateOnCloud" devLabel="Unable to start the solve as we couldn't setup storage for it on the cloud" translation="Lösung kann nicht gestartet werden, da kein Speicher dafür in der Cloud eingerichtet werden konnte"/>
+	<label commandName="SimV2ControllerJob_DidNotGenerateOrUpload" devLabel="Unable to start the solve as we couldn't generate or upload your data" translation="Lösung konnte nicht gestartet werden, da Ihre Daten nicht generiert oder hochgeladen werden konnten"/>
+	<label commandName="SimV2ControllerJob_NoSimCaseOrDoc" devLabel="Unable to start the solve as data is missing" translation="Lösung konnte nicht gestartet werden, da Daten fehlen"/>
+	<label commandName="SimV2ControllerJob_Started" devLabel="Starting solve" translation="Lösung wird gestartet"/>
+	<label commandName="SimV2ControllerJob_onPreCloudSolve" devLabel="Preparing Cloud Solve." translation="Cloud-Lösung wird vorbereitet."/>
+	<label commandName="SimV2InvalidCancelDefault" devLabel="Cancel of &quot;%1%&quot; study solve failed. Please retry." translation="Abbrechen der Studienlösung &quot;%1%&quot; fehlgeschlagen. Versuchen Sie es erneut."/>
+	<label commandName="SimV2InvalidCancelFinished" devLabel="You cannot cancel &quot;%1%&quot; study solve because it has been completed." translation="Sie können die Studienlösung &quot;%1%&quot; nicht abbrechen, da sie abgeschlossen wurde."/>
+	<label commandName="SimV2JobFailTimeout" devLabel="Solve job has timed out, try reducing the problem size" translation="Zeitüberschreitung bei Job zum Lösen. Reduzieren Sie die problematische Größe"/>
+	<label commandName="SimV2JobMessageWarning" devLabel="Invalid job status event received!" translation="Ungültiges Job-Status-Ereignis erhalten!"/>
+	<label commandName="SimV2JobNoEvents" devLabel="No job events received!" translation="Keine Job-Ereignisse erhalten!"/>
+	<label commandName="SimV2ServiceMgr_CantCancel" devLabel="Unable to cancel the solve" translation="Lösung kann nicht abgebrochen werden"/>
+	<label commandName="SimV2ServiceMgr_CantStart" devLabel="Unable to start the solve" translation="Lösung konnte nicht gestartet werden"/>
+	<label commandName="SimV2ServiceMgr_DownloadProjectError" devLabel="Unable to obtain job status data." translation="Fehler beim Abrufen der Job-Statusdaten."/>
+	<label commandName="SimV2ServiceMgr_NoToken" devLabel="Unable to work with the Cloud - Authorization is missing" translation="Arbeiten mit der Cloud nicht möglich - Autorisierung fehlt"/>
+	<label commandName="SimWarning" devLabel="Warning: " translation="Warnung: "/>
+	<label commandName="SimWorkingModelOutOfDate" devLabel="The model is out of date. Please activate this study to update the model before solving." translation="Das Modell ist veraltet. Aktivieren Sie diese Studie, um das Modell vor dem Lösen zu aktualisieren."/>
+	<label commandName="SimYes" devLabel="Yes" translation="Ja"/>
+	<label commandName="SimulationStudyIsMissing" devLabel="Simulation Study is missing" translation="Simulationsstudie fehlt"/>
+	<label commandName="SpringConnectorInvalidEntity" devLabel="Entity provided is not a spring connection" translation="Angegebenes Objekt ist keine Federverbindung"/>
+	<label commandName="StudyIsMissing" devLabel="Study is missing" translation="Studie fehlt"/>
+	<label commandName="TestFeaturePack1Desc" devLabel="This section controls optional capabilities in the Generative Design workspace." translation="Dieser Abschnitt steuert optionale Funktionen im Arbeitsbereich Generatives Design."/>
+	<label commandName="UnknownContactType" devLabel="(unknown)" translation="(unbekannt)"/>
+	<label commandName="advanced-solver-desc" devLabel="Enables you to specify additional limits in the Objectives and Limits dialog for a defined minimum modal frequency and a buckling safety factor that the design must withstand. Additionally, it helps you stabilize under-constrained or unconstrained models by selecting the Remove Rigid Body Modes option in the Study Settings dialog. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-EXPERIMENTAL-SOLVER&quot;&gt;Learn More&lt;/a&gt;" translation="Ermöglicht die Angabe zusätzlicher Grenzwerte im Dialogfeld Ziele und Grenzen für eine definierte minimale modale Frequenz und einen Knicksicherheitsfaktor, dem die Konstruktion standhalten muss. Darüber hinaus hilft diese Option Ihnen, Modelle ohne oder mit unzureichenden Abhängigkeiten zu stabilisieren, indem Sie die Option Modi für starren Körper entfernen im Dialogfeld Studieneinstellungen auswählen. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/DEU/?contextId=GD-EXPERIMENTAL-SOLVER&quot;&gt;Weitere Informationen&lt;/a&gt;"/>
+	<label commandName="advanced-solver-title" devLabel="Experimental Generative Solvers and Features" translation="Experimentelle generative Solver und Funktionen"/>
+	<label commandName="cost-estimation-desc" devLabel="Take advantage of the aPriori costing engine to determine anticipated manufacturing costs for generative outcomes.  Anticipated cost information will be calculated and displayed for most outcomes (some limitations exist) and can be used for filtering, comparison, and selection." translation="Nutzen Sie die aPriori-Kosten-Engine, um die erwarteten Fertigungskosten für generative Ergebnisse zu bestimmen. Die erwarteten Kosten werden kalkuliert und für die meisten Ergebnisse angezeigt (abgesehen von einigen Einschränkungen). Diese können für das Filtern, Vergleichen und Auswählen verwendet werden."/>
+	<label commandName="cost-estimation-title" devLabel="Cost Estimation" translation="Kostenschätzung"/>
+	<label commandName="die-casting-desc" devLabel="Adds a new manufacturing method. It enables you to generate outcomes which can be manufactured using die casting operations. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-DIE-CASTING&quot;&gt;Learn More&lt;/a&gt;" translation="Fügt eine neue Fertigungsmethode hinzu. Diese ermöglicht Ihnen, Ergebnisse zu generieren, die mit Druckgussvorgängen gefertigt werden können. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/DEU/?contextId=GD-DIE-CASTING&quot;&gt;Weitere Informationen&lt;/a&gt;"/>
+	<label commandName="die-casting-title" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="fluid-desc" devLabel="Adds a new Fluids study type. It enables you to generate a flow path optimized for pressure drop based on geometric and performance requirements that you specify. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=GF-LIMITED-TP&quot;&gt;Learn More&lt;/a&gt;" translation="Fügt einen neuen Fluidstudientyp hinzu. Damit können Sie einen für Druckverlust optimierten Fließweg generieren, der auf den von Ihnen angegebenen Anforderungen für Geometrie und Leistung basiert. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=GF-LIMITED-TP&quot;&gt;Weitere Informationen&lt;/a&gt;"/>
+	<label commandName="fluid-title" devLabel="Fluid Path" translation="Fluidpfad"/>
+	<label commandName="gd_unlimited_extension_desc" devLabel="Explore numerous ideas and additional design options for specific materials and manufacturing techniques. Use the Generative Design Extension to assist you in designing a better product." translation="Erkunden Sie zahlreiche Ideen und zusätzliche Konstruktionsoptionen für bestimmte Materialien und Fertigungsverfahren. Verwenden Sie die Generative Design Extension, um noch bessere Produkte zu entwerfen."/>
+	<label commandName="gd_unlimited_extension_solve_desc" devLabel="Access generative design technologies to explore objective-based design alternatives for structural components and fluid paths. &lt;a href=&quot;https://www.autodesk.com/products/fusion-360/generative-design-extension&quot;&gt;Learn more&lt;/a&gt;&lt;/i&gt;" translation="Greifen Sie auf generative Designtechnologien zu, um objektbasierte Konstruktionsalternativen für Tragwerkskomponenten und Fluidpfade zu prüfen. &lt;a href=&quot;https://www.autodesk.com/products/fusion-360/generative-design-extension&quot;&gt;Weitere Informationen&lt;/a&gt;&lt;/i&gt;"/>
+	<label commandName="gd_unlimited_extension_solve_footer" devLabel="Two ways to generate design alternatives: &lt;ul&gt;     &lt;li&gt;&amp;nbsp;Per Use – Use tokens or cloud credits each time you generate a study. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=CC-GENERATIVE&quot;&gt;Learn more&lt;/a&gt;&lt;/i&gt;     &lt;li&gt;&amp;nbsp;By Subscription - Generate numerous studies while on an active subscription. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-GENERATIVE&quot;&gt;Learn more&lt;/a&gt;&lt;/i&gt;" translation="Zwei Möglichkeiten zum Generieren von Konstruktionsalternativen: &lt;ul&gt;     &lt;li&gt;&amp;nbsp;Nutzungsbasiert - Verwenden Sie Token oder Cloud-Punkte bei jedem Erstellen einer Studie. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/DEU/?contextId=CC-GENERATIVE&quot;&gt;Weitere Informationen&lt;/a&gt;&lt;/i&gt;     &lt;li&gt;&amp;nbsp;Mit Abonnement - Generieren Sie zahlreiche Studien während der Laufzeit eines aktiven Abonnements. &lt;a href=&quot;https://help.autodesk.com/view/fusion360/DEU/?contextId=EXT-GENERATIVE&quot;&gt;Weitere Informationen&lt;/a&gt;&lt;/i&gt;"/>
+	<label commandName="gd_unlimited_extension_solve_title" devLabel="Objective-based design exploration" translation="Zielbasierte Konstruktionsprüfung"/>
+	<label commandName="gd_unlimited_extension_title" devLabel="Generative Design" translation="Generatives Design"/>
+	<label commandName="generativedesign_featurepack_title" devLabel="Generative Design" translation="Generatives Design"/>
+	<label commandName="sim_unlimited_extension_desc" devLabel="Investigate whether your model can be manufactured, or how it may perform under ‘real life’ conditions, before physically manufacturing anything. Use the Simulation Extension to simulate a variety of conditions, to help you validate and optimize your designs." translation="Untersuchen Sie, ob Ihr Modell gefertigt werden kann oder wie es sich unter realen Bedingungen verhalten wird, bevor irgendetwas physisch hergestellt wird. Verwenden Sie die Simulation Extension, um eine Reihe von Bedingungen zu simulieren und Ihre Konstruktionen zu validieren und zu optimieren."/>
+	<label commandName="sim_unlimited_extension_footer" devLabel="Two ways to run your simulations: &lt;ul&gt;       &lt;li&gt;&amp;nbsp;Per Use – Use tokens or cloud credits each time you solve a study. &lt;/li&gt;       &lt;li&gt;&amp;nbsp;By Subscription – Solve numerous simulations across multiple analysis types while on an active subscription.&lt;/li&gt;   &lt;/ul&gt;" translation="Zwei Möglichkeiten zum Ausführen Ihrer Simulationen: &lt;ul&gt;       &lt;li&gt;&amp;nbsp;Nutzungsbasiert - Verwenden Sie Token oder Cloud-Punkte bei jedem Lösen einer Studie. &lt;/li&gt;       &lt;li&gt;&amp;nbsp;Mit Abonnement - Lösen Sie zahlreiche Simulationen mit verschiedenen Analysetypen während der Laufzeit eines aktiven Abonnements.&lt;/li&gt;   &lt;/ul&gt;"/>
+	<label commandName="sim_unlimited_extension_solve_desc" devLabel="Access structural analyses, thermal analyses, explicit analyses, and injection molding simulations to analyze your designs for performance and manufacturing process insights. &lt;a href='%1%'&gt;Learn more&lt;/a&gt;&lt;/i&gt;         " translation="Nutzen Sie statische Berechnungen, thermische Analysen, explizite Analysen und Spritzgusssimulationen, um Ihre Konstruktionen im Hinblick auf Leistungsfähigkeit und Eignung für die Fertigung zu analysieren. &lt;a href='%1%'&gt;Weitere Informationen&lt;/a&gt;&lt;/i&gt;.         "/>
+	<label commandName="sim_unlimited_extension_solve_title" devLabel="Performance and manufacturing process insights" translation="Einblicke in die Leistung und den Fertigungsprozess"/>
+	<label commandName="sim_unlimited_extension_title" devLabel="Simulation" translation="Simulation"/>
+	<label commandName="simulation-featurepack-desc" devLabel="This section controls optional capabilities in the Simulation workspace. While in preview, these features are free to use." translation="In diesem Abschnitt werden die optionalen Funktionen des Arbeitsbereichs Simulation gesteuert. In der Vorschau können diese Funktionen kostenlos verwendet werden."/>
+	<label commandName="simulation-featurepack-title" devLabel="Simulation" translation="Simulation"/>
+</Resource>

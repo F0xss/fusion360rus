@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CollectComponentsForExportStlError" devLabel="Autodesk Translation Services failed to translate the current document to stl file!" translation="Autodesk Translation Services konnte das aktuelle Dokument nicht in eine STL-Datei konvertieren."/>
+	<label commandName="STLFileFilterDescription" devLabel="STL Files (*.stl)" translation="STL-Dateien (*.stl)"/>
+</Resource>

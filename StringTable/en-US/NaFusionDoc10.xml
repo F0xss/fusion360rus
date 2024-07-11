@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ASSEMBLYSOURCETYPE" devLabel="Assembly" translation="" />
+	<label commandName="COMPONENTSOURCETYPE" devLabel="Component" translation="" />
+	<label commandName="FLATPATTERNSOURCETYPE" devLabel="Component(Flat Pattern)" translation="" />
+	<label commandName="FOLDEDMODELSOURCETYPE" devLabel="Component" translation="" />
+	<label commandName="FlatPattern" devLabel="Flat Pattern" translation="" />
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.13mm" translation="" />
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.18mm" translation="" />
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.25mm" translation="" />
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.35mm" translation="" />
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.5mm" translation="" />
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.7mm" translation="" />
+	<label commandName="FusDocCustomLineWidth7" devLabel="1.0mm" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="" />
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="" />
+	<label commandName="FusDocDesignDlError" devLabel="Could not download design file." translation="" />
+	<label commandName="FusDocDesignLinkNotFoundError" devLabel="Could not find the Design file linked with this Drawing" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="1" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision19" devLabel="0'-0&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision20" devLabel="0'-0.1&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision21" devLabel="0'-0.12&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision22" devLabel="0'-0.123&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision23" devLabel="0'-0.1234&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision24" devLabel="0'-0.12345&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision25" devLabel="0'-0.123456&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision26" devLabel="0'-0.1234567&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision27" devLabel="0'-0.12345678&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision28" devLabel="0'-0&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision29" devLabel="0'-0 1/2&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision30" devLabel="0'-0 1/4&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision31" devLabel="0'-0 1/8&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision32" devLabel="0'-0 1/16&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision33" devLabel="0'-0 1/32&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision34" devLabel="0'-0 1/64&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision35" devLabel="0'-0 1/128&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision36" devLabel="0'-0 1/256&quot;" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="" />
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="" />
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="" />
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="" />
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="" />
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="" />
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="" />
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="" />
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="" />
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="" />
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="" />
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="" />
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="" />
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="" />
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="" />
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="" />
+	<label commandName="FusDocViewProjectionDirectionValue0" devLabel="First Angle" translation="" />
+	<label commandName="FusDocViewProjectionDirectionValue1" devLabel="Third Angle" translation="" />
+	<label commandName="FusionDocAltDimUnitDisplaySuffixName" devLabel="Display Alternate Unit Abbreviation" translation="" />
+	<label commandName="FusionDocAltDimUnitDisplaySuffixToolTip" devLabel="Display Alternate Unit Abbreviation" translation="" />
+	<label commandName="FusionDocAltDimUnitLeadingZerosName" devLabel="Display Alternate Unit Leading Zeros" translation="" />
+	<label commandName="FusionDocAltDimUnitLeadingZerosToolTip" devLabel="Display Alternate Unit Leading Zeros" translation="" />
+	<label commandName="FusionDocAltDimUnitTrailingZerosName" devLabel="Display Alternate Unit Trailing Zeros" translation="" />
+	<label commandName="FusionDocAltDimUnitTrailingZerosToolTip" devLabel="Display Alternate Unit Trailing Zeros" translation="" />
+	<label commandName="FusionDocAlternateDimLinearPrecisionName" devLabel="Linear Precision" translation="" />
+	<label commandName="FusionDocAlternateDimLinearPrecisionToolTip" devLabel="Sets the default alternate dimension precision" translation="" />
+	<label commandName="FusionDocAlternateDimensionUnitDisplayName" devLabel="Alternate Units" translation="" />
+	<label commandName="FusionDocAlternateUnitDisplayToolTip" devLabel="Display Alternate Units" translation="" />
+	<label commandName="FusionDocAngularDimensionPrecisionName" devLabel=" Angular Dimension Precision" translation="" />
+	<label commandName="FusionDocAngularDimensionPrecisionToolTip" devLabel="Sets the default angular dimension precision for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocAnnotationFormatName" devLabel="Standard" translation="" />
+	<label commandName="FusionDocAnnotationsFormatToolTip" devLabel="Sets the default drafting standard for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocAnnotationsUnitDisplayToolTip" devLabel="Sets the default display of dimension unit abbreviation in dimension values for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocAnnotationsUnitsToolTip" devLabel="Sets the default annotation units for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocBorderDisplayName" devLabel="Display Border" translation="" />
+	<label commandName="FusionDocBorderDisplayToolTip" devLabel="Display or hide border" translation="" />
+	<label commandName="FusionDocCustomLargeTextHeight" devLabel="Large Text Height" translation="" />
+	<label commandName="FusionDocCustomLargeTextHeightToolTip" devLabel="Sets the custom large text height for drawings created using the 'From Scratch' option." translation="" />
+	<label commandName="FusionDocCustomLineWidthMedium" devLabel="Medium Line Width" translation="" />
+	<label commandName="FusionDocCustomLineWidthThick" devLabel="Thick Line Width" translation="" />
+	<label commandName="FusionDocCustomLineWidthThin" devLabel="Thin Line Width" translation="" />
+	<label commandName="FusionDocCustomMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocCustomMediumTextHeight" devLabel="Medium Text Height" translation="" />
+	<label commandName="FusionDocCustomMediumTextHeightToolTip" devLabel="Sets the custom medium text height for drawings created using the 'From Scratch' option." translation="" />
+	<label commandName="FusionDocCustomSmallTextHeight" devLabel="Small Text Height" translation="" />
+	<label commandName="FusionDocCustomSmallTextHeightToolTip" devLabel="Sets the custom small text height for drawings created using the 'From Scratch' option." translation="" />
+	<label commandName="FusionDocCustomThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocCustomThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocDatumIDStandardName" devLabel="DatumID" translation="" />
+	<label commandName="FusionDocDatumIDStandardToolTip" devLabel="DatumID Standard" translation="" />
+	<label commandName="FusionDocDefaultSheetSizeIFDOnlyToolTip" devLabel="To Specify a Sheet Size as a Preference, select a Drafting Standard in the above drop-down" translation="" />
+	<label commandName="FusionDocDefaultSheetSizeName" devLabel="Sheet Size" translation="" />
+	<label commandName="FusionDocDefaultSheetSizeNameIFDOnly" devLabel="Sheet Size" translation="" />
+	<label commandName="FusionDocDefaultSheetSizeToolTip" devLabel="Sets the default sheet size for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocDesignOpenError" devLabel="Could not open the design file." translation="" />
+	<label commandName="FusionDocDesignOpenNotValid" devLabel="The opened referenced design file is invalid." translation="" />
+	<label commandName="FusionDocDimLeadingZeroToolTip" devLabel="Sets the default display of leading zeros within dimension values for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocDimTrailingZeroToolTip" devLabel="Sets the default display of trailing zeros within dimension values for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocDisplayLineWidth" devLabel="Display Line Widths" translation="" />
+	<label commandName="FusionDocDisplayLineWidthToolTip" devLabel="Sets the default display of line widths for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocDrawingUnitsName" devLabel="Units" translation="" />
+	<label commandName="FusionDocFCFName" devLabel="FCF" translation="" />
+	<label commandName="FusionDocFCFStandardToolTip" devLabel="FCF Standard" translation="" />
+	<label commandName="FusionDocFontName" devLabel="Font" translation="" />
+	<label commandName="FusionDocFontToolTip" devLabel="Sets the default font for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocLargeTextHeight" devLabel="Large Text Height" translation="" />
+	<label commandName="FusionDocLargeTextHeightToolTip" devLabel="Sets the default large text height for drawings created using the 'From Scratch' option. The large text height is defined by the selected text height group" translation="" />
+	<label commandName="FusionDocLeadingZeroName" devLabel="Display Leading Zeros" translation="" />
+	<label commandName="FusionDocLineType0" devLabel="Center" translation="" />
+	<label commandName="FusionDocLineType1" devLabel="Center_2" translation="" />
+	<label commandName="FusionDocLineType2" devLabel="Continuous" translation="" />
+	<label commandName="FusionDocLineType3" devLabel="Hidden" translation="" />
+	<label commandName="FusionDocLineType4" devLabel="Hidden_2" translation="" />
+	<label commandName="FusionDocLineType5" devLabel="Phantom_2" translation="" />
+	<label commandName="FusionDocLineWidthGroup" devLabel="Line Width Group" translation="" />
+	<label commandName="FusionDocLineWidthGroupToolTip" devLabel="Sets the default line width group for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocLinearDimensionPrecisionName" devLabel="Linear Dimension Precision" translation="" />
+	<label commandName="FusionDocLinearDimensionPrecisionToolTip" devLabel="Sets the default linear dimension precision for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocLinearUnitName" devLabel="Dimension Format" translation="" />
+	<label commandName="FusionDocLinearUnitToolTip" devLabel="Sets the default dimension format for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocMassPrecisionName" devLabel="Mass Precision" translation="" />
+	<label commandName="FusionDocMassPrecisionToolTip" devLabel="Mass Precision" translation="" />
+	<label commandName="FusionDocMassUnitName" devLabel="Mass Unit" translation="" />
+	<label commandName="FusionDocMassUnitToolTip" devLabel="Mass Unit" translation="" />
+	<label commandName="FusionDocMediumLineWidth" devLabel="Medium Line Width" translation="" />
+	<label commandName="FusionDocMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocMediumTextHeight" devLabel="Medium Text Height" translation="" />
+	<label commandName="FusionDocMediumTextHeightToolTip" devLabel="Sets the default medium text height for drawings created using the 'From Scratch' option. The medium text height is defined by the selected text height group" translation="" />
+	<label commandName="FusionDocOptionDrawingGroupToolTip" devLabel="Preferences controlling Fusion 360 Drawings behavior" translation="" />
+	<label commandName="FusionDocOptionGroupToolTip" devLabel="Preferences for the Drawing and Drawing Template &quot;From Scratch&quot; option" translation="" />
+	<label commandName="FusionDocOptionGroupUserName" devLabel="Drawing" translation="" />
+	<label commandName="FusionDocOverrideFormatDefaultsName" devLabel="Override or Restore Format Defaults Below" translation="" />
+	<label commandName="FusionDocOverrideFormatDefaultsToolTip" devLabel="Checking this allows editing of the below fields, unchecking restores default values" translation="" />
+	<label commandName="FusionDocPopNewDrawingWarning" devLabel="Warning if contains mesh, surface or TSpline" translation="" />
+	<label commandName="FusionDocPrintLandscapeOrientation" devLabel="Print landscape orientation" translation="" />
+	<label commandName="FusionDocPrintLandscapeOrientationToolTip" devLabel="Sets the default print orientation" translation="" />
+	<label commandName="FusionDocPrintLinewidth" devLabel="Print linewidth " translation="" />
+	<label commandName="FusionDocPrintLinewidthToolTip" devLabel="Sets the default print linewidth" translation="" />
+	<label commandName="FusionDocPrintNumOfCopies" devLabel="Print number of copies" translation="" />
+	<label commandName="FusionDocPrintNumOfCopiesToolTip" devLabel="Sets the default number of copies for print" translation="" />
+	<label commandName="FusionDocPrintPaperSize" devLabel="Print paper size" translation="" />
+	<label commandName="FusionDocPrintPaperSizeToolTip" devLabel="Sets the default paper size of the print" translation="" />
+	<label commandName="FusionDocPrintScale" devLabel="Print scale" translation="" />
+	<label commandName="FusionDocPrintScaleToolTip" devLabel="Sets the default scale for print" translation="" />
+	<label commandName="FusionDocPrintXOffset" devLabel="Print X offset" translation="" />
+	<label commandName="FusionDocPrintXOffsetToolTip" devLabel="Sets the default X offset for print" translation="" />
+	<label commandName="FusionDocPrintYOffset" devLabel="Print Y offset" translation="" />
+	<label commandName="FusionDocPrintYOffsetToolTip" devLabel="Sets the default Y offset for print" translation="" />
+	<label commandName="FusionDocRemoveLinkError" devLabel="Old link could not be removed" translation="" />
+	<label commandName="FusionDocSmallTextHeight" devLabel="Small Text Height" translation="" />
+	<label commandName="FusionDocSmallTextHeightToolTip" devLabel="Sets the default small text height for drawings created using the 'From Scratch' option. The small text height is defined by the selected text height group" translation="" />
+	<label commandName="FusionDocSurfaceTextureStandardName" devLabel="Surface Texture" translation="" />
+	<label commandName="FusionDocSurfaceTextureStandardToolTip" devLabel="Surface Texture Standard" translation="" />
+	<label commandName="FusionDocTaperSlopeStandardName" devLabel="Taper Slope" translation="" />
+	<label commandName="FusionDocTaperSlopeStandardToolTip" devLabel="Taper Slope Standard" translation="" />
+	<label commandName="FusionDocTextHeightGroup" devLabel="Text Height Group" translation="" />
+	<label commandName="FusionDocTextHeightGroupToolTip" devLabel="Sets the text height group for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocThickLineWidth" devLabel="Thick Line Width" translation="" />
+	<label commandName="FusionDocThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocThinLineWidth" devLabel="Thin Line Width" translation="" />
+	<label commandName="FusionDocThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="" />
+	<label commandName="FusionDocTitleBlockDisplayName" devLabel="Display Title Block" translation="" />
+	<label commandName="FusionDocTitleBlockDisplayToolTip" devLabel="Display or hide title block" translation="" />
+	<label commandName="FusionDocTrailingZeroName" devLabel="Display Trailing Zeros" translation="" />
+	<label commandName="FusionDocUnexpectedError" devLabel="Unexpected error" translation="" />
+	<label commandName="FusionDocUnitDisplayName" devLabel="Display Dimension Units" translation="" />
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#10;You can update the drawing from the button in the Application Bar." translation="" />
+	<label commandName="FusionDocViewProjectionDirName" devLabel="Projection Angle" translation="" />
+	<label commandName="FusionDocViewProjectionDirToolTip" devLabel="Sets the default projection angle for drawings created using the 'From Scratch' option" translation="" />
+	<label commandName="FusionDocWeldingStandardName" devLabel="Welding" translation="" />
+	<label commandName="FusionDocWeldingStandardToolTip" devLabel="Welding Standard" translation="" />
+	<label commandName="FusionDrawingEntryNameBendTable" devLabel="Bend Table" translation="" />
+	<label commandName="FusionDrawingEntryNameHoleTable" devLabel="Hole Table" translation="" />
+	<label commandName="FusionDrawingEntryNamePartsList" devLabel="Parts List" translation="" />
+	<label commandName="FusionDrawingExtFileBlobSerializer" devLabel="Fusion Drawing failed to generate a small thumbnail." translation="" />
+	<label commandName="GeneralAnnotationFonts0" devLabel="Arial" translation="" />
+	<label commandName="GeneralAnnotationFormatValue0" devLabel="" translation="" />
+	<label commandName="GeneralAnnotationFormatValue1" devLabel="" translation="" />
+	<label commandName="GeneralAnnotationFormatValue2" devLabel="Inherit From Design" translation="" />
+	<label commandName="GeneralAnnotationHeightValue0" devLabel="0.1in" translation="" />
+	<label commandName="GeneralAnnotationHeightValue1" devLabel="0.12in" translation="" />
+	<label commandName="GeneralAnnotationHeightValue2" devLabel="0.24in" translation="" />
+	<label commandName="GeneralAnnotationHeightValue3" devLabel="2.5mm" translation="" />
+	<label commandName="GeneralAnnotationHeightValue4" devLabel="3.5mm" translation="" />
+	<label commandName="GeneralAnnotationHeightValue5" devLabel="5.0mm" translation="" />
+	<label commandName="GeneralAnnotationHeightValue6" devLabel="7.0mm" translation="" />
+	<label commandName="GeneralAnnotationHeightValue7" devLabel="10.0mm" translation="" />
+	<label commandName="GeneralAnnotationSheetSizeIFDOnly1" devLabel="Based on Standard" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue0" devLabel="mm" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue3" devLabel="in" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue4" devLabel="Inherit From Design" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue5" devLabel="cm" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue6" devLabel="m" translation="" />
+	<label commandName="GeneralAnnotationUnitsValue7" devLabel="ft" translation="" />
+	<label commandName="InnerStep" devLabel="%1% Inner Step" translation="" />
+	<label commandName="LineWidthGroup0" devLabel="Very Thin" translation="" />
+	<label commandName="LineWidthGroup1" devLabel="Thin" translation="" />
+	<label commandName="LineWidthGroup2" devLabel="Medium" translation="" />
+	<label commandName="LineWidthGroup3" devLabel="Thick" translation="" />
+	<label commandName="LineWidthGroup4" devLabel="Very Thick" translation="" />
+	<label commandName="LineWidthGroup5" devLabel="Custom" translation="" />
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="" />
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="" />
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="" />
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="" />
+	<label commandName="OfflineFailedGetDesignMsg" devLabel="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again." translation="" />
+	<label commandName="PARTSLISTTABLENAME" devLabel="PARTS LIST" translation="" />
+	<label commandName="PartsListME__REVISION" devLabel="Rev" translation="" />
+	<label commandName="RevisionNumbering0" devLabel="Custom" translation="" />
+	<label commandName="RevisionScope0" devLabel="Drawing" translation="" />
+	<label commandName="RevisionScope1" devLabel="Sheet" translation="" />
+	<label commandName="STORYBOARDSOURCETYPE" devLabel="Assembly(Storyboard)" translation="" />
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="" />
+	<label commandName="TextHeightLarge" devLabel="Large" translation="" />
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="" />
+	<label commandName="TextHeightSmall" devLabel="Small" translation="" />
+	<label commandName="UserPropertyOnComponent__ITEM_ID" devLabel="Item" translation="" />
+	<label commandName="UserPropertyOnComponent__QTY" devLabel="Qty" translation="" />
+	<label commandName="UserPropertyOnME__ITEM_NUMBER" devLabel="Item Number" translation="" />
+	<label commandName="UserPropertyOnME__LIFE_CYCLE" devLabel="Lifecycle" translation="" />
+	<label commandName="UserPropertyOnME__REVISION" devLabel="Revision" translation="" />
+	<label commandName="UserPropertyOnME__STATE" devLabel="State" translation="" />
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="" />
+</Resource>

@@ -1,0 +1,21 @@
+<div id="smoothingFilterMode"><p>Specifies how to smooth the toolpath.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss.png"/></center></td>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss_applied.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Smoothing turned off</b></p></center></td>
+<td><center><p><b>Fit Arcs applied</b></p></center></td>
+</tr></table>
+<p><b>Fit arcs</b> - Replaces multiple lines in curved areas with arcs while keeping within the toolpath tolerance. If the tolerance cannot be met, the arcs are not applied. Fitting arcs will reduce the size of the G-code file, making it useful for older machines with slower CNC controllers that work better with smaller file sizes.</p>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="400" height="196" src="../images/Evenly_spaced_points_2_SS.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Evenly spaced points</b></p></center></td>
+</tr></table>
+<p><b>Evenly spaced points</b> - Appropriate for newer machines with faster CNC controllers that are able to handle a large number of points.</p>
+<p><b>1</b> - Removes old points and inserts new points along cutting moves and arranges them such that they are equally spaced apart wherever possible. Adding new points may increase calculation time to generate a toolpath, however, the equally spaced points mean significant time reductions can be achieved on the machine tool.<br></p>
+<p><b>2</b> - Points may be more closely clustered around corners to keep within the toolpath tolerance.</p>
+</div>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="IDS_CMD_FD_ATTDEF" devLabel="FD_ATTDEF" translation="" />
+	<label commandName="IDS_CMD_FD_ATTEDIT" devLabel="FD_ATTEDIT" translation="" />
+	<label commandName="IDS_CMD_FD_BCLOSE" devLabel="FD_BCLOSE" translation="" />
+	<label commandName="IDS_CMD_FD_BEDIT" devLabel="FD_BEDIT" translation="" />
+	<label commandName="IDS_CMD_FD_BORDERTOGGLE" devLabel="FD_BORDERTOGGLE" translation="" />
+	<label commandName="IDS_CMD_FD_SHEETTOGGLE" devLabel="FD_SHEETTOGGLE" translation="" />
+	<label commandName="IDS_CMD_FD_SKETCHEDIT" devLabel="FD_SKETCH" translation="" />
+	<label commandName="IDS_FD_BEDIT_KWORDS" devLabel="Generic Titleblock Border _Generic Titleblock Border" translation="" />
+	<label commandName="IDS_FD_BEDIT_PROMPT" devLabel="&#10;Enter an option [Generic/Titleblock/Border]&lt;Generic&gt;:" translation="" />
+	<label commandName="IDS_FD_CUSTOM_ATTR" devLabel="CUSTOM" translation="" />
+	<label commandName="IDS_FD_LAYERONOFFKEYWORDS" devLabel="Show Hide Reset _Show Hide Reset" translation="" />
+	<label commandName="IDS_FD_LAYERONOFFOPTION" devLabel="&#10;Enter layer visibility option [Show/Hide/Reset] : " translation="" />
+	<label commandName="IDS_FD_SKETCHEDIT_KWORDS" devLabel="New Edit Delete eXit _New Edit Delete eXit" translation="" />
+	<label commandName="IDS_FD_SKETCHEDIT_PROMPT" devLabel="&#10;Enter an option [New/Edit/Delete/eXit]:" translation="" />
+	<label commandName="IDS_FD_SKETCHNAME_PROMPT" devLabel="&#10;Enter the sketch name:" translation="" />
+	<label commandName="IDS_PLACE_ATTDEF" devLabel="&#10;Place Attribute" translation="" />
+</Resource>

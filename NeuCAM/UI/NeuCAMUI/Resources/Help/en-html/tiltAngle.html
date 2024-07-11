@@ -1,0 +1,19 @@
+<div id="tiltAngle"><p>Maintains the tool axis at the specified preferred angle.</p>
+<p>The <b>Preferred Angle</b> is measured from the specified tool orientation (if you do not specify a tool orientation in the Geometry tab, then the Setup Z axis is where the Preferred Angle is measured from). Where possible, maintaining the tool axis at a constant angle provides a better surface finish and helps maintain the programmed feed rate.</p>
+<p>The preferred angle can be thought of as a conical boundary around the specified tool orientation.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="301" height="170" src="../images/preferred_angle_measurement.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Preferred Angle</b> measured from tool orientation Z axis</p></center></td>
+</tr></table>
+<p>To determine where the tool sits on the conical boundary, non-vertical <b>Primary Mode</b> settings provide the tool with an initial tilting direction, as they would if you weren't using the <b>Override Tilt Angle</b>. From the initial tilting direction, the tool axis moves to align with the edge on the boundary that it is closest to.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="240" height="250" src="../images/tilt_override_initial_position.png"/></center></td>
+<td><center><img border="0" width="230" height="250" src="../images/tilt_override_lock_onto_boundary.png"/></center></td>
+</tr><tr>
+<td><center><p>Initial tilt direction</p></center></td>
+<td><center><p>Closest conical boundary edge</p></center></td>
+</tr></table>
+</div>

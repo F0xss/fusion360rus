@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>Angielski</description>
+  <country>en</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-contextid">English Feature Flag Info Link</message>
+	  OR
+	  <message name="feature-flag-contextid">CONTEXT_ID</message>
+
+	If a context id is specified, a URL will be constructed, along the lines of:
+	https://help.autodesk.com/view/fusion360/<LANG>/?contextId=<CONTEXT_ID>
+	with the language code filled in based on the active language.
+  -->
+  <message name="additive-angled-volume-support-name">Obsługa objętości pod kątem wytwarzania przyrostowego</message>
+  <message name="additive-angled-volume-support-desc">Obsługa objętości utworzona podczas konfiguracji wytwarzania przyrostowego podąża za wektorem w kierunku płyty konstrukcyjnej. Ta funkcja podglądu umożliwia podzielenie tego wektora na dwa. Używając kąta między dwoma wektorami, można uniknąć tworzenia podpór łączących obszary Downskin z obszarami Upskin części. Spowoduje to poprawę jakości powierzchni i skrócenie czasu przetwarzania końcowego dla regionów Upskin.</message>
+  <message name="additive-angled-volume-support-contextid">MFG-ADDITIVE-ANGLED-VOLUME-SUPPORTS-PREVIEW</message>
+
+  <message name="Additive-General-name">Wytwarzanie przyrostowe</message>
+  <message name="Additive-General-desc">Wybierz parametry drukowania, automatycznie ustaw orientację części, aby pomyślnie wykonać konstruowanie oraz generuj struktury pomocnicze i ścieżki narzędzi. Eksportuj bezpośrednio do maszyn do spiekania proszku lub pliku 3MF.</message>
+  <message name="Additive-General-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="Additive-Tech-DED-name">Wieloosiowe napawanie addytywne</message>
+  <message name="Additive-Tech-DED-desc">Tworzy ścieżkę narzędzia wytwarzania przyrostowego do tworzenia cech, używając technologii napawania wieloosiowego. Na przykład technologii DED (Directed Energy Deposition).</message>
+  <message name="Additive-Tech-DED-contextid">MFG-AM-FEATURE-CONSTRUCTION-PREVIEW</message>
+
+  <message name="Additive-Tech-SLM-name">Wytwarzanie przyrostowe</message>
+  <message name="Additive-Tech-SLM-desc">Umożliwia wybranie maszyny do spiekania proszku metalu (MPBF, Metal Powder Bed Fusion), rozmieszczenie i zorientowanie części na platformie, tworzenie w pełni skojarzonych struktur podpory i modeli płata. Generuje własny plik konstrukcji zawierający parametry lasera lub plik 3MF.</message>
+  <message name="Additive-Tech-SLM-contextid">EXT-MFG-ADDITIVE-START</message>
+
+  <message name="additive-process-simulation-name">Symulacja procesu wytwarzania przyrostowego</message>
+  <message name="additive-process-simulation-desc">Symulacja wytwarzania przyrostowego umożliwia replikację rzeczywistych procesów wytwarzania przyrostowego. Oprogramowanie przewiduje zniekształcenia i częste błędy druku, takie jak kolizje zgarniacza w oparciu o symulację termiczno-mechaniczną. Na podstawie wyników symulacji oprogramowanie może automatycznie kompensować geometrie, aby osiągnąć pożądany kształt podczas drukowania 3D. Dostępne tylko jako funkcja podglądu, można włączyć w preferencjach</message>
+  <message name="additive-process-simulation-contextid">EXT-MFG-ADDITIVE-SIMULATION</message>
+	
+  <message name="cam-of-cams-name">Importowanie danych CAM z połączonych projektów</message>
+  <message name="cam-of-cams-desc">Ulepszono funkcję Wstaw do bieżącego projektu, dzięki czemu dane CAM, takie jak konfiguracje i operacje, można dodawać z połączonych projektów. Dane CAM są tylko do odczytu, ale mogą być symulowane i przetwarzane po przetwarzaniu.</message>
+
+  <message name="enable-residual-cut-suppression-name">Zredukuj puste cięcia dla adaptacyjnego usuwania materiału 3D</message>
+  <message name="enable-residual-cut-suppression-desc">Zmniejsza ilość pustych cięć podczas wykonywania dokładnego obniżania na powierzchniach równoległych do orientacji narzędzia. Puste cięcia pojawiają się, gdy narzędzie wykonuje ruch skrawający, ale skrawa niewiele lub w ogóle nie skrawa materiału.</message>
+	
+  <message name="cmm-setup-name">Kontrola CMM</message>
+  <message name="cmm-setup-desc">Dodaj nowy typ ustawień, dzięki czemu możesz wykonywać pomiary za pomocą ręcznych współrzędnościowych maszyn pomiarowych (CMM), takich jak przenośne ramiona. Dopasuj model CAD do fizycznej części i zbieraj dane pomiarowe, aby porównać zmierzone wyniki z wartościami nominalnymi.</message>
+	
+  <message name="configurable-tolerance-colors-name">Kolory tolerancji</message>
+  <message name="configurable-tolerance-colors-desc">Ustawia kolory tolerancji dla wyników kontroli i symulacji przygotówki, tak aby były zgodne. Dodaje w Preferencjach ustawienie, które umożliwia wybór między dwiema konwencjami kolorów. Ponadto w obszarze rysunku wyświetlane są wszystkie wyniki kontroli poza tolerancją z Geometrii sondy, RUW sondy i Kontroli ręcznej w kolorze pomarańczowym oraz wartości nominalne dla Kontroli ręcznej w kolorze czarnym.</message>
+  <message name="configurable-tolerance-colors-contextid">MFG-TOLERANCE-COLORS</message>
+
+  <message name="cutting-force-analysis-name">Analiza sił skrawających</message>
+  <message name="cutting-force-analysis-desc">Zbieraj dane siły skrawającej podczas symulacji.</message>
+  
+  <message name="hig-styled-qt-name">Zaktualizowano style</message>
+  <message name="hig-styled-qt-desc">Zapoznaj się z aktualizacją stylu w toku w oknach dialogowych w programie Fusion Manufacture.</message>
+
+  <message name="import-macro-results-name">Importuj wyniki drukowania makra</message>
+  <message name="import-macro-results-desc">Importuj „wyniki drukowania” utworzone w sterowniku obrabiarki za pomocą operacji Sonda RUW lub Geometria sondy.</message>
+  <message name="import-macro-results-contextid">MFG-IMPORT-MACRO-RESULTS</message>
+
+  <message name="inspection-results-projection-name">Kontrola powierzchni — rzutowanie CAD</message>
+  <message name="inspection-results-projection-desc">Zapewnia dokładniejsze wyniki podczas oceny zmierzonych punktów, w których kształt części lub położenie różnią się od pliku CAD. Oblicza odchylenie zmierzonego punktu względem powierzchni CAD, a nie względem oczekiwanego punktu dla strategii Kontrola powierzchni.</message>
+  <message name="inspection-results-projection-contextid">MFG-PROBE-PROJECT-POINTS</message>
+
+  <message name="invalid-parameter-error-name">Błąd nieprawidłowego parametru</message>
+  <message name="invalid-parameter-error-desc">Dodaje dodatkowe sprawdzenia poprawności parametrów w czasie generowania ścieżki narzędzia.</message>
+
+  <message name="live-machine-connection-name">Połączenie danych maszyny aktywnej</message>
+  <message name="live-machine-connection-desc">Oceniaj wyniki w czasie rzeczywistym, pobierając dane na żywo z mierzonych punktów ze sterowników Haas dla strategii Kontrola powierzchni, Geometria sondy i RUW sondy.</message>
+  <message name="live-machine-connection-contextid">MFG-PROBE-LIVE-CONNECTION</message>
+
+  <message name="live-part-alignment-name">Wyrównanie części maszyny na żywo</message>
+  <message name="live-part-alignment-desc">Włącz użycie wyrównania części za pomocą połączenia danych maszyny na żywo.</message>
+  <message name="live-part-alignment-contextid">MFG-LIVE-PART-ALIGNMENT-PREVIEW</message>
+
+  <message name="machine-space-geometry-simulator-name">Wykrywanie kolizji maszyny</message>
+  <message name="machine-space-geometry-simulator-desc">Wykrywanie kolizji maszyny podczas korzystania z symulacji maszyny.</message>
+  <message name="machine-space-geometry-simulator-contextid">MFG-SIMULATE-MACHINE-COLLISION-DETECTION-PREVIEW</message>
+
+  <message name="tool-space-geometry-simulator-name">Ulepszenia symulacji przygotówki</message>
+  <message name="tool-space-geometry-simulator-desc">Używa bardziej stabilnego algorytmu do symulacji przygotówki podczas symulacji ścieżki narzędzia. Nie wypływa to na przygotówkę w trakcie procesu (IPS), obróbkę resztek ani podgląd toczonej przygotówki.</message>
+
+  <message name="simulation-disable-visualization-collisions-name">Pomiń wykrywanie kolizji w symulacji wizualnej przygotówki</message>
+  <message name="simulation-disable-visualization-collisions-desc">Pomija dodatkowe wykrywanie kolizji podczas obliczania reprezentacji wizualnej przygotówki podczas symulacji. Pomaga to przyspieszyć wizualną symulację przygotówki w obszarze rysunku, szczególnie podczas symulacji wielu operacji, symulacji za pomocą maszyny lub obu. Wykrywanie kolizji jest nadal wykonywane w ramach procesu weryfikacji.</message>
+	
+  <message name="simulation-overtravel-reporting-name">Raportowanie przekroczenia osi maszyny</message>
+  <message name="simulation-overtravel-reporting-desc">Włącz raportowanie przekroczenia osi maszyny podczas korzystania z funkcji Wykrywanie kolizji maszyny.</message>
+  
+  <message name="simulation-retract-and-reconfigure-name">Wycofanie maszyny i zmiana konfiguracji raportowania</message>
+  <message name="simulation-retract-and-reconfigure-desc">Włącz wycofanie maszyny i ponownie skonfiguruj raportowanie podczas korzystania z funkcji Wykrywanie kolizji maszyny.</message>
+
+  <message name="manual-inspect-measure-method-name">Odległość od środka do środka w przypadku kontroli ręcznej</message>
+  <message name="manual-inspect-measure-method-desc">Umożliwia wybranie sposobu pomiaru odległości między środkami dwóch otworów lub wysp w kontroli ręcznej. Jeśli przyrząd pomiarowy nie obsługuje pomiarów odległości między środkami, program Fusion 360 może obliczyć odległość za pomocą średnic otworów lub wysp oraz maksymalnej lub minimalnej odległości między nimi.</message>
+  <message name="manual-inspect-measure-method-contextid">MFG-MANUAL-INSPECTION-CENTERS-PREVIEW</message>
+
+  <message name="manual-measure-name">Kontrola ręczna</message>
+  <message name="manual-measure-desc">Utwórz listę cech, które mają być mierzone fizycznie za pomocą ręcznego urządzenia pomiarowego, takiego jak suwmiarka, mikrometr lub wysokościomierz. Rejestruj pomiary, aby porównać je z określonymi tolerancjami i opcjonalnie zapisz wyniki jako raport kontroli.</message>
+  <message name="manual-measure-contextid">MFG-CREATE-MANUAL-INSPECTION</message>
+
+  <message name="mesh-check-safety-name">Przygotówka w trakcie procesu — bezpieczeństwo sprawdzenia siatki</message>
+  <message name="mesh-check-safety-desc">Dodaje dodatkowe sprawdzenia do obsługi siatki, które zapewniają poprawność geometrii siatki. OSTRZEŻENIE: spowoduje to problemy z wydajnością i powinno być włączone tylko w ostateczności, jeśli wystąpią niestabilności podczas używania przygotówki w trakcie procesu.</message>
+
+  <message name="pattern-instance-control-name">Kontrola wystąpienia szyku</message>
+  <message name="pattern-instance-control-desc">Umożliwia postprocesing pierwszego wystąpienia wzoru w oknie dialogowym Program NC.</message>
+  
+  <message name="bottom-up-pattern-unfolding-name">Kolejność operacji dla wzorów zagnieżdżonych</message>
+  <message name="bottom-up-pattern-unfolding-desc">Wzory we wzorach, które są wystąpieniami folderów w przeglądarce, mają bardziej efektywną kolejność operacji podczas tworzenia programu NC. Każdy wzór jest sortowany przy użyciu określonego układu operacji, począwszy od wzoru znajdującego się najbardziej wewnątrz przeglądarki. Wcześniej sortowanie rozpoczynało się od wzoru znajdującego się najbardziej na zewnątrz w przeglądarce.</message>
+  <message name="bottom-up-pattern-unfolding-contextid">MFG-REF-PATTERNS</message>
+
+  <message name="new-chaining-name">Nowe tworzenie łańcucha</message>
+  <message name="new-chaining-desc">Włącz nowy mechanizm tworzenia łańcucha dla wyboru krawędzi w obszarze roboczym Produkcja.</message>
+
+  <message name="new_import_results-name">Importuj wyniki kontroli</message>
+  <message name="new_import_results-desc">Wybierz bryły, na które będą rzutowane zmierzone punkty podczas importowania wyników kontroli.</message>
+  <message name="new_import_results-contextid">MFG-PROBE-IMPORT-RESULTS</message>
+
+  <message name="old-turning-profile-strategy-name">Toczenie starego profilu</message>
+  <message name="old-turning-profile-strategy-desc">Umożliwia włączenie strategii toczenia starego profilu. Będzie ona dostępna przez ograniczony czas.</message>
+
+  <message name="old-pocket-detector-name">Starsze wykrywanie kieszeni 2D</message>
+  <message name="old-pocket-detector-desc">Jeśli ta flaga jest ustawiona, zostanie użyty starszy algorytm wykrywania otwartych kieszeni 2D.</message>
+
+  <message name="probe-angle-measure-name">Pomiar: Pomiar kąta poza osią</message>
+  <message name="probe-angle-measure-desc">Umożliwia zmierzenie przez geometrię sądy kąta obrotu pionowych powierzchni czołowych.</message>
+
+  <message name="probe-geometry-strategy-name">Kontrola w oparciu o makra</message>
+  <message name="probe-geometry-strategy-desc">Mierz cechy w trakcie procesu dzięki cyklom probingu na maszynie. Weryfikuj wymiary i położenia krytycznych cech geometrycznych, aktualizuj parametry zużycia narzędzia i wstrzymuj lub zatrzymuj programy, aby rozwiązać problemy związane z cechami poza tolerancją. &lt;i&gt;Zawiera: Geometrię sondy, Raporty kontroli i więcej.&lt;/i&gt;</message>
+  <message name="probe-geometry-strategy-contextid">MFG-EXT-MACRO-BASED-INSPECTION</message>
+
+  <message name="pmi-inspection-plan-name">PMI Inspection Plan</message>
+  <message name="pmi-inspection-plan-desc">Enables the ability to automatically generate an inspection plan based on existing PMI.</message>
+  <message name="pmi-inspection-plan-contextid">MFG-PMI-INSPECTION-PLAN-PREVIEW</message>
+
+  <message name="probe-on-pcd-name">Pomiar otworów i kominków na PCD</message>
+  <message name="probe-on-pcd-desc">Umożliwia korzystanie z dodatkowych opcji w strategiach RUW sondy i Geometria sondy, aby umożliwić pomiar otworów i kominków na PCD.</message>
+
+  <message name="hide-warnings-name">Ukryj ostrzeżenia</message>
+  <message name="hide-warnings-desc">Jeśli podczas programowania wystąpią ostrzeżenia, można ukryć ostrzeżenia dla poszczególnych operacji po ich przeczytaniu i zdecydować, że nie wymagają one dalszej uwagi. Ostrzeżenia pozostają ukryte do czasu ponownego wygenerowania operacji.</message>
+
+  <message name="post-processing-with-legacy-dialog-off-name">Postprocesing kodu NC ze starszym oknem dialogowym postprocesingu</message>
+  <message name="post-processing-with-legacy-dialog-off-desc">Powróć do starszego okna dialogowego postprocesingu, jeśli występują problemy z nowym interfejsem postprocesingu programu NC.</message>
+  <message name="post-processing-with-legacy-dialog-off-contextid">MFG-POST-PROCESS-OPERATIONS</message>
+
+  <message name="restrict-to-4-axis-name">Ogranicz do 4-osiowej</message>
+  <message name="restrict-to-4-axis-desc">Generuje 4-osiową ścieżkę narzędzia ze strategii 5-osiowej do użycia na obrabiarce z co najmniej 4 osiami. Aktualnie tylko dla strategii Przepływ.</message>
+
+  <message name="moduleworks-swarf-name">Zaawansowana strategia tworzenia bokiem freza (możliwość rozszerzania w przyszłości)</message>
+  <message name="moduleworks-swarf-desc">Użyj strategii Zaawansowana obróbka bokiem freza, aby obrabiać z boku narzędzia, co pozwala obrabiać prostą ścianę w jednym przejściu. Wygeneruj 3, 4 lub 5-osiową ścieżkę narzędzia, w zależności od możliwości obrabiarki.</message>
+
+  <message name="moduleworks-geodesic-name">Strategia geodezyjna</message>
+  <message name="moduleworks-geodesic-desc">Użyj strategii geodezyjnej, aby obrabiać powierzchnie swobodne i podcięcia. Wygeneruj 3-, 4- lub 5-osiową ścieżkę narzędzia, w zależności od możliwości obrabiarki.</message>
+
+  <message name="setup-sheet-configurations-name">Konfiguracje arkuszy ustawień</message>
+  <message name="setup-sheet-configurations-desc">Umożliwia tworzenie niestandardowych konfiguracji arkuszy ustawień.</message>
+
+  <message name="spun-profile-dmk-name">Profil obrócony</message>
+  <message name="spun-profile-dmk-desc">Zwiększ stabilność i wydajność elementu Profil Obrotu, używając nowego algorytmu Profil obrotu. Ta funkcja umożliwia utworzenie krzywej profilu przez obrót wybranego modelu dla operacji toczenia.</message>
+
+  <message name="stock-drag-handles-name">Uchwyty przeciągania przygotówki</message>
+  <message name="stock-drag-handles-desc">Włącza uchwyty przeciągania w celu dopasowania rozmiaru przygotówki.</message>
+
+  <message name="strategy-blend-name">Strategia łączenia</message>
+  <message name="strategy-blend-desc">Popraw wykończenie powierzchni dzięki nowej strategii łączenia, która jest sterowana 2 prowadnicami i wyborami powierzchni.</message>
+
+  <message name="fusion-mfg-blend-strategy-name">Poprawa jakości ścieżki narzędzia w przypadku połączenia</message>
+  <message name="fusion-mfg-blend-strategy-desc">Poprawiono jakość ścieżki narzędzia podczas obróbki narożników wewnętrznych, których promień naroża jest mniejszy lub równy promieniowi narzędzia. W przypadku zamkniętych krzywych prowadzących to ulepszenie również włącza ścieżkę narzędzia obróbki spiralnej ciągłej. Nowy algorytm jest stosowany, gdy szerokość skrawania jest obliczana względem końcówki narzędzia, a nie na powierzchni modelu. Obecnie to ulepszenie nie ma zastosowania podczas obróbki podcięć.</message>
+
+  <message name="strategy-inspect-surface-name">Kontrola powierzchni</message>
+  <message name="strategy-inspect-surface-desc">Użyj funkcji probingu w oparciu o model CAD, aby mierzyć dokładność złożonej geometrii powierzchni za pomocą sondy zamontowanej na wrzecionie. Użyj inteligentnego wyrównania części, aby zautomatyzować ustawienie i obróbkę części niepryzmatycznych, takich jak kucia i odlewy. &lt;i&gt;Zawiera: Kontrola powierzchni, Raporty kontroli, Automatyczne wyrównanie części i więcej.&lt;/i&gt;</message>
+  <message name="strategy-inspect-surface-contextid">MFG-EXT-SURFACE-INSPECTION-PART-ALIGNMENT</message>
+
+  <message name="customize-inspection-report-name">Niestandardowe raporty kontroli</message>
+  <message name="customize-inspection-report-desc">Umożliwia wybór i edycję wybranych wstępnie zdefiniowanych szablonów podczas tworzenia raportu kontroli.</message>
+
+  <message name="strategy-rotary-name">Strategia obrotowa</message>
+  <message name="strategy-rotary-desc">Obrabiaj złożone, niegeometryczne kształty, korzystając ze strategii obrotowej dla frezowania 4-osiowego.</message>
+  <message name="strategy-rotary-contextid">MFG-MULTI-AXIS-ROTARY</message>
+
+  <message name="extension-3-axis-name">Zautomatyzowana obróbka 3-osiowa</message>
+  <message name="extension-3-axis-desc">Uprość wiercenie i frezowanie złożonych, wieloelementowych części dzięki szerokiej gamie inteligentnych strategii 3-osiowych, które można zastosować do całej części w celu przyspieszenia programowania CAM. &lt;i&gt;Zawiera: 3-osiowe rozpoznawanie otworów i 3-osiowe strome i płytkie.&lt;/i&gt;</message>
+  <message name="extension-3-axis-contextid">MFG-EXT-3-AXIS-MACHINING</message>
+
+  <message name="extension-3-plus-2-name">Automatyczna obróbka 3+2</message>
+  <message name="extension-3-plus-2-desc">Uzyskaj dostęp do dodatkowych strategii i elementów sterujących osi narzędzia, które mogą używać osi obrotowych obrabiarki CNC do wiercenia i frezowania całych części z obróbką 3+2 (pozycyjną). &lt;i&gt;Zawiera: Rozpoznawanie otworów 3+2.&lt;/i&gt;</message>
+  <message name="extension-3-plus-2-contextid">MFG-EXT-3-PLUS-2-AXIS-MACHINING</message>
+
+  <message name="template-library-name">Biblioteka szablonów</message>
+  <message name="template-library-desc">Nowy interfejs szablonów. Przechowuj, przeglądaj lub ponownie wykorzystuj szablony w nowej bibliotece.</message>
+
+  <message name="toolpath-modifications-name">Modyfikacje ścieżki</message>
+  <message name="toolpath-modifications-desc">Uzyskaj dostęp do szerokiej gamy zaawansowanych narzędzi do modyfikacji, aby wprowadzać globalne lub lokalne zmiany ścieżek narzędzi bez konieczności całkowitego ponownego obliczania. Zmiany mogą być edytowane w celu zapewnienia większej elastyczności. &lt;i&gt; Zawiera: Przycinanie ścieżki narzędzia, Usuwanie przejść, Zastąp narzędzie i inne.&lt;/i&gt;</message>
+  <message name="toolpath-modifications-contextid">MFG-EXT-MODIFY-A-TOOLPATH</message>
+
+  <message name="tool-library-v4-dynamic-tool-preview-name">Biblioteka narzędzi — podgląd 3D</message>
+  <message name="tool-library-v4-dynamic-tool-preview-desc">Włącza podgląd narzędzia 3D w Bibliotece narzędzi.</message>
+
+  <message name="tool-library-v4-fusion-make-parser-name">Biblioteka narzędzi — analizator składni programu Fusion</message>
+  <message name="tool-library-v4-fusion-make-parser-desc">Umożliwia użycie analizatora składni Fusion w bibliotece narzędzi w celu zapewnienia lepszej spójności wyrażeń użytkownika. Najlepiej używać razem z funkcją „Biblioteka narzędzi — wyrażenia użytkownika”.</message>
+
+  <message name="tool-library-v4-save-user-expressions-name">Biblioteka narzędzi — wyrażenia użytkownika</message>
+  <message name="tool-library-v4-save-user-expressions-desc">Włącza trwałość wyrażeń użytkownika w bibliotece narzędzi. Najlepiej używać razem z funkcją „Biblioteka narzędzi — analizator składni programu Fusion”.</message>
+
+  <message name="extension-multi-axis-name">4-osiowa i 5-osiowa obróbka jednoczesna</message>
+  <message name="extension-multi-axis-desc">Odblokuj strategie wieloosiowe i opcje osi narzędzia, aby sterować liniową i obrotową osią obrabiarki CNC jednocześnie w celu zapewnienia bezpiecznej i wydajnej obróbki najbardziej złożonych kształtów. &lt;i&gt;Zawiera: Obróbka bokiem freza, Wieloosiową obróbkę obszarów o dużym i małym nachyleniu, Wieloosiowy kontur i nie tylko.&lt;/i&gt;</message>
+  <message name="extension-multi-axis-contextid">MFG-EXT-MULTI-AXIS-SIMULTANEOUS-MACHINING</message>
+
+  <message name="mfg-working-model-name">Model roboczy produkcji</message>
+  <message name="mfg-working-model-desc">Umożliwia włączenie modeli produkcyjnych w obszarze roboczym Wytwarzanie. Wymagane do korzystania z funkcji Zagnieżdżanie i Rozmieszczenie.</message>
+  <message name="mfg-working-model-contextid">MFG-MANUFACTURING-MODEL-OVERVIEW</message>
+
+  <message name="import-inventor-cam-data-name">Importowanie danych CAM programu Inventor podczas przekazywania</message>
+  <message name="import-inventor-cam-data-desc">Umożliwia importowanie wszelkich istniejących danych CAM programu Inventor z modelu programu Inventor wysyłanego z panelu danych Fusion.</message>
+
+  <message name="disable-rest-shadow-pocket-name">Nie wykrywa podcięcia obróbki resztek dla czyszczenia kieszeni 3D</message>
+  <message name="disable-rest-shadow-pocket-desc">Powraca do starego sposobu obliczania ścieżki narzędzia, co wydłuża czas obróbki, gdy podcięcia są obecne w przygotówce. Użyj tego, jeśli masz problemy z nowym sposobem obliczania ścieżki narzędzia.</message>
+  <message name="disable-rest-shadow-pocket-contextid">REDUCE-AIR-CUTTING-POCKET</message>
+
+  <message name="strategy-improved-flow-name">Strategia ulepszonego przepływu</message>
+  <message name="strategy-improved-flow-desc">Wprowadza nową strategię przepływu, która wykorzystuje maksymalną odległość szerokości skrawania zamiast liczby kroków dla ułatwienia programowania. Nowsza strategia również ulepsza sposób definiowania powierzchni, aby utworzyć dokładniejszą ścieżkę narzędzia.</message>
+
+  <message name="force-inclined-flats-name">Ulepszone płaskie</message>
+  <message name="force-inclined-flats-desc">Przełącza do nowszej wersji algorytmu płaskiej ścieżki narzędzia, która obsługuje filtrowanie małych obszarów i zaawansowane opcje porządkowania.</message>
+
+  <message name="online-system-library-name">Automatycznie pobierz najnowsze postprocesory, maszyny i ustawienia wydruku</message>
+  <message name="online-system-library-desc">Sekcja Biblioteka programu Fusion 360 w Bibliotece maszyn i Bibliotece postprocesorów jest aktualizowana o najnowsze wersje i dodatkowe postprocesory, maszyny i ustawienia wydruku, gdy są one dostępne. Sprawdzenia dostępności aktualizacji są wykonywane po każdym ponownym uruchomieniu programu Fusion 360.</message>
+
+  <message name="contour2D-select-faces-name">Wybór powierzchni konturu 2D</message>
+  <message name="contour2D-select-faces-desc">Umożliwia to wybór geometrii według powierzchni i tych samych powierzchni płaszczyzny dla operacji warstwic 2D.</message>
+  
+  <message name="fff-energy-prediction-name">Prognoza zużycia energii przez FFF</message>
+  <message name="fff-energy-prediction-desc">Umożliwia przewidywanie zużycia energii i kosztów drukowania dodatkowych wydruków FFF.</message>
+  <message name="fff-energy-prediction-contextid">MFG-AM-PRINT-STATISTICS-ENERGY-COST-PREVIEW</message>
+
+  <message name="geometry-features-name">Wybór geometrii</message>
+  <message name="geometry-features-desc">Umożliwia dodanie dodatkowego sterowania wyborem geometrii podczas operacji programowania. Wszystkie wybrane elementy można znaleźć w przeglądarce, aby można było ich ponownie używać w wielu operacjach, co może zaoszczędzić dużo czasu podczas pracy ze złożoną geometrią.</message>
+
+  <message name="secondary-spindle-pull-name">Ciągnięcie wrzeciona dodatkowego</message>
+  <message name="secondary-spindle-pull-desc">Włącza strategię Ciągnięcie wrzeciona dodatkowego.</message>
+
+  <message name="iron-object-states-name">Ikony w przeglądarce wskazujące stan elementu</message>
+  <message name="iron-object-states-desc">W przeglądarce wyświetlane są dodatkowe ikony dla poszczególnych operacji, ustawień, folderów i programów NC, aby wskazać ich stan. Po umieszczeniu wskaźnika na ikonach można wyświetlić dodatkowe informacje, takie jak komunikaty o błędach lub ostrzeżenia, bez konieczności otwierania dziennika.</message>
+  <message name="iron-object-states-contextid">MFG-TOOLPATH-STATUS-ICONS</message>
+
+  <message name="import-pmi-name">Importuj dane PMI podczas przesyłania pliku</message>
+  <message name="import-pmi-desc">Umożliwia importowanie PMI (informacji o wytwarzaniu produktu) z projektu utworzonego w innej aplikacji CAD po otwarciu z panelu danych.</message>
+  <message name="import-pmi-contextid">MFG-PMI-FOR-INSPECTION-PREVIEW</message>
+	
+  <message name="turn-in-negative-diameter-name">Toczenie w ujemnej średnicy</message>
+  <message name="turn-in-negative-diameter-desc">Zezwalaj na toczenie w ujemnej średnicy dla strategii obróbki zgrubnej i wykańczającej.</message>
+
+  <message name="arrange-3D-simple-outbox-name">Rozmieść 3D</message>
+  <message name="arrange-3D-simple-outbox-desc">Umożliwia rozmieszczenie obiektów w przestrzeni 3D podczas używania polecenia Rozmieść. Algorytm tworzy ramkę ograniczającą wokół każdego obiektu, a następnie używa wymiarów ramki w celu rozmieszczenia obiektów w dostępnym obszarze.</message>
+  <message name="arrange-3D-simple-outbox-contextid">NEST-ARRANGE-3D-ARRANGE</message>
+
+  <message name="dmk-leadslinks-improvements-name">Ulepszone ruchy dobiegów i wybiegów</message>
+  <message name="dmk-leadslinks-improvements-desc">Umożliwia dodanie określonego dobiegu i wybiegu przez przycięcie końców przejść skrawających w celu ich dostosowania. Poprawia bezpieczeństwo ruchów podejścia i wycofania przez wydłużenie dobiegów i wybiegów z powierzchni poniżej nawisu. Dotyczy tylko strategii Obszar o dużym i małym nachyleniu oraz Obrotowe.</message>
+
+  <message name="tool-axis-options-name">Dodatkowe opcje wieloosiowe dla strategii Kontur, Rampa, Przepływ i Połączenie</message>
+  <message name="tool-axis-options-desc">Obrabiaj więcej obszarów w jednej operacji, używając opcji do zdefiniowania osi narzędzia, pochyl narzędzie, aby uniknąć kolizji i ograniczyć ruch w określonych granicach osi.</message>
+
+  <message name="mac-tool-axis-options-name">Dodatkowe opcje wieloosiowe strategii Wieloosiowy kontur</message>
+  <message name="mac-tool-axis-options-desc">Zapewnia więcej opcji pozwalających zdefiniować oś narzędzia wzdłuż wybranego konturu, pochylić narzędzie, aby uniknąć kolizji, i ograniczyć ruch w określonych granicach osi.</message>
+
+  <message name="moduleworks-editing-4-axis-contour-name">Modyfikacje obrysu obrotowego</message>
+  <message name="moduleworks-editing-4-axis-contour-desc">Zwiększ wydajność ścieżki narzędzia Obrys obrotowy, wprowadzając zmiany, takie jak Utnij, Usuń przejścia i Przesuń pozycje dobiegu.</message>
+
+  <message name="moduleworks-editing-deburr-name">Modyfikacje do gratowania</message>
+  <message name="moduleworks-editing-deburr-desc">Zwiększ wydajność ścieżki narzędzia Grater, wprowadzając zmiany, takie jak Utnij, Usuń przejścia i Przesuń pozycje dobiegu.</message>
+
+  <message name="moduleworks-editing-swarf-name">Modyfikacje zaawansowanej obróbki bokiem freza</message>
+  <message name="moduleworks-editing-swarf-desc">Zwiększ wydajność ścieżki narzędzia Zaawansowana obróbka bokiem freza, wprowadzając zmiany, takie jak Utnij, Usuń przejścia i Przesuń pozycje dobiegu.</message>
+
+  <message name="moduleworks-editing-geodesic-name">Modyfikacje geodezyjne</message>
+  <message name="moduleworks-editing-geodesic-desc">Zwiększ wydajność geodezyjnej ścieżki narzędzia, wprowadzając zmiany, takie jak Utnij, Usuń przejścia i Przesuń pozycje dobiegu.</message>
+
+  <message name="dmk-touch-surfaces-name">Ulepszona obróbka powierzchni styku</message>
+  <message name="dmk-touch-surfaces-desc">Obrabia całe powierzchnie styku, pozwalając narzędziu na bezpieczne stykanie się z przylegającymi powierzchniami, gdy jest to konieczne. Dotyczy tylko strategii obszarów o dużym i małym nachyleniu, naroży i obrotu.</message>
+
+  <message name="dmk-projection-finishing-name">Dodatkowe opcje strategii rzutowania.</message>
+  <message name="dmk-projection-finishing-desc">Obrabiaj podcięcia przez rzutowanie szyków do lub z określonego punktu lub krzywej.</message>
+
+  <message name="turn-improve-precision-name">Ulepszenie dokładności toczenia</message>
+  <message name="turn-improve-precision-desc">Zwiększ dokładność obliczania ścieżek narzędzia w nowych strategiach toczenia.</message>
+
+  <message name="turn-toolholder-clearance-grooveFinishing-name">Obróbka wykańczająca toczeniem rowków z luzem</message>
+  <message name="turn-toolholder-clearance-grooveFinishing-desc">Włącz użycie luzu podcięcia podczas obróbki wykańczającej rowków.</message>
+
+  <message name="turn-undercut-profileFinishing-name">Obróbka wykańczająca toczeniem profilu z luzem</message>
+  <message name="turn-undercut-profileFinishing-desc">Włącz użycie luzu podcięcia podczas obróbki wykańczającej profilu.</message>
+  
+  <message name="hole-builder-rework-name">Kreator otworów — poprawka</message>
+  <message name="hole-builder-rework-desc">Umożliwia użycie nowych klas kreatora otworów w strategii tworzenia otworów</message>
+
+  <message name="exclude-inclined-flats-name">Wyklucz nachylone powierzchnie płaskie (możliwość rozszerzania w przyszłości)</message>
+  <message name="exclude-inclined-flats-desc">Automatycznie wyklucz nachylone płaskie powierzchnie, aby uniknąć ich obróbki. Przydatne, gdy chcesz, aby były używane tylko powierzchnie organiczne z frezem walcowo-czołowym. Dostępne w strategii obszarów o dużym i małym nachyleniu.</message>
+
+  <message name="turn-profile-finishing-multiple-regions-name">Obróbka wykańczająca wielu obszarów po profilu</message>
+  <message name="turn-profile-finishing-multiple-regions-desc">Zezwalaj na obróbkę wielu obszarów dla obróbki wykańczającej po profilu</message>
+
+  <message name="turn-profile-roughing-multiple-regions-name">Obróbka zgrubna wielu obszarów po profilu</message>
+  <message name="turn-profile-roughing-multiple-regions-desc">Zezwalaj na obróbkę wielu obszarów dla obróbki zgrubnej po profilu</message>
+
+  <message name="turn-groove-roughing-name">Turning Groove Roughing</message>
+  <message name="turn-groove-roughing-desc">Enable new groove roughing strategy</message>
+</locale>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CalloutCommand" devLabel="Create Callout" translation="Beschriftung erstellen"/>
+	<label commandName="CalloutEditCommand" devLabel="Edit Callout" translation="Beschriftung bearbeiten"/>
+	<label commandName="DragCalloutCmd" devLabel="Move Callout" translation="Beschriftung verschieben"/>
+	<label commandName="PublisherTrailAutoElbowCommand" devLabel="Auto Trail Line Elbow" translation="Autom. Explosionspfad - Bogen"/>
+	<label commandName="PublisherTrailHideAllCommand" devLabel="Hide All Trail Lines" translation="Alle Explosionspfade ausblenden"/>
+	<label commandName="PublisherTrailRemoveElbowCommand" devLabel="Remove Trail Line Elbow" translation="Bogen von Explosionspfad entfernen"/>
+	<label commandName="PublisherTrailShowAllCommand" devLabel="Show All Trail Lines" translation="Alle Explosionspfade einblenden"/>
+	<label commandName="PublisherTrailVisibilityCommand" devLabel="Show/Hide Trail Lines" translation="Explosionspfade ein-/ausblenden"/>
+	<label commandName="TrailDragCmd" devLabel="Move Trail Line" translation="Explosionspfad verschieben"/>
+	<label commandName="infoCancel" devLabel="Cancel" translation="Abbrechen"/>
+	<label commandName="infoImage" devLabel="Insert Image" translation="Bild einfügen"/>
+	<label commandName="infoLink" devLabel="Link" translation="Link"/>
+	<label commandName="infoOK" devLabel="OK" translation="OK"/>
+	<label commandName="infoProperty" devLabel="Insert Properties" translation="Eigenschaften einfügen"/>
+	<label commandName="lclzCallout" devLabel="Drop the pin onto a component and enter text to add an associated 3D annotation." translation="Legen Sie den Pin auf einer Komponente ab, und geben Sie Text ein, um eine zugehörige 3D-Beschriftung hinzuzufügen."/>
+	<label commandName="select" devLabel="Component:" translation="Komponente:"/>
+</Resource>

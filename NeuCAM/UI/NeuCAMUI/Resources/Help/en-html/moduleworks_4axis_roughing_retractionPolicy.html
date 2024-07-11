@@ -1,0 +1,26 @@
+<div id="moduleworks_4axis_roughing_retractionPolicy"><p>Controls the connection moves between cutting moves when:</p>
+<ul>
+<li>Moving from one pocket to another</li>
+<li>Moving from one radial cut to another through a stepdown.</li>
+</ul>
+<p>Images shown with a <b>Rapid Distance</b> of 20 mm, an <b>Entry Distance</b> and <b>Exit Distance</b> of 10 mm, and a <b>Safe Distance</b> of 9 mm. Generally, if the safe distance is at a greater height than the entry or exit distance, the tool always performs a full retraction move for better safety.</p>
+<p>Moving from one pocket to another:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="199" height="135" src="../images/mw_rotary_pocket_between_pocket_full_retract.png"/></center></td>
+<td><center><img border="0" width="199" height="135" src="../images/mw_rotary_pocket_between_pocket_min_retract.png"/></center></td>
+</tr><tr>
+<td><center><p>Full Retraction</p></center></td>
+<td><center><p>Minimum Retraction</p></center></td>
+</tr></table>
+<p>Moving from one radial cut to another through a stepdown:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="146" src="../images/mw_rotary_pocket_within_pocket_full_retract.png"/></center></td>
+<td><center><img border="0" width="200" height="146" src="../images/mw_rotary_pocket_within_pocket_min_retract.png"/></center></td>
+</tr><tr>
+<td><center><p>Full Retraction</p></center></td>
+<td><center><p>Minimum Retraction</p></center></td>
+</tr></table>
+<p><b>Note:</b> With each stepdown, the retraction move is at a slightly lower height than the previous retraction move. This is because the retraction move is a specific distance instead of a set height to always retract to.</p>
+</div>

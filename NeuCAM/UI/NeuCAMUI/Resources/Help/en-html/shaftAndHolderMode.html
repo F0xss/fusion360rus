@@ -1,0 +1,23 @@
+<div id="shaftAndHolderMode"><p>Specifies how the toolpath should handle a collision between the shaft and/or holder and the workpiece.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="100" height="100" src="../images/shaftAndHolderMode_Disabled.png"/></center></td>
+<td><center><img border="0" width="100" height="100" src="../images/shaftAndHolderMode_Trimmed.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Disabled</b></p></center></td>
+<td><center><p><b>Trimmed</b></p></center></td>
+</tr></table>
+<br>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="100" height="100" src="../images/shaftAndHolderMode_PullAway.png"/></center></td>
+<td><center><img border="0" width="100" height="100" src="../images/shaftAndHolderMode_DetectLenght.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Pull away</b></p></center></td>
+<td><center><p><b>Detect tool length</b></p></center></td>
+</tr></table>
+<p><b>Trimmed</b> - Sections of the toolpath that result in safe distances between the shaft and/or holder being violated are trimmed away.</p>
+<p><b>Pull away</b> - The toolpath pulls away from the workpiece to maintain a safe distance between the shaft and/or holder.</p>
+<p><b>Detect tool length</b> - The tool is automatically extended further out of the holder to maintain the specified safe distance between the shaft and/or holder and the workpiece. A message indicating how far the tool is extended out of the holder is logged.</p>
+<p><b>Fail on collision</b> - The toolpath calculation is aborted and an error message logged when the safe distance is violated.</p>
+</div>

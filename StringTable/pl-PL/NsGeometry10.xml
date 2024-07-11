@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActiveTangentHandleSelectionId" devLabel="Active Tangent Handle" translation="Aktywny uchwyt styczny"/>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="WyglądCI"/>
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Wygląd"/>
+	<label commandName="ErrCurveData" devLabel="Curve" translation="Krzywa"/>
+	<label commandName="ErrPointData" devLabel="Point" translation="Punkt"/>
+	<label commandName="ErrSurfData" devLabel="Surface" translation="Powierzchnia"/>
+	<label commandName="ErrUnknownData" devLabel="Unknow data" translation="Nieznane dane"/>
+	<label commandName="Geometry2DSelectionCategory" devLabel="2D Geometry" translation="Geometria 2D"/>
+	<label commandName="OriginWorkGeometriesSelectionId" devLabel="Origin WorkGeometries" translation="Początek geometrii konstrukcyjnych"/>
+	<label commandName="OriginWorkGeometrySelectionCategory" devLabel="Origin Collection" translation="Kolekcja początków"/>
+	<label commandName="OriginWorkGeometrySelectionId" devLabel="Origin WorkGeometry" translation="Geometria konstrukcyjna początku"/>
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Materiał fizyczny"/>
+	<label commandName="PlasticRuleStr" devLabel="Plastic Feature Rule" translation="Reguła dotycząca elementu z tworzywa sztucznego"/>
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Właściwości"/>
+	<label commandName="SelectedConfigurationStr" devLabel="Selected Configuration" translation="Wybrana konfiguracja"/>
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Reguła konstrukcji blachowej"/>
+	<label commandName="SketchArcSelectionId" devLabel="Sketch Arc" translation="Łuk szkicu"/>
+	<label commandName="SketchCVSplineSelectionId" devLabel="Control Point Spline (Degree " translation="Splajn punktu kontrolnego (stopień)"/>
+	<label commandName="SketchCurveSelectionCategory" devLabel="Sketch Curves" translation="Krzywe szkicu"/>
+	<label commandName="SketchCurveSelectionID" devLabel="Sketch Curve" translation="Krzywa szkicu"/>
+	<label commandName="SketchCurveSelectionId" devLabel="Sketch Curve" translation="Krzywa szkicu"/>
+	<label commandName="SketchCurvesSelectionId" devLabel="Sketch Curves" translation="Krzywe szkicu"/>
+	<label commandName="SketchDefaultName" devLabel="Sketch" translation="Szkic"/>
+	<label commandName="SketchEllipticalCurveSelectionID" devLabel="Sketch Elliptical Curve" translation="Łuk eliptyczny szkicu"/>
+	<label commandName="SketchFitPointSplineSelectionId" devLabel="Sketch Fit Point Spline" translation="Splajn punktu dopasowania szkicu"/>
+	<label commandName="SketchLineSelectionID" devLabel="Sketch Line" translation="Linia szkicu"/>
+	<label commandName="SketchLineSelectionId" devLabel="Sketch Line" translation="Linia szkicu"/>
+	<label commandName="SketchPointSelectionCategory" devLabel="Sketch Points" translation="Punkty szkicu"/>
+	<label commandName="SketchPointSelectionId" devLabel="Sketch Point" translation="Punkt szkicu"/>
+	<label commandName="SketchPointsSelectionId" devLabel="Sketch Points" translation="Punkty szkicu"/>
+	<label commandName="SketchSelectionCategory" devLabel="Sketches" translation="Szkice"/>
+	<label commandName="SketchSelectionId" devLabel="Sketch" translation="Szkic"/>
+	<label commandName="SketchTextExSelectionID" devLabel="Sketch TextEx" translation="TextEx szkicu"/>
+	<label commandName="SketchTextSelectionID" devLabel="Sketch Text" translation="Tekst szkicu"/>
+	<label commandName="SketchTextSelectionId" devLabel="Sketch Text" translation="Tekst szkicu"/>
+	<label commandName="SketchesSelectionCategory" devLabel="Sketch Collection" translation="Kolekcja szkiców"/>
+	<label commandName="SketchesSelectionId" devLabel="Sketches" translation="Szkice"/>
+	<label commandName="TextSelectionCategory" devLabel="Text Selection" translation="Wybór tekstu"/>
+	<label commandName="TextsSelectionId" devLabel="Text Objects" translation="Teksty"/>
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Widoczność"/>
+	<label commandName="WorkAxesSelectionId" devLabel="WorkAxes" translation="Osie konstrukcyjne"/>
+	<label commandName="WorkAxisDefaultName" devLabel="Axis" translation="Oś"/>
+	<label commandName="WorkAxisExtentSelectionId" devLabel="WorkAxis Extent" translation="Zakres osi konstrukcyjnej"/>
+	<label commandName="WorkAxisExtentsSelectionId" devLabel="WorkAxis Extents" translation="Zakresy osi konstrukcyjnych"/>
+	<label commandName="WorkAxisSelectionId" devLabel="WorkAxis" translation="Oś konstrukcyjna"/>
+	<label commandName="WorkGeometriesSelectionCategory" devLabel="WorkGeometry Collection" translation="Kolekcja geometrii konstrukcyjnych"/>
+	<label commandName="WorkGeometriesSelectionId" devLabel="Construction Geometry" translation="Geometria konstrukcyjna"/>
+	<label commandName="WorkPlaneDefaultName" devLabel="Plane" translation="Płaszczyzna"/>
+	<label commandName="WorkPlaneExtentLineSelectionId" devLabel="WorkPlane Extent Line" translation="Linia zakresu płaszczyzny konstrukcyjnej"/>
+	<label commandName="WorkPlaneExtentLinesSelectionId" devLabel="WorkPlane Extent Lines" translation="Linie zakresów płaszczyzny konstrukcyjnej"/>
+	<label commandName="WorkPlaneExtentPointSelection" devLabel="WorkPlane Extent Point" translation="Punkt zakresu płaszczyzny konstrukcyjnej"/>
+	<label commandName="WorkPlaneExtentPointsSelection" devLabel="WorkPlane Extent Points" translation="Punkty zakresów płaszczyzny konstrukcyjnej"/>
+	<label commandName="WorkPlaneSelectionId" devLabel="WorkPlane" translation="Płaszczyzna konstrukcyjna"/>
+	<label commandName="WorkPlanesSelectionId" devLabel="WorkPlanes" translation="Płaszczyzny konstrukcyjne"/>
+	<label commandName="WorkPointDefaultName" devLabel="Point" translation="Punktowe"/>
+	<label commandName="WorkPointSelectionId" devLabel="WorkPoint" translation="Punkt konstrukcyjny"/>
+	<label commandName="WorkPointsSelectionId" devLabel="WorkPoints" translation="Punkty konstrukcyjne"/>
+</Resource>

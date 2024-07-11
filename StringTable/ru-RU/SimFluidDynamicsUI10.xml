@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AmbientTemperatureCmd" devLabel="Ambient Temperature" translation="Umgebungstemperatur"/>
+	<label commandName="BrowserAmbientTemperatureLabel" devLabel="Ambient Temperature" translation="Umgebungstemperatur"/>
+	<label commandName="BrowserComponentIdealizationsLabel" devLabel="Component Idealizations" translation="Komponenten-Idealisierungen"/>
+	<label commandName="BrowserCriticalTempsLabel" devLabel="Temperature Thresholds" translation="Temperaturgrenzwerte"/>
+	<label commandName="BrowserEnvironmentLabel" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="FDViewModePanel" devLabel="View Results" translation="Ergebnisse anzeigen"/>
+	<label commandName="FECCuttingPlaneDesc1" devLabel="Hides sections of the 3D plot, along user-specified planes, to surface the data inside the model." translation="Blendet Abschnitte des 3D-Plots entlang benutzerdefinierter Ebenen aus, um die Daten im Modell zu erfassen."/>
+	<label commandName="FECCuttingPlaneDesc2" devLabel="Use Section planes (left image) to hide sections of the data. Use Slice planes (right image) to hide all but the data on the selected slice. Create multiple cutting planes to narrow down the visualization, save them, and show/hide them as needed." translation="Verwenden Sie Schnittebenen (linkes Bild), um Datenabschnitte auszublenden. Verwenden Sie Schnittebenen (rechtes Bild), um alle Daten außer den Daten auf dem ausgewählten Schnitt auszublenden. Erstellen Sie mehrere Schnittebenen, um die Visualisierung einzugrenzen, speichern Sie sie, und blenden Sie sie nach Bedarf ein oder aus."/>
+	<label commandName="FECGuidedResultsDesc1" devLabel="Interprets the results and tells you how likely it is that electronic board components will overheat." translation="Interpretiert die Ergebnisse und teilt Ihnen mit, wie wahrscheinlich es ist, dass sich elektronische Leiterplattenkomponenten überhitzen."/>
+	<label commandName="FECGuidedResultsDesc2" devLabel="Review the Guided Result and the associated Next Step suggestions. Click on a suggestion to make changes to the study setup." translation="Überprüfen Sie das erläuternde Ergebnis und die zugehörigen Vorschläge für den nächsten Schritt. Klicken Sie auf einen Vorschlag, um Änderungen an der Studieneinrichtung vorzunehmen."/>
+	<label commandName="FECInspectPanel" devLabel="Inspect" translation="Prüfen"/>
+	<label commandName="FECPointProbesDesc1" devLabel="Query the result value for position in the global coordinate space." translation="Fragen Sie den Ergebniswert für die Position im globalen Koordinatensystem ab."/>
+	<label commandName="FECResultsBrowserDesc1" devLabel="Lists all the results that are produced by the simulation, so you can see how your design is likely to perform under operating conditions." translation="Listet alle Ergebnisse auf, die durch die Simulation generiert werden, sodass Sie sehen können, wie sich Ihre Konstruktion unter Betriebsbedingungen wahrscheinlich verhält."/>
+	<label commandName="FECResultsBrowserDesc2" devLabel="Review the temperature distribution across the components to see how some components are affected by others. See how the airflow affects heat dissipation and look at air and component temperature overlays for a more in-depth understanding." translation="Überprüfen Sie die Temperaturverteilung zwischen den Komponenten, um zu sehen, wie sich einige Komponenten auf andere auswirken. Sehen Sie sich an, wie sich die Luftströmung auf die Wärmeableitung auswirkt, und erhalten Sie ein tieferes Verständnis der Luft- und Komponententemperaturüberlagerungen."/>
+	<label commandName="FECSurfaceProbesDesc1" devLabel="Uses labels to show you critical data at surface locations of importance to you." translation="Verwendet Beschriftungen, um Ihnen wichtige Daten an Flächenpositionen anzuzeigen, die für Sie von Bedeutung sind."/>
+	<label commandName="FECSurfaceProbesDesc2" devLabel="Probe as many points as necessary. Hover to preview the data, click the surface to attach the labels, and select OK to save the probe locations." translation="Tasten Sie so viele Punkte wie nötig ab. Bewegen Sie den Mauszeiger auf die Daten, um eine Vorschau anzuzeigen. Klicken Sie auf die Fläche, um die Beschriftungen zuzuordnen, und wählen Sie OK aus, um die Antastpositionen zu speichern."/>
+	<label commandName="FanAttributeDuplicatedBodyLoad" devLabel="A fan load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Für den ausgewählten Körper ist bereits eine Ventilatorlast vorhanden. Wählen Sie einen anderen Körper, oder bearbeiten Sie die vorhandene Last"/>
+	<label commandName="HeatSinkAttributeDuplicatedBodyLoad" devLabel="A heat transfer load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Für den ausgewählten Körper ist bereits eine Wärmeübertragungslast vorhanden. Wählen Sie einen anderen Körper, oder bearbeiten Sie die vorhandene Last"/>
+	<label commandName="InternalHeatAttributeDuplicatedBodyLoad" devLabel="A suppressed thermal load already exists for the selected body. Please choose a different body, or edit the existing load" translation="Für den ausgewählten Körper ist bereits eine unterdrückte thermische Last vorhanden. Wählen Sie einen anderen Körper, oder bearbeiten Sie die vorhandene Last"/>
+	<label commandName="QSimStudyDialog__IWantToFluidDynamics" devLabel="What is the temperature of the components on my circuit board, as a result of the thermal loads generated by electrical bodies and the air flow in the enclosure? " translation="Wie hoch ist die Temperatur der Komponenten auf meiner Leiterplatte als Ergebnis der thermischen Lasten, die von elektrischen Körpern und der Luftströmung im Gehäuse erzeugt werden? "/>
+	<label commandName="ResultsViewsPanel" devLabel="Display" translation="Anzeige"/>
+	<label commandName="SimAmbientTemperatureBrowserEntry1BodyTooltip" devLabel="1 body" translation="1 Körper"/>
+	<label commandName="SimAmbientTemperatureBrowserEntry1SickBodyTooltip" devLabel="1 body is missing" translation="1 Körper fehlt"/>
+	<label commandName="SimAmbientTemperatureBrowserEntryNBodyTooltip" devLabel="%1% bodies" translation="%1% Körper"/>
+	<label commandName="SimAmbientTemperatureBrowserEntryNSickBodyTooltip" devLabel="%1% bodies are missing" translation="%1% Körper fehlen"/>
+	<label commandName="SimAmbientTemperatureCmdDesc1" devLabel="Sets the temperature of the air surrounding the model, which influences the temperature that the components might reach." translation="Legt die Temperatur der das Modell umgebenden Luft fest, was sich auf die mögliche Komponenten-Temperatur auswirkt."/>
+	<label commandName="SimAmbientTemperatureCmdDesc2" devLabel="By default, the ambient temperature is set to 25C. Make sure to edit this value if the environment is hotter, or colder, than this default." translation="Vorgabemäßig ist die Umgebungstemperatur auf 25 °C eingestellt. Stellen Sie sicher, dass Sie diesen Wert bearbeiten, wenn die Umgebung wärmer oder kälter als diese Vorgabe ist."/>
+	<label commandName="SimAmbientTemperatureCommand" devLabel="Ambient Temperature" translation="Umgebungstemperatur"/>
+	<label commandName="SimAmbientTemperatureCommandInput" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimAmbientTemperatureUnitsEnabler" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimAmbientTemperatureUnitsSwitcher" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimAnimatePanel" devLabel="Animate" translation="Animieren"/>
+	<label commandName="SimAnsysPanel" devLabel="ANSYS" translation="ANSYS"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="Layouts"/>
+	<label commandName="SimComparePanel" devLabel="COMPARE" translation="VERGLEICHEN"/>
+	<label commandName="SimCoolingPanel" devLabel="Cooling" translation="Kühlung"/>
+	<label commandName="SimCriticalTemperatureBrowserEntry1Body" devLabel="1 body" translation="1 Körper"/>
+	<label commandName="SimCriticalTemperatureBrowserEntry1BodyTooltip" devLabel="1 body" translation="1 Körper"/>
+	<label commandName="SimCriticalTemperatureBrowserEntry1LostBody" devLabel="1 missing" translation="1 fehlt"/>
+	<label commandName="SimCriticalTemperatureBrowserEntry1SickBody" devLabel="1 sick" translation="1 beschädigt"/>
+	<label commandName="SimCriticalTemperatureBrowserEntry1SickBodyTooltip" devLabel="1 body is missing" translation="1 Körper fehlt"/>
+	<label commandName="SimCriticalTemperatureBrowserEntryNBody" devLabel="%1% bodies" translation="%1% Körper"/>
+	<label commandName="SimCriticalTemperatureBrowserEntryNBodyTooltip" devLabel="%1% bodies" translation="%1% Körper"/>
+	<label commandName="SimCriticalTemperatureBrowserEntryNLostBody" devLabel="%1% missing" translation="%1% fehlen"/>
+	<label commandName="SimCriticalTemperatureBrowserEntryNSickBody" devLabel="%1% sick" translation="%1% beschädigt"/>
+	<label commandName="SimCriticalTemperatureBrowserEntryNSickBodyTooltip" devLabel="%1% bodies are missing" translation="%1% Körper fehlen"/>
+	<label commandName="SimCriticalTemperaturesPanel" devLabel="Thresholds" translation="Grenzwerte"/>
+	<label commandName="SimEditAmbientTemperatureCommand" devLabel="Edit Ambient Temperature" translation="Umgebungstemperatur bearbeiten"/>
+	<label commandName="SimEditFDCriticalTemperatureCmdDef" devLabel="Edit Temperature Thresholds" translation="Temperaturgrenzwerte bearbeiten"/>
+	<label commandName="SimEditFDInternalHeatAttributeCommand" devLabel="Edit Thermal Load" translation="Thermische Last bearbeiten"/>
+	<label commandName="SimEditFanAttributeCommand" devLabel="Edit Fan" translation="Ventilator bearbeiten"/>
+	<label commandName="SimEditHeatSinkAttributeCommand" devLabel="Edit Heat Sink" translation="Kühlkörper bearbeiten"/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Der Name der Studie ist leer."/>
+	<label commandName="SimEnvironmentPanel" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="SimFDCriticalTemperatureCmdDef" devLabel="Temperature Thresholds" translation="Temperaturgrenzwerte"/>
+	<label commandName="SimFDCriticalTemperatureCmdNoSimCase" devLabel="No active simulation study!" translation="Keine aktive Simulationsstudie!"/>
+	<label commandName="SimFDCriticalTemperatureDlgCriticalTemperature" devLabel="Maximum Temperature" translation="Höchsttemperatur"/>
+	<label commandName="SimFDCriticalTemperatureDlgName" devLabel="Name" translation="Name"/>
+	<label commandName="SimFDCriticalTemperatureDlgReset" devLabel="" translation=""/>
+	<label commandName="SimFDCriticalTemperatureDlgResetToolTip" devLabel="Reset" translation="Zurücksetzen"/>
+	<label commandName="SimFDCriticalTemperatureDlgView" devLabel="View" translation="Ansicht"/>
+	<label commandName="SimFDCriticalTemperatureDlgViewAllBodies" devLabel="All Bodies" translation="Alle Körper"/>
+	<label commandName="SimFDCriticalTemperatureDlgViewNotDefined" devLabel="Not Defined" translation="Nicht definiert"/>
+	<label commandName="SimFDCriticalTemperatureDlgViewUserDefined" devLabel="User Defined" translation="Benutzerdefiniert"/>
+	<label commandName="SimFDCriticalTemperaturesDialogName" devLabel="Temperature Thresholds" translation="Temperaturgrenzwerte"/>
+	<label commandName="SimFDCriticalTemperaturesDlgWindowTitle" devLabel="Temperature Thresholds" translation="Temperaturgrenzwerte"/>
+	<label commandName="SimFDCriticalTemperaturesSearchAllBodies" devLabel="Search All Bodies..." translation="Alle Körper durchsuchen..."/>
+	<label commandName="SimFDCriticalTemperaturesSearchNotDefined" devLabel="Search Not Defined..." translation="Suche nicht definiert..."/>
+	<label commandName="SimFDCriticalTemperaturesSearchUserDefined" devLabel="Search User Defined..." translation="Benutzerdefinierte suchen..."/>
+	<label commandName="SimFDCriticalTemperaturesSelectionCommandInput" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="SimFDCriticalTemperaturesSetupWidgetInput" devLabel="Setup" translation="Setup"/>
+	<label commandName="SimFDRiskScaleModeCmd" devLabel="Risk Scale" translation="Risikoskala"/>
+	<label commandName="SimFDSectionModeCmd" devLabel="Section" translation="Schnitt"/>
+	<label commandName="SimFDTemperatureScaleModeCmd" devLabel="Temperature Scale" translation="Temperaturskala"/>
+	<label commandName="SimFDThermalLoadAttributeCommand" devLabel="Thermal Loads" translation="Thermische Lasten"/>
+	<label commandName="SimFDThermalLoadInternalHeatCmdDesc1" devLabel="Assigns user-defined thermal loads to selected bodies to establish the heat sources that impact the temperature of adjacent bodies under operating conditions." translation="Weist ausgewählten Körpern benutzerdefinierte thermische Lasten zu, um die Wärmequellen festzulegen, die sich unter Betriebsbedingungen auf die Temperatur angrenzender Körper auswirken."/>
+	<label commandName="SimFDThermalLoadInternalHeatCmdDesc2" devLabel="Assign the load as a total value, or on a  per-unit-volume basis. Internal heat load attributes assigned in the Electronics workspace are copied, automatically to the electronics cooling study." translation="Weisen Sie die Last als Gesamtwert oder pro Volumeneinheit zu. Im Arbeitsbereich Elektronik zugewiesene interne Wärmelastattribute werden automatisch in die Elektronikkühlungsstudie kopiert."/>
+	<label commandName="SimFECFinishCompareCmd" devLabel="Finish Compare" translation="Vergleich fertig stellen"/>
+	<label commandName="SimFECV2ResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="Die Ergebnisse wurden noch nicht berechnet.&#xA;Möchten Sie die Ergebnisse jetzt berechnen?"/>
+	<label commandName="SimFECV2ResultsNowTitle" devLabel="View Results" translation="Ergebnisse anzeigen"/>
+	<label commandName="SimFECWebViewDataError" devLabel="Error: Unable to access result data." translation="Fehler: Zugriff auf Ergebnisdaten nicht möglich."/>
+	<label commandName="SimFECWebViewerCmd" devLabel="Simulation Results" translation="Simulationsergebnisse"/>
+	<label commandName="SimFanAttributeCommand" devLabel="Fan" translation="Ventilator"/>
+	<label commandName="SimFanAttributeCoolingFan" devLabel="Fan" translation="Ventilator"/>
+	<label commandName="SimFanAttributeCurveMagnitude" devLabel="Curve Magnitude" translation="Kurvengröße"/>
+	<label commandName="SimFanAttributeDirection" devLabel="Flip Direction" translation="Richtung umkehren"/>
+	<label commandName="SimFanAttributeDirectionAngle" devLabel="Angle (delta)" translation="Winkel (Delta)"/>
+	<label commandName="SimFanAttributeDirectionAutomatic" devLabel="Automatic" translation="Automatisch"/>
+	<label commandName="SimFanAttributeDirectionReference" devLabel="Reference" translation="Referenz"/>
+	<label commandName="SimFanAttributeDirectionType" devLabel="Direction Type" translation="Richtungstyp"/>
+	<label commandName="SimFanAttributeFlipSide" devLabel="Flip Side" translation="Seite umkehren"/>
+	<label commandName="SimFanAttributeMagnitude" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimFanAttributeSelectBody" devLabel="Select Fan (1 body)" translation="Ventilator auswählen (1 Körper)"/>
+	<label commandName="SimFanAttributeSelectNextBody" devLabel="Select next Fan body (optional)" translation="Nächsten Ventilatorkörper auswählen (optional)"/>
+	<label commandName="SimFanAttributeTransformInput" devLabel="Direction" translation="Richtung"/>
+	<label commandName="SimFanAttributeUnitsType" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimFanAttributeX" devLabel="Qx" translation="Qx"/>
+	<label commandName="SimFanAttributeXYZDirectionComponents" devLabel="Vectors (x, y, z)" translation="Vektoren (X, Y, Z)"/>
+	<label commandName="SimFanAttributeY" devLabel="Qy" translation="Qy"/>
+	<label commandName="SimFanAttributeZ" devLabel="Qz" translation="Qz"/>
+	<label commandName="SimFanAttributesReferenceInput" devLabel="Reference" translation="Referenz"/>
+	<label commandName="SimFanAttributesUnitsSwitcher" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimFanCmdDesc1" devLabel="Defines fans and their flow rates, and automatically simplifies complex geometries to reduce the analysis time while maintaining solution accuracy." translation="Definiert Ventilatoren und deren Volumenstrom und vereinfacht automatisch komplexe Geometrien, um die Analysezeit zu verkürzen und gleichzeitig die Lösungsgenauigkeit beizubehalten."/>
+	<label commandName="SimFanCmdDesc2" devLabel="Select all the bodes that make up the fan design. Selected bodies are shown in blue, the air volume is indicated in green, and the arrow indicates the flow direction." translation="Wählen Sie alle Körper aus, aus denen die Ventilatorkonstruktion besteht. Ausgewählte Körper werden blau, das Luftvolumen grün angezeigt und der Pfeil gibt die Strömungsrichtung an."/>
+	<label commandName="SimFinishComparePanel" devLabel="Finish Compare" translation="Vergleich fertig stellen"/>
+	<label commandName="SimFinishFluidDynamicsWebViewerPanel" devLabel="Finish Results" translation="Ergebnisse fertig stellen"/>
+	<label commandName="SimFinishWebViewerPanel" devLabel="Finish Results" translation="Ergebnisse fertig stellen"/>
+	<label commandName="SimFluidDynamics" devLabel="Electronics Cooling" translation="Elektronikkühlung"/>
+	<label commandName="SimFluidDynamicsAccuracy" devLabel="Accuracy" translation="Genauigkeit"/>
+	<label commandName="SimFluidDynamicsAttributesFanTipsAndTricksDesc" devLabel="You can window select multiple fan bodies. Edit or Delete Fan settings from the Fan item in the Browser." translation="Sie können mit der Fensterauswahl mehrere Ventilatorkörper auswählen. Bearbeiten oder löschen Sie die Ventilatoreinstellungen aus dem Ventilatorelement im Browser."/>
+	<label commandName="SimFluidDynamicsAttributesFanTipsAndTricksTips" devLabel="Select all the bodies that represent a single fan. For the analysis the fan is simplified, as symbolically represented by the green prismatic cylinder superimposed on your model during the Fan load setup. For each selection of multiple bodies, the resulting simplified green cylinder represents a single fan. Change the flow direction using the Direction Type." translation="Wählen Sie alle Körper aus, die einen einzelnen Ventilator darstellen. Für die Analyse wird der Ventilator vereinfacht, was symbolisch durch den grünen prismatischen Zylinder dargestellt wird, der während der Ventilatorlastkonfiguration im Modell eingeblendet wird. Für jede Auswahl mehrerer Körper stellt der resultierende vereinfachte grüne Zylinder einen einzelnen Ventilator dar. Ändern Sie die Flussrichtung mithilfe des Richtungstyps."/>
+	<label commandName="SimFluidDynamicsAttributesFanTipsAndTricksTitle" devLabel="Fan Information" translation="Ventilatorinformationen"/>
+	<label commandName="SimFluidDynamicsAttributesHeatSinkTipsAndTricksDesc" devLabel="PLACEHOLDER" translation="PLATZHALTER"/>
+	<label commandName="SimFluidDynamicsAttributesHeatSinkTipsAndTricksTips" devLabel="PLACEHOLDER" translation="PLATZHALTER"/>
+	<label commandName="SimFluidDynamicsAttributesHeatSinkTipsAndTricksTitle" devLabel="Heat Transfer Information" translation="Wärmeübertragung - Informationen"/>
+	<label commandName="SimFluidDynamicsAttributesInternalHeatTipsAndTricksDesc" devLabel="Only Internal Heat load types are supported.&lt;br&gt;Click &lt;b&gt;Change Heat Units&lt;/b&gt; to specify a unique unit for this Load.&lt;br&gt;Toggle&lt;b&gt; Unit Volume&lt;/b&gt; to allow per-unit volume assignment." translation="Nur interne Wärmelast-Typen werden unterstützt.&lt;br&gt;Klicken Sie auf &lt;b&gt;Wärmeeinheiten ändern&lt;/b&gt;, um eine eindeutige Einheit für diese Last anzugeben.&lt;br&gt;Schalten Sie&lt;b&gt; Einheitenvolumen&lt;/b&gt; um, um die Zuweisung pro Volumeneinheit zu ermöglichen."/>
+	<label commandName="SimFluidDynamicsAttributesInternalHeatTipsAndTricksTips" devLabel="Select one or more bodies where the load will be placed." translation="Wählen Sie mindestens einen Körper aus, für den die Last platziert werden soll."/>
+	<label commandName="SimFluidDynamicsAttributesInternalHeatTipsAndTricksTitle" devLabel="Internal Heat Information" translation="Interne Wärme - Informationen"/>
+	<label commandName="SimFluidDynamicsCaseName" devLabel="Name" translation="Name"/>
+	<label commandName="SimFluidDynamicsDesc" devLabel="Use the Electronics Cooling study type to determine whether your electrical bodies will exceed the maximum allowable temperature given natural air convection or a fan." translation="Verwenden Sie den Studientyp Elektronikkühlung, um zu ermitteln, ob die elektrischen Komponenten bei natürlicher Luftkonvektion oder Verwendung eines Ventilators die maximal zulässige Temperatur überschreiten."/>
+	<label commandName="SimFluidDynamicsGeneralGroup" devLabel="General" translation="Allgemein"/>
+	<label commandName="SimFluidDynamicsNotApplicable" devLabel="N/A" translation="k. A."/>
+	<label commandName="SimFluidDynamicsSolveAccurate" devLabel="Accurate" translation="Genau"/>
+	<label commandName="SimFluidDynamicsSolveFast" devLabel="Fast" translation="Schnell"/>
+	<label commandName="SimFluidDynamicsWebViewerCmd" devLabel="Simulation Results" translation="Simulationsergebnisse"/>
+	<label commandName="SimFluidDynamicsWebViewerPanel" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="SimGeometrySimplifierFlag" devLabel="Simplify" translation="Vereinfachen"/>
+	<label commandName="SimHeatLoadsPanel" devLabel="Loads" translation="Lasten"/>
+	<label commandName="SimHeatSinkAttributeCmdBodies" devLabel="Bodies" translation="Körper"/>
+	<label commandName="SimHeatSinkAttributeCmdSelectedEntities" devLabel="Selections" translation="Auswahlen"/>
+	<label commandName="SimHeatSinkAttributeCommand" devLabel="Heat Sink" translation="Kühlkörper"/>
+	<label commandName="SimHeatSinkAttributeCoolingFan" devLabel="Heat Sink" translation="Kühlkörper"/>
+	<label commandName="SimHeatSinkAttributeCurveMagnitude" devLabel="Curve Magnitude" translation="Kurvengröße"/>
+	<label commandName="SimHeatSinkAttributeDirection" devLabel="Flip Direction" translation="Richtung umkehren"/>
+	<label commandName="SimHeatSinkAttributeDirectionAngle" devLabel="Angle (delta)" translation="Winkel (Delta)"/>
+	<label commandName="SimHeatSinkAttributeDirectionAutomatic" devLabel="Automatic" translation="Automatisch"/>
+	<label commandName="SimHeatSinkAttributeDirectionReference" devLabel="Reference" translation="Referenz"/>
+	<label commandName="SimHeatSinkAttributeDirectionType" devLabel="Direction Type" translation="Richtungstyp"/>
+	<label commandName="SimHeatSinkAttributeFlipSide" devLabel="Flip Side" translation="Seite umkehren"/>
+	<label commandName="SimHeatSinkAttributeMagnitude" devLabel="Fin Gap Size" translation="Rippenlückengröße"/>
+	<label commandName="SimHeatSinkAttributeSelectBody" devLabel="Select Heat Sink (1 body)" translation="Kühlkörper auswählen (1 Körper)"/>
+	<label commandName="SimHeatSinkAttributeSelectNextBody" devLabel="Select next Heat Sink body (optional)" translation="Nächsten Kühlkörper auswählen (optional)"/>
+	<label commandName="SimHeatSinkAttributeTransformInput" devLabel="Direction" translation="Richtung"/>
+	<label commandName="SimHeatSinkAttributeUnitsType" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimHeatSinkAttributeX" devLabel="Qx" translation="Qx"/>
+	<label commandName="SimHeatSinkAttributeXYZDirectionComponents" devLabel="Vectors (x, y, z)" translation="Vektoren (X, Y, Z)"/>
+	<label commandName="SimHeatSinkAttributeY" devLabel="Qy" translation="Qy"/>
+	<label commandName="SimHeatSinkAttributeZ" devLabel="Qz" translation="Qz"/>
+	<label commandName="SimHeatSinkAttributesReferenceInput" devLabel="Reference" translation="Referenz"/>
+	<label commandName="SimHeatSinkAttributesUnitsSwitcher" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimHeatSinkCmdDesc1" devLabel="Defines the heat sink and created an idealized representation of the extruded heat sink design, to reduce the analysis time while maintaining solution accuracy." translation="Definiert den Kühlkörper und erstellt eine idealisierte Darstellung der extrudierten Kühlkörperkonstruktion, um die Analysezeit zu verkürzen und gleichzeitig die Lösungsgenauigkeit beizubehalten."/>
+	<label commandName="SimHeatSinkCmdDesc2" devLabel="Model your heat sink so that the direction of the fins, and the gap between them, are invariant. Ensure the heat sink is aligned with the model coordinate system." translation="Modellieren Sie den Kühlkörper so, dass die Richtung der Kühlrippen und der Abstand zwischen ihnen unveränderlich sind. Stellen Sie sicher, dass der Kühlkörper am Koordinatensystem des Modells ausgerichtet ist."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimInspectPanel" devLabel="Inspect" translation="Prüfen"/>
+	<label commandName="SimLoadSelectLocationForLoad" devLabel="Select location(s) for load (face, edge or vertex)." translation="Wählen Sie die Position(en) für die Last (Fläche, Kante oder Scheitelpunkt) aus."/>
+	<label commandName="SimManagePanel" devLabel="Manage" translation="Verwalten"/>
+	<label commandName="SimMaterialsPanel" devLabel="Materials" translation="Materialien"/>
+	<label commandName="SimMeshDisplayPanel" devLabel="Display" translation="Anzeige"/>
+	<label commandName="SimOptionsPanel" devLabel="Options" translation="Optionen"/>
+	<label commandName="SimResultsManagePanel" devLabel="Manage" translation="Verwalten"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimSelectPanel" devLabel="Select" translation="Auswählen"/>
+	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="Einstellungen"/>
+	<label commandName="SimSimplifyPanel" devLabel="Simplify" translation="Vereinfachen"/>
+	<label commandName="SimSolvePanel" devLabel="Solve" translation="Lösen"/>
+	<label commandName="SimStudyPanel" devLabel="Study" translation="Studie"/>
+	<label commandName="SimSynchronizePanel" devLabel="Synchronize" translation="Synchronisieren"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Stromstärke"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimV2ResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="Die Ergebnisse wurden noch nicht berechnet.&#xA;Möchten Sie die Ergebnisse jetzt berechnen?"/>
+	<label commandName="SimV2ResultsNowTitle" devLabel="View Results" translation="Ergebnisse anzeigen"/>
+	<label commandName="SimViewsPanel" devLabel="Display" translation="Anzeige"/>
+	<label commandName="SimWebViewDataError" devLabel="Error: Unable to access result data." translation="Fehler: Zugriff auf Ergebnisdaten nicht möglich."/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Der Name der Studie wird bereits verwendet."/>
+	<label commandName="ViewModePanel" devLabel="View Results" translation="Ergebnisse anzeigen"/>
+	<label commandName="ViewerCameraSyncPanel" devLabel="Synchronization" translation="Synchronisation"/>
+	<label commandName="ViewerComparePanel" devLabel="Compare" translation="Vergleichen"/>
+	<label commandName="ViewerDisplayPanel" devLabel="Display" translation="Anzeige"/>
+	<label commandName="ViewerLayoutsPanel" devLabel="Layouts" translation="Layouts"/>
+	<label commandName="ViewerReportPanel" devLabel="Report" translation="Bericht"/>
+	<label commandName="WebViewerPanel" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="FEHLERBEHEBUNG"/>
+	<label commandName="lclzDeformation" devLabel="DEFORMATION" translation="DEFORMATION"/>
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnose"/>
+	<label commandName="lclzFECResultsViewerTab" devLabel="RESULTS" translation="ERGEBNISSE"/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Datei"/>
+	<label commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="Ergebnisse fertig stellen"/>
+	<label commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="Vergleich fertig stellen"/>
+	<label commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="ERGEBNISWERKZEUGE"/>
+	<label commandName="lclzResultsViewerTab" devLabel="RESULTS" translation="ERGEBNISSE"/>
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Auswahlpriorität"/>
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Auswahlwerkzeuge"/>
+	<label commandName="lclzSimCriticalTemperaturesCmdDesc1" devLabel="Assigns a user-defined maximum safe operating temperature to selected board components, to see how likely it is that the components overheat under operating conditions." translation="Weist ausgewählten Leiterplattenkomponenten eine benutzerdefinierte maximale sichere Betriebstemperatur zu, um zu sehen, mit welcher Wahrscheinlichkeit die Komponenten unter Betriebsbedingungen überhitzen."/>
+	<label commandName="lclzSimCriticalTemperaturesCmdDesc2" devLabel="Specify a temperature threshold on at least one board component to generate the Threshold result and Guided Result. Maximum temperature attributes assigned in the Electronics workspace are copied, automatically, to the electronics cooling study." translation="Geben Sie einen Temperaturgrenzwert für mindestens eine Leiterplattenkomponente an, um das Ergebnis Grenzwert und das erläuternde Ergebnis zu generieren. Die im Arbeitsbereich Elektronik zugewiesenen Attribute für die maximale Temperatur werden automatisch in die Elektronikkühlungsstudie kopiert."/>
+	<label commandName="lclzSimCriticalTemperaturesTipsAndTricksTips" devLabel="View and edit the temperature threshold settings on each body." translation="Zeigen Sie die Temperaturgrenzwert-Einstellungen für jeden Körper an, und bearbeiten Sie sie."/>
+	<label commandName="lclzSimCriticalTemperaturesTipsAndTricksTitle" devLabel="Temperature Thresholds Information" translation="Temperaturgrenzwerte - Informationen"/>
+	<label commandName="lclzSimFDRiskScaleCommandDesc1" devLabel="Shows how likely a PCB body is to exceed its temperature threshold and overheat." translation="Zeigt an, mit welcher Wahrscheinlichkeit ein Leiterplattenkörper den Temperaturgrenzwert überschreiten und überhitzen wird."/>
+	<label commandName="lclzSimFDRiskScaleCommandDesc2" devLabel="To create this result, set the Temperature threshold on bodies of interest during the study set up. Only bodies with a temperature threshold assigned to them are shown in this view." translation="Um dieses Ergebnis zu erstellen, legen Sie den Temperaturgrenzwert für relevante Körper während der Studieneinrichtung fest. In dieser Ansicht werden nur Körper angezeigt, denen ein Temperaturgrenzwert zugewiesen ist."/>
+	<label commandName="lclzSimFDRiskScaleCommandTipsAndTricksDesc" devLabel="Activate Risk Scale viewing mode." translation="Aktivieren Sie den Risikoskala-Ansichtsmodus."/>
+	<label commandName="lclzSimFDRiskScaleCommandTipsAndTricksTips" devLabel="Activate Risk Scale viewing mode." translation="Aktivieren Sie den Risikoskala-Ansichtsmodus."/>
+	<label commandName="lclzSimFDRiskScaleCommandTipsAndTricksTitle" devLabel="Risk Scale" translation="Risikoskala"/>
+	<label commandName="lclzSimFDSectionModeCommandDesc1" devLabel="Shows the internal temperatures of bodies, as well as the temperature and velocity of the air surrounding them." translation="Zeigt die internen Temperaturen der Körper sowie die Temperatur und Geschwindigkeit der Luft an, die sie umgibt."/>
+	<label commandName="lclzSimFDSectionModeCommandDesc2" devLabel="Create section planes to view the internal temperatures of bodies. Move and rotate the section planes along the plane to identify the best location for them. Switch between air temperature and air velocity." translation="Erstellen Sie Schnittebenen, um die internen Temperaturen von Körpern anzuzeigen. Verschieben und drehen Sie die Schnittebenen entlang der Ebene, um die optimale Position für sie zu ermitteln. Wechseln Sie zwischen Lufttemperatur und Luftgeschwindigkeit."/>
+	<label commandName="lclzSimFDSectionModeCommandTipsAndTricksDesc" devLabel="Activate Section viewing mode." translation="Aktivieren Sie den Schnittansichtsmodus."/>
+	<label commandName="lclzSimFDSectionModeCommandTipsAndTricksTips" devLabel="Activate Section viewing mode." translation="Aktivieren Sie den Schnittansichtsmodus."/>
+	<label commandName="lclzSimFDSectionModeCommandTipsAndTricksTitle" devLabel="Section" translation="Schnitt"/>
+	<label commandName="lclzSimFDTemperatureScaleCommandDesc1" devLabel="Shows the temperature of all model bodies, such as PCB bodies, boards, and enclosures, that fall within the range of interest." translation="Zeigt die Temperatur aller Modellkörper an, z. B. Leiterplattenkörper, Leiterplatten und Gehäuse, die sich innerhalb des relevanten Bereichs befinden."/>
+	<label commandName="lclzSimFDTemperatureScaleCommandDesc2" devLabel="Use the Range of interest slider on the legend to alter the temperature at which bodies are included in this view." translation="Verwenden Sie den Schieberegler Relevanter Bereich in der Legende, um die Temperatur zu ändern, bei der die Körper in dieser Ansicht enthalten sind."/>
+	<label commandName="lclzSimFDTemperatureScaleCommandTipsAndTricksDesc" devLabel="Activate Temperature Scale viewing mode." translation="Aktivieren Sie den Temperaturskala-Ansichtsmodus."/>
+	<label commandName="lclzSimFDTemperatureScaleCommandTipsAndTricksTips" devLabel="Activate Temperature Scale viewing mode." translation="Aktivieren Sie den Temperaturskala-Ansichtsmodus."/>
+	<label commandName="lclzSimFDTemperatureScaleCommandTipsAndTricksTitle" devLabel="Temperature Scale" translation="Temperaturskala"/>
+	<label commandName="lclzSimFECWebViewerCmd1" devLabel="Shows color plots of component temperatures, surrounding air temperature, and air velocity data." translation="Zeigt Farbplots der Komponententemperaturen, Umgebungstemperatur und Luftgeschwindigkeitsdaten an."/>
+	<label commandName="lclzSimFECWebViewerCmd2" devLabel="View Guided Results to see guidance on result interpretation and Next Steps. View the Results list to study different aspects of the simulation data in more depth." translation="Zeigen Sie erläuternde Ergebnisse an, um Hinweise zur Ergebnisinterpretation und zu den nächsten Schritten zu erhalten. Sehen Sie sich die Ergebnisliste an, um verschiedene Aspekte der Simulationsdaten genauer zu untersuchen."/>
+	<label commandName="lclzSimFluidDynamicsAttributesInternalHeatTipsAndTricksDesc" devLabel="When a temperature threshold is defined, any body operating above the temperature threshold are displayed as At Risk in the Results view. The maximum temperature across a body is reported as its operating temperature.&lt;br&gt;&lt;br&gt;All bodies participate in the solve, however not all bodies are required to have a temperature threshold.&lt;br&gt;&lt;br&gt;Temperature threshold attributes assigned in the Electronics workspace are copied, automatically, to the electronics cooling study. Adjustments made in the electronics cooling study are not reflected back in the Electronics workspace." translation="Wenn ein Temperaturgrenzwert definiert ist, werden alle Körper, die den Temperaturgrenzwert überschreiten, in der Ergebnisanzeige als Gefährdet angezeigt. Die maximale Temperatur eines Körpers wird als seine Betriebstemperatur angegeben.&lt;br&gt;&lt;br&gt;Alle Körper werden in die Lösung einbezogen, aber nicht alle Körper müssen über einen Temperaturgrenzwert verfügen.&lt;br&gt;&lt;br&gt;Im Arbeitsbereich Elektronik zugewiesene Temperaturgrenzwertattribute werden automatisch in die Elektronikkühlungsstudie kopiert. Änderungen, die in der Elektronikkühlungsstudie vorgenommen werden, werden im Arbeitsbereich Elektronik nicht wiedergegeben."/>
+	<label commandName="lclzSimFluidDynamicsWebViewerCmd1" devLabel="Shows color plots of component temperatures, surrounding air temperature, and air velocity data." translation="Zeigt Farbplots der Komponententemperaturen, Umgebungstemperatur und Luftgeschwindigkeitsdaten an."/>
+	<label commandName="lclzSimFluidDynamicsWebViewerCmd2" devLabel="View Guided Results to see guidance on result interpretation and Next Steps. View the Results list to study different aspects of the simulation data in more depth." translation="Zeigen Sie erläuternde Ergebnisse an, um Hinweise zur Ergebnisinterpretation und zu den nächsten Schritten zu erhalten. Sehen Sie sich die Ergebnisliste an, um verschiedene Aspekte der Simulationsdaten genauer zu untersuchen."/>
+	<label commandName="lclzSimSetupTab" devLabel="SETUP" translation="EINRICHTEN"/>
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="UI-Demo"/>
+	<label commandName="lclzViewerCompareTab" devLabel="COMPARE" translation="VERGLEICHEN"/>
+</Resource>

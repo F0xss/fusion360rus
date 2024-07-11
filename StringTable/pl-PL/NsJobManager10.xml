@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="jobManagerGenerativeDesignSolving" devLabel="Generative Design Solving" translation="Rozwiązywanie projektów generatywnych"/>
+	<label commandName="jobManagerSimulationSolving" devLabel="Simulation Solving" translation="Rozwiązywanie symulacji"/>
+	<label commandName="jobManagerTranslating" devLabel="Translating" translation="Przekształcanie"/>
+	<label commandName="jobManagerUploading" devLabel="Uploading" translation="Przekazywanie"/>
+</Resource>

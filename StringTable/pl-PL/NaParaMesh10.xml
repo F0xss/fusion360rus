@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Body" devLabel="Body" translation="Bryła"/>
+	<label commandName="ConversionFailed" devLabel="Conversion failed" translation="Konwersja nie powiodła się"/>
+	<label commandName="CreateComponentsFromMeshBodiesFeatureMissing" devLabel="Editing Feature for CreateComponentsFromBodies is missing." translation="Brak elementu edycji dla CreateComponentsFromBodies."/>
+	<label commandName="CreateComponentsFromMeshBodiesMeshMissing" devLabel="Mesh Body for CreateComponentsFromBodies is missing." translation="Brak bryły siatkowej dla CreateComponentsFromBodies."/>
+	<label commandName="DeriveEntitiesCreateComponentsFromMeshBodiesIsNotSupported" devLabel="This operation is not supported for Derived entities, they will not participate in the operation." translation="Ta operacja nie jest obsługiwana dla elementów pochodnych. Nie będą one uczestniczyć w operacji."/>
+	<label commandName="Face Group" devLabel="Face Group" translation="Grupa powierzchni"/>
+	<label commandName="Faces" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="FailedDefectInspection" devLabel="Mesh defect inspection failed." translation="Kontrola defektów siatki się nie powiodła."/>
+	<label commandName="FailedParaMeshBoolean" devLabel="Cannot combine mesh bodies. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Nie można połączyć brył siatkowych. Użyj narzędzia Napraw, aby upewnić się, że wybrane siatki są zamknięte, poprawnie zorientowane i mają dodatnią objętość."/>
+	<label commandName="FailedParaMeshDelete" devLabel="Cannot delete mesh body." translation="Nie można usunąć bryły siatkowej."/>
+	<label commandName="FailedParaMeshExportOperation" devLabel="Cannot export mesh body. Select a different export format or save the file to a different location." translation="Nie można wyeksportować bryły siatkowej. Wybierz inny format eksportu lub zapisz plik w innej lokalizacji."/>
+	<label commandName="FailedParaMeshFaceGroup" devLabel="Cannot generate face groups for mesh body." translation="Nie można wygenerować grup powierzchni dla bryły siatkowej."/>
+	<label commandName="FailedParaMeshFaceGroupDelete" devLabel="Mesh body delete face groups command failed" translation="Wykonanie polecenia usunięcia grup powierzchni bryły siatkowej nie powiodło się"/>
+	<label commandName="FailedParaMeshFacetsDelete" devLabel="Mesh body delete faces command failed" translation="Wykonanie polecenia usunięcia powierzchni bryły siatkowej nie powiodło się"/>
+	<label commandName="FailedParaMeshHollow" devLabel="Cannot shell mesh body. Adjust thickness or use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Nie można utworzyć skorupy bryły siatkowej. Dopasuj grubość lub użyj narzędzia Napraw, aby upewnić się, że wybrane siatki są zamknięte, poprawnie zorientowane i mają dodatnią objętość."/>
+	<label commandName="FailedParaMeshLattice" devLabel="Cannot lattice mesh body." translation="Nie można przeprowadzić kratowania bryły siatkowej."/>
+	<label commandName="FailedParaMeshLatticeCmd" devLabel="Cannot lattice mesh body." translation="Nie można przeprowadzić kratowania bryły siatkowej."/>
+	<label commandName="FailedParaMeshMerge" devLabel="Cannot combine mesh bodies with the Merge operation." translation="Nie można połączyć brył siatkowych za pomocą operacji Scal."/>
+	<label commandName="FailedParaMeshMergeFaceGroups" devLabel="Cannot combine face groups on mesh body. Use Generate Face Groups to regenerate a starting set of face groups." translation="Nie można połączyć grup powierzchni na bryle siatkowej. Użyj polecenia Generuj grupy powierzchni, aby ponownie wygenerować początkowy zestaw grup powierzchni."/>
+	<label commandName="FailedParaMeshMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Nie można przekonwertować bryły siatkowej na korpus bryłowy lub powierzchniowy. Użyj polecenia Generuj grupy powierzchni lub Edytuj bezpośrednio, aby wyrównać grupy powierzchni do elementów geometrycznych na bryle siatkowej."/>
+	<label commandName="FailedParaMeshOperation" devLabel="Mesh interface operation failed." translation="Operacja interfejsu siatki nie powiodła się."/>
+	<label commandName="FailedParaMeshOperationAssetAdapterMissing" devLabel="No Asset or AssetAdapter available. Save the design and restart." translation="Brak dostępnego zasobu lub adaptera zasobów. Zapisz projekt i uruchom ponownie."/>
+	<label commandName="FailedParaMeshOperationCreate" devLabel="Cannot insert mesh body. The source file may be damaged." translation="Nie można wstawić bryły siatkowej. Plik źródłowy może być uszkodzony."/>
+	<label commandName="FailedParaMeshOperationExtract" devLabel="Cannot separate regions of mesh body." translation="Nie można rozdzielić regionów bryły siatkowej."/>
+	<label commandName="FailedParaMeshPlaneCut" devLabel="Cannot complete plane cut of mesh body. Use Repair or Direct Edit to ensure mesh body does not intersect itself." translation="Nie można ukończyć cięcia płaszczyzną bryły siatkowej. Użyj polecenia Napraw lub Edytuj bezpośrednio, aby upewnić się, że bryła siatkowa nie przecina się sama ze sobą."/>
+	<label commandName="FailedParaMeshRangeCheck" devLabel="Parameter value is out of bounds" translation="Wartość parametru jest poza zakresem"/>
+	<label commandName="FailedParaMeshReduce" devLabel="Cannot reduce mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Nie można zredukować bryły siatkowej lub grup powierzchni. Użyj narzędzia Napraw, aby upewnić się, że wybrane siatki są zamknięte, poprawnie zorientowane i mają dodatnią objętość."/>
+	<label commandName="FailedParaMeshRemesh" devLabel="Cannot remesh mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Nie można zmodyfikować siatki bryły siatkowej lub grup powierzchni. Użyj narzędzia Napraw, aby upewnić się, że wybrane siatki są zamknięte, poprawnie zorientowane i mają dodatnią objętość."/>
+	<label commandName="FailedParaMeshRemeshSeperateRegions" devLabel="Cannot remesh mesh body or face groups. Input selection of triangles may be disjoint, e.g. subareas of the selection not sharing an edge. Adjusting and sanitizing the input selection can help." translation="Nie można poprawić bryły siatkowej lub grup powierzchni. Wybór danych wejściowych trójkątów może być rozłączny, np. podobszary wyboru nie współdzielą krawędzi. Dopasowanie i oczyszczanie wyboru danych wejściowych może pomóc."/>
+	<label commandName="FailedParaMeshRemove" devLabel="Cannot remove mesh body." translation="Nie można usunąć bryły siatkowej."/>
+	<label commandName="FailedParaMeshRemoveFeature" devLabel="Cannot remove mesh body. Target mesh body does not exist." translation="Nie można usunąć bryły siatkowej. Docelowa bryła siatkowa nie istnieje."/>
+	<label commandName="FailedParaMeshRepair" devLabel="Cannot repair mesh body. Try a different repair type." translation="Nie można naprawić bryły siatkowej. Spróbuj innego typu naprawy."/>
+	<label commandName="FailedParaMeshScaling" devLabel="Cannot scale mesh body. Adjust scale factor or X/Y/Z scale." translation="Nie można skalować bryły siatkowej. Dopasuj współczynnik skali lub skalę X/Y/Z."/>
+	<label commandName="FailedParaMeshSmooth" devLabel="Cannot smooth mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Nie można wygładzić bryły siatkowej lub grup powierzchni. Użyj narzędzia Napraw, aby upewnić się, że wybrane siatki są zamknięte, poprawnie zorientowane i mają dodatnią objętość."/>
+	<label commandName="FailedParaMeshTessellate" devLabel="Cannot tessellate solid or surface body to create mesh body." translation="Nie można teselować bryły lub korpusu powierzchniowego w celu utworzenia bryły siatkowej."/>
+	<label commandName="FailedParaMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Nie można przekonwertować bryły siatkowej na korpus bryłowy lub powierzchniowy. Użyj polecenia Generuj grupy powierzchni lub Edytuj bezpośrednio, aby wyrównać grupy powierzchni do elementów geometrycznych na bryle siatkowej."/>
+	<label commandName="FailedParaMeshToQuadMesh" devLabel="Cannot convert mesh body to quad mesh." translation="Nie można przekonwertować bryły siatkowej na siatkę czworokątną."/>
+	<label commandName="FailedParaMeshToTSpline" devLabel="Cannot convert mesh body to T-Spline body." translation="Nie można przekonwertować bryły siatkowej na bryłę T-splajn."/>
+	<label commandName="FeatureBodyComp" devLabel="Body-&gt;Comp" translation="Bryła-&gt;Komponent"/>
+	<label commandName="FeatureCalculateFaceGroups" devLabel="GenerateFaceGroups" translation="Generowanie grup powierzchni"/>
+	<label commandName="FeatureCopyPasteMeshes" devLabel="CopyPasteMeshes" translation="Kopiowanie i wklejenie siatek"/>
+	<label commandName="FeatureCreateMesh" devLabel="CreateMesh" translation="Utworzenie siatki"/>
+	<label commandName="FeatureCutPasteMeshes" devLabel="CutPasteMeshes" translation="Wycięcie i wklejenie siatek"/>
+	<label commandName="FeatureMergeFaceGroups" devLabel="CombineFaceGroups" translation="Utworzenie kombinacji grup powierzchni"/>
+	<label commandName="FeatureMesh" devLabel="Base Mesh Feature" translation="Element bazowy siatki"/>
+	<label commandName="FeatureMeshCombine" devLabel="MeshCombine" translation="Utworzenie kombinacji siatki"/>
+	<label commandName="FeatureMeshExtract" devLabel="MeshSeparate" translation="Rozdzielenie siatki"/>
+	<label commandName="FeatureMeshHollow" devLabel="MeshShell" translation="Utworzenie skorupy siatki"/>
+	<label commandName="FeatureMeshPlaneCut" devLabel="MeshPlaneCut" translation="Cięcie płaszczyzną siatki"/>
+	<label commandName="FeatureMeshReduce" devLabel="MeshReduce" translation="Redukcja siatki"/>
+	<label commandName="FeatureMeshRemesh" devLabel="MeshRemesh" translation="Modyfikacja siatki"/>
+	<label commandName="FeatureMeshRemove" devLabel="MeshRemove" translation="Usunięcie siatki"/>
+	<label commandName="FeatureMeshRepair" devLabel="MeshRepair" translation="Naprawienie siatki"/>
+	<label commandName="FeatureMeshReverseNormals" devLabel="MeshReverseNormals" translation="Odwrócenie stron normalnych siatki"/>
+	<label commandName="FeatureMeshScale" devLabel="Scale" translation="Skala"/>
+	<label commandName="FeatureMeshSection" devLabel="MeshSection" translation="Przekrój siatki"/>
+	<label commandName="FeatureMeshSmooth" devLabel="MeshSmooth" translation="Wygładzenie siatki"/>
+	<label commandName="FeatureMeshTessellate" devLabel="MeshTessellate" translation="Teselacja siatki"/>
+	<label commandName="FeatureMeshToBREP" devLabel="Convert Mesh" translation="Przekształć siatkę"/>
+	<label commandName="FeatureMeshToQuadMesh" devLabel="MeshToQuadMesh" translation="Konwersja siatki na siatkę czworokątną"/>
+	<label commandName="FeatureModify" devLabel="Modify" translation="Zmień"/>
+	<label commandName="FreeForm" devLabel="Free Form" translation="Swobodne"/>
+	<label commandName="General" devLabel="General" translation="Ogólne"/>
+	<label commandName="ImportFailed" devLabel="Import failed" translation="Import nie powiódł się"/>
+	<label commandName="MESH_SELECTION_OPTION_GROUP" devLabel="Modify Selection" translation="Modyfikuj wybór"/>
+	<label commandName="MESH_TARGET_BODY_REFERENCE_LOST" devLabel="Lost target body. Edit feature to reselect target body." translation="Utracono bryłę docelową. Edytuj element, aby ponownie wybrać bryłę docelową."/>
+	<label commandName="MESH_TOOLBODY_REFERENCE_LOST" devLabel="Lost tool body. Edit feature to reselect tool body." translation="Utracono bryłę narzędziową. Edytuj element, aby ponownie wybrać bryłę narzędziową."/>
+	<label commandName="MeshConversionNotCompleteWarning" devLabel="Not all facegroups of the mesh body could be converted. The generated solid or surface body is not complete. Try a different method for conversion or adjust the face groups to correspond better to geometric features of the mesh." translation="Nie wszystkie grupy powierzchni bryły siatkowej mogą być przekonwertowane. Wygenerowana bryła lub korpus powierzchniowy nie jest kompletny. Użyj innej metody konwersji lub dostosuj grupy powierzchni, aby lepiej odpowiadały elementom geometrycznym siatki."/>
+	<label commandName="MeshDirectEditFailedMultiComponent" devLabel="Cannot directly edit mesh bodies in different components. Edit mesh bodies separately or move them into the same component." translation="Nie można bezpośrednio edytować brył siatkowych w różnych komponentach. Edytuj bryły siatkowe oddzielnie lub przesuń je do tego samego komponentu."/>
+	<label commandName="MeshGenericReformError" devLabel="Mesh to T-Spline operation failed." translation="Operacja konwersji siatki na T-splajn nie powiodła się."/>
+	<label commandName="MeshGenericTSplineError" devLabel="T-Spline operation failed." translation="Operacja utworzenia T-splajnu nie powiodła się."/>
+	<label commandName="MeshNoParent" devLabel="Missing parent of mesh body. Try pasting mesh body again." translation="Brak elementu nadrzędnego bryły siatkowej. Spróbuj ponownie wkleić bryłę siatkową."/>
+	<label commandName="MeshNoTimelineParent" devLabel="Parent of mesh body missing from timeline. Try pasting mesh body again." translation="Brak elementu nadrzędnego bryły siatkowej na osi czasu. Spróbuj ponownie wkleić bryłę siatkową."/>
+	<label commandName="MeshOperationCanceled" devLabel="Mesh operation canceled" translation="Anulowano operację tworzenia siatki"/>
+	<label commandName="MeshOutOfBoundsConvertFaceNumber" devLabel="Face Number value is out of range. The valid range is from %1% to %2%" translation="Wartość numeru powierzchni jest poza zakresem. Poprawny zakres to od %1% do %2%"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpOpeningAngle" devLabel="Angle threshold is out of range. The valid range is from %1% deg to %2% deg" translation="Próg kąta jest poza zakresem. Poprawny zakres to od %1% do %2% stopni"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegTol" devLabel="Boundary tolerance is out of range. The valid range is from %1% cm to %2% cm" translation="Tolerancja granicy jest poza zakresem. Poprawny zakres: od %1% cm do %2% cm"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegmentArea" devLabel="Minimum Face Group Size is out of range. The valid range is from %1% to %2%" translation="Minimalny rozmiar grupy powierzchni jest poza zakresem. Poprawny zakres: od %1% do %2%"/>
+	<label commandName="MeshOutOfBoundsHollowInsideThickness" devLabel="Thickness is too small. The minimum value is %1% cm" translation="Grubość jest zbyt mała. Minimalna wartość to %1% cm"/>
+	<label commandName="MeshOutOfBoundsTessellateAspectRatio" devLabel="Aspect ratio is out of range. The valid range is from %1% to %2%" translation="Współczynnik proporcji jest poza zakresem. Poprawny zakres to od %1% do %2%"/>
+	<label commandName="MeshOutOfBoundsTessellateNormalTol" devLabel="Normal deviation is out of range. The valid range is from %1% to %2%" translation="Odchylenie normalne jest poza zakresem. Poprawny zakres to od %1% do %2%"/>
+	<label commandName="MeshPointsSelectionId" devLabel="Mesh Points" translation="Punkty siatki"/>
+	<label commandName="MeshScaleGenericError" devLabel="Cannot scale mesh body. Adjust scale settings or selection set." translation="Nie można skalować bryły siatkowej. Dostosuj ustawienia skali lub zbiór wskazań."/>
+	<label commandName="MeshToolProps" devLabel="Mesh Selection Tool" translation="Narzędzie wyboru siatki"/>
+	<label commandName="MeshUnknownASMError" devLabel="Modeling operation failed." translation="Operacja modelowania nie powiodła się."/>
+	<label commandName="MeshUnknownError" devLabel="Mesh modeling operation failed." translation="Operacja modelowania siatki nie powiodła się."/>
+	<label commandName="MeshWarningHollowShellCount" devLabel="The triangle count did not change. Try adjusting the thickness value." translation="Liczba trójkątów nie uległa zmianie. Dopasuj wartość grubości."/>
+	<label commandName="MigrationFailedDocumentHasNoSegment" devLabel="Document has no Segment" translation="Dokument nie ma segmentu"/>
+	<label commandName="MigrationFailedNoParaMeshWasAdopted" devLabel="No ParaMesh was adopted" translation="Nie zastosowano żadnej siatki parametrycznej"/>
+	<label commandName="MigrationFailedObjectPathHasNotMeshBody" devLabel="ObjectPath has not MeshBody" translation="ObjectPath nie ma MeshBody"/>
+	<label commandName="NamePostfixParametric" devLabel=" (Parametric)" translation=" (parametryczna)"/>
+	<label commandName="PARAMESH_SELECTOR_BRUSH_SIZE" devLabel="Brush Size" translation="Wielkość pędzla"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOCONNECTED_MESH_SEL_ACTION" devLabel="Expand to Connected" translation="Rozszerz na połączone"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOGROUP_MESH_SEL_ACTION" devLabel="Expand to Face Group" translation="Rozszerz na grupę powierzchni"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_MESH_SEL" devLabel="Grow" translation="Powiększ"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_EXPAND" devLabel="Expand" translation="Rozszerzenie"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_GROW" devLabel="Grow/Shrink" translation="Powiększ/Zmniejsz"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL" devLabel="Invert" translation="Odwróć"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL_ACTION" devLabel="Invert Selection" translation="Odwróć wybór"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_BODIES" devLabel="Selected Mesh Bodies" translation="Wybrane bryły siatkowe"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_FACE_GROUPS" devLabel="Selected Face Groups" translation="Wybrane grupy powierzchni"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_TRIANGLES" devLabel="Selected Faces" translation="Wybrane powierzchnie"/>
+	<label commandName="PARAMESH_SELECTOR_SHRINK_MESH_SEL" devLabel="Shrink" translation="Zmniejsz"/>
+	<label commandName="Paint" devLabel="Paint" translation="Farba"/>
+	<label commandName="ParaMeshBodyDefaultUserName" devLabel="MeshBody" translation="Siatka bryłowa"/>
+	<label commandName="ParaMeshBodySelectionCategory" devLabel="Mesh Bodies" translation="Bryły siatkowe"/>
+	<label commandName="ParaMeshEditMeshNamePostfix" devLabel="_Edited" translation="_Edytowano"/>
+	<label commandName="ParaMeshFaceGroupSelectionCategory" devLabel="Mesh Face Groups" translation="Grupy powierzchni siatki"/>
+	<label commandName="ParaMeshFaceGroupSelectionId" devLabel="Face Group" translation="Grupa powierzchni"/>
+	<label commandName="ParaMeshFaceGroupSelectionsId" devLabel="Face Groups" translation="Grupy powierzchni"/>
+	<label commandName="ParaMeshFaceSelectionId" devLabel="Mesh Faces" translation="Powierzchnie siatki"/>
+	<label commandName="ParaMeshFaceSelectionsId" devLabel="Mesh Faces" translation="Powierzchnie siatki"/>
+	<label commandName="ParaMeshFacetSelectionCategory" devLabel="Mesh Faces" translation="Powierzchnie siatki"/>
+	<label commandName="ParaMeshFeatureSelectionId" devLabel="ParaMesh Feature" translation="Element siatki parametrycznej"/>
+	<label commandName="ParaMeshFeatureSelectionIds" devLabel="ParaMesh Features" translation="Elementy siatki parametrycznej"/>
+	<label commandName="ParaMeshPointSelectionCategory" devLabel="Mesh Points" translation="Punkty siatki"/>
+	<label commandName="ParaMeshPointSelectionId" devLabel="Mesh Point" translation="Punkt siatki"/>
+	<label commandName="ParaMeshScaleFactorMissing" devLabel="Missing scal-factor for scaling. Edit feature and define scaling factor." translation="Brak współczynnika skali dla skalowania. Edytuj element i zdefiniuj współczynnik skalowania."/>
+	<label commandName="ParaMeshScaleReferenceMissing" devLabel="Missing reference point for scaling. Edit feature and reselect reference point." translation="Brak punktu odniesienia dla skalowania. Edytuj element i ponownie wybierz punkt odniesienia."/>
+	<label commandName="ParaMeshSelectionId" devLabel="Mesh Body" translation="Bryła siatkowa"/>
+	<label commandName="ParaMeshSelectionsId" devLabel="Mesh Bodies" translation="Bryły siatkowe"/>
+	<label commandName="ParaMeshSourceBodyNotFound" devLabel="Cannot find mesh body source. Edit feature to reselect mesh body." translation="Nie można znaleźć źródła bryły siatkowej. Edytuj element, aby ponownie wybrać bryłę siatkową."/>
+	<label commandName="ParameshFeatureSelectionCategory" devLabel="Mesh Points" translation="Punkty siatki"/>
+	<label commandName="SelectBackFacets" devLabel="Select Back Faces" translation="Wybierz tylne powierzchnie"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Filtr wyboru"/>
+	<label commandName="Selectionmode" devLabel="Selection Type" translation="Typ wyboru"/>
+	<label commandName="TargetSketchNotFound" devLabel="Missing mesh section sketch. Delete Mesh Section feature from timeline and recreate it." translation="Brak szkicu przekroju siatki. Usuń element przekroju siatki z osi czasu i utwórz go ponownie."/>
+	<label commandName="Window" devLabel="Window" translation="Okno"/>
+</Resource>

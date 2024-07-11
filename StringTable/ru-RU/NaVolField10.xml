@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><Resource>
+	<label commandName="AVKBodySelectionCategory" devLabel="AVKBodies" translation="AVK-Körper"/>
+	<label commandName="AVKMeshBodySelectionCategory" devLabel="Bodies" translation="Körper"/>
+	<label commandName="EmptyBooleanVolFieldToMesh" devLabel="Attempt to boolean both the meshes failed. Create Mesh aborted" translation="Versuch, boolesche Operation auf beide Netze anzuwenden, ist fehlgeschlagen. Netzerstellung abgebrochen"/>
+	<label commandName="EmptyLatticeVolFieldToMesh" devLabel="Attempt to create an lattice mesh failed. Create Mesh aborted" translation="Versuch, ein Gitternetz zu erstellen, ist fehlgeschlagen. Netzerstellung abgebrochen"/>
+	<label commandName="EmptyPartVolFieldToMesh" devLabel="Attempt to create body mesh failed. Create Mesh aborted" translation="Versuch, ein Körpernetz zu erstellen, ist fehlgeschlagen. Netzerstellung abgebrochen"/>
+	<label commandName="EmptyVolFieldToMesh" devLabel="Attempt to create an empty mesh. Create Mesh aborted" translation="Es wurde versucht, ein leeres Netz zu erstellen. Netz erstellen abgebrochen"/>
+	<label commandName="FailedVolFieldCreateRequest" devLabel="could not add or find the volumetric group" translation="volumetrische Gruppe konnte nicht hinzugefügt oder gefunden werden"/>
+	<label commandName="FailedVolFieldCreateRequestEntity" devLabel="could not find a component for volumetric data" translation="Komponente für volumetrische Daten konnte nicht gefunden werden"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestEntity" devLabel="could not add or find the volumetric data" translation="volumetrische Daten konnten nicht hinzugefügt oder gefunden werden"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestNode" devLabel="Failed to find correct graph nodes" translation="Korrekte Diagrammknoten nicht gefunden"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestRoot" devLabel="could not add or find the volumetric root" translation="volumetrischer Stamm konnte nicht hinzugefügt oder gefunden werden"/>
+	<label commandName="FailedVolFieldToMeshRequest" devLabel="could not add or find the volumetric group" translation="volumetrische Gruppe konnte nicht hinzugefügt oder gefunden werden"/>
+	<label commandName="FailedVolFieldToMeshRequestEntity" devLabel="could not find a component with volumetric data" translation="Komponente mit volumetrischen Daten konnte nicht gefunden werden"/>
+	<label commandName="InterruptedVolFieldToMeshRequest" devLabel="Create Mesh was interrupted" translation="Netz erstellen wurde unterbrochen"/>
+	<label commandName="LatticeDefaultUserName" devLabel="Volumetric Lattice" translation="Volumetrisches Gitter"/>
+	<label commandName="NAVKRootSelectionId" devLabel="VolFieldRootSelection" translation="VolFeld-Stammauswahl"/>
+	<label commandName="NAVKVRepSelectionId" devLabel="VolFieldSelection" translation="VolFeld-Auswahl"/>
+	<label commandName="VolFieldToMeshProgress" devLabel="Create Mesh" translation="Netz erstellen"/>
+</Resource>

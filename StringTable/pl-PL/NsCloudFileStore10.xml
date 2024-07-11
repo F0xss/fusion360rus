@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CFSErrorMessageTitle" devLabel="Fusion Team Error Message" translation="Komunikat o błędzie usługi Fusion Team"/>
+	<label commandName="CloudFileExceptionUpload2" devLabel="[CFSUploader] Unknown exception when uploading file %1%. Please ensure network connectivity." translation="[CFSUploader] Nieznany wyjątek podczas przekazywania pliku %1%. Upewnij się, że połączenie sieciowe jest dostępne."/>
+	<label commandName="CloudFileStoreAutoSaveDescription" devLabel="Auto save." translation="Autozapis."/>
+	<label commandName="CloudFileStoreCloseSaveDescription" devLabel="Save on Close." translation="Zapisz przy zamknięciu."/>
+	<label commandName="Tooltip_CurrentlyReservedBy" devLabel="Currently reserved by %1%" translation="Obecnie zablokowane przez %1%"/>
+	<label commandName="UploaderThread::Upload failed" devLabel="Upload failed. Original File: %1%" translation="Przekazywanie nie powiodło się. Oryginalny plik: %1%"/>
+	<label commandName="UploaderThread::std::exception" devLabel="[CFSUploader] Exception %1% when uploading file %2%. Please ensure network connectivity." translation="[CFSUploader] Wyjątek %1% podczas przekazywania pliku %2%. Upewnij się, że połączenie sieciowe jest dostępne."/>
+	<label commandName="UserNotAuthenticated" devLabel="Upload queued attachment %1% error, user isn't authenticated by Autodesk 360, please login to Autodesk 360 first." translation="Błąd przekazywania załącznika w kolejce %1%. Użytkownik nie jest uwierzytelniony w usłudze Autodesk 360. Zaloguj się najpierw w usłudze Autodesk 360."/>
+	<label commandName="WaitMessageForQueuedFile" devLabel="Waiting for %1% to complete" translation="Oczekiwanie na ukończenie %1%"/>
+	<label commandName="filenotexist" devLabel="Could not import document. The specified file (%1%) does not exist." translation="Nie można zaimportować dokumentu. Określony plik (%1%) nie istnieje."/>
+	<label commandName="jobManagerReserving" devLabel="Waiting to reserve" translation="Oczekiwanie na zablokowanie"/>
+	<label commandName="progress manager reimport text" devLabel="Uploading %1% to %2%" translation="Przekazywanie %1% do %2%"/>
+	<label commandName="uploadAbortedReservationFailed" devLabel="&quot;%1%&quot; could not be uploaded. This occurs when you have lost access to the project or your permissions for a folder have changed. Please contact the project moderator for assistance." translation="Nie można przekazać „%1%”. Dzieje się tak, gdy utracisz dostęp do projektu lub zmieniły się uprawnienia do folderu. Skontaktuj się z moderatorem projektu, aby uzyskać pomoc."/>
+	<label commandName="uploadAddQueueFailed" devLabel="Failed to add specified file to the upload queue: %1%" translation="Nie można dodać określonego pliku do kolejki przekazywania: %1%"/>
+	<label commandName="uploadAlreadyExists" devLabel="Specified file already exists in the upload queue: %1%" translation="Określony plik już istnieje w kolejce przekazywania: %1%"/>
+	<label commandName="uploadFileDoesNotExist" devLabel="Specified file does not exist: %1%" translation="Określony plik nie istnieje: %1%"/>
+	<label commandName="uploadPIMAlreadyExists" devLabel="Specified PIM data file already exists in the upload queue: %1%" translation="Określony plik danych PIM już istnieje w kolejce przekazywania: %1%"/>
+	<label commandName="userNotAuthenticated" devLabel="User is not authenticated. Could not queue file %1% for upload." translation="Użytkownik nie jest uwierzytelniony. Nie można umieścić pliku %1% w kolejce w celu przekazania."/>
+</Resource>

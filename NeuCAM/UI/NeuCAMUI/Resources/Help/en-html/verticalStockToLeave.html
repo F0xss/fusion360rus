@@ -1,0 +1,18 @@
+<div id="verticalStockToLeave"><p>The axial stock to leave parameter controls the amount of material to leave in the axial (along the Z-axis) direction, that is, at the end of the tool.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveAxial.png"/></center></td>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveBoth.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Axial Stock to Leave</b></p></center></td>
+<td><center><p><b>Both Radial and Axial Stock to Leave</b></p></center></td>
+</tr></table>
+<p>Specifying a positive axial stock to leave results in material being left on the shallow areas of the part.</p>
+<p>For surfaces that are not exactly horizontal, the program interpolates between the axial and radial (wall) stock to leave values, so the stock left in the axial direction on these surfaces might be different from the specified value, depending on surface slope and the radial stock to leave value.</p>
+<p>Changing the radial stock to leave automatically sets the axial stock to leave to the same amount, unless you manually enter the axial stock to leave.</p>
+<p>For finishing operations, the default value is 0 mm/0 in, that is, no material is left.</p>
+<p>For roughing operations, the default is to leave a small amount of material that can then be removed later by one or more finishing operations.</p>
+<p><b>Negative Stock to Leave</b></p>
+<p>When using a negative stock to leave, the machining operation removes more material from your stock than your model shape. This can be used to machine electrodes with a <b>spark gap</b>, where the size of the spark gap is equal to the negative stock to leave.</p>
+<p>Both the radial and axial stock to leave can be negative numbers, however when using a ball or radius cutter with a negative radial stock to leave that is greater than the corner radius, the negative axial stock to leave must be less than or equal to the corner radius.</p>
+</div>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="Pokaż/Ukryj"/>
+	<label commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="Niektóre elementy konstrukcyjne, które próbujesz ustawić jako widoczne, są ustawione jako niewidoczne w opcjach widoczności obiektu na podstawie ustawień wyświetlania. Pozostaną niewidoczne, chyba że ustawiono je w opcjach widoczności obiektu."/>
+</Resource>

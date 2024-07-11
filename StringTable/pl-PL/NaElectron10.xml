@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="BrowseButton" devLabel="Browse" translation="Przeglądaj"/>
+	<label commandName="CloseUnsavedFile" devLabel="Close File" translation="Zamknij plik"/>
+	<label commandName="CopyToDesktopCmdCaption" devLabel="Export Archive" translation="Eksportuj archiwum"/>
+	<label commandName="DefaultLibraryName" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="DefaultPCBName" devLabel="PCB" translation="Płytka PCB"/>
+	<label commandName="DefaultSchematicName" devLabel="Schematic" translation="Schemat"/>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="ElectronComponent"/>
+	<label commandName="ElectronDocumentTypeNameBrd" devLabel="The board file" translation="Plik płytki"/>
+	<label commandName="ElectronDocumentTypeNameDefault" devLabel="The file" translation="Plik"/>
+	<label commandName="ElectronDocumentTypeNameLbr" devLabel="The library file" translation="Plik biblioteki"/>
+	<label commandName="ElectronDocumentTypeNameSch" devLabel="The schematic file" translation="Plik schematu"/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron nie może wygenerować małej miniatury."/>
+	<label commandName="ElectronFileExportFailurePrompt1" devLabel=" has errors and cannot be exported. Save the file before exporting." translation=" zawiera błędy i nie można go wyeksportować. Zapisz plik przed wyeksportowaniem."/>
+	<label commandName="ElectronFileLoadFailureExportMsg" devLabel="Click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Kliknij przycisk Eksportuj, aby zapisać kopię pliku i dzienniki błędów jako plik ZIP, który ma zostać wysłany do pomocy technicznej. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Skontaktuj się z działem pomocy technicznej &lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadFailurePrompt" devLabel=" has errors and cannot be opened." translation=" zawiera błędy i nie można go otworzyć."/>
+	<label commandName="ElectronFileLoadWarningExportMsg" devLabel="Click OK to open the file with warnings or click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Kliknij przycisk OK, aby otworzyć plik z ostrzeżeniami, lub kliknij przycisk Eksportuj, aby zapisać kopię pliku i dzienniki błędów jako plik ZIP, który ma zostać wysłany do pomocy technicznej. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Skontaktuj się z działem pomocy technicznej&lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadWarningPrompt" devLabel=" has errors and will be opened with warnings." translation=" zawiera błędy i zostanie otwarty z ostrzeżeniami."/>
+	<label commandName="ElectronFileSaveFailureExportMsg" devLabel="Do one of the following:&lt;ul&gt;&lt;li&gt;Select Close File to discard changes and revert to the last saved version.&lt;/li&gt;&lt;li&gt;Click Cancel to continue working on the file to resolve the errors.&lt;/li&gt;&lt;li&gt;Select Export &amp; Close File to save a copy of the file with the latest unsaved changes and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" translation="Wykonaj jedną z poniższych czynności: &lt;ul&gt;&lt;li&gt;Wybierz opcję Zamknij plik, aby odrzucić zmiany i przywrócić ostatnio zapisaną wersję.&lt;/li&gt;&lt;li&gt;Kliknij przycisk Anuluj, aby kontynuować pracę z plikiem w celu rozwiązania błędów.&lt;/li&gt;&lt;li&gt;Wybierz opcję Eksportuj i zamknij plik, aby zapisać kopię pliku z najnowszymi niezapisanymi zmianami i dziennikami błędów jako plik ZIP, który ma zostać wysłany do pomocy technicznej. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Skontaktuj się z działem pomocy technicznej&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+	<label commandName="ElectronFileSaveFailureMode1" devLabel=" could not be autosaved." translation=" nie można zapisać automatycznie."/>
+	<label commandName="ElectronFileSaveFailureMode2" devLabel=" cannot be saved." translation=" nie można zapisać."/>
+	<label commandName="ElectronFileSaveFailurePrompt1" devLabel=" has errors and" translation=" zawiera błędy i"/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="Zasób dokumentu biblioteki"/>
+	<label commandName="ElectronLoadFailureStatus1" devLabel="Attempt to load the design file failed due to potential corruption.&lt;br/&gt;" translation="Próba wczytania pliku projektu nie powiodła się z powodu potencjalnego uszkodzenia.&lt;br/&gt;"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="ECAD"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="Zasób dokumentu płytki PCB"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="Zasób dokumentu projektu układów elektronicznych"/>
+	<label commandName="ElectronSaveFailureArticleMessage" devLabel="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Learn how to fix potential data corruption issues&lt;/a&gt;" translation="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Dowiedz się, jak naprawić potencjalne problemy z uszkodzeniem danych&lt;/a&gt;"/>
+	<label commandName="ElectronSaveFailureStatus2" devLabel=" has errors and cannot be saved.&lt;br/&gt;" translation=" zawiera błędy i nie może być zapisany.&lt;br/&gt;"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="Zasób dokumentu schematu"/>
+	<label commandName="ElectronicsDesignDefaultName" devLabel="Electronics Design" translation="Projekt układu elektronicznego"/>
+	<label commandName="ExportUnloadedErrorFile" devLabel="Export" translation="Eksport"/>
+	<label commandName="ExportUnloadedWarningsFile" devLabel="Export" translation="Eksport"/>
+	<label commandName="ExportUnsavedFiles" devLabel="Export &amp;&amp; Close File" translation="Eksportuj i zamknij plik"/>
+	<label commandName="FolderIsNotAccessible" devLabel="The selected folder: &quot;%1%&quot; is not accessible." translation="Wybrany folder: „%1%” jest niedostępny."/>
+	<label commandName="ImportEagleLibrariesTitle" devLabel="Import your EAGLE libraries to use inside of Fusion 360 Electronics" translation="Importowanie bibliotek EAGLE w celu użycia w programie Fusion 360 Electronics"/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="Połączony plik PCB2d zawiera nowe wersje.&#xA;Czy chcesz wczytać najnowszą wersję?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="Połączony plik PCB3d zawiera nowe wersje.&#xA;Czy chcesz wczytać najnowszą wersję?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="Połączony plik PCB zawiera nowe wersje.&#xA;Czy chcesz wczytać najnowszą wersję?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="Połączony plik schematu zawiera nowe wersje.&#xA;Czy chcesz wczytać najnowszą wersję?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Niezapisany)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="Połączony plik ma nowe wersje.&#xA;Czy chcesz wczytać najnowszą wersję?"/>
+</Resource>

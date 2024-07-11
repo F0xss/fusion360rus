@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="BrokenViewRangeExceed" devLabel="Could not create broken view, Please select valid range." translation="" />
+	<label commandName="DuplicateSheetCopySuffix" devLabel="Copy" translation="" />
+	<label commandName="FD_SELECT_ORIGIN_MARKER" devLabel="Select origin marker to edit" translation="" />
+	<label commandName="HOLE_TABLE_ORIGIN_JIG_PROMPT" devLabel="Select a view with an origin or select a point to set the origin" translation="" />
+	<label commandName="IDS_ARRANGE_DIM_SELECT_BASE_DIM" devLabel="&#10;Select base dimension" translation="" />
+	<label commandName="IDS_ARRANGE_DIM_SELECT_DIM_TO_MOVE" devLabel="&#10;Select dimensions to move" translation="" />
+	<label commandName="IDS_CREATE_BASE_VIEW" devLabel="Create Drawing Base View." translation="" />
+	<label commandName="IDS_CREATE_PROJECTED_VIEW" devLabel="Create Drawing Projected View." translation="" />
+	<label commandName="IDS_FUSION_ATTEDIT_PROMPT_SELECT_ATT" devLabel="&#10;Select attribute&#10;Or press Enter to exit " translation="" />
+	<label commandName="IDS_FUSION_ATTEDIT_PROMPT_SELECT_BLKREF" devLabel="&#10;Select block reference" translation="" />
+	<label commandName="IDS_FUSION_BROKENVIEW_GAP" devLabel="&#10;Break Gap" translation="" />
+	<label commandName="IDS_FUSION_BROKENVIEW_ORIENTATION" devLabel="&#10;Break Orientation" translation="" />
+	<label commandName="IDS_FUSION_BROKENVIEW_SELECT_VIEW" devLabel="&#10;Select view" translation="" />
+	<label commandName="IDS_FUSION_COPYORCUTPARAM" devLabel="Copy Xcut _ Copy Xcut" translation="" />
+	<label commandName="IDS_FUSION_COPYORCUTSTR" devLabel="&#10;Enter an option [Copy/Xcut]&lt;Copy&gt;:" translation="" />
+	<label commandName="IDS_FUSION_COPYPASTEPARAMETER" devLabel="Enter parameter for cut, copy or paste, leave empty for default behaviour:" translation="" />
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_SELECT_DIMENSION" devLabel="Select dimension to edit: " translation="" />
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_SELECT_FAILED" devLabel="*** Failed to get dimension selection.&#10;" translation="" />
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_UNSAVED_CHANGES_CONTENT" devLabel="Do you want to save your dimension text changes?" translation="" />
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_UNSAVED_CHANGES_TITLE" devLabel="Dimension Text- Unsaved Changes" translation="" />
+	<label commandName="IDS_FUSION_DIM_OSNAP_TOOLTIP" devLabel="&#10;Place dimension " translation="" />
+	<label commandName="IDS_FUSION_HATCHEDIT_SELECT_FAILED" devLabel="*** Failed to get hatch selection.&#10;" translation="" />
+	<label commandName="IDS_FUSION_HATCHEDIT_SELECT_HATCH" devLabel="Select hatch to edit: " translation="" />
+	<label commandName="IDS_FUSION_IMAGEINSERT_KWORDS" devLabel="Rotation RelativeRotation Scale RelativeScale Origin RelativeOrigin TitleblockInsert Insert Delete Reselect _ Rotation RelativeRotation Scale RelativeScale Origin RelativeOrigin TitleblockInsert Insert Delete Reselect" translation="" />
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT" devLabel="&#10;Set options for image insert [Rotation/RelativeRotation/Scale/RelativeScale/Origin/RelativeOrigin/TitleblockInsert/Insert/Delete/Reselect] &lt;OK&gt; : " translation="" />
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_ORIGIN" devLabel="&#10;Place lower left corner " translation="" />
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_ROTATION" devLabel="&#10;Rotate image " translation="" />
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_SCALE" devLabel="&#10;Scale image " translation="" />
+	<label commandName="IDS_FUSION_IMAGE_NOTFOUND_1" devLabel=" not found" translation="" />
+	<label commandName="IDS_FUSION_IMAGE_NOTFOUND_2" devLabel=" - this problem is most likely due to permissions. Selecting the file will grant this program permission.&#10;&#10; Press OK to select the file..." translation="" />
+	<label commandName="IDS_FUSION_INCANVAS_TOOLTIP_0" devLabel="Rollback placement and continue" translation="" />
+	<label commandName="IDS_FUSION_INCANVAS_TOOLTIP_1" devLabel="Create and continue" translation="" />
+	<label commandName="IDS_FUSION_MASS_PRECISION" devLabel="&#10;Set new Mass Precision" translation="" />
+	<label commandName="IDS_FUSION_MASS_UNIT" devLabel="&#10;Set new Mass Unit" translation="" />
+	<label commandName="IDS_FUSION_PARTSLIST_TYPE_KWORDS" devLabel="First-level All-level _ First-level All-level" translation="" />
+	<label commandName="IDS_FUSION_PARTSLIST_TYPE_PROMPT" devLabel="&#10;Select parts list type: " translation="" />
+	<label commandName="IDS_FUSION_PRINTER_NAME" devLabel="&#10;BPrinter Name" translation="" />
+	<label commandName="IDS_FUSION_PRINT_CUST_SCALE" devLabel="&#10;BPrint Cust Scale" translation="" />
+	<label commandName="IDS_FUSION_PRINT_LINE_WEIGHT" devLabel="" translation="" />
+	<label commandName="IDS_FUSION_PRINT_NUM_COPIES" devLabel="&#10;BPrint Copies" translation="" />
+	<label commandName="IDS_FUSION_PRINT_OFFSET_VALUE" devLabel="&#10;BPrint Offset" translation="" />
+	<label commandName="IDS_FUSION_PRINT_ORIENTATION" devLabel="&#10;BPrint Orientation" translation="" />
+	<label commandName="IDS_FUSION_PRINT_PAPER_NAME" devLabel="&#10;BPrint Paper Name" translation="" />
+	<label commandName="IDS_FUSION_PRINT_SCALE" devLabel="&#10;BPrint Scale" translation="" />
+	<label commandName="IDS_FUSION_PRINT_SHOW_PREVIEW" devLabel="&#10;BShow Preview" translation="" />
+	<label commandName="IDS_FUSION_SELECT_FAILED" devLabel="*** Failed to get selection.&#10;" translation="" />
+	<label commandName="IDS_FUSION_TABLEEDIT_PROMPT" devLabel="&#10;Select parts list option: " translation="" />
+	<label commandName="IDS_FUSION_TABLEINSERT_PROMPT" devLabel="&#10;Place table. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD1" devLabel="Applytb Deletetb Renametb _ Applytb Deletetb Renametb" translation="" />
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD2" devLabel="&#10;Enter Title Block to be applied" translation="" />
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD3" devLabel="&#10;Enter old Title Block to rename" translation="" />
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD4" devLabel="&#10;Enter new Title Block name" translation="" />
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD5" devLabel="&#10;Enter TitleBlock to be deleted" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CLI_DISPLAY" devLabel="&#10;** ADD LEADER **" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CLI_PROMPT" devLabel="&#10;Specify leader arrowhead location:" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CMD" devLabel="MLeaderGripAddLeader" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_ADD_LEADER" devLabel="Add Leader" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_GENERAL" devLabel="&#10;Press Ctrl to Cycle Between:" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_LENGTHEN" devLabel="Lengthen" translation="" />
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_STRETCH" devLabel="Stretch" translation="" />
+	<label commandName="IDS_INPUT_IS_COMMAND_FOR_SMART_TEMPLATE" devLabel="&#10;Is command for SmartTemplate" translation="" />
+	<label commandName="IDS_INPUT_PARTS_LIST_TYPE" devLabel="&#10;Input parts list type " translation="" />
+	<label commandName="IDS_KW_ADDLEADER" devLabel="Add - Add leader" translation="" />
+	<label commandName="IDS_KW_BLOCK" devLabel="Block - Block" translation="" />
+	<label commandName="IDS_KW_CONTENT" devLabel="Content - Content type" translation="" />
+	<label commandName="IDS_KW_CONTENTFIRST" devLabel="Content - Content first" translation="" />
+	<label commandName="IDS_KW_CURRENT" devLabel="Use - Use current spacing" translation="" />
+	<label commandName="IDS_KW_DISTRIBUTE" devLabel="Distribute - Distribute" translation="" />
+	<label commandName="IDS_KW_END" devLabel="End - End" translation="" />
+	<label commandName="IDS_KW_EXITOPTIONS" devLabel="eXit - eXit options" translation="" />
+	<label commandName="IDS_KW_FIRSTANGLE" devLabel="First - First angle" translation="" />
+	<label commandName="IDS_KW_HEADFIRST" devLabel="arrowHead - leader arrowHead first" translation="" />
+	<label commandName="IDS_KW_HORIZONTAL" devLabel="Horizontal - Horizontal" translation="" />
+	<label commandName="IDS_KW_LANDING" devLabel="lAnding - leader lAnding" translation="" />
+	<label commandName="IDS_KW_LEADER" devLabel="Leader - Leader type" translation="" />
+	<label commandName="IDS_KW_MAXPOINTS" devLabel="Maxpoints - Maxpoints" translation="" />
+	<label commandName="IDS_KW_MTEXT" devLabel="Mtext - Mtext" translation="" />
+	<label commandName="IDS_KW_NO" devLabel="No - No" translation="" />
+	<label commandName="IDS_KW_NONE" devLabel="None - None" translation="" />
+	<label commandName="IDS_KW_NUMBER" devLabel="Number - Number" translation="" />
+	<label commandName="IDS_KW_OPTIONS" devLabel="Options - Options" translation="" />
+	<label commandName="IDS_KW_OVERWRITE" devLabel="OVerwrite - Overwrite" translation="" />
+	<label commandName="IDS_KW_PARALLEL" devLabel="Parallel - make segments Parallel" translation="" />
+	<label commandName="IDS_KW_REMOVELEADER" devLabel="Remove - Remove leader" translation="" />
+	<label commandName="IDS_KW_SECONDANGLE" devLabel="Second - Second angle" translation="" />
+	<label commandName="IDS_KW_SPACING" devLabel="Spacing - specify Spacing" translation="" />
+	<label commandName="IDS_KW_SPLINE" devLabel="sPline - sPline" translation="" />
+	<label commandName="IDS_KW_STRAIGHT" devLabel="Straight - Straight" translation="" />
+	<label commandName="IDS_KW_TAILFIRST" devLabel="Landing - leader Landing first" translation="" />
+	<label commandName="IDS_KW_VERTICAL" devLabel="Vertical - Vertical" translation="" />
+	<label commandName="IDS_KW_WRAP" devLabel="Wrap - Wrap" translation="" />
+	<label commandName="IDS_KW_YES" devLabel="Yes - Yes" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT01" devLabel="&#10;Select multileaders: " translation="" />
+	<label commandName="IDS_MALIGN_PROMPT02" devLabel="&#10;Select multileader to align to or [Options]:" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT03" devLabel="&#10;%d multileaders not selected because they were no coplanar." translation="" />
+	<label commandName="IDS_MALIGN_PROMPT04" devLabel="&#10;Specify first point or [Options]:" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT05" devLabel="&#10;Specify spacing &amp;lt;%f&amp;gt;:" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT05_KW" devLabel="Option _ Option" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT06" devLabel="&#10;Enter an option [Distribute/make leader segments Parallel/specify Spacing/Use current spacing] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MALIGN_PROMPT06_KW" devLabel="Distribute Parallel Spacing Use _ Distribute Parallel Spacing Use" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT07" devLabel="&#10;Specify direction:" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT08" devLabel="&#10;Specify second point:" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT09" devLabel="&#10;Current mode: Distribute" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT10" devLabel="&#10;Current mode: Make leader lines parallel" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT11" devLabel="&#10;Current mode: Use current spacing" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT12" devLabel="&#10;Current mode: Spacing: %f" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT13" devLabel="&#10;Select balloons to align" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT14" devLabel="&#10;Specify start point" translation="" />
+	<label commandName="IDS_MALIGN_PROMPT15" devLabel="&#10;Specify end point" translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT01" devLabel="&#10;Select multileaders: " translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT02" devLabel="&#10;Specify collected multileader location or [Vertical/Horizontal/Wrap] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT02_KW" devLabel="Vertical Horizontal Wrap _ Vertical Horizontal Wrap" translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT03" devLabel="&#10;Specify wrap width or [Number]: &amp;lt;%s&amp;gt;" translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT03_KW" devLabel="Number _ Number" translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT04" devLabel="&#10;Specify number per row &amp;lt;%d&amp;gt;: " translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT05" devLabel="&#10;Object selected is not a multileader." translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT06" devLabel="&#10;Selected multileader must be co-planar." translation="" />
+	<label commandName="IDS_MCOLLECT_PROMPT07" devLabel="&#10;Multileader must use block content to be collected." translation="" />
+	<label commandName="IDS_MEDIT_PROMPT01" devLabel="&#10;Select a multileader: " translation="" />
+	<label commandName="IDS_MEDIT_PROMPT04" devLabel="&#10;No leaders exist to remove." translation="" />
+	<label commandName="IDS_MEDIT_PROMPT05" devLabel="&#10;Object selected was not a multileader." translation="" />
+	<label commandName="IDS_MEDIT_PROMPT06" devLabel="&#10;1 found" translation="" />
+	<label commandName="IDS_MEDIT_PROMPT07" devLabel="&#10;1 was on a locked layer." translation="" />
+	<label commandName="IDS_MEDIT_PROMPT08" devLabel="&#10;Select next point of new leader segment or [Remove leaders]: " translation="" />
+	<label commandName="IDS_MEDIT_PROMPT08_KW" devLabel="Remove _ Remove" translation="" />
+	<label commandName="IDS_MEDIT_PROMPT09" devLabel="&#10;Specify leaders to remove or [Add leaders]: " translation="" />
+	<label commandName="IDS_MEDIT_PROMPT09_KW" devLabel="Add _ Add" translation="" />
+	<label commandName="IDS_MEDIT_PROMPT10" devLabel="&#10;Specify leader arrowhead location or [Remove leaders]: " translation="" />
+	<label commandName="IDS_MEDIT_PROMPT10_KW" devLabel="Remove _ Remove" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT01" devLabel="&#10;Specify start point" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT01_KW" devLabel="Landing Content Options _ Landing Content Options" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT02" devLabel="&#10;Specify leader landing location or [leader arrowHead first/Content first/Options] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT02_KW" devLabel="arrowHead Content Options _ arrowHead Content Options" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT03" devLabel="&#10;Specify first corner of text or [leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT03_KW" devLabel="arrowHead Landing Options _ arrowHead Landing Options" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT04" devLabel="&#10;Specify insertion point for text or [OVerwrite/leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT04_KW" devLabel="OVerwrite arrowHead Landing Options _ OVerwrite arrowHead Landing Options" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT05" devLabel="&#10;Specify insertion point for block or [leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT05_KW" devLabel="arrowHead Landing Options _ arrowHead Landing Options" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT06" devLabel="&#10;Enter an option [Leader type/leader lAnding/Content type/Maxpoints/First angle/Second angle/eXit options] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT06_KW" devLabel="Leader lAnding Content Maxpoints First Second eXit _ Leader lAnding Content Maxpoints First Second eXit" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT07" devLabel="&#10;Specify next point or [End] &amp;lt;End&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT07_KW" devLabel="End _ End" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT08" devLabel="&#10;Specify bend point" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT09" devLabel="&#10;Specify leader arrowhead location: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT10" devLabel="&#10;Specify end point" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT11" devLabel="&#10;Specify landing distance &amp;lt;%.4f&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT12" devLabel="&#10;Specify opposite corner: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT13" devLabel="&#10;Overwrite default text [Yes/No] &amp;lt;No&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT13_KW" devLabel="Yes No _ Yes No" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT14" devLabel="&#10;Select a leader type [Straight/sPline/None] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT14_KW" devLabel="Straight sPline None _ Straight sPline None" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT15" devLabel="&#10;Use landing [Yes/No] &amp;lt;Yes&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT15_KW" devLabel="Yes No _ Yes No" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT16" devLabel="&#10;Specify fixed landing distance &amp;lt;%.4f&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT17" devLabel="&#10;Select a content type [Block/Mtext/None] &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT17_KW" devLabel="Block Mtext None _ Block Mtext None" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT18" devLabel="&#10;Enter the maximum points for leader line &amp;lt;%d&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT19" devLabel="&#10;Enter first angle constraint &amp;lt;%.0f&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT20" devLabel="&#10;Enter second angle constraint &amp;lt;%.0f&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT21" devLabel="&#10;Enter block name: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT22" devLabel="&#10;Enter block name &amp;lt;%s&amp;gt;: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT25" devLabel="&#10;Invalid Input." translation="" />
+	<label commandName="IDS_MLEADER_PROMPT26" devLabel="&#10;Place balloon" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT27" devLabel="&#10;Select edge of component" translation="" />
+	<label commandName="IDS_MLEADER_PROMPT28" devLabel="&#10;Select edge: " translation="" />
+	<label commandName="IDS_MLEADER_PROMPT29" devLabel="&#10;Select bend centerline" translation="" />
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_INCREMENT" devLabel="&#10;Set new increment value" translation="" />
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_INITIAL" devLabel="&#10;Set new Starting Number" translation="" />
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_STRUCTURE_TYPE" devLabel="&#10;Set balloon structure type " translation="" />
+	<label commandName="IDS_SY_CMD_BALLOON_SEL_PROMPT_KWD1" devLabel="&#10;Select balloon to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_BALLOON_SEL_PROMPT_KWD2" devLabel="&#10;Select balloon to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_BENDTABLE_PROMPT" devLabel="&#10;Place bend table. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_SY_CMD_HOLETABLE_PROMPT" devLabel="&#10;Place hole table. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_SY_CMD_LINKTABLE_PROMPT" devLabel="&#10;Place Link table. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_SY_CMD_LINK_TABLE_PROMPT" devLabel="&#10;Set Excel file path for link table " translation="" />
+	<label commandName="IDS_SY_CMD_OUTPUTCSV_SELECT_PROMPT" devLabel="Select table" translation="" />
+	<label commandName="IDS_SY_CMD_PARTSLIST_PROMPT" devLabel="&#10;Place parts list. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_SY_CMD_PARTSLIST_SELECT_PROMPT" devLabel="Select drawing view" translation="" />
+	<label commandName="IDS_SY_CMD_RENUMBER_BENDID_SEL_PROMPT_KWD1" devLabel="&#10;Select bend identifier to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_RENUMBER_BENDID_SEL_PROMPT_KWD2" devLabel="&#10;Select bend identifier to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_RENUMBER_PROMPT_TYPE" devLabel="&#10;Set renumber selection type " translation="" />
+	<label commandName="IDS_SY_CMD_RENUMBER_SEL_PROMPT_KWD1" devLabel="&#10;Select balloon or bend identifier to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_RENUMBER_SEL_PROMPT_KWD2" devLabel="&#10;Select balloon or bend identifier to renumber as %d " translation="" />
+	<label commandName="IDS_SY_CMD_REVISIONTABLE_PROMPT" devLabel="&#10;Place revision history. Press Shift to toggle flipping" translation="" />
+	<label commandName="IDS_SY_CMD_TABLE_PROMPT_TYPE" devLabel="&#10;Set renumber selection type " translation="" />
+	<label commandName="IDS_SY_CMD_VIEWBASE_SELECT_FUSION_SOURCE" devLabel="&#10;Enter Fusion Source File Name [DesignInfo]: " translation="" />
+	<label commandName="IDS_SY_CMD_VIEWEDGE_SEL_PROMPT" devLabel="&#10;Select edge: " translation="" />
+	<label commandName="IDS_SY_CMD_VIEWPROJ_SEL_PROMPT" devLabel="&#10;Select parent view: " translation="" />
+	<label commandName="IDS_SY_CMD_VIEW_FUSION_PATH_PROMPT" devLabel="&#10;Enter Autodesk Fusion model folder path: " translation="" />
+	<label commandName="IDS_Select_Break_Position" devLabel="&#10;Select break position" translation="" />
+	<label commandName="Provide spacing value" devLabel="Spacing" translation="" />
+	<label commandName="REASSOCIATE_ORIGIN_PROMPT" devLabel="Select origin point" translation="" />
+	<label commandName="REV_MARKER_LANDING_PROMPT" devLabel="&#10;Place revision marker" translation="" />
+	<label commandName="REV_MARKER_SELECT_PROMPT" devLabel="&#10;Select object or specify point" translation="" />
+</Resource>

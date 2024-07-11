@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CopyGenWorkingModelWithSimCases" devLabel="Clone Generative Model" translation="Klonuj model generatywny"/>
+	<label commandName="CopyWorkingModelWithSimCases" devLabel="Clone Simulation Model" translation="Klonuj model symulacji"/>
+	<label commandName="CreateGenerativeModel" devLabel="New Generative Model" translation="Nowy model generatywny"/>
+	<label commandName="CreateSimulationModel" devLabel="New Simulation Model" translation="Nowy model symulacji"/>
+	<label commandName="DeleteAllGenerativeWMWarningMessage" devLabel="Are you sure you want to delete this Generative Model and and its associated studies and results? Deleting the only Generative Model in the Generative workspace will return you to the Design Workspace." translation="Czy na pewno chcesz usunąć ten model generatywny i powiązane z nim badania oraz wyniki? Usunięcie jedynego modelu generatywnego w obszarze roboczym generatora spowoduje powrót do obszaru roboczego projektowania."/>
+	<label commandName="DeleteAllSimulationWMWarningMessage" devLabel="Are you sure you want to delete this Simulation Model, and its associated studies and results? Deleting the only Simulation Model in the Simulation workspace returns you to the Design workspace." translation="Czy na pewno chcesz usunąć ten model symulacji i powiązane z nim badania oraz wyniki? Usunięcie jedynego modelu symulacji w obszarze roboczym Symulacja powoduje powrót do obszaru roboczego Projekt."/>
+	<label commandName="DeleteAllWMModel" devLabel="Delete Model?" translation="Usunąć model?"/>
+	<label commandName="DeleteAllWMWarningMessage" devLabel="Are you sure you want to delete this Model, and its associated studies and results? Deleting the only Model will return you to the Design Workspace." translation="Czy na pewno chcesz usunąć ten model i powiązane z nim badania oraz wyniki? Usunięcie jedynego modelu spowoduje powrót do obszaru roboczego projektu."/>
+	<label commandName="DeleteGenModel" devLabel="Delete Generative Model?" translation="Usunąć model generatywny?"/>
+	<label commandName="DeleteGenerativeModelWithSimCases" devLabel="Delete Generative Model" translation="Usuń model generatywny"/>
+	<label commandName="DeleteGenerativeWMWarningMessage" devLabel="Are you sure you want to delete this Generative Model, and its associated studies and results?" translation="Czy na pewno chcesz usunąć ten model generatywny i powiązane z nim badania oraz wyniki?"/>
+	<label commandName="DeleteSelectionGroupCmd" devLabel="Delete" translation="Usuń"/>
+	<label commandName="DeleteSimModel" devLabel="Delete Simulation Model?" translation="Usunąć model symulacji?"/>
+	<label commandName="DeleteSimulationModelWithSimCases" devLabel="Delete Simulation Model" translation="Usuń model symulacji"/>
+	<label commandName="DeleteSimulationWMWarningMessage" devLabel="Are you sure you want to delete this Simulation Model, and its associated studies and results?" translation="Czy na pewno chcesz usunąć ten model symulacji i powiązane z nim badania oraz wyniki?"/>
+	<label commandName="DeleteWMWarningMessage" devLabel="Are you sure you want to delete this Model, and its associated studies and results?" translation="Czy na pewno chcesz usunąć ten model i powiązane z nim badania oraz wyniki?"/>
+	<label commandName="EditModelCommand" devLabel="Edit Model" translation="Edytuj model"/>
+	<label commandName="EditModelFluidsCommand" devLabel="Edit Model" translation="Edytuj model"/>
+	<label commandName="EditModelSelectPanel" devLabel="Select" translation="Wybierz"/>
+	<label commandName="GenEditModelDesc1" devLabel="Edits a generative model." translation="Edytuje model generatywny."/>
+	<label commandName="GenEditModelDesc2" devLabel="It enables you to create bodies to represent preserve, obstacle, and starting shape geometries in a design problem. You don’t have to create them in the original design." translation="Umożliwia tworzenie brył reprezentujących geometrie zachowania, przeszkód i kształtów początkowych w przypadku problemów z projektem. Nie trzeba tworzyć ich w oryginalnym projekcie."/>
+	<label commandName="GenEditModelFluidsDesc1" devLabel="Edits a generative model." translation="Edytuje model generatywny."/>
+	<label commandName="GenEditModelFluidsDesc2" devLabel="It enables you to create bodies to represent preserve, obstacle, and starting shape geometries in a design problem. You don’t have to create them in the original design." translation="Umożliwia tworzenie brył reprezentujących geometrie zachowania, przeszkód i kształtów początkowych w przypadku problemów z projektem. Nie trzeba tworzyć ich w oryginalnym projekcie."/>
+	<label commandName="GenerativeModelName" devLabel="Generative Model" translation="Model generatywny"/>
+	<label commandName="InvalidAssetSelectedForDeletion" devLabel="No valid model selected for deletion." translation="Nie wybrano poprawnego modelu do usunięcia."/>
+	<label commandName="SimActivateConfigRowCommand" devLabel="Activate Config" translation="Aktywuj konfigurację"/>
+	<label commandName="SimActivateSimCaseForWorkingModel" devLabel="Activate" translation="Uaktywnij"/>
+	<label commandName="SimNOI" devLabel="Not implemented" translation="Nie zaimplementowano"/>
+	<label commandName="SimSelectPanel" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimSketchInspectPanel" devLabel="Inspect" translation="Sprawdź"/>
+	<label commandName="SimStudies" devLabel="Simulations" translation="Symulacje"/>
+	<label commandName="SimplifySelectPanel" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimulationModelName" devLabel="Simulation Model" translation="Model symulacji"/>
+	<label commandName="SwitchToSimplifyCommand" devLabel="Simplify" translation="Uprość"/>
+	<label commandName="SwitchToSimplifyModelText1" devLabel="Removes detailed features that are unnecessary for simulations without affecting your production geometry." translation="Usuwa szczegółowe elementy, które są zbędne w symulacjach, bez naruszania geometrii produkcyjnej."/>
+	<label commandName="SwitchToSimplifyModelText2" devLabel="Select Finish Simplify to exit out of the mode." translation="Wybierz opcję Zakończ upraszczanie, aby wyjść z trybu."/>
+	<label commandName="XRefOutOfDateParentIconMessage" devLabel="The Component is out of date. Update to the latest version using Get Latest in the Design workspace." translation="Komponent jest nieaktualny. Zaktualizuj go do najnowszej wersji, korzystając z polecenia Pobierz najnowszą wersję w obszarze roboczym Projektowanie."/>
+	<label commandName="lclzArc" devLabel="Arc" translation="Łuk"/>
+	<label commandName="lclzCONSTRAINTS" devLabel="CONSTRAINTS" translation="WIĄZANIA"/>
+	<label commandName="lclzCREATE" devLabel="CREATE" translation="UTWÓRZ"/>
+	<label commandName="lclzCircle" devLabel="Circle" translation="Okrąg"/>
+	<label commandName="lclzConstruction" devLabel="Construct" translation="Konstruuj"/>
+	<label commandName="lclzCreate" devLabel="CREATE" translation="UTWÓRZ"/>
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="DEBUGUJ"/>
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnostyka"/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Plik"/>
+	<label commandName="lclzFinishEditModelPanel" devLabel="Finish Edit Model" translation="Zakończ edycję modelu"/>
+	<label commandName="lclzFinishSimplifyPanel" devLabel="Finish Simplify" translation="Zakończ upraszczanie"/>
+	<label commandName="lclzGenSketchTab" devLabel="SKETCH" translation="SZKICUJ"/>
+	<label commandName="lclzGenSolidTab" devLabel="EDIT MODEL SOLID" translation="EDYTUJ BRYŁĘ MODELU"/>
+	<label commandName="lclzGenSurfaceTab" devLabel="EDIT MODEL SURFACE" translation="EDYTUJ POWIERZCHNIĘ MODELU"/>
+	<label commandName="lclzIdealizeTab" devLabel="IDEALIZE" translation="IDEALIZUJ"/>
+	<label commandName="lclzInsert" devLabel="Insert" translation="Płytki"/>
+	<label commandName="lclzMODIFY" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzModify" devLabel="Modify" translation="Zmień"/>
+	<label commandName="lclzMoreSolids" devLabel="More Solids" translation="Więcej brył"/>
+	<label commandName="lclzMoreSurfaces" devLabel="More Surfaces" translation="Więcej powierzchni"/>
+	<label commandName="lclzPattern" devLabel="Pattern" translation="Szyk"/>
+	<label commandName="lclzPolygon" devLabel="Polygon" translation="Wielobok"/>
+	<label commandName="lclzProjectInclude" devLabel="Project / Include" translation="Rzutuj/uwzględnij"/>
+	<label commandName="lclzRectangle" devLabel="Rectangle" translation="Prostokąt"/>
+	<label commandName="lclzReturn" devLabel="Return" translation="Powrót"/>
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Priorytet wyboru"/>
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Narzędzia wyboru"/>
+	<label commandName="lclzShells" devLabel="SHELLS" translation="SKORUPY"/>
+	<label commandName="lclzSimSolidTab" devLabel="SIMPLIFY SOLID" translation="UPROŚĆ BRYŁĘ"/>
+	<label commandName="lclzSimSurfaceTab" devLabel="SIMPLIFY SURFACE" translation="UPROŚĆ POWIERZCHNIĘ"/>
+	<label commandName="lclzSimToolsTab" devLabel="TOOLS" translation="NARZĘDZIA"/>
+	<label commandName="lclzSketchMeshMenu" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="lclzSketchTab" devLabel="SKETCH" translation="SZKICUJ"/>
+	<label commandName="lclzSlot" devLabel="Slot" translation="Rowek"/>
+	<label commandName="lclzSpline" devLabel="Spline" translation="Splajn"/>
+	<label commandName="lclzSplit" devLabel="Split" translation="Podział"/>
+	<label commandName="lclzStopSketchTT" devLabel="Finish Sketch" translation="Zakończ szkic"/>
+	<label commandName="lclzSurface" devLabel="Create" translation="Utwórz"/>
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="Prezentacja interfejsu użytkownika"/>
+</Resource>

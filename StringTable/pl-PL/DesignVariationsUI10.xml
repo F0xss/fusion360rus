@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActivateGenWorkingModel" devLabel="Activate Generative Model" translation="Aktywuj model generatywny"/>
+	<label commandName="ActivateGenerativeModel" devLabel="Activate Generative Model" translation="Aktywuj model generatywny"/>
+	<label commandName="ActivateModel" devLabel="Activate Model" translation="Aktywuj model"/>
+	<label commandName="ActivateSimulationModel" devLabel="Activate Simulation Model" translation="Aktywuj model symulacji"/>
+	<label commandName="ActivateWorkingModel" devLabel="Activate Simulation Model" translation="Aktywuj model symulacji"/>
+	<label commandName="ActivateWorkingModelText" devLabel="Activate Simulation Model" translation="Aktywuj model symulacji"/>
+	<label commandName="AppearanceInheritToolTip_1" devLabel="&#xA;&#xA;Inherits the Appearance from the&#xA;Physical Material assigned to this object.&#xA;&#xA;If the Physical Material changes, this&#xA;Appearance updates to match." translation="&#xA;&#xA;Dziedziczy wygląd&#xA;z materiału fizycznego przypisanego do tego obiektu.&#xA;&#xA;Jeśli materiał fizyczny ulegnie zmianie,&#xA;wygląd zostanie zaktualizowany."/>
+	<label commandName="AppearanceInheritToolTip_2" devLabel="&#xA;&#xA;Inherits the Appearance override from&#xA;the parent component that contains this&#xA;object.&#xA;&#xA;If the Appearance of the parent&#xA;component changes, this Appearance&#xA;updates to match." translation="&#xA;&#xA;Dziedziczy nadpisany wygląd&#xA;z komponentu macierzystego zawierającego&#xA;ten obiekt.&#xA;&#xA;Jeśli wygląd komponentu macierzystego&#xA;ulegnie zmianie, wygląd&#xA;zostanie zaktualizowany."/>
+	<label commandName="AppearanceRootToolTip" devLabel="&#xA;&#xA;Current default Appearance override for &#xA;" translation="&#xA;&#xA;Bieżące domyślne nadpisanie wyglądu dla &#xA;"/>
+	<label commandName="ConvertSurfaceBody2TSCommand" devLabel="Convert Surface Body to TSpline" translation="Konwertuj model powierzchniowy na T-splajn"/>
+	<label commandName="CopyActiveWorkingModelFailure1" devLabel="Suspended command!" translation="Polecenie wstrzymane!"/>
+	<label commandName="CopyActiveWorkingModelFailure2" devLabel="No Active asset session!" translation="Brak aktywnej sesji zasobu!"/>
+	<label commandName="CopyActiveWorkingModelFailure3" devLabel="No Active WM asset session!" translation="Brak aktywnej sesji zasobu MR!"/>
+	<label commandName="CopyActiveWorkingModelFailure4" devLabel="Copy of active WM failed" translation="Kopiowanie aktywnego MR nie powiodło się"/>
+	<label commandName="CopyWorkingModel" devLabel="Copy Working Model" translation="Kopiuj model roboczy"/>
+	<label commandName="CopyWorkingModelAndImport" devLabel="Copy Working Model, activate it and import gemetry" translation="Kopiuj model roboczy, aktywuj go i importuj geometrię"/>
+	<label commandName="CopyWorkingModelText" devLabel="Copy Simulation Model" translation="Kopiuj model symulacji"/>
+	<label commandName="DeleteWorkingModel" devLabel="Delete Working Model" translation="Usuń model roboczy"/>
+	<label commandName="DeleteWorkingModelText" devLabel="Delete Simulation Model" translation="Usuń model symulacji"/>
+	<label commandName="ExtractTSSurfaceBodyCommand" devLabel="Extract TSpline from Surface Body" translation="Wyodrębnij T-splajn z korpusu powierzchniowego"/>
+	<label commandName="FinishEditModelCommand" devLabel="Finish Edit Model" translation="Zakończ edycję modelu"/>
+	<label commandName="FinishEditModelCommandModelText" devLabel="Enables you to return to the Generative Design workspace." translation="Umożliwia powrót do obszaru roboczego Projektowanie generatywne."/>
+	<label commandName="FinishSimplifyCommand" devLabel="Finish Simplify" translation="Zakończ upraszczanie"/>
+	<label commandName="FinishSimplifyCommandModelText" devLabel="Click Finish Simplify to return to the Simulation workspace." translation="Kliknij przycisk Zakończ upraszczanie, aby powrócić do obszaru roboczego Symulacja."/>
+	<label commandName="FromParentMaterial" devLabel="From Parent" translation="Z macierzystego"/>
+	<label commandName="FromPhysicalMaterial" devLabel="From Physical Material" translation="Z materiału fizycznego"/>
+	<label commandName="FusionComponentInstanceFoldername" devLabel="Model Components" translation="Komponenty modelu"/>
+	<label commandName="FusionDeleteOverrideCommand" devLabel="Delete" translation="Usuń"/>
+	<label commandName="GenWorkingModelEnvironment" devLabel="Edit Model" translation="Edytuj model"/>
+	<label commandName="GenerativeModels" devLabel="Generative Models" translation="Modele generatywne"/>
+	<label commandName="InheritedMaterialSuffix" devLabel=" (Inherited)" translation=" (dziedziczony)"/>
+	<label commandName="InvalidAssetSelectedForDeletion" devLabel="No valid model selected for deletion." translation="Nie wybrano żadnego poprawnego modelu do usunięcia."/>
+	<label commandName="InvisibleObjectWarningMsg" devLabel="The object that you are creating is not visible. Please toggle visibility in the browser." translation="Tworzony obiekt nie jest widoczny. Przełącz widoczność w przeglądarce."/>
+	<label commandName="Models" devLabel="Models" translation="Modele"/>
+	<label commandName="PhysicalMaterialInheritToolTip_1" devLabel="&#xA;&#xA;Inherits the Physical Material from the&#xA;parent component that contains this&#xA;object." translation="&#xA;&#xA;Dziedziczy materiał fizyczny z komponentu&#xA;macierzystego zawierającego&#xA;ten obiekt."/>
+	<label commandName="PhysicalMaterialInheritToolTip_2" devLabel="&#xA;&#xA;If the Physical Material of the parent&#xA;component changes, this updates to&#xA;match." translation="&#xA;&#xA;Jeśli materiał fizyczny komponentu&#xA;macierzystego ulegnie zmianie, zostanie&#xA;on zaktualizowany."/>
+	<label commandName="PhysicalMaterialRootToolTip" devLabel="&#xA;&#xA;Current default Physical Material for &#xA;" translation="&#xA;&#xA;Bieżący domyślny materiał fizyczny dla &#xA;"/>
+	<label commandName="SimPromoteSolidIsProbablySurface" devLabel="A closed solid could not be produced from the Optimization Result. The generated surface body(ies) may need to be Patched and Stitched." translation="Nie można utworzyć zamkniętej bryły z wyniku optymalizacji. Konieczne może być zamknięcie i zszycie wygenerowanych korpusów powierzchniowych."/>
+	<label commandName="SimulationModels" devLabel="Simulation Models" translation="Modele symulacji"/>
+	<label commandName="SoftDeleteAllUnselected" devLabel="Remove All Except Selected" translation="Usuń wszystko z wyjątkiem wybranych"/>
+	<label commandName="SoftDeleteAllUnselectedText" devLabel="Remove All Except Selected" translation="Usuń wszystko z wyjątkiem wybranych"/>
+	<label commandName="SuppressGeometry" devLabel="Suppress" translation="Wyłącz"/>
+	<label commandName="UnSuppressGeometry" devLabel="UnSuppress" translation="Włącz"/>
+	<label commandName="WorkingModelEnvironment" devLabel="Simplify" translation="Uprość"/>
+	<label commandName="lclzFusionRepairBrowserCaption" devLabel="Repair Browser" translation="Napraw przeglądarkę"/>
+	<label commandName="lclzGenWorkingModelWorkspaceTitle" devLabel="Edits a generative model by creating bodies to represent preserve, obstacle, and starting shape geometries in a design problem." translation="Umożliwia edycję modelu generatywnego przez utworzenie brył reprezentujących geometrie do zachowania, przeszkód i kształtów początkowych w problemie projektowym."/>
+</Resource>

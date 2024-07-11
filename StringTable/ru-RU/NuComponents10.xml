@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ASMFilesFilter" devLabel="ASM Files (*.asm)" translation="ASM-Dateien (*.asm)"/>
+	<label commandName="AngleInput" devLabel="Angle" translation="Winkel"/>
+	<label commandName="AreaInput1" devLabel="Area" translation="Bereich"/>
+	<label commandName="AreaInput2" devLabel="Area" translation="Bereich"/>
+	<label commandName="AxesVisibilityToggleCmd" devLabel="Show/Hide Axes" translation="Achsen anzeigen/ausblenden"/>
+	<label commandName="BodiesBrowserLabel" devLabel="Bodies" translation="Körper"/>
+	<label commandName="BodyFilterInput" devLabel="Body" translation="Körper"/>
+	<label commandName="BoundedPointOnPathCommandInput" devLabel="LoftBoundedPOPInput" translation="LoftBoundedPOPInput"/>
+	<label commandName="BrowserConstructionLabel" devLabel="Construction" translation="Konstruktion"/>
+	<label commandName="BrowserSelectionGroupsLabel" devLabel="Selection Sets" translation="Auswahlsätze"/>
+	<label commandName="CancelTRBodyRestructuring" devLabel="Cancel" translation="Abbrechen"/>
+	<label commandName="CenterAxisToCenterAxisInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="CenterAxisToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Maximaler Abstand"/>
+	<label commandName="CenterAxisToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Minimaler Abstand"/>
+	<label commandName="CenterPositionInput1X" devLabel="Center Position X" translation="Mittelpunktposition X"/>
+	<label commandName="CenterPositionInput1Y" devLabel="Center Position Y" translation="Mittelpunktposition Y"/>
+	<label commandName="CenterPositionInput1Z" devLabel="Center Position Z" translation="Mittelpunktposition Z"/>
+	<label commandName="CenterPositionInput2X" devLabel="Center Position X" translation="Mittelpunktposition X"/>
+	<label commandName="CenterPositionInput2Y" devLabel="Center Position Y" translation="Mittelpunktposition Y"/>
+	<label commandName="CenterPositionInput2Z" devLabel="Center Position Z" translation="Mittelpunktposition Z"/>
+	<label commandName="CenterToCenterInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="CenterToCenterMinimumInput" devLabel="Minimum Distance" translation="Minimaler Abstand"/>
+	<label commandName="ChainSelectionId" devLabel="Chain" translation="Kette"/>
+	<label commandName="CheckLogForMoreInfo" devLabel="Please check the log file for more information or click to view it: " translation="Weitere Informationen finden Sie jederzeit in der Protokolldatei. Klicken Sie, um sie jetzt anzuzeigen: "/>
+	<label commandName="CommentMessage" devLabel="Message" translation="Meldung"/>
+	<label commandName="CommentObject" devLabel="Body" translation="Körper"/>
+	<label commandName="CommentObjectCommand" devLabel="CommentObject" translation="CommentObject"/>
+	<label commandName="CommentSelectBody" devLabel="Select an object" translation="Objekt auswählen"/>
+	<label commandName="CommentSelectPoint" devLabel="Select a point on an object" translation="Punkt auf einem Objekt auswählen"/>
+	<label commandName="CommmentsMissedObjectTitle" devLabel="Object does not exist in the current document" translation="Objekt befindet sich nicht im aktuellen Dokument"/>
+	<label commandName="CommmentsMissedSetupHeader" devLabel="The object associated with this comment has been removed since the comment was posted." translation="Das mit diesem Kommentar verknüpfte Objekt wurde entfernt, seit der Kommentar gepostet wurde."/>
+	<label commandName="CommmentsMissedSetupHeader2" devLabel="The setup associated with this comment has been removed since the comment was posted. Open version " translation="Die mit diesem Kommentar verknüpfte Einrichtung wurde entfernt, seit der Kommentar gepostet wurde. Version öffnen. "/>
+	<label commandName="CommmentsMissedSetupTail" devLabel=" to view the setup." translation=" um die Einrichtung anzuzeigen."/>
+	<label commandName="CommmentsMissedSetupTitle" devLabel="Setup does not exist in the current document" translation="Einrichtung im aktuellen Dokument nicht vorhanden"/>
+	<label commandName="CommmentsWarningAssetDoesNotExist" devLabel="Asset does not exist" translation="Objekt ist nicht vorhanden"/>
+	<label commandName="CommmentsWarningDocumentClosed" devLabel="Document is closed" translation="Dokument ist geschlossen"/>
+	<label commandName="ComponentFilterInput" devLabel="Component" translation="Komponente"/>
+	<label commandName="ContactSetsLabelAll" devLabel="Contact: all" translation="Kontakt: alle"/>
+	<label commandName="ContactSetsLabelNone" devLabel="Contact: off" translation="Kontakt: deaktiviert"/>
+	<label commandName="ContactSetsLabelSets" devLabel="Contact: sets" translation="Kontakt: Sätze"/>
+	<label commandName="ContinueTRBodyRestructuring" devLabel="Continue" translation="Weiter"/>
+	<label commandName="CopyCommand" devLabel="Copy" translation="Kopieren"/>
+	<label commandName="CreateSelectionGroupCmd" devLabel="Create Selection Set" translation="Auswahlsatz erstellen"/>
+	<label commandName="CycleComponentColorCmd" devLabel="Cycle Component Color" translation="Zykluskomponentenfarbe"/>
+	<label commandName="DataBrowserCommand" devLabel="Launch Data Browser" translation="Datenbrowser starten"/>
+	<label commandName="DeltaInputX" devLabel="X Delta" translation="X-Delta"/>
+	<label commandName="DeltaInputY" devLabel="Y Delta" translation="Y-Delta"/>
+	<label commandName="DeltaInputZ" devLabel="Z Delta" translation="Z-Delta"/>
+	<label commandName="DeltaTypeComponent1" devLabel="Component1" translation="Komponente1"/>
+	<label commandName="DeltaTypeComponent1Desc" devLabel="Component 1 Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the Component 1 Coordinate System." translation="Koordinatensystem von Komponente 1:&#xA;Zeigt die XYZ-Messungen an, die am&#xA;Koordinatensystem von Komponente 1 ausgerichtet sind."/>
+	<label commandName="DeltaTypeComponent2" devLabel="Component2" translation="Komponente2"/>
+	<label commandName="DeltaTypeComponent2Desc" devLabel="Component 2 Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the Component 2 Coordinate System." translation="Koordinatensystem von Komponente 2&#xA;Zeigt die XYZ-Messungen an, die am&#xA;Koordinatensystem von Komponente 2 ausgerichtet sind."/>
+	<label commandName="DeltaTypeGloabal" devLabel="Global" translation="Global"/>
+	<label commandName="DeltaTypeGlobalDesc" devLabel="Global Coordinate System&#xA;Displays the XYZ measurements aligned to&#xA;the root component." translation="Globales Koordinatensystem&#xA;Zeigt die XYZ-Messungen an, die an der&#xA;Ausgangskomponente ausgerichtet sind."/>
+	<label commandName="DeltaTypeOff" devLabel="DeltaOff" translation="Delta aus"/>
+	<label commandName="DeltaTypeOffDesc" devLabel="None&#xA;Hide XYZ measurements" translation="Keine&#xA;XYZ-Messungen ausblenden"/>
+	<label commandName="DiameterInput1" devLabel="Diameter" translation="Durchmesser"/>
+	<label commandName="DiameterInput2" devLabel="Diameter" translation="Durchmesser"/>
+	<label commandName="DirectOODXRefMessage" devLabel="The component has out of date references. &#xA;To update, use Get Latest in the Design workspace." translation="Die Komponente weist veraltete Referenzen auf. &#xA;Verwenden Sie zum Aktualisieren den Befehl Letzte abrufen im Arbeitsbereich Konstruktion."/>
+	<label commandName="DisableAllContactCmdTooltip" devLabel="No contact" translation="Kein Kontakt"/>
+	<label commandName="DistanceInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="DoNotAllowInstallIDEDuringUpdate" devLabel="Fusion is unable to install %1% because a software update is currently in progress.&lt;br&gt;&lt;br&gt;Please try again after the update completes." translation="Fusion kann %1% nicht installieren, da derzeit ein Software-Update ausgeführt wird.&lt;br&gt;&lt;br&gt;Versuchen Sie es erneut, nachdem das Update abgeschlossen ist."/>
+	<label commandName="DoNotAllowInstallIDEWithUnknownError" devLabel="Fusion is unable to install %1% due to unknown error.&lt;br&gt;&lt;br&gt;Please restart application and try again." translation="Fusion kann %1% aufgrund eines unbekannten Fehlers nicht installieren.&lt;br&gt;&lt;br&gt;Starten Sie die Anwendung neu, und versuchen Sie es erneut."/>
+	<label commandName="DoNotAllowInstallIDEWithoutInternet" devLabel="Fusion is unable to install %1% due to network issues.&lt;br&gt;&lt;br&gt;Please try again after you are on a stable network connection." translation="Fusion kann %1% aufgrund von Netzwerkproblemen nicht installieren.&lt;br&gt;&lt;br&gt;Versuchen Sie es erneut, wenn Sie eine stabile Netzwerkverbindung hergestellt haben."/>
+	<label commandName="DoNotAllowInstallIDEWithoutUpdateCheck" devLabel="Fusion is unable to install %1% because a software update may be pending.&lt;br&gt;&lt;br&gt;Please try again after the update check is done." translation="Fusion kann %1% nicht installieren, da möglicherweise ein Software-Update notwendig ist.&lt;br&gt;&lt;br&gt;Versuchen Sie es erneut, nachdem die Prüfung auf Updates abgeschlossen ist."/>
+	<label commandName="DumpEntityCommand" devLabel="Dump Entity Info" translation="Dump-Elementinfo"/>
+	<label commandName="DumpEntityCommandDesc" devLabel="Dump detailed info of selected object" translation="Detaillierte Dump-Informationen des ausgewählten Objekts"/>
+	<label commandName="DynamicControlID" devLabel="DynamicControlID" translation="ID für dynamische Steuerung"/>
+	<label commandName="EditJointDOFLimitsCmdTooltip" devLabel="Edit Motion Limits&lt;br&gt;&lt;br&gt;Lets you enable, disable, and edit the motion limits associated with this joint." translation="Bewegungseinschränkungen bearbeiten&lt;br&gt;&lt;br&gt;Mit dieser Option können Sie die Bewegungseinschränkungen für dieses Gelenk aktivieren, deaktivieren und bearbeiten."/>
+	<label commandName="EnableAllContactCmdTooltip" devLabel="All bodies contact" translation="Alle Körper haben Kontakt"/>
+	<label commandName="EnableContactSetsCmdTooltip" devLabel="Contact within sets" translation="Kontakt innerhalb von Gruppen"/>
+	<label commandName="EntityFinderButton" devLabel="Search" translation="Suchen"/>
+	<label commandName="EntityFinderNothingToZoom" devLabel="Nothing to zoom." translation="Nichts zum Zoomen vorhanden."/>
+	<label commandName="ExtentsPrompt" devLabel="Terminates at selected object" translation="Abschluss am ausgewählten Objekt"/>
+	<label commandName="ExtrudeExtentAll" devLabel="(All)" translation="(Alle)"/>
+	<label commandName="ExtrudeExtentTo" devLabel="(To)" translation="(Bis)"/>
+	<label commandName="ExtrudeExtentToNext" devLabel="(To Next)" translation="(Weiter)"/>
+	<label commandName="FaceEdgeVertexFilterInput" devLabel="Face/Edge/Vertex" translation="Fläche/Kante/Scheitelpunkt"/>
+	<label commandName="IndirectOODXRefMessage" devLabel="The component has out of date references. &#xA;Open the component and update the references using Get Latest in the Design workspace." translation="Die Komponente weist veraltete Referenzen auf. &#xA;Öffnen Sie die Komponente, und aktualisieren Sie die Referenzen mit dem Befehl Letzte abrufen im Arbeitsbereich Konstruktion."/>
+	<label commandName="InferenceAddRef" devLabel="Add Reference" translation="Referenz hinzufügen"/>
+	<label commandName="InferenceConcentricTo" devLabel="Concentric To" translation="Konzentrisch zu"/>
+	<label commandName="InferenceMatchDiameter" devLabel="Match Diameter" translation="Durchmesser anpassen"/>
+	<label commandName="InferenceMatchRadius" devLabel="Match Radius" translation="Radius anpassen"/>
+	<label commandName="InferenceSnapTo" devLabel="Snap To" translation="Objektfang"/>
+	<label commandName="InferenceSnapToPt" devLabel="Snap to Point" translation="Punkt fangen"/>
+	<label commandName="InstallBracketsErrorInfo" devLabel="Please try again after you are on a stable network connection." translation="Versuchen Sie es erneut, wenn Sie eine stabile Netzwerkverbindung hergestellt haben."/>
+	<label commandName="InstallBracketsErrorTitle" devLabel="Unable to install Brackets" translation="Brackets kann nicht installiert werden"/>
+	<label commandName="InstallErrorTitleStr" devLabel="Unable to install %1%" translation="%1% kann nicht installiert werden"/>
+	<label commandName="JointDOFFlip" devLabel="Flip" translation="Umkehren"/>
+	<label commandName="JointOriginsBrowserLabel" devLabel="Joint Origins" translation="Gelenkursprünge"/>
+	<label commandName="JointsBrowserLabel" devLabel="Joints" translation="Gelenke"/>
+	<label commandName="LengthInput1" devLabel="Length" translation="Länge"/>
+	<label commandName="LengthInput2" devLabel="Length" translation="Länge"/>
+	<label commandName="LockJOOrientationMac1" devLabel="Select a snap point to place the joint origin. (hold CMD key to lock snaps)" translation="Wählen Sie einen Fangpunkt aus, um den Gelenkursprung zu platzieren. (Zum Sperren von Objektfängen CMD-Taste gedrückt halten)"/>
+	<label commandName="LockJOOrientationWin1" devLabel="Select a snap point to place the joint origin. (hold CTRL key to lock snaps)" translation="Wählen Sie einen Fangpunkt aus, um den Gelenkursprung zu platzieren. (Zum Sperren von Objektfängen STRG-Taste gedrückt halten)"/>
+	<label commandName="LockJointDOFCmdTooltip" devLabel="Lock Motion &lt;br&gt;&lt;br&gt;Locks this degree of motion and prevents it from moving until you unlock it." translation="Bewegung sperren &lt;br&gt;&lt;br&gt;Sperrt diesen Bewegungsgrad und verhindert eine Bewegung, bis Sie die Sperre aufheben."/>
+	<label commandName="LoftProfilePOPCommandInput" devLabel="LoftProfilePOPInput" translation="POP-Eingabe für Erhebungsprofil"/>
+	<label commandName="LoopLengthInput1" devLabel="Loop Length" translation="Konturlänge"/>
+	<label commandName="LoopLengthInput2" devLabel="Loop Length" translation="Konturlänge"/>
+	<label commandName="MaterialCommand" devLabel="Manage Materials" translation="Materialien verwalten"/>
+	<label commandName="Maximum" devLabel="Maximum" translation="Max."/>
+	<label commandName="MeasureCommand" devLabel="Measure" translation="Messen"/>
+	<label commandName="MeasureCommandDesc1" devLabel="Measure distance, angle, area, or position/delta." translation="Messen Sie den Abstand, Winkel, Fläche oder Position/Delta."/>
+	<label commandName="MeasureCommandDesc2" devLabel="Select a vertex, edge, face, body, or component." translation="Wählen Sie einen Scheitelpunkt, eine Kante, eine Fläche, einen Körpers oder eine Komponente aus."/>
+	<label commandName="MeasureCommandPrecisionCursorPrompt" devLabel="Overrides the General precision setting in Preferences." translation="Überschreibt die allgemeine Genauigkeitseinstellung in den Voreinstellungen."/>
+	<label commandName="MeasureCommandSecondaryUnitCursorPrompt" devLabel="Displays the measurement with secondary&#xA;units in parentheses." translation="Zeigt die Messung mit Sekundäreinheiten&#xA;in Klammern an."/>
+	<label commandName="MeasureCommandSelectCursorPromptMac" devLabel="Select objects to measure." translation="Wählen Sie zu messende Objekte aus."/>
+	<label commandName="MeasureCommandSelectCursorPromptSnapPointMac" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Wählen Sie zu messende Objekte aus. Halten Sie die UMSCHALTTASTE gedrückt, um Fangpunkte zu entfernen. Halten Sie die STRG-Taste gedrückt, um Fangpunkte zu sperren."/>
+	<label commandName="MeasureCommandSelectCursorPromptSnapPointWin" devLabel="Select objects to measure. Hold Shift to remove snap points. Hold Ctrl to lock snap points." translation="Wählen Sie zu messende Objekte aus. Halten Sie die UMSCHALTTASTE gedrückt, um Fangpunkte zu entfernen. Halten Sie die STRG-Taste gedrückt, um Fangpunkte zu sperren."/>
+	<label commandName="MeasureCommandSelectCursorPromptWin" devLabel="Select objects to measure." translation="Wählen Sie zu messende Objekte aus."/>
+	<label commandName="MeasureSecondaryUnitsCM" devLabel="cm" translation="cm"/>
+	<label commandName="MeasureSecondaryUnitsFt" devLabel="ft" translation="ft"/>
+	<label commandName="MeasureSecondaryUnitsIn" devLabel="in" translation="in"/>
+	<label commandName="MeasureSecondaryUnitsM" devLabel="m" translation="m"/>
+	<label commandName="MeasureSecondaryUnitsMM" devLabel="mm" translation="mm"/>
+	<label commandName="MeasureSecondaryUnitsNone" devLabel="None" translation="Keine"/>
+	<label commandName="MeasureTypeAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="MeasureTypeAngleDesc" devLabel="Measure Angle" translation="Winkel messen"/>
+	<label commandName="MeasureTypeArea" devLabel="Area" translation="Bereich"/>
+	<label commandName="MeasureTypeAreaDesc" devLabel="Measure Area" translation="Fläche messen"/>
+	<label commandName="MeasureTypeDistance" devLabel="Distance" translation="Abstand"/>
+	<label commandName="MeasureTypeDistanceDesc" devLabel="Measure Distance" translation="Abstand messen"/>
+	<label commandName="MeasureTypePositionDelta" devLabel="Position/Delta" translation="Position/Delta"/>
+	<label commandName="MeasureTypePositionDesc" devLabel="Measure Position/Delta" translation="Position/Delta messen"/>
+	<label commandName="Minimum" devLabel="Minimum" translation="Min."/>
+	<label commandName="MissingChildXRef" devLabel="Nested unresolved components &#xA;Expand to resolve components nested in this assembly." translation="Verschachtelte nicht aufgelöste Komponenten &#xA;Erweitern Sie diese Option, um in dieser Baugruppe verschachtelte Komponenten aufzulösen."/>
+	<label commandName="MotionStudiesBrowserLabel" devLabel="Motion Studies" translation="Bewegungsstudien"/>
+	<label commandName="NamedViews" devLabel="Named Views" translation="Benannte Ansichten"/>
+	<label commandName="OODCompMessage" devLabel="The Component is out of date. &#xA;To update, use Get Latest in the Design workspace." translation="Die Komponente ist veraltet. &#xA;Verwenden Sie zum Aktualisieren den Befehl Letzte abrufen im Arbeitsbereich Konstruktion."/>
+	<label commandName="ObsoleteConfigMessage" devLabel="Configuration Deleted &#xA;Expand to see one or more Configured Components whose Configurations have been deleted from their Configured Design." translation="Konfiguration gelöscht &#xA;Erweitern Sie die Option, um eine oder mehrere konfigurierte Komponenten anzuzeigen, deren Konfigurationen aus der konfigurierten Konstruktion gelöscht wurden."/>
+	<label commandName="ObsoleteConfigurationTooltip" devLabel="Configuration Deleted&#xA;This Configuration has been deleted from the Configured Design.&#xA;If you switch or delete this Configured Component, you cannot reference this one again later." translation="Konfiguration gelöscht&#xA;Diese Konfiguration wurde aus der konfigurierten Konstruktion gelöscht.&#xA;Wenn Sie diese konfigurierte Komponente wechseln oder löschen, können Sie später nicht erneut auf diese verweisen."/>
+	<label commandName="POPAlongPathDirection" devLabel="Path Direction" translation="Pfadrichtung"/>
+	<label commandName="POPDirectionType" devLabel="Direction" translation="Richtung"/>
+	<label commandName="POPIdentical" devLabel="Identical" translation="Identisch"/>
+	<label commandName="POPOneDirection" devLabel="One Direction" translation="Eine Richtung"/>
+	<label commandName="POPOrientationType" devLabel="Orientation" translation="Ausrichtung"/>
+	<label commandName="POPSymmetric" devLabel="Symmetric" translation="Symmetrisch"/>
+	<label commandName="PasteCommand" devLabel="Paste" translation="Einfügen"/>
+	<label commandName="PathPatternDistanceExtentDesc" devLabel="Specify the distance value for the full extent of the pattern along the path." translation="Geben Sie den Abstandswert für die vollständigen Ausmaße der Anordnung entlang des Pfads an."/>
+	<label commandName="PathPatternDistanceSpacingDesc" devLabel="Specify the distance value between each pattern instance along the path." translation="Geben Sie den Abstandswert zwischen den einzelnen Anordnungsinstanzen entlang des Pfads an."/>
+	<label commandName="PatterOnPathCounterInput" devLabel="Quantity" translation="Menge"/>
+	<label commandName="PatterOnPathCounterInputDesc" devLabel="Specify the number of pattern instances to create along the path." translation="Geben Sie die Anzahl der Anordnungsexemplare an, die entlang des Pfads erstellt werden sollen."/>
+	<label commandName="PatterOnPathDistanceInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="PatterOnPathStartPointDesc" devLabel="Specify the percentage value to offset the first pattern instance from the start point. Drag the start point along the path to reposition it." translation="Geben Sie den Prozentwert für den Versatz der ersten Anordnungsinstanz vom Startpunkt an. Ziehen Sie den Startpunkt entlang des Pfads, um ihn neu zu positionieren."/>
+	<label commandName="PatterOnPathStartPointInput" devLabel="Start Point" translation="Startpunkt"/>
+	<label commandName="PhysicalMaterialEditOnlyCommand" devLabel="Manage Physical Materials" translation="Materialien verwalten"/>
+	<label commandName="PlaneToCenterAxisInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="PlaneToCenterAxisMaximumInput" devLabel="Maximum Distance" translation="Maximaler Abstand"/>
+	<label commandName="PlaneToCenterAxisMinimumInput" devLabel="Minimum Distance" translation="Minimaler Abstand"/>
+	<label commandName="PlanesVisibilityToggleCmd" devLabel="Show/Hide Planes" translation="Ebenen ein-/ausblenden"/>
+	<label commandName="PointsVisibilityToggleCmd" devLabel="Show/Hide Points" translation="Punkt anzeigen/ausblenden"/>
+	<label commandName="PositionInput1X" devLabel="X Position" translation="X-Position"/>
+	<label commandName="PositionInput1Y" devLabel="Y Position" translation="Y-Position"/>
+	<label commandName="PositionInput1Z" devLabel="Z Position" translation="Z-Position"/>
+	<label commandName="PositionInput2X" devLabel="X Position" translation="X-Position"/>
+	<label commandName="PositionInput2Y" devLabel="Y Position" translation="Y-Position"/>
+	<label commandName="PositionInput2Z" devLabel="Z Position" translation="Z-Position"/>
+	<label commandName="PositionProperty2" devLabel="Body" translation="Körper"/>
+	<label commandName="PositionProperty3" devLabel="Output:" translation="Ausgabe:"/>
+	<label commandName="Precision0" devLabel="0" translation="0"/>
+	<label commandName="Precision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="Precision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="Precision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="Precision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="Precision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="Precision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="Precision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="Precision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="PrecisionAll" devLabel="All Decimals" translation="Alle Dezimalstellen"/>
+	<label commandName="PrecisionInput" devLabel="Precision" translation="Präzision"/>
+	<label commandName="PreviewAngle" devLabel="angle" translation="Winkel"/>
+	<label commandName="PreviewCenterCenterAxisToCenterAxis" devLabel="center axis to center axis" translation="Mittelachse zu Mittelachse"/>
+	<label commandName="PreviewCenterToCenter" devLabel="center to center" translation="Mitte zu Mitte"/>
+	<label commandName="PreviewDiameter" devLabel="diameter" translation="Durchmesser"/>
+	<label commandName="PreviewDistance" devLabel="distance" translation="Abstand"/>
+	<label commandName="PreviewLength" devLabel="length" translation="Länge"/>
+	<label commandName="PreviewPlaneToCenterAxis" devLabel="plane to center axis" translation="Ebene zu Mittelachse"/>
+	<label commandName="PreviewRadius" devLabel="radius" translation="Radius"/>
+	<label commandName="PythonInteractiveCommand" devLabel="Interactive command to run Python Script..." translation="Interaktiver Befehl zum Ausführen des Python-Skripts..."/>
+	<label commandName="PythonSequentialCommand" devLabel="Sequential command to run Python Script..." translation="Sequenzieller Befehl zum Ausführen des Python-Skripts..."/>
+	<label commandName="RadiusInput1" devLabel="Radius" translation="Radius"/>
+	<label commandName="RadiusInput2" devLabel="Radius" translation="Radius"/>
+	<label commandName="ReanchoringHints" devLabel="Select perpendicular face for re-anchoring" translation="Lotrechte Fläche für Neuverankerung auswählen"/>
+	<label commandName="ReanchoringObjectsHints" devLabel="Select new pivot location" translation="Neue Drehpunktposition auswählen"/>
+	<label commandName="RegexString" devLabel="Enter regular expression for selective journaling." translation="Geben Sie einen regulären Ausdruck für die selektive Aufzeichnung ein."/>
+	<label commandName="RelationshipsBrowserLabel" devLabel="Relationships" translation="Beziehungen"/>
+	<label commandName="ReloadAndOODxRefsMessage" devLabel="New version of this design is available and it has out of date external references. &#xA;To update, use Get Latest in the Design workspace." translation="Neue Version dieser Konstruktion ist verfügbar und weist veraltete externe Referenzen auf. &#xA;Verwenden Sie zum Aktualisieren den Befehl Letzte abrufen im Arbeitsbereich Konstruktion."/>
+	<label commandName="ReloadMessage" devLabel="New version of this design is available. &#xA;To update, use Get Latest in the Design workspace." translation="Neue Version dieser Konstruktion ist verfügbar. &#xA;Verwenden Sie zum Aktualisieren den Befehl Letzte abrufen im Arbeitsbereich Konstruktion."/>
+	<label commandName="RemoveOverrideCommand" devLabel="Remove Appearance Override" translation="Darstellungsüberschreibung entfernen"/>
+	<label commandName="RemoveVisibilityOverrideCommand" devLabel="Remove Visibility Overrides" translation="Sichtbarkeitsüberschreibungen entfernen"/>
+	<label commandName="Reorient" devLabel="Set Pivot" translation="Drehpunkt festlegen"/>
+	<label commandName="Rest" devLabel="Rest" translation="Absatz"/>
+	<label commandName="RestartAppStr" devLabel="Restart Application" translation="Anwendung neu starten"/>
+	<label commandName="RestartLinkStr" devLabel="Click to save your work and restart now." translation="Klicken Sie, um Ihre Arbeit zu speichern und jetzt neu zu starten."/>
+	<label commandName="RestartMsgStr" devLabel="The %1% has been installed." translation="%1% wurde installiert."/>
+	<label commandName="RestartSelectionInput" devLabel="Clear Selection" translation="Auswahl löschen"/>
+	<label commandName="ResultsDeltaGroupInput" devLabel="XYZ Delta" translation="XYZ Delta"/>
+	<label commandName="ResultsGroupInput" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="ReturningChildXRef" devLabel="Nested unresolved components &#xA;Expand to view the status of unresolved components nested in this assembly." translation="Verschachtelte nicht aufgelöste Komponenten &#xA;Erweitern Sie diese Option, um den Status der nicht aufgelösten Komponenten anzuzeigen, die in dieser Baugruppe verschachtelt sind."/>
+	<label commandName="Reverse" devLabel="Reverse" translation="Umdrehen"/>
+	<label commandName="RevolveExtentFull" devLabel="(Full)" translation="(Vollständig)"/>
+	<label commandName="RevolveExtentTo" devLabel="(To)" translation="(Bis)"/>
+	<label commandName="SanityCheckCommand" devLabel="Sanity check bodies" translation="Zustand von Körpern prüfen"/>
+	<label commandName="SaveAsASMCommand" devLabel="Save As ASM" translation="Als ASM speichern"/>
+	<label commandName="SaveAsSATCommand" devLabel="Save As SAT" translation="Als SAT speichern"/>
+	<label commandName="SecondaryUnitsInput" devLabel="Secondary Units" translation="Sekundäreinheiten"/>
+	<label commandName="SelectSelectionGroupCmd" devLabel="Select" translation="Auswählen"/>
+	<label commandName="SelectSelectionGroupCmdTooltip" devLabel="Select" translation="Auswählen"/>
+	<label commandName="SelectabilityToggleCmd" devLabel="Selectable/Unselectable" translation="Auswählbare/Nicht auswählbare"/>
+	<label commandName="Selection1ResultsGroupInput" devLabel="Selection 1" translation="Auswahl 1"/>
+	<label commandName="Selection2ResultsGroupInput" devLabel="Selection 2" translation="Auswahl 2"/>
+	<label commandName="SelectionFilterBodyDesc" devLabel="Filters selection to bodies." translation="Filtert die Auswahl nach Körpern."/>
+	<label commandName="SelectionFilterComponentDesc" devLabel="Filters selection to components." translation="Filtert die Auswahl nach Komponenten."/>
+	<label commandName="SelectionFilterFaceEdgeVertexDesc" devLabel="Filters selections to faces, edges or vertices." translation="Filtert Auswahlen nach Flächen, Kanten oder Scheitelpunkten."/>
+	<label commandName="SelectionIndicator1" devLabel="Selection Indicator" translation="Auswahlindikator"/>
+	<label commandName="SelectionIndicator2" devLabel="Selection Indicator" translation="Auswahlindikator"/>
+	<label commandName="SelectionInput1" devLabel="Select 1" translation="1 auswählen"/>
+	<label commandName="SelectionInput2" devLabel="Select 2" translation="2 auswählen"/>
+	<label commandName="SelectionInput3" devLabel="Select 3" translation="3 auswählen"/>
+	<label commandName="SelectionTypesInput" devLabel="Selection Filter" translation="Auswahlfilter"/>
+	<label commandName="SeparatorInput" devLabel="Separator" translation="Trennzeichen"/>
+	<label commandName="ShowAffectedFacesCommand" devLabel="Show Affected Faces" translation="Betroffene Flächen anzeigen"/>
+	<label commandName="ShowAllBodiesCmd" devLabel="Show All Bodies" translation="Alle Körper anzeigen"/>
+	<label commandName="ShowAllComponentsCmd" devLabel="Show All Components" translation="Alle Komponenten anzeigen"/>
+	<label commandName="ShowAllComponentsCmdDesc1" devLabel="Turns on the visibility of selected components, including child components." translation="Aktiviert die Sichtbarkeit der ausgewählten Komponenten, einschließlich untergeordneter Komponenten."/>
+	<label commandName="ShowAllGroupMembersCmd" devLabel="Show All" translation="Alle anzeigen"/>
+	<label commandName="ShowSnapPoints" devLabel="Show Snap Points" translation="Fangpunkte anzeigen"/>
+	<label commandName="SketchesBrowserLabel" devLabel="Sketches" translation="Skizzen"/>
+	<label commandName="SnapPointSelectedCmdInput" devLabel="SnapPointSelectedCmdInput" translation="SnapPointSelectedCmdInput"/>
+	<label commandName="Stop Reorient" devLabel="Done" translation="Fertig"/>
+	<label commandName="SuppressAppearanceCmd" devLabel="Suppress Appearance Overrides" translation="Darstellungsüberschreibungen unterdrücken"/>
+	<label commandName="SuppressContactSetCmdTooltip" devLabel="Suppress contact set" translation="Kontaktsatz unterdrücken"/>
+	<label commandName="SurfTrimBlankAreaHint" devLabel="Select surfaces to remove" translation="Zu entfernende Flächen auswählen"/>
+	<label commandName="SurfTrimCutToolSelectHint" devLabel="Select a trimming tool" translation="Stutzwerkzeug auswählen"/>
+	<label commandName="TRBodyRestructureWarning" devLabel="If you move the following bodies, some assembly relationships will break: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Continue moving the bodies anyway? " translation="Wenn Sie die folgenden Körper verschieben, werden einige Baugruppenbeziehungen unterbrochen: &lt;table&gt;%1%&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; Verschieben der Körper trotzdem fortsetzen? "/>
+	<label commandName="TogggleSelectiveJournaling" devLabel="Toggle selective journaling." translation="Schalten Sie die selektive Aufzeichnung um."/>
+	<label commandName="Toggle Occuence" devLabel="Toggle to suppress/unsuppress the occurrence" translation="Zwischen Unterdrücken bzw. Aufheben der Unterdrückung des Exemplars umschalten"/>
+	<label commandName="UnlockJointDOFCmdTooltip" devLabel="Unlock Motion &lt;br&gt;&lt;br&gt;Unlock this degree of motion to move it." translation="Bewegung entsperren &lt;br&gt;&lt;br&gt;Entsperren Sie diesen Bewegungsgrad, um eine Bewegung durchzuführen."/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Nicht gespeichert)"/>
+	<label commandName="UnsuppressContactSetCmdTooltip" devLabel="Unsuppress contact set" translation="Unterdrückung des Kontaktsatzes aufheben"/>
+	<label commandName="UpdateSelectionGroupCmd" devLabel="Update Selection Set" translation="Auswahlsatz aktualisieren"/>
+	<label commandName="UpdateSelectionGroupCmdTooltip" devLabel="Update" translation="Aktualisierung"/>
+	<label commandName="UpdateSelectionGroupWarning" devLabel="Warning: Nothing selected. Select entities first to update this Selection Set" translation="Warnung: Es wurde nichts ausgewählt. Wählen Sie zuerst Objekte aus, um diesen Auswahlsatz zu aktualisieren."/>
+	<label commandName="VSCodeDownloadMsg" devLabel="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;" translation="&lt;body style=&quot;font-family:Helvetica,Arial,sans-serif;font-size:13px;&quot;&gt;&lt;p&gt;%1%&lt;/p&gt;&lt;/body&gt;"/>
+	<label commandName="VSCodeDownloadMsgBoxCancelButton" devLabel="Cancel" translation="Abbrechen"/>
+	<label commandName="VSCodeDownloadMsgBoxTitle" devLabel="Download Visual Studio Code" translation="Visual Studio Code herunterladen"/>
+	<label commandName="VSCodeDownloadMsgBoxWebsiteButton" devLabel="Open VS Code website" translation="VS Code-Webseite öffnen"/>
+	<label commandName="ViewCommentCmd" devLabel="ViewComment" translation="ViewComment"/>
+	<label commandName="WarnTRBodyRestructuringTitle" devLabel="Assembly relationship will break" translation="Baugruppenbeziehung wird unterbrochen"/>
+	<label commandName="XRefMissingTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Nicht aufgelöste Komponente.&lt;br&gt;%1%"/>
+	<label commandName="XRefUnresolvedTooltip" devLabel="Unresolved component.&lt;br&gt;%1%" translation="Nicht aufgelöste Komponente.&lt;br&gt;%1%"/>
+	<label commandName="flipTooltip" devLabel="Flips the minimum and maximum motion limits." translation="Kehrt die minimalen und maximalen Bewegungseinschränkungen um."/>
+	<label commandName="infoPOPAlongPathDirectionDesc" devLabel="Orients each pattern instance relative to its position along the path." translation="Richtet jedes Anordnungsexemplar relativ zu seiner Position entlang des Pfads aus."/>
+	<label commandName="infoPOPIdenticalDesc" devLabel="Orients all pattern instances to match the source object." translation="Richtet alle Anordnungsexemplare so aus, dass sie dem Quellobjekt entsprechen."/>
+	<label commandName="infoPOPOneDirectionDesc" devLabel="Distributes pattern instances in one direction from the source object along the path." translation="Verteilt Anordnungsexemplare vom Quellobjekt entlang des Pfads in eine Richtung."/>
+	<label commandName="infoPOPSymmetricDesc" devLabel="Distributes pattern instances symmetrically in two directions from the source object along the path." translation="Verteilt Anordnungsexemplare symmetrisch vom Quellobjekt entlang des Pfads in zwei Richtungen."/>
+	<label commandName="lclzCopyCommandText" devLabel="CopyCommand" translation="Befehl Kopieren"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Vorgang wurde manuell vom Benutzer abgebrochen"/>
+	<label commandName="lclzPasteCommandText" devLabel="PasteCommand" translation="Befehl Einfügen"/>
+	<label commandName="lclzVisibilityToggleCmdText" devLabel="Show/Hide" translation="Ein-/ausblenden"/>
+	<label commandName="maxTooltip" devLabel="Specify the maximum motion limit for the joint." translation="Geben Sie die maximale Bewegungseinschränkung für das Gelenk an."/>
+	<label commandName="minTooltip" devLabel="Specify the minimum  motion limit for the joint." translation="Geben Sie die minimale Bewegungseinschränkung für das Gelenk an."/>
+	<label commandName="restTooltip" devLabel="Specify the default position of the joint at rest." translation="Legen Sie die Vorgabeposition des ruhenden Gelenks fest."/>
+	<label commandName="selected" devLabel="selected" translation="ausgewählt"/>
+</Resource>

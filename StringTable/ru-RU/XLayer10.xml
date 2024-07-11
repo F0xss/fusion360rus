@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="APIDefaultCancelSaveReason" devLabel="Cancelled from API" translation="Von API abgebrochen"/>
+	<label commandName="CopyManifestError" devLabel="Unable to copy the manifest!" translation="Manifest konnte nicht kopiert werden."/>
+	<label commandName="CopyScriptError" devLabel="Script with same name already exists!" translation="Skript mit demselben Namen ist bereits vorhanden."/>
+	<label commandName="DefaultManifestFormatError" devLabel="Default manifest is not JSON format!" translation="Das Vorgabemanifest ist nicht im JSON-Format."/>
+	<label commandName="DefaultManifestNotFound" devLabel="Unable to find default manifest!" translation="Vorgabemanifest wurde nicht gefunden."/>
+	<label commandName="DefaultManifestReadError" devLabel="Unable to read default manifest!" translation="Vorgabemanifest konnte nicht gelesen werden."/>
+	<label commandName="EditScriptFileGeneralError" devLabel="Failed to open " translation="Fehler beim Öffnen "/>
+	<label commandName="EditScriptFileNoAssocError" devLabel="No application knows how to open" translation="Kann mit keiner Anwendung geöffnet werden"/>
+	<label commandName="ManifestCreateError" devLabel="Unable to create manifest!" translation="Manifest konnte nicht erstellt werden."/>
+	<label commandName="ManifestExistError" devLabel="Script with same name already exists!" translation="Skript mit demselben Namen ist bereits vorhanden!"/>
+	<label commandName="ManifestWriteError" devLabel="Unable to write attributes to manifest!" translation="Attribute konnten nicht in Manifest geschrieben werden."/>
+	<label commandName="NewScriptFileExistsError" devLabel="Script with same name already exists!" translation="Skript mit demselben Namen ist bereits vorhanden."/>
+	<label commandName="NewScriptFileExistsError2" devLabel="Unable to create the script!" translation="Fehler beim Erstellen der Skriptdatei!"/>
+	<label commandName="NewScriptFileOpenError" devLabel="Unable to create the script!" translation="Skript konnte nicht erstellt werden."/>
+	<label commandName="NewScriptUnknownError" devLabel="Unknown error occurred. Failed to create the script!" translation="Ein unbekannter Fehler ist aufgetreten. Skript konnte nicht erstellt werden."/>
+	<label commandName="RenameScriptError" devLabel="Script cannot be renamed!" translation="Skript kann nicht umbenannt werden."/>
+</Resource>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="16:9Widescreen" devLabel="16:9 Widescreen" translation="16:9 Breitbild"/>
+	<label commandName="1:1Square" devLabel="1:1 Square" translation="1:1 Quadratisch"/>
+	<label commandName="4:3Presentation" devLabel="4:3 Presentation" translation="4:3 Präsentation"/>
+	<label commandName="4:5Portrait" devLabel="4:5 Portrait" translation="4:5 Hochformat"/>
+	<label commandName="5:4Landscape" devLabel="5:4 Landscape" translation="5:4 Querformat"/>
+	<label commandName="AdaptiveGridSpacingTooltip" devLabel="Adaptive Grid" translation="Adaptives Raster"/>
+	<label commandName="AdaptiveGridSpacingUserName" devLabel="Adaptive Grid" translation="Adaptives Raster"/>
+	<label commandName="AdvancedTransparencyValeName" devLabel="Better Display" translation="Bessere Darstellung"/>
+	<label commandName="AmbientOccludedEnabledToolTip" devLabel="Ambient Occlusion shows less light on recessed parts of the model " translation="Durch Umgebungsokklusion wird in tiefer liegenden Teilen des Modells weniger Licht angezeigt. "/>
+	<label commandName="AmbientOccludedEnabledUserName" devLabel="Ambient Occlusion" translation="Umgebungsokklusion"/>
+	<label commandName="AspectRatioHeightToolTip" devLabel="Height" translation="Höhe"/>
+	<label commandName="AspectRatioHeightUserName" devLabel="Height" translation="Höhe"/>
+	<label commandName="AspectRatioToolTip" devLabel="Aspect Ratio" translation="Seitenverhältnis"/>
+	<label commandName="AspectRatioUserName" devLabel="Aspect Ratio" translation="Seitenverhältnis"/>
+	<label commandName="AspectRatioWidthToolTip" devLabel="Width" translation="Breite"/>
+	<label commandName="AspectRatioWidthUserName" devLabel="Width" translation="Breite"/>
+	<label commandName="AutoThrottleConsolidationDuringNavId" devLabel="Limit consolidation during navigation to maintain framerate" translation="Konsolidierung während der Navigation beschränken, um die Bildrate beizubehalten"/>
+	<label commandName="AutoThrottleConsolidationToolTip" devLabel="Allow consolidation to be temporariliy disabled during navigation" translation="Vorübergehende Deaktivierung der Konsolidierung während der Navigation zulassen"/>
+	<label commandName="AutoThrottleContentEnableCanvas" devLabel="Ambient Occlusion and Anti-Aliasing are disabled when using high-resolution graphics. Switching high-resolution graphics off will re-enable these effects." translation="Umgebungsokklusion und Anti-Aliasing sind bei Verwendung hochauflösender Grafiken deaktiviert. Deaktivieren Sie die hochauflösenden Grafiken, um diese Effekte wieder zu aktivieren."/>
+	<label commandName="AutoThrottleContentMemoryLow" devLabel="Some visual effects are being disabled. Closing designs or reducing the window size/screen resolution may restore these." translation="Einige visuelle Effekte werden deaktiviert. Schließen von Konstruktionen oder reduzieren Sie die Größe des Fensters / Bildschirmauflösung kann diese wiederherstellen."/>
+	<label commandName="AutoThrottleEffectsDuringNavId" devLabel="Limit effects during navigation to maintain framerate" translation="Effekte während der Navigation einschränken, um die Bildrate beizubehalten"/>
+	<label commandName="AutoThrottleEffectsToolTip" devLabel="Allow effects to be temporarily disabled during navigation" translation="Zulassen, dass Effekte während der Navigation vorübergehend deaktiviert werden"/>
+	<label commandName="AutoThrottleEffectsToolTip2" devLabel="Automatically disable or degrade visual effects to keep the video memory pressure under a safe threshold." translation="Deaktivieren oder reduzieren Sie visuelle Effekte automatisch, um den Druck auf den Videospeicher unterhalb eines sicheren Schwellenwerts zu halten."/>
+	<label commandName="AutoThrottleEffectsUserName" devLabel="Limit effects when graphics memory is low" translation="Effekte einschränken, wenn der Grafikspeicher fast ausgelastet ist"/>
+	<label commandName="AutoThrottleLODsDuringNavId" devLabel="Limit LODs during navigation to maintain framerate" translation="Detailgenauigkeit bei der Navigation einschränken, um die Bildrate beizubehalten"/>
+	<label commandName="AutoThrottleLODsToolTip" devLabel="Allow LODs computation to be temporariliy disabled during navigation" translation="Berechnung der Detailgenauigkeit beim Navigieren temporär deaktivieren"/>
+	<label commandName="AutoThrottleTitleEnableRetina" devLabel="Limiting Visual Effects" translation="Einschränken visueller Effekte"/>
+	<label commandName="AutoThrottleTitleMemoryLow" devLabel="Graphics Memory Low" translation="Graphics Memory niedrig"/>
+	<label commandName="Automatic" devLabel="Auto-select" translation="Automatisch auswählen"/>
+	<label commandName="BackgroundToolTip" devLabel="Background" translation="Hintergrund"/>
+	<label commandName="BackgroundUserName" devLabel="Background" translation="Hintergrund"/>
+	<label commandName="BrightnessToolTip" devLabel="Brightness" translation="Helligkeit"/>
+	<label commandName="BrightnessUserName" devLabel="Brightness (lx)" translation="Helligkeit (lx)"/>
+	<label commandName="BumpEnabledToolTip" devLabel="Enable bump effect when supported by the material and the graphics driver." translation="Relief-Effekt aktivieren, wenn dieser vom Material und Grafiktreiber unterstützt wird."/>
+	<label commandName="BumpEnabledUserName" devLabel="Bump" translation="Relief"/>
+	<label commandName="BumpWoodEnabledToolTip" devLabel="Enable bump effect when supported by the Wood (Solid) and the graphics driver." translation="Relief-Effekt aktivieren, wenn dieser vom Holz (Volumenkörper) und Grafiktreiber unterstützt wird."/>
+	<label commandName="BumpWoodEnabledUserName" devLabel="Wood Bump" translation="Holz-Relief"/>
+	<label commandName="CachingRenderingResultToolTip" devLabel="Render the scene in separate fragments; some graphics cards do not support this" translation="Die Szene wird in separaten Fragmenten gerendert. Einige Grafikkarten unterstützen dies nicht."/>
+	<label commandName="CachingRenderingResultUserName" devLabel="CachingRenderingResult" translation="Rendering-Ergebnis wird zwischengespeichert"/>
+	<label commandName="CameraGroupToolTip" devLabel="Camera" translation="Kamera"/>
+	<label commandName="CameraProjectionPerspetiveWithOrthoFacesTooltip" devLabel="Camera Projection Perspetive With Ortho Faces" translation="Kamera-Projektionsperspektive mit orthogonalen Flächen"/>
+	<label commandName="CameraProjectionPerspetiveWithOrthoFacesUserName" devLabel="Camera Projection Perspetive With Ortho Faces" translation="Kamera-Projektionsperspektive mit orthogonalen Flächen"/>
+	<label commandName="CameraProjectionToolTip" devLabel="CameraProjection" translation="Kameraprojektion"/>
+	<label commandName="CameraProjectionUserName" devLabel="CameraProjection" translation="Kameraprojektion"/>
+	<label commandName="CamreaGroupUserName" devLabel="Camera" translation="Kamera"/>
+	<label commandName="CheckCertInfoToolTip" devLabel="Check graphics card certification when creating rendering devices" translation="Grafikkarten-Zertifizierung beim Erstellen von Rendergeräten prüfen"/>
+	<label commandName="CheckCertInfoUserName" devLabel="Check graphics card certification when creating rendering devices" translation="Grafikkarten-Zertifizierung beim Erstellen von Rendergeräten prüfen"/>
+	<label commandName="ColorCyclingToolTip" devLabel="Using color cycling capability for default material" translation="Farbwechselfunktion für Vorgabematerial wird verwendet"/>
+	<label commandName="ColorCyclingUserName" devLabel="Color Cycling" translation="Farbwechsel"/>
+	<label commandName="ColorToolTip" devLabel="Color" translation="Farbe"/>
+	<label commandName="ColorUserName" devLabel="Color" translation="Farbe"/>
+	<label commandName="ConsolidateReferenceSceneToolTip" devLabel="Enable reference scene consolidation for accelerating highlight." translation="Aktivieren Sie die Konsolidierung der Referenzszene, um die Markierung zu beschleunigen."/>
+	<label commandName="ConsolidateReferenceSceneUserName" devLabel="Consolidate Reference Scene" translation="Referenzszene konsolidieren"/>
+	<label commandName="ConsolidateSketchToolTip" devLabel="Enable Sketch consolidation for rendering acceleration." translation="Aktivieren Sie die Skizzenkonsolidierung zur Render-Beschleunigung."/>
+	<label commandName="ConsolidateSketchUserName" devLabel="Consolidate Sketch" translation="Skizze konsolidieren"/>
+	<label commandName="ConsolidationBodiesToolTip" devLabel="Combine static bodies and draw them in a batch." translation="Kombinieren Sie statische Körper, und zeichnen Sie sie in einem Stapel."/>
+	<label commandName="ConsolidationBodiesUserName" devLabel="Static batching for bodies" translation="Statische Stapelverarbeitung für Körper"/>
+	<label commandName="ConsolidationToolTip" devLabel="Improve performance by consolidating small objects." translation="Verbessern Sie die Leistung durch die Konsolidierung von kleinen Objekten."/>
+	<label commandName="ConsolidationUserName" devLabel="Consolidation" translation="Konsolidierung"/>
+	<label commandName="CorruptedUserEnvContent" devLabel="Please attach the custom environment again." translation="Hängen Sie die benutzerdefinierte Umgebung erneut an."/>
+	<label commandName="CorruptedUserEnvTitle" devLabel="The attached environment image is corrupted." translation="Das Image der angehängten Umgebung ist beschädigt."/>
+	<label commandName="CustomAspectRatio" devLabel="Custom Aspect Ratio" translation="Benutzerdefiniertes Seitenverhältnis"/>
+	<label commandName="DegradedNoSelectionEffectValeName" devLabel="Simple display (without glow or halo)" translation="Einfache Darstellung (ohne Leuchten oder Lichthof)"/>
+	<label commandName="DegradedNormalSelectionEffectValeName" devLabel="Normal display (with glow and halo)" translation="Normale Anzeige (mit Leuchten und Lichthof)"/>
+	<label commandName="DeviceTypeToolTip" devLabel="Specify Device Type" translation="Gerätetyp angeben"/>
+	<label commandName="DeviceTypeUserName" devLabel="Device Type" translation="Gerätetyp"/>
+	<label commandName="DirectX11Name" devLabel="DirectX 11" translation="DirectX 11"/>
+	<label commandName="DirectX9Name" devLabel="DirectX 9" translation="DirectX 9"/>
+	<label commandName="DisDomeToolTip" devLabel="Whether or not display the Dome" translation="Gibt an, ob die Kuppel angezeigt wird"/>
+	<label commandName="DisDomeUserName" devLabel="Display Dome" translation="Kuppel anzeigen"/>
+	<label commandName="DisGroundPlaneToolTip" devLabel="Whether or not display the GroundPlane" translation="Gibt an, ob die Ausgangsebene angezeigt werden soll"/>
+	<label commandName="DisGroundPlaneUserName" devLabel="Display GroundPlane" translation="Ausgangsebene anzeigen"/>
+	<label commandName="DisableSurfaceNormalDisplayToolTip" devLabel="Disable Surface Normal Display." translation="Anzeige der Oberflächennormalen deaktivieren."/>
+	<label commandName="DisableSurfaceNormalDisplayUserName" devLabel="Disable Surface Normal Display" translation="Anzeige der Oberflächennormalen deaktivieren"/>
+	<label commandName="DisplayOptionsToolTip" devLabel="Machine specific display settings." translation="Maschinenspezifische Anzeigeeinstellungen."/>
+	<label commandName="DisplayOptionsUserName" devLabel="Display" translation="Anzeige"/>
+	<label commandName="EnableCanvasRetinaEffectThrottleToolTip" devLabel="Limit Ambient Occlusion and Anti-Aliasing effects when high-resolution graphics is being used." translation="Beschränken Sie Umgebungsokklusions- und Anti-Aliasing-Effekte, wenn hochauflösende Grafiken verwendet werden."/>
+	<label commandName="EnableCanvasRetinaEffectThrottleUserName" devLabel="Limit effects in high-resolution graphics" translation="Effekte in hochauflösenden Grafiken beschränken"/>
+	<label commandName="EnableCanvasRetinaToolTip" devLabel="Enables graphics scaling for better detail in the modeling canvas when using a high DPI display. Disabling this may improve graphics performance. This option has no effect at 100% DPI scaling." translation="Aktiviert die Grafikskalierung für bessere Details im Modellierungsansichtsbereich bei Verwendung eines hochauflösenden Displays. Wenn Sie diese Option deaktivieren, kann sich die Grafikleistung verbessern. Diese Option hat bei einer DPI-Skalierung von 100 % keine Auswirkungen."/>
+	<label commandName="EnableCanvasRetinaUserName" devLabel="High-resolution canvas graphics on high DPI displays" translation="Grafiken mit hoher Auflösung im Ansichtsbereich auf hochauflösenden Displays"/>
+	<label commandName="EnableCanvasUseSRGBToolTip" devLabel="Use sRGB color space for color matching" translation="sRGB-Farbraum für Farbanpassung verwenden"/>
+	<label commandName="EnableCanvasUseSRGBUserName" devLabel="Use sRGB color space" translation="sRGB-Farbraum verwenden"/>
+	<label commandName="EnhancedTSplineToolTip" devLabel="Enable EnhancedMesh for TSpline tessellation." translation="Aktivieren Sie EnhancedMesh für T-Spline-Tesselation."/>
+	<label commandName="EnhancedTSplineUserName" devLabel="Enhanced TSpline" translation="Verbesserter T-Spline"/>
+	<label commandName="Environment" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="EnvironmentGroupToolTip" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="EnvironmentGroupUserName" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="EnvironmentIDToolTip" devLabel="Lighting, background and various color settings" translation="Beleuchtung, Hintergrund und verschiedene Farbeinstellungen"/>
+	<label commandName="EnvironmentIDUserName" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="EnvironmentToolTip" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="EnvironmentUserName" devLabel="Environment" translation="Umgebung"/>
+	<label commandName="ExposureToolTip" devLabel="Exposure" translation="Belichtung"/>
+	<label commandName="ExposureUserName" devLabel="Exposure" translation="Belichtung"/>
+	<label commandName="FXAAToolTip" devLabel="Switches on or off fast approximation anti aliasing" translation="Aktiviert bzw. deaktiviert die schnelle Annäherung durch Anti-Aliasing"/>
+	<label commandName="FXAAUserName" devLabel="FXAA" translation="FXAA"/>
+	<label commandName="FixedGridSpacingInCMTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInCMUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInFTTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInFTUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInINTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInINUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMILTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMILUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMMTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMMUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMTooltip" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingInMUserName" devLabel="Major Grid Spacing" translation="Hauptrasterabstand"/>
+	<label commandName="FixedGridSpacingTooltip" devLabel="Fixed Grid" translation="Festes Raster"/>
+	<label commandName="FixedGridSpacingUserName" devLabel="Fixed Grid" translation="Festes Raster"/>
+	<label commandName="FixedGridSubdivisionsCMTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsCMUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsFTTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsFTUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsINTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsINUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsMILTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsMILUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsMTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsMUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsTooltip" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FixedGridSubdivisionsUserName" devLabel="Minor Subdivisions" translation="Nebenunterteilungen"/>
+	<label commandName="FlattenGroundToolTip" devLabel="Flatten Ground" translation="Ausgangsebene abflachen"/>
+	<label commandName="FlattenGroundUserName" devLabel="Flatten Ground" translation="Ausgangsebene abflachen"/>
+	<label commandName="FocalLengthToolTip" devLabel="Focal Length" translation="Brennweite"/>
+	<label commandName="FocalLengthUserName" devLabel="Focal Length" translation="Brennweite"/>
+	<label commandName="ForceHWGraphicsOnMacOSToolTip" devLabel="Disable software fallback and enforce hardware renderer on macOS." translation="Deaktivieren Sie den Software-Fallback, und erzwingen Sie den Hardware-Renderer für macOS."/>
+	<label commandName="ForceHWGraphicsOnMacOSUserName" devLabel="Enforce hardware renderer on macOS" translation="Hardware-Renderer für macOS erzwingen"/>
+	<label commandName="GammaCorrectionToolTip" devLabel="Enable Gamma Correction." translation="Gamma-Korrektur aktivieren"/>
+	<label commandName="GammaCorrectionUserName" devLabel="Gamma Correction" translation="Gamma-Korrektur"/>
+	<label commandName="GraphicsOptionsToolTip" devLabel="Preferences used to control the graphics display" translation="Voreinstellungen zum Steuern der Grafikdarstellung"/>
+	<label commandName="GraphicsOptionsUserName" devLabel="Graphics" translation="Grafiken"/>
+	<label commandName="GraphicsSplitTestEnabledToolTip" devLabel="Whether or not graphics server/client split test is enabled." translation="Gibt an, ob Teilungstest für Grafik-Server/-Client aktiviert ist"/>
+	<label commandName="GraphicsSplitTestEnabledUserName" devLabel="Graphics server/client split test" translation="Grafikserver/-client Teilungstest"/>
+	<label commandName="GridDisplaySettingsOptionsToolTip" devLabel="Preferences that sets default Layout Grid properties used in new documents" translation="Voreinstellungen, die vorgegebene Eigenschaften für Entwurfsraster zur Verwendung in neuen Dokumenten festlegen"/>
+	<label commandName="GridDisplaySettingsOptionsUserName" devLabel="Grid" translation="Raster"/>
+	<label commandName="GridSnappingOptionToolTip" devLabel="Enable Grid Snapping." translation="Aktivieren Sie den Rasterfang."/>
+	<label commandName="GridSnappingOptionUserName" devLabel="Enable Grid Snapping" translation="Rasterfang aktivieren"/>
+	<label commandName="GroundPlaneGroupToolTip" devLabel="Ground Plane" translation="Ausgangsebene"/>
+	<label commandName="GroundPlaneGroupUserName" devLabel="Ground Plane" translation="Ausgangsebene"/>
+	<label commandName="GroundPlaneToolTip" devLabel="Ground Plane" translation="Ausgangsebene"/>
+	<label commandName="GroundPlaneUserName" devLabel="Ground Plane" translation="Ausgangsebene"/>
+	<label commandName="GroundReflectionEnabledToolTip" devLabel="Shows reflections of the model on the ground" translation="Zeigt Reflexionen des Modells auf der Ausgangsebene an"/>
+	<label commandName="GroundReflectionEnabledUserName" devLabel="Ground Reflections" translation="Reflexionen auf Ausgangsebene"/>
+	<label commandName="GroundShadowEnabledToolTip" devLabel="Shows shadows of the model on the ground" translation="Zeigt Schatten des Modells auf der Ausgangsebene an"/>
+	<label commandName="GroundShadowEnabledUserName" devLabel="Ground Shadows" translation="Schatten auf Ausgangsebene"/>
+	<label commandName="HDRBkgEnabledToolTip" devLabel="Enable HDR background display" translation="Aktivieren Sie die HDR-Hintergrunddarstellung"/>
+	<label commandName="HDRBkgEnabledUserName" devLabel="Enable HDR background display" translation="HDR-Hintergrunddarstellung aktivieren"/>
+	<label commandName="LayoutGridLockName" devLabel="Enable layout grid lock" translation="Entwurfsrastersperre aktivieren"/>
+	<label commandName="LayoutGridLockToolTip" devLabel="Lock or UnLock the layout grid." translation="Entwurfsraster wird gesperrt oder entsperrt."/>
+	<label commandName="LegacyFacetingAPIToolTip" devLabel="Using legacy faceting code" translation="Alter Facettierungscode wird verwendet"/>
+	<label commandName="LegacyFacetingAPIUserName" devLabel="Using legacy faceting code" translation="Alter Facettierungscode wird verwendet"/>
+	<label commandName="LevelOfDetailToolTip" devLabel="Improve graphics display quality by progressively refining graphics during zoom" translation="Qualität der Grafikanzeige durch schrittweise Verfeinerung der Grafiken beim Zoomen verbessern"/>
+	<label commandName="LevelOfDetailUserName" devLabel="Refine graphics when zooming" translation="Grafiken beim Zoomen verfeinern"/>
+	<label commandName="LockViewNotificationInformation" devLabel="The view is locked! Please go to In-canvas Render Settings to change the lock view setting if you want to continue the view operation." translation="Die Ansicht ist gesperrt. Wechseln Sie zu den Einstellungen für Rendern im Ansichtsbereich, um die Sperre aufzuheben und den Ansichtsvorgang fortzusetzen."/>
+	<label commandName="LockViewNotificationTitle" devLabel="The view is locked" translation="Die Ansicht ist gesperrt"/>
+	<label commandName="LockViewToolTip" devLabel="Lock the view." translation="Ansicht sperren."/>
+	<label commandName="LockViewUserName" devLabel="Lock View" translation="Ansicht sperren"/>
+	<label commandName="LogGraphicsToolTip" devLabel="Log graphics errors and warnings." translation="Grafikfehler und -warnungen protokollieren."/>
+	<label commandName="LogGraphicsUserName" devLabel="Log graphics errors and warnings" translation="Grafikfehler und -warnungen protokollieren"/>
+	<label commandName="MSAAToolTip" devLabel="Switches on or off anti aliasing" translation="Aktiviert bzw. deaktiviert Anti-Aliasing"/>
+	<label commandName="MSAAUserName" devLabel="Use anti aliasing" translation="Anti-Aliasing verwenden"/>
+	<label commandName="NPREffectToolTip" devLabel="NPR Effects show the model non realistically - for example like a charcoal drawing" translation="NPR-Effekte zeigen das Modell nicht realistisch an, z. B. als Kohlezeichnung."/>
+	<label commandName="NPREffectUserName" devLabel="NPR Effect" translation="NPR-Effekt"/>
+	<label commandName="NoRenderer" devLabel="Failed to create the graphics renderer; it could be due to that the graphics card is not powerful enough or its driver is not installed" translation="Fehler beim Erstellen des Grafik-Renderers; dies kann auf eine nicht ausreichend leistungsfähige Grafikkarte oder einen nicht installierten Treiber zurückzuführen sein."/>
+	<label commandName="NoSelectionEffectValeName" devLabel="Simple" translation="Einfach"/>
+	<label commandName="NormalSelectionEffectValeName" devLabel="Normal" translation="Normale"/>
+	<label commandName="ObjectShadowFitToolTip" devLabel="Specify Object Shadow Fit" translation="Objektschatteneinpassung angeben"/>
+	<label commandName="ObjectShadowFitUserName" devLabel="Object Shadow Fit" translation="Objektschatten anpassen"/>
+	<label commandName="ObjectShadowTypeToolTip" devLabel="Specify Object Shadow Type" translation="Objektschattentyp angeben"/>
+	<label commandName="ObjectShadowTypeUserName" devLabel="Object Shadow Type" translation="Objektschattentyp"/>
+	<label commandName="OpenGLCoreName" devLabel="OpenGL Core Profile" translation="OpenGL-Kernprofil"/>
+	<label commandName="OptimizedRenderingToolTip" devLabel="Specify which fragments in the scene to render to improve performance" translation="Festlegen Sie zum Verbessern der Leistung fest, welche Fragmente in der Szene gerendert werden sollen."/>
+	<label commandName="OptimizedRenderingUserName" devLabel="Optimized Rendering" translation="Optimiertes Rendern"/>
+	<label commandName="PartialUpdate2DId" devLabel="Partial update 2D canvas." translation="Teilweise Aktualisierung des 2D-Ansichtsbereichs."/>
+	<label commandName="PartialUpdate2DToolTip" devLabel="Allow consolidation to be temporariliy disabled during navigation" translation="Vorübergehende Deaktivierung der Konsolidierung während der Navigation zulassen"/>
+	<label commandName="PixelScaleFactorToolTip" devLabel="Scale factor applied to all pixel-scaled objects" translation="Auf alle Pixel-skalierten Objekte angewendeter Skalierungsfaktor"/>
+	<label commandName="PixelScaleFactorUserName" devLabel="Pixel-scale Factor" translation="Pixel-Skalierfaktor"/>
+	<label commandName="RDPGameDVRFSEContent" devLabel="Fusion 360 cannot render graphics over a remote desktop session while Fullscreen Optimization is enabled. Please disable Fullscreen Optimization or Windows 10 Game DVR before relaunching Fusion 360." translation="In Fusion 360 können Grafiken nicht über eine Remote-Desktop-Sitzung gerendert werden, wenn die Vollbild-Optimierung aktiviert ist. Deaktivieren Sie die Vollbild-Optimierung oder Windows 10 Game DVR, bevor Sie Fusion 360 starten."/>
+	<label commandName="RDPGameDVRFSETitle" devLabel="Failed to allocate frame buffer" translation="Framepuffer konnte nicht zugewiesen werden"/>
+	<label commandName="RDPOIsEnabledToolTip" devLabel="Various optimizations specifically for remote desktop performance." translation="Verschiedene Optimierungen, insbesondere für die Remote-Desktop-Leistung."/>
+	<label commandName="RDPOIsEnabledUserName" devLabel="Remote Desktop Performance Optimization" translation="Leistungsoptimierung auf Remote-Desktop"/>
+	<label commandName="RDPOThrottleEffectToolTip" devLabel="Use simple effects by forcing performance mode." translation="Verwenden Sie einfache Effekte durch Erzwingen des Leistungsmodus."/>
+	<label commandName="RDPOThrottleEffectUserName" devLabel="Disable advanced render effect" translation="Erweiterten Rendereffekt deaktivieren"/>
+	<label commandName="RDPOThrottleFrameRateDuringNavToolTip" devLabel="Skip frames." translation="Frames überspringen."/>
+	<label commandName="RDPOThrottleFrameRateDuringNavUserName" devLabel="Maximum framerate during navigation (FPS)" translation="Maximale Bildrate während der Navigation (FPS)"/>
+	<label commandName="RDPOThrottleMaterialToolTip" devLabel="Use simple materials." translation="Verwenden Sie einfache Materialien."/>
+	<label commandName="RDPOThrottleMaterialUserName" devLabel="Render with only basic material" translation="Nur mit Grundmaterial rendern"/>
+	<label commandName="RDPOThrottleShadedDuringNavToolTip" devLabel="Switch to wireframe mode." translation="Wechseln Sie in den Drahtmodellmodus."/>
+	<label commandName="RDPOThrottleShadedDuringNavUserName" devLabel="Show wireframe during navigation" translation="Drahtmodell während der Navigation anzeigen"/>
+	<label commandName="RDPOptimizationOptionsToolTip" devLabel="Preferences used to optimize the graphics performance in RDP session." translation="Voreinstellungen, die zur Optimierung der Grafikleistung in einer RDP-Sitzung verwendet werden."/>
+	<label commandName="RDPOptimizationOptionsUserName" devLabel="RDP Optimization" translation="RDP-Optimierung"/>
+	<label commandName="RRTLightingTypeBack" devLabel="Back" translation="Zurück"/>
+	<label commandName="RRTLightingTypeDefault" devLabel="Default" translation="Vorgabe"/>
+	<label commandName="RRTLightingTypeFrontLeft" devLabel="Front Left" translation="Vorn links"/>
+	<label commandName="RRTLightingTypeFrontRight" devLabel="Front Right" translation="Vorn rechts"/>
+	<label commandName="ReflectionsToolTip" devLabel="Reflections" translation="Reflexionen"/>
+	<label commandName="ReflectionsUserName" devLabel="Reflections" translation="Reflexionen"/>
+	<label commandName="RoughnessToolTip" devLabel="Roughness" translation="Rauheit"/>
+	<label commandName="RoughnessUserName" devLabel="Roughness" translation="Rauheit"/>
+	<label commandName="SelectClosestItemOnlyToolTip" devLabel="return the closest item only or return all Intersection items " translation="nur das nächste Element oder alle Schnittpunktelemente zurückgeben "/>
+	<label commandName="SelectClosestItemOnlyUserName" devLabel="Selection hint" translation="Tipp zur Auswahl"/>
+	<label commandName="ShowDoFWarningToolTip" devLabel="Show DoF Warning." translation="Zeigen Sie die FHG-Warnung an."/>
+	<label commandName="ShowDoFWarningUserName" devLabel="Show DoF Warning" translation="FHG-Warnung anzeigen"/>
+	<label commandName="ShowGridRefNumbersToolTip" devLabel="Show grid reference numbers" translation="Raster-Referenznummern anzeigen"/>
+	<label commandName="ShowGridRefNumbersUserName" devLabel="Show Grid Reference Numbers" translation="Raster-Referenznummern anzeigen"/>
+	<label commandName="ShowLayoutGridToolTip" devLabel="show layout grid " translation="Entwurfsraster anzeigen "/>
+	<label commandName="ShowLayoutGridUserName" devLabel="Show Layout Grid" translation="Entwurfsraster anzeigen"/>
+	<label commandName="SilhouetteToolTip" devLabel="Whether or not display the silhouette" translation="Gibt an, ob die Silhouette angezeigt werden soll"/>
+	<label commandName="SilhouetteUserName" devLabel="Display Silhouette" translation="Silhouette anzeigen"/>
+	<label commandName="SimpleTransparencyValeName" devLabel="Better Performance" translation="Bessere Leistung"/>
+	<label commandName="SoftwareRenderer" devLabel="The software renderer is being used; it could be due to that the graphics card is not powerful enough or its driver is not installed" translation="Der Software-Renderer wird verwendet; dies kann auf eine nicht ausreichend leistungsfähige Grafikkarte oder einen nicht installierten Treiber zurückzuführen sein."/>
+	<label commandName="SolidColor" devLabel="Solid Color" translation="Deckende Farbe"/>
+	<label commandName="SplitViewArrangementToolTip" devLabel="MultiViewPort Arrangement" translation="MultiViewPort-Anordnung"/>
+	<label commandName="SplitViewArrangementUserName" devLabel="Splitview Arrangment" translation="Teilansicht-Anordnung"/>
+	<label commandName="SyncWindowToolTip" devLabel="sync window " translation="Fenster synchronisieren "/>
+	<label commandName="SyncWindowUserName" devLabel="Sync Window" translation="Fenster Synchronisieren"/>
+	<label commandName="TdrCrashContent" devLabel="Graphics Driver stopped responding, which could cause unstable behavior." translation="Grafiktreiber reagiert nicht mehr. Dies kann zu instabilem Verhalten führen."/>
+	<label commandName="TdrCrashTitle" devLabel="Graphics Driver stopped responding" translation="Grafiktreiber reagiert nicht mehr"/>
+	<label commandName="TonemappingResolveMSAAToolTip" devLabel="Resolving MSAA in Tonemapping pass can reduce the artifacts that occur in high contrast areas" translation="Das Auflösen von MSAA im Farbtonzuordnungsvorgang kann die Artefakte reduzieren, die in Bereichen mit hohem Kontrast auftreten"/>
+	<label commandName="TonemappingResolveMSAAUserName" devLabel="Resolve MSAA in Tonemapping pass" translation="MSAA im Farbtonzuordnungsvorgang auflösen"/>
+	<label commandName="TransparencyOptionToolTip" devLabel="Advanced Transparency gives better transparent display but could downgrade the performance" translation="Erweiterte Transparenz ermöglicht eine bessere transparente Anzeige, beeinflusst jedoch möglicherweise die Leistung"/>
+	<label commandName="TransparencyOptionUserName" devLabel="Transparency Effect" translation="Transparenzeffekt"/>
+	<label commandName="TransparentBackgroundToolTip" devLabel="Enable transparent background when saved into an image." translation="Transparenten Hintergrund beim Speichern als Bild aktivieren"/>
+	<label commandName="TransparentBackgroundUserName" devLabel="Transparent Background" translation="Transparenter Hintergrund"/>
+	<label commandName="UseOccurrenceTreeToolTip" devLabel="Enable Occurrence tree for rendering acceleration." translation="Aktivieren Sie den Ausprägungsbaum, um den Rendervorgang zu beschleunigen."/>
+	<label commandName="UseOccurrenceTreeUserName" devLabel="Use Occurrence Tree" translation="Ausprägungsbaum verwenden"/>
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="Gelenkursprünge"/>
+	<label commandName="VOJointOriginAxes" devLabel="Joint Origin Axes" translation="Gelenkursprungsachsen"/>
+	<label commandName="VOJoints" devLabel="Joints" translation="Gelenke"/>
+	<label commandName="VOOriginAxes" devLabel="Origin Axes" translation="Ursprungsachsen"/>
+	<label commandName="VOOriginPlanes" devLabel="Origin Planes" translation="Ursprungsebenen"/>
+	<label commandName="VOOriginPoints" devLabel="Origin Points" translation="Ursprungspunkte"/>
+	<label commandName="VOSketches" devLabel="Sketches" translation="Skizzen"/>
+	<label commandName="VOUserWorkAxes" devLabel="User Work Axes" translation="Benutzerarbeitsachsen"/>
+	<label commandName="VOUserWorkPlanes" devLabel="User Work Planes" translation="Benutzerarbeitsebenen"/>
+	<label commandName="VOUserWorkPoints" devLabel="User Work Points" translation="Benutzerarbeitspunkte"/>
+	<label commandName="ViewportAspectRatio" devLabel="Viewport aspect ratio" translation="Ansichtsfenster - Seitenverhältnis"/>
+	<label commandName="VisualStyleToolTip" devLabel="The Visual Style used to display the model - e.g. wireframe" translation="Der zum Anzeigen des Modells verwendete visuelle Stil, z. B. Drahtkörper"/>
+	<label commandName="VisualStyleUserName" devLabel="Visual Style" translation="Visueller Stil"/>
+	<label commandName="degradedSelectionEffectOptionToolTip" devLabel="When below the minimum FPS, controls how selections and highlights are displayed" translation="Steuert die Anzeige ausgewählter Elemente und Markierungen, falls der minimale FPS-Wert unterschritten wird"/>
+	<label commandName="degradedSelectionEffectOptionUserName" devLabel="Degraded selection display style" translation="Anzeigestil Reduzierte Auswahl"/>
+	<label commandName="driverToolTip" devLabel="The driver used to display the graphics" translation="Der zum Anzeigen von Grafiken verwendete Treiber"/>
+	<label commandName="driverUserName" devLabel="Graphics driver" translation="Grafiktreiber"/>
+	<label commandName="hiddenLineDimmingToolTip" devLabel="Control hidden edge opacity" translation="Opazität von verdeckten Kanten steuern"/>
+	<label commandName="hiddenLineDimmingUserName" devLabel="Hidden Edge Dimming (%)" translation="Abblendung verdeckter Kanten (%)"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Vorgang wurde manuell vom Benutzer abgebrochen"/>
+	<label commandName="lclzYup" devLabel="Y up" translation="Y nach oben"/>
+	<label commandName="lclzZup" devLabel="Z up" translation="Z nach oben"/>
+	<label commandName="minFPSToolTip" devLabel="The frame rate below which graphics effects start degrading to preserve performance" translation="Die Frame-Rate, bei deren Unterschreitung der Grafikeffekt reduziert wird, um die Leistung aufrecht zu erhalten."/>
+	<label commandName="minFPSUserName" devLabel="Minimum framerate during navigation (FPS)" translation="Minimale Bildrate während der Navigation (FPS)"/>
+	<label commandName="performanceModeToolTip" devLabel="Automatically disable or degrade visual effects to improve the rendering performance; this will affect the display quality" translation="Deaktivieren oder reduzieren Sie automatisch visuelle Effekte, um die Leistung beim Rendern zu verbessern; dies wirkt sich auf die Anzeigequalität aus"/>
+	<label commandName="performanceModeUserName" devLabel="Limit effects to improve the performance" translation="Effekte beschränken, um die Leistung zu verbessern"/>
+	<label commandName="sceneUpOptionToolTip" devLabel="Controls scene up" translation="Steuert die Szene nach oben"/>
+	<label commandName="sceneUpOptionUserName" devLabel="Default modeling orientation" translation="Vorgabeausrichtung beim Modellieren"/>
+	<label commandName="selectionEffectOptionToolTip" devLabel="Controls how selections and highlights are displayed" translation="Steuert die Anzeige von Auswahl und Markierungen"/>
+	<label commandName="selectionEffectOptionUserName" devLabel="Selection display style" translation="Auswahl-Anzeigestil"/>
+</Resource>

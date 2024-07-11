@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Add Document Material" devLabel="Add Document Material" translation="Dokumentmaterial hinzufügen"/>
+	<label commandName="Autodesk Advanced Appearance Library" devLabel="Fusion 360 Appearance Library" translation="Fusion 360-Darstellungsbibliothek"/>
+	<label commandName="Autodesk Advanced Material Library" devLabel="Fusion 360 Material Library" translation="Fusion 360-Materialbibliothek"/>
+	<label commandName="DefaultMaterialOptionsToolTip" devLabel="Preferences that control default material and appearance" translation="Einstellungen zum Steuern des Vorgabematerials und der -darstellung"/>
+	<label commandName="DefaultMaterialOptionsUserName" devLabel="Material" translation="Material"/>
+	<label commandName="Delete Document Material" devLabel="Delete Document Material" translation="Dokumentmaterial löschen"/>
+	<label commandName="EMBCanceledMessageContent" devLabel="Ongoing material downloads have been canceled. A live update is in progress and the material library has been locked to avoid potential damage to local user data." translation="Laufende Materialdownloads wurden abgebrochen. Ein Live-Update wird durchgeführt, und die Materialbibliothek wurde gesperrt, um eine mögliche Beschädigung lokaler Benutzerdaten zu vermeiden."/>
+	<label commandName="EMBCanceledMessageTitle" devLabel="Material Downloads have been canceled" translation="Materialdownloads wurden abgebrochen."/>
+	<label commandName="EMBDisabledMessageContent" devLabel="Material downloading has been temporarily disabled due to a live update currently in progress. The material library has been locked to avoid potential damage to local user data." translation="Das Herunterladen von Material wurde vorübergehend deaktiviert, da derzeit ein Live-Update durchgeführt wird. Die Materialbibliothek wurde gesperrt, um eine mögliche Beschädigung lokaler Benutzerdaten zu vermeiden."/>
+	<label commandName="EMBDisabledMessageTitle" devLabel="Material Downloading has been Disabled" translation="Das Herunterladen von Material wurde deaktiviert."/>
+	<label commandName="Favorites Library" devLabel="Favorites Library" translation="Favoritenbibliothek"/>
+	<label commandName="GenericMaterialId" devLabel="Generic" translation="Allgemein"/>
+	<label commandName="PhysicalCategoryToolTip" devLabel="The default physical material category for a new document" translation="Vorgabe-Materialkategorie für ein neues Dokument"/>
+	<label commandName="PhysicalCategoryUserName" devLabel="Physical Material Category" translation="Materialkategorie"/>
+	<label commandName="PhysicalIDToolTip" devLabel="The default physical material for a new document" translation="Das vorgegebene Material für ein neues Dokument"/>
+	<label commandName="PhysicalIDUserName" devLabel="Physical Material Name" translation="Name des Materials"/>
+	<label commandName="PhysicalLibraryToolTip" devLabel="The default physical material Library for a new document" translation="Vorgabe-Materialbibliothek für ein neues Dokument"/>
+	<label commandName="PhysicalLibraryUserName" devLabel="Physical Material Library" translation="Materialbibliothek"/>
+	<label commandName="Private Visual Library" devLabel="Private Visual Library" translation="Private visuelle Bibliothek"/>
+	<label commandName="Simulation Additive Material Library" devLabel="Fusion 360 Additive Material Library" translation="Additive Fusion 360-Materialbibliothek"/>
+	<label commandName="Simulation Nonlinear Material Library" devLabel="Fusion 360 Nonlinear Material Library" translation="Fusion 360 - Nichtlineare Materialbibliothek"/>
+	<label commandName="UnknownMaterialId" devLabel="Unknown" translation="Unbekannt"/>
+	<label commandName="VisualCategoryToolTip" devLabel="The default appearance category for a new document" translation="Die Vorgabe-Darstellungskategorie für ein neues Dokument"/>
+	<label commandName="VisualCategoryUserName" devLabel="Appearance Category" translation="Darstellungskategorie"/>
+	<label commandName="VisualIDToolTip" devLabel="The default appearance for a new document" translation="Vorgabedarstellung für ein neues Dokument"/>
+	<label commandName="VisualIDUserName" devLabel="Material Name" translation="Materialname"/>
+	<label commandName="VisualLibraryToolTip" devLabel="The default Appearance Library for a new document" translation="Vorgabe-Darstellungsbibliothek für ein neues Dokument"/>
+	<label commandName="VisualLibraryUserName" devLabel="Appearance Material Library" translation="Darstellungsmaterialbibliothek"/>
+	<label commandName="VisualNotAsMaterialToolTip" devLabel="Set the default appearance for a new document to be different from the physical material" translation="Legen Sie fest, dass die Vorgabedarstellung für ein neues Dokument vom Material abweicht."/>
+	<label commandName="VisualNotAsMaterialUserName" devLabel="Apply a different appearance" translation="Andere Darstellung anwenden"/>
+	<label commandName="default" devLabel="default" translation="Vorgabe"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Vorgang wurde manuell vom Benutzer abgebrochen"/>
+</Resource>

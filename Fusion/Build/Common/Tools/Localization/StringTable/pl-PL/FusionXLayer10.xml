@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AppStoreAddInDownloadError" devLabel="Failed to download the add-in from app store" translation="Nie można pobrać dodatku ze sklepu z aplikacjami"/>
+	<label commandName="AppStoreAddInInstallUnknownError" devLabel="Unknown error occurred. Failed to install the add-in!" translation="Wystąpił nieznany błąd. Nie można zainstalować dodatku!"/>
+	<label commandName="AppStoreAddInRunTimeError" devLabel="Failed to run the add-in after download" translation="Nie można uruchomić dodatku po pobraniu"/>
+	<label commandName="lclzInsertingDistributedDesignNotSupported" devLabel="Inserting a distributed design from another project is not currently supported." translation="Wstawianie projektu rozproszonego z innego projektu nie jest obecnie obsługiwane."/>
+</Resource>

@@ -1,0 +1,23 @@
+<div id="pockets_extensionMethod"><p>Extends open chain selections to the extent of the stock bounding box to determine a closed contour, which is used to calculate a toolpath for open pockets.</p>
+<p>When the extended open chains intersect before reaching the bounding box, a closed contour is not created and consequently toolpath calculation cannot be completed.</p>
+<p>Depending on the geometry of the open pocket, choose between three types of extension methods:</p>
+<p><b>Tangent</b> - Extends all chain selections tangentially.<br>
+<b>Closest boundary</b> - Extends all chain selections in the direction closest to the bounding box.<br>
+<b>Parallel</b> - Extends the intersecting chain selections in a way that they are parallel when they reach the bounding box. The remaining chains are extended tangentially.<br></p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="185" height="197" src="../images/tangent_extension_method.png"/></center></td>
+<td><center><img border="0" width="185" height="197" src="../images/closest_boundary_extension_method.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Tangent</b></p></center></td>
+<td><center><p><b>Closest boundary</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="185" height="197" src="../images/parallel_extension_method.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Parallel</b></p></center></td>
+</tr></table>
+<p>Note: The <b>Extension Method</b> applies to selections for open pockets only and does not affect closed pockets.</p>
+</div>

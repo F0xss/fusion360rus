@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_BREAK_VIEW_ALIGNMENT" devLabel="Break View Alignment" translation="Ansichtsausrichtung aufheben"/>
+	<label commandName="IDS_CHANGE_SECTION_PARTICIPATION" devLabel="Change Section Participation." translation="Ändern Sie die Schnittbeteiligung."/>
+	<label commandName="IDS_CHANGE_STANDARD_SETTINGS" devLabel="Change Standard Settings" translation="Standardeinstellungen ändern"/>
+	<label commandName="IDS_COPY_LAYOUT" devLabel="Copy Layouts" translation="Layouts kopieren"/>
+	<label commandName="IDS_COPY_VIEW" devLabel="Copy Views" translation="Ansichten kopieren"/>
+	<label commandName="IDS_CREATE_BASE_VIEW" devLabel="Create Drawing Base View." translation="Erstellen von Erstansichten."/>
+	<label commandName="IDS_CREATE_DETAIL_VIEW" devLabel="Create Drawing Detail View." translation="Erstellen Sie eine Zeichnungsdetailansicht."/>
+	<label commandName="IDS_CREATE_PROJECTED_VIEW" devLabel="Create Drawing Projected View." translation="Erstellen von Projektionsansichten."/>
+	<label commandName="IDS_CREATE_SECTION_VIEW" devLabel="Create Drawing Section View." translation="Erstellen Sie eine Zeichnungsschnittansicht."/>
+	<label commandName="IDS_DELETE_SELSET" devLabel="Delete Selection Set" translation="Auswahlsatz löschen"/>
+	<label commandName="IDS_DELETE_VIEW_LAYOUT" devLabel="Delete Views or Sheets" translation="Ansichten oder Pläne löschen"/>
+	<label commandName="IDS_DRAWINGVIEW_BACK_VIEW" devLabel="Back" translation="Zurück"/>
+	<label commandName="IDS_DRAWINGVIEW_BOTTOM_VIEW" devLabel="Bottom" translation="Unten"/>
+	<label commandName="IDS_DRAWINGVIEW_CURRENT_VIEW" devLabel="Current" translation="Aktuell"/>
+	<label commandName="IDS_DRAWINGVIEW_CUSTOM_VIEW" devLabel="cuStom" translation="cuStom"/>
+	<label commandName="IDS_DRAWINGVIEW_FRONT_VIEW_FROM_MODEL" devLabel="Front" translation="Vorne"/>
+	<label commandName="IDS_DRAWINGVIEW_ISOBL_VIEW" devLabel="SW Isometric" translation="ISO-Ansicht SW"/>
+	<label commandName="IDS_DRAWINGVIEW_ISOBR_VIEW" devLabel="SE Isometric" translation="ISO-Ansicht SO"/>
+	<label commandName="IDS_DRAWINGVIEW_ISOTL_VIEW" devLabel="NW Isometric" translation="ISO-Ansicht NW"/>
+	<label commandName="IDS_DRAWINGVIEW_ISOTR_VIEW" devLabel="NE Isometric" translation="ISO-Ansicht NO"/>
+	<label commandName="IDS_DRAWINGVIEW_LEFT_VIEW" devLabel="Left" translation="Links"/>
+	<label commandName="IDS_DRAWINGVIEW_RIGHT_VIEW" devLabel="Right" translation="Rechts"/>
+	<label commandName="IDS_DRAWINGVIEW_TOP_VIEW" devLabel="Top" translation="Oben"/>
+	<label commandName="IDS_EDIT_DETAIL_VIEW_BOUNDARY" devLabel="Edit Detail View Boundary" translation="Begrenzung von Detailansicht bearbeiten"/>
+	<label commandName="IDS_EDIT_SECTION_LINE" devLabel="Edit Section Line" translation="Schnittlinie bearbeiten"/>
+	<label commandName="IDS_EDIT_VIEW" devLabel="Edit View" translation="Ansicht bearbeiten"/>
+	<label commandName="IDS_MOVE_VIEW" devLabel="Move Views" translation="Ansichten verschieben"/>
+	<label commandName="IDS_MREDO_ACTION_GROUP" devLabel="Group of commands" translation="Befehlsgruppe"/>
+	<label commandName="IDS_REPAIR_VIEW_ALIGNMENT" devLabel="Repair View Alignment" translation="Ansichtsausrichtung reparieren"/>
+	<label commandName="IDS_REVERSE_SECTION_VIEW_CUTTER" devLabel="Orientation Hidden Scale Visibility Move eXit accept _Orientation Hidden Scale Visibility Move eXit accept" translation="Orientation Hidden Scale Visibility Move eXit accept _Orientation Hidden Scale Visibility Move eXit accept"/>
+	<label commandName="IDS_ROTATE_VIEW" devLabel="Ratoate Views" translation="Ansichten drehen"/>
+	<label commandName="IDS_SET_BODY_HIDDEN_LINES" devLabel="Set Body Hidden Lines." translation="Legen Sie verdeckte Linien eines Körpers fest."/>
+	<label commandName="IDS_SYNC_DATA_FROM_ACAD" devLabel="Sync Data From AutoCAD." translation="Daten aus AutoCAD synchronisieren."/>
+	<label commandName="IDS_SY_CMD_BOUNDARY_CIRCULAR" devLabel="Circular" translation="Kreisförmig"/>
+	<label commandName="IDS_SY_CMD_BOUNDARY_RECTANGULAR" devLabel="Rectangular" translation="Rechteckig"/>
+	<label commandName="IDS_SY_CMD_CHANGE_PROJECTION_UNSUPPORTED" devLabel="&#xA;Cannot change projection type when section view has any non-detail child view." translation="&#xA;Der Projektionstyp kann nicht geändert werden, wenn die Schnittansicht über untergeordnete Ansichten ohne Details verfügt."/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_CENTER_KWD" devLabel="Boundary Representation Hidden Scale Visibility Edge Annotation _Boundary Representation Hidden Scale Visibility Edge Annotation" translation="Boundary Representation Hidden Scale Visibility Edge Annotation _Boundary Representation Hidden Scale Visibility Edge Annotation"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_CENTER_KWD2" devLabel="Boundary Hidden Scale Visibility Edge Annotation _Boundary Hidden Scale Visibility Edge Annotation" translation="Boundary Hidden Scale Visibility Edge Annotation _Boundary Hidden Scale Visibility Edge Annotation"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_CENTER_PROMPT" devLabel="&#xA;Specify center point of detail boundary" translation="&#xA;Mittelpunkt der Detailgrenze angeben"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_CENTER_PROMPT2" devLabel="&#xA;Specify center point of detail boundary" translation="&#xA;Mittelpunkt der Detailgrenze angeben"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_NO_NEGATIVE_NO_NULL" devLabel="&#xA;Value must be positive and nonzero." translation="&#xA;Wert muss positiv und ungleich Null sein."/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_SIZE_CIRCULAR_KWD" devLabel="Rectangular Undo _Rectangular Undo" translation="Rectangular Undo _Rectangular Undo"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_SIZE_CIRCULAR_PROMPT" devLabel="&#xA;Specify size of boundary " translation="&#xA;Größe der Umgrenzung angeben "/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_SIZE_RECTANG_KWD" devLabel="Circular Undo _Circular Undo" translation="Circular Undo _Circular Undo"/>
+	<label commandName="IDS_SY_CMD_DETAILSYM_SIZE_RECTANG_PROMPT" devLabel="&#xA;Specify size of boundary or [Circular/Undo]: " translation="&#xA;Größe der Begrenzung angeben oder [Kreisförmig/Zurück]: "/>
+	<label commandName="IDS_SY_CMD_DISABLED_IN_VIEWSKETCHMODE" devLabel="&#xA;** %s command not allowed in view sketching state. **&#xA;" translation="&#xA;** %s-Befehl ist im Ansichtskizzierungsstatus nicht zulässig. **&#xA;"/>
+	<label commandName="IDS_SY_CMD_DISABLED_IN_VIEWSKETCHMODE_SDI" devLabel="&#xA;** %s command not allowed in view sketching state while in SDI mode. **&#xA;" translation="&#xA;** %s-Befehl ist im Ansichtskizzierungsstatus bei Verwendung des SDI-Modus nicht zulässig. **&#xA;"/>
+	<label commandName="IDS_SY_CMD_FAILED_INVALID_IDW" devLabel="&#xA;Unable to perform the requested action. This drawing was last edited with model documentation in a newer version of AutoCAD." translation="&#xA;Die angeforderte Aktion kann nicht durchgeführt werden. Diese Zeichnung wurde zuletzt mit einer Modelldokumentation in einer neueren Version von AutoCAD bearbeitet."/>
+	<label commandName="IDS_SY_CMD_INVALID_SCALE_MESSAGE" devLabel="&#xA;Invalid scale entered." translation="&#xA;Ungültiger Maßstab eingegeben."/>
+	<label commandName="IDS_SY_CMD_INVENTOR_SERVER_FAILED_TO_LOAD" devLabel="&#xA;Inventor Server failed to load." translation="&#xA;Inventor-Server konnte nicht geladen werden."/>
+	<label commandName="IDS_SY_CMD_MODELEDGE_JAGGED" devLabel="Jagged" translation="Gezackt"/>
+	<label commandName="IDS_SY_CMD_MODELEDGE_SMOOTH" devLabel="Smooth" translation="Glatt"/>
+	<label commandName="IDS_SY_CMD_MODELEDGE_SMOOTHWITHBORDER" devLabel="Smooth with border" translation="Glatt mit Rahmen"/>
+	<label commandName="IDS_SY_CMD_MODELEDGE_SMOOTHWITHCONNECTION" devLabel="Smooth with connection line" translation="Glatt mit Verbindungslinie"/>
+	<label commandName="IDS_SY_CMD_NOT_SUPPORTED_IN_MSPACE" devLabel="&#xA;This command is not supported in model space." translation="&#xA;Dieser Befehl wird im Modellbereich nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_PROJECT_ON_NORMAL_SECTION_UNSUPPORTED" devLabel="&#xA;Cannot project a normal section view" translation="&#xA;Eine normale Schnittansicht kann nicht projiziert werden"/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_ENDPT_PROMPT" devLabel="&#xA;Specify end point " translation="&#xA;Endpunkt angeben "/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_NEXTPT2_PROMPT" devLabel="&#xA;Specify point&#xA;Or press Enter " translation="&#xA;Punkt angeben&#xA;oder EINGABETASTE drücken "/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_NEXTPT_PROMPT" devLabel="&#xA;Specify point " translation="&#xA;Punkt angeben "/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_STARTPT_PROMPT" devLabel="&#xA;Specify start point: " translation="&#xA;Startpunkt angeben: "/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_UNDODONE_KWD" devLabel="Undo Done _Undo Done" translation="Zurück Fertig _Undo Done"/>
+	<label commandName="IDS_SY_CMD_SECTIONSYM_UNDO_KWD" devLabel="Undo _Undo" translation="Undo _Undo"/>
+	<label commandName="IDS_SY_CMD_SECTION_ON_NORMAL_SECTION_UNSUPPORTED" devLabel="&#xA;Cannot section a normal section view" translation="&#xA;Eine normale Schnittansicht kann nicht geschnitten werden"/>
+	<label commandName="IDS_SY_CMD_SELECT_NOTSUPPORTED_MESSAGE1" devLabel="&#xA;Select is not supported by the model." translation="&#xA;Auswählen wird vom Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_SELECT_NOTSUPPORTED_MESSAGE2" devLabel="&#xA;Select is not supported by the model or view type." translation="&#xA;Auswählen wird vom Modell oder Ansichtstyp nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEWAUXILIARY" devLabel="VIEWAUXILIARY" translation="VIEWAUXILIARY"/>
+	<label commandName="IDS_SY_CMD_VIEWAUXILIARY_VIEWLOCATION_PROMPT" devLabel="&#xA;Place auxiliary view." translation="&#xA;Platzieren Sie die Hilfsansicht."/>
+	<label commandName="IDS_SY_CMD_VIEWBASE" devLabel="VIEWBASE" translation="GRUNDANS"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_CURR_SETTINGS_PROMPT" devLabel="&#xA;Type = %s  Hidden Lines = %s  Scale = %s" translation="&#xA;Typ = %s Verdeckte Linien = %s  Maßstab = %s"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_FILENAME_PROMPT" devLabel="&#xA;Enter Autodesk Inventor file name: " translation="&#xA;Autodesk Inventor-Dateinamen eingeben: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_INVALID_LAYOUT_NAME_MESSAGE" devLabel="&#xA;Invalid characters in Layout name: &quot;&quot;%s&quot;&quot;.&#xA;The following characters are not valid in layout names:  &lt;&gt;/\&quot;:;?*|,=`" translation="&#xA;Ungültige Zeichen im Layoutnamen: &quot;&quot;%s&quot;&quot;.&#xA;Die folgenden Zeichen sind in Layoutnamen nicht gültig:  &lt;&gt;/\&quot;:;?*|,=`"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LAYOUT_ALREADY_EXIST_MESSAGE" devLabel="&#xA;Layout &quot;&quot;%s&quot;&quot; already exists." translation="&#xA;Layout &quot;&quot;%s&quot;&quot; ist bereits vorhanden."/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LOCATION_KWD" devLabel="Type dummy Representation Orientation Hidden Scale Visibility _Type dummy Representation Orientation Hidden Scale Visibility" translation="Type dummy Representation Orientation Hidden Scale Visibility _Type dummy Representation Orientation Hidden Scale Visibility"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LOCATION_KWD2" devLabel="Type sElect dummy Orientation Hidden Scale Visibility _Type sElect dummy Orientation Hidden Scale Visibility" translation="Type sElect dummy Orientation Hidden Scale Visibility _Type sElect dummy Orientation Hidden Scale Visibility"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LOCATION_PROMPT" devLabel="&#xA;Specify location of base view or [Type/Representation/Orientation/Hidden lines/Scale/Visibility] &lt;Type&gt;: " translation="&#xA;Position der Erstansicht wählen oder [Typ/Darstellung/Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit] &lt;Typ&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LOCATION_PROMPT2" devLabel="&#xA;Specify location of base view or [Type/sElect/Orientation/Hidden lines/Scale/Visibility] &lt;Type&gt;: " translation="&#xA;Position der Erstansicht wählen oder [Typ/Wählen/Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit] &lt;Typ&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_LOCATION_PROMPT_FUS" devLabel="&#xA;Place base view " translation="&#xA;Erstansicht platzieren "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MOVE_KWD" devLabel="accept _ACCEPT" translation="übernehmen _ACCEPT"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MOVE_PROMPT" devLabel="&#xA;Specify second point or &lt;use first point as displacement&gt;: " translation="&#xA;Zweiten Punkt angeben oder &lt;ersten Punkt der Verschiebung verwenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_EDIT_SELECTION_KWD" devLabel="Entire LAYout _Entire LAYout" translation="Entire LAYout _Entire LAYout"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_EDIT_SELECTION_PROMPT" devLabel="&#xA;Select objects to add or [Remove/Entire model/LAYout] &lt;return to layout&gt;: " translation="&#xA;Objekte zum Hinzufügen auswählen oder [Entfernen/GEsamtes modell/Layout] &lt;zurück zum layout&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_EDIT_SELECTION_REMOVE_PROMPT" devLabel="&#xA;Select objects to remove or [LAYout]: " translation="&#xA;Zu entfernende Objekte auswählen oder [Layout]: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_NEW_SELECTION_KWD" devLabel="Entire _Entire" translation="Entire _Entire"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_NEW_SELECTION_PROMPT" devLabel="&#xA;Select objects or [Entire model] &lt;Entire model&gt;: " translation="&#xA;Objekte auswählen oder [GEsamtes modell] &lt;Gesamtes modell&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_MS_NEW_SELECTION_REMOVE_PROMPT" devLabel="&#xA;Select objects to remove or [Add]: " translation="&#xA;Zu entfernende Objekte auswählen oder [Hinzufügen]: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_NEW_LAYOUT_PROMPT" devLabel="&#xA;Enter new layout name &lt;%s&gt;: " translation="&#xA;Neuen Layoutnamen &lt;%s&gt; eingeben: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_PROJLOCATION_FIRST_KWD" devLabel="eXit accept _eXit accept" translation="Beenden übernehmen _eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_PROJLOCATION_FIRST_PROMPT" devLabel="&#xA;Specify location of projected view or &lt;eXit&gt;: " translation="&#xA;Position der Projektionsansicht wählen oder &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_PROJLOCATION_KWD" devLabel="Undo eXit accept _Undo eXit accept" translation="Undo eXit accept _Undo eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_PROJLOCATION_NOKWORD_PROMPT" devLabel="&#xA;Place projected view&#xA;Or press Enter" translation="&#xA;Projektionsansicht platzieren&#xA;Oder EINGABETASTE drücken"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_PROJLOCATION_PROMPT" devLabel="&#xA;Specify location of projected view or [Undo/eXit] &lt;eXit&gt;: " translation="&#xA;Position der Projektionsansicht wählen oder [Zurück/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SELECT_FUSION_SOURCE" devLabel="&#xA;Enter Fusion Source File Name [DesignInfo]: " translation="&#xA;Fusion-Quelldateinamen eingeben [DesignInfo]: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SELECT_LAYOUT_KWD" devLabel="? _?" translation="? _?"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SELECT_LAYOUT_PROMPT" devLabel="&#xA;Enter new or existing layout name to make current or [?]%s: " translation="&#xA;Neuen oder vorhandenen Layoutnamen, der als aktuell festgelegt werden soll, eingeben oder [?]%s: "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_BASEANDPROJECTED" devLabel="Base and Projected" translation="Basis und parallel"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_BASEONLY" devLabel="Base only" translation="Nur Basis"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_KWD" devLabel="Base Projected _Base Projected" translation="Basis Parallel _Base Projected"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_KWD1" devLabel="Base only" translation="Nur Basis"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_KWD2" devLabel="Base and Projected" translation="Basis und parallel"/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SETTINGS_PROMPT" devLabel="&#xA;Enter a view creation option [Base only/base and Projected] &lt;%s&gt;: " translation="&#xA;Option für Ansichtserstellung angeben [nur Basis/basis und Parallel] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWCOMPONENT" devLabel="VIEWCOMPONENT" translation="VIEWCOMPONENT"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_CHANGED_MESSAGE" devLabel="&#xA;Section participation changed for %d component(s)." translation="&#xA;Schnittbeteiligung für %d Komponente(n) geändert."/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_DETAIL_MESSAGE" devLabel="&#xA;Cannot change section participation in detail views." translation="&#xA;Schnittbeteiligung in Detailansichten kann nicht geändert werden."/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_EMPTYVIEW_MESSAGE" devLabel="&#xA;Cannot change section participation in empty views." translation="&#xA;Schnittbeteiligung in leeren Ansichten kann nicht geändert werden."/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_KWD" devLabel="None Section sLice _None Section sLice" translation="Keine Schnitt kAppen _None Section sLice"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_NONE_STR" devLabel="None" translation="Keine"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_PROMPT" devLabel="&#xA;Select section participation [None/Section/sLice] &lt;%s&gt;: " translation="&#xA;Schnittbeteiligung auswählen [Keine/Schnitt/kAppen] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_SECTION_STR" devLabel="Section" translation="Schnitt"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_SLICE_STR" devLabel="Slice" translation="Kappen"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OPTION_VARIES_STR" devLabel="varies" translation="variiert"/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_OUTOFDATE_MESSAGE" devLabel="&#xA;Cannot change section participation in out of date views." translation="&#xA;Schnittbeteiligung in veralteten Ansichten kann nicht geändert werden."/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_SEL_PROMPT" devLabel="&#xA;Select component: " translation="&#xA;Komponente auswählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_SEL_REMOVE_PROMPT" devLabel="&#xA;Select component to remove: " translation="&#xA;Zu entfernende Komponente auswählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWCOMP_UNRESLOVED_MESSAGE" devLabel="&#xA;Cannot change section participation in unresolved views." translation="&#xA;Schnittbeteiligung in nicht aufgelösten Ansichten kann nicht geändert werden."/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL" devLabel="VIEWDETAIL" translation="VIEWDETAIL"/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_CURR_SETTINGS_PROMPT" devLabel="&#xA;Boundary = %s  Model edge = %s  Scale = %s" translation="&#xA;Begrenzung = %s Modellkante = %s Maßstab = %s"/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_EMPTY_MESSAGE" devLabel="&#xA;Cannot detail empty views." translation="&#xA;Leere Ansichten können nicht detailliert angezeigt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_OUTOFDATE_MESSAGE" devLabel="&#xA;Cannot detail out of date views." translation="&#xA;Veraltete Ansichten können nicht detailliert angezeigt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_UNRESOLVED_MESSAGE" devLabel="&#xA;Cannot detail unresolved views." translation="&#xA;Nicht aufgelöste Ansichten können nicht detailliert angezeigt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_UNSUPPORTED_MESSAGE" devLabel="&#xA;Cannot detail a detail view." translation="&#xA;Detailansicht kann nicht detailliert angezeigt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWDETAIL_VIEWLOCATION_PROMPT" devLabel="&#xA;Place detail view " translation="&#xA;Detailansicht platzieren "/>
+	<label commandName="IDS_SY_CMD_VIEWEDGE_SELECT_PROMPT" devLabel="&#xA;Select edge" translation="&#xA;Kante auswählen"/>
+	<label commandName="IDS_SY_CMD_VIEWEDGE_SEL_PROMPT" devLabel="&#xA;Select edge: " translation="&#xA;Kante auswählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWEDGE_SEL_REMOVE_PROMPT" devLabel="&#xA;Select edge to remove: " translation="&#xA;Zu entfernende Kante auswählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWEDIT" devLabel="VIEWEDIT" translation="ANSBEARB"/>
+	<label commandName="IDS_SY_CMD_VIEWEDIT_EMPTY_MESSAGE" devLabel="&#xA;Cannot edit empty views." translation="&#xA;Kann keine leeren Ansichten bearbeiten."/>
+	<label commandName="IDS_SY_CMD_VIEWEDIT_RESTORING_MODEL_SEL" devLabel="Restoring model selection.&#xA;" translation="Modellauswahl wird wiederhergestellt.&#xA;"/>
+	<label commandName="IDS_SY_CMD_VIEWEDIT_SEL_PROMPT" devLabel="&#xA;Select view: " translation="&#xA;Ansicht wählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWEDIT_UNRESOLVED_MESSAGE" devLabel="&#xA;Cannot edit unresolved views." translation="&#xA;Nicht aufgelöste Ansichten können nicht bearbeitet werden."/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ" devLabel="VIEWPROJ" translation="ANSPROJ"/>
+	<label commandName="IDS_SY_CMD_VIEWPROJECT_SEL_KEYWORD" devLabel="Select _Select" translation="Auswählen _Select"/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_EMPTY_MESSAGE" devLabel="&#xA;Cannot project empty views." translation="&#xA;Kann keine leeren Ansichten projizieren."/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_OUTOFDATE_MESSAGE" devLabel="&#xA;Cannot project out of date views." translation="&#xA;Veraltete Ansichten können nicht parallel dargestellt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_SEL_KEYWORD" devLabel="Boundary Type Select _Boundary Type Select" translation="Boundary Type Select _Boundary Type Select"/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_SEL_PROMPT" devLabel="&#xA;Select parent view: " translation="&#xA;Übergeordnete Ansicht wählen: "/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_UNRESOLVED_MESSAGE" devLabel="&#xA;Cannot project unresolved views." translation="&#xA;Nicht aufgelöste Ansichten können nicht parallel dargestellt werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION" devLabel="VIEWSECTION" translation="VIEWSECTION"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_CURR_SETTINGS_PROMPT" devLabel="&#xA;Hidden Lines = %s  Scale = %s" translation="&#xA;Verdeckte Linien = %s Maßstab = %s"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_EMPTY_MESSAGE" devLabel="&#xA;Cannot section empty views." translation="&#xA;Leere Ansichten können nicht geschnitten werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_INVALID_CUTPLANE_MESSAGE" devLabel="&#xA;Invalid cutting plane." translation="&#xA;Ungültige Schnittebene."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_KWD1" devLabel="Type Representation Hidden Scale Visibility dummy Annotation hatCh _Type Representation Hidden Scale Visibility dummy Annotation hatCh" translation="Type Representation Hidden Scale Visibility dummy Annotation hatCh _Type Representation Hidden Scale Visibility dummy Annotation hatCh"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_KWD2" devLabel="Type Hidden Scale Visibility dummy Annotation hatCh _Type Hidden Scale Visibility dummy Annotation hatCh" translation="Type Hidden Scale Visibility dummy Annotation hatCh _Type Hidden Scale Visibility dummy Annotation hatCh"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_KWD3" devLabel="Type Representation Hidden Scale Visibility cUt Annotation hatCh _Type Representation Hidden Scale Visibility cUt Annotation hatCh" translation="Type Representation Hidden Scale Visibility cUt Annotation hatCh _Type Representation Hidden Scale Visibility cUt Annotation hatCh"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_KWD4" devLabel="Type Hidden Scale Visibility cUt Annotation hatCh _Type Hidden Scale Visibility cUt Annotation hatCh" translation="Type Hidden Scale Visibility cUt Annotation hatCh _Type Hidden Scale Visibility cUt Annotation hatCh"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_OUTOFDATE_MESSAGE" devLabel="&#xA;Cannot section out of date views." translation="&#xA;Veraltete Ansichten können nicht geschnitten werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_PROMPT1" devLabel="&#xA;Specify start point of section line " translation="&#xA;Startpunkt der Schnittlinie angeben "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_PROMPT2" devLabel="&#xA;Specify start point " translation="&#xA;Startpunkt angeben "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_PROMPT3" devLabel="&#xA;Specify start point " translation="&#xA;Startpunkt angeben "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_PROMPT4" devLabel="&#xA;Specify start point " translation="&#xA;Startpunkt angeben "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_SELECT_CUTPLANE_KWD" devLabel="Done _Done" translation="Done _Done"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_SELECT_CUTPLANE_PROMPT" devLabel="&#xA;Select objects or [Done] &lt;Done&gt;: " translation="&#xA;Objekte auswählen oder [Fertig] &lt;Fertig&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_SELECT_CUTPLANE_REMOVE_PROMPT" devLabel="&#xA;Remove objects or [Done] &lt;Done&gt;: " translation="&#xA;Objekte entfernen oder [Fertig] &lt;Fertig&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_TYPE_KWD" devLabel="Full Half OFfset Aligned OBject eXit _Full Half OFfset Aligned OBject eXit" translation="Full Half OFfset Aligned OBject eXit _Full Half OFfset Aligned OBject eXit"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_TYPE_PROMPT" devLabel="&#xA;Select type [Full/Half/OFfset/Aligned/OBject/eXit] &lt;eXit&gt;: " translation="&#xA;Typ auswählen [Ganz/Halb/Versatz/Ausgerichtet/Objekt/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_UNRESOLVED_MESSAGE" devLabel="&#xA;Cannot section unresolved views." translation="&#xA;Nicht aufgelöste Ansichten können nicht geschnitten werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_UNSUPPORTED_MESSAGE" devLabel="&#xA;Cannot section a detail view." translation="&#xA;Detailansicht kann nicht geschnitten werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_VIEWLOCATION_DYNINPUT_PROMPT" devLabel="&#xA;Press Shift to cycle between:&#xA; - Maintain alignment&#xA; - Break alignment" translation="&#xA;UMSCHALTTASTE drücken, um zwischen Folgendem zu wechseln:&#xA; - Ausrichtung beibehalten&#xA; - Ausrichtung aufheben"/>
+	<label commandName="IDS_SY_CMD_VIEWSECTION_VIEWLOCATION_PROMPT" devLabel="&#xA;Place section view." translation="&#xA;Schnittansicht platzieren."/>
+	<label commandName="IDS_SY_CMD_VIEWSETPROJ" devLabel="VIEWSETPROJ" translation="ANSEINSTPROJ"/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH" devLabel="VIEWSYMBOLSKETCH" translation="VIEWSYMBOLSKETCH"/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCHCLOSE" devLabel="VIEWSKETCHCLOSE" translation="VIEWSKETCHCLOSE"/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCHCLOSE_NOT_IN_SKETCHMODE" devLabel="&#xA;This command is only supported after using the VIEWSYMBOLSKETCH command to create view specific geometry." translation="&#xA;Dieser Befehl wird erst nach Verwendung des Befehls ANSSYMBOLSKZ zum Erstellen der ansichtsspezifischen Geometrie unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH_MSG_DIRTY" devLabel="&#xA;Cannot edit section or detail symbol for out of date view." translation="&#xA;Schnitt- oder Detailsymbol für veraltete Ansicht kann nicht bearbeitet werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH_MSG_EMPTY" devLabel="&#xA;Cannot edit section or detail symbol for empty view." translation="&#xA;Schnitt- oder Detailsymbol für leere Ansicht kann nicht bearbeitet werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH_MSG_NOTSYMBOL" devLabel="&#xA;Object selected is not a section or detail symbol." translation="&#xA;Das ausgewählte Objekt ist kein Schnitt- oder Detailsymbol."/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH_MSG_UNRESOLVED" devLabel="&#xA;Cannot edit section or detail symbol for unresolved view." translation="&#xA;Schnitt- oder Detailsymbol für nicht aufgelöste Ansicht kann nicht bearbeitet werden."/>
+	<label commandName="IDS_SY_CMD_VIEWSKETCH_SEL_PROMPT" devLabel="&#xA;Select a section or detail symbol:" translation="&#xA;Schnitt- oder Detailsymbol auswählen:"/>
+	<label commandName="IDS_SY_CMD_VIEWSTD" devLabel="VIEWSTD" translation="ANSSTD"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_FROMBASE" devLabel="From parent" translation="Vom übergeordneten Objekt"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_SHADED_HIDDENEDGES" devLabel="Shaded with visible and hidden lines" translation="Schattiert mit sichtbaren und verdeckten Linien"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_SHADED_VISIBLEEDGES" devLabel="Shaded with visible lines" translation="Schattiert mit sichtbaren Linien"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_WIREFRAME_HIDDENEDGES" devLabel="Visible and hidden lines" translation="Sichtbare und verdeckte Linien"/>
+	<label commandName="IDS_SY_CMD_VIEWSTYLE_WIREFRAME_VISIBLEEDGES" devLabel="Visible lines" translation="Sichtbare Linien"/>
+	<label commandName="IDS_SY_CMD_VIEWUPDATE" devLabel="VIEWUPDATE" translation="ANSAKT"/>
+	<label commandName="IDS_SY_CMD_VIEWUPDATE_MESSAGE" devLabel="&#xA;%d Annotations no longer associated." translation="&#xA;%d Beschriftungen nicht mehr zugeordnet."/>
+	<label commandName="IDS_SY_CMD_VIEWUPDATE_MESSAGE3" devLabel="&#xA;%d view(s) updated successfully." translation="&#xA;%d Ansicht(en) erfolgreich aktualisiert."/>
+	<label commandName="IDS_SY_CMD_VIEWUPDATE_PROMPT" devLabel="&#xA;Select view to update: " translation="&#xA;Zu aktualisierende Ansicht wählen: "/>
+	<label commandName="IDS_SY_CMD_VIEW_ANNOTATION_HATCH_PROMPT" devLabel="&#xA;Show hatching [Yes/No] &lt;%s&gt;: " translation="&#xA;Schraffur anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_ANNOTATION_KWD" devLabel="Identifier Label eXit accept _Identifier Label eXit accept" translation="Identifier Label eXit accept _Identifier Label eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_ANNOTATION_KWD2" devLabel="Identifier Label eXit accept _Identifier Label eXit accept" translation="Identifier Label eXit accept _Identifier Label eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_ANNOTATION_PROMPT" devLabel="&#xA;Select annotation [Identifier/Label/eXit] &lt;eXit&gt;: " translation="&#xA;Beschriftung auswählen [Kennung/Beschriftung/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_ANNOTATION_PROMPT2" devLabel="&#xA;Select annotation [Identifier/Label/eXit] &lt;eXit&gt;: " translation="&#xA;Beschriftung auswählen [Kennung/Beschriftung/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_AUXILIARYVIEWCREATED_MESSAGE" devLabel="&#xA;Auxiliary view created successfully." translation="&#xA;Hilfsansicht erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_BASEPROJNOOBJECTSELECTED_MESSAGE" devLabel="No model objects exist in model space" translation="Im Modellbereich sind keine Modellobjekte vorhanden"/>
+	<label commandName="IDS_SY_CMD_VIEW_BASEPROJVIEWSCREATED_MESSAGE" devLabel="&#xA;Base and %d projected view(s) created successfully." translation="&#xA;Erste und %d Projektionsansicht(en) erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_BASEVIEWSCREATED_MESSAGE" devLabel="&#xA;Base view created successfully." translation="&#xA;Erstansicht erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_BOUNDARY_KWD" devLabel="Circular Rectangular eXit accept _Circular Rectangular eXit accept" translation="Circular Rectangular eXit accept _Circular Rectangular eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_BOUNDARY_PROMPT" devLabel="&#xA;Select boundary type [Circular/Rectangular/eXit] &lt;%s&gt;: " translation="&#xA;Umgrenzungstyp auswählen [Kreisförmig/REchteckig/Beenden] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_CUSTOM_UP_KWD" devLabel="Undo _Undo" translation="Zurück _Undo"/>
+	<label commandName="IDS_SY_CMD_VIEW_CUSTOM_UP_PROMPT" devLabel="&#xA;Specify up vector or [Undo]" translation="&#xA;Geben Sie den Vektor nach oben an oder [Rückgängig]"/>
+	<label commandName="IDS_SY_CMD_VIEW_CUSTOM_UP_VECTOR_ERROR" devLabel="&#xA;Cannot parallel to view direction." translation="&#xA;Parallelität zur Ansichtsrichtung nicht möglich."/>
+	<label commandName="IDS_SY_CMD_VIEW_CUSTOM_VIEWDIR_PROMPT" devLabel="&#xA;Specify view direction" translation="&#xA;Ansichtsrichtung angeben"/>
+	<label commandName="IDS_SY_CMD_VIEW_CUSTOM_ZERO_VECTOR_ERROR" devLabel="&#xA;A non-zero vector is needed." translation="&#xA;Ein Vektor ungleich null wird benötigt."/>
+	<label commandName="IDS_SY_CMD_VIEW_DEPTH_FULLDEPTH_STR" devLabel="Full" translation="Ganz"/>
+	<label commandName="IDS_SY_CMD_VIEW_DEPTH_KWD" devLabel="Full Slice accept _Full Slice accept" translation="Full Slice accept _Full Slice accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_DEPTH_PROMPT" devLabel="&#xA;Specify section depth [Full/Slice] &lt;%s&gt;: " translation="&#xA;Schnitttiefe angeben [Ganz/Scheibe] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_DETAILVIEWCREATED_MESSAGE" devLabel="&#xA;Detail view created successfully." translation="&#xA;Detailansicht erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_FUSION_PATH_PROMPT" devLabel="&#xA;Enter Autodesk Fusion model folder path: " translation="&#xA;Geben Sie den Ordnerpfad des Autodesk Fusion-Modells an: "/>
+	<label commandName="IDS_SY_CMD_VIEW_IDENTIFIER_PROMPT" devLabel="&#xA;Specify the identifier &lt;%s&gt;: " translation="&#xA;Kennung angeben &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_KWD" devLabel="Template Show eXit accept _Template Show eXit accept" translation="Template Show eXit accept _Template Show eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_KWD2" devLabel="Yes No accept _Yes No accept" translation="Yes No accept _Yes No accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_NOTSUPPORTED_MESSAGE1" devLabel="&#xA;This template type is not supported by the model." translation="&#xA;Dieser Vorlagentyp wird vom Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_NOTSUPPORTED_MESSAGE2" devLabel="&#xA;Cannot find label template &quot;%s&quot;." translation="&#xA;Kann Beschriftungsvorlage &quot;%s&quot; nicht finden."/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_NOTSUPPORTED_MESSAGE3" devLabel="&#xA;Incorrect identifier name &quot;%s&quot;." translation="&#xA;Falscher Kennungsname &quot;%s&quot;."/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_PROMPT" devLabel="&#xA;Select label option [Template/Show label/eXit] &lt;eXit&gt;: " translation="&#xA;Beschriftungsoption auswählen [Vorlage/Beschriftung anzeigen/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_PROMPT2" devLabel="&#xA;Show view label [Yes/No] &lt;%s&gt;: " translation="&#xA;Ansichtsbeschriftung anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_LABEL_TEMPLATE_PROMPT" devLabel="&#xA;Enter label template to use or  [?] &lt;%s&gt;: " translation="&#xA;Zu verwendende Beschriftungsvorlage eingeben oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_MODELEDGE_KWD" devLabel="Smooth Border Connection Jagged eXit accept _Smooth Border Connection Jagged eXit accept" translation="Smooth Border Connection Jagged eXit accept _Smooth Border Connection Jagged eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_MODELEDGE_PROMPT" devLabel="&#xA;Specify model edge type [Smooth/smooth with Border/smooth with Connection line/Jagged/eXit] &lt;%s&gt;: " translation="&#xA;Modellkantentyp angeben [GLatt/glatt mit Rahmen/glatt mit Verbindungslinie/GEzackt/Beenden] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD1" devLabel="Representation Orientation Hidden Scale Visibility Move eXit accept _Representation Orientation Hidden Scale Visibility Move eXit accept" translation="Representation Orientation Hidden Scale Visibility Move eXit accept _Representation Orientation Hidden Scale Visibility Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD10" devLabel="Boundary Hidden Scale Visibility Edge Annotation hatCh eXit accept _Boundary Hidden Scale Visibility Edge Annotation hatCh eXit accept" translation="Boundary Hidden Scale Visibility Edge Annotation hatCh eXit accept _Boundary Hidden Scale Visibility Edge Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD11" devLabel="sElect Orientation Hidden Scale Visibility Move eXit accept _sElect Orientation Hidden Scale Visibility Move eXit accept" translation="sElect Orientation Hidden Scale Visibility Move eXit accept _sElect Orientation Hidden Scale Visibility Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD12" devLabel="sElect Hidden Scale Visibility eXit accept _sElect Hidden Scale Visibility eXit accept" translation="sElect Hidden Scale Visibility eXit accept _sElect Hidden Scale Visibility eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD13" devLabel="Hidden Scale Visibility hatCh eXit accept _Hidden Scale Visibility hatCh eXit accept" translation="Hidden Scale Visibility hatCh eXit accept _Hidden Scale Visibility hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD14" devLabel="Representation Hidden Scale Visibility hatCh eXit accept _Representation Hidden Scale Visibility hatCh eXit accept" translation="Representation Hidden Scale Visibility hatCh eXit accept _Representation Hidden Scale Visibility hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD15" devLabel="Boundary Hidden Scale Visibility Edge Annotation eXit accept _Boundary Hidden Scale Visibility Edge Annotation eXit accept" translation="Boundary Hidden Scale Visibility Edge Annotation eXit accept _Boundary Hidden Scale Visibility Edge Annotation eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD16" devLabel="Boundary Representation Hidden Scale Visibility Edge Annotation eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation eXit accept" translation="Boundary Representation Hidden Scale Visibility Edge Annotation eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD17" devLabel="Depth Projection Hidden Scale Visibility cUt Annotation hatCh Move eXit accept _Depth Projection Hidden Scale Visibility cUt Annotation hatCh Move eXit accept" translation="Depth Projection Hidden Scale Visibility cUt Annotation hatCh Move eXit accept _Depth Projection Hidden Scale Visibility cUt Annotation hatCh Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD18" devLabel="Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh Move eXit accept _Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh Move eXit accept" translation="Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh Move eXit accept _Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD19" devLabel="Orientation Hidden Scale Visibility cUt Move eXit accept _Orientation Hidden Scale Visibility cUt Move eXit accept" translation="Orientation Hidden Scale Visibility cUt Move eXit accept _Orientation Hidden Scale Visibility cUt Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD2" devLabel="Representation Hidden Scale Visibility eXit accept _Representation Hidden Scale Visibility eXit accept" translation="Representation Hidden Scale Visibility eXit accept _Representation Hidden Scale Visibility eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD20" devLabel="Representation Orientation Hidden Scale Visibility cUt Move eXit accept _Representation Orientation Hidden Scale Visibility cUt Move eXit accept" translation="Representation Orientation Hidden Scale Visibility cUt Move eXit accept _Representation Orientation Hidden Scale Visibility cUt Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD21" devLabel="Depth Projection Hidden Scale Visibility cUt Annotation hatCh eXit accept _Depth Projection Hidden Scale Visibility cUt Annotation hatCh eXit accept" translation="Depth Projection Hidden Scale Visibility cUt Annotation hatCh eXit accept _Depth Projection Hidden Scale Visibility cUt Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD22" devLabel="Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh eXit accept _Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh eXit accept" translation="Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh eXit accept _Depth Projection Representation Hidden Scale Visibility cUt Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD23" devLabel="Hidden Scale Visibility cUt hatCh eXit accept _Hidden Scale Visibility cUt hatCh eXit accept" translation="Hidden Scale Visibility cUt hatCh eXit accept _Hidden Scale Visibility cUt hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD24" devLabel="Representation Hidden Scale Visibility cUt hatCh eXit accept _Representation Hidden Scale Visibility cUt hatCh eXit accept" translation="Representation Hidden Scale Visibility cUt hatCh eXit accept _Representation Hidden Scale Visibility cUt hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD25" devLabel="Hidden Scale Visibility cUt eXit accept _Hidden Scale Visibility cUt eXit accept" translation="Hidden Scale Visibility cUt eXit accept _Hidden Scale Visibility cUt eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD26" devLabel="Representation Hidden Scale Visibility cUt eXit accept _Representation Hidden Scale Visibility cUt eXit accept" translation="Representation Hidden Scale Visibility cUt eXit accept _Representation Hidden Scale Visibility cUt eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD3" devLabel="Depth Projection Representation Hidden Scale Visibility Annotation hatCh Move eXit accept _Depth Projection Representation Hidden Scale Visibility Annotation hatCh Move eXit accept" translation="Depth Projection Representation Hidden Scale Visibility Annotation hatCh Move eXit accept _Depth Projection Representation Hidden Scale Visibility Annotation hatCh Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD4" devLabel="Depth Projection Representation Hidden Scale Visibility Annotation hatCh eXit accept _Depth Projection Representation Hidden Scale Visibility Annotation hatCh eXit accept" translation="Depth Projection Representation Hidden Scale Visibility Annotation hatCh eXit accept _Depth Projection Representation Hidden Scale Visibility Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD5" devLabel="Boundary Representation Hidden Scale Visibility Edge Annotation Move eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation Move eXit accept" translation="Boundary Representation Hidden Scale Visibility Edge Annotation Move eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD6" devLabel="Boundary Representation Hidden Scale Visibility Edge Annotation hatCh eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation hatCh eXit accept" translation="Boundary Representation Hidden Scale Visibility Edge Annotation hatCh eXit accept _Boundary Representation Hidden Scale Visibility Edge Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD7" devLabel="Depth Projection Hidden Scale Visibility Annotation hatCh Move eXit accept _Depth Projection Hidden Scale Visibility Annotation hatCh Move eXit accept" translation="Depth Projection Hidden Scale Visibility Annotation hatCh Move eXit accept _Depth Projection Hidden Scale Visibility Annotation hatCh Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD8" devLabel="Depth Projection Hidden Scale Visibility Annotation hatCh eXit accept _Depth Projection Hidden Scale Visibility Annotation hatCh eXit accept" translation="Depth Projection Hidden Scale Visibility Annotation hatCh eXit accept _Depth Projection Hidden Scale Visibility Annotation hatCh eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_KWD9" devLabel="Boundary Hidden Scale Visibility Edge Annotation Move eXit accept _Boundary Hidden Scale Visibility Edge Annotation Move eXit accept" translation="Boundary Hidden Scale Visibility Edge Annotation Move eXit accept _Boundary Hidden Scale Visibility Edge Annotation Move eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT1" devLabel="&#xA;Select option [Representation/Orientation/Hidden lines/Scale/Visibility/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit/Verschieben/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT10" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/beGrenzung/mOdellkante/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT11" devLabel="&#xA;Select option [sElect/Orientation/Hidden lines/Scale/Visibility/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [aUswählen/Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit/Verschieben/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT12" devLabel="&#xA;Select option [sElect/Hidden lines/Scale/Visibility/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [aUswählen/verdeckte Linien/Maßstab/Sichtbarkeit/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT13" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/schRaffur/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT14" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/schRaffur/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT15" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/beGrenzung/mOdellkante/Beschriftung/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT16" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/beGrenzung/mOdellkante/Beschriftung/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT17" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/cUt/Projection/Depth/Annotation/hatCh/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Projektion/Tiefe/Beschriftung/schRaffur/Verschieben/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT18" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/cUt/Projection/Depth/Annotation/hatCh/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Projektion/Tiefe/Beschriftung/schRaffur/Verschieben/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT19" devLabel="&#xA;Select option [Orientation/Hidden lines/Scale/Visibility/cUt/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit/aussChneiden/Verschieben/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT2" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT20" devLabel="&#xA;Select option [Representation/Orientation/Hidden lines/Scale/Visibility/cUt/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/Ausrichtung/verdeckte Linien/Maßstab/Sichtbarkeit/aussChneiden/Verschieben/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT21" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/cUt/Projection/Depth/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Projektion/Tiefe/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT22" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/cUt/Projection/Depth/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Projektion/Tiefe/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT23" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/cUt/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT24" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/cUt/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT25" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/cUt/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT26" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/cUt/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Ausschneiden/Beenden] &lt;Beenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT3" devLabel="" translation=""/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT4" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/Projection/Depth/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/Projektion/Tiefe/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT5" devLabel="" translation=""/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT6" devLabel="&#xA;Select option [Representation/Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [Darstellung/verdeckte Linien/Maßstab/Sichtbarkeit/beGrenzung/mOdellkante/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT7" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/Projection/Depth/Annotation/hatCh/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Projektion/Tiefe/Beschriftung/schRaffur/Verschieben/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT8" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/Projection/Depth/Annotation/hatCh/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/Projektion/Tiefe/Beschriftung/schRaffur/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_OPTIONS_PROMPT9" devLabel="&#xA;Select option [Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/Move/eXit] &lt;eXit&gt;: " translation="&#xA;Option auswählen [verdeckte Linien/Maßstab/Sichtbarkeit/beGrenzung/mOdellkante/Beschriftung/Verschieben/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_BACK" devLabel="Back" translation="Zurück"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_BOTTOM" devLabel="Bottom" translation="Unten"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_CUSTOM_NOTSUPPORTED_MESSAGE" devLabel="&#xA;Custom is not supported by the model." translation="&#xA;Benutzerdefiniert wird von diesem Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_FRONT" devLabel="Front" translation="Vorne"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_KWD" devLabel="Current Top Bottom Left Right Front BAck SW SE NE NW cuStom accept _Current Top Bottom Left Right Front BAck SW SE NE NW cuStom accept" translation="aKtuell Oben Unten Links Rechts Vorn Hinten SW SO NO NW Benutzerdefiniert Übernehmen _Current Top Bottom Left Right Front BAck SW SE NE NW cuStom accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_LEFT" devLabel="Left" translation="Links"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_NE" devLabel="NE is" translation="NO ist"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_NW" devLabel="NW is" translation="NW ist"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_PROMPT" devLabel="&#xA;Select orientation [Current/Top/Bottom/Left/Right/Front/BAck/SW iso/SE iso/NE iso/NW iso/cuStom] &lt;%s&gt;: " translation="&#xA;Ausrichtung auswählen [aKtuell/Oben/Unten/Links/Rechts/Vorn/Hinten/SW iso/SO iso/NO iso/NW iso/Benutzerdefiniert] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_RIGHT" devLabel="Right" translation="Rechts"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_SE" devLabel="SE is" translation="SO ist"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_SW" devLabel="SW is" translation="SW ist"/>
+	<label commandName="IDS_SY_CMD_VIEW_ORIENT_TOP" devLabel="Top" translation="Oben"/>
+	<label commandName="IDS_SY_CMD_VIEW_PROJECTION_KWD" devLabel="Normal Orthogonal accept _Normal Orthogonal accept" translation="Normal Orthogonal accept _Normal Orthogonal accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_PROJECTION_NOTSUPPORTED_MESSAGE" devLabel="&#xA;Normal projection is not supported by a full section view." translation="&#xA;Normale Projektion wird von einer Vollschnittansicht nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_PROJECTION_PROMPT" devLabel="&#xA;Select projection method [Normal/Orthogonal] &lt;%s&gt;: " translation="&#xA;Projektionsmethode auswählen [Normal/Orthogonal] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_PROJECTION_SELFINTERSECT_MESSAGE" devLabel="&#xA;Self intersecting lines are not valid for orthogonal projection" translation="&#xA;Sich selbst schneidende Linien stehen für die orthogonale Projektion nicht zur Verfügung"/>
+	<label commandName="IDS_SY_CMD_VIEW_PROJVIEWSCREATED_MESSAGE" devLabel="&#xA;%d projected view(s) created successfully." translation="&#xA;%d Projektionsansicht(en) erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_REPRESENTATION_KWD" devLabel="Design POsitional Level Weldment Member Sheet PResentation eXit accept _Design POsitional Level Weldment Member Sheet PResentation eXit accept" translation="Design POsitional Level Weldment Member Sheet PResentation eXit accept _Design POsitional Level Weldment Member Sheet PResentation eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_REPRESENTATION_PROMPT" devLabel="&#xA;Select type [Design view/POsitional/Level of detail/Weldment/Member/Sheet metal/PResentation/eXit] &lt;eXit&gt;: " translation="&#xA;Typ wählen [Konstruktionsansicht/Position/Detailgenauigkeit/Schweißkonstruktion/bestAndteil/Blech/PRäsentation/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_DESIGNVIEW_PROMPT" devLabel="&#xA;Select design view or [?] &lt;%s&gt;: " translation="&#xA;Konstruktionsansicht wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_LOD_PROMPT" devLabel="&#xA;Select level of detail or [?] &lt;%s&gt;: " translation="&#xA;Detailgenauigkeit wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_MEMBER_PROMPT" devLabel="&#xA;Select member or [?] &lt;%s&gt;: " translation="&#xA;Bestandteil wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_NOTSUPPORTED_MESSAGE" devLabel="&#xA;This representation type is not supported by the model." translation="&#xA;Diese Darstellung wird durch das Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_NOTSUPPORTED_MESSAGE2" devLabel="&#xA;Representations are not supported by the model." translation="&#xA;Darstellungen werden durch das Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_NOTSUPPORTED_MESSAGE3" devLabel="&#xA;This representation type is not supported by the model." translation="&#xA;Diese Darstellung wird durch das Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_POSREPR_PROMPT" devLabel="&#xA;Select positional representation or [?] &lt;%s&gt;: " translation="&#xA;Positionsdarstellung wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_PRESENTATION_PROMPT" devLabel="&#xA;Select presentation or [?] &lt;%s&gt;: " translation="&#xA;Präsentation wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_SHEETMETAL_PROMPT" devLabel="&#xA;Select sheet metal or [?] &lt;%s&gt;: " translation="&#xA;Blech wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_REPR_WELDMENT_PROMPT" devLabel="&#xA;Select weldment or [?] &lt;%s&gt;: " translation="&#xA;Schweißkonstruktion wählen oder [?] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_SCALE_FROM_KWD" devLabel="From accept _From accept" translation="From accept _From accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_SCALE_FROM_PROMPT" devLabel="&#xA;Enter scale or [From parent] &lt;%s&gt;: " translation="&#xA;Maßstab eingeben oder [Vom übergeordneten Element] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_SCALE_KWD" devLabel="accept _ACCEPT" translation="accept _ACCEPT"/>
+	<label commandName="IDS_SY_CMD_VIEW_SCALE_PROMPT" devLabel="&#xA;Enter scale &lt;%s&gt;: " translation="&#xA;Maßstab eingeben &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_SECTIONVIEWCREATED_MESSAGE" devLabel="&#xA;Section view created successfully." translation="&#xA;Schnittansicht erfolgreich erstellt."/>
+	<label commandName="IDS_SY_CMD_VIEW_SECTION_CUT_PROMPT" devLabel="&#xA;Inherit section cut [Yes/No] &lt;%s&gt;: " translation="&#xA;Schnitt übernehmen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_BOTH_MESSAGE" devLabel="&#xA;%d view(s) is up to date, %d view(s) is unresolved." translation="&#xA;%d Ansicht(en) ist/sind auf dem neuesten Stand,%d Ansicht(en) ist/sind nicht aufgelöst."/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_CANNOT_PROJ_DETAIL_VIEW" devLabel="&#xA;Cannot project a detail view." translation="&#xA;Detailansicht kann nicht projiziert werden."/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_DUPLICATE_MESSAGE" devLabel="%d found (%d duplicate), %d total" translation="%d gefunden (%d doppelt), %d gesamt"/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_FOUNDFILTERED_MESSAGE" devLabel="%d found, %d filtered" translation="%d gefunden, %d gefiltert"/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_FOUNDTOTAL_MESSAGE" devLabel="%d found, %d total" translation="%d gefunden, %d gesamt"/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_FOUND_MESSAGE" devLabel="%d found" translation="%d gefunden"/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_FOUND_RELATED_TOTAL_MESSAGE" devLabel="%d found (%d related views), %d total" translation="%d gefunden (%d verknüpfte Ansichten), %d gesamt"/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_LOCKEDLAYER_MESSAGE" devLabel="&#xA;1 was on a locked layer." translation="&#xA;1 war auf einem gesperrten Layer."/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_UNRESOLVED_MESSAGE" devLabel="&#xA;%d view(s) is unresolved." translation="&#xA;%d Ansicht(en) ist/sind nicht aufgelöst."/>
+	<label commandName="IDS_SY_CMD_VIEW_SEL_UPTODATE_MESSAGE" devLabel="&#xA;%d view(s) is up to date." translation="&#xA;%d Ansicht(en) ist/sind auf dem neuesten Stand."/>
+	<label commandName="IDS_SY_CMD_VIEW_SOURCE_KWD" devLabel="Model fuSion File accept _Model fuSion File accept accept" translation="Modell Fusion Datei Übernehmen _Model fuSion File accept accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_SOURCE_PROMPT" devLabel="&#xA;Specify model source [Model space/File] &lt;%s&gt;: " translation="&#xA;Modellquelle angeben [Modellbereich/Datei] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_SOURCE_PROMPT2" devLabel="File" translation="Datei"/>
+	<label commandName="IDS_SY_CMD_VIEW_SOURCE_PROMPT3" devLabel="Model space" translation="Modellbereich"/>
+	<label commandName="IDS_SY_CMD_VIEW_STRINGOPT_KWD" devLabel="? accept _? accept" translation="? übernehmen _? accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_STYLE_FROM_KWD" devLabel="Visible vIsible Shaded sHaded From accept _Visible vIsible Shaded sHaded From accept" translation="Visible vIsible Shaded sHaded From accept _Visible vIsible Shaded sHaded From accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_STYLE_FROM_PROMPT" devLabel="&#xA;Select style [Visible lines/vIsible and hidden lines/Shaded with visible lines/sHaded with visible and hidden lines/From parent] &lt;%s&gt;: " translation="&#xA;Stil wählen [SIchtbare linien/sichtbare und Verdeckte linien/SChattiert mit sichtbaren linien/schaTTiert mit sichtbaren und verdeckten linien/vom übergeordneten Objekt] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_STYLE_KWD" devLabel="Visible vIsible Shaded sHaded accept _Visible vIsible Shaded sHaded accept" translation="Visible vIsible Shaded sHaded accept _Visible vIsible Shaded sHaded accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_STYLE_PROMPT" devLabel="&#xA;Select style [Visible lines/vIsible and hidden lines/Shaded with visible lines/sHaded with visible and hidden lines] &lt;%s&gt;: " translation="&#xA;Stil wählen [SIchtbare linien/sichtbare und Verdeckte linien/SChattiert mit sichtbaren linien/schaTTiert mit sichtbaren und verdeckten linien] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_BENDEXTENDS_PROMPT" devLabel="&#xA;Display bend extents [Yes/No] &lt;%s&gt;: " translation="&#xA;Biegungsenden anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_FORESHORTENED_PROMPT" devLabel="&#xA;Display tangent edges foreshortened [Yes/No] &lt;%s&gt;: " translation="&#xA;Tangentiale Kanten verkürzt anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_INTERFEDGES_PROMPT" devLabel="&#xA;Display interference edges [Yes/No] &lt;%s&gt;: " translation="&#xA;Überlagernde Kanten anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_KWD" devLabel="Interference TAngent Bend THread Presentation eXit accept _Interference TAngent Bend THread Presentation eXit accept" translation="Interference TAngent Bend THread Presentation eXit accept _Interference TAngent Bend THread Presentation eXit accept"/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_NO" devLabel="No" translation="Nein"/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_NOTSUPPORTED_MESSAGE" devLabel="&#xA;This visibility type is not supported by the model." translation="&#xA;Dieser Sichtbarkeitstyp wird vom Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_PRESENTTRAINLS_PROMPT" devLabel="&#xA;Display presentation trails [Yes/No] &lt;%s&gt;: " translation="&#xA;Präsentationspfade anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_PROMPT" devLabel="&#xA;Select type [Interference edges/TAngent edges/Bend extents/THread features/Presentation trails/eXit] &lt;eXit&gt;: " translation="&#xA;Typ wählen [Überlagernde kanten/Tangentiale kanten/Biegungsenden/Gewindeelemente/Präsentationspfade/bEenden] &lt;bEenden&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_TANEDGES_PROMPT" devLabel="&#xA;Display tangent edges [Yes/No] &lt;%s&gt;: " translation="&#xA;Tangentiale Kanten anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_THREADFEAT_PROMPT" devLabel="&#xA;Display thread features [Yes/No] &lt;%s&gt;: " translation="&#xA;Gewindeelemente anzeigen [Ja/Nein] &lt;%s&gt;: "/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_YES" devLabel="Yes" translation="Ja"/>
+	<label commandName="IDS_SY_CMD_VIEW_VISIBILITY_YESNO_KWD" devLabel="Yes No accept _Yes No accept" translation="Yes No accept _Yes No accept"/>
+	<label commandName="IDS_SY_CMD__VIEW_ORIENT_NOTSUPPORTED_MESSAGE" devLabel="&#xA;Current is not supported by the model." translation="&#xA;Aktuell wird vom Modell nicht unterstützt."/>
+	<label commandName="IDS_SY_EXIT_VIEWSKETCH_MENUNAME" devLabel="Finish Symbol Sketch" translation="Symbolskizze fertig stellen"/>
+	<label commandName="IDS_SY_FILTER_OUT_OF_DATE_VIEW_FROM_ROTATE" devLabel="&#xA;Cannot rotate out of date views.&#xA;" translation="&#xA;Drehen außerhalb der Datumsansichten nicht möglich.&#xA;"/>
+	<label commandName="IDS_SY_LAST_ACTIVE_DESIGN_VIEW" devLabel="Last Active" translation="Zuletzt aktive"/>
+	<label commandName="IDS_SY_MFGRIP_BREAKALIGN1" devLabel="Break Alignment" translation="Ausrichtung aufheben"/>
+	<label commandName="IDS_SY_MFGRIP_MOVE1" devLabel="Move" translation="Verschieben"/>
+	<label commandName="IDS_SY_MFGRIP_REPAIRALIGN1" devLabel="Repair Alignment" translation="Ausrichtung ausgleichen"/>
+	<label commandName="IDS_SY_MFGRIP_ROTATE1" devLabel="Rotate" translation="Drehen"/>
+	<label commandName="IDS_SY_MFGRIP_ROTATE3" devLabel="&#xA;** ROTATE **" translation="&#xA;** DREHEN **"/>
+	<label commandName="IDS_SY_MFGRIP_ROTATE4" devLabel="&#xA;Specify rotation angle or [Base point/Copy/Undo/Reference/eXit]" translation="&#xA;Drehwinkel angeben oder [Basispunkt/Kopieren/Zurück/BEzug/bEenden]:"/>
+	<label commandName="IDS_SY_MSG_EMPTY_INVENTOR_FILE" devLabel="&#xA;Cannot create drawing views for Autodesk Inventor file %s. The file may be empty or contain only 2D sketch." translation="&#xA;Zeichnungsansichten für Autodesk Inventor-Datei %s können nicht erstellt werden. Die Datei ist möglicherweise leer oder enthält nur 2D-Skizzen."/>
+	<label commandName="IDS_SY_MSG_INVALID_FILE" devLabel="File not found or invalid filename.&#xA;" translation="Datei nicht gefunden oder ungültiger Dateiname.&#xA;"/>
+	<label commandName="IDS_SY_MSG_INVALID_FUSION_MODEL" devLabel="Fusion model not found or invalid model data.&#xA;" translation="Fusion-Modell nicht gefunden oder ungültige Modelldaten.&#xA;"/>
+	<label commandName="IDS_SY_MSG_INVALID_GENERAL_FILE" devLabel="&#xA;Invalid file %s" translation="&#xA;Ungültige Datei %s"/>
+	<label commandName="IDS_SY_MSG_INVALID_IASSEMBLY_MEMBER" devLabel="&#xA;Could not create view of iAssembly member. Unable to find a valid row in the iAssembly factory table. Select the iAssembly factory file and choose the appropriate member for your view." translation="&#xA;Es konnte keine Ansicht des iAssembly-Elements erstellt werden. In der iAssembly-Teilefamilientabelle wurde keine gültige Zeile gefunden. Wählen Sie die iAssembly-Teilefamiliendatei und anschließend das entsprechende Element für die Ansicht aus."/>
+	<label commandName="IDS_SY_MSG_INVALID_INVENTOR_FILE" devLabel="&#xA;Invalid Autodesk Inventor file %s" translation="&#xA;Ungültige Autodesk Inventor-Datei %s"/>
+	<label commandName="IDS_SY_MSG_INVALID_IPART_MEMBER" devLabel="&#xA;Could not create view of iPart member. Unable to find a valid row in the iPart factory table. Select the iPart factory file and choose the appropriate member for your view." translation="&#xA;Es konnte keine Ansicht des iPart-Elements erstellt werden. In der iPart-Teilefamilientabelle wurde keine gültige Zeile gefunden. Wählen Sie die iPart-Teilefamiliendatei und anschließend das entsprechende Element für die Ansicht aus."/>
+	<label commandName="IDS_SY_MSG_LOADING_INV" devLabel="Loading Model Documentation DLLs." translation="Modelldokumentations-DLLs werden geladen."/>
+	<label commandName="IDS_SY_RIBBON_DEPTH_TYPE1" devLabel="Full" translation="Ganz"/>
+	<label commandName="IDS_SY_RIBBON_DEPTH_TYPE2" devLabel="Distance" translation="Abstand"/>
+	<label commandName="IDS_SY_RIBBON_DEPTH_TYPE3" devLabel="Slice" translation="Kappen"/>
+	<label commandName="IDS_SY_RIBBON_PROJECTION_TYPE1" devLabel="Normal" translation="Normal"/>
+	<label commandName="IDS_SY_RIBBON_PROJECTION_TYPE2" devLabel="Orthogonal" translation="Orthogonal"/>
+	<label commandName="IDS_SY_RIBBON_SHEETMETAL_1" devLabel="Folded Model" translation="Gefaltetes Modell"/>
+	<label commandName="IDS_SY_RIBBON_SHEETMETAL_2" devLabel="Flat Pattern" translation="Abwicklung"/>
+	<label commandName="IDS_SY_RIBBON_WELD_ASSEMBLY" devLabel="Assembly" translation="Baugruppe"/>
+	<label commandName="IDS_SY_RIBBON_WELD_MACHINING" devLabel="Machining" translation="Bearbeitung"/>
+	<label commandName="IDS_SY_RIBBON_WELD_WELDS" devLabel="Welds" translation="Schweißnähte"/>
+	<label commandName="IDS_UPDATE_LAYOUT" devLabel="Update Sheet" translation="Plan aktualisieren"/>
+	<label commandName="IDS_UPDATE_VIEWS" devLabel="Update Views" translation="Ansichten aktualisieren"/>
+</Resource>

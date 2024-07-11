@@ -1,0 +1,21 @@
+<div id="goHomeMode"><p>The Home position is a known Z value relative to the WCS and is defined within the Work Coordinate System (WCS) section on the Setup tab of the Setup strategy dialog.</p>
+<p>You can force the tool to move to the Home position prior to starting the operation, or once the operation has finished. The tool will always pull out of the stock in the X axis until it reaches the Clearance height, then move to the Home position in the Z.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="216" height="124" src="../images/DoNotGoHome.png"/></center></td>
+<td><center><img border="0" width="216" height="124" src="../images/GoHomeAtBeginning.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Don't Go Home</b></p></center></td>
+<td><center><p><b>Go Home At Beginning</b></p></center></td>
+</tr></table>
+<br>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="216" height="124" src="../images/GoHomeAtEnd.png"/></center></td>
+<td><center><img border="0" width="216" height="124" src="../images/GoHomeAtBeginningAndEnd.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Go Home At End</b></p></center></td>
+<td><center><p><b>Go Home At Beginning And End</b></p></center></td>
+</tr></table>
+<p>Note: The Home position referred to here is different from the G28 or G53 home position defined in the Post Processor dialog with some posts. Setting both values simultaneously could create unexpected results if you are unfamiliar with your post processor and machine.</p>
+</div>

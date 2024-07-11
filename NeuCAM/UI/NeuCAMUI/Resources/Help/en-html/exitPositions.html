@@ -1,0 +1,24 @@
+<div id="exitPositions"><p>Determines the exit position of the tool for safer machining.</p>
+<p>Select a point to determine the exit position. The point must be as close as possible to the area you are machining, like the entrance of an open pocket for example, for the point to be detected during toolpath calculation.</p>
+<p>If you select more than one point, the tool exits from the point that it is closest to after it has completed performing the cutting moves.</p>
+<p>In the example below, an open pocket with an undercut is being machined. Initially, the tool retracts at the end of the pocket, which causes a collision with the geometry directly above it. Using an exit position, you can force the tool to stay down and exit the pocket so it can retract with sufficient clearance.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="200" src="../images/undercut_open_pocket_machining.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Machining an undercut</b></p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_unsafe_retract.png"/></center></td>
+<td><center><img border="0" width="175" height="131" src="../images/undercut_open_pocket_machining_safe_retract.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Tool retracts at end</b> <br>
+Collision with part</p></center></td>
+<td><center><p><b>Retract at Exit Position</b> <br>
+Sufficient clearance</p></center></td>
+</tr></table>
+<p>Available for 2D Pocket, 2D Contour, and 2D Adaptive.</p>
+<p><b>Note</b>: The tool performs a stay-down link move when moving to an exit position. The <b>Maximum Stay-Down Distance</b> must be large enough to accommodate for this move. for 2D Pocket and 2D Contour, you need to enable the <b>Keep Tool Down</b> check box to enter a <b>Maximum Stay-Down Distance</b>.</p>
+</div>

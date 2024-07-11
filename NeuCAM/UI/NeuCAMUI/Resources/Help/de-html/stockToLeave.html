@@ -1,0 +1,19 @@
+<div id="stockToLeave"><p>Der Parameter Radiales Rohteil-Aufmaß steuert die Menge des in der radialen Richtung (lotrecht zur Werkzeugachse), also an der Seite des Werkzeugs, zu belassenden Materials.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveRadial.png"/></center></td>
+<td><center><img border="0" width="128" height="122" src="../images/117_StockToLeaveBoth.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Radiales Rohteil-Aufmaß</b></p></center></td>
+<td><center><p><b>Radiales und axiales Rohteil-Aufmaß</b></p></center></td>
+</tr></table>
+<p>Die Angabe eines positiven radialen Rohteil-Aufmaßes führt dazu, dass Material an den vertikalen Wänden und steilen Bereichen des Bauteils zurückbleibt.</p>
+<p>Bei nicht exakt vertikalen Flächen interpoliert das Programm zwischen den Werten für axiales (Boden) und radiales Rohteil-Aufmaß, sodass das in radialer Richtung auf diesen Flächen verbleibende Rohteilmaterial je nach Flächenneigung und Wert für axiales Rohteil-Aufmaß vom angegebenen Wert abweichen kann.</p>
+<p>Bei einer Änderung des radialen Rohteil-Aufmaßes wird das axiale Rohteil-Aufmaß automatisch auf denselben Wert festgelegt, sofern Sie das axiale Rohteil-Aufmaß nicht manuell eingeben.</p>
+<p>Bei Schlichtoperationen beträgt der Vorgabewert 0 mm/0 Zoll, d. h., es bleibt kein Material übrig.</p>
+<p>Bei Schruppoperationen bleibt vorgabemäßig eine geringe Menge an Material zurück, das später durch eine oder mehrere Endbearbeitungsoperationen entfernt werden kann.</p>
+<p><b>Negatives Rohteil-Aufmaß</b></p>
+<p>Bei Verwendung eines negativen Rohteil-Aufmaßes wird bei der Bearbeitung mehr Material vom Rohteil entfernt als Ihre Modellform aufweist. Dies kann zum Bearbeiten von Elektroden mit einer Funkenstrecke verwendet werden, wobei die Größe der <b>Funkenstrecke</b> dem negativen axialen Rohteil-Aufmaß entspricht.</p>
+<p>Sowohl das radiale als auch das axiale Rohteil-Aufmaß kann einen negativen Wert aufweisen. Das negative radiale Rohteil-Aufmaß muss jedoch kleiner sein als der Werkzeugradius.</p>
+<p>Wird jedoch ein Kugel- oder Radienfräser mit negativem radialen Rohteil-Aufmaß verwendet, das größer ist als der Eckenradius, muss das negative axiale Rohteil-Aufmaß kleiner oder gleich dem Eckenradius sein.</p>
+</div>

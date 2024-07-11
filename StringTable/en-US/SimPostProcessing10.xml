@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="SaturnConsolidatedXmlResultProviderBadMaterialMapId" devLabel="Unable to parse material map id (%1%)" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderDataParse" devLabel="Unable to parse data value (%1%)" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderIntegerDefault" devLabel="Unknown (%1%)" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingJobName" devLabel="Missing root 'jobName' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingJobNameId" devLabel="Missing &lt;jobName&gt; 'id' attribute!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunId" devLabel="Missing &lt;run&gt; 'id' attribute in Pareto set!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunStatus" devLabel="Missing &lt;run&gt; 'status' child in Pareto set!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunId" devLabel="Missing &lt;run&gt; 'id' attribute!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityIds" devLabel="Missing &lt;run&gt; 'quality_ids' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityValues" devLabel="Missing &lt;run&gt; 'quality_values' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunSequence" devLabel="Missing &lt;run&gt; 'print_sequence' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunStatus" devLabel="Missing &lt;run&gt; 'status' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunVariables" devLabel="Missing &lt;run&gt; 'variables' child!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingStepId" devLabel="Missing &lt;step&gt; 'id' attribute!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingTechniqueId" devLabel="Missing &lt;technique&gt; 'id' attribute!" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderOrderParse" devLabel="Unable to parse order value (%1%)" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderOrderSize" devLabel="Unexpected number of values found (%1%/%2%)" translation="" />
+	<label commandName="SaturnConsolidatedXmlResultProviderUnknownParetoRun" devLabel="Pareto set identifying an unknown run!" translation="" />
+	<label commandName="SimAutomaticallyShowResultRecommendationsDialogToolTip" devLabel="Should result recommendations be displayed immediately after a solve successfully completes" translation="" />
+	<label commandName="SimAutomaticallyShowResultRecommendationsDialogUserName" devLabel="Automatically Show Result Recommendations" translation="" />
+	<label commandName="SimClippinPlaneName" devLabel="Slice Plane" translation="" />
+	<label commandName="SimClippingPlaneCreationFailed" devLabel="Failed to create clipping plane." translation="" />
+	<label commandName="SimClippingPlaneSelectionCategory" devLabel="Simulation Slice Planes" translation="" />
+	<label commandName="SimClippingPlaneSelectionName" devLabel="Slice Plane" translation="" />
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="" />
+	<label commandName="SimElements" devLabel="Elements:" translation="" />
+	<label commandName="SimFail2ChangeUnits" devLabel="Failed to change result type units." translation="" />
+	<label commandName="SimFail2ChangeUnitsIncompatible" devLabel="Units [%1%] are incompatible with current result." translation="" />
+	<label commandName="SimFail2ChangeUnitsWrongFormat" devLabel="Unable to parse units [%1%]." translation="" />
+	<label commandName="SimFailSetResultType" devLabel="Failed to activate desired result type." translation="" />
+	<label commandName="SimFailUnableToReadMeshDBBlobData" devLabel="Fail: Unable to read SimMeshDB blob data." translation="" />
+	<label commandName="SimFailUnableToReadMeshFragmentBlobData" devLabel="Fail: Unable to read mesh fragment blob data." translation="" />
+	<label commandName="SimFailUnableToWriteMeshDBBlobData" devLabel="Fail: Unable to write SimMeshDB blob data." translation="" />
+	<label commandName="SimFailUnableToWriteMeshFragmentBlobData" devLabel="Fail: Unable to write mesh fragment blob data." translation="" />
+	<label commandName="SimFailUnableToWriteValuesFragmentBlobData" devLabel="Fail: Unable to write values fragment blob data." translation="" />
+	<label commandName="SimFailedToChangePlotSettings" devLabel="Failed to change plot settings." translation="" />
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="" />
+	<label commandName="SimMaxLabelColon" devLabel="Max.:" translation="" />
+	<label commandName="SimMaxValueLabelFmt" devLabel="%1%%2% %3%Max." translation="" />
+	<label commandName="SimMinLabelColon" devLabel="Min.:" translation="" />
+	<label commandName="SimMinMaxProbeValueNotAvailable" devLabel="Not Available" translation="" />
+	<label commandName="SimMinMaxProbesNoValue" devLabel="No Data" translation="" />
+	<label commandName="SimMinMaxProbesReqError" devLabel="Failed to create Min/Max." translation="" />
+	<label commandName="SimMinMaxProbesTextMax" devLabel="Max" translation="" />
+	<label commandName="SimMinMaxProbesTextMin" devLabel="Min" translation="" />
+	<label commandName="SimMinValueLabelFmt" devLabel="%1%%2% %3%Min." translation="" />
+	<label commandName="SimMissingMeshPreviewDataContainers" devLabel="Mesh data containers are not present. This study is not ready to manage mesh data." translation="" />
+	<label commandName="SimMissingMeshPreviewManifest" devLabel="meshManifest.xml for preview is missing." translation="" />
+	<label commandName="SimMissingPreviewMeshDBs" devLabel="Missing mesh dbs." translation="" />
+	<label commandName="SimMissingResultsLegendSettings" devLabel="Fail: missing ResultsLegend settings." translation="" />
+	<label commandName="SimNodes" devLabel="Nodes:" translation="" />
+	<label commandName="SimOptimizationCreateBookmarkFailed" devLabel="Failed to create optimization bookmark." translation="" />
+	<label commandName="SimOptimizationResultBookmarkName" devLabel="Config" translation="" />
+	<label commandName="SimOptimizationResultRefSelectionName" devLabel="Optimization Configuration" translation="" />
+	<label commandName="SimPointProbeCreationFailed" devLabel="Failed to create a Point Probe." translation="" />
+	<label commandName="SimPointProbeValueMissingData" devLabel="Missing Data" translation="" />
+	<label commandName="SimPointProbeValueNotAvailable" devLabel="Not Available" translation="" />
+	<label commandName="SimPreviewUnknownException" devLabel="An unidentified critical error occurred during preview generation" translation="" />
+	<label commandName="SimProbeCreationFailed" devLabel="Failed to create probe." translation="" />
+	<label commandName="SimProbeSelection" devLabel="Probes " translation="" />
+	<label commandName="SimPromoteTOMeshReq" devLabel="Invalid output folder" translation="" />
+	<label commandName="SimPromoteTOMeshReq1" devLabel="Invalid output file name" translation="" />
+	<label commandName="SimResultOptionsGroupToolTip" devLabel="Preferences controlling Simulation Results behavior" translation="" />
+	<label commandName="SimResultOptionsGroupUserName" devLabel="Simulation Results" translation="" />
+	<label commandName="SimResultProbeCreateReqError" devLabel="Failed to create Query Result." translation="" />
+	<label commandName="SimResultProbeDeleteReqWarning" devLabel="Failed to delete Query Result." translation="" />
+	<label commandName="SimResultProbeSelection" devLabel="Probe" translation="" />
+	<label commandName="SimResultProbeTolerance" devLabel="Tolerance" translation="" />
+	<label commandName="SimResultsAreInProgress" devLabel="Results are being processed at this moment. Please wait." translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarBig" devLabel="Bar - Big" translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarNormal" devLabel="Bar - Normal" translation="" />
+	<label commandName="SimResultsLegendConfiguration_BarSmall" devLabel="Bar - Small" translation="" />
+	<label commandName="SimResultsLegendConfiguration_Quarter" devLabel="Quarter" translation="" />
+	<label commandName="SimResultsLegendConfiguration_WreathBig" devLabel="Wreath - Big" translation="" />
+	<label commandName="SimResultsLegendConfiguration_WreathNormal" devLabel="Wreath - Normal" translation="" />
+	<label commandName="SimResultsLegendConfiguration_WreathSmall" devLabel="Wreath - Small" translation="" />
+	<label commandName="SimSFMaxValueLabelFmt" devLabel="%1%Max: %2%%3%" translation="" />
+	<label commandName="SimSFMinValueLabelFmt" devLabel="%1%Min: %2%%3%" translation="" />
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="" />
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="" />
+	<label commandName="SimSceneMeshCompSelectionCategory" devLabel="Mesh" translation="" />
+	<label commandName="SimSceneMeshCompSelectionTypeName" devLabel="Mesh Component" translation="" />
+	<label commandName="SimSceneMeshCompSelectionUserName" devLabel="Mesh of %1%" translation="" />
+	<label commandName="SimSceneMeshCompSelectionUserNamePlural" devLabel="Meshed Bodies" translation="" />
+	<label commandName="SimSceneMeshContainerSelectionCategory" devLabel="Simulation Scene Mesh" translation="" />
+	<label commandName="SimSceneMeshContainerSelectionName" devLabel="Scene Mesh Container" translation="" />
+	<label commandName="SimSceneResultProbePointSelectionCategory" devLabel="Probe Point Simulation Labels" translation="" />
+	<label commandName="SimSceneResultProbeSelectionCategory" devLabel="Simulation Labels" translation="" />
+	<label commandName="SimStoreCriticalPointsLimitReqUnableToStore" devLabel="Unable to save Critical Points limit value." translation="" />
+	<label commandName="SimTargetLabel" devLabel="Target" translation="" />
+	<label commandName="SimThreshold" devLabel="Threshold:" translation="" />
+	<label commandName="SimTopologyOptimizationApproxRetainedMass" devLabel="Approx. Mass:" translation="" />
+	<label commandName="SimTopologyOptimizationMassRatio" devLabel="Mass Ratio:" translation="" />
+	<label commandName="SimUnableToReadValuesFragmentData" devLabel="Unable to read values fragment data." translation="" />
+	<label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="" />
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="" />
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="" />
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="" />
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="" />
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="" />
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="" />
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="" />
+	<label commandName="SimUnitsForce" devLabel="Force" translation="" />
+	<label commandName="SimUnitsLength" devLabel="Length" translation="" />
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="" />
+	<label commandName="SimUnitsPower" devLabel="Power" translation="" />
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="" />
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="" />
+	<label commandName="SimUnitsTime" devLabel="Time" translation="" />
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="" />
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="" />
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="" />
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="" />
+	<label commandName="SimUnknownOptimizationResultAddError" devLabel="Unknown error adding optimization results" translation="" />
+	<label commandName="SimUnknownOptimizationResultSetupError" devLabel="Unknown error setting up optimization results" translation="" />
+	<label commandName="VisibleMeshEmptyMeshes" devLabel="Results are not available. Please recompute." translation="" />
+	<label commandName="VisibleMeshNoLegendSettings" devLabel="Internal error - no legend settings found" translation="" />
+	<label commandName="VisibleMeshNoMesh" devLabel="There's no result mesh to promote" translation="" />
+	<label commandName="VisibleMeshNoPresentation" devLabel="Internal error - No presentation given" translation="" />
+	<label commandName="VisibleMeshUnableToCache" devLabel="Unable to cache visible mesh" translation="" />
+</Resource>

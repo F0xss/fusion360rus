@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="RetryButton" devLabel="Retry" translation="Ponów próbę"/>
+	<label commandName="ScriptAuthorUnknown" devLabel="Unknown" translation="Nieznany"/>
+	<label commandName="ScriptFutureLoadWarning" devLabel="In the next major Fusion update, you will need to install a new version of the Add-In: '%1%' from '%2%' due to some internal changes being made to the Fusion 360 API." translation="W następnej głównej aktualizacji programu Fusion należy zainstalować nową wersję dodatku: „%1%” z „%2%” z powodu pewnych wewnętrznych zmian wprowadzonych w interfejsie API programu Fusion 360."/>
+	<label commandName="ScriptFutureLoadWarningLearnMore" devLabel="Learn More" translation="Dowiedz się więcej"/>
+	<label commandName="ScriptFutureLoadWarningTitle" devLabel="API Warning!" translation="Ostrzeżenie dotyczące interfejsu API!"/>
+	<label commandName="ScriptLoadError" devLabel="Due to some internal changes made to the Fusion 360 API, the Add-In: '%1%' from '%2%' cannot be loaded. You need to install a new version of the Add-In that is compatible with this version of Fusion 360." translation="Z powodu pewnych wewnętrznych zmian wprowadzonych w interfejsie API programu Fusion 360 nie można wczytać dodatku: „%1%” z „%2%”. Należy zainstalować nową wersję dodatku, która jest zgodna z tą wersją programu Fusion 360."/>
+	<label commandName="ScriptLoadErrorLearnMore" devLabel="Learn More" translation="Dowiedz się więcej"/>
+	<label commandName="ScriptLoadErrorTitle" devLabel="API Error!" translation="Błąd interfejsu API!"/>
+	<label commandName="WorkspaceSuffix" devLabel="Workspace" translation="Obszar roboczy"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Operacja przerwana ręcznie przez użytkownika"/>
+</Resource>

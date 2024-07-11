@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="'." devLabel="'." translation="'."/>
+	<label commandName=". " devLabel=". " translation="."/>
+	<label commandName="3D PCB Environment" devLabel="Package" translation="Obudowa"/>
+	<label commandName="3D Package" devLabel="Package Missing?" translation="Brak obudowy?"/>
+	<label commandName="3D Package Editor" devLabel="3D Package Editor" translation="Edytor obudów 3D"/>
+	<label commandName="3DModelCannotBeCopied" devLabel="You do not have permission to attach a copy of this 3D model. Try editing the package and copying the 3D model to your Fusion Team before you attach the 3D model to this footprint." translation="Nie masz uprawnień do dołączenia kopii tego modelu 3D. Spróbuj edytować obudowę i skopiować model 3D do usługi Fusion Team przed dołączeniem modelu 3D do tego footprintu."/>
+	<label commandName="3DPackageCannotBeOpened" devLabel="Cannot access 3D package in Fusion Team. Please check that you have permission." translation="Nie można uzyskać dostępu do obudowy 3D w usłudze Fusion Team. Sprawdź, czy masz odpowiednie uprawnienia."/>
+	<label commandName="3DPackageUploadInProgressPreSaveLibrary" devLabel="Please wait, this library cannot be saved while packages are being uploaded to Fusion Team." translation="Czekaj, nie można zapisać tej biblioteki podczas przekazywania obudów do usługi Fusion Team."/>
+	<label commandName="3DPackageUseLibraryIO" devLabel="The referenced package is in Fusion Team, but you do not have permission to edit it.  Do you wish to make a new copy and update the reference?" translation="Obudowa, do której istnieją odniesienia, znajduje się w usłudze Fusion Team, ale nie masz uprawnień do jej edycji. Czy chcesz utworzyć nową kopię i zaktualizować odniesienie?"/>
+	<label commandName="ActualQuantity" devLabel="Actual Qty" translation="Ilość rzeczywista"/>
+	<label commandName="AddInstance" devLabel="Add Part Instance." translation="Dodaj wystąpienie części."/>
+	<label commandName="AddNewDevice" devLabel="Add" translation="Dodaj"/>
+	<label commandName="AddNewVataint" devLabel="Add a New Vataint" translation="Dodaj nowy wariant"/>
+	<label commandName="AddVariant" devLabel="Add Variant." translation="Dodaj wariant."/>
+	<label commandName="AdditionalURL" devLabel="Additional URL" translation="Dodatkowy adres URL"/>
+	<label commandName="AnalyzeSignal" devLabel="Analyze Signal" translation="Analizuj sygnał"/>
+	<label commandName="AnalyzeSignal-feature-desc-1" devLabel="Manage PCB design electromagnetic performance by controlling the impedance of every transmission line. &lt;ul&gt; &lt;li&gt; &lt;b&gt;Impedance matching&lt;/b&gt; &lt;br/&gt; Manage and control the impedance for every critical signal throughout your board for an optimal high-speed design performance. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Signal insights&lt;/b&gt; &lt;br/&gt; Analyze your design signals to inspect parameters that characterize high speed design such as signal delays, trace length, impedance, inductance, and more. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Simple input parameters&lt;/b&gt; &lt;br/&gt; With simple input parameters and configuration, engineers can select signals of interest for quick analysis. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Make reliable products&lt;/b&gt; &lt;br/&gt; Ensure your High-Speed design capabilities meet the design specs and are compliant with industry standards. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Accelerate development cycle&lt;/b&gt; &lt;br/&gt; Improve your product development process by mitigating electromagnetic performance issues in the design phase. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Lower physical testing costs&lt;/b&gt; &lt;br/&gt; Minimize costly physical PCB testing and boards re-spins by virtualizing your design electromagnetic performance. &lt;/li&gt; &lt;/ul&gt; " translation="Zarządzaj charakterystyką elektromagnetyczną projektu płytki PCB, kontrolując impedancję każdej linii transmisyjnej. &lt;ul&gt;&lt;li&gt; &lt;b&gt;Dopasowywanie impedancji&lt;/b&gt; &lt;br/&gt; Zarządzaj impedancją każdego krytycznego sygnału i kontroluj ją na całej płytce w celu uzyskania optymalnej wysokiej prędkości projektowania. &lt;/li&gt;&lt;b&gt;Analiza sygnałów&lt;/b&gt; &lt;br/&gt; Analizuj sygnały w projekcie, aby sprawdzać parametry charakteryzujące konstrukcje o dużej prędkości, takie jak opóźnienia sygnału, długość trasy, impedancja, indukcyjność i inne. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Proste parametry wejściowe&lt;/b&gt; &lt;br/&gt; Dzięki prostym parametrom wejściowym i prostej konfiguracji inżynierowie mogą wybierać żądane sygnały do szybkiej analizy. &lt;/li&gt; &lt;b&gt;Tworzenie niezawodnych produktów&lt;/b&gt; &lt;br/&gt; Zadbaj o to, aby możliwości szybkiego projektowania szły w parze z wymaganiami specyfikacji projektowych i zapewniały zgodność ze standardami branżowymi. &lt;/li&gt;Przyspieszenie cyklu rozwojowego&lt;br/&gt; Usprawnij proces rozwoju produktu, ograniczając problemy z charakterystyką elektromagnetyczną w fazie projektowania. &lt;/li&gt; &lt;li&gt; &lt;b&gt;Obniżenie kosztów testów fizycznych&lt;/b&gt; &lt;br/&gt; Ogranicz kosztowne testy fizyczne płytek PCB i ich przeróbki dzięki wirtualizacji charakterystyki elektromagnetycznej projektu. &lt;/li&gt; &lt;/ul&gt; "/>
+	<label commandName="AnalyzeSignal-feature-title" devLabel="Key technologies included" translation="Najważniejsze technologie"/>
+	<label commandName="AnsysCommand" devLabel="Export PCB Data for Ansys" translation="Eksportuj dane płytki PCB dla systemu Ansys"/>
+	<label commandName="BoardLayoutEditorEnvironment" devLabel="PCB Editor" translation="Edytor płytek PCB"/>
+	<label commandName="CAMOdbExportCommand" devLabel="Export ODB++ Output" translation="Eksportuj dane wyjściowe ODB++"/>
+	<label commandName="CF_Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="CF_ThicknessToolTip" devLabel="Foil Thickness" translation="Grubość folii"/>
+	<label commandName="CF_Weight" devLabel="Weight" translation="Waga"/>
+	<label commandName="CF_WeightToolTip" devLabel="Foil Weight [oz/sqft]" translation="Waga folii [uncji/stopę kw.]"/>
+	<label commandName="Cancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="CancelButtonStr" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="CancelClosingLibraryDoc" devLabel="Packages are being uploaded to Fusion Team. If you close the document you will lose these changes. Are you sure you want to close the document?" translation="Obudowy są przekazywane do usługi Fusion Team. Jeśli zamkniesz dokument, utracisz te zmiany. Czy na pewno chcesz zamknąć dokument?"/>
+	<label commandName="CancelString" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="CancelToSavePartList" devLabel="Cancel to save part list." translation="Anuluj, aby zapisać listę części."/>
+	<label commandName="CanvasQuality" devLabel="Silkscreen Quality" translation="Jakość sitodruku"/>
+	<label commandName="CanvasQualityHigh" devLabel="High" translation="Wysokie"/>
+	<label commandName="CanvasQualityLow" devLabel="Low" translation="Niskie"/>
+	<label commandName="CanvasQualityMiddle" devLabel="Middle" translation="Środek"/>
+	<label commandName="Change 3D PCB configurations" devLabel="Configure 3D PCB" translation="Konfigurowanie płytki PCB 3D"/>
+	<label commandName="ChangeAttrId" devLabel="Change Attribute Rotation." translation="Zmień obrót atrybutu."/>
+	<label commandName="ChangeGridId" devLabel="Change Grid" translation="Zmień siatkę"/>
+	<label commandName="ChangePartRotationId" devLabel="Change Part Rotation." translation="Zmień obrót części."/>
+	<label commandName="ChangeVisibleLayers" devLabel="Change Layers" translation="Zmień warstwy"/>
+	<label commandName="ChatSupport" devLabel="Get Help" translation="Uzyskaj pomoc"/>
+	<label commandName="ChgSheetDescr" devLabel="Change Sheet Description." translation="Zmień opis arkusza."/>
+	<label commandName="ChngRectRotation" devLabel="Change Rectangle Rotation/Mirror." translation="Zmień obrót/odbicie lustrzane prostokąta."/>
+	<label commandName="CommandLinePlaceHolder" devLabel="Click or press {hotKey} to activate command line mode" translation="Kliknij lub naciśnij klawisz {hotKey}, aby aktywować tryb wiersza polecenia"/>
+	<label commandName="CommonTab" devLabel="COMMON" translation="WSPÓLNE"/>
+	<label commandName="ConfirmCombineRow" devLabel="The linked device is existed, Do you want to combine the two items?" translation="Połączone urządzenie istnieje. Czy chcesz połączyć te dwa elementy?"/>
+	<label commandName="ConfirmDeleteItem" devLabel="Do you want to delete the selected item?" translation="Czy chcesz usunąć wybrany element?"/>
+	<label commandName="ConfirmDeleteItems" devLabel="Do you want to delete these selected items?" translation="Czy chcesz usunąć te wybrane elementy?"/>
+	<label commandName="ConfirmToOpenElectronicDesign1" devLabel="The linked file is used by this electronics design:&#xA;" translation="Połączony plik jest używany przez ten projekt układu elektronicznego:&#xA;"/>
+	<label commandName="ConfirmToOpenElectronicDesign3" devLabel="&#xA;Do you want to close it and open the new one?" translation="&#xA;Czy chcesz zamknąć i otworzyć nowy?"/>
+	<label commandName="ConfirmToPush2dPCB" devLabel="No linked PCB 2D document exists. Do you still want to continue? " translation="Nie istnieje połączony dokument 2D płytki PCB. Czy nadal chcesz kontynuować? "/>
+	<label commandName="ConflictWithCmd" devLabel="Conflict with command " translation="Konflikt z poleceniem"/>
+	<label commandName="Conflicts with '" devLabel="Conflicts with '" translation="Konflikt z '"/>
+	<label commandName="ContentManagerPanel" devLabel="Content Manager" translation="Menedżer elementów"/>
+	<label commandName="ContentManagerPanelCloseCommand" devLabel="Hide Content Manager Panel" translation="Ukryj panel Menedżer zawartości"/>
+	<label commandName="ContentManagerPanelOpenCommand" devLabel="Show Content Manager Panel" translation="Pokaż panel Menedżer zawartości"/>
+	<label commandName="CopperFoil_Material" devLabel="Copper Foil" translation="Folia miedziana"/>
+	<label commandName="CopperFoil_RangeToolTip" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Range Filter:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filter &lt;span style=&quot; font-weight:600;&quot;&gt;copper foil&lt;/span&gt; materials using &lt;span style=&quot; font-weight:600;&quot;&gt;Thickness &lt;/span&gt;and &lt;span style=&quot; font-weight:600;&quot;&gt;Weight&lt;/span&gt; properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: podkreślenie;&quot;&gt;Filtr zakresu: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filtr &lt;span style=&quot; font-weight:600;&quot;&gt;folia miedziana &lt;/span&gt; z materiałami używającymi &lt;span style=&quot; font-weight:600;&quot;&gt;Grubość &lt;/span&gt; i &lt;span style=&quot; font-weight:600;&quot;&gt;Waga &lt;/span&gt; właściwości.&lt;/p&gt;&lt;/body&gt; &lt;/html&gt;"/>
+	<label commandName="CopyingElectronicsDesignPrompt" devLabel="This action creates a copy of the electronics design file. If the electronics design has a schematic and 2D PCB associated with it, links between the design and the copy are kept. To copy all the files without links to their sources, open this electronics design file and use &quot;File &gt; Save As&quot;." translation="Ta operacja tworzy kopię pliku projektu układu elektronicznego. Jeśli projekt układu elektronicznego ma skojarzony schemat i płytkę PCB 2D, połączenia między projektem a kopią są zachowywane. Aby skopiować wszystkie pliki bez połączeń z ich źródłami, otwórz ten plik projektu układu elektronicznego i użyj opcji „Plik &gt; Zapisz jako”."/>
+	<label commandName="Core_Material" devLabel="Core" translation="Rdzeń"/>
+	<label commandName="Create Footprint" devLabel="Create Footprint" translation="Utwórz footprint"/>
+	<label commandName="Create New Package" devLabel="Create New Package" translation="Utwórz nową obudowę"/>
+	<label commandName="CreateAttrId" devLabel="Create Attribute." translation="Utwórz atrybut."/>
+	<label commandName="CreateCircleId" devLabel="Create Circle." translation="Utwórz okrąg."/>
+	<label commandName="CreateElectronicsDesign" devLabel="Create Electronics Design" translation="Utwórz projekt elektroniczny"/>
+	<label commandName="CreateFrameId" devLabel="Create Frame." translation="Utwórz ramę."/>
+	<label commandName="CreateFusionTeamLibraryMessageLocal" devLabel="Upload this library to your Fusion 360 Team repository to edit. &#xA;A link to the local library is not maintained. If the library has already been uploaded, &#xA;an additional copy is created if you continue. " translation="Przekaż tę bibliotekę do repozytorium usługi Fusion 360 Team w celu edycji. &#xA;Łącze do biblioteki lokalnej nie jest zachowywane. Jeśli biblioteka została już przekazana, &#xA;w przypadku kontynuowania zostanie utworzona dodatkowa kopia. "/>
+	<label commandName="CreateFusionTeamLibraryMessageOnline" devLabel="Create a copy and upload this library to your Fusion 360 Team repository to edit. &#xA;The new library is linked to the original library on Library.io. &#xA;" translation="Utwórz kopię i przekaż tę bibliotekę do repozytorium usługi Fusion 360 Team w celu edycji. &#xA;Nowa biblioteka jest połączona z oryginalną biblioteką w witrynie Library.io. &#xA;"/>
+	<label commandName="CreateFusionTeamLibraryPublicPermissionInfo" devLabel="Because this is a public library, you do not have permission to push your changes.&#xA;However, you can pull new changes from the library file that resides on Library.io.&#xA;&#xA;Use &quot;Break Link&quot; in the &quot;Manage&quot; section of the toolbar, then &quot;Push&quot; to create &#xA;a new editable managed library." translation="Ponieważ jest to biblioteka publiczna, nie masz uprawnień do wypychania zmian.&#xA;Można jednak ściągnąć nowe zmiany z pliku biblioteki znajdującego się w witrynie Library.io.&#xA;&#xA;Użyj opcji „Przerwij połączenie” w sekcji „Zarządzaj” paska narzędzi, a następnie kliknij przycisk „Wypchnij”, aby utworzyć &#xA;nową zarządzaną bibliotekę, którą można edytować."/>
+	<label commandName="CreateFusionTeamLibraryPushInfo" devLabel="To push edits from Fusion Team into Library.io, select &quot;Push&quot; in the&#xA;&quot;Manage&quot; tab of the library toolbar." translation="Aby wypchnąć zmiany z usługi Fusion Team do witryny Library.io, wybierz opcję „Wypchnij” na karcie&#xA;„Zarządzaj” na pasku narzędzi biblioteki."/>
+	<label commandName="CreateFusionTeamLibraryTitle" devLabel="Create Fusion Team library" translation="Utwórz bibliotekę usługi Fusion Team"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="Profil"/>
+	<label commandName="CreateRectId" devLabel="Create Rect" translation="Utwórz prostokąt"/>
+	<label commandName="CreateTextId" devLabel="Create Text." translation="Utwórz tekst."/>
+	<label commandName="DU_Header" devLabel="UNITS" translation="JEDNOSTKI"/>
+	<label commandName="DU_Inch" devLabel="inch, Â°F" translation="cal, Â°F"/>
+	<label commandName="DU_Micron" devLabel="mic, Â°C" translation="mikron, Â°C"/>
+	<label commandName="DU_Mil" devLabel="mil, Â°F" translation="milical, Â°F"/>
+	<label commandName="DU_Millimeter" devLabel="mm, Â°C" translation="mm, Â°C"/>
+	<label commandName="DatasheetURL" devLabel="Datasheet URL" translation="Adres URL noty katalogowej"/>
+	<label commandName="DefaultName" devLabel="Default" translation="Domyślne"/>
+	<label commandName="DeleteDevice" devLabel="Delete" translation="Usuń"/>
+	<label commandName="DeleteEagleWIPLibraryCommand" devLabel="Deletes Eagle WIP library information" translation="Usuwa informacje o bibliotece Eagle WIP"/>
+	<label commandName="DesignManager" devLabel="Design Manager" translation="Menedżer projektu"/>
+	<label commandName="DeviceInfoExisted" devLabel="This device is existed." translation="To urządzenie istnieje."/>
+	<label commandName="DeviceString" devLabel="Device" translation="Urządzenie"/>
+	<label commandName="Dielectric_Df" devLabel="Dissipation Factor" translation="Współczynnik rozproszenia"/>
+	<label commandName="Dielectric_DfToolTip" devLabel="Dissipation Factor (Loss Tangent)" translation="Współczynnik rozproszenia (styczna strat)"/>
+	<label commandName="Dielectric_Dk" devLabel="Dielectric Constant" translation="Stała dielektryczna"/>
+	<label commandName="Dielectric_DkToolTip" devLabel="Dielectric Constant (Relative Permitivity)" translation="Stała dielektryczna (względne przenikanie)"/>
+	<label commandName="Dielectric_Gtt" devLabel="Glass Trans Temp" translation="Temperatura zeszklenia"/>
+	<label commandName="Dielectric_GttToolTip" devLabel="Glass Transition Temperature" translation="Temperatura zeszklenia"/>
+	<label commandName="Dielectric_Material" devLabel="Dielectric (Core + Pre-Preg)" translation="Dielektryk (rdzeń + prepreg)"/>
+	<label commandName="Dielectric_RangeToolTip" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Range Filter:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filter &lt;span style=&quot; font-weight:600;&quot;&gt;dielectric (core and pre-preg)&lt;/span&gt; materials using any of the following properties: &lt;span style=&quot; font-weight:600;&quot;&gt;Thickness&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Dielectric Constant&lt;/span&gt; (Dk), &lt;span style=&quot; font-weight:600;&quot;&gt;Dissipation Factor&lt;/span&gt; (Df), &lt;span style=&quot; font-weight:600;&quot;&gt;Glass Transition Temperature&lt;/span&gt; (Gtt) and &lt;span style=&quot; font-weight:600;&quot;&gt;Resin Content&lt;/span&gt; (Resin %).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="&lt;html&gt;&lt;head/&gt;&lt;body&gt; &lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: podkreślenie;&quot;&gt;Filtr zakresu: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filtr &lt;span style=&quot; font-weight:600;&quot;&gt;materiały dielektryczne (rdzeń i prepeg)&lt;/span&gt; z dowolną z następujących właściwości: &lt;span style=&quot; font-weight:600;&quot;&gt;Grubość&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Stała dielektryczna&lt;/span&gt; (Dk), &lt;span style=&quot; font-weight:600;&quot;&gt;Współczynnik rozproszenia&lt;/span&gt; (Df), &lt;span style=&quot; font-weight:600;&quot;&gt;Temperatura zeszklenia&lt;/span&gt; (Gtt) i &lt;span style=&quot; font-weight:600;&quot;&gt;Zawartość żywicy&lt;/span&gt; (Resin %).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+	<label commandName="Dielectric_Resin" devLabel="Resin Content" translation="Zawartość żywicy"/>
+	<label commandName="Dielectric_ResinToolTip" devLabel="Displays The Percent Of The Total Prepreg Weight That Is Resin" translation="Wyświetla procent całkowitej masy prepregu, który przypada na żywicę"/>
+	<label commandName="Dielectric_Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="Dielectric_ThicknessToolTip" devLabel="Dielectric Thickness" translation="Grubość dielektryka"/>
+	<label commandName="DiscardBtn" devLabel="Discard" translation="Odrzuć"/>
+	<label commandName="Display Layers" devLabel="Display Layers" translation="Wyświetl warstwy"/>
+	<label commandName="ECADLinkIsOutOfSync" devLabel="Schematic/PCB sync deactivated: " translation="Synchronizacja schematu / płytki PCB dezaktywowana: "/>
+	<label commandName="ECADLinkIsSevered" devLabel="Schematic/PCB sync severed: " translation="Synchronizacja schematu / płytki PCB przerwana: "/>
+	<label commandName="ECADLinkMayNotAvailable" devLabel="Schematic/PCB may get out of sync. Try opening the associated electronics design first." translation="Schemat / płytka PCB mogą przestać być zsynchronizowane. Spróbuj najpierw otworzyć skojarzony projekt układu elektronicznego."/>
+	<label commandName="EagleAddPartObjectNotFound" devLabel="Cannot find device %1% %2% %3%" translation="Nie można znaleźć urządzenia %1% %2% %3%"/>
+	<label commandName="EditElectronDescription" devLabel="Edit Electron Description" translation="Edytuj opis elektronu"/>
+	<label commandName="EditSelectedParts" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="EditShortcut" devLabel="Edit Shortcut" translation="Edytuj skrót"/>
+	<label commandName="EditorSidePanelCloseCommand" devLabel="Hide Editor Side Panel" translation="Ukryj panel boczny edytora"/>
+	<label commandName="EditorSidePanelOpenCommand" devLabel="Show Editor Side Panel" translation="Pokaż panel boczny edytora"/>
+	<label commandName="Electron3dPcbOptionGroupUserName" devLabel="3D PCB" translation="Płytka PCB 3D"/>
+	<label commandName="Electron3dPcbOptionsTooltip" devLabel="3D PCB Preferences for Electronics" translation="Preferencje płytek PCB 3D dotyczące układów elektronicznych"/>
+	<label commandName="Electron::AddHoleTips" devLabel="A hole generates a symbol in the Holes layer as well as a circle with the diameter of the hole in the Dimension layer." translation="Otwór generuje symbol w warstwie Otwory oraz okrąg o średnicy otworu w warstwie Wymiar."/>
+	<label commandName="Electron::AddHoleTitle" devLabel="Hole" translation="Otwór"/>
+	<label commandName="Electron::AddSymbolDesc" devLabel="The AddPart command can be used with wildcards ('*' or '?') to find a specific device." translation="Polecenie AddPart może być używane z symbolami wieloznacznymi („*” lub „?”) w celu znalezienia określonego urządzenia."/>
+	<label commandName="Electron::AddSymbolTips" devLabel="Click AddPart and select the symbol from the library menu that opens. If necessary, enter parameters from the keyboard." translation="Kliknij przycisk Dodaj część i wybierz symbol z menu biblioteki, które zostanie otwarte. Jeśli to konieczne, wprowadź parametry z klawiatury."/>
+	<label commandName="Electron::AddSymbolTitle" devLabel="Add" translation="Dodaj"/>
+	<label commandName="Electron::AddTextTips" devLabel="The orientation of the text can be defined by the Text command (orientation) using the definitions listed in the Add command, such as R0 and R90. The right mouse button changes the rotation of the text and the center mouse button changes the current layer." translation="Orientacja tekstu może być zdefiniowana przez polecenie Tekst (orientacja) przy użyciu definicji wymienionych w poleceniu Dodaj, takich jak R0 i R90. Prawy przycisk myszy zmienia obrót tekstu, a środkowy przycisk myszy zmienia bieżącą warstwę."/>
+	<label commandName="Electron::AddTextTitle" devLabel="AddText" translation="AddText"/>
+	<label commandName="Electron::AlignTips" devLabel="The Align command uses axis-aligned bounding boxes of objects to be aligned for all modes except for Align Origin to Grid mode (which uses the origin of the object to be aligned)." translation="Polecenie Wyrównaj używa obrysów obiektów wyrównanych do osi, które mają być wyrównane dla wszystkich trybów z wyjątkiem trybu Wyrównaj początek do siatki (który używa początku obiektu do wyrównania)."/>
+	<label commandName="Electron::AlignTitle" devLabel="Align" translation="Wyrównaj"/>
+	<label commandName="Electron::AnalyzeSignalTips" devLabel="The AnalyzeSignal command connects to Ansys to analyze each path the selected signal." translation="Polecenie AnalyzeSignal łączy się z Ansys w celu analizy każdej ścieżki wybranego sygnału."/>
+	<label commandName="Electron::AnalyzeSignalTitle" devLabel="Analyze" translation="Analizuj"/>
+	<label commandName="Electron::ArcTips" devLabel="Line Cap options define whether the arc endings are flat or round or flat." translation="Opcje zakończenia linii określają, czy zakończenia łuków są płaskie, okrągłe czy płaskie."/>
+	<label commandName="Electron::ArcTitle" devLabel="Arc" translation="Łuk"/>
+	<label commandName="Electron::ArrangeTips" devLabel="Orients selected objects in a specified formation, starting at the specified point" translation="Orientuje wybrane obiekty w określonej formacji, zaczynając od określonego punktu"/>
+	<label commandName="Electron::ArrangeTitle" devLabel="Arrange" translation="Rozmieść"/>
+	<label commandName="Electron::AttributeTips" devLabel="Attributes can be defined in the library (for individual devices), in the schematic or in the board. Attributes defined on the device level will be used for every part of that device type in the schematic. In a schematic, additional attributes can be defined for each part, and existing attributes from the devices can be overwritten with new values (if the attributes have been defined as variable). An element in the board has all the attributes of its corresponding part, and can have further attributes of its own." translation="Atrybuty mogą być zdefiniowane w bibliotece (dla poszczególnych urządzeń), schemacie lub płytce. Atrybuty zdefiniowane na poziomie urządzenia będą używane dla każdej części tego typu urządzenia w schemacie. W schemacie można zdefiniować dodatkowe atrybuty dla każdej części, a istniejące atrybuty z urządzeń mogą być zastąpione nowymi wartościami (jeśli atrybuty zostały zdefiniowane jako zmienne). Element na płytce ma wszystkie atrybuty odpowiadającej mu części oraz może mieć dalsze własne atrybuty."/>
+	<label commandName="Electron::AttributeTitle" devLabel="Attribute" translation="Atrybut"/>
+	<label commandName="Electron::AutoRouterTips" devLabel="The Load and Save options can be used to load the AutoRouter parameters from or save them to the given file. If filename doesn't have the extension '.ctl' it will be appended automatically." translation="Opcje Wczytaj i Zapisz mogą być użyte do wczytania parametrów autoroutera z podanego pliku lub zapisania ich w podanym pliku. Jeśli nazwa pliku nie ma rozszerzenia „.ctl”, zostanie ona dołączona automatycznie."/>
+	<label commandName="Electron::AutoRouterTitle" devLabel="Autorouter" translation="Autorouter"/>
+	<label commandName="Electron::BusTips" devLabel="Reusable bus specifications can be saved as Predefined Buses (PDBs). The PDBs are saved in a file and can be used across projects, even shared with others. " translation="Specyfikacje magistrali wielokrotnego użytku można zapisać jako Wstępnie zdefiniowane magistrale (PDB). Bazy danych są zapisywane w pliku i mogą być używane w różnych projektach, nawet współdzielone z innymi użytkownikami."/>
+	<label commandName="Electron::BusTitle" devLabel="Bus" translation="Magistrala"/>
+	<label commandName="Electron::ChangeTips" devLabel="Parameters adjusted with the Change command remain as preset (default) properties for objects added later." translation="Parametry dostosowane za pomocą polecenia Zmień pozostają właściwościami wstępnie ustawionymi (domyślnymi) dla obiektów dodanych później."/>
+	<label commandName="Electron::ChangeTitle" devLabel="Change" translation="Zmień"/>
+	<label commandName="Electron::CircleTips" devLabel="Circles in the layers tRestrict, bRestrict, and vRestrict define restricted areas. They should be defined with a width of 0." translation="Okręgi w warstwach tRestrict, bRestrict i vRestrict definiują obszary ograniczone. Powinny być zdefiniowane za pomocą szerokości 0."/>
+	<label commandName="Electron::CircleTitle" devLabel="Circle" translation="Okrąg"/>
+	<label commandName="Electron::CopyFormatTips" devLabel="Start the command in the Design toolbar, using Modify &gt; Copy Format or on the command line with the 'copyformat' command." translation="Uruchom polecenie na pasku narzędzi Projekt, używając polecenia Modyfikuj &gt; Kopiuj format lub w wierszu polecenia z poleceniem Kopiuj format."/>
+	<label commandName="Electron::CopyFormatTitle" devLabel="CopyFormat" translation="Kopiuj format"/>
+	<label commandName="Electron::CopyTips" devLabel="Copy places the selected group of objects on the clipboard, to support multiple Paste operations." translation="Polecenie Kopiuj powoduje umieszczenie wybranej grupy obiektów w schowku w celu obsługi wielu operacji wklejania."/>
+	<label commandName="Electron::CopyTitle" devLabel="Copy" translation="Kopiuj"/>
+	<label commandName="Electron::DRCTips" devLabel="Any errors found are displayed as error polygons in the respective layers, and can be reviewed using the Errors command." translation="Wszystkie znalezione błędy są wyświetlane jako regiony błędów w odpowiednich warstwach i można je przejrzeć za pomocą polecenia Błędy."/>
+	<label commandName="Electron::DRCTitle" devLabel="Design Rule Check" translation="Sprawdzenie reguł projektowania"/>
+	<label commandName="Electron::DeleteTips" devLabel="After deleting a group, airwires may be left over from the removal of a component, because the airwires were not part of the group. In such a case you can recalculate the airwires with the RatsNest command." translation="Po usunięciu grupy połączenia typu airwire mogą pozostać po usunięciu komponentu, ponieważ nie były częścią grupy. W takim przypadku można ponownie obliczyć połączenia typu airwire za pomocą polecenia Ratsnest."/>
+	<label commandName="Electron::DeleteTitle" devLabel="Delete" translation="Usuń"/>
+	<label commandName="Electron::DimensionTips" devLabel="Control how dimensions are drawn by using the Change command with options such as DLine and DUnit." translation="Można sterować sposobem rysowania wymiarów za pomocą polecenia Zmień z opcjami, takimi jak DLine i DUnit."/>
+	<label commandName="Electron::DimensionTitle" devLabel="Dimension" translation="wymiarowania"/>
+	<label commandName="Electron::DisplayTips" devLabel="Use the Filter field at the top of the dialog to display All, Used, or Unused layers." translation="Użyj pola Filtr w górnej części okna dialogowego, aby wyświetlić warstwy Wszystkie, Używane lub Nieużywane."/>
+	<label commandName="Electron::DisplayTitle" devLabel="Layer Settings" translation="Ustawienia warstw"/>
+	<label commandName="Electron::ERCTips" devLabel="ERC detects inconsistencies between the implicit power and supply pins in the schematic and the actual signal connections in the board. Such inconsistencies can occur if the supply pin configuration is modified after the board has been created." translation="Sprawdzenie ERC wykrywa niespójności między pinami zasilania w schemacie a rzeczywistymi połączeniami sygnałowymi na płytce. Niespójności te mogą wystąpić, jeśli konfiguracja pinu zasilania zostanie zmodyfikowana po utworzeniu płytki."/>
+	<label commandName="Electron::ERCTitle" devLabel="Electrical Rules Check" translation="Sprawdzenie reguł połączeń elektrycznych"/>
+	<label commandName="Electron::ErrorsTips" devLabel="The list view in the Errors dialog has up to four sections that contain Consistency errors, Errors, Warnings and Approved messages." translation="Widok listy w oknie dialogowym Błędy zawiera maksymalnie cztery sekcje zawierające błędy spójności, błędy, ostrzeżenia i zatwierdzone komunikaty."/>
+	<label commandName="Electron::ErrorsTitle" devLabel="Errors" translation="Błędy"/>
+	<label commandName="Electron::FanoutTips" devLabel="The Width parameter defines the width of the routed wire for the fanout and is the same parameter as used in the Route command." translation="Parametr Szerokość definiuje szerokość trasowanego przewodu dla wyprowadzenia i jest tym samym parametrem co w poleceniu Trasuj."/>
+	<label commandName="Electron::FanoutTitle" devLabel="Fanout" translation="Wyprowadź"/>
+	<label commandName="Electron::FlipBoardTips" devLabel="Provides fast access to the opposite side of the board, improving the editing experience." translation="Zapewnia szybki dostęp do przeciwległej strony płytki, co usprawnia edycję."/>
+	<label commandName="Electron::FlipBoardTitle" devLabel="Flip Board" translation="Odwróć płytkę"/>
+	<label commandName="Electron::GateSwapTips" devLabel="The name used in the GateSwap command is the displayed name on the schematic (e.g. U1A for gate A in device U1)" translation="Nazwa używana w poleceniu Zamiana układu jest nazwą wyświetlaną na schemacie (np. U1A dla bramki A w urządzeniu U1)"/>
+	<label commandName="Electron::GateSwapTitle" devLabel="GateSwap" translation="Zamiana układu"/>
+	<label commandName="Electron::GridTips" devLabel="The grid helps with object alignment on schematics and boards." translation="Siatka pomaga w wyrównaniu obiektów na schematach i płytkach."/>
+	<label commandName="Electron::GridTitle" devLabel="Grid" translation="Siatka"/>
+	<label commandName="Electron::GroupPolygonTips" devLabel="The group includes all objects whose origin is inside the polygon, all wires with at least one endpoint inside the polygon, all circles whose center is inside the polygon, and all rectangles with any corner inside the polygon." translation="Grupa zawiera wszystkie obiekty, których początek znajduje się wewnątrz wieloboku, wszystkie przewody z co najmniej jednym punktem końcowym wewnątrz wieloboku, wszystkie okręgi, których środek znajduje się wewnątrz wieloboku, oraz wszystkie prostokąty z dowolnym narożnikiem wewnątrz wieloboku."/>
+	<label commandName="Electron::GroupPolygonTitle" devLabel="Group" translation="Grupa"/>
+	<label commandName="Electron::GroupTips" devLabel="The group includes all objects with origin inside the polygon, all nets or wires with at least one endpoint inside the polygon, all circles whose center is inside the polygon, and all rectangles with any corner inside the polygon." translation="Grupa zawiera wszystkie obiekty z początkiem wewnątrz wieloboku, wszystkie sieci lub przewody z co najmniej jednym punktem końcowym wewnątrz wieloboku, wszystkie okręgi, których środek znajduje się wewnątrz wieloboku, oraz wszystkie prostokąty z dowolnym narożnikiem wewnątrz wieloboku."/>
+	<label commandName="Electron::GroupTitle" devLabel="Group" translation="Grupa"/>
+	<label commandName="Electron::InfoTips" devLabel="Parts, pads, SMDs, pins and gates can be selected by their name, which is useful if the object is outside the current window area." translation="Części, pady, elementy SMD, piny i bramki mogą być wybierane według ich nazwy, co jest przydatne, jeśli obiekt znajduje się poza bieżącym obszarem okna."/>
+	<label commandName="Electron::InfoTitle" devLabel="Info" translation="Informacje"/>
+	<label commandName="Electron::InsertDxfTips" devLabel="Select the file, specify the insert values, and click in the canvas to place the file, then click Done." translation="Wybierz plik, określ wartości wstawienia i kliknij w obszarze rysunku, aby umieścić plik, a następnie kliknij przycisk Gotowe."/>
+	<label commandName="Electron::InsertDxfTitle" devLabel="InsertDxf" translation="InsertDxf"/>
+	<label commandName="Electron::InvokeTips" devLabel="Click Invoke, click an existing gate in the integrated circuit (IC) you want to use, then select the desired gate from the popup menu that appears. Alternatively, on the command line, enter Invoke, part name, and gate name (example: Invoke IC5 Power). Finally, click to position the new gate." translation="Kliknij przycisk Wywołaj, kliknij istniejącą bramkę w układzie scalonym (IC), który ma zostać użyty, a następnie wybierz żądaną bramkę z menu podręcznego, które zostanie wyświetlone. Alternatywnie, w wierszu polecenia wprowadź polecenie Wywołaj, nazwę części i nazwę bramki (przykład: Invoke IC5 Power). Na koniec kliknij, aby umieścić nową bramkę."/>
+	<label commandName="Electron::InvokeTitle" devLabel="Invoke" translation="Wywołaj"/>
+	<label commandName="Electron::JunctionTips" devLabel="If a net wire is placed at a point where there are at least two other net wires and/or pins, a junction will automatically be placed." translation="Jeśli przewód sieci jest umieszczany w punkcie, w którym znajdują się co najmniej dwa inne przewody i/lub piny, połączenie zostanie automatycznie umieszczone."/>
+	<label commandName="Electron::JunctionTitle" devLabel="Junction" translation="Skrzyżowanie"/>
+	<label commandName="Electron::LabelTips" devLabel="Labels are handled as text, but their value corresponds to the name of the particular bus or net. If a bus or net is renamed with the Name command, all associated labels are renamed automatically." translation="Etykiety są obsługiwane jako tekst, ale ich wartość odpowiada nazwie określonej magistrali lub sieci. Jeśli nazwa magistrali lub sieci zostanie zmieniona za pomocą polecenia Nazwa, wszystkie skojarzone etykiety są zmieniane automatycznie."/>
+	<label commandName="Electron::LabelTitle" devLabel="Label" translation="Etykieta"/>
+	<label commandName="Electron::LayerStackTips" devLabel="Use the tool buttons at the top of the Layer Stack dialog to load or save layer stack presets, modify layer stack physical properties, add or remove layer and via pairs." translation="Przyciski narzędzi w górnej części okna dialogowego Stos warstw umożliwiają wczytywanie lub zapisywanie ustawień wstępnych stosu warstw, modyfikowanie właściwości fizycznych stosu warstw, dodawanie lub usuwanie warstw oraz par przelotek."/>
+	<label commandName="Electron::LayerStackTitle" devLabel="Layer Stack Manager" translation="Menedżer stosu warstw"/>
+	<label commandName="Electron::LayerTips" devLabel="On the command line, specify a different layer by name or number: 'Layer layer_name' or 'Layer layer_number'." translation="W wierszu polecenia określ inną warstwę według nazwy lub numeru: „Layer nazwa_warstwy” lub „Layer numer_warstwy”."/>
+	<label commandName="Electron::LayerTitle" devLabel="Layer" translation="Warstwa"/>
+	<label commandName="Electron::LineTips" devLabel="Press the center mouse button to bring up a popup menu and select the layer on which to draw the line." translation="Naciśnij środkowy przycisk myszy, aby wywołać menu rozwijane i wybrać warstwę, na której ma być rysowana linia."/>
+	<label commandName="Electron::LineTitle" devLabel="Line" translation="Linia"/>
+	<label commandName="Electron::ManualRouteTips" devLabel="When you select an airwire (a connection on the Unrouted layer), routing begins at the signal object connected to the airwire that is closest to your selection point. Otherwise, the Route Manual command automatically creates a new airwire from your selected route start point to a nearby target object that is a member of the same signal. &#xA; &#xA;Left-click to place wire (double-click ends wire), Cmd/Ctrl right-click to change bends, Press SPACE to switch layers, '4' for SwapEnd or ENTER to complete the route." translation="Po wybraniu przewodu typu airwire (połączenie na warstwie Nietrasowane) trasowanie rozpoczyna się od obiektu sygnałowego podłączonego do przewodu typu airwire znajdującego się najbliżej wybranego punktu. W przeciwnym razie polecenie Trasuj ręcznie automatycznie tworzy nowy przewód z wybranego punktu początkowego trasy do pobliskiego obiektu docelowego, który jest elementem tego samego sygnału.&#xA; &#xA;Kliknij lewym przyciskiem myszy, aby umieścić przewód (kliknij dwukrotnie przewód końcowy) lub kliknij prawym przyciskiem myszy z klawiszami Cmd/Ctrl, aby zmienić zagięcia. Naciśnij klawisz SPACJA, aby przełączać warstwy, „4”, aby zamienić końce, lub ENTER, aby zakończyć trasowanie."/>
+	<label commandName="Electron::ManualRouteTitle" devLabel="ManualRoute" translation="Połączenie ręczne"/>
+	<label commandName="Electron::MarkTips" devLabel="Choose a grid fine enough before using the Mark command." translation="Przed użyciem polecenia Zaznacz wybierz siatkę o wystarczająco wysokim poziomie szczegółowości."/>
+	<label commandName="Electron::MarkTitle" devLabel="Mark" translation="Znacznik"/>
+	<label commandName="Electron::MeanderTips" devLabel="The meander starts at the first click point and extends to the second point the mouse is moved to. The maximum (perpendicular) size of the meander is defined by the distance of the mouse to the meandered wire." translation="Meander rozpoczyna się w pierwszym punkcie kliknięcia i rozciąga się do drugiego punktu, do którego przesuwany jest mysz. Maksymalny (prostopadły) rozmiar meandra jest definiowany przez odległość myszy od środkowego przewodu."/>
+	<label commandName="Electron::MeanderTitle" devLabel="Meander" translation="Meander"/>
+	<label commandName="Electron::MirrorTips" devLabel="Parts, pads, SMDs and pins can also be selected by their name, which is useful if the object is outside the current window area." translation="Części, pady, elementy SMD i piny mogą być również wybierane według ich nazwy, co jest przydatne, jeśli obiekt znajduje się poza bieżącym obszarem okna."/>
+	<label commandName="Electron::MirrorTitle" devLabel="Mirror" translation="Lustro"/>
+	<label commandName="Electron::MiterTips" devLabel="If you select a point where exactly two straight wires join, an additional wire will be inserted between these two wires, according to the given radius. If you click-drag on such a point with the left mouse button, you can define the mitering wire dynamically." translation="Jeśli wybierzesz punkt, w którym dokładnie dwa proste przewody się łączą, między tymi dwoma przewodami zostanie wstawiony dodatkowy przewód zgodnie z podanym promieniem. Jeśli klikniesz i przeciągniesz na taki punkt lewym przyciskiem myszy, możesz dynamicznie zdefiniować przewód narożnikowy."/>
+	<label commandName="Electron::MiterTitle" devLabel="Miter" translation="Połączenie narożnikowe"/>
+	<label commandName="Electron::ModuleTips" devLabel="The orientation of the module instance can be defined textually using the definitions listed in the Add command, such as R0 or R90." translation="Orientacja wystąpienia modułu może być zdefiniowana tekstowo przy użyciu definicji wymienionych w poleceniu Dodaj, takich jak R0 lub R90."/>
+	<label commandName="Electron::ModuleTitle" devLabel="Module" translation="Moduł"/>
+	<label commandName="Electron::MoveTips" devLabel="When moving elements, connected wires (tracks) that belong to a signal are moved too (beware of short circuits!)." translation="Podczas przesuwania elementów również są przesuwane połączone przewody (ścieżki) należące do sygnału (uwaga na zwarcia!)."/>
+	<label commandName="Electron::MoveTitle" devLabel="Move" translation="Przesuń"/>
+	<label commandName="Electron::NameTips" devLabel="" translation=""/>
+	<label commandName="Electron::NameTitle" devLabel="" translation=""/>
+	<label commandName="Electron::NetTips" devLabel="Net wires snap to the tips of pins. When the mouse is within Snap_Length of any portion of a pin (either before or after grid snapping), a small circle appears at the tip of the pin. This indicates that if the mouse is clicked, the resulting net wire point will be placed at the pin tip, creating a connection to the pin." translation="Przewody sieci są przyciągane do końcówek pinów. Gdy mysz znajduje się w zakresie Snap_Length dowolnej części pinu (przed lub po przyciągnięciu do siatki), na końcówce pinu pojawia się mały okrąg. Oznacza to, że po kliknięciu myszy wynikowy punkt przewodu sieci zostanie umieszczony na końcówce pinu, tworząc połączenie z pinem."/>
+	<label commandName="Electron::NetTitle" devLabel="Net" translation="Sieć"/>
+	<label commandName="Electron::OptimizeTips" devLabel="When selecting a wire without name, all unnamed wires of the drawing are optimized." translation="Podczas wybierania przewodu bez nazwy wszystkie nienazwane przewody rysunku są optymalizowane."/>
+	<label commandName="Electron::OptimizeTitle" devLabel="Optimize" translation="Optymalizowany"/>
+	<label commandName="Electron::PPourTips" devLabel="Fill style is usually Solid, but the Hatched style can be used for a lower-capacitance fill.Thermals are On by default to provide electrical connectivity between pads and polygons while reducing thermal conductivity." translation="Styl wypełnienia to zazwyczaj wypełnienie pełne, ale styl kreskowany może być używany do wypełnienia o niższej pojemności. Domyślnie opcja Pady termiczne jest włączona, aby zapewnić połączenia elektryczne między padami i wielobokami przy jednoczesnej redukcji przewodności cieplnej."/>
+	<label commandName="Electron::PPourTitle" devLabel="Polygon Pour" translation="Wypełnienie wieloboczne"/>
+	<label commandName="Electron::PasteTips" devLabel="When pasting from a file, nets that have a label or are connected to a supply pin retain their names, while all others get newly generated names." translation="Podczas wklejania z pliku sieci, które mają etykietę lub są połączone z pinem zasilania, zachowują swoje nazwy, podczas gdy wszystkie inne otrzymują nowo wygenerowane nazwy."/>
+	<label commandName="Electron::PasteTitle" devLabel="Paste" translation="Wklej"/>
+	<label commandName="Electron::PatternTips" devLabel="Orients selected objects in a specified formation, starting at the specified point" translation="Orientuje wybrane obiekty w określonej formacji, zaczynając od określonego punktu"/>
+	<label commandName="Electron::PatternTitle" devLabel="Pattern" translation="Szyk"/>
+	<label commandName="Electron::PinSwapTips" devLabel="Wires attached to the swapped pins are moved with the pins, so short circuits can appear. Run the design rules check (DRC) and correct possible errors." translation="Przewody dołączone do zamienianych pinów są przesuwane z pinami, więc mogą pojawić się zwarcia. Uruchom sprawdzenie reguł projektowania (DRC) i popraw możliwe błędy."/>
+	<label commandName="Electron::PinSwapTitle" devLabel="PinSwap" translation="Zamień pin"/>
+	<label commandName="Electron::PortTips" devLabel="The position and orientation are calculated automatically on the closest side of the module symbol." translation="Położenie i orientacja są obliczane automatycznie po najbliższej stronie symbolu modułu."/>
+	<label commandName="Electron::PortTitle" devLabel="Port" translation="Port"/>
+	<label commandName="Electron::QuickRouteAirWireTips" devLabel="In the QuickRoute Airwire dialog, review or select the layer on which to route, and the attributes of trace and via." translation="W oknie dialogowym Szybka trasa — połączenie typu airwire przejrzyj lub wybierz warstwę, na której trasować, oraz atrybuty ścieżki i przelotki."/>
+	<label commandName="Electron::QuickRouteAirWireTitle" devLabel="QuickRoute AirWire" translation="Szybka trasa — połączenie typu airwire"/>
+	<label commandName="Electron::QuickRouteMultiWireTips" devLabel="Press the Esc key if you need to clear the selection list and begin again." translation="Naciśnij klawisz Esc, aby usunąć zaznaczenie listy wyboru i rozpocząć od początku."/>
+	<label commandName="Electron::QuickRouteMultiWireTitle" devLabel="QuickRoute Multiple" translation="Szybka trasa — wiele"/>
+	<label commandName="Electron::QuickRouteSignalTips" devLabel="When the signal that you have selected is one side of a differential pair, the command automatically routes both differential pair signals together." translation="Gdy wybrany sygnał jest jedną stroną pary różnicowej, polecenie automatycznie trasuje oba sygnały pary różnicowej."/>
+	<label commandName="Electron::QuickRouteSignalTitle" devLabel="QuickRoute Signal" translation="Szybka trasa — sygnał"/>
+	<label commandName="Electron::RectangleTips" devLabel="While drawing, press the center mouse button to change the layer on which to add the rectangle." translation="Podczas rysowania naciśnij środkowy przycisk myszy, aby zmienić warstwę, na której chcesz dodać prostokąt."/>
+	<label commandName="Electron::RectangleTitle" devLabel="Rectangle" translation="Prostokąt"/>
+	<label commandName="Electron::ReplaceTips" devLabel="Without parameters, the Replace command opens a dialog from which to select a device from all libraries currently in use. After such a device has been selected, subsequent mouse clicks on devices replaces those devices with the selected one if possible." translation="Bez parametrów polecenie Zastąp otwiera okno dialogowe, w którym można wybrać urządzenie ze wszystkich aktualnie używanych bibliotek. Po wybraniu takiego urządzenia kolejne kliknięcie myszą urządzenia spowoduje zastąpienie tych urządzeń wybranymi, jeśli jest to możliwe."/>
+	<label commandName="Electron::ReplaceTitle" devLabel="Replace" translation="Zamień"/>
+	<label commandName="Electron::RipupElementToElementTips" devLabel="Useful when rerouting connections between components including memory signals, buses, etc" translation="Przydatny podczas zmiany trasy połączeń między komponentami, w tym sygnały pamięciowe, magistrale itp."/>
+	<label commandName="Electron::RipupElementToElementTitle" devLabel="RipupElementToElement" translation="Cofnij do elementu"/>
+	<label commandName="Electron::RotateTips" devLabel="Use the Rotate dialog to select counterclockwise rotation angle ( 0, 90, 180, or 270 degrees) and optional Mirror action (flip about Y axis)." translation="Użyj okna dialogowego Obróć, aby wybrać kąt obrotu przeciwnie do ruchu wskazówek zegara (0, 90, 180 lub 270 stopni) i opcjonalną operację odbicia lustrzanego (odwróć wokół osi Y)."/>
+	<label commandName="Electron::RotateTitle" devLabel="Rotate" translation="Obrót"/>
+	<label commandName="Electron::RouteDiffPairTips" devLabel="When selecting an airwire of a differential pair, both signals are routed in parallel. The distance between the two signals as well as the wire and via sizes are determined by the signals' net class. This is done independent of the setting of Options/Set/Misc/Auto set route width and drill." translation="Podczas wybierania połączenia typu airwire pary różnicowej oba sygnały są trasowane równolegle. Odległość między dwoma sygnałami, jak również rozmiary przewodu i przelotki są określane przez klasę sieci sygnałów. Jest to wykonywane niezależnie od ustawienia Opcje/Ustaw/Różne/Automatyczne ustaw szerokość trasy i otwór wiercony."/>
+	<label commandName="Electron::RouteDiffPairTitle" devLabel="RouteDiff" translation="Trasa pary różnicowej"/>
+	<label commandName="Electron::RouteMultiTips" devLabel="To select the signals to route, draw a selection line across the signal objects to be routed concurrently (existing wires, pads, and vias). Click to end the selection, then right-click to start the routing. Command line MINSPACING, INCSPACING, or DECSPACING for spacing. &#xA; &#xA;Left-click to place wires, Cmd/Ctrl right-click to change bends, Press SPACE to switch layers, '1' for DecSpacing, '2' for IncSpacing, '3' for MinSpacing, '4' for SwapEnd or ENTER to complete the route." translation="Aby wybrać sygnały do trasowania, narysuj linię wyboru przez obiekty sygnałowe, które mają być trasowane jednocześnie (istniejące przewody, płyty i przelotki). Kliknij, aby zakończyć wybór, a następnie kliknij prawym przyciskiem myszy, aby rozpocząć trasowanie. W wierszu polecenia MINSPACING, INCSPACING lub DECSPACING znajdują się odstępy. &#xA; &#xA;Kliknij lewym przyciskiem myszy, aby umieścić przewody, kliknij prawym przyciskiem myszy z klawiszami Cmd/Ctrl, aby zmienić zagięcia, naciśnij klawisz SPACJA, lub „1” dla odstępów malejąco, „2” dla odstępów rosnąco, „3” dla odstępów rosnąco, „4” dla zamiany końców lub ENTER, aby zakończyć trasowanie."/>
+	<label commandName="Electron::RouteMultiTitle" devLabel="RouteMulti" translation="RouteMulti"/>
+	<label commandName="Electron::RunScriptTips" devLabel="If RunScript is typed in at the keyboard and 'file_name' has no extension, the program automatically uses '.scr'." translation="Jeśli polecenie RunScript zostanie wpisane na klawiaturze, a „nazwa_pliku” nie ma rozszerzenia, program automatycznie używa rozszerzenia „.scr”."/>
+	<label commandName="Electron::RunScriptTitle" devLabel="RunScript" translation="RunScript"/>
+	<label commandName="Electron::ShowTips" devLabel="In Design Manager, select more than one object for highlighting by pressing the Ctrl key when clicking the objects." translation="W Menedżerze projektu wybierz więcej niż jeden obiekt do podświetlenia, naciskając klawisz Ctrl podczas klikania obiektów."/>
+	<label commandName="Electron::ShowTitle" devLabel="Show" translation="Pokaż"/>
+	<label commandName="Electron::SliceTips" devLabel="Only lines from from displayed layers can be sliced. Air lines and polygons are not sliced." translation="Tylko linie z wyświetlonych warstw mogą być przecięte. Linie powietrzne i wieloboki nie są przecięte."/>
+	<label commandName="Electron::SliceTitle" devLabel="Slice" translation="Płat"/>
+	<label commandName="Electron::SplitTips" devLabel="A mouseclick defines the point at which the wire is split. The shorter of the two new segments follows the current wire bend rules and can therefore become two more segments; the longer segment is a straight segment running to the next end point." translation="Kliknięcie myszą definiuje punkt, w którym przewód jest dzielony. Krótszy z dwóch nowych segmentów przebiega zgodnie z bieżącymi regułami zagięcia przewodu i może stać się dwoma kolejnymi segmentami. Dłuższy segment jest prostym segmentem biegnącym do następnego punktu końcowego."/>
+	<label commandName="Electron::SplitTitle" devLabel="Split" translation="Podział"/>
+	<label commandName="Electron::Tips" devLabel="Started from a context menu, the object is assigned to a group. It can be identified with the built-in function ingroup() for further processing." translation="Obiekt jest przypisany do grupy, rozpoczynając od menu kontekstowego. Można go zidentyfikować za pomocą wbudowanej funkcji ingroup() w celu dalszego przetwarzania."/>
+	<label commandName="Electron::Title" devLabel="Run ULP" translation="Uruchom skrypt ULP"/>
+	<label commandName="Electron::ToggleAddPanelDesc" devLabel="The Add Panel has search filters that can be used to find a specific device." translation="Panel Dodaj zawiera filtry wyszukiwania, których można użyć do znalezienia określonego urządzenia."/>
+	<label commandName="Electron::ToggleAddPanelTips" devLabel="Click ToggleAddPanel and select the footprint or symbol from the library menu that opens. If necessary, enter parameters from the keyboard." translation="Kliknij przycisk Przełącz panel Dodaj i wybierz footprint lub symbol z menu biblioteki, które zostanie otwarte. W razie potrzeby wprowadź parametry z klawiatury."/>
+	<label commandName="Electron::ToggleAddPanelTitle" devLabel="Toggle Add Panel" translation="Przełącz panel Dodaj"/>
+	<label commandName="Electron::UnrouteTips" devLabel="If the Unroute command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="Jeśli polecenie Usuń z trasy z nazwą zostanie zastosowane do sygnału zawierającego wielobok, wielobok jest wyświetlany z zarysem w celu szybszego przerysowania ekranu. Użyj polecenia Ratsnest, aby ponownie wyświetlić wieloboki w „trybie rzeczywistym”."/>
+	<label commandName="Electron::UnrouteTitle" devLabel="Unroute" translation="Usuń z trasy"/>
+	<label commandName="Electron::ValueTips" devLabel="To apply a new value to a group of components, select the group and change the value in the Inspector." translation="Aby zastosować nową wartość do grupy komponentów, wybierz grupę i zmień wartość w oknie dialogowym Inspektor."/>
+	<label commandName="Electron::ValueTitle" devLabel="Value" translation="Wartość"/>
+	<label commandName="Electron::ViaTips" devLabel="The via is added to a signal if it is placed on an existing signal wire." translation="Przelotka jest dodawana do sygnału, jeśli jest umieszczona na istniejącym przewodzie sygnałowym."/>
+	<label commandName="Electron::ViaTitle" devLabel="Via" translation="Przelotka"/>
+	<label commandName="ElectronCamDirectoryTooltip" devLabel="Directory for CAM Jobs" translation="Katalog dla zadań CAM"/>
+	<label commandName="ElectronCamDirectoryUserName" devLabel="Directory for CAM Jobs" translation="Katalog dla zadań CAM"/>
+	<label commandName="ElectronCamUseLibraryIoToolTip" devLabel="Use Library.io for CAM Jobs by default" translation="Domyślnie używaj Library.io do zadań CAM"/>
+	<label commandName="ElectronCamUseLibraryIoUserName" devLabel="Use Library.io for CAM Jobs by default" translation="Domyślnie używaj Library.io do zadań CAM"/>
+	<label commandName="ElectronColorOptionsDescription" devLabel="Color Preferences for Electronics" translation="Preferencje kolorów dotyczące układów elektronicznych"/>
+	<label commandName="ElectronColorOptionsName" devLabel="Color" translation="Kolor"/>
+	<label commandName="ElectronCommandAnalyzeSignal" devLabel="Analyze Signal" translation="Analiza sygnału"/>
+	<label commandName="ElectronCommandArrange" devLabel="Arrange" translation="Rozmieść"/>
+	<label commandName="ElectronCommandInsertDxf" devLabel="Insert DXF/DWG" translation="Wstaw plik DXF/DWG"/>
+	<label commandName="ElectronCommandNameAddCustom3DModel" devLabel="Add Custom 3D Model" translation="Dodaj niestandardowy model 3D"/>
+	<label commandName="ElectronCommandNameAddDesignBlock" devLabel="Design Block" translation="Blok projektu"/>
+	<label commandName="ElectronCommandNameAddShort" devLabel="Add" translation="Dodaj"/>
+	<label commandName="ElectronCommandNameAddSimModel" devLabel="Add Spice Model" translation="Dodaj model Spice"/>
+	<label commandName="ElectronCommandNameAlign" devLabel="Align" translation="Wyrównaj"/>
+	<label commandName="ElectronCommandNameArc" devLabel="Arc" translation="Łuk"/>
+	<label commandName="ElectronCommandNameAttribute" devLabel="Attribute" translation="Atrybut"/>
+	<label commandName="ElectronCommandNameAutoRouter" devLabel="Autorouter" translation="Autorouter"/>
+	<label commandName="ElectronCommandNameBoardShapeArc" devLabel="Outline Arc" translation="Łuk konturu"/>
+	<label commandName="ElectronCommandNameBoardShapeCircle" devLabel="Outline Circle" translation="Okrąg konturu"/>
+	<label commandName="ElectronCommandNameBoardShapePolyline" devLabel="Outline Polyline" translation="Polilinia konturu"/>
+	<label commandName="ElectronCommandNameBoardShapeSpline" devLabel="Outline Spline" translation="Splajn konturu"/>
+	<label commandName="ElectronCommandNameBom" devLabel="Bill of Materials" translation="Zestawienie komponentów..."/>
+	<label commandName="ElectronCommandNameBus" devLabel="Add Bus" translation="Dodaj magistralę"/>
+	<label commandName="ElectronCommandNameBusBreakout" devLabel="Break Out Bus" translation="Wyprowadź magistralę"/>
+	<label commandName="ElectronCommandNameCAMExport" devLabel="Export Gerber, NC Drill, Assembly and Drawing Outputs" translation="Eksportuj dane wyjściowe Gerber, NC otworów wierconych, zespołu i rysunku"/>
+	<label commandName="ElectronCommandNameCAMPreview" devLabel="CAM Preview" translation="Podgląd CAM"/>
+	<label commandName="ElectronCommandNameCAMProcessor" devLabel="CAM Processor" translation="Procesor CAM"/>
+	<label commandName="ElectronCommandNameChange" devLabel="Change" translation="Zmień"/>
+	<label commandName="ElectronCommandNameCircle" devLabel="Circle" translation="Okrąg"/>
+	<label commandName="ElectronCommandNameClass" devLabel="Class" translation="Klasa"/>
+	<label commandName="ElectronCommandNameCopy" devLabel="Copy" translation="Kopiuj"/>
+	<label commandName="ElectronCommandNameCopyFormat" devLabel="Copy Format" translation="Kopiuj format"/>
+	<label commandName="ElectronCommandNameCut" devLabel="Cut" translation="Wytnij"/>
+	<label commandName="ElectronCommandNameDSourceSetup" devLabel="Digital Source Setup" translation="Konfiguracja źródła cyfrowego"/>
+	<label commandName="ElectronCommandNameDelete" devLabel="Delete" translation="Usuń"/>
+	<label commandName="ElectronCommandNameDimension" devLabel="Dimension" translation="Wymiar"/>
+	<label commandName="ElectronCommandNameDisplay" devLabel="Display Layers" translation="Wyświetl warstwy"/>
+	<label commandName="ElectronCommandNameDrc" devLabel="DRC" translation="DRC"/>
+	<label commandName="ElectronCommandNameEditCustom3DModel" devLabel="Edit Custom 3D Model" translation="Edytuj niestandardowy model 3D"/>
+	<label commandName="ElectronCommandNameErc" devLabel="ERC" translation="ERC"/>
+	<label commandName="ElectronCommandNameErrors" devLabel="Errors" translation="Błędy"/>
+	<label commandName="ElectronCommandNameExpLib" devLabel="Export Libraries" translation="Eksportuj biblioteki"/>
+	<label commandName="ElectronCommandNameFanout" devLabel="Fanout" translation="Wyprowadź"/>
+	<label commandName="ElectronCommandNameFlipBoard" devLabel="Flip Board" translation="Odwróć płytkę"/>
+	<label commandName="ElectronCommandNameGateswap" devLabel="Gate Swap" translation="Zamień bramkę"/>
+	<label commandName="ElectronCommandNameGlobalAttributes" devLabel="Document Attributes" translation="Atrybuty dokumentu"/>
+	<label commandName="ElectronCommandNameGrid" devLabel="Grid Settings" translation="Ustawienia siatki"/>
+	<label commandName="ElectronCommandNameGroup" devLabel="Group" translation="Grupa"/>
+	<label commandName="ElectronCommandNameGroupPolygon" devLabel="Group with Polygon" translation="Grupuj z wielobokiem"/>
+	<label commandName="ElectronCommandNameHole" devLabel="Hole (NPTH)" translation="Otwór (galwanizowany)"/>
+	<label commandName="ElectronCommandNameInfo" devLabel="Info" translation="Informacje"/>
+	<label commandName="ElectronCommandNameInsert2DPCB" devLabel="Insert 2D PCB" translation="Wstaw płytkę PCB 2D"/>
+	<label commandName="ElectronCommandNameInsertDesignBlockToPCB" devLabel="Insert Design Block" translation="Wstaw blok projektu"/>
+	<label commandName="ElectronCommandNameInsertDesignBlockToSch" devLabel="Insert Design Block" translation="Wstaw blok projektu"/>
+	<label commandName="ElectronCommandNameInsertElectronicDesignToPCB" devLabel="Insert Electronic Design" translation="Wstaw projekt elektroniczny"/>
+	<label commandName="ElectronCommandNameInsertElectronicDesignToSch" devLabel="Insert Electronic Design" translation="Wstaw projekt elektroniczny"/>
+	<label commandName="ElectronCommandNameInsertSch" devLabel="Insert Schematic" translation="Wstaw schemat"/>
+	<label commandName="ElectronCommandNameInvoke" devLabel="Invoke" translation="Wywołaj"/>
+	<label commandName="ElectronCommandNameIpcNetlist" devLabel="IPC-D-356 Netlist" translation="Lista sieci IPC-D-356"/>
+	<label commandName="ElectronCommandNameJunction" devLabel="Junction" translation="Skrzyżowanie"/>
+	<label commandName="ElectronCommandNameLabel" devLabel="Label" translation="Etykieta"/>
+	<label commandName="ElectronCommandNameLayer" devLabel="Layer" translation="Warstwa"/>
+	<label commandName="ElectronCommandNameLayerStack" devLabel="Layer Stack Manager" translation="Menedżer stosu warstw"/>
+	<label commandName="ElectronCommandNameLine" devLabel="Line" translation="Linia"/>
+	<label commandName="ElectronCommandNameLinklibrary" devLabel="Unlink from managed library on library.io" translation="Odłącz od zarządzanej biblioteki w witrynie library.io"/>
+	<label commandName="ElectronCommandNameLock" devLabel="Lock" translation="Zablokuj"/>
+	<label commandName="ElectronCommandNameLockAll" devLabel="Lock All" translation="Zablokuj wszystko"/>
+	<label commandName="ElectronCommandNameLockCurrentLayer" devLabel="Lock Current Layer" translation="Zablokuj bieżącą warstwę"/>
+	<label commandName="ElectronCommandNameMakeSpice" devLabel="Add Spice Model" translation="Dodaj model Spice"/>
+	<label commandName="ElectronCommandNameManagelibrary" devLabel="Push changes to managed library on library.io" translation="Wypchnij zmiany w zarządzanej bibliotece do witryny library.io"/>
+	<label commandName="ElectronCommandNameMark" devLabel="Mark Local Origin" translation="Zaznacz lokalnego punktu początku"/>
+	<label commandName="ElectronCommandNameMeander" devLabel="Meander" translation="Meander"/>
+	<label commandName="ElectronCommandNameMirror" devLabel="Mirror" translation="Lustro"/>
+	<label commandName="ElectronCommandNameMiter" devLabel="Miter" translation="Połączenie narożnikowe"/>
+	<label commandName="ElectronCommandNameModule" devLabel="Module" translation="Moduł"/>
+	<label commandName="ElectronCommandNameMove" devLabel="Move" translation="Przesuń"/>
+	<label commandName="ElectronCommandNameName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="ElectronCommandNameNet" devLabel="Net" translation="Sieć"/>
+	<label commandName="ElectronCommandNameNetBreakout" devLabel="Net Breakout" translation="Wyprowadzenie sieci"/>
+	<label commandName="ElectronCommandNameNewDevice" devLabel="Create New Component" translation="Utwórz nowy komponent"/>
+	<label commandName="ElectronCommandNameNewPackage" devLabel="Create New Footprint" translation="Utwórz nowy footprint"/>
+	<label commandName="ElectronCommandNameNewSymbol" devLabel="Create New Symbol" translation="Utwórz nowy symbol"/>
+	<label commandName="ElectronCommandNameOptimize" devLabel="Optimize" translation="Optymalizowany"/>
+	<label commandName="ElectronCommandNamePad" devLabel="PTH Pad" translation="Pad galwanizowany"/>
+	<label commandName="ElectronCommandNamePadArray" devLabel="PTH Pad Array" translation="Tablica padów galwanizowanych"/>
+	<label commandName="ElectronCommandNamePaint" devLabel="Paint Roller" translation="Rolka malarska"/>
+	<label commandName="ElectronCommandNamePaste" devLabel="Paste" translation="Wklej"/>
+	<label commandName="ElectronCommandNamePastePins" devLabel="Paste Pins" translation="Wklej piny"/>
+	<label commandName="ElectronCommandNamePattern" devLabel="Pattern" translation="Szyk"/>
+	<label commandName="ElectronCommandNamePcutout" devLabel="Polygon Cutout" translation="Wycięcie wieloboczne"/>
+	<label commandName="ElectronCommandNamePickAndPlace" devLabel="PickAndPlace" translation="PickAndPlace"/>
+	<label commandName="ElectronCommandNamePin" devLabel="Pin" translation="Przypnij"/>
+	<label commandName="ElectronCommandNamePinArray" devLabel="Pin Array" translation="Tablica pinów"/>
+	<label commandName="ElectronCommandNamePinBreakout" devLabel="Breakout Pins" translation="Wyprowadź piny"/>
+	<label commandName="ElectronCommandNamePinswap" devLabel="Pin Swap" translation="Zamień pin"/>
+	<label commandName="ElectronCommandNamePolygon" devLabel="Polygon" translation="Wielobok"/>
+	<label commandName="ElectronCommandNamePolygonizeCopy" devLabel="Polygon Pour from Outline" translation="Wypełnienie wieloboczne z konturu"/>
+	<label commandName="ElectronCommandNamePolyhidefillall" devLabel="Hide all Polygon Pour fills" translation="Ukryj wszystkie wypełnienia wieloboczne"/>
+	<label commandName="ElectronCommandNamePolyrefill" devLabel="Re-fill Polygon Pours" translation="Ponownie wypełnij wypełnienia wieloboczne"/>
+	<label commandName="ElectronCommandNamePolyshowfillall" devLabel="Show all Polygon Pour fills" translation="Pokaż wszystkie wypełnienia wieloboczne"/>
+	<label commandName="ElectronCommandNamePort" devLabel="Port" translation="Port"/>
+	<label commandName="ElectronCommandNamePpour" devLabel="Polygon Pour" translation="Wypełnienie wieloboczne"/>
+	<label commandName="ElectronCommandNamePrint" devLabel="Print" translation="Drukuj"/>
+	<label commandName="ElectronCommandNamePshape" devLabel="Polygon Shape" translation="Kształt wieloboku"/>
+	<label commandName="ElectronCommandNameQuickRouteAirWire" devLabel="QuickRoute Airwire" translation="Szybka trasa — połączenie typu airwire"/>
+	<label commandName="ElectronCommandNameQuickRouteGuided" devLabel="QuickRoute Guided" translation="Szybka trasa — z przewodnikiem"/>
+	<label commandName="ElectronCommandNameQuickRouteMultiAirwire" devLabel="QuickRoute Multiple" translation="Szybka trasa — wiele"/>
+	<label commandName="ElectronCommandNameQuickRouteSignal" devLabel="QuickRoute Signal" translation="Szybka trasa — sygnał"/>
+	<label commandName="ElectronCommandNameQuickRouteSmooth" devLabel="QuickRoute Smooth" translation="Szybka trasa — gładkie"/>
+	<label commandName="ElectronCommandNameRatsnest" devLabel="Ratsnest" translation="Ratsnest"/>
+	<label commandName="ElectronCommandNameRect" devLabel="Rectangle" translation="Prostokąt"/>
+	<label commandName="ElectronCommandNameRedo" devLabel="Redo" translation="Wykonaj ponownie"/>
+	<label commandName="ElectronCommandNameRedraw" devLabel="Redraw" translation="Przerysuj"/>
+	<label commandName="ElectronCommandNameRemoveCustom3DModel" devLabel="Remove Custom 3D Model" translation="Usuń niestandardowy model 3D"/>
+	<label commandName="ElectronCommandNameRemoveSimModel" devLabel="Remove Spice Model" translation="Usuń model Spice"/>
+	<label commandName="ElectronCommandNameRemoveSpice" devLabel="Remove Spice Model" translation="Usuń model Spice"/>
+	<label commandName="ElectronCommandNameReplace" devLabel="Replace" translation="Zamień"/>
+	<label commandName="ElectronCommandNameReplaceMissingFonts" devLabel="Replace Missing Fonts" translation="Zastąp brakujące czcionki"/>
+	<label commandName="ElectronCommandNameReplaceMissingFontsUseArial" devLabel="Replace Missing Fonts With Arial" translation="Zastąp brakujące czcionki czcionką Arial"/>
+	<label commandName="ElectronCommandNameReplaceMissingFontsUseProportional" devLabel="Replace Missing Fonts With Proportional" translation="Zastąp brakujące czcionki proporcjonalnymi"/>
+	<label commandName="ElectronCommandNameReposition" devLabel="Reposition Attributes" translation="Zmień położenie atrybutów"/>
+	<label commandName="ElectronCommandNameReroute" devLabel="Reroute" translation="Trasuj ponownie"/>
+	<label commandName="ElectronCommandNameRipupAllPolygons" devLabel="Ripup Polygons" translation="Rozłącz wieloboki"/>
+	<label commandName="ElectronCommandNameRotate" devLabel="Rotate" translation="Obrót"/>
+	<label commandName="ElectronCommandNameRoute" devLabel="Route Manual" translation="Trasuj ręcznie"/>
+	<label commandName="ElectronCommandNameRouteDiffPair" devLabel="Route Differential Pair" translation="Trasuj parę różnicową"/>
+	<label commandName="ElectronCommandNameRouteMultiWire" devLabel="Route Multiple" translation="Trasuj wiele"/>
+	<label commandName="ElectronCommandNameRunULP" devLabel="Run ULP" translation="Uruchom skrypt ULP"/>
+	<label commandName="ElectronCommandNameScript" devLabel="Run Script" translation="Uruchom skrypt"/>
+	<label commandName="ElectronCommandNameSelectLinklibrary" devLabel="Link to managed library on library.io" translation="Połącz z zarządzaną biblioteką w witrynie library.io"/>
+	<label commandName="ElectronCommandNameShow" devLabel="Show" translation="Pokaż"/>
+	<label commandName="ElectronCommandNameSignal" devLabel="Signal" translation="Sygnał"/>
+	<label commandName="ElectronCommandNameSimOpToggle" devLabel="Show Simulation Overlay" translation="Pokaż nakładkę symulacji"/>
+	<label commandName="ElectronCommandNameSimulate" devLabel="Simulate" translation="Symulacja"/>
+	<label commandName="ElectronCommandNameSlice" devLabel="Slice" translation="Płat"/>
+	<label commandName="ElectronCommandNameSmd" devLabel="SMD Pad" translation="Pad SMD"/>
+	<label commandName="ElectronCommandNameSmdArray" devLabel="SMD Pad Array" translation="Tablica padów SMD"/>
+	<label commandName="ElectronCommandNameSourceSetup" devLabel="Analog Source Setup" translation="Ustawienia źródła analogowego"/>
+	<label commandName="ElectronCommandNameSplit" devLabel="Split" translation="Podział"/>
+	<label commandName="ElectronCommandNameStopCommand" devLabel="Stop Command" translation="Zatrzymaj polecenie"/>
+	<label commandName="ElectronCommandNameSynchronize" devLabel="Synchronize" translation="Synchronizuj"/>
+	<label commandName="ElectronCommandNameText" devLabel="Text" translation="Tekst"/>
+	<label commandName="ElectronCommandNameTogglePanel" devLabel="Place Component" translation="Wstaw komponent"/>
+	<label commandName="ElectronCommandNameToggleSingleLayer" devLabel="Toggle Single Layer View" translation="Przełącz widok pojedynczej warstwy"/>
+	<label commandName="ElectronCommandNameUndo" devLabel="Undo" translation="Cofnij"/>
+	<label commandName="ElectronCommandNameUnlockAll" devLabel="Unlock All" translation="Odblokuj wszystko"/>
+	<label commandName="ElectronCommandNameUnroute" devLabel="Unroute" translation="Usuń z trasy"/>
+	<label commandName="ElectronCommandNameUnrouteAll" devLabel="Unroute All" translation="Usuń wszystkie z trasy"/>
+	<label commandName="ElectronCommandNameUnrouteConnected" devLabel="Unroute Connected" translation="Usuń z trasy połączone"/>
+	<label commandName="ElectronCommandNameUnrouteConnectedSameLayer" devLabel="Unroute Connected Same Layer" translation="Usuń z trasy połączone z tej samej warstwy"/>
+	<label commandName="ElectronCommandNameUnrouteElementToElement" devLabel="Unroute Between Components" translation="Usuń z trasy między komponentami"/>
+	<label commandName="ElectronCommandNameUnrouteFromTo" devLabel="Unroute From-To" translation="Usuń z trasy od-do"/>
+	<label commandName="ElectronCommandNameUnrouteInComplete" devLabel="Unroute Incomplete" translation="Usuń z trasy niekompletne"/>
+	<label commandName="ElectronCommandNameUnrouteSignal" devLabel="Unroute Signal" translation="Usuń z trasy sygnał"/>
+	<label commandName="ElectronCommandNameUpdate" devLabel="Update design from library" translation="Uaktualnij projekt z biblioteki"/>
+	<label commandName="ElectronCommandNameUpdateAll" devLabel="Update design from all libraries used in design" translation="Uaktualnij projekt ze wszystkich bibliotek używanych w projekcie"/>
+	<label commandName="ElectronCommandNameUpdatemanaged" devLabel="Pull changes from managed library on library.io" translation="Ściągnij zmiany z zarządzanej biblioteki w witrynie library.io"/>
+	<label commandName="ElectronCommandNameUse" devLabel="Open Library Manager" translation="Otwórz Menedżera bibliotek"/>
+	<label commandName="ElectronCommandNameVProbe" devLabel="Voltage Probe" translation="Sonda napięcia"/>
+	<label commandName="ElectronCommandNameValue" devLabel="Value" translation="Wartość"/>
+	<label commandName="ElectronCommandNameVariant" devLabel="Assembly Variant" translation="Wariant zespołu"/>
+	<label commandName="ElectronCommandNameVia" devLabel="Via" translation="Przelotka"/>
+	<label commandName="ElectronCommandNameVpProbe" devLabel="Phase Probe" translation="Sonda fazy"/>
+	<label commandName="ElectronCommandNameWire" devLabel="Wire" translation="Drut"/>
+	<label commandName="ElectronCommandNameZoomIn" devLabel="Zoom In" translation="Powiększenie"/>
+	<label commandName="ElectronCommandNameZoomOut" devLabel="Zoom Out" translation="Pomniejszenie"/>
+	<label commandName="ElectronCommandNameZoomRect" devLabel="Zoom Window" translation="Zoom okno"/>
+	<label commandName="ElectronCommandNameZoomToFit" devLabel="Zoom to Fit" translation="Powiększ w celu dopasowania"/>
+	<label commandName="ElectronDefaultsOptionsDescription" devLabel="Defaults Preferences for Electronics" translation="Domyślne preferencje dotyczące elektroniki"/>
+	<label commandName="ElectronDefaultsOptionsName" devLabel="Defaults" translation="Domyślny"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="Płytka i schemat nie są spójne!&#xA;&#xA;Nie zostanie wykonana żadna anotacja do przodu / wsteczna!&#xA;&#xA;Użyj polecenia ERC, aby uzyskać szczegółowy raport o błędzie."/>
+	<label commandName="ElectronDesignRulesDirectoryTooltip" devLabel="Directory for Design Rules" translation="Katalog dla reguł projektowania"/>
+	<label commandName="ElectronDesignRulesDirectoryUserName" devLabel="Directory for Design Rules" translation="Katalog dla reguł projektowania"/>
+	<label commandName="ElectronDesignRulesUseLibraryIoToolTip" devLabel="Use Library.io for Design Rules by default" translation="Domyślnie używaj Library.io do zasad projektowania"/>
+	<label commandName="ElectronDesignRulesUseLibraryIoUserName" devLabel="Use Library.io for Design Rules by default" translation="Domyślnie używaj Library.io do zasad projektowania"/>
+	<label commandName="ElectronDirectoryOptionsTooltip" devLabel="Preferences that sets directories used in electronics documents" translation="Preferencje określające katalogi używane w dokumentach układów elektronicznych"/>
+	<label commandName="ElectronDirectoryOptionsUserName" devLabel="Directory" translation="Folder"/>
+	<label commandName="ElectronDrillOptionsDescription" devLabel="Drill Preferences for Electronics" translation="Preferencje otworów wierconych dotyczące układów elektronicznych"/>
+	<label commandName="ElectronDrillOptionsName" devLabel="Drill" translation="Wiertło"/>
+	<label commandName="ElectronGridOptionsDescription" devLabel="Grid Preferences for Electronics" translation="Preferencje siatki elektroniki"/>
+	<label commandName="ElectronGridOptionsName" devLabel="Grid" translation="Siatka"/>
+	<label commandName="ElectronIncludePolygonsOptionInput" devLabel="Polygons" translation="Wieloboki"/>
+	<label commandName="ElectronIncludePolygonsOptionInputNewDesc" devLabel="Include 3D geometry for Polygons" translation="Dołącz geometrię 3D dla regionów"/>
+	<label commandName="ElectronIncludeSoldermasksOptionInput" devLabel="Solder Masks" translation="Soldermaski"/>
+	<label commandName="ElectronIncludeSoldermasksOptionInputNewDesc" devLabel="Include 3D geometry for Solder Masks" translation="Uwzględnij geometrię 3D dla soldermasek"/>
+	<label commandName="ElectronIncludeTextsOptionInput" devLabel="Copper Texts" translation="Teksty dla miedzi"/>
+	<label commandName="ElectronIncludeTracesOptionInput" devLabel="Traces" translation="Ślady"/>
+	<label commandName="ElectronIncludeTracesOptionInputNewDesc" devLabel="Include 3D geometry for Traces" translation="Dołącz geometrię 3D dla tras"/>
+	<label commandName="ElectronIncludeViasOptionInput" devLabel="Vias" translation="Przelotki"/>
+	<label commandName="ElectronIncludeViasOptionInputNewDesc" devLabel="Include 3D geometry for Vias" translation="Dołącz geometrię 3D dla przelotek"/>
+	<label commandName="ElectronLibraryDirectoryTooltip" devLabel="Directory for Library" translation="Katalog dla biblioteki"/>
+	<label commandName="ElectronLibraryDirectoryUserName" devLabel="Directory for Library" translation="Katalog dla biblioteki"/>
+	<label commandName="ElectronMiscOptionsDescription" devLabel="Misc Preferences for Electronics" translation="Różne preferencje dotyczące układów elektronicznych"/>
+	<label commandName="ElectronMiscOptionsName" devLabel="Misc" translation="Różne"/>
+	<label commandName="ElectronMissingPackageWarningInfo" devLabel="Missing 3D Model, a rectangular shape is used instead. Deselect to exclude from 3D PCB" translation="Brak modelu 3D, zamiast niego używany jest kształt prostokątny. Usuń zaznaczenie, aby wykluczyć z płytki PCB 3D"/>
+	<label commandName="ElectronNewDesignDocument" devLabel="New Electronics Design" translation="Nowy projekt układu elektronicznego"/>
+	<label commandName="ElectronNewDocument" devLabel="New Electron Document" translation="Nowy dokument Electron"/>
+	<label commandName="ElectronNewLbrDocument" devLabel="New Electronics Library" translation="Nowa biblioteka elementów elektronicznych"/>
+	<label commandName="ElectronNewPcbDocument" devLabel="New PCB" translation="Nowa płytka PCB"/>
+	<label commandName="ElectronNewSchDocument" devLabel="New Schematic" translation="Nowy schemat"/>
+	<label commandName="ElectronOptionsDescription" devLabel="Preferences for Electronics" translation="Preferencje dotyczące układów elektronicznych"/>
+	<label commandName="ElectronOptionsName" devLabel="Electronics" translation="Układy elektroniczne"/>
+	<label commandName="ElectronPlacePanelManageLibraries" devLabel="Library Manager" translation="Menedżer bibliotek"/>
+	<label commandName="ElectronReassociateOutlineInputNewDesc" devLabel="Use new board outline from 2D PCB and break link to associative PCB outline." translation="Użyj nowego konturu płytki z płytką PCB 2D i przerwij połączenie do konturu skojarzonego płytki PCB."/>
+	<label commandName="ElectronSaveAllCmd" devLabel="Save all command" translation="Zapisz wszystkie polecenia"/>
+	<label commandName="ElectronSaveAsAllCmd" devLabel="Save as all linked files command" translation="Zapisz jako polecenie wszystkich połączonych plików"/>
+	<label commandName="ElectronScrDirectoryTooltip" devLabel="Directory for Scripts" translation="Katalog dla skryptów"/>
+	<label commandName="ElectronScrDirectoryUserName" devLabel="Directory for Scripts" translation="Katalog dla skryptów"/>
+	<label commandName="ElectronScrUseLibraryIoToolTip" devLabel="Use Library.io for Scripts by default" translation="Domyślnie używaj Library.io do skryptów"/>
+	<label commandName="ElectronScrUseLibraryIoUserName" devLabel="Use Library.io for Scripts by default" translation="Domyślnie używaj Library.io do skryptów"/>
+	<label commandName="ElectronSearchPackageOptionInput" devLabel="Filter" translation="Filtr"/>
+	<label commandName="ElectronSimModelsDirectoryTooltip" devLabel="Directory for SPICE Models" translation="Katalog dla modeli SPICE"/>
+	<label commandName="ElectronSimModelsDirectoryUserName" devLabel="Directory for SPICE Models" translation="Katalog dla modeli SPICE"/>
+	<label commandName="ElectronSimulationDirectoryTooltip" devLabel="Directory for Simulation" translation="Katalog dla symulacji"/>
+	<label commandName="ElectronSimulationDirectoryUserName" devLabel="Directory for Simulation" translation="Katalog dla symulacji"/>
+	<label commandName="ElectronStopLayerGeometryOptionInput" devLabel="Stop Layer Geometry" translation="Zatrzymaj geometrię warstwy"/>
+	<label commandName="ElectronStopLayerGeometryOptionInputNewDesc" devLabel="Include 3D geometry for Stop Layer Geometry, this option reduces performance" translation="Uwzględnij geometrię 3D w opcji Zatrzymaj geometrię warstwy. Ta opcja zmniejsza wydajność."/>
+	<label commandName="ElectronSyncReplaceOutlineInput" devLabel="Replace Board Outline" translation="Zastąp kontur płytki"/>
+	<label commandName="ElectronSyncTargetTypeInput" devLabel="Push To" translation="Wypchnij do"/>
+	<label commandName="ElectronSyncTargetTypeInputNewDesc" devLabel="This PCB is used in multiple design files, select one file to push updates to." translation="Ta płytka PCB jest używana w wielu plikach projektu. Wybierz jeden plik, do którego chcesz wysłać aktualizacje."/>
+	<label commandName="ElectronTextsOptionInputNewDesc" devLabel="Include 3D geometry for text on the top and bottom copper layers." translation="Dołącz geometrię 3D dla tekstu na górnej i dolnej warstwie miedzi."/>
+	<label commandName="ElectronUlpDirectoryTooltip" devLabel="Directory for ULP" translation="Katalog dla skryptów ULP"/>
+	<label commandName="ElectronUlpDirectoryUserName" devLabel="Directory for ULP" translation="Katalog dla skryptów ULP"/>
+	<label commandName="ElectronUlpUseLibraryIoToolTip" devLabel="Use Library.io for ULP by default" translation="Domyślnie używaj Library.io do ULP"/>
+	<label commandName="ElectronUlpUseLibraryIoUserName" devLabel="Use Library.io for ULP by default" translation="Domyślnie używaj Library.io do ULP"/>
+	<label commandName="Electronic3DPCB" devLabel="3D PCB" translation="Płytka PCB 3D"/>
+	<label commandName="ElectronicBoard" devLabel="Board" translation="Płytka"/>
+	<label commandName="ElectronicPCB" devLabel="PCB" translation="Płytka PCB"/>
+	<label commandName="ElectronicPCB3DBottom" devLabel="PCB3D Bottom" translation="PCB3D — dół"/>
+	<label commandName="ElectronicPCB3DTop" devLabel="PCB3D Top" translation="PCB3D — góra"/>
+	<label commandName="ElectronicProjectDesign" devLabel="Project Design" translation="Projekt"/>
+	<label commandName="ElectronicSchematic" devLabel="Schematic" translation="Schemat"/>
+	<label commandName="ElectronicSheet" devLabel="Sheet%1" translation="Arkusz%1"/>
+	<label commandName="Electronics Library Device Design Environment" devLabel="Device" translation="Urządzenie"/>
+	<label commandName="Electronics Library EmptyLbr Design Environment" devLabel="EmptyLbr" translation="EmptyLbr"/>
+	<label commandName="Electronics Library Footprint Design Environment" devLabel="Footprint" translation="Footprint"/>
+	<label commandName="Electronics Library Package 3D Browse Environment" devLabel="Package 3d" translation="Obudowa 3D"/>
+	<label commandName="Electronics Library Symbol Design Environment" devLabel="Symbol" translation="Symbol"/>
+	<label commandName="ElectronicsDesignDescription" devLabel="Description" translation="Opis"/>
+	<label commandName="ElectronicsDesignDescriptionConfirm" devLabel="Confirm" translation="Zatwierdź"/>
+	<label commandName="ElectronicsDesignDescriptionEdit" devLabel="Edit" translation="Edytuj"/>
+	<label commandName="ElectronicsDesignDescriptionRevert" devLabel="Revert" translation="Przywróć"/>
+	<label commandName="ElectronicsDesignImportCmd" devLabel="Import eagle files as electronics design" translation="Importowanie plików Eagle jako projektów elektronicznych"/>
+	<label commandName="ElectronicsDesignName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="EstimatedQuantity" devLabel="Estimated Qty" translation="Szacowana ilość"/>
+	<label commandName="ExportCAMODB" devLabel="PCB Data Transfer, ODB++" translation="Transfer danych płytki PCB, ODB++"/>
+	<label commandName="ExportCAMODBFormatFailed" devLabel="Unable to export design to ODB++ format." translation="Nie można wyeksportować projektu do formatu ODB++."/>
+	<label commandName="ExportCSV" devLabel="Export CSV" translation="Eksportuj plik CSV"/>
+	<label commandName="ExportODBOutput" devLabel="Export ODB++ Output" translation="Eksportuj dane wyjściowe ODB++"/>
+	<label commandName="ExportToAnsys" devLabel="Export PCB Data for Ansys" translation="Eksportuj dane płytki PCB dla systemu Ansys"/>
+	<label commandName="ExportToAnsysAsODBFormatFailed" devLabel="Unable to export design to ODB++ format." translation="Nie można wyeksportować projektu do formatu ODB++."/>
+	<label commandName="ExportToAnsysExtensionUnrecognized" devLabel="A file cannot be exported with that extension: only &quot;.edb&quot;, &quot;.tgz&quot;, &quot;.zip&quot; and &quot;.tar&quot; extensions are supported." translation="Nie można wyeksportować pliku z tym rozszerzeniem: obsługiwane są tylko rozszerzenia „.edb”, „.tgz”, „.zip” i „.tar”."/>
+	<label commandName="ExportToAnsysRunAnsys" devLabel="Do you want to open %1% in Ansys after the export is complete?" translation="Czy chcesz otworzyć plik %1% w Ansys po zakończeniu eksportowania?"/>
+	<label commandName="ExportToAnsysTranslationFailed" devLabel="Translation failed with following error [%1%]: %2%" translation="Translacja nie powiodła się z powodu następującego błędu [%1%]: %2%"/>
+	<label commandName="ExportToAnsysWindowsOnly" devLabel="Export to EDB format (.edb) is only supported on Windows" translation="Eksportowanie do formatu EDB (.edb) jest obsługiwane tylko w systemie Windows"/>
+	<label commandName="F3Znotauthenticated" devLabel="No valid login session, try logging in again." translation="Brak prawidłowej sesji logowania. Spróbuj zalogować się ponownie."/>
+	<label commandName="FailToAccessPackage3DDoc" devLabel="Fail to access new 3d package document." translation="Nie można uzyskać dostępu do nowego dokumentu obudowy 3D."/>
+	<label commandName="FailToCreateElectronicsDesign" devLabel="Fail to create electronics design." translation="Nie można utworzyć projektu układu elektronicznego."/>
+	<label commandName="FailToCreatePCB3dDoc" devLabel="Fail to create PCB 3d document!" translation="Nie można utworzyć dokumentu płytki PCB 3D!"/>
+	<label commandName="FailToCreatePCBDoc" devLabel="Fail to create PCB document!" translation="Nie można utworzyć dokumentu płytki PCB!"/>
+	<label commandName="FailToCreatePackage3DDoc" devLabel="Fail to create new 3d package document." translation="Nie można utworzyć nowego dokumentu obudowy 3D."/>
+	<label commandName="FailToExecuseSaveBOM" devLabel="Fail to save BOM data! Please try to save it in electronics design." translation="Nie można zapisać danych zestawienia komponentów! Spróbuj zapisać je w projekcie układu elektronicznego."/>
+	<label commandName="FailToExecuteEagleULP" devLabel="Fail to execute eagle ulp." translation="Nie można wykonać polecenia eagle ulp."/>
+	<label commandName="FailToGenerateBRDData" devLabel="Fail to generate board data for PCB update." translation="Nie można wygenerować danych płytki do aktualizacji płytki PCB."/>
+	<label commandName="FailToGenerateBoardInfo" devLabel="Can't  create the 3D geometry due to missing 2D PCB data. Try editing the 2D PCB and push again. " translation="Nie można utworzyć geometrii 3D z powodu braku danych płytki PCB 2D. Spróbuj edytować płytkę PCB 2D i wpychnij ponownie. "/>
+	<label commandName="FailToGenerateResult" devLabel="Fail to generate result." translation="Nie można wygenerować wyniku."/>
+	<label commandName="FailToGetBOMLink" devLabel="Fail to get the linked BOM data." translation="Nie można pobrać połączonych danych zestawienia komponentów."/>
+	<label commandName="FailToImportSchOrBrd" devLabel="Fail to import sch or brd." translation="Nie można zaimportować pliku sch lub brd."/>
+	<label commandName="FailToOpenPCB3DDoc" devLabel="Fail to open PCB3D document!" translation="Nie można otworzyć dokumentu PCB3D!"/>
+	<label commandName="FailToOpenPCBDoc" devLabel="Fail to open PCB document!" translation="Nie można otworzyć dokumentu PCB!"/>
+	<label commandName="FailToSavePartList" devLabel="Fail to save part list, please try it again." translation="Nie można zapisać listy części. Spróbuj ponownie."/>
+	<label commandName="FailToUpdateBoardInfo" devLabel="Can't  update the 3D geometry due to missing 2D PCB data. Try editing the 2D PCB and push again." translation="Nie można zaktualizować geometrii 3D z powodu braku danych płytki PCB 2D. Spróbuj edytować płytkę PCB 2D i wpychnij ponownie."/>
+	<label commandName="FailedInsertParts" devLabel="Could not insert the no birary linked devices: " translation="Nie można wstawić połączonych urządzeń bez biblioteki: "/>
+	<label commandName="FailedToAccessAssetFromSelectedPackageDocument" devLabel="Failed to retrieve 3D model from selected package." translation="Nie można pobrać modelu 3D z wybranej obudowy."/>
+	<label commandName="FailedToAccessLibraryIO3DModel1" devLabel="Failed to access downloaded 3D model from Library.io." translation="Nie można uzyskać dostępu do pobranego modelu 3D z witryny Library.io."/>
+	<label commandName="FailedToAccessLibraryIO3DModel2" devLabel="Failed to access downloaded 3D model from Library.io." translation="Nie można uzyskać dostępu do pobranego modelu 3D z witryny Library.io."/>
+	<label commandName="FailedToAccessSelectedPackageDocument" devLabel="Failed to retrieve 3D model from selected package." translation="Nie można pobrać modelu 3D z wybranej obudowy."/>
+	<label commandName="FailedToCopyAssetToTargetDocument1" devLabel="Failed to copy asset to target document." translation="Nie można skopiować zasobu do dokumentu docelowego."/>
+	<label commandName="FailedToCopyAssetToTargetDocument2" devLabel="Failed to copy asset to target document." translation="Nie można skopiować zasobu do dokumentu docelowego."/>
+	<label commandName="FailedToCopyReferenceFile" devLabel="Failed to copy the referenced file." translation="Nie można skopiować pliku odniesienia."/>
+	<label commandName="FailedToCreatePackageDocument" devLabel="Failed to create new 3D package document." translation="Nie można utworzyć nowego dokumentu obudowy 3D."/>
+	<label commandName="FailedToDownloadGetReferenceFile" devLabel="Failed to download the referenced file." translation="Nie można pobrać pliku odniesienia."/>
+	<label commandName="FailedToFetchFolderInfo" devLabel="Failed to fetch folder info from side panel." translation="Nie można pobrać informacji o folderze z panelu bocznego."/>
+	<label commandName="FailedToGetPartsList" devLabel="Failed to load partsList from schematic." translation="Nie można wczytać listy części ze schematu."/>
+	<label commandName="FailedToGetPartsListInfoOnDisk" devLabel="Failed to load partsList, please open the schematic and try to load again." translation="Nie można wczytać listy części. Otwórz schemat i spróbuj wczytać ponownie."/>
+	<label commandName="FailedToGetReferenceFile" devLabel="Failed to get the referenced file." translation="Nie można pobrać pliku odniesienia."/>
+	<label commandName="FailedToInitializeSelectedPackageDocument" devLabel="Failed to retrieve 3D model from selected package." translation="Nie można pobrać modelu 3D z wybranej obudowy."/>
+	<label commandName="FailedToLoadFootprintInPackageDocument" devLabel="Failed to load footprint in new package document." translation="Nie można wczytać footprintu w nowym dokumencie obudowy."/>
+	<label commandName="FailedToOpenPackage3DError1" devLabel="Failed to open 3D package document." translation="Nie można otworzyć dokumentu obudowy 3D."/>
+	<label commandName="FailedToOpenPackage3DError2" devLabel="Failed to open 3D package document." translation="Nie można otworzyć dokumentu obudowy 3D."/>
+	<label commandName="FailedToOpenReferenceFile" devLabel="Failed to open the referenced file." translation="Nie można otworzyć pliku odniesienia."/>
+	<label commandName="FailedToReferenceTheFile" devLabel="Failed to get the referenced file." translation="Nie można pobrać pliku odniesienia."/>
+	<label commandName="FailedToRetrieveSource3DModel" devLabel="Failed to retrieve 3D model from selected package." translation="Nie można pobrać modelu 3D z wybranej obudowy."/>
+	<label commandName="FailedToSave3DModel" devLabel="Failed to retrieve 3d model for selected package." translation="Nie można pobrać modelu 3D dla wybranej obudowy."/>
+	<label commandName="FailedToSaveNewPackageDocument" devLabel="Failed to save 3d package document." translation="Nie można zapisać dokumentu obudowy 3D."/>
+	<label commandName="FailedToStoreLibraryIO3DModel1" devLabel="Failed to store downloaded 3D model from Library.io." translation="Nie można zapisać pobranego modelu 3D z witryny Library.io."/>
+	<label commandName="FailedToStoreLibraryIO3DModel2" devLabel="Failed to store downloaded 3D model from Library.io." translation="Nie można zapisać pobranego modelu 3D z witryny Library.io."/>
+	<label commandName="Fastest" devLabel="Fastest" translation="Najszybciej"/>
+	<label commandName="FileAlreadyLinked" devLabel="The file has linked to other files already. Please choose another file." translation="Plik został już połączony z innymi plikami. Wybierz inny plik."/>
+	<label commandName="FileOpenFilterDesignDBL" devLabel="All supported files (*.dbl)" translation="Wszystkie obsługiwane pliki (*.dbl)"/>
+	<label commandName="FileOpenFilterDesignDXF" devLabel="All supported files (*.dxf *.dwg)" translation="Wszystkie obsługiwane pliki (*.dxf *.dwg)"/>
+	<label commandName="FileOpenFilterDesignLBR" devLabel="All supported files (*.lbr *.flbr)" translation="Wszystkie obsługiwane pliki (*.lbr *.flbr)"/>
+	<label commandName="FileOpenFilterDesignPCB" devLabel="All supported files (*.fbrd *.brd)" translation="Wszystkie obsługiwane pliki (*.fbrd *.brd)"/>
+	<label commandName="FileOpenFilterDesignSCH" devLabel="All supported files (*.sch *.fsch)" translation="Wszystkie obsługiwane pliki (*.sch *.fsch)"/>
+	<label commandName="FileOpenFilterDesignSch" devLabel="All supported files (*.fsch *.sch)" translation="Wszystkie obsługiwane pliki (*.fsch *.sch)"/>
+	<label commandName="Filter_PlaceHolderText" devLabel="Filter Materials" translation="Filtruj materiały"/>
+	<label commandName="FocusEagleCommandLine" devLabel="Set focus on EAGLE command line bar" translation="Ustaw fokus na pasku wiersza polecenia EAGLE"/>
+	<label commandName="Footprint" devLabel="Footprint" translation="Footprint"/>
+	<label commandName="FootprintUpdatedInPackage3DDoc" devLabel="The footprint representation in this document has been updated with recent footprint changes." translation="Reprezentacja footprintu w tym dokumencie została zaktualizowana o ostatnie zmiany footprintu."/>
+	<label commandName="FootprintXMLNoFootprintTag" devLabel="Footprint XML does not contain any footprint information." translation="Plik XML footprintu nie zawiera żadnych informacji o footprincie."/>
+	<label commandName="FootprintXMLNoRoot" devLabel="Footprint XML does not have root node." translation="Plik XML footprintu nie ma węzła głównego."/>
+	<label commandName="FusionPackage3DStop" devLabel="Finish" translation="Zakończ"/>
+	<label commandName="GeometryOptionsGroup" devLabel="3D Geometry to Include" translation="Geometria 3D do dołączenia"/>
+	<label commandName="GetLatestElectronCommand" devLabel="Get All Latest" translation="Pobierz wszystkie najnowsze"/>
+	<label commandName="GetLatestPcbCommand" devLabel="Get Latest PCB" translation="Pobierz najnowszą płytkę PCB"/>
+	<label commandName="GetLatestSchCommand" devLabel="Get Latest Schematic" translation="Pobierz najnowszy schemat"/>
+	<label commandName="HaveUpdatesIn3D" devLabel="The 3D PCB document has changes that are not yet reflected in the 2D PCB. What do you want to do with those changes before configuring the 3D PCB?" translation="Dokument płytki PCB 3D zawiera zmiany, które nie są jeszcze odzwierciedlone w płytce PCB 2D. Co chcesz zrobić z tymi zmianami przed skonfigurowaniem płytki PCB 3D?"/>
+	<label commandName="HideCommandGuidanceeCommand" devLabel="Hide Command Guidance" translation="Ukryj wskazówki dotyczące poleceń"/>
+	<label commandName="HideElectronAnalyzeSignalCommand" devLabel="Hide Analyze Signal" translation="Ukryj analizę sygnału"/>
+	<label commandName="HideElectronDescriptionCommand" devLabel="Hide Electron Design Description" translation="Ukryj opis projektu elektronicznego"/>
+	<label commandName="HideElectronDesignManagerCommand" devLabel="Hide Design Manager" translation="Ukryj Menedżera projektu"/>
+	<label commandName="HideElectronInspectorCommand" devLabel="Hide Inspector" translation="Ukryj inspektora"/>
+	<label commandName="HideElectronLayersPanelCommand" devLabel="Hide Display Layers Panel" translation="Ukryj panel Wyświetl warstwy"/>
+	<label commandName="HideElectronSelectionFilterCommand" devLabel="Hide Selection Filter" translation="Ukryj filtr wyboru"/>
+	<label commandName="HideElectronSheetsCommand" devLabel="Hide Sheets" translation="Ukryj arkusze"/>
+	<label commandName="IgnoreViolationsCmdDesc" devLabel="Ignore Violators" translation="Ignoruj naruszenia"/>
+	<label commandName="IgnoreViolatorsCommand" devLabel="Ignore Violators" translation="Ignoruj naruszenia"/>
+	<label commandName="ImportOptionsInstruction" devLabel="We found you are uploading Electronics files. We can group them into Electronics Design files:" translation="Wykryto, że przesyłasz pliki programu Electronics. Można je pogrupować w pliki programu Electronics Design:"/>
+	<label commandName="ImportSCHAndBRDCmd" devLabel="Import sch and brd command" translation="Polecenie Importuj pliki sch i brd"/>
+	<label commandName="Include" devLabel="Include" translation="Uwzględnij"/>
+	<label commandName="IncludeInBOM" devLabel="Include in BOM" translation="Uwzględnij w zestawieniu komponentów"/>
+	<label commandName="IncludeInPCB" devLabel="Include in PCB" translation="Uwzględnij w płytce PCB"/>
+	<label commandName="IncludeInSCH" devLabel="Include in SCH" translation="Uwzględnij w SCH"/>
+	<label commandName="InsertPartFromLibrary" devLabel="Insert From Library" translation="Wstaw z biblioteki"/>
+	<label commandName="InsertPartString" devLabel="Insert" translation="Płytki"/>
+	<label commandName="Inspector" devLabel="Inspector" translation="Kontroler"/>
+	<label commandName="InvalidCommand" devLabel="InvalidCommand" translation="Nieprawidłowe polecenie"/>
+	<label commandName="InvalidHotKeyCombo" devLabel="Invalid Hot Key Combination" translation="Nieprawidłowa kombinacja klawiszy skrótu"/>
+	<label commandName="IsLinkedLibrary" devLabel="is Linked Library" translation="jest biblioteką połączoną"/>
+	<label commandName="ItemNumber" devLabel="Item Number" translation="Nr pozycji"/>
+	<label commandName="LastSavedStr" devLabel="Last Saved" translation="Ostatnio zapisane"/>
+	<label commandName="LaunchRedoCmdDef" devLabel="Launch the redo command" translation="Uruchom polecenie ponów"/>
+	<label commandName="LaunchUndoCmdDef" devLabel="Launch the undo command" translation="Uruchom polecenie cofnij"/>
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="W marketingu produktów"/>
+	<label commandName="LearningPanelVideos" devLabel="Learning videos" translation="Filmy szkoleniowe"/>
+	<label commandName="LibraryLinkCritical" devLabel="Critical error during Library.io and Teams sync. Please, close the current library document and re-execute Library.io operation." translation="Błąd krytyczny podczas synchronizacji witryny Library.io i usługi Teams. Zamknij bieżący dokument biblioteki i ponownie wykonaj operację Library.io."/>
+	<label commandName="LibraryString" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="Link 3D PCB to existing brd" devLabel="Link to 2D PCB" translation="Łącze do płytki PCB 2D"/>
+	<label commandName="LinkToExistingDevice" devLabel="Link To Existing Device" translation="Połącz z istniejącym urządzeniem"/>
+	<label commandName="LinkedDocumentNotReady" devLabel="The linked document wasn't ready yet, please try it again." translation="Połączony dokument nie był jeszcze gotowy. Spróbuj ponownie."/>
+	<label commandName="LinktoSelectTarget" devLabel="Link to" translation="Połącz z"/>
+	<label commandName="LoadString" devLabel="Load" translation="Załaduj"/>
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="Panel danych"/>
+	<label commandName="Material_Color" devLabel="Color" translation="Kolor"/>
+	<label commandName="Material_Conductivity" devLabel="Conductivity" translation="Przewodność"/>
+	<label commandName="Material_Construction" devLabel="Construction" translation="Konstrukcja"/>
+	<label commandName="Material_Description" devLabel="Description" translation="Opis"/>
+	<label commandName="Material_Df" devLabel="Df" translation="Df"/>
+	<label commandName="Material_Df1GHz" devLabel="Df @ 1GHz" translation="Df przy 1 GHz"/>
+	<label commandName="Material_Dk" devLabel="Dk" translation="Dk"/>
+	<label commandName="Material_Dk1GHz" devLabel="Dk @ 1GHz" translation="Dk przy 1 GHz"/>
+	<label commandName="Material_Frequency" devLabel="Frequency" translation="Częstotliwość"/>
+	<label commandName="Material_GlassStyle" devLabel="Glass Style" translation="Styl szkła"/>
+	<label commandName="Material_Gtt" devLabel="Glass Trans Temp" translation="Temperatura zeszklenia"/>
+	<label commandName="Material_Manufacturer" devLabel="Manufacturer" translation="Producent"/>
+	<label commandName="Material_Material" devLabel="Material" translation="Materiał"/>
+	<label commandName="Material_Name" devLabel="Name" translation="Nazwa"/>
+	<label commandName="Material_OemMaterial" devLabel="OEM Material" translation="Materiał OEM"/>
+	<label commandName="Material_OemName" devLabel="OEM Name" translation="Nazwa OEM"/>
+	<label commandName="Material_Process" devLabel="Process" translation="Proces"/>
+	<label commandName="Material_RelativePermeability" devLabel="Relative Permeability" translation="Przepuszczalność względna"/>
+	<label commandName="Material_ResinPct" devLabel="Resin Content" translation="Zawartość żywicy"/>
+	<label commandName="Material_Source" devLabel="Source" translation="Źródło"/>
+	<label commandName="Material_Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="Material_Weight" devLabel="Weight" translation="Waga"/>
+	<label commandName="MissPCBDesign" devLabel="Please open or create an electronics design to continue." translation="Otwórz lub utwórz projekt układu elektronicznego, aby kontynuować."/>
+	<label commandName="MostDetailed" devLabel="Most Detailed" translation="Najbardziej szczegółowe"/>
+	<label commandName="MultipleSelected" devLabel="(multiple selected)" translation="(wybrano wiele)"/>
+	<label commandName="Name" devLabel="Name" translation="Nazwa"/>
+	<label commandName="NewElectronDesignMenuCommand" devLabel="New Electronics Design" translation="Nowy projekt układu elektronicznego"/>
+	<label commandName="NewElectronicsDesignWithBrdConfirm" devLabel="Do you want to create an electronics design and link this board to the design?" translation="Czy chcesz utworzyć projekt elektroniczny i połączyć tę płytkę z projektem?"/>
+	<label commandName="NewElectronicsDesignWithSchConfirm" devLabel="Do you want to create an electronics design and link this schematic to the design?" translation="Czy chcesz utworzyć projekt elektroniczny i połączyć ten schemat z projektem?"/>
+	<label commandName="NewShortcut" devLabel="New Shortcut" translation="Nowy skrót"/>
+	<label commandName="NewVataintName" devLabel="Vataint Name" translation="Nazwa Vataint"/>
+	<label commandName="NoLibraryLinked" devLabel="No Library Linked" translation="Brak połączonej biblioteki"/>
+	<label commandName="NoString" devLabel="no" translation="nie"/>
+	<label commandName="NoToCancelYesToCopy" devLabel="Click No to cancel the operation, &#xA;or click Yes to create an editable copy of the library in Fusion 360 Team." translation="Kliknij przycisk Nie, aby anulować operację, &#xA;lub przycisk Tak, aby utworzyć edytowalną kopię biblioteki w usłudze Fusion 360 Team."/>
+	<label commandName="NoneStr" devLabel="None" translation="Brak"/>
+	<label commandName="NotFoundStr" devLabel="Not found" translation="Brak"/>
+	<label commandName="OK" devLabel="OK" translation="OK"/>
+	<label commandName="Ok" devLabel="Ok" translation="OK"/>
+	<label commandName="OkButtonStr" devLabel="OK" translation="OK"/>
+	<label commandName="OkString" devLabel="Ok" translation="OK"/>
+	<label commandName="OpenInAnsys" devLabel="Open in Ansys" translation="Otwórz w Ansys"/>
+	<label commandName="OpenLinkedDocument" devLabel="Open" translation="Otwórz"/>
+	<label commandName="OpenPCB" devLabel="Open the associated PCB document." translation="Otwórz skojarzony dokument płytki PCB."/>
+	<label commandName="OpenSCH" devLabel="Open the associated schematic document." translation="Otwórz skojarzony dokument schematu."/>
+	<label commandName="PCB2DReadonlyError" devLabel="The 2D PCB document permission is read-only. Check to make sure the file is not open in another session." translation="Uprawnienie do dokumentu płytki PCB 2D jest tylko do odczytu. Upewnij się, że plik nie jest otwarty w innej sesji."/>
+	<label commandName="PCB3DFastestOptionInfo" devLabel="Fastest will include all but components as 2D images" translation="Najszybsze będzie uwzględnianie wszystkich komponentów z wyjątkiem obrazów 2D"/>
+	<label commandName="PCB3DPush" devLabel="Push" translation="Wypchnij"/>
+	<label commandName="PCB3DReadonlyError" devLabel="The 3D PCB document permission is read-only. Check to make sure the file is not open in another session." translation="Uprawnienie do dokumentu płytki PCB 3D jest tylko do odczytu. Upewnij się, że plik nie jest otwarty w innej sesji."/>
+	<label commandName="PCB3DSolutionOption" devLabel="Preset" translation="Wstępnie ustawiony"/>
+	<label commandName="PCB3DSolutionOptionToolTip" devLabel="Select a preset Push to 3D PCB configuration or define your own" translation="Wybierz wstępnie ustawioną konfigurację Wypchnij do płytki PCB 3D lub zdefiniuj własną"/>
+	<label commandName="PCB3DUpdate" devLabel="Update" translation="Uaktualnij"/>
+	<label commandName="PCBComponentExcludeAll" devLabel="Exclude all" translation="Wyklucz wszystkie"/>
+	<label commandName="PCBComponentExcludeMissings" devLabel="Exclude missing packages" translation="Wyklucz brakujące obudowy"/>
+	<label commandName="PCBComponentExcludeVisible" devLabel="Exclude visible" translation="Wyklucz widoczne"/>
+	<label commandName="PCBComponentFootprint" devLabel="Footprint" translation="Footprint"/>
+	<label commandName="PCBComponentFootprintTitle" devLabel="Footprint" translation="Footprint"/>
+	<label commandName="PCBComponentInclude" devLabel="Include" translation="Uwzględnij"/>
+	<label commandName="PCBComponentIncludeAll" devLabel="Include all" translation="Uwzględnij wszystkie"/>
+	<label commandName="PCBComponentIncludeTitle" devLabel="Include" translation="Uwzględnij"/>
+	<label commandName="PCBComponentIncludeVisible" devLabel="Include visible" translation="Uwzględnij widoczne"/>
+	<label commandName="PCBComponentName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="PCBComponentNameTitle" devLabel="Name" translation="Nazwa"/>
+	<label commandName="PCBComponentPackage" devLabel="3D Package" translation="Obudowa 3D"/>
+	<label commandName="PCBComponentPackageTitle" devLabel="3D Package" translation="Obudowa 3D"/>
+	<label commandName="PCBComponentsCtrlGroup" devLabel="Components" translation="Komponenty"/>
+	<label commandName="PCBComponentsCtrlTable" devLabel="PCB Components Table" translation="Tabela komponentów płytki PCB"/>
+	<label commandName="PCBDesignEnvironment" devLabel="Electronics Design" translation="Projekt układu elektronicznego"/>
+	<label commandName="PCBFatestWarningInfo" devLabel="Info" translation="Informacje"/>
+	<label commandName="PCBLinkIsNotSync" devLabel="The 2D and 3D PCB documents are out of sync." translation="Dokumenty płytki PCB 2D i 3D są niezsynchronizowane."/>
+	<label commandName="PCBOtherOptionsGroup" devLabel="Options" translation="Opcje"/>
+	<label commandName="PLM360NotAuthenticated" devLabel="No valid login session, try logging in again." translation="Brak prawidłowej sesji logowania. Spróbuj zalogować się ponownie."/>
+	<label commandName="Package3DAccessError" devLabel="Cannot access 3D Package" translation="Nie można uzyskać dostępu do obudowy 3D"/>
+	<label commandName="PackageString" devLabel="Package" translation="Obudowa"/>
+	<label commandName="PanelInDesign" devLabel="" translation=""/>
+	<label commandName="PartsListTitle" devLabel="Parts List" translation="Lista części"/>
+	<label commandName="PasteSTencil_RangeToolTip" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Range Filter:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filter &lt;span style=&quot; font-weight:600;&quot;&gt;paste stencil&lt;/span&gt; materials using the &lt;span style=&quot; font-weight:600;&quot;&gt;Thickness&lt;/span&gt; property.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: podkreślenie;&quot;&gt;Filtr zakresu: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filtr &lt;span style=&quot; font-weight:600;&quot;&gt;wklej szablon &lt;/span&gt; materiałów przy użyciu właściwości &lt;span style=&quot; font-weight:600;&quot;&gt;Grubość&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+	<label commandName="PasteStencil_Material" devLabel="Paste Stencil" translation="Wklej szablon"/>
+	<label commandName="PasteStencil_Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="PasteStencil_ThicknessToolTip" devLabel="Stencil Thickness" translation="Grubość oprawy"/>
+	<label commandName="PendingCustom3DModelWarning" devLabel="This 2D PCB has Custom 3D Models being uploaded to Fusion Team. If you proceed, they may not appear in the 3D PCB. Do you want to continue?" translation="Ta płytka PCB 2D zawiera niestandardowe modele 3D przesyłane do usługi Fusion Team. Kontynuowanie może spowodować, że nie pojawią się one w płytce PCB 3D. Czy chcesz kontynuować?"/>
+	<label commandName="PlacePart" devLabel="Place" translation="Miejscowość"/>
+	<label commandName="Prepreg_Material" devLabel="Pre-Preg" translation="Prepreg"/>
+	<label commandName="PullLibraryDisabled" devLabel="You are not allowed to pull this library" translation="Nie możesz pobrać tej biblioteki"/>
+	<label commandName="PullLibraryEnabled" devLabel="Pull changes from managed library on library.io" translation="Ściągnij zmiany z zarządzanej biblioteki w witrynie library.io"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="Wypchaj do płytki PCB 2D"/>
+	<label commandName="PushLibraryDisabled" devLabel="You are not allowed to push this library" translation="Nie możesz wypchnąć tej biblioteki"/>
+	<label commandName="PushLibraryEnabled" devLabel="Push a new version to Library.io" translation="Wypchnij nową wersję do witryny Library.io"/>
+	<label commandName="PushNewLibraryEnabled" devLabel="Creates a new managed library in Library.io" translation="Tworzy nową zarządzaną bibliotekę w witrynie Library.io"/>
+	<label commandName="PushViolationsCmdDesc" devLabel="Push Violators" translation="Naruszenia wypychania"/>
+	<label commandName="PushViolatorsCommand" devLabel="Push Violators" translation="Naruszenia wypychania"/>
+	<label commandName="Recommended" devLabel="Recommended" translation="Zalecane"/>
+	<label commandName="ReferenceSelectSource" devLabel="Reference to" translation="Odniesienie do"/>
+	<label commandName="ReferenceToPCBCommand" devLabel="Reference to a PCB document" translation="Utwórz odniesienie do dokumentu płytki PCB"/>
+	<label commandName="ReferenceToSCHCommand" devLabel="Reference to a Schematic document" translation="Odniesienie do dokumentu schematu"/>
+	<label commandName="Referral" devLabel="Refer a Friend" translation="Poleć znajomego"/>
+	<label commandName="RefreshEagleWIPLibraryCommand" devLabel="Updates Eagle WIP libraries information" translation="Aktualizuje informacje o bibliotekach Eagle WIP"/>
+	<label commandName="RelatedData" devLabel="Related Data" translation="Powiązane dane"/>
+	<label commandName="RemovePCB3DLinkCommand" devLabel="Remove 3D PCB Link" translation="Usuń łącze płytki PCB 3D"/>
+	<label commandName="RemovePCBLinkCommand" devLabel="Remove PCB Link" translation="Usuń łącze płytki PCB"/>
+	<label commandName="RemoveSCHLinkCommand" devLabel="Remove Schematic Link" translation="Usuń połączenie schematu"/>
+	<label commandName="Reserved" devLabel="Reserved" translation="Zablokowany"/>
+	<label commandName="ReseveredKey" devLabel="Resevered key" translation="Klucz zarezerwowany"/>
+	<label commandName="RunERCInfo" devLabel="Run ERC to find differences and resolve them." translation="Uruchom ERC, aby znaleźć różnice i je rozwiązać."/>
+	<label commandName="SaveBOMDataCmd" devLabel="Save BOM data" translation="Zapisz dane zestawienia komponentów"/>
+	<label commandName="SaveBoardAsAnsysODB" devLabel="PCB Data Transfer, ODB++" translation="Transfer danych płytki PCB, ODB++"/>
+	<label commandName="SaveBoardAsEDB" devLabel="Ansys Electronics Database" translation="Baza danych programu Ansys Electronics"/>
+	<label commandName="SavePartList" devLabel="Save Part List" translation="Zapisz listę części"/>
+	<label commandName="SaveString" devLabel="Save" translation="Zapisz"/>
+	<label commandName="SchematicEditorEnvironment" devLabel="Schematic Editor" translation="Edytor schematów"/>
+	<label commandName="SchematicPlacePartPanel" devLabel="Place Components" translation="Umieść komponenty"/>
+	<label commandName="SchematicSheets" devLabel="Sheets" translation="Arkusze"/>
+	<label commandName="SchematicSheetsPanel" devLabel="Sheets" translation="Arkusze"/>
+	<label commandName="ScriptProgressFormat" devLabel="Executing script" translation="Wykonywanie skryptu"/>
+	<label commandName="SelectDeviceToInsert" devLabel="Please select a device/devices to insert." translation="Wybierz urządzenie/urządzenia do wstawienia."/>
+	<label commandName="SelectDevicesToDelete" devLabel="Please select a device/devices to delete." translation="Wybierz urządzenie/urządzenia do usunięcia."/>
+	<label commandName="SelectDevicesToEdit" devLabel="Please select a device/devices to edit." translation="Wybierz urządzenie/urządzenia do edycji."/>
+	<label commandName="SelectElectronicsDesign" devLabel="Select Electronics Design File" translation="Wybierz plik projektu układu elektronicznego"/>
+	<label commandName="SelectElectronicsDesignIntro" devLabel="This file is linked to multiple Electronics Design files, select which one you want to open below:" translation="Ten plik jest połączony z wieloma plikami projektu układu elektronicznego. Wybierz plik, który chcesz otworzyć, poniżej:"/>
+	<label commandName="Select_Button" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Filtr wyboru"/>
+	<label commandName="Shortcuts" devLabel="Shortcuts" translation="Skróty"/>
+	<label commandName="ShowCommandGuidanceCommand" devLabel="Show Command Guidance" translation="Pokaż wskazówki dotyczące poleceń"/>
+	<label commandName="ShowElectronAnalyzeSignalCommand" devLabel="Show Analyze Signal" translation="Pokaż analizę sygnału"/>
+	<label commandName="ShowElectronDescriptionCommand" devLabel="Show Electron Design Description" translation="Pokaż opis projektu elektronicznego"/>
+	<label commandName="ShowElectronDesignManagerCommand" devLabel="Show Design Manager" translation="Pokaż Menedżera projektu"/>
+	<label commandName="ShowElectronInspectorCommand" devLabel="Show Inspector" translation="Pokaż inspektora"/>
+	<label commandName="ShowElectronLayersPanelCommand" devLabel="Show Display Layers Panel" translation="Pokaż panel Wyświetl warstwy"/>
+	<label commandName="ShowElectronSelectionFilterCommand" devLabel="Show Selection Filter" translation="Pokaż filtr wyboru"/>
+	<label commandName="ShowElectronSheetsCommand" devLabel="Show Sheets" translation="Pokaż arkusze"/>
+	<label commandName="SilkScreen_Material" devLabel="Silk-Screen" translation="Opis"/>
+	<label commandName="SilkscreenQualityDesc" devLabel="Quality affects visual fidelity, higher quality reduces performance" translation="Jakość wpływa na wierność wizualną, wyższa jakość zmniejsza wydajność"/>
+	<label commandName="SolderResist_Df" devLabel="Dissipation Factor" translation="Współczynnik rozproszenia"/>
+	<label commandName="SolderResist_DfToolTip" devLabel="Dissipation Factor (Loss Tangent)" translation="Współczynnik rozproszenia (styczna strat)"/>
+	<label commandName="SolderResist_Dk" devLabel="Dielectric Constant" translation="Stała dielektryczna"/>
+	<label commandName="SolderResist_DkToolTip" devLabel="Dielectric Constant (Relative Permitivity)" translation="Stała dielektryczna (względne przenikanie)"/>
+	<label commandName="SolderResist_Gtt" devLabel="Glass Trans Temp" translation="Temperatura zeszklenia"/>
+	<label commandName="SolderResist_GttToolTip" devLabel="Glass Transition Temperature" translation="Temperatura przejścia szkła"/>
+	<label commandName="SolderResist_Material" devLabel="Solder Resist" translation="Rezystor lutowany"/>
+	<label commandName="SolderResist_RangeToolTip" devLabel="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Range Filter:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filter &lt;span style=&quot; font-weight:600;&quot;&gt;solder resist&lt;/span&gt; materials using any of the following properties: &lt;span style=&quot; font-weight:600;&quot;&gt;Thickness&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Dielectric Constant&lt;/span&gt; (Dk), &lt;span style=&quot; font-weight:600;&quot;&gt;Dissipation Factor&lt;/span&gt; (Df) and &lt;span style=&quot; font-weight:600;&quot;&gt;Glass Transition Temperature&lt;/span&gt; (Gtt).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" translation="&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: podkreślenie;&quot;&gt;Filtr zakresu: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Filtruj &lt;span style=&quot; font-weight:600;&quot;&gt;materiały rezystora lutowanego &lt;/span&gt; przy użyciu jednej z następujących właściwości: &lt;span style=&quot; font-weight:600;&quot;&gt;Grubość&lt;/span&gt;, &lt;span style=&quot; font-weight:600;&quot;&gt;Stała dielektryczna &lt;/span&gt; (Dk), &lt;span style=&quot; font-weight:600;&quot;&gt;Współczynnik rozproszenia &lt;/span&gt; (Df) i &lt;span style=&quot; font-weight:600;&quot;&gt;Temperatura zeszklenia &lt;/span&gt; (Gtt).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+	<label commandName="SolderResist_Thickness" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="SolderResist_ThicknessToolTip" devLabel="Solder Resist Thickness" translation="Grubość rezystora lutowanego"/>
+	<label commandName="Sorry, this key is reserved by Fusion 360 and cannot be used as a command shortcut." devLabel="Sorry, this key is reserved by Fusion 360 and cannot be used as a command shortcut." translation="Niestety, ten przycisk jest zarezerwowany przez program Fusion 360 i nie może być używany jako skrót polecenia."/>
+	<label commandName="SourceLibrary" devLabel="Source Library" translation="Biblioteka źródłowa"/>
+	<label commandName="StringOfDone" devLabel="Done" translation="Gotowe"/>
+	<label commandName="SupplierURL" devLabel="Supplier URL" translation="Adres URL dostawcy"/>
+	<label commandName="SurfaceFinish_Material" devLabel="Surface Finish" translation="Wykończenie powierzchni"/>
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="Wyślij opinię"/>
+	<label commandName="SwitchPcbDocumentCommand" devLabel="Switch to PCB document" translation="Przełącz do dokumentu płytki PCB"/>
+	<label commandName="SwitchSchematicDocumentCommand" devLabel="Switch to Schematic document" translation="Przełącz do dokumentu schematu"/>
+	<label commandName="TechnologyString" devLabel="Technology" translation="Technologia"/>
+	<label commandName="TextCommands" devLabel="Text Commands" translation="Polecenia tekstowe"/>
+	<label commandName="TogglePushViasCmd" devLabel="Push Vias" translation="Odpychanie przelotek"/>
+	<label commandName="TogglePushViasCmdDesc" devLabel="Push Vias" translation="Odpychanie przelotek"/>
+	<label commandName="TypeERCInfo" devLabel="Run ERC to find differences and resolve them." translation="Uruchom ERC, aby znaleźć różnice i je rozwiązać."/>
+	<label commandName="Update2DBtn" devLabel="Keep" translation="Zachowaj"/>
+	<label commandName="Update3dPCB" devLabel="Update 3D PCB" translation="Uaktualnij płytkę PCB 3D"/>
+	<label commandName="UpdateEagleLibrariesVersionsCommand" devLabel="Updates Eagle WIP libraries version information" translation="Aktualizuje informacje o wersji bibliotek Eagle WIP"/>
+	<label commandName="UpdatePCB3DPreview" devLabel="Update the PCB3d preview." translation="Aktualizuj podgląd PCB3d."/>
+	<label commandName="UpdateSCHOrPCBNode" devLabel="Update the Schematic or PCB node." translation="Aktualizuj węzeł schematu lub płytki PCB."/>
+	<label commandName="UploadOptionsPlusTitle" devLabel="Upload Options" translation="Opcje przekazywania"/>
+	<label commandName="UserDefined" devLabel="User Defined" translation="Użytkownika"/>
+	<label commandName="ValidQuantityNumber" devLabel="Please enter a valid quantity number." translation="Wprowadź prawidłową wartość ilości."/>
+	<label commandName="ValueString" devLabel="Value" translation="Wartość"/>
+	<label commandName="VariantString" devLabel="Variant" translation="Wariant"/>
+	<label commandName="View 3D PCB" devLabel="Push to 3D PCB" translation="Wypchnij do płytki PCB 3D"/>
+	<label commandName="ViolationModeCommand" devLabel="ViolationMode" translation="ViolationMode"/>
+	<label commandName="WalkaroundViolationsCmdDesc" devLabel="Walkaround Violators" translation="Naruszenia rozwiązania"/>
+	<label commandName="WalkaroundViolatorsCommand" devLabel="Walkaround Violators" translation="Naruszenia rozwiązania"/>
+	<label commandName="Warning" devLabel="Warning" translation="Ostrzeżenie"/>
+	<label commandName="WillNotUpdatePCB" devLabel="PCB document is not allowed to update if either PCB or 3D PCB document is read only." translation="Aktualizacja dokumentu PCB nie jest dozwolona, jeśli dokument PCB lub 3D PCB jest tylko do odczytu."/>
+	<label commandName="YesString" devLabel="yes" translation="tak"/>
+	<label commandName="You can combine alphanumeric keys with modifiers such as Shift. Control/Ctrl, Alt/Option, and Command; e g. Alt+8." devLabel="You can combine alphanumeric keys with modifiers such as Shift. Control/Ctrl, Alt/Option, and Command; e g. Alt+8." translation="Można łączyć klawisze alfanumeryczne z modyfikatorami, takimi jak Shift. Control/Ctrl, Alt/Option i Command, np. Alt+8."/>
+	<label commandName="You can combine multiple Fusion Electronics commands using a semicolon (';') to separate each command. The shortcut runs the commands in the order in which they appear." devLabel="You can combine multiple Fusion Electronics commands using a semicolon (';') to separate each command. The shortcut runs the commands in the order in which they appear." translation="Można połączyć wiele poleceń programu Fusion Electronics, używając średnika („;”), aby rozdzielić poszczególne polecenia. Skrót uruchamia polecenia w kolejności, w jakiej są wyświetlane."/>
+	<label commandName="autoOpen3DPcbTooltip" devLabel="Open 3D PCB automatically when an electronics design file is opened" translation="Otwórz automatycznie płytkę PCB 3D, gdy otwarty jest plik projektu układu elektronicznego"/>
+	<label commandName="autoOpen3DPcbUserName" devLabel="Open 3D PCB automatically when an electronics design file is opened" translation="Otwórz automatycznie płytkę PCB 3D, gdy otwarty jest plik projektu układu elektronicznego"/>
+	<label commandName="emag-featurepack-desc" devLabel="&lt;b&gt;Design reliable products with the Signal Integrity Extension&lt;/b&gt; &lt;br/&gt;Manage PCB design electromagnetic performance by controlling the impedance of every critical transmission line. &lt;br/&gt;Autodesk® Fusion 360® Signal Integrity Extension, powered by Ansys, enables designers to analyze PCB design electromagnetic performance, mitigate impedance mismatches and coupled geometries issues, to improve design performance and compliance, speed up development cycle, and lower physical testing costs." translation="&lt;b&gt;Projektuj niezawodne produkty za pomocą rozszerzenia Signal Integrity Extension&lt;/b&gt; &lt;br/&gt;Zarządzaj charakterystyką elektromagnetyczną projektu płytki PCB, kontrolując impedancję każdej krytycznej linii przesyłowej. &lt;br/&gt;Rozszerzenie Autodesk® Fusion 360® Signal Integrity Extension obsługiwane przez Ansys umożliwia projektantom analizowanie charakterystyki elektromagnetycznej projektu płytki PCB oraz eliminowanie niedopasowań impedancji i problemów z geometrią sprzężoną w celu poprawy wydajności i zgodności projektu, przyspieszenia cyklu rozwojowego oraz obniżenia kosztów testów fizycznych."/>
+	<label commandName="importNote" devLabel="Imported from %1%" translation="Zaimportowano z %1%"/>
+	<label commandName="lclzAnsysCmd1" devLabel="Export PCB data to Ansys Electronics Desktop" translation="Eksportuj dane płytki PCB do programu Ansys Electronics Desktop"/>
+	<label commandName="lclzAnsysCmd2" devLabel="Ansys ODB++ Output Requirements: do not export Silk-screen, Solder-mask, Paste-mask; avoid True Type Font text because it can cause loading errors; export all Signal, Dielectric, Drill and Rout layers; export all ECAD data: component layers (comp_+_top and comp_+_bot), eda/data (nets and footprints) and CAD netlist (netlists/cadnet/netlist); copper layer's thickness - '.copper_weight' attribute is exported in the 'attrlist' file and the measurement unit is either μm (micron) or oz/sqft depending on output's unit; dielectric layer's thickness - '.layer_dielectric' attribute is exported in the 'attrlist' file and the measurement unit is either mm or inch depending on output's unit. If the default CAMJOB ODB++ templates are not suitable you can create a new CAMJOB from any of the default ODB++ templates using the CAM Processor interface and after adjusting it based on the above guidelines you should save it in the directory where the ODB++ output file will be saved. This CAMJOB file will be used when generating the ODB++ output instead of one of the default templates." translation="Wymagania danych wyjściowych Ansys ODB++: nie eksportuj warstw opisu, maski lutowniczej, maski pasty lutowniczej lub trasy; unikaj tekstu z czcionkami True Type, ponieważ może spowodować błędy wczytywania; eksportuj wszystkie warstwy sygnału, dielektryka i otworów wierconych; eksportuj wszystkie dane ECAD: warstwy komponentów (comp_+_top i comp_+_bot), EDA/dane (nets i footprints) i listę sieci CAD (netlists/cadnet/netlist); grubość warstwy miedzi — atrybut „.copper_weight” jest eksportowany w pliku „attrlist”, a jednostka miary to µm (mikron) lub uncja / stopa kwadratowa, w zależności od jednostki danych wyjściowych; grubość warstwy dielektryka — atrybut „.layer_dielectric” jest eksportowany w pliku „attrlist”, a jednostka miary to mm lub cal, w zależności od jednostki danych wyjściowych. Jeżeli domyślne szablony CAMJOB ODB++ są nieodpowiednie, można utworzyć nowy szablon CAMJOB z dowolnego z domyślnych szablonów ODB++, korzystając z interfejsu CAM Processor, a po dostosowaniu go na podstawie powyższych wskazówek należy zapisać go w katalogu, w którym zostanie zapisany plik wyjściowy ODB++. Ten plik CAMJOB zostanie użyty podczas generowania danych wyjściowych ODB++ zamiast jednego z szablonów domyślnych."/>
+	<label commandName="lclzCAMExportCmd1" devLabel="Generate Gerber, NC Drill, Assembly and Drawing outputs and save the ZIP output file in current directory." translation="Generuj dane wyjściowe Gerber, NC otworów wierconych, zespołu i rysunku, a następnie zapisz plik wyjściowy ZIP w bieżącym katalogu."/>
+	<label commandName="lclzCAMExportCmd2" devLabel="The outputs generation will use the best matching CAMJOB template based on the design's number of signal (copper) layers." translation="Podczas generowania danych wyjściowych zostanie użyty najlepiej dopasowany szablon CAMJOB na podstawie liczby warstw sygnałów (miedzi) w projekcie."/>
+	<label commandName="lclzCAMOdbExportCmd1" devLabel="Generate ODB++ output and save it to the specified compressed output file (default = ZIP)." translation="Wygeneruj dane wyjściowe ODB++ i zapisz je w określonym skompresowanym pliku wyjściowym (domyślnie = ZIP)."/>
+	<label commandName="lclzCAMOdbExportCmd2" devLabel="The ODB++ output generation will use any valid CAMJOB file that includes ODB++ output configuration and resides in the ODB++ output directory. If there is no such CAMJOB file in the output directory the best matching CAMJOB template based on the design's number of copper layers will be used instead." translation="Generowanie danych wyjściowych ODB++ będzie używać dowolnego poprawnego pliku CAMJOB, który zawiera konfigurację danych wyjściowych ODB++ i znajduje się w katalogu danych wyjściowych ODB++. Jeśli w katalogu danych wyjściowych nie ma takiego pliku CAMJOB, zostanie użyty szablon CAMJOB najlepiej pasujący na podstawie liczby warstw miedzi w projekcie."/>
+	<label commandName="lclzCreatePanel" devLabel="CREATE" translation="UTWÓRZ"/>
+	<label commandName="lclzEagleAnnotatePanel" devLabel="ANNOTATE" translation="OPISZ"/>
+	<label commandName="lclzEaglePcbAssignShortcutsPanel" devLabel="SHORTCUTS" translation="Skróty"/>
+	<label commandName="lclzEaglePcbAttributePanel" devLabel="ATTRIBUTES" translation="ATRYBUTY"/>
+	<label commandName="lclzEaglePcbAutomate" devLabel="AUTOMATION" translation="AUTOMATYZACJA"/>
+	<label commandName="lclzEaglePcbBoardShapePanel" devLabel="BOARD SHAPE" translation="KSZTAŁT PŁYTKI"/>
+	<label commandName="lclzEaglePcbDesignTab" devLabel="DESIGN" translation="PROJEKT"/>
+	<label commandName="lclzEaglePcbDocument" devLabel="DOCUMENT" translation="DOKUMENT"/>
+	<label commandName="lclzEaglePcbDrawPanel" devLabel="DRAW" translation="RYSUJ"/>
+	<label commandName="lclzEaglePcbEditPanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzEaglePcbLayersPanel" devLabel="LAYERS" translation="WARSTWY"/>
+	<label commandName="lclzEaglePcbLibraryPanel" devLabel="LIBRARIES" translation="BIBLIOTEKI"/>
+	<label commandName="lclzEaglePcbLibraryTab" devLabel="LIBRARY" translation="BIBLIOTEKA"/>
+	<label commandName="lclzEaglePcbManufacturing" devLabel="Manufacturing" translation="Produkcja"/>
+	<label commandName="lclzEaglePcbManufacturingPanel" devLabel="Manufacturing" translation="Produkcja"/>
+	<label commandName="lclzEaglePcbMfgOutputPanel" devLabel="OUTPUTS" translation="DANE WYJŚCIOWE"/>
+	<label commandName="lclzEaglePcbModifyPanel" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzEaglePcbOutputPanel" devLabel="OUTPUTS" translation="DANE WYJŚCIOWE"/>
+	<label commandName="lclzEaglePcbPlacePanel" devLabel="PLACE" translation="WSTAW"/>
+	<label commandName="lclzEaglePcbPolygonPanel" devLabel="POLYGON" translation="WIELOBOK"/>
+	<label commandName="lclzEaglePcbQuickRoutePanel" devLabel="QUICK ROUTE" translation="SZYBKIE TRASOWANIE"/>
+	<label commandName="lclzEaglePcbReworkPanel" devLabel="REWORK" translation="WPROWADŹ POPRAWKI"/>
+	<label commandName="lclzEaglePcbRoutePanel" devLabel="ROUTE" translation="TRASUJ"/>
+	<label commandName="lclzEaglePcbRulesDrcErc" devLabel="Rules DRC/ERC" translation="Reguły DRC/ERC"/>
+	<label commandName="lclzEaglePcbRulesPanel" devLabel="DRC" translation="DRC"/>
+	<label commandName="lclzEaglePcbSIMULATE" devLabel="SIMULATION" translation="SYMULACJA"/>
+	<label commandName="lclzEaglePcbSelectPanel" devLabel="SELECT" translation="WYBIERZ"/>
+	<label commandName="lclzEaglePcbSignalAnalysisPanel" devLabel="Analyze Signal" translation="Analiza sygnału"/>
+	<label commandName="lclzEaglePcbSimulatePanel" devLabel="Ansys" translation="Ansys"/>
+	<label commandName="lclzEaglePcbUnroutePanel" devLabel="UNROUTE" translation="USUŃ Z TRASY"/>
+	<label commandName="lclzEaglePcbViewPanel" devLabel="VIEW" translation="WIDOK"/>
+	<label commandName="lclzEagleProblemsPanel" devLabel="PROBLEMS" translation="PROBLEMY"/>
+	<label commandName="lclzEagleSchAssemblyVariantPanel" devLabel="Assembly Variant" translation="Wariant zespołu"/>
+	<label commandName="lclzEagleSchAssignShortcutsPanel" devLabel="SHORTCUTS" translation="Skróty"/>
+	<label commandName="lclzEagleSchAttributePanel" devLabel="ATTRIBUTES" translation="ATRYBUTY"/>
+	<label commandName="lclzEagleSchAutomation" devLabel="AUTOMATION" translation="AUTOMATYZACJA"/>
+	<label commandName="lclzEagleSchAutomationTab" devLabel="AUTOMATE" translation="AUTOMATYZUJ"/>
+	<label commandName="lclzEagleSchConnectPanel" devLabel="CONNECT" translation="POŁĄCZ"/>
+	<label commandName="lclzEagleSchDesignTab" devLabel="DESIGN" translation="PROJEKT"/>
+	<label commandName="lclzEagleSchDocumentTab" devLabel="DOCUMENT" translation="DOKUMENT"/>
+	<label commandName="lclzEagleSchDrawPanel" devLabel="DRAW" translation="RYSUJ"/>
+	<label commandName="lclzEagleSchEditPanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzEagleSchLibraryPanel" devLabel="LIBRARIES" translation="BIBLIOTEKI"/>
+	<label commandName="lclzEagleSchLibraryTab" devLabel="LIBRARY" translation="BIBLIOTEKA"/>
+	<label commandName="lclzEagleSchModifyPanel" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzEagleSchOutputPanel" devLabel="Output" translation="Wynik"/>
+	<label commandName="lclzEagleSchPlacePanel" devLabel="PLACE" translation="WSTAW"/>
+	<label commandName="lclzEagleSchProblemsPanel" devLabel="PROBLEMS" translation="PROBLEMY"/>
+	<label commandName="lclzEagleSchReworkPanel" devLabel="REWORK" translation="WPROWADŹ POPRAWKI"/>
+	<label commandName="lclzEagleSchSelectPanel" devLabel="SELECT" translation="WYBIERZ"/>
+	<label commandName="lclzEagleSchSimulatePanel" devLabel="SIMULATE" translation="SYMULUJ"/>
+	<label commandName="lclzEagleSchSwitchPanel" devLabel="SWITCH" translation="PRZEŁĄCZ"/>
+	<label commandName="lclzEagleSchValidatePanel" devLabel="VALIDATE" translation="WERYFIKUJ"/>
+	<label commandName="lclzEagleSchValidateTab" devLabel="VALIDATE" translation="WERYFIKUJ"/>
+	<label commandName="lclzEagleSchViewPanel" devLabel="VIEW" translation="WIDOK"/>
+	<label commandName="lclzEagleSwitchPanel" devLabel="SWITCH" translation="PRZEŁĄCZ"/>
+	<label commandName="lclzElectron::1" devLabel="Executes a User Language Program from the library." translation="Wykonuje skrypt User Language Program z biblioteki."/>
+	<label commandName="lclzElectron::2" devLabel="The Run command starts the User Language Program from the file 'file_name'." translation="Polecenie Uruchom uruchamia skrypt User Language Program z pliku „nazwa_pliku”."/>
+	<label commandName="lclzElectron::AddCustom3DModel1" devLabel="Assigns a custom 3D model to a part or element in a schematic or board." translation="Przypisuje niestandardowy model 3D do części lub elementu na schemacie lub płytce."/>
+	<label commandName="lclzElectron::AddCustom3DModel2" devLabel="Existing references to a 3D model are replaced by the new package." translation="Istniejące odniesienia do modelu 3D są zastępowane nową obudową."/>
+	<label commandName="lclzElectron::AddHole1" devLabel="Adds a drill hole to a board or footprint." translation="Dodaje otwór wiercony do płytki lub footprintu."/>
+	<label commandName="lclzElectron::AddHole2" devLabel="The parameter drill defines the diameter of the hole in the actual unit." translation="Parametr otworu wierconego definiuje średnicę otworu w rzeczywistym urządzeniu."/>
+	<label commandName="lclzElectron::AddSymbol1" devLabel="Adds a symbol to a component." translation="Dodaje symbol do komponentu."/>
+	<label commandName="lclzElectron::AddSymbol2" devLabel="This command fetches a symbol to insert into the component." translation="To polecenie pobiera symbol do wstawienia do komponentu."/>
+	<label commandName="lclzElectron::AddText1" devLabel="Adds text to a drawing." translation="Dodaje tekst do rysunku."/>
+	<label commandName="lclzElectron::AddText2" devLabel="When entering several texts it is not necessary to invoke the command each time, as the text command remains active after placing text with the mouse." translation="Podczas wprowadzania kilku tekstów nie trzeba za każdym razem wywoływać polecenia, ponieważ polecenie tekstu pozostaje aktywne po umieszczeniu tekstu za pomocą myszy."/>
+	<label commandName="lclzElectron::Align1" devLabel="Aligns selected objects." translation="Wyrównuje wybrane obiekty."/>
+	<label commandName="lclzElectron::Align2" devLabel="You can align objects in relation to one another or move their origin to a nearby grid point." translation="Można wyrównać obiekty względem siebie lub przesunąć ich początek do najbliższego punktu siatki."/>
+	<label commandName="lclzElectron::AnalyzeSignal1" devLabel="Calculates signal integrity for a selected signal. Returns impedance, propagation delay and other values for each segment of the signal path in tabular and graphical form." translation="Oblicza integralność sygnału dla wybranego sygnału. Zwraca impedancję, opóźnienie propagacji i inne wartości dla każdego segmentu ścieżki sygnału w postaci tabelarycznej i graficznej."/>
+	<label commandName="lclzElectron::AnalyzeSignal2" devLabel="Define the frequency and target impedance range to flag and identify impedance issues to resolve in the circuit design." translation="Zdefiniuj zakres częstotliwości i impedancji docelowej, aby oznaczyć i zidentyfikować problemy z impedancją, które można rozwiązać w projekcie obwodu."/>
+	<label commandName="lclzElectron::Arc1" devLabel="Draw an arc of variable diameter, width, and length." translation="Narysuj łuk o zmiennej średnicy, szerokości i długości."/>
+	<label commandName="lclzElectron::Arc2" devLabel="The first click defines a point on a circle, the second its diameter. Right-click to change the direction from first to second point." translation="Pierwsze kliknięcie definiuje punkt na okręgu, drugie jego średnicę. Kliknij prawym przyciskiem myszy, aby zmienić kierunek od pierwszego do drugiego punktu."/>
+	<label commandName="lclzElectron::Arrange1" devLabel="Positions selected objects in a linear or circular formation." translation="Umieszcza wybrane obiekty w formacji liniowej lub kołowej."/>
+	<label commandName="lclzElectron::Arrange2" devLabel="Select the objects to arrange. Specify the formation type, the X and Y spacing for rectangular or angular spacing for circular, and the start point. Click OK." translation="Wybierz obiekty do rozmieszczenia. Określ typ formacji, odstępy X i Y dla odstępów prostokątnych lub kątowych dla okręgu i punkt początkowy. Kliknij przycisk OK."/>
+	<label commandName="lclzElectron::Attribute1" devLabel="Definition of part attributes and their display." translation="Definicja atrybutów części i ich wyświetlanie."/>
+	<label commandName="lclzElectron::Attribute2" devLabel="An attribute is a combination of a name and a value that can specify any kind of information for a given part." translation="Atrybut jest kombinacją nazwy i wartości, która może określać informacje dowolnego typu dla danej części."/>
+	<label commandName="lclzElectron::AutoRouter1" devLabel="Starts the AutoRouter" translation="Uruchamia autorouter"/>
+	<label commandName="lclzElectron::AutoRouter2" devLabel="If signal names are specified or signals are selected with the mouse, only these signals are routed. Without parameters the command will try to route all signals." translation="Jeśli określono nazwy sygnałów lub wybrano sygnały za pomocą myszy, trasowane są tylko te sygnały. Bez parametrów polecenie spróbuje trasować wszystkie sygnały."/>
+	<label commandName="lclzElectron::Bus1" devLabel="Draws buses on the bus layer of a schematic." translation="Rysuje magistale na warstwie magistrali schematu."/>
+	<label commandName="lclzElectron::Bus2" devLabel="A Bus is a collection of nets. A Bus has a specification and is drawn as one or more bus line segments. The bus specification can include a unique alias, which is a short name used to identify the bus." translation="Migistrala jest zbiorem sieci. Magistrala ma specyfikację i jest rysowana jako co najmniej jeden segment linii magistrali. Specyfikacja magistrali może zawierać niepowtarzalny alias, który jest krótką nazwą używaną do identyfikacji magistrali."/>
+	<label commandName="lclzElectron::BusBreakout1" devLabel="Breaks out a single, selected, or all nets as new wires extending from a bus." translation="Wyprowadza pojedyncze, wybrane lub wszystkie sieci jako nowe przewody wychodzące z magistrali."/>
+	<label commandName="lclzElectron::BusBreakout2" devLabel="Automatically add wires with net labels extending from a bus, saving time, and reducing errors." translation="Automatycznie dodaje przewody z etykietami sieci wychodzącymi z magistrali, co oszczędza czas i zmniejsza liczbę błędów."/>
+	<label commandName="lclzElectron::Change1" devLabel="Changes parameters." translation="Zmienia parametry."/>
+	<label commandName="lclzElectron::Change2" devLabel="The Change command is used to change or preset object properties. Select the desired parameter and value from the Change menu, or enter it from the keyboard." translation="Polecenie Zmień służy do zmiany lub wstępnego ustawienia właściwości obiektu. Wybierz żądany parametr i wartość z menu Zmień lub wprowadź ją z klawiatury."/>
+	<label commandName="lclzElectron::Circle1" devLabel="Adds a circle to a drawing." translation="Dodaje okrąg do rysunku."/>
+	<label commandName="lclzElectron::Circle2" devLabel="The Line Width parameter defines the width of the circle's line and is the same parameter used in the Line command." translation="Parametr Szerokość linii definiuje szerokość linii okręgu i jest tym samym parametrem co w poleceniu Linia."/>
+	<label commandName="lclzElectron::Configure3DPCB1" devLabel="Provides presets to help configure which objects display in the 3D PCB document and whether or not bitmap images are used to represent traces." translation="Udostępnia ustawienia wstępne ułatwiające określenie, które obiekty są wyświetlane w dokumencie płytki 3D PCB oraz czy obrazy bitmap są używane do reprezentowania śladów."/>
+	<label commandName="lclzElectron::Configure3DPCB2" devLabel="Select the 2D PCB objects you want represented in the 3D PCB document.                                                                        Components without a 3D model are identified so you can decide whether                                                                        or not to exclude them. Included components without 3D models are                                                                        represented by rectangular shapes." translation="Wybierz obiekty 2D PCB, które mają być reprezentowane w dokumencie płytki 3D PCB. Komponenty bez modelu 3D są identyfikowane, dzięki czemu można zdecydować, czy mają być wykluczone. Uwzględnione komponenty bez modeli 3D są reprezentowane przez prostokątne kształty."/>
+	<label commandName="lclzElectron::Copy1" devLabel="Copies objects." translation="Kopiuje obiekty."/>
+	<label commandName="lclzElectron::Copy2" devLabel="Copies objects within the same drawing, or between libraries. The system generates a new name for the copy but retains the old value. When copying signals (wires), buses, and nets the names are retained, but in all other cases a new name is assigned." translation="Kopiuje obiekty w tym samym rysunku lub między bibliotekami. System generuje nową nazwę dla kopii, ale zachowuje starą wartość. Podczas kopiowania sygnałów (przewodów), magistrali i sieci nazwy są zachowywane, ale we wszystkich innych przypadkach przypisywana jest nowa nazwa."/>
+	<label commandName="lclzElectron::CopyFormat1" devLabel="Transfers selected properties of an object to other objects of the same type." translation="Przenosi wybrane właściwości obiektu do innych obiektów tego samego typu."/>
+	<label commandName="lclzElectron::CopyFormat2" devLabel="Select the properties you want to transfer to other objects of the same type in the Select properties dialog of the selected object, then close the dialog with OK, and click the target objects." translation="Wybierz właściwości, które chcesz przenieść do innych obiektów tego samego typu w oknie dialogowym Wybierz właściwości wybranego obiektu, a następnie zamknij okno dialogowe OK i kliknij obiekty docelowe."/>
+	<label commandName="lclzElectron::DRC1" devLabel="Checks design rules." translation="Sprawdza reguły projektowania."/>
+	<label commandName="lclzElectron::DRC2" devLabel="The board is checked against the current design rules. Electrically irrelevant objects (wires in footprints, rectangles, circles and texts) are not checked against each other for clearance errors. " translation="Płytka jest sprawdzana pod kątem bieżących reguł projektowania. Obiekty elektryczne nieistotne (przewody w footprintach, prostokąty, okręgi i teksty) nie są sprawdzane względem siebie pod kątem błędów odstępu izolacyjnego. "/>
+	<label commandName="lclzElectron::Delete1" devLabel="Deletes selected objects." translation="Usuwa wybrane obiekty."/>
+	<label commandName="lclzElectron::Delete2" devLabel="Parts, pads, SMDs, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="Części, pady, elementy SMD, piny i bramki mogą być również wybierane według ich nazwy, co jest szczególnie przydatne, jeśli obiekt znajduje się poza aktualnie wyświetlanym obszarem okna. Należy pamiętać, że podczas wybierania części wielobramkowej w schemacie według nazwy należy wprowadzić pełną nazwę wystąpienia, składającą się z nazwy części i bramki."/>
+	<label commandName="lclzElectron::Dimension1" devLabel="Adds dimensioning to a drawing." translation="Dodaje wymiarowanie do rysunku."/>
+	<label commandName="lclzElectron::Dimension2" devLabel="If an object is first selected, a dimension is applied, such as the length of a straight wire, or diameter of a hole. If no object is selected, the current dimension type is added; right-click to cycle through the various types." translation="Jeśli najpierw wybrano obiekt, zostanie zastosowany wymiar, na przykład długość prostego przewodu lub średnica otworu. Jeśli nie wybrano żadnego obiektu, dodawany jest bieżący typ wymiaru; kliknij prawym przyciskiem myszy, aby cyklicznie przełączać się między różnymi typami."/>
+	<label commandName="lclzElectron::Display1" devLabel="Control the display of drawing layers, showing all, used layers, or unused layers." translation="Steruje wyświetlaniem warstw rysunku, wyświetla wszystkie, używane warstwy lub nieużywane warstwy."/>
+	<label commandName="lclzElectron::Display2" devLabel="Use the eye icon beside a layer to turn it on or off. Double-click a layer to review or modify its properties." translation="Użyj ikony oka obok warstwy, aby ją włączyć lub wyłączyć. Kliknij dwukrotnie warstwę, aby przejrzeć lub zmodyfikować jej właściwości."/>
+	<label commandName="lclzElectron::DocumentAttributes1" devLabel="Manages document-level attributes." translation="Zarządza atrybutami poziomu dokumentu."/>
+	<label commandName="lclzElectron::DocumentAttributes2" devLabel="Add, modify, or delete document-level attributes, such as author or project identification number. Use the Text command to place the attribute string in the canvas." translation="Dodaj, zmodyfikuj lub usuń atrybuty poziomu dokumentu, takie jak autor lub numer identyfikacyjny projektu. Użyj polecenia Tekst, aby umieścić ciąg atrybutu w obszarze rysunku."/>
+	<label commandName="lclzElectron::ERC1" devLabel="Electrical Rules Check." translation="Sprawdzenie reguł połączeń elektrycznych."/>
+	<label commandName="lclzElectron::ERC2" devLabel="Use this command to test schematics for electrical errors. If a board file is loaded, the ERC command also runs a consistency check between schematic and board. " translation="To polecenie służy do testowania schematów pod kątem błędów elektrycznych. Jeśli wczytany jest plik płytki, polecenie ERC uruchamia również sprawdzanie spójności między schematem a płytką. "/>
+	<label commandName="lclzElectron::EditCustom3DModel1" devLabel="Edits the 3D model associated with a part or element in a schematic or board." translation="Umożliwia edycję modelu 3D skojarzonego z częścią lub elementem na schemacie lub płytce."/>
+	<label commandName="lclzElectron::EditCustom3DModel2" devLabel="When a custom 3D model is associated, edits the custom 3D model instead of the originally managed 3D model." translation="Gdy jest skojarzony niestandardowy model 3D, edytuje niestandardowy model 3D zamiast pierwotnie zarządzanego modelu 3D."/>
+	<label commandName="lclzElectron::Errors1" devLabel="Shows the errors found by the ERC or DRC command." translation="Pokazuje błędy wykryte przez ERC lub DRC."/>
+	<label commandName="lclzElectron::Errors2" devLabel="If no check has yet been run for the loaded drawing, the check will be started first." translation="Jeśli nie przeprowadzono jeszcze sprawdzenia dla wczytanego rysunku, sprawdzenie zostanie najpierw uruchomione."/>
+	<label commandName="lclzElectron::ExpLib1" devLabel="Exports libraries to allow you to make individual changes to components in a project." translation="Eksportuje biblioteki, aby umożliwić wprowadzanie indywidualnych zmian w komponentach w projekcie."/>
+	<label commandName="lclzElectron::ExpLib2" devLabel="Use to generate one or more libraries containing the selected components. Make your changes in the libraries and then use UPDATE to display the changes in the schematic or board." translation="Użyj tej opcji, aby wygenerować co najmniej jedną bibliotekę zawierającą wybrane komponenty. Wprowadź zmiany w bibliotekach, a następnie użyj polecenia AKTUALIZUJ, aby wyświetlić zmiany na schemacie lub płytce."/>
+	<label commandName="lclzElectron::Fanout1" devLabel="Creates fanouts from devices and signals." translation="Tworzy wyprowadzenia z urządzeń i sygnałów."/>
+	<label commandName="lclzElectron::Fanout2" devLabel="The command creates a routed wire and attached via from pads of the selected device or signal. Only surface mount devices (SMD) or ball-grid array (BGA) devices are fanned out; devices with through-hole pads are ignored." translation="Polecenie tworzy przewód trasowany i dołączoną przelotkę z padów wybranego urządzenia lub sygnału. Wyprowadzane są tylko urządzenia do montażu powierzchniowego (SMD) lub urządzenia BGA (ball-grid array). Urządzenia z padami do montażu przewlekanego są ignorowane."/>
+	<label commandName="lclzElectron::FlipBoard1" devLabel="View opposite side of board." translation="Wyświetl przeciwległą stronę płytki."/>
+	<label commandName="lclzElectron::FlipBoard2" devLabel="The board is rotated 180 degrees around the Y axis, in model space, to look at the opposite side." translation="Płytka jest obracana o 180 stopni wokół osi Y w obszarze modelu, aby umożliwić zobaczenie jej przeciwległej strony."/>
+	<label commandName="lclzElectron::GateSwap1" devLabel="Swaps equivalent gates on a schematic." translation="Zamienia równoważne bramki na schemacie."/>
+	<label commandName="lclzElectron::GateSwap2" devLabel="Both gates must be identical with the same number of pins and the same Swaplevel in the device definition, but they need not be in the same device." translation="Obie bramki muszą być identyczne z tą samą liczbą pinów i tym samym parametrem swaplevel w definicji urządzenia, ale nie muszą znajdować się w tym samym urządzeniu."/>
+	<label commandName="lclzElectron::Grid1" devLabel="Provides controls for defining the drawing grid." translation="Zapewnia elementy sterujące do definiowania siatki rysunkowej."/>
+	<label commandName="lclzElectron::Grid2" devLabel="Set grid display on/off, display style, and size." translation="Włącza/wyłącza wyświetlanie siatki, styl wyświetlania i rozmiar."/>
+	<label commandName="lclzElectron::Group1" devLabel="Defines a group of objects for a subsequent command." translation="Definiuje grupę obiektów dla kolejnego polecenia."/>
+	<label commandName="lclzElectron::Group2" devLabel="After activating the Group command, select objects by click-dragging a rectangle around them or Ctrl-clicking them." translation="Po aktywowaniu polecenia Grupuj wybierz obiekty, przeciągając prostokąt wokół nich lub klikając je z wciśniętym klawiszem Ctrl."/>
+	<label commandName="lclzElectron::GroupPolygon1" devLabel="Defines a group of objects for a subsequent command." translation="Definiuje grupę obiektów dla kolejnego polecenia."/>
+	<label commandName="lclzElectron::GroupPolygon2" devLabel="After activating the Group command, objects are selected by click-dragging a rectangle." translation="Po aktywowaniu polecenia Grupuj obiekty są wybierane przez przeciągnięcie prostokąta za pomocą kliknięcia."/>
+	<label commandName="lclzElectron::Info1" devLabel="Displays and modifies object properties." translation="Wyświetla i modyfikuje właściwości obiektu."/>
+	<label commandName="lclzElectron::Info2" devLabel="An object's properties are displayed in a dialog, where they can be modified." translation="Właściwości obiektu są wyświetlane w oknie dialogowym, w którym można je modyfikować."/>
+	<label commandName="lclzElectron::Insert2DPCB1" devLabel="Inserts a previously saved 2D PCB in the canvas of the active 2D PCB." translation="Wstawia wcześniej zapisaną płytkę PCB 2D w obszarze rysunku aktywnej płytki PCB 2D."/>
+	<label commandName="lclzElectron::Insert2DPCB2" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisz Ctrl+/, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertDesignBlock2ToSch3" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisz Ctrl+/, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertDesignBlockToPCB1" devLabel="Inserts a previously saved design block (.dbl) in the canvas of the active 2D PCB." translation="Wstawia wcześniej zapisany blok projektu (.dbl) w obszare rysunku aktywnej płytki PCB 2D."/>
+	<label commandName="lclzElectron::InsertDesignBlockToPCB2" devLabel="If a schematic is associated with the inserted design block a new sheet containing the schematic is added. Switch to the Schematic to view the sheet." translation="Jeśli schemat jest skojarzony ze wstawionym blokiem projektu, zostanie dodany nowy arkusz zawierający schemat. Przełącz na schemat, aby wyświetlić arkusz."/>
+	<label commandName="lclzElectron::InsertDesignBlockToPCB3" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisz Ctrl+/, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertDesignBlockToSch1" devLabel="Inserts a previously saved design block (.dbl) in the canvas of the active Schematic." translation="Wstawia poprzednio zapisany blok projektu (.dbl) w obszarze rysunku aktywnego schematu."/>
+	<label commandName="lclzElectron::InsertDesignBlockToSch2" devLabel="If a 2D PCB is associated with the inserted design block the components are positioned at the bottom left of the PCB. Switch to the 2D PCB to reposition the components." translation="Jeśli płytka PCB 2D jest skojarzona z wstawionym blokiem projektu, komponenty są umieszczane w lewym dolnym rogu płytki PCB. Przełącz się na płytkę PCB 2D, aby zmienić położenie komponentów."/>
+	<label commandName="lclzElectron::InsertDxf1" devLabel="Browse to and select a DXF or DWG file." translation="Przejdź do pliku DXF lub DWG i wybierz go."/>
+	<label commandName="lclzElectron::InsertDxf2" devLabel="Specify the desired insert values. To explicitly place the file, use Placement Origin. To implicitly place the file, click the location in the canvas." translation="Określ wymagane wartości wstawienia. Aby bezpośrednio umieścić plik, użyj polecenia Początek umieszczenia. Aby umieścić plik niejawnie, kliknij położenie w obszarze rysunku."/>
+	<label commandName="lclzElectron::InsertDxf3" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisze Ctrl+/, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToPCB1" devLabel="Inserts a previously saved project in the canvas of the active 2D PCB." translation="Wstawia poprzednio zapisany projekt w obszarze rysunku aktywnej płytki PCB 2D."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToPCB2" devLabel="If a schematic is associated with the inserted project a new sheet containing the schematic is added. Switch to the Schematic to view the sheet." translation="Jeśli z wstawionym projektem skojarzony jest schemat, dodawany jest nowy arkusz zawierający schemat. Przełącz na schemat, aby wyświetlić arkusz."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToPCB3" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisze Ctrl + /, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToSch1" devLabel="Inserts a previously saved project in the canvas of the active Schematic." translation="Wstawia poprzednio zapisany projekt w obszarze rysunku aktywnego schematu."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToSch2" devLabel="If a 2D PCB is associated with the inserted project the components are positioned at the bottom left of the PCB. Switch to the 2D PCB to reposition the components." translation="Jeśli płytka PCB 2D jest skojarzona ze wstawionym projektem, komponenty są umieszczane w lewym dolnym rogu płytki PCB. Przełącz się na płytkę PCB 2D, aby zmienić położenie komponentów."/>
+	<label commandName="lclzElectron::InsertElectronicDesignToSch3" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawiszr Ctrl + /, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::InsertSch1" devLabel="Inserts a previously saved schematic in the canvas of the active Schematic." translation="Wstawia poprzednio zapisany schemat w obszarze rysunku aktywnego schematu."/>
+	<label commandName="lclzElectron::InsertSch2" devLabel="Press Ctrl+/ for more help." translation="Naciśnij klawisz Ctrl+/, aby uzyskać więcej pomocy."/>
+	<label commandName="lclzElectron::Invoke1" devLabel="Calls a specific symbol from a device." translation="Wywołuje określony symbol z urządzenia."/>
+	<label commandName="lclzElectron::Invoke2" devLabel="Select a particular gate from a device already in use and place it in the schematic (example: a power symbol with Addlevel = Request)." translation="Wybierz określoną bramkę z już używanego urządzenia i umieść ją na schemacie (przykład: symbol zasilania z Addlevel = Request)."/>
+	<label commandName="lclzElectron::Junction1" devLabel="Places a dot at intersecting nets." translation="Umieszcza kropkę w przecinających się sieciach."/>
+	<label commandName="lclzElectron::Junction2" devLabel="A connection dot is placed at the intersection of nets to be connected. Junctions can be placed only on nets. If placed on the intersection of different nets, the user is given the option to connect the nets." translation="Punkt połączenia jest umieszczany w miejscu przecięcia sieci, które mają być połączone. Połączenia mogą być umieszczane tylko na sieciach. Jeśli znajduje się ono na przecięciu różnych sieci, użytkownik ma możliwość połączenia sieci."/>
+	<label commandName="lclzElectron::Label1" devLabel="Attaches text labels to buses and nets." translation="Dołącza etykiety tekstowe do magistrali i sieci."/>
+	<label commandName="lclzElectron::Label2" devLabel="Bus or net names can be placed on a schematic in any location. Click the bus or net with the mouse, and the relevant label attaches to the mouse cursor. It can be rotated (right click), and moved to a different location or layer. The second mouse click defines the location of the label." translation="Nazwy magistrali lub sieci można umieścić na schemacie w dowolnym miejscu. Kliknij magistralę lub sieć myszą, a odpowiednia etykieta zostanie dołączona do kursora myszy. Można ją obrócić (kliknięcie prawym przyciskiem myszy) i przesunąć do innego położenia lub warstwy. Drugie kliknięcie myszą definiuje położenie etykiety."/>
+	<label commandName="lclzElectron::Layer1" devLabel="Shows and hides layers." translation="Pokazuje i ukrywa warstwy."/>
+	<label commandName="lclzElectron::Layer2" devLabel="Use the Schematic or PCB Display command to review and modify the layer display." translation="Użyj polecenia Schemat lub Wyświetlanie płytki PCB, aby przejrzeć i zmodyfikować wyświetlanie warstwy."/>
+	<label commandName="lclzElectron::LayerSTack2" devLabel="Add or remove physical layers (Silkscreen, SolderMask, Surface Finish, Dielectric and Copper Foil) to or from the design. Select layer material from the Material Library or change layer material properties in-place. Visualize the resulting layer stack." translation="Dodaj lub usuń warstwy fizyczne (Silkscreen, SolderMask, Wykończenie powierzchni, Dielektryczne i Folia miedziana) z projektu lub z projektu. Wybierz materiał warstwy z biblioteki materiałów lub zmień właściwości materiału warstwy w miejscu. Zwizualizuj wynikowy stos warstw."/>
+	<label commandName="lclzElectron::LayerStack1" devLabel="Displays the Layer Stack Manager dialog where you control the board layer composition." translation="Wyświetla okno dialogowe Menedżer stosu warstw, w którym można sterować kompozycją warstwy tablicy."/>
+	<label commandName="lclzElectron::Line1" devLabel="Adds lines (tracks) to a drawing." translation="Dodaje linie (ścieżki) do rysunku."/>
+	<label commandName="lclzElectron::Line2" devLabel="The line begins at the first point specified and runs to the second. Additional points draw additional line segments. Two mouse clicks at the same position finish the line, and a new one can be started at the position of the next mouse click." translation="Linia rozpoczyna się w pierwszym określonym punkcie i biegnie do drugiego. Dodatkowe punkty rysują dodatkowe segmenty linii. Dwa kliknięcia myszą w tym samym położeniu kończą linię, a nowy można rozpocząć w miejscu kolejnego kliknięcia myszą."/>
+	<label commandName="lclzElectron::ManualRoute1" devLabel="Converts unrouted connections into routed wires (tracks)." translation="Konwertuje nietrasowane połączenia w trasowane przewody (ścieżki)."/>
+	<label commandName="lclzElectron::ManualRoute2" devLabel="This command activates the manual router, which converts airwires (unrouted connections) into real wires." translation="To polecenie uruchamia ręczny router, który konwertuje połączenia typu airwire (połączenia nietrasowane) w rzeczywiste przewody."/>
+	<label commandName="lclzElectron::Mark1" devLabel="Defines a mark on the drawing area." translation="Definiuje znacznik w obszarze rysunku."/>
+	<label commandName="lclzElectron::Mark2" devLabel="The X and Y coordinates of the mouse cursor relative to that point are displayed above the canvas, with an R prefix, polar coordinates with P prefix. This command is useful when defining locations of components or cutouts. Enter MARK; to turn the mark off." translation="Współrzędne X i Y kursora myszy względem tego punktu są wyświetlane nad obszarem rysunku z przedrostkiem R, współrzędnymi biegunowymi z przedrostkiem P. To polecenie jest przydatne podczas definiowania położenia komponentów lub wycięć. Wprowadź znacznik; aby wyłączyć znacznik."/>
+	<label commandName="lclzElectron::Meander1" devLabel="Balances the lengths of signals in a differential pair." translation="Równoważenie długości sygnałów w parze różnicowej."/>
+	<label commandName="lclzElectron::Meander2" devLabel="Click on a wire of a differential pair and move the mouse cursor away from the selection point. If there is a difference in the length of the two signals, and the current mouse position is far enough away from the selection point, a meander-shaped sequence of wires is drawn that increases the length of the shorter signal segment. An indicator attached to the mouse cursor shows the target length, as well as the deviation (in percent) of the two signals from the target length." translation="Kliknij przewód pary różnicowej i przesuń kursor myszy od punktu wyboru. Jeśli różnica długości dwóch sygnałów jest większa, a bieżące położenie myszy jest wystarczająco daleko od punktu wyboru, rysowana jest sekwencja przewodów w kształcie meandra, która zwiększa długość krótszego segmentu sygnału. Wskaźnik dołączony do kursora myszy pokazuje długość docelową, jak również odchylenie (w procentach) dwóch sygnałów od długości docelowej."/>
+	<label commandName="lclzElectron::Mirror1" devLabel="Mirrors objects and groups." translation="Tworzy odbicie lustrzane obiektów i grup."/>
+	<label commandName="lclzElectron::Mirror2" devLabel="This command flips objects about the Y axis. One application for this command is to mirror components for placement on the reverse side of the board." translation="To polecenie odwraca obiekty względem osi Y. Jednym z zastosowań tego polecenia jest odbicie komponentów w celu umieszczenia ich po przeciwnej stronie płytki."/>
+	<label commandName="lclzElectron::Miter1" devLabel="Miters wire joints." translation="Łączy narożnikowo połączenia przewodów."/>
+	<label commandName="lclzElectron::Miter2" devLabel="Use this command to take the edge off a point where two wires join. The two wires must be on the the same layer, and must have the same width and wire style." translation="Użyj tego polecenia, aby pobrać krawędź punktu, w którym dwa przewody się łączą. Te dwa przewody muszą znajdować się na tej samej warstwie i mieć ten sam styl szerokości i przewodu."/>
+	<label commandName="lclzElectron::Module1" devLabel="Module" translation="Moduł"/>
+	<label commandName="lclzElectron::Module2" devLabel="Creates a module, and adds it to a new sheet." translation="Tworzy moduł i dodaje go do nowego arkusza."/>
+	<label commandName="lclzElectron::Move1" devLabel="Moves selected objects." translation="Przesuwa wybrane obiekty."/>
+	<label commandName="lclzElectron::Move2" devLabel="Parts, pads, SMDs, pins and gates can also be selected by their name, which is especially useful if the object is outside the current window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="Części, pady, elementy SMD, piny i bramki mogą być również wybierane według ich nazwy, co jest szczególnie przydatne, jeśli obiekt znajduje się poza bieżącym obszarem okna. Należy pamiętać, że podczas wybierania części wielobramkowej w schemacie według nazwy należy wprowadzić pełną nazwę wystąpienia, składającą się z nazwy części i bramki."/>
+	<label commandName="lclzElectron::Name1" devLabel="Displays and optionally edits names." translation="Wyświetla i opcjonalnie edytuje nazwy."/>
+	<label commandName="lclzElectron::Name2" devLabel="Parts, elements, pads, SMDs, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Other object types (e.g. nets, buses, signals) have to be clicked first." translation="Części, elementy, pady, elementy SMD, piny i bramki mogą być również wybierane według ich nazwy, co jest szczególnie przydatne, jeśli obiekt znajduje się poza aktualnie wyświetlanym obszarem okna. Inne typy obiektów (np. sieci, magistrale, sygnały) muszą być najpierw kliknięte."/>
+	<label commandName="lclzElectron::Net1" devLabel="Draws nets on a schematic." translation="Rysuje sieci na schemacie."/>
+	<label commandName="lclzElectron::Net2" devLabel="Draw individual connections (nets) on the Net layer of a schematic drawing. The first mouse click marks the starting point for the net, the second marks the end point of a segment. Two mouse clicks on the same point end the net." translation="Narysuj pojedyncze połączenia (sieci) na warstwie Sieć rysunku schematu. Pierwsze kliknięcie myszą spowoduje oznaczenie punktu początkowego sieci, a drugie punktu końcowego segmentu. Dwa kliknięcia myszą w tym samym punkcie powodują zakończenie sieci."/>
+	<label commandName="lclzElectron::NetBreakout1" devLabel="Breaks out nets from any pin of a component in the schematic." translation="Wyprowadza sieci z dowolnego pinu komponentu na schemacie."/>
+	<label commandName="lclzElectron::NetBreakout2" devLabel="Automatically add wires with nets assigned to devices like microcontrollers and RAM, to save time and reduce net connectivity errors. You can use auto-increment and custom label formatting options." translation="Automatycznie dodawaj przewody z sieciami przypisanymi do urządzeń, takich jak mikrokontrolery i pamięć RAM, aby zaoszczędzić czas i zmniejszyć liczbę błędów połączeń. Można użyć opcji automatycznego przyrostu i niestandardowego formatowania etykiet."/>
+	<label commandName="lclzElectron::NewPattern1" devLabel="Makes multiple instances of the selected object(s) and places them in a linear or circular formation." translation="Tworzy wiele wystąpień wybranych obiektów i umieszcza je w formacji liniowej lub kołowej."/>
+	<label commandName="lclzElectron::NewPattern2" devLabel="Select the objects to pattern. Specify the number of instances in the pattern, the X and Y spacing for rectangular, or angular spacing for circular patterns, and the start point for the pattern. Click OK ." translation="Wybierz obiekty do szyku. Określ liczbę wystąpień w szyku, odstępy X i Y dla szyków prostokątnych lub odstępy kątowe dla szyków kołowych i punkt początkowy szyku. Kliknij przycisk OK."/>
+	<label commandName="lclzElectron::Optimize1" devLabel="Joins wire segments." translation="Łączy segmenty przewodu."/>
+	<label commandName="lclzElectron::Optimize2" devLabel="This command joins wire segments that lie in a straight line. The individual segments must be on the same layer and have the same width. This command is useful to reduce the number of objects in a drawing and to facilitate moving a complete track instead of individual segments." translation="To polecenie łączy segmenty przewodu leżące w linii prostej. Poszczególne segmenty muszą znajdować się na tej samej warstwie i mieć tę samą szerokość. To polecenie jest przydatne do zmniejszenia liczby obiektów na rysunku i ułatwienia przesuwania pełnej ścieżki zamiast poszczególnych segmentów."/>
+	<label commandName="lclzElectron::PCutout1" devLabel="Create a polygon cutout." translation="Utwórz wycięcie wieloboczne."/>
+	<label commandName="lclzElectron::PCutout2" devLabel="Polygon cutout on a routing layer will produce a void area in a polygon pour." translation="Wycięcie wieloboczne na warstwie trasowania spowoduje utworzenie pustego obszaru w wypełnieniu wielobocznym."/>
+	<label commandName="lclzElectron::PPour1" devLabel="Create a polygon pour." translation="Utwórz wypełnienie wieloboczne."/>
+	<label commandName="lclzElectron::PPour2" devLabel="Polygons are used to create a copper sheet or layer for a signal, and must reside on a routing layer." translation="Wieloboki są używane do tworzenia arkusza miedzi lub warstwy dla sygnału i muszą znajdować się na warstwie trasowania."/>
+	<label commandName="lclzElectron::PShape1" devLabel="Create a polygon." translation="Utwórz wielobok."/>
+	<label commandName="lclzElectron::PShape2" devLabel="Polygon is a simple non-signal solid polygon shape on any layer." translation="Wielobok to prosty kształt wieloboku bryły niesygnalizacyjnej na dowolnej warstwie."/>
+	<label commandName="lclzElectron::Paste1" devLabel="Attaches a copy of the clipboard contents to the cursor, left click places the content at the cursor location on the specified layer." translation="Dołącza kopię zawartości schowka do kursora. Kliknięcie lewym przyciskiem myszy powoduje umieszczenie zawartości w położeniu kursora na określonej warstwie."/>
+	<label commandName="lclzElectron::Paste2" devLabel="Use Group, Copy, Cut, and Paste to add or subtract elements to or from your design, design block, or library component. Use right click to rotate the contents, in 90 degree increments, before placing it." translation="Użyj poleceń Grupuj, Kopiuj, Wytnij i Wklej, aby dodać elementy do projektu, bloku projektu lub komponentu biblioteki albo odjąć je od nich. Klikaj prawym przyciskiem myszy, aby obrócić zawartość co 90 stopni, przed jej umieszczeniem."/>
+	<label commandName="lclzElectron::PastePins1" devLabel="Adds pins that have been copied to the clipboard into a drawing." translation="Dodaje do rysunku piny, które zostały skopiowane do schowka."/>
+	<label commandName="lclzElectron::PinBreakout1" devLabel="Breaks out all or a selection of pins from the part by extending nets a short distance from the pins." translation="Wyprowadza wszystkie lub wybrane piny z części, wydłużając sieci na niewielką odległość od pinów."/>
+	<label commandName="lclzElectron::PinBreakout2" devLabel="New nets connected to pins are drawn and can be automatically named and labeled." translation="Nowe sieci połączone z pinami są rysowane i mogą być automatycznie nazywane i oznaczane etykietami."/>
+	<label commandName="lclzElectron::PinSwap1" devLabel="Swaps pins or pads." translation="Zamienia piny lub pady."/>
+	<label commandName="lclzElectron::PinSwap2" devLabel="Use this command to swap pins within the same symbol that have the same swaplevel (&gt; 0). If a board is tied to a schematic via Back Annotation, two pads can only be swapped if the related pins are swappable." translation="Użyj tego polecenia, aby zamienić piny w tym samym symbolu, które mają ten sam parametr swaplevel (&gt; 0). Jeśli płytka jest powiązana ze schematem za pomocą anotacji wstecznej, dwa pady mogą być zamienione tylko wtedy, gdy powiązane pady są możliwe do zamiany."/>
+	<label commandName="lclzElectron::PolyHideFillAll1" devLabel="Hide fill for all polygon pours." translation="Ukryj wypełnienie wszystkich wypełnień wielobocznych."/>
+	<label commandName="lclzElectron::PolyHideFillAll2" devLabel="Polygon pours are represented by an outline." translation="Wypełnienia wieloboczne są reprezentowane przez kontur."/>
+	<label commandName="lclzElectron::PolyRefill1" devLabel="Refill all polygon pours." translation="Wypełnij ponownie wszystkie wypełnienia wieloboczne."/>
+	<label commandName="lclzElectron::PolyRefill2" devLabel="Doing this repairs any damage to polygon pours as a result of moving components or cutouts." translation="Spowoduje to naprawę wszelkich uszkodzeń wypełnień wielobocznych powstałych w wyniku przesuwania komponentów lub wycięć."/>
+	<label commandName="lclzElectron::PolyShowFillAll1" devLabel="Show fill for all polygon pours." translation="Pokaż wypełnienie wszystkich wypełnień wielobocznych."/>
+	<label commandName="lclzElectron::PolyShowFillAll2" devLabel="Restore the fills for polygon pours after they were hidden." translation="Przywróć wypełnienia wypełnień wielobocznych po ich ukryciu."/>
+	<label commandName="lclzElectron::Port1" devLabel="Adds ports to modules." translation="Dodaje porty do modułów."/>
+	<label commandName="lclzElectron::Port2" devLabel="Use this command to add ports to modules used in hierarchical schematics." translation="To polecenie służy do dodawania portów do modułów używanych w schematach hierarchicznych."/>
+	<label commandName="lclzElectron::QuickRouteAirWire1" devLabel="Automatically routes an individual airwire." translation="Automatycznie trasuje pojedyncze połączenie typu airwire."/>
+	<label commandName="lclzElectron::QuickRouteAirWire2" devLabel="In QuickRoute Airwire mode, you select individual airwires to be automatically routed, and they are instantly routed according to design rules." translation="W trybie Szybka trasa — połączenie typu airwire można wybrać pojedyncze połączenia typu airwire, które mają być trasowane automatycznie, i są one natychmiast trasowane zgodnie z regułami projektowania."/>
+	<label commandName="lclzElectron::QuickRouteMultiWire1" devLabel="Automatically routes multiple airwires simultaneously." translation="Umożliwia automatyczne trasowanie wielu połączeń typu airwire jednocześnie."/>
+	<label commandName="lclzElectron::QuickRouteMultiWire2" devLabel="Draw a selection line that intersects the signal objects that you want to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects. Right-click to route all the airwires connected to the selected objects. The signals are routed on the active layer." translation="Narysuj linię wyboru przecinającą obiekty sygnałowe, które mają być trasowane jednocześnie (istniejące przewody, pady i przelotki). Kontynuuj rysowanie dodatkowych linii wyboru, aby dodać więcej obiektów sygnałowych. Kliknij prawym przyciskiem myszy, aby trasować wszystkie połączenia typu airwire połączone z wybranymi obiektami. Sygnały są trasowane na aktywnej warstwie."/>
+	<label commandName="lclzElectron::QuickRouteSignal1" devLabel="Automatically routes a group of signal segments with the same name." translation="Automatycznie trasuje grupę segmentów sygnałowych o tej samej nazwie."/>
+	<label commandName="lclzElectron::QuickRouteSignal2" devLabel="Select any signal object (airwire, wire, pad, or via) and the command instantly routes all airwires that are members of that signal." translation="Wybierz dowolny obiekt sygnałowy (połączenie typu airwire, przewód, pad lub przelotkę), a polecenie natychmiast rozpocznie trasowanie wszystkich połączeń typu airwire będących składnikami tego sygnału."/>
+	<label commandName="lclzElectron::QuickRouteSmooth1" devLabel="Automatically smooths the wire sequence on a selected signal." translation="Automatycznie wygładza sekwencję przewodów na wybranym sygnale."/>
+	<label commandName="lclzElectron::QuickRouteSmooth2" devLabel="QuickRoute Smooth reduces the number of wire bends and segments in the sequence." translation="Opcja Szybka trasa — gładkie zmniejsza liczbę zagięć przewodu i segmentów w sekwencji."/>
+	<label commandName="lclzElectron::Rectangle1" devLabel="Adds rectangles to a drawing." translation="Dodaje prostokąty do rysunku."/>
+	<label commandName="lclzElectron::Rectangle2" devLabel="Two points define two diagonally opposite corners of the rectangle. " translation="Dwa punkty definiują dwa przeciwległe narożniki prostokąta."/>
+	<label commandName="lclzElectron::RemoveCustom3DModel1" devLabel="Removes a custom 3D model override from an element or part." translation="Usuwa niestandardowe nadpisanie modelu 3D z elementu lub części."/>
+	<label commandName="lclzElectron::RemoveCustom3DModel2" devLabel="The originally assigned 3D model reference is restored when you remove the override." translation="Pierwotnie przypisane odniesienie modelu 3D jest przywracane po usunięciu nadpisania."/>
+	<label commandName="lclzElectron::Replace1" devLabel="Replaces a component with another." translation="Zastępuje komponent innym."/>
+	<label commandName="lclzElectron::Replace2" devLabel="Use this command to replace a schematic component with a different component (even from a different library). The old and new device must be compatible, in that their used gates and connected pins/pads must match, either by their names or their coordinates." translation="To polecenie służy do zastępowania komponentu schematycznego innym komponentem (nawet z innej biblioteki). Stare i nowe urządzenie musi być zgodne, ponieważ używane przewężki i połączone piny/pady muszą być zgodne według ich nazw, albo według współrzędnych."/>
+	<label commandName="lclzElectron::RipupAll1" devLabel="Reverrts all routed wires and vias to airwires, and changes the display of polygons to outlines." translation="Przywraca wszystkie trasowane przewody i przelotki do połączeń typu airwire i zmienia wyświetlanie wieloboków na kontury."/>
+	<label commandName="lclzElectron::RipupAll2" devLabel="This is usually done to prepare for re-routing all signals." translation="Jest to zwykle wykonywane w celu przygotowania do zmiany trasy wszystkich sygnałów."/>
+	<label commandName="lclzElectron::RipupConnected1" devLabel="Ripup Connected rips up 'direct' connections along a signal path." translation="Polecenie Rozłącz połączone rozłącza połączenia „bezpośrednie” wzdłuż ścieżki sygnału."/>
+	<label commandName="lclzElectron::RipupConnected2" devLabel="Use this command to limit the scope of a ripup and make reworking sections easier." translation="To polecenie służy do ograniczania zakresu rozłączenia i ułatwia wprowadzenie poprawek w sekcjach."/>
+	<label commandName="lclzElectron::RipupElementToElement1" devLabel="Ripup connections between selected components." translation="Rozłącz połączenia między wybranymi komponentami."/>
+	<label commandName="lclzElectron::RipupElementToElement2" devLabel="The entire trace is reverted to airwires." translation="Cała ścieżka jest przywracana do połączeń typu airwire."/>
+	<label commandName="lclzElectron::RipupSignal1" devLabel="Ripup selected signal path." translation="Rozłącz wybraną ścieżkę sygnału."/>
+	<label commandName="lclzElectron::RipupSignal2" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="Użyj, aby rozłączyć wszystkie ścieżki, przelotki i wieloboki w wybranym sygnale"/>
+	<label commandName="lclzElectron::Rotate1" devLabel="Rotates objects." translation="Obraca obiekty."/>
+	<label commandName="lclzElectron::Rotate2" devLabel="Use this command to change the orientation of objects." translation="Użyj tego polecenia, aby zmienić orientację obiektów."/>
+	<label commandName="lclzElectron::RouteDiffPair1" devLabel="Converts unrouted connections of a differential pair into routed wires (tracks)." translation="Konwertuje nietrasowane połączenia pary różnicowej w trasowane przewody (ścieżki)."/>
+	<label commandName="lclzElectron::RouteDiffPair2" devLabel="This command activates the differential-pair manual router, and the differential pairs in the design are highlighted. To begin routing a differential pair, click one of the highlighted differential pair airwire or copper objects. " translation="To polecenie aktywuje ręczny router pary różnicowej, a pary różnicowe są wyróżniane w projekcie. Aby rozpocząć trasowanie pary różnicowej, kliknij jedno z połączeń typu airwire wyróżnionej pary różnicowej lub obiektów miedzi. "/>
+	<label commandName="lclzElectron::RouteMulti1" devLabel="Converts multiple unrouted connections into routed wires (tracks)." translation="Konwertuje wiele nietrasowanych połączeń w trasowane przewody (ścieżki)."/>
+	<label commandName="lclzElectron::RouteMulti2" devLabel="This command activates the manual router, which converts multiple airwires (unrouted connections) into real wires." translation="To polecenie uruchamia ręczny router, który konwertuje wiele połączeń typu airwire (połączenia nietrasowane) w rzeczywiste przewody."/>
+	<label commandName="lclzElectron::RunScript1" devLabel="Executes the commands in a script file." translation="Wykonuje polecenia w pliku skryptu."/>
+	<label commandName="lclzElectron::RunScript2" devLabel="Use this command to execute sequences of commands that are stored in a script file." translation="To polecenie służy do wykonywania sekwencji poleceń przechowywanych w pliku skryptu."/>
+	<label commandName="lclzElectron::Show1" devLabel="Highlights objects." translation="Wyróżnia obiekty."/>
+	<label commandName="lclzElectron::Show2" devLabel="Highlight complete signals and nets with the Show command. Select parts in Design Manager or enter names on the command line in format @ &lt;partname&gt; (example: @ FB2 FB4). If a bus is selected, all nets belonging to that bus are also highlighted." translation="Podświetl kompletne sygnały i sieci za pomocą polecenia Pokaż. Wybierz części w Menedżerze projektu lub wprowadź nazwy w wierszu polecenia w formacie @ &lt;nazwacześci&gt; (przykład: @ FB2 FB4). Jeśli wybrano magistralę, wszystkie sieci należące do tej magistrali są również podświetlane."/>
+	<label commandName="lclzElectron::Slice1" devLabel="Rips up short trace segments or longer segments to left or right." translation="Rozłącza krótkie segmenty ścieżki lub dłuższe segmenty po lewej lub prawej."/>
+	<label commandName="lclzElectron::Slice2" devLabel="Separate multiple board traces or schematic nets for rerouting. The width defines how much of the line is ripped up by the slice. Left or right options can be selected to rip up longer segments." translation="Rozdziel wiele ścieżek płytki lub sieci schematu w celu ponownego wyznaczenia trasy. Szerokość określa, jaka część linii jest rozłączana przez płat. Można wybrać opcję lewej lub prawej strony, aby rozłączyć dłuższe segmenty."/>
+	<label commandName="lclzElectron::Split1" devLabel="Splits wires and polygon edges, adding new segments." translation="Dzieli przewody i krawędzie wieloboku, dodając nowe segmenty."/>
+	<label commandName="lclzElectron::Split2" devLabel="Split a wire, segment, or polygon edge into two segments in order, for example, to introduce a bend. Split wires into parts that can be moved with the mouse during the Split command." translation="Podziel krawędź przewodu, segmentu lub wieloboku na dwa segmenty, aby na przykład wprowadzić zagięcie. Podziel przewody na części, które można przesuwać za pomocą myszy podczas wykonywania polecenia Podziel."/>
+	<label commandName="lclzElectron::ToggleAddPanel1" devLabel="Adds elements to a drawing." translation="Dodaje elementy do rysunku."/>
+	<label commandName="lclzElectron::ToggleAddPanel2" devLabel="This command will toggle a panel that can be used to place components onto a schematic, or footprints onto a board." translation="To polecenie przełącza panel, którego można użyć do umieszczenia komponentów na schemacie lub footprintów na tablicy."/>
+	<label commandName="lclzElectron::ToggleSingleLayer1" devLabel="Switches betwen displaying all board layers and only the active layer." translation="Przełącza między wyświetlaniem wszystkich warstw płytki a tylko warstwy aktywnej."/>
+	<label commandName="lclzElectron::ToggleSingleLayer2" devLabel="Useful when routing a dense design." translation="Przydatny podczas trasowania gęstego projektu."/>
+	<label commandName="lclzElectron::Unroute1" devLabel="Converts routed wires and vias into unrouted signals, and changes polygons to outlines." translation="Przekształca trasowane przewody i wiązki przewodów w nietrasowane sygnały i zmienia wieloboki w kontury."/>
+	<label commandName="lclzElectron::Unroute2" devLabel="Choose an unroute method to control which wires are affected." translation="Wybierz metodę anulowania trasowania, aby określić, których przewodów to dotyczy."/>
+	<label commandName="lclzElectron::Value1" devLabel="Displays and changes values." translation="Wyświetla i zmienia wartości."/>
+	<label commandName="lclzElectron::Value2" devLabel="Assign values to circuit elements, such as '1k' for a resistor." translation="Przypisz wartości do elementów obwodu, takie jak „1k” dla rezystora."/>
+	<label commandName="lclzElectron::Via1" devLabel="Adds vias to a board." translation="Dodaje przelotki do płytki."/>
+	<label commandName="lclzElectron::Via2" devLabel="When the Via command is active, a via symbol is attached to the cursor. Click to place a via at the current position." translation="Gdy aktywne jest polecenie Przelotka, do kursora dołączany jest symbol przelotki. Kliknij, aby umieścić przelotkę w bieżącym położeniu."/>
+	<label commandName="lclzHideCommandGuidanceCommandText" devLabel="Hide Command Guidance" translation="Ukryj wskazówki dotyczące poleceń"/>
+	<label commandName="lclzLbrAssignShortcutsPanel" devLabel="SHORTCUTS" translation="Skróty"/>
+	<label commandName="lclzLbrAutomate" devLabel="AUTOMATION" translation="AUTOMATYZACJA"/>
+	<label commandName="lclzLbrAutomateTab" devLabel="AUTOMATE" translation="AUTOMATYZUJ"/>
+	<label commandName="lclzLbrCreatePanel" devLabel="CREATE" translation="UTWÓRZ"/>
+	<label commandName="lclzLbrDeviceEditPanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzLbrDeviceModifyPanel" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzLbrDevicePanel" devLabel="DEVICE" translation="URZĄDZENIE"/>
+	<label commandName="lclzLbrDeviceSelectPanel" devLabel="SELECT" translation="WYBIERZ"/>
+	<label commandName="lclzLbrDeviceTab" devLabel="DEVICE" translation="URZĄDZENIE"/>
+	<label commandName="lclzLbrDeviceViewPanel" devLabel="VIEW" translation="WIDOK"/>
+	<label commandName="lclzLbrDocumentTab" devLabel="DOCUMENT" translation="DOKUMENT"/>
+	<label commandName="lclzLbrDrawCommonPanel" devLabel="DRAW" translation="RYSUJ"/>
+	<label commandName="lclzLbrEmptyTab" devLabel="CREATE" translation="UTWÓRZ"/>
+	<label commandName="lclzLbrFootprintCreatePanel" devLabel="PLACE" translation="WSTAW"/>
+	<label commandName="lclzLbrFootprintDrawPanel" devLabel="DRAW" translation="RYSUJ"/>
+	<label commandName="lclzLbrFootprintEditPanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzLbrFootprintLayersPanel" devLabel="LAYERS" translation="WARSTWY"/>
+	<label commandName="lclzLbrFootprintModifyPanel" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzLbrFootprintReworkPanel" devLabel="REWORK" translation="WPROWADŹ POPRAWKI"/>
+	<label commandName="lclzLbrFootprintSelectPanel" devLabel="SELECT" translation="WYBIERZ"/>
+	<label commandName="lclzLbrFootprintTab" devLabel="FOOTPRINT" translation="FOOTPRINT"/>
+	<label commandName="lclzLbrFootprintViewPanel" devLabel="VIEW" translation="WIDOK"/>
+	<label commandName="lclzLbrLibraryioPanel" devLabel="LIBRARY.IO" translation="LIBRARY.IO"/>
+	<label commandName="lclzLbrManagementPanel" devLabel="OPEN" translation="OTWÓRZ"/>
+	<label commandName="lclzLbrManagementTab" devLabel="MANAGE" translation="ZARZĄDZANIE"/>
+	<label commandName="lclzLbrOutputPanel" devLabel="OUTPUTS" translation="DANE WYJŚCIOWE"/>
+	<label commandName="lclzLbrPackagePanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzLbrPackageTab" devLabel="PACKAGE 3D" translation="OBUDOWA 3D"/>
+	<label commandName="lclzLbrSimuModelPanel" devLabel="SIMULATE" translation="SYMULUJ"/>
+	<label commandName="lclzLbrSymbolEditPanel" devLabel="EDIT" translation="EDYCJA"/>
+	<label commandName="lclzLbrSymbolLayersPanel" devLabel="LAYERS" translation="WARSTWY"/>
+	<label commandName="lclzLbrSymbolModifyPanel" devLabel="MODIFY" translation="ZMIEŃ"/>
+	<label commandName="lclzLbrSymbolPlacePanel" devLabel="PLACE" translation="WSTAW"/>
+	<label commandName="lclzLbrSymbolReworkPanel" devLabel="REWORK" translation="WPROWADŹ POPRAWKI"/>
+	<label commandName="lclzLbrSymbolSelectPanel" devLabel="SELECT" translation="WYBIERZ"/>
+	<label commandName="lclzLbrSymbolTab" devLabel="SYMBOL" translation="SYMBOL"/>
+	<label commandName="lclzLbrSymbolViewPanel" devLabel="VIEW" translation="WIDOK"/>
+	<label commandName="lclzLock" devLabel="Lock" translation="Zablokuj"/>
+	<label commandName="lclzNewElectronPcbDocumentCommand1" devLabel="Creates a 2D PCB document for the active Electronic design." translation="Tworzy dokument płytki PCB 2D do aktywnego projektu układu elektronicznego."/>
+	<label commandName="lclzNewElectronPcbDocumentCommand2" devLabel="Schematic and 2D PCB documents are automatically synchronized. For design efficiency, create the schematic first then the PCB. Useful for creating 2D PCB designs that do not require a schematic." translation="Dokumenty schematu i płytki PCB 2D są synchronizowane automatycznie. Aby zwiększyć wydajność projektowania, najpierw utwórz schemat, a następnie płytkę PCB. Przydatne do tworzenia projektów płytek PCB 2D, które nie wymagają schematu."/>
+	<label commandName="lclzNewElectronPcbDocumentCommandTipsAndTricksTips" devLabel="Create the PCB, the components in the schematic are placed at the lower left. Position them according to your design needs." translation="Po utworzeniu płytki PCB komponenty schematu są umieszczane w lewym dolnym rogu. Ustaw je zgodnie z potrzebami projektowymi."/>
+	<label commandName="lclzNewElectronPcbDocumentCommandTipsAndTricksTitle" devLabel="New PCB" translation="Nowa płytka PCB"/>
+	<label commandName="lclzNewElectronSchDocumentCommand1" devLabel="Creates an empty schematic document for the active Electronic design." translation="Tworzy pusty dokument schematu do aktywnego projektu układu elektronicznego."/>
+	<label commandName="lclzNewElectronSchDocumentCommand2" devLabel="Only one schematic is used for each design. A schematic can have as many sheets as are needed, up to 999, for designing the board diagram." translation="W każdym projekcie jest używany tylko jeden schemat. Schemat może zawierać dowolną liczbę arkuszy na potrzeby projektowania wykresu płytki, ale nie więcej niż 999, ."/>
+	<label commandName="lclzNewElectronSchDocumentCommandTipsAndTricksTips" devLabel="This is the starting point of the new design. Create the schematic, then the PCB layout of the components in the schematic." translation="Jest to punkt początkowy nowego projektu. Utwórz schemat, a następnie układ płytki PCB komponentów na schemacie."/>
+	<label commandName="lclzNewElectronSchDocumentCommandTipsAndTricksTitle" devLabel="New Schematic" translation="Nowy schemat"/>
+	<label commandName="lclzReferenceToPCBCmd1" devLabel="Links an existing PCB document to the active Electronic design." translation="Umożliwia połączenie istniejącego dokumentu płytki PCB z aktywnym projektem układu elektronicznego."/>
+	<label commandName="lclzReferenceToPCBCmd2" devLabel="The referenced PCB document is added to the design. Changes to the referenced PCB also change this design PCB." translation="Dokument płytki PCB, do której istnieją odniesienia, jest dodawany do projektu. Zmiany w płytce PCB, do której istnieją odniesienia, również zmieniają ten projekt płytki PCB."/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTips" devLabel="Doing this helps preserve synchronization between project documents and improves management." translation="Dzięki temu synchronizacja między dokumentami projektu jest zachowywana i usprawnione jest zarządzanie."/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTitle" devLabel="Reference a PCB document" translation="Utwórz odniesienie do dokumentu płytki PCB"/>
+	<label commandName="lclzReferenceToSCHCmd1" devLabel="Links an existing schematic document to the active Electronic design." translation="Umożliwia połączenie istniejącego dokumentu schematu z aktywnym projektem układu elektronicznego."/>
+	<label commandName="lclzReferenceToSCHCmd2" devLabel="The referenced schematic displays in the Sheets section of the Schematic document. Changes to the referenced schematic also change this design schematic." translation="Schemat, do którego istnieje odniesienie, jest wyświetlany w sekcji Arkusze dokumentu schematu. Zmiany w schemacie, do którego istnieje odniesienie, również zmieniają ten schemat projektu."/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTips" devLabel="Doing this helps preserve synchronization between project documents and improves management." translation="Dzięki temu synchronizacja między dokumentami projektu jest zachowywana i usprawnione jest zarządzanie."/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTitle" devLabel="Reference a Schematic document" translation="Utwórz odniesienie do dokumentu schematu"/>
+	<label commandName="lclzShowTextCommandsCommandText" devLabel="Show Text Commands" translation="Pokaż polecenia tekstowe"/>
+	<label commandName="lclzSwitchPcbDocCmd1" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="Jeśli połączony dokument płytki PCB istnieje, nastąpi przełączenie do niego. W przeciwnym razie nastąpi przełączenie do projektu układu elektronicznego, aby przypomnieć użytkownikowi o utworzeniu dokumentu płytki PCB."/>
+	<label commandName="lclzSwitchPcbDocCmd2" devLabel="The Switch icon changes to support getting back to the schematic." translation="Ikona Przełącz zmienia się, aby umożliwić powrót do schematu."/>
+	<label commandName="lclzSwitchSchDocCmd1" devLabel="If a linked Schematic document exists, will switch to it; otherwise, will switch to Electronics Design to remind user to create a Schematic document." translation="Jeśli połączony dokument schematu istnieje, nastąpi przełączenie do niego. W przeciwnym razie nastąpi przełączenie do projektu układu elektronicznego, aby przypomnieć użytkownikowi o utworzeniu dokumentu schematu."/>
+	<label commandName="lclzSwitchSchDocCmd2" devLabel="" translation=""/>
+	<label commandName="textPrompt" devLabel="None" translation="Brak"/>
+</Resource>

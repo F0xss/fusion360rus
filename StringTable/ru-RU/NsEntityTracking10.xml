@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="EnableSameIdDocInsertToolTip" devLabel="Switch on/off enabling same id document insert options." translation="Hier können Sie die Optionen zum Einfügen von Dokumenten mit derselben ID aktivieren/deaktivieren."/>
+	<label commandName="EnableSameIdDocInsertUserName" devLabel="Allow to insert the document which has the same UUID" translation="Einfügen von Dokumenten zulassen, die über die gleiche UUID verfügen"/>
+</Resource>

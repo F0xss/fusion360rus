@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExportAttributesToolTip" devLabel="Switch on/off export attributes flag options." translation="Opcje włączenia/wyłączenia flagi Eksportowanie atrybutów."/>
+	<label commandName="ExportAttributesUserName" devLabel="Export attributes enable" translation="Eksportowanie atrybutów wł."/>
+	<label commandName="ExportSketchesEnabledToolTip" devLabel="Switch on/off export sketches enabled flag options." translation="Opcje włączenia/wyłączenia flagi Eksportowanie szkiców wł."/>
+	<label commandName="ExportSketchesEnabledUserName" devLabel="Export sketches enabled" translation="Eksportowanie szkiców wł."/>
+	<label commandName="ExportSubEntityIdsToolTip" devLabel="Switch on/off export sub-Entity Ids flag options." translation="Opcje włączenia/wyłączenia flagi Eksportowanie identyfikatorów podelementów."/>
+	<label commandName="ExportSubEntityIdsUserName" devLabel="Export sub-Entity Ids enabled" translation="Eksportowanie identyfikatorów podelementów wł."/>
+	<label commandName="InsertImportToolTip" devLabel="Switch on/off import as inserting flag options." translation="Opcje włączenia/wyłączenia flagi Importowanie jako wstawienie."/>
+	<label commandName="InsertImportUserName" devLabel="InsertImport enable" translation="Importowanie jako wstawienie wł."/>
+	<label commandName="assetTypeToolTip" devLabel="Create asset by opening a foreign file." translation="Utwórz zasób, otwierając plik obcy."/>
+	<label commandName="assetTypeUserName" devLabel="Create asset" translation="Utwórz zasób"/>
+	<label commandName="lclzApplicationIsClosing" devLabel="Application is closing..." translation="Trwa zamykanie aplikacji..."/>
+	<label commandName="lclzCannotFindAddIn" devLabel="No Add-in found with path that matches: %1%" translation="Nie znaleziono dodatku ze ścieżką zgodną z: %1%"/>
+	<label commandName="lclzCannotFindMatchedAddIn" devLabel="No Add-in found with identifier that matches: %1%" translation="Nie znaleziono dodatku z identyfikatorem zgodnym z: %1%"/>
+	<label commandName="lclzCannotFindNeededAddIn" devLabel="Could not find Add-in %1% needed by Add-in %2%" translation="Nie można znaleźć dodatku %1% wymaganego przez dodatek %2%"/>
+	<label commandName="lclzCannotLoadAddInXml" devLabel="Could not load Add-in xml file %1%" translation="Nie można wczytać pliku XML dodatku %1%"/>
+	<label commandName="lclzCannotLoadAppXml" devLabel="Could not load application xml file %1%" translation="Nie można wczytać pliku XML aplikacji %1%"/>
+	<label commandName="lclzCantLoadAddIn" devLabel="Could not load the addin in %1%" translation="Nie można wczytać dodatku w %1%"/>
+	<label commandName="lclzLoadInterface" devLabel="loadInterface: " translation="Wczytaj interfejs: "/>
+	<label commandName="lclzMissingGetIAddIn" devLabel="GetIAddIn function not found in %1%" translation="Nie znaleziono funkcji GetIAddIn w %1%"/>
+	<label commandName="lclzUnloadInterface" devLabel="unloadInterface: " translation="Usuń interfejs: "/>
+</Resource>

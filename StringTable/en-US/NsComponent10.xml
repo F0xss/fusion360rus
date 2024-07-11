@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="A360ContentNotAvailable" devLabel="This file is being saved currently, please wait" translation="" />
+	<label commandName="AddMaterialError" devLabel="Material could not be added to document." translation="" />
+	<label commandName="AddMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the document." translation="" />
+	<label commandName="AssyConstraintsSelectionId" devLabel="Joints" translation="" />
+	<label commandName="ComponentInstanceSelectionCategory" devLabel="Components" translation="" />
+	<label commandName="ComponentInstanceSelectionId" devLabel="Component Instance" translation="" />
+	<label commandName="ComponentInstancesSelectionId" devLabel="Component Instances" translation="" />
+	<label commandName="ContactSetName" devLabel="ContactSet" translation="" />
+	<label commandName="ContactSetSelectionId" devLabel="Contact Set" translation="" />
+	<label commandName="ContactSetsSelectionId" devLabel="Contact Sets" translation="" />
+	<label commandName="CyclicDependencyNotAllowed" devLabel="Cannot insert %1% into %2% because it will create a circular reference." translation="" />
+	<label commandName="CyclicDependencyNotAllowed2" devLabel="Cannot insert %1% into %2% because if you undo or redo recent actions in these designs it will create a circular reference.&#10;&#10;Save, close, and reopen the designs to clear the undo history." translation="" />
+	<label commandName="CyclicDependencyNotAllowedReplace" devLabel="Cannot replace %1% with %2% in %3% because it will create a circular reference." translation="" />
+	<label commandName="CyclicDependencyNotAllowedReplace2" devLabel="Cannot replace %1% with %2% in %3% because if you undo or redo recent actions in these designs it will create a circular reference.&#10;&#10;Save, close, and reopen the designs to clear the undo history." translation="" />
+	<label commandName="DeleteDocMaterialNotExistError1" devLabel="Material could not be deleted. This material is not present in the document." translation="" />
+	<label commandName="DeleteDocMaterialNotExistError2" devLabel="There was a problem in deleting materials. Some of the materials might not be present in the document." translation="" />
+	<label commandName="FailedProjectInfoFetch" devLabel="Failed to fetch project information for document %1%" translation="" />
+	<label commandName="FailedToGetProjectInfo" devLabel="Failed to fetch project information for inserted design" translation="" />
+	<label commandName="FailedToMergeVersion" devLabel="Failed to merge the version into the current branch." translation="" />
+	<label commandName="GetLatest" devLabel="Get Latest" translation="" />
+	<label commandName="InsertComponentRequest:CyclicReference" devLabel="Target asset is already a parent reference of the source asset." translation="" />
+	<label commandName="InsertComponentRequest:NonCloudDocument" devLabel="Please upload the source document and try again." translation="" />
+	<label commandName="InsertComponentRequest:ReadOnly" devLabel="Unable to insert source component into a read only asset." translation="" />
+	<label commandName="InsertComponentRequest:SameSourceTarget" devLabel="The target component is the same as the source component. Please select a different target component and try again." translation="" />
+	<label commandName="InsertComponentRequest:UnsavedDocument" devLabel="Please save the target document and try again." translation="" />
+	<label commandName="IntersectionAnalysisInvalidBody" devLabel="An invalid body has been selected for Intersection Analysis" translation="" />
+	<label commandName="JointAngleConflictMessage" devLabel="Angle conflict due to %1%" translation="" />
+	<label commandName="JointBallName" devLabel="Ball" translation="" />
+	<label commandName="JointBallPlaneName" devLabel="BallPlane" translation="" />
+	<label commandName="JointBallSlotName" devLabel="BallSlot" translation="" />
+	<label commandName="JointCategory" devLabel="Joints" translation="" />
+	<label commandName="JointConflictDefinition" devLabel="joint type" translation="" />
+	<label commandName="JointConflictLocked" devLabel="locked value" translation="" />
+	<label commandName="JointConflictMaximum" devLabel="Maximum value limit" translation="" />
+	<label commandName="JointConflictMinimum" devLabel="Minimum value limit" translation="" />
+	<label commandName="JointCylindricalName" devLabel="Cylindrical" translation="" />
+	<label commandName="JointDOFAngleName" devLabel="Rotate" translation="" />
+	<label commandName="JointDOFDistanceName" devLabel="Slide" translation="" />
+	<label commandName="JointDOFDistanceNamePlanar1" devLabel="Slide 1" translation="" />
+	<label commandName="JointDOFDistanceNamePlanar2" devLabel="Slide 2" translation="" />
+	<label commandName="JointDOFPitchName" devLabel="Pitch" translation="" />
+	<label commandName="JointDOFRollName" devLabel="Roll" translation="" />
+	<label commandName="JointDOFSelectionId" devLabel="Joint DOF" translation="" />
+	<label commandName="JointDOFSelectionRelationshipId" devLabel="Joint DOF Relationship" translation="" />
+	<label commandName="JointDOFSelectionRelationshipsId" devLabel="Joint DOF Relationships" translation="" />
+	<label commandName="JointDOFYawName" devLabel="Yaw" translation="" />
+	<label commandName="JointDOFsSelectionId" devLabel="Joint DOFs" translation="" />
+	<label commandName="JointDistanceConflictMessage" devLabel="Distance conflict due to %1%" translation="" />
+	<label commandName="JointOccurrenceSelectionId" devLabel="Joint Occurrence" translation="" />
+	<label commandName="JointOccurrencesSelectionId" devLabel="Joint Occurrences" translation="" />
+	<label commandName="JointOriginCategory" devLabel="Joint Origins" translation="" />
+	<label commandName="JointOriginDefaultUserName" devLabel="Joint Origin" translation="" />
+	<label commandName="JointOriginSelectionId" devLabel="Joint Origin" translation="" />
+	<label commandName="JointOriginsSelectionId" devLabel="Joint Origins" translation="" />
+	<label commandName="JointPinPlaneName" devLabel="Planar" translation="" />
+	<label commandName="JointPinSlotName" devLabel="Pin-Slot" translation="" />
+	<label commandName="JointPlanarName" devLabel="PlaneSlide" translation="" />
+	<label commandName="JointRevoluteName" devLabel="Revolute" translation="" />
+	<label commandName="JointRigidGroupName" devLabel="RigidGroup" translation="" />
+	<label commandName="JointRigidName" devLabel="Rigid" translation="" />
+	<label commandName="JointRollPlaneName" devLabel="RollPlane" translation="" />
+	<label commandName="JointSelectionId" devLabel="Joint" translation="" />
+	<label commandName="JointSelectionPluralId" devLabel="Joints" translation="" />
+	<label commandName="JointSliderName" devLabel="Slider" translation="" />
+	<label commandName="JointTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between &lt;br&gt; %3% &lt;br&gt;and &lt;br&gt;%4%" translation="" />
+	<label commandName="MotionLinkName" devLabel="Motion Link" translation="" />
+	<label commandName="MotionStudyName" devLabel="MotionStudy-" translation="" />
+	<label commandName="NotAllowImportSelf" devLabel="A document cannot be inserted into itself." translation="" />
+	<label commandName="OffsetWorkPlaneFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="" />
+	<label commandName="Project" devLabel="Project" translation="" />
+	<label commandName="ReplaceDocMaterialError" devLabel="Material could not be replaced in the document." translation="" />
+	<label commandName="ReplaceDocRemoveMaterialError" devLabel="Old material could not be removed from the document, possibly because it is the default material." translation="" />
+	<label commandName="RequireSaveBeforeInsert" devLabel="Please save this design before inserting components" translation="" />
+	<label commandName="SaveXRefDoc_MissingLink" devLabel="Failed to save external document due to missing link." translation="" />
+	<label commandName="SelectionGroupRequestWarning" devLabel="Warning: Some selections could not be added to the selection set" translation="" />
+	<label commandName="TangentRelationshipConstrName" devLabel="TangentRelationship" translation="" />
+	<label commandName="TargetDocumentNotFound" devLabel="Target document not found!!" translation="" />
+	<label commandName="TransitionalRelationshipCategory" devLabel="TransitionalRelationships" translation="" />
+	<label commandName="TransitionalRelationshipOccurrenceSelectionId" devLabel="TransitionalRelationship Occurrence" translation="" />
+	<label commandName="TransitionalRelationshipOccurrencesSelectionId" devLabel="TransitionalRelationship Occurrences" translation="" />
+	<label commandName="TransitionalRelationshipSelectionId" devLabel="TransitionalRelationship" translation="" />
+	<label commandName="TransitionalRelationshipSelectionPluralId" devLabel="TransitionalRelationships" translation="" />
+	<label commandName="VCS_ADD_ASSEMBLYCONSTR_FAILED" devLabel="Failed to evaluate references to solve Tangent Relationship." translation="" />
+	<label commandName="VCS_JOINT_DRAG_FAILURE" devLabel="drag failed" translation="" />
+	<label commandName="VCS_JOINT_DRAG_FAILUREINITERROR" devLabel="drag failed due to initialization error" translation="" />
+	<label commandName="VCS_JOINT_DRAG_INCONSISTENT" devLabel="drag failed due to inconsistencies" translation="" />
+	<label commandName="VCS_JOINT_DRIVE_FAILURE" devLabel="Joint drive failed unexpectedly" translation="" />
+	<label commandName="VCS_JOINT_DRIVE_INCONSISTENT" devLabel="Joint drive failed due to inconsistencies" translation="" />
+	<label commandName="VCS_JOINT_FAILURE" devLabel="Position calculation failed due to initialization error" translation="" />
+	<label commandName="VCS_JOINT_INCONSISTENT" devLabel="Cannot resolve some component positions because there are conflicts with assembly relationships in the design. &lt;br/&gt; Inspect existing joints, rigid groups, or tangent relationships." translation="" />
+	<label commandName="VCS_SKETCH_OVER_CONSTRAINTS" devLabel="Sketch geometry is over constrained" translation="" />
+	<label commandName="VCS_SKETCH_SOLVING_FAILED" devLabel="Failed to solve. Please try revising dimensions or constraints." translation="" />
+	<label commandName="WorkAxisFromCylinderRequestGenericError" devLabel="Work Axis From Cylinder failed due to invalid input" translation="" />
+	<label commandName="WorkAxisFromCylinderRequestInputFaceError" devLabel="Work Axis through Cylinder failed:  Face is not a cylinder or a cone" translation="" />
+	<label commandName="WorkAxisFromFaceAndPointRequestFaceNormalError" devLabel="Axis failed: cannot calculate face normal at selected point" translation="" />
+	<label commandName="WorkAxisFromFaceAndPointRequestGenericError" devLabel="Axis failed: invalid input" translation="" />
+	<label commandName="WorkAxisFromFaceAndPointRequestPointProjectError" devLabel="Axis failed: no projection from point to face" translation="" />
+	<label commandName="WorkAxisFromLineRequestGenericError" devLabel="Work Axis From Edge failed.  Selected Edge must be linear" translation="" />
+	<label commandName="WorkAxisFromLocationAndVectorRequestGenericError" devLabel="Work Axis failed due to invalid input" translation="" />
+	<label commandName="WorkAxisFromMidPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkAxisFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkAxisFromTwoPlanesRequestParallelPlanesError" devLabel="Work Axis From Two Planes failed: input planes do not intersect" translation="" />
+	<label commandName="WorkPlaneFromFaceAndPointRequestFaceNormalError" devLabel="Work Plane from Face and Point failed: Can't get normal of selected Face at the selected Point" translation="" />
+	<label commandName="WorkPlaneFromFaceAndPointRequestGenericError" devLabel="Work Plane from Face and Point failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneFromFaceAndPointRequestPointProjectError" devLabel="Work Plane from Face and Point failed: No projection from Point to Face" translation="" />
+	<label commandName="WorkPlaneFromLineAndAngleRequestGenericError" devLabel="Work Plane At Angle failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneFromLocationAndVectorRequestGenericError" devLabel="Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneFromPointAndNormalRequestError" devLabel="Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneFromPointAndNormalRequestTargetError" devLabel="Work Plane failed due to invalid target" translation="" />
+	<label commandName="WorkPlaneFromThreePointsRequestColinearPointsError" devLabel="Work Plane through three points failed:  The points are collinear" translation="" />
+	<label commandName="WorkPlaneFromThreePointsRequestEqualPointsError" devLabel="Work Plane through three points failed:  Two or more of the points are identical" translation="" />
+	<label commandName="WorkPlaneFromTwoLinesRequestColinearInputsError" devLabel="Work Plane From Two Lines failed: Input lines are collinear" translation="" />
+	<label commandName="WorkPlaneFromTwoLinesRequestGenericError" devLabel="Work Plane From Two Lines failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneFromTwoLinesRequestLinesNotParallelOrIntersectError" devLabel="Work Plane From Two Lines failed:  Input lines must intersect or be parallel" translation="" />
+	<label commandName="WorkPlaneFromTwoPlanesRequestCoplanarError" devLabel="Mid-Plane Work Plane failed:  Selected planes are coplanar" translation="" />
+	<label commandName="WorkPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneOffsetFromPlaneRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkPlaneTangentToCylinderRequestGenericError" devLabel="Tangent Work Plane failed due to invalid input" translation="" />
+	<label commandName="WorkPointFromCircleRequestFaceNotSphereError" devLabel="Work Point From Circular Edge failed:  Selected edge is not circular" translation="" />
+	<label commandName="WorkPointFromLineAndPlaneRequestEdgeNotLinearError" devLabel="Work Point From Line and Plane failed:  Selected Edge is not linear" translation="" />
+	<label commandName="WorkPointFromLineAndPlaneRequestFaceError" devLabel="Work Point From Line and Plane failed: Selected Face is not planar" translation="" />
+	<label commandName="WorkPointFromLineAndPlaneRequestLineAndFaceParallelError" devLabel="Work Point From Line and Plane failed: Selected Face and Line are parallel" translation="" />
+	<label commandName="WorkPointFromSphereRequestFaceNotSphereError" devLabel="Work Point From Sphere failed:  Selected face is not spherical" translation="" />
+	<label commandName="WorkPointFromSphereRequestGenericError" devLabel="Cannot create point" translation="" />
+	<label commandName="WorkPointFromThreePlanesRequestGenericError" devLabel="Work Point from 3 Planes failed due to invalid input" translation="" />
+	<label commandName="WorkPointFromThreePlanesRequestParallelPlanesError" devLabel="Work Point From Three Planes failed: input planes do not intersect" translation="" />
+	<label commandName="WorkPointFromTwoLinesRequestGenericError" devLabel="Work Point From Two Lines failed due to invalid input" translation="" />
+	<label commandName="WorkPointFromTwoLinesRequestNoIntersectionError" devLabel="Work Point From Two Lines failed: lines do not intersect" translation="" />
+	<label commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted" devLabel="The active document is already referencing a different version of the document %1%. The same version will be inserted again." translation="" />
+	<label commandName="XRefUpdateAbortedDueToMissingXRefs" devLabel="The operation failed because it results in some unresolved components. Please open following designs and fix the unresolved components:" translation="" />
+	<label commandName="alignComponentsInconsistent" devLabel="No alignment suggested by geometry could be found" translation="" />
+	<label commandName="comp1Name" devLabel="&lt;unknown&gt;" translation="" />
+	<label commandName="comp2Name" devLabel="&lt;unknown&gt;" translation="" />
+	<label commandName="insertDocfaile" devLabel="The document could not be downloaded." translation="" />
+	<label commandName="jointName" devLabel="&lt;unknown&gt;" translation="" />
+	<label commandName="jointType" devLabel="&lt;unknown&gt;" translation="" />
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="" />
+	<label commandName="lclzXREFhasRelations" devLabel="Inserting a distributed design from one %1% to another is not currently supported.&#10;&#10;%2% of current design: %3%&#10;%2% of design being inserted: %4%" translation="" />
+	<label commandName="project" devLabel="project" translation="" />
+	<label commandName="solveContactSetInconsistent" devLabel="Contacts in new set cause a conflict" translation="" />
+	<label commandName="solveNewJointInconsistent" devLabel="Selected joint type will result in conflict" translation="" />
+</Resource>

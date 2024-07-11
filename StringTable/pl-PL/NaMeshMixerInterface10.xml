@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AMM_ERROR_DISCONNECTED_MESH" devLabel="The target mesh needs to be a connected mesh." translation="Siatka docelowa musi być siatką połączoną."/>
+	<label commandName="AMM_ERROR_EMPTY_SELECTION" devLabel="Failure due to empty selection." translation="Błąd z powodu pustego wyboru."/>
+	<label commandName="AMM_ERROR_FAILED_TO_CREATE_MESH" devLabel="Failed to generate the mesh. Try different parameter settings if possible." translation="Nie można wygenerować siatki. W miarę możliwości wypróbuj inne ustawienia parametrów."/>
+	<label commandName="AMM_ERROR_FAILED_TO_OPEN_FILE" devLabel="Failed to open mesh file." translation="Nie można otworzyć pliku siatki."/>
+	<label commandName="AMM_ERROR_FAILED_TO_SAVE_FILE" devLabel="Failed to save mesh file." translation="Nie można zapisać pliku siatki."/>
+	<label commandName="AMM_ERROR_FAILED_TO_SLICE_MESH" devLabel="Failed to slice the mesh with the specified plane." translation="Nie można utworzyć płata siatki z określoną płaszczyzną."/>
+	<label commandName="AMM_ERROR_NO_OVERHANGS_FOR_SUPPORT" devLabel="No supports are required because there are no overhangs in the mesh." translation="Nie są wymagane żadne podpory, ponieważ w siatce nie ma nawisów."/>
+	<label commandName="AMM_ERROR_REPAIR_FAILED" devLabel="The repair tool failed to reduce the number of defects." translation="Narzędzie naprawy nie może zmniejszyć liczby defektów."/>
+	<label commandName="AMM_ERROR_SELECTION_ALREADY_DRAWING" devLabel="Error during paint selection." translation="Błąd podczas wyboru farby."/>
+	<label commandName="AMM_ERROR_SELECTION_FAILED" devLabel="Error creating selection." translation="Błąd podczas tworzenia wyboru."/>
+	<label commandName="AMM_ERROR_TOO_SMALL_FOR_SUPPORT" devLabel="Mesh is too small for support generation." translation="Siatka jest zbyt mała, aby wygenerować podpory."/>
+	<label commandName="AMM_ERROR_UNABLE_TO_EXPORT_MULTIPLE_MESHES" devLabel="Mesh export failed." translation="Eksport siatki nie powiódł się."/>
+	<label commandName="AMM_ERROR_UNABLE_TO_FIND_CONSISTENT_NORMAL" devLabel="Unsable to find consistent normals for the mesh. Try repairing any non-manifold regions first." translation="Nie można znaleźć spójnych normalnych dla siatki. Spróbuj najpierw naprawić wszystkie nierozgałęzione regiony."/>
+	<label commandName="AMM_ERROR_WRONG_BRUSH_STROKE_ORDER" devLabel="Error during paint selection." translation="Błąd podczas wyboru farby."/>
+	<label commandName="AMM_FAILED" devLabel="Mesh operation failed." translation="Tworzenie siatki nie powiodło się."/>
+	<label commandName="MMIGenerateMeshFromVoxelSolid" devLabel="Generating mesh from voxelized body..." translation="Generowanie siatki z bryły wokselizowanej..."/>
+	<label commandName="MMIGenerateVoxelSolid" devLabel="Generating voxel representation..." translation="Generowanie reprezentacji wokselowej..."/>
+	<label commandName="MMIProjectResultSolid" devLabel="Projecting result on original mesh..." translation="Rzutowanie wyniku na pierwotną siatkę..."/>
+	<label commandName="MMIReduceMeshSolid" devLabel="Reducing mesh body..." translation="Redukowanie bryły siatkowej..."/>
+	<label commandName="MMIRepairMeshSolid" devLabel="Repairing mesh body..." translation="Naprawianie bryły siatkowej..."/>
+	<label commandName="MMISmoothVoxelSolid" devLabel="Smoothing voxelized body..." translation="Wygładzanie bryły wokselizowanej..."/>
+	<label commandName="MMIThickenVoxelSolid" devLabel="Thickening voxelized body..." translation="Pogrubianie bryły wokselizowanej..."/>
+</Resource>

@@ -1,0 +1,19 @@
+<div id="retractionPolicy"><p>Controls how the tool moves between cutting passes.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_FullRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_MinimumRetraction.png"/></center></td>
+<td><center><img border="0" width="125" height="125" src="../images/retractionPolicy_ShortestPath.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Full Retraction</b></p></center></td>
+<td><center><p><b>Minimum Retraction</b></p></center></td>
+<td><center><p><b>Shortest Path</b></p></center></td>
+</tr></table>
+<p><em>Illustrated with Flow</em></p>
+<br>
+<p><b>Full retraction</b> - Completely retracts the tool to the Retract Height at the end of the pass before moving above the start of the next pass.</p>
+<p><b>Minimum retraction</b> - Moves straight up to the lowest height where the tool clears the workpiece, plus any specified safe distance.</p>
+<p><b>Shortest path</b> - Moves the tool the shortest possible distance in a straight line between paths.</p>
+<p><b>WARNING:</b> Shortest path should not be used on machines that do not support linearized rapid movements where G0 moves are straight-line (versus G0 moves that drive all axes at maximum speed, sometimes referred to as "dogleg" moves). Failure to obey this rule will result in machine motion that cannot be properly simulated by the software, and <em>may result in tool crashes</em>.</p>
+<p>For CNC machines that do not support linearized rapid moves, the post processor can be modified to convert all G0 moves to high-feed G1 moves. Contact technical support for more information or instructions on how to modify post processors as described.</p>
+</div>

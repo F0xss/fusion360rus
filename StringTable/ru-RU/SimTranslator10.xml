@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AdskSimPkgFileFilterDescription" devLabel="Autodesk Simulation Package Files (*.adsksimpkg)" translation="Autodesk Simulation Package-Dateien (*.adsksimpkg)"/>
+	<label commandName="PacakgeScalarisValidatorCompareFolderMismatch" devLabel="The baseline and result paths did not contain the same folders: '%1%' - '%2%'" translation="Die Basislinien- und Ergebnispfade enthalten nicht die gleichen Ordner: '%1%' - '%2%'"/>
+	<label commandName="PackageScalarisValidatorFailureToMakeResultDirectory" devLabel="Failed to make result directory - '%1%'" translation="Fehler beim Erstellen des Ergebnisverzeichnisses - '%1%'"/>
+	<label commandName="PackageScalarisValidatorFailureToWorkingModelUnique" devLabel="Working model name was not unique - '%1%'" translation="Arbeitsmodellname ist nicht eindeutig - '%1%'"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimTranslatorAssetUuidNotFound" devLabel="Couldn't find simulation study asset" translation="Simulationsstudienobjekt wurde nicht gefunden"/>
+	<label commandName="SimTranslatorAssetUuidNotInitialized" devLabel="The requested asset for export could not be initialized" translation="Das angeforderte Objekt für den Export konnte nicht initialisiert werden"/>
+	<label commandName="SimTranslatorAssetUuidNotSimCase" devLabel="The requested asset for export was not a simulation study" translation="Das angeforderte Objekt für den Export ist keine Simulationsstudie"/>
+	<label commandName="SimTranslatorNoAssetsExported" devLabel="No assets were exported" translation="Es wurden keine Objekte exportiert"/>
+	<label commandName="SimTranslatorPackageBuilderCantCreateWMFolder" devLabel="Failed to create a folder to hold a working model" translation="Fehler beim Erstellen eines Ordners für Arbeitsmodell"/>
+	<label commandName="SimTranslatorPackageBuilderCommitToDisk" devLabel="Failed to save Scalaris for study &quot;%1%&quot;" translation="Fehler beim Speichern von Scalaris-Dateien für Studie &quot;%1%&quot;"/>
+	<label commandName="SimTranslatorPackageBuilderManifestOpen" devLabel="Error opening manifest for writing [rdstate = %1%]" translation="Fehler beim Öffnen des Manifests zum Schreiben [rdstate = %1%]"/>
+	<label commandName="SimTranslatorPackageBuilderManifestWrite" devLabel="Error writing manifest [rdstate = %1%]" translation="Fehler beim Schreiben des Manifests [rdstate = %1%]"/>
+	<label commandName="SimTranslatorPackageBuilderNoModelFiles" devLabel="No model files were created" translation="Es wurden keine Modelldateien erstellt"/>
+	<label commandName="SimTranslatorPackageBuilderNoWMComponentAsset" devLabel="Unable to find the working model component asset adapter" translation="Objektadapter der Arbeitsmodellkomponente wurde nicht gefunden"/>
+	<label commandName="SimTranslatorPackageBuilderNoWMRootComponent" devLabel="Missing the working model root component" translation="Fehlende Ausgangskomponente des Arbeitsmodells"/>
+	<label commandName="SimTranslatorPackageBuilderNoWriter" devLabel="The study &quot;%1%&quot; does not support writing Scalaris data" translation="Die Studie &quot;%1%&quot; unterstützt das Schreiben von Scalaris-Daten nicht"/>
+	<label commandName="SimTranslatorPackageBuilderSanitizeError" devLabel="Unable to properly clean up working model folder" translation="Arbeitsmodellordner konnte nicht ordnungsgemäß bereinigt werden"/>
+	<label commandName="SimTranslatorPackageBuilderWorkingFolder" devLabel="Unable to set up working area for simulation package export" translation="Arbeitsbereich für den Export von Simulationspaketen kann nicht eingerichtet werden"/>
+	<label commandName="SimTranslatorPackageBuilderWriteModelError" devLabel="Failed to write the model for study &quot;%1%&quot;" translation="Fehler beim Schreiben des Modells für Studie &quot;%1%&quot;"/>
+	<label commandName="SimTranslatorPackageBuilderWriteSetupError" devLabel="Failed to write the setup for study &quot;%1%&quot;" translation="Fehler beim Schreiben des Setups für Studie &quot;%1%&quot;"/>
+	<label commandName="SimTranslatorPackageEchoError" devLabel="Error:  " translation="Fehler:  "/>
+	<label commandName="SimTranslatorPackageEchoWarning" devLabel="Warning:  " translation="Warnung:  "/>
+	<label commandName="SimTranslatorPackageExtractorCreateFolder" devLabel="Error creating a working model folder" translation="Fehler beim Erstellen eines Arbeitsmodellordners"/>
+	<label commandName="SimTranslatorPackageExtractorCreateWorkingFolder" devLabel="Unable to set up working area for simulation package extraction" translation="Arbeitsbereich für Simulationspaketextraktion kann nicht eingerichtet werden"/>
+	<label commandName="SimTranslatorPackageExtractorExtractAcis" devLabel="Failed to extract a model SAT/SMT file" translation="Fehler beim Extrahieren einer SAT-/SMT-Datei für das Modell"/>
+	<label commandName="SimTranslatorPackageExtractorExtractManifest" devLabel="Failed to extract the manifest" translation="Fehler beim Extrahieren des Manifests"/>
+	<label commandName="SimTranslatorPackageExtractorExtractModel" devLabel="Failed to extract a working model file" translation="Fehler beim Extrahieren einer Arbeitsmodelldatei"/>
+	<label commandName="SimTranslatorPackageExtractorExtractStudy" devLabel="Failed to extract a study file" translation="Fehler beim Extrahieren einer Studiendatei"/>
+	<label commandName="SimTranslatorPackageExtractorModelCleanup" devLabel="Unable to clean up model file after extraction" translation="Die Modelldatei kann nach der Extraktion nicht bereinigt werden"/>
+	<label commandName="SimTranslatorPackageExtractorNoManifest" devLabel="The package is missing a manifest" translation="Paket enthält kein Manifest"/>
+	<label commandName="SimTranslatorPackageExtractorNoRoot" devLabel="The package is missing a root folder" translation="Paket enthält keinen Stammordner"/>
+	<label commandName="SimTranslatorPackageExtractorNoRootInModelZip" devLabel="A working model file is missing a root folder" translation="Arbeitsmodelldatei enthält keinen Stammordner"/>
+	<label commandName="SimTranslatorPackageExtractorRemoveWorkingFolder" devLabel="Unable to clean up working area for simulation package extraction" translation="Arbeitsbereich für Simulationspaketextraktion kann nicht bereinigt werden"/>
+	<label commandName="SimTranslatorPackageExtractorZipMissingFolder" devLabel="The ADSKSIMPKG file is corrupt (missing folder)" translation="Die ADSKSIMPKG-Datei ist beschädigt (fehlender Ordner)"/>
+	<label commandName="SimTranslatorPackageManifestSchemaMissing" devLabel="Manifest is missing the schema name" translation="Manifest enthält keinen Schemanamen"/>
+	<label commandName="SimTranslatorPackageManifestSchemaUnrecognized" devLabel="Manifest not a recognized schema" translation="Manifest ist kein anerkanntes Schema"/>
+	<label commandName="SimTranslatorPackageManifestStBad" devLabel="Manifest has a bad study" translation="Manifest enthält eine fehlerhafte Studie"/>
+	<label commandName="SimTranslatorPackageManifestStFileMissing" devLabel="Manifest is missing a study file" translation="Manifest enthält keine Studiendatei"/>
+	<label commandName="SimTranslatorPackageManifestStMissing" devLabel="Manifest is missing working model studies" translation="Manifest enthält keine Arbeitsmodellstudien"/>
+	<label commandName="SimTranslatorPackageManifestStNameMissing" devLabel="Maniefst is missing a study name" translation="Manifest hat keinen Studiennamen"/>
+	<label commandName="SimTranslatorPackageManifestStTypeMissing" devLabel="Maniefst is missing a study type" translation="Manifest enthält keinen Studientyp"/>
+	<label commandName="SimTranslatorPackageManifestStUuidMissing" devLabel="Manifest is missing a study UUID" translation="Manifest enthält keine Studien-UUID"/>
+	<label commandName="SimTranslatorPackageManifestVersionMissing" devLabel="Manifest is missing a version" translation="Manifest enthält keine Version"/>
+	<label commandName="SimTranslatorPackageManifestVersionUnrecognized" devLabel="Manifest is not a version that can be read" translation="Manifest weist keine lesbare Version auf"/>
+	<label commandName="SimTranslatorPackageManifestWmBad" devLabel="Manifest has a bad working model" translation="Manifest enthält ein fehlerhaftes Arbeitsmodell"/>
+	<label commandName="SimTranslatorPackageManifestWmFileMissing" devLabel="Manifest is missing a working model file" translation="Manifest enthält keine Arbeitsmodelldatei"/>
+	<label commandName="SimTranslatorPackageManifestWmFolderMissing" devLabel="Manifest is missing a working model folder" translation="Manifest enthält keinen Arbeitsmodellordner"/>
+	<label commandName="SimTranslatorPackageManifestWmFormatMissing" devLabel="Manifest is missing the working model format" translation="Manifest enthält kein Arbeitsmodellformat"/>
+	<label commandName="SimTranslatorPackageManifestWmFormatTypeBad" devLabel="Manifest has a bad working model format type" translation="Manifest enthält einen fehlerhaften Arbeitsmodell-Formattyp"/>
+	<label commandName="SimTranslatorPackageManifestWmFormatTypeMissing" devLabel="Manifest is missing the working model format type" translation="Manifest enthält keinen Arbeitsmodell-Formattyp"/>
+	<label commandName="SimTranslatorPackageManifestWmFormatVersionMissing" devLabel="Manifest is missing the working model format version" translation="Manifest enthält keine Version für das Arbeitsmodellformat"/>
+	<label commandName="SimTranslatorPackageManifestWmNameMissing" devLabel="Maniefst is missing a working model name" translation="Manifest hat keinen Arbeitsmodellnamen"/>
+	<label commandName="SimTranslatorPackageManifestWmPIDSchemeBad" devLabel="Manifest has a bad working model PID scheme" translation="Manifest weist fehlerhaftes Arbeitsmodell-PID-Schema auf"/>
+	<label commandName="SimTranslatorPackageManifestWmPIDSchemeMissing" devLabel="Manifest is missing a working model PID scheme" translation="Manifest enthält kein Arbeitsmodell-PID-Schema"/>
+	<label commandName="SimTranslatorPackageManifestWmStudyUuidBad" devLabel="Manifest has a bad working model study UUID" translation="Manifest enthält eine fehlerhafte UUID der Arbeitsmodellstudie"/>
+	<label commandName="SimTranslatorPackageManifestWmUuidMissing" devLabel="Manifest is missing a working model UUID" translation="Manifest enthält keine Arbeitsmodell-UUID"/>
+	<label commandName="SimTranslatorPackageManifestWmsMissing" devLabel="Manifest is missing working models" translation="Manifest enthält keine Arbeitsmodelle"/>
+	<label commandName="SimTranslatorPackageModel7zUnavailable" devLabel="Model.7z is not supported" translation="Model.7z wird nicht unterstützt"/>
+	<label commandName="SimTranslatorPackageUnrecognizedOptions" devLabel="Unrecognized options class -- how did you do this?" translation="Nicht erkannte Optionsklasse - wie sind Sie vorgegangen?"/>
+</Resource>

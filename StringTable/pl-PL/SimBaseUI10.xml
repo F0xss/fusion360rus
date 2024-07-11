@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="GenericWarningDialogContinue" devLabel="Continue" translation="Dalej"/>
+	<label commandName="GenericWarningDialogDoNotShowAgain" devLabel="Do not show me this message again" translation="Nie pokazuj ponownie tego komunikatu"/>
+	<label commandName="SimActivateCmd" devLabel="Activate object" translation="Aktywuj obiekt"/>
+	<label commandName="SimApply" devLabel="Apply" translation="Zastosuj"/>
+	<label commandName="SimBack" devLabel="Back" translation="Tył"/>
+	<label commandName="SimButtonCancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="SimButtonOK" devLabel="OK" translation="OK"/>
+	<label commandName="SimChangeUnits" devLabel="Change Unit Set" translation="Zmień zestaw jednostek"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimCustom" devLabel="(Copy) " translation="(Kopia) "/>
+	<label commandName="SimDefaultSelectionInputText" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimDoubleClickCmdDef" devLabel="Edit object via doubleclick" translation="Edytuj obiekt za pomocą dwukrotnego kliknięcia"/>
+	<label commandName="SimDragInput" devLabel="DragInput" translation="Przeciągnij dane wejściowe"/>
+	<label commandName="SimDragSelectionInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="SimEditCmd" devLabel="Edit object" translation="Edytuj obiekt"/>
+	<label commandName="SimHelp" devLabel="Help" translation="Pomoc"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimNewUnitEdit" devLabel="(Only for debug ) New Unit Set" translation="(Tylko do debugowania) Nowy zestaw jednostek"/>
+	<label commandName="SimNext" devLabel="Next" translation="Następny"/>
+	<label commandName="SimOverrideUnitsCommandInputImplHUDList" devLabel="Units" translation="Jednostki"/>
+	<label commandName="SimProperties" devLabel="Properties" translation="Właściwości"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSceneDrag" devLabel="SceneDrag" translation="Przeciągnięcie sceny"/>
+	<label commandName="SimSelectBodiesLocationText" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="SimSelectBodyLocationText" devLabel="Body" translation="Bryła"/>
+	<label commandName="SimSelectEdgeLocationText" devLabel="Edge" translation="Krawędź"/>
+	<label commandName="SimSelectEdgesLocationText" devLabel="Edges" translation="Krawędzie"/>
+	<label commandName="SimSelectFaceLocationText" devLabel="Face" translation="Powierzchnia"/>
+	<label commandName="SimSelectFacesLocationText" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="SimSelectSelectionsLocationText" devLabel="Selected" translation="Wybrane"/>
+	<label commandName="SimSelectVertexLocationText" devLabel="Vertex" translation="Wierzchołek"/>
+	<label commandName="SimSelectVerticesLocationText" devLabel="Vertices" translation="Wierzchołki"/>
+	<label commandName="SimUnitBox" devLabel="Corresponding Units" translation="Odpowiednie jednostki"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procentowo"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitSetName" devLabel="Default Unit Set" translation="Domyślny zestaw jednostek"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsTitle" devLabel="Units Settings" translation="Ustawienia jednostek"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+	<label commandName="SimUnsuppressAllCmd" devLabel="Unsuppress All Children" translation="Włącz wszystkie elementy potomne"/>
+	<label commandName="SimVisibilityToggleCmd" devLabel="Show/Hide" translation="Pokaż/Ukryj"/>
+</Resource>

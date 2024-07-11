@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActivationDistance" devLabel="Activation Distance" translation="Odległość aktywacji"/>
+	<label commandName="AddMaterialsFromLibrariesBelow" devLabel="Add Materials from Libraries Below" translation="Dodaj materiały z bibliotek poniżej"/>
+	<label commandName="AddToAllMethodsLabel" devLabel="Add to All Methods" translation="Dodaj do wszystkich metod"/>
+	<label commandName="AddToMethodLabel" devLabel="Add to Method" translation="Dodaj do metody"/>
+	<label commandName="AllowSelfContact" devLabel="Allow Self Contact" translation="Zezwalaj na kontakt elementów z nimi samymi"/>
+	<label commandName="BrowserExplicitElementDeletionsLabel" devLabel="Deletion Criteria" translation="Kryteria usuwania"/>
+	<label commandName="BrowserGenerativeFluidKeepLabel" devLabel="Fluid Preserve Geometry" translation="Geometria zachowywana cieczy"/>
+	<label commandName="BrowserGenerativeFluidObstacleLabel" devLabel="Solid Obstacle Geometry" translation="Geometria przeszkody bryłowej"/>
+	<label commandName="BrowserGenerativeFluidObstacleOffsetLabel" devLabel="Solid Obstacle Offset" translation="Odsunięcie przeszkody bryły"/>
+	<label commandName="BrowserGenerativeFluidSeedLabel" devLabel="Fluid Starting Shape" translation="Kształt początkowy cieczy"/>
+	<label commandName="BrowserGenerativeKeepLabel" devLabel="Preserve Geometry" translation="Geometria zachowywana"/>
+	<label commandName="BrowserGenerativeLimitBucklingSafetyFactorLabel" devLabel="Buckling Safety factor: %1%" translation="Współczynnik bezpieczeństwa wyboczenia: %1%"/>
+	<label commandName="BrowserGenerativeLimitGlobalDisplacementLabel" devLabel="Global Displacement" translation="Przemieszczenie globalne"/>
+	<label commandName="BrowserGenerativeLimitLocalDisplacementLabel" devLabel="Location %1%" translation="Położenie %1%"/>
+	<label commandName="BrowserGenerativeLimitMassTargetLabel" devLabel="Mass Target: %1%" translation="Masa docelowa: %1%"/>
+	<label commandName="BrowserGenerativeLimitModalFrequencyLabel" devLabel="Modal Frequency: %1% Hz" translation="Częstotliwość modalna: %1% Hz"/>
+	<label commandName="BrowserGenerativeLimitSafetyFactorLabel" devLabel="Target Safety Factor: %1%" translation="Docelowy współczynnik bezpieczeństwa: %1%"/>
+	<label commandName="BrowserGenerativeLimitTargetVolumeLabel" devLabel="Target Volume: %1%" translation="Objętość docelowa: %1%"/>
+	<label commandName="BrowserGenerativeLimitVolumePercentLabel" devLabel="%% of Design Volume: %1%" translation="%% objętości obliczeniowej: %1%"/>
+	<label commandName="BrowserGenerativeLimitsLabel" devLabel="Limits" translation="Granice"/>
+	<label commandName="BrowserGenerativeLocalDisplacementLabel" devLabel="Local Displacement" translation="Przemieszczenie lokalne"/>
+	<label commandName="BrowserGenerativeManufacturingLabel" devLabel="Manufacturing" translation="Produkcja"/>
+	<label commandName="BrowserGenerativeObjectivesLabel" devLabel="Objectives" translation="Cele"/>
+	<label commandName="BrowserGenerativeObjectivesMaximizeStiffnessLabel" devLabel="Maximize Stiffness" translation="Maksymalizuj sztywność"/>
+	<label commandName="BrowserGenerativeObjectivesMinimizeMassLabel" devLabel="Minimize Mass" translation="Minimalizuj masę"/>
+	<label commandName="BrowserGenerativeObjectivesMinimizePressureDropLabel" devLabel="Minimize Pressure Drop" translation="Minimalizuj spadek ciśnienia"/>
+	<label commandName="BrowserGenerativeObstacleLabel" devLabel="Obstacle Geometry" translation="Geometria przeszkody"/>
+	<label commandName="BrowserGenerativeObstacleOffsetLabel" devLabel="Obstacle Offset" translation="Odsunięcie przeszkody"/>
+	<label commandName="BrowserGenerativeSeedLabel" devLabel="Starting Shape" translation="Kształt początkowy"/>
+	<label commandName="BrowserLocalDisplacementHealthTooltipSick" devLabel="Reference geometry is missing" translation="Brak geometrii odniesienia"/>
+	<label commandName="BrowserSimElementDeletionHealthTooltipSick" devLabel="Target geometry is missing" translation="Brak geometrii docelowej"/>
+	<label commandName="BrowserSimElementDeletionsHealthTooltipAllSick" devLabel="All valid Deletion Criteria are missing targets" translation="We wszystkich prawidłowych kryteriach usuwania brakuje wartości docelowych"/>
+	<label commandName="BrowserSimElementDeletionsHealthTooltipSomeSick" devLabel="A Deletion Criteria is missing a target" translation="W kryteriach usuwania brakuje wartości docelowych"/>
+	<label commandName="BrowserSimGenerativeLocalDisplacementsHealthTooltipSomeSick" devLabel="A local displacement is missing a reference" translation="W przemieszczeniu lokalnym brakuje odniesienia"/>
+	<label commandName="BrowserSimLoadCaseFluidConditionsHealthTooltipAllSick" devLabel="All fluid condition attributes have missing geometry references" translation="We wszystkie atrybutach warunku cieczy brakuje odniesień geometrii"/>
+	<label commandName="BrowserSimLoadCaseFluidConditionsHealthTooltipSomeSick" devLabel="One or more fluid condition attributes have missing geometry references" translation="W co najmniej jednym atrybucie warunku cieczy brakuje odniesień geometrii"/>
+	<label commandName="BrowserSimLocalDisplacementsHealthTooltipAllSick" devLabel="All valid local displacements are missing references" translation="We wszystkich prawidłowych przemieszczeniach lokalnych brakuje odniesień"/>
+	<label commandName="BrowserTopologyTargetLabel" devLabel="Target Body" translation="Bryła docelowa"/>
+	<label commandName="Capture Tolerance" devLabel="Capture Tolerance" translation="Tolerancja przechwytywania"/>
+	<label commandName="CaptureTolerance" devLabel="Capture Tolerance" translation="Tolerancja przechwytywania"/>
+	<label commandName="CoefficientofStaticFriction" devLabel="Default Friction Coefficient" translation="Domyślny współczynnik tarcia"/>
+	<label commandName="Contact Type" devLabel="Contact Type" translation="Typ kontaktu"/>
+	<label commandName="ContactType" devLabel="Global Separation Contact" translation="Kontakt z separacją globalną"/>
+	<label commandName="FrictionCoefficient" devLabel="Friction Coefficient" translation="Współczynnik tarcia"/>
+	<label commandName="GDSSettingsHighResolutionTooltipContent" devLabel="Generates high-resolution outcomes, which means the outcomes have more detail, but the generation may take longer." translation="Generuje wyniki o wysokiej rozdzielczości, co oznacza, że w wynikach istnieje więcej szczegółów, ale generowanie może potrwać dłużej."/>
+	<label commandName="GDSSettingsHighResolutionTooltipName" devLabel="High-resolution" translation="Wysoka rozdzielczość"/>
+	<label commandName="GDSSettingsLowResolutionTooltipContent" devLabel="Generates low-resolution outcomes, which means the outcomes have less detail, but the generation is faster." translation="Generuje wyniki o niskiej rozdzielczości, co oznacza, że w wynikach jest mniej szczegółów, ale generacja jest szybsza."/>
+	<label commandName="GDSSettingsLowResolutionTooltipName" devLabel="Low-resolution" translation="Niska rozdzielczość"/>
+	<label commandName="GDSSettingsResolutionTooltipContent" devLabel="Specifies the resolution of outcomes." translation="Określa rozdzielczość wyników."/>
+	<label commandName="GDSSettingsResolutionTooltipName" devLabel="Resolution" translation="Rozdzielczość"/>
+	<label commandName="GenDesignConditionsPanel" devLabel="Design Conditions" translation="Warunki projektowe"/>
+	<label commandName="GenDesignCriteriaPanel" devLabel="Design Criteria" translation="Kryteria projektowe"/>
+	<label commandName="GenDesignSpacePanel" devLabel="Design Space" translation="Obszar projektowania"/>
+	<label commandName="GenExplore" devLabel="Explore" translation="Eksploruj"/>
+	<label commandName="GenFluidFlowConditionsPanel" devLabel="Fluid Conditions" translation="Warunki cieczy"/>
+	<label commandName="GenFluidFlowCriteriaPanel" devLabel="Fluid Criteria" translation="Kryteria cieczy"/>
+	<label commandName="GenFluidHiddenSettingsWarningDialogMessage" devLabel="Fluid conditions that are hidden in the browser are included in the outcome generation. To exclude them from the generation, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; or delete them in the browser." translation="Warunki cieczy ukryte w przeglądarce są uwzględnione w generowaniu wyników. Aby wykluczyć je z generowania, odznacz pole wyboru &lt;b&gt;Włącz/wyłącz&lt;/b&gt; lub usuń je w przeglądarce."/>
+	<label commandName="GenFluidHiddenSettingsWarningDialogTitle" devLabel="Hidden fluid conditions" translation="Ukryte warunki cieczy"/>
+	<label commandName="GenGettingStartedHeader" devLabel="Welcome to the Generative Design workspace, here's how to get started." translation="Witamy w obszarze roboczym Projektowanie generatywne. Poniżej przedstawiono, jak rozpocząć pracę."/>
+	<label commandName="GenGettingStartedItem1" devLabel="&lt;b&gt;Discover the Generative Technology:&lt;/b&gt;&lt;br/&gt;Provide your design goals and generate a set of solutions that meet them.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Odkryj technologię generatywną:&lt;/b&gt;&lt;br/&gt;Wprowadź cele projektowe i wygeneruj zestaw rozwiązań, które je spełniają. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem10" devLabel="&lt;b&gt;Closed Design Space:&lt;/b&gt;&lt;br/&gt;Use the starting shape in a generative study setup.  &lt;a href=&quot;%1%&quot;&gt;Do now&lt;/a&gt;." translation="&lt;b&gt;Zamknięty obszar projektu:&lt;/b&gt;&lt;br/&gt;Użyj kształtu początkowego w ustawieniach badania generatywnego. &lt;a href=&quot;%1%&quot;&gt;Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem11" devLabel="&lt;b&gt;Multiple Studies:&lt;/b&gt;&lt;br/&gt;Create multiple studies for a generative model.  &lt;a href=&quot;%1%&quot;&gt;Do now&lt;/a&gt;." translation="&lt;b&gt;Wiele badań:&lt;/b&gt;&lt;br/&gt;Utwórz wiele badań dla modelu generatywnego. &lt;a href=&quot;%1%&quot;&gt;Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem12" devLabel="&lt;b&gt;Model Geometry:&lt;/b&gt;&lt;br/&gt;Create bodies that represent preserve and obstacle geometries in a design problem.  &lt;a href=&quot;%1%&quot;&gt;Do now&lt;/a&gt;." translation="&lt;b&gt;Geometria modelu:&lt;/b&gt;&lt;br/&gt;Utwórz bryły reprezentujące geometrie zachowywane i geometrie przeszkód w problemie projektowym. &lt;a href=&quot;%1%&quot;&gt;Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem2" devLabel="&lt;b&gt;Create Preserve Geometry:&lt;/b&gt;&lt;br/&gt;Create bodies that represent the geometry to keep in the final design shape.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Utwórz zachowywaną geometrię: &lt;/b&gt;&lt;br/&gt;Utwórz bryły reprezentujące geometrię, która ma zostać zachowana w końcowym kształcie projektu. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem3" devLabel="&lt;b&gt;Create Obstacle Geometry:&lt;/b&gt;&lt;br/&gt;Create bodies that represent empty spaces without material.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Utwórz geometrię przeszkody:&lt;/b&gt;&lt;br/&gt;Utwórz bryły reprezentujące puste przestrzenie bez materiału. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem4" devLabel="&lt;b&gt;Define a Design Space:&lt;/b&gt;&lt;br/&gt;Input bodies that will influence the final shape of the design.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Zdefiniuj obszar projektu:&lt;/b&gt;&lt;br/&gt;Bryły wejściowe, które będą miały wpływ na końcowy kształt projektu. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem5" devLabel="&lt;b&gt;Set Up a Design Problem:&lt;/b&gt;&lt;br/&gt;Specify design requirements for your design problem and generate outcomes.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Skonfiguruj problem projektowy:&lt;/b&gt;&lt;br/&gt;Określ wymagania projektowe dla problemu projektowego i wygeneruj wyniki. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem6" devLabel="&lt;b&gt;Explore Outcomes:&lt;/b&gt;&lt;br/&gt;Use exploring tools to identify the optimal outcome and create a design from it.  &lt;a href=&quot;%1%&quot;&gt;Watch now&lt;/a&gt;." translation="&lt;b&gt;Przeglądaj wyniki:&lt;/b&gt;&lt;br/&gt;Za pomocą narzędzi do przeglądania wskaż optymalny wynik i utwórz z niego projekt. &lt;a href=&quot;%1%&quot;&gt;Obejrzyj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedItem9" devLabel="&lt;b&gt;Open Design Space:&lt;/b&gt;&lt;br/&gt;Walk through the primary workflow to set up a generative study.  &lt;a href=&quot;%1%&quot;&gt;Do now&lt;/a&gt;." translation="&lt;b&gt;Otwórz obszar projektu:&lt;/b&gt;&lt;br/&gt;Przejdź przez podstawowy proces roboczy, aby skonfigurować badanie generatywne. &lt;a href=&quot;%1%&quot;&gt;Wykonaj teraz&lt;/a&gt;."/>
+	<label commandName="GenGettingStartedTutorialHeader" devLabel="&lt;b&gt;Tutorials: learn how to set up a generative study and explore outcomes&lt;/b&gt;" translation="&lt;b&gt;Samouczki: konfiguracja badania generatywnego i przeglądanie wyników&lt;/b&gt;"/>
+	<label commandName="GenGettingStartedVideoHeader" devLabel="&lt;b&gt;Videos: learn the basics of the generative workflow&lt;/b&gt;" translation="&lt;b&gt;Filmy: poznaj podstawy procesu roboczego projektowania generatywnego&lt;/b&gt;"/>
+	<label commandName="GenHiddenGeometryWarningDialogMessage" devLabel="Bodies or components that are hidden in the browser are still included in the outcome generation. To exclude them from the generation, do not assign a preserve, obstacle or starting shape geometry to these bodies. If you no longer need them, remove these model components in the Edit Model environment." translation="Bryły lub komponenty ukryte w przeglądarce są nadal uwzględniane podczas generowania wyników. Aby wykluczyć je z generowania, nie należy przypisywać do tych brył geometrii zachowania, przeszkód ani początkowych kształtów. Jeśli nie są już potrzebne, należy usunąć te komponenty modelu w środowisku edycji modelu."/>
+	<label commandName="GenHiddenGeometryWarningDialogTitle" devLabel="Hidden bodies or components" translation="Ukryte bryły lub komponenty"/>
+	<label commandName="GenHiddenSettingsWarningDialogMessage" devLabel="Loads or constraints that are hidden in the browser are included in the outcome generation. To exclude them from the generation, uncheck &lt;b&gt;Toggle Suppress&lt;/b&gt; or delete them in the browser." translation="Obciążenia lub wiązania ukryte w przeglądarce są uwzględniane podczas generowania wyników. Aby wykluczyć je z generowania, odznacz pole wyboru &lt;b&gt;Włącz/wyłącz&lt;/b&gt; lub usuń je w przeglądarce."/>
+	<label commandName="GenHiddenSettingsWarningDialogTitle" devLabel="Hidden loads or constraints" translation="Ukryte obciążenia lub wiązania"/>
+	<label commandName="GenInspectPanel" devLabel="Inspect" translation="Sprawdź"/>
+	<label commandName="GenMaterialsPanel" devLabel="Materials" translation="Materiały"/>
+	<label commandName="GenModelPanel" devLabel="Edit Model" translation="Edytuj model"/>
+	<label commandName="GenSelectPanel" devLabel="Select" translation="Wybierz"/>
+	<label commandName="GenSolvePanel" devLabel="Generate" translation="Generuj"/>
+	<label commandName="GenStateComplete" devLabel="Generate completed" translation="Generowanie zakończone"/>
+	<label commandName="GenStateFailed" devLabel="Generate failed" translation="Generowanie nie powiodło się"/>
+	<label commandName="GenStateInProgress" devLabel="Generate in progress..." translation="Generowanie w toku..."/>
+	<label commandName="GenStateOutOfDate" devLabel="Out of date results" translation="Nieaktualne wyniki"/>
+	<label commandName="GenStudies" devLabel="Generative Designs" translation="Projekty generatywne"/>
+	<label commandName="GenStudyPanel1" devLabel="Study" translation="Badanie"/>
+	<label commandName="GenerativeEnvironment" devLabel="Generative Design" translation="Projektowanie generatywne"/>
+	<label commandName="GenerativeStudiesBrowserText" devLabel="(Generative Designs)" translation="(Projekty generatywne)"/>
+	<label commandName="GlobalExplicitContactsGenerate" devLabel="Generate" translation="Generuj"/>
+	<label commandName="LearningPanel" devLabel="Guide" translation="Ramka"/>
+	<label commandName="MatDeleteLabel" devLabel="Delete" translation="Usuń"/>
+	<label commandName="MatPropertiesLabel" devLabel="Properties" translation="Właściwości"/>
+	<label commandName="MaxActivationTolerance" devLabel="Max Activation Tolerance" translation="Maksymalna tolerancja aktywacji"/>
+	<label commandName="Primary" devLabel="Primary" translation="Główne"/>
+	<label commandName="ProximityContactToo" devLabel="Proximity Bonded Contact" translation="Związany kontakt zbliżeniowy"/>
+	<label commandName="ProximityContactType" devLabel="Proximity Contact Type" translation="Typ kontaktu zbliżeniowego"/>
+	<label commandName="ProximityDetectionTolerance" devLabel="Proximity Distance" translation="Odległość zbliżenia"/>
+	<label commandName="QSimStudyDialog__Generative" devLabel="Generate a design based on input loads, constraints and keep-in and keep-out regions" translation="Generuj projekt na podstawie obciążeń wejściowych, wiązań oraz regionów zachowywania i utrzymywania w stanie wyjściowym"/>
+	<label commandName="QSimStudyDialog__GenerativeFluids" devLabel="&lt;IWantTo text for Genertive Fluids&gt;" translation="&lt;IWantTo text for Genertive Fluids&gt;"/>
+	<label commandName="QSimStudyDialog__IWantToBuckling" devLabel="Will my long, thin design collapse under applied physical loads?" translation="Czy mój długi, cienki projekt ulegnie zniszczeniu przy przyłożonych obciążeniach fizycznych?"/>
+	<label commandName="QSimStudyDialog__IWantToEmpty" devLabel="Empty" translation="Puste"/>
+	<label commandName="QSimStudyDialog__IWantToExplicitDynamic" devLabel="How will my design respond to rapidly changing constraints including large deformations, velocity changes, contact, and impact, such as collision with another object or a rigid wall?" translation="W jaki sposób mój projekt reaguje na gwałtowne zmiany wiązań, w tym duże odkształcenia, zmiany prędkości, kontakt i wpływ, takie jak kolizja z innym obiektem lub ścianą sztywną?"/>
+	<label commandName="QSimStudyDialog__IWantToExplicitQuasiStatic" devLabel="How will my design respond to gradually changing constraints, including large deformations and contact, such as compression by a clamp?" translation="W jaki sposób mój projekt reaguje na stopniowe zmiany wiązań, w tym dużych odkształceń i kontaktów, takich jak ściskanie przez zacisk?"/>
+	<label commandName="QSimStudyDialog__IWantToLSS" devLabel="Will my design deform excessively or fail from the physical loads applied to it?" translation="Czy mój projekt będzie ulegał nadmiernym odkształceniom lub zniszczeniu, gdy zostaną do niego przyłożone obciążenia fizyczne?"/>
+	<label commandName="QSimStudyDialog__IWantToModal" devLabel="What is the natural frequency and shape of my design as it vibrates?" translation="Jaka jest naturalna częstotliwość i kształt mojego projektu w trakcie jego drgań?"/>
+	<label commandName="QSimStudyDialog__IWantToNLSS" devLabel="How will my design perform when the load is high enough to permanently deform its shape?" translation="Jak będzie wyglądał projekt, gdy obciążenie będzie wystarczająco wysokie, aby trwale odkształcić jego kształt?"/>
+	<label commandName="QSimStudyDialog__IWantToTopOpt" devLabel="Where can I remove non-critical material to minimize the weight of my design, while maintaining the stiffness required to support physical loads?" translation="Gdzie można usunąć niekrytyczne materiały, aby zminimalizować ciężar projektu, zachowując sztywność wymaganą do obsługi obciążeń fizycznych?"/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationList_MarginallySafe" devLabel="&lt;p&gt;1. Strengthen the design in the weakest areas (add material or use a stiffer shape).&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Or:  Use a material with higher Yield and Ultimate Strength.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Or:  Switch to the Generative Design workspace to create design alternatives based on material, shape, and performance to obtain a design that meets your requirements and performs better. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Learn more&lt;/a&gt;&lt;/p&gt;" translation="&lt;p&gt;1. Wzmocnij projekt w najsłabszych obszarach (dodaj materiał lub użyj bardziej sztywnego kształtu).&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Lub: użyj materiału o większej granicy plastyczności i wytrzymałości.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Lub: przejdź do obszaru roboczego Projektowanie generatywne, aby utworzyć alternatywne rozwiazania projektowe na podstawie materiału, kształtu i parametrów w celu uzyskania projektu spełniającego wymagania i funkcjonującego lepiej. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Dowiedz się więcej&lt;/a&gt;&lt;/p&gt;"/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationList_ReallySafe" devLabel="&lt;p&gt;1. Use Shape Optimization to remove unnecessary material.&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Try testing weaker, less expensive materials to reduce cost.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Or:  Switch to the Generative Design workspace to create lighter-weight design alternatives based on material, shape, and performance. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Learn more&lt;/a&gt;&lt;/p&gt;" translation="&lt;p&gt;1. Użyj opcji Optymalizacja kształtu, aby usunąć zbędny materiał.&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Spróbuj przetestować słabsze i tańsze materiały, aby zmniejszyć koszty.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Lub: przejdź do obszaru roboczego Projektowanie generatywne, aby utworzyć uproszczone alternatywne rozwiazania projektowe na podstawie materiału, kształtu i parametrów. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Dowiedz się więcej&lt;/a&gt;&lt;/p&gt;"/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationList_Unsafe" devLabel="&lt;p&gt;1. Strengthen the design in the weakest areas (add material or use a stiffer shape).&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Or:  Use a material with higher Yield and Ultimate Strength.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Or:  Conduct a Nonlinear Static Stress Study for more accurate results.&#xA;&#xA;&lt;br&gt;&lt;br&gt;4. Or:  Switch to the Generative Design workspace to create design alternatives based on material, shape, and performance to obtain a design that meets your requirements and performs better. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Learn more&lt;/a&gt;&lt;/p&gt;" translation="&lt;p&gt;1. Wzmocnij projekt w najsłabszych obszarach (dodaj materiał lub użyj bardziej sztywnego kształtu).&#xA;&#xA;&lt;br&gt;&lt;br&gt;2. Lub: użyj materiału o większej granicy plastyczności i wytrzymałości.&#xA;&#xA;&lt;br&gt;&lt;br&gt;3. Lub: wykonaj badanie Nieliniowe naprężenie statyczne, aby uzyskać dokładniejsze wyniki.&#xA;&#xA;&lt;br&gt;&lt;br&gt;4. Lub: przejdź do obszaru roboczego Projektowanie generatywne, aby utworzyć alternatywne rozwiazania projektowe na podstawie materiału, kształtu i parametrów w celu uzyskania projektu spełniającego wymagania i funkcjonującego lepiej. &lt;a href='https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW'&gt;Dowiedz się więcej&lt;/a&gt;&lt;/p&gt;"/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationSummary_MarginallySafe" devLabel="The design is marginal. It may be sufficient but outside factors could cause it to bend or break. For typical design applications, a minimum Safety Factor of 3.0 is common." translation="Projekt jest marginalny. Może okazać się wystarczający, ale czynniki zewnętrzne mogą spowodować jego zagięcie lub przerwanie. W przypadku typowych zastosowań projektowych minimalny współczynnik bezpieczeństwa wynosi 3,0."/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationSummary_ReallySafe" devLabel="The design appears to be over-engineered for the current analysis criteria. Ensure the Safety Factor Targets meet the standards of your company, application and industry." translation="Projekt wydaje się zawierać zbyt wiele zbędnych elementów, biorąc pod uwagę bieżące kryteria analizy. Upewnij się, że docelowe współczynniki bezpieczeństwa spełniają standardy firmy, zastosowania i branży."/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationSummary_Safe" devLabel="The design is not expected to bend or break with the current analysis criteria. It's a good idea to validate the analysis criteria and also ensure the Safety Factor Targets meet the standards of your company, application and industry." translation="Projekt nie powinien się zagiąć ani przerwać, biorąc pod uwagę bieżące kryteria analizy. Dobrze byłoby sprawdzić poprawność kryteriów analizy oraz zgodność docelowych współczynników bezpieczeństwa ze standardami firmy, zastosowania i branży."/>
+	<label commandName="QTSimResultRecommendationDlg_RecommendationSummary_Unsafe" devLabel="The design is expected to bend permanently or break under the current analysis criteria." translation="Można oczekiwać, że projekt ulegnie trwałemu zagięciu lub przerwaniu, biorąc pod uwagę bieżące kryteria analizy."/>
+	<label commandName="ResultsCmd" devLabel="Results" translation="Wyniki"/>
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="Wyniki symulacji"/>
+	<label commandName="ResultsViewsPanel" devLabel="Display" translation="Wyświetl"/>
+	<label commandName="Secondary" devLabel="Secondary" translation="Wtórny"/>
+	<label commandName="SimAdvancedMeshSettingsGroupBox " devLabel="Advanced Settings" translation="Ustawienia zaawansowane"/>
+	<label commandName="SimAnimatePanel" devLabel="Animate" translation="Animuj"/>
+	<label commandName="SimAnsysPanel" devLabel="ANSYS" translation="ANSYS"/>
+	<label commandName="SimAutoRefinementsControlCustomLabel" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimAutoRefinementsControlHighLabel" devLabel="High" translation="Wysoki"/>
+	<label commandName="SimAutoRefinementsControlLowLabel" devLabel="Low" translation="Nisko"/>
+	<label commandName="SimAutoRefinementsControlMediumLabel" devLabel="Medium" translation="Średnia"/>
+	<label commandName="SimAutoRefinementsControlNoneLabel" devLabel="None" translation="Brak"/>
+	<label commandName="SimAutoRefinementsControlRefinementControlLabel" devLabel="Refinement Control" translation="Sterowanie zagęszczaniem"/>
+	<label commandName="SimBucklingResultsToConvergeLabel" devLabel="Buckling Mode" translation="Mod wyboczenia"/>
+	<label commandName="SimBucklingResultsToConvergeTooltip" devLabel="Which bending mode to use for calculating convergence criteria." translation="Który mod gięcia ma być używany do obliczania kryteriów zbieżności."/>
+	<label commandName="SimCaseDefaultName" devLabel="Study" translation="Badanie"/>
+	<label commandName="SimCaseName" devLabel="Name" translation="Nazwa"/>
+	<label commandName="SimChangeStudyTypeFromGenerative" devLabel="&#xA;- Generative specific settings will be removed" translation="&#xA;- Ustawienia specyficzne dla badań generatywnych zostaną usunięte"/>
+	<label commandName="SimChangeStudyTypeFromRTSS" devLabel="&#xA;- Drop test specific settings will be removed" translation="&#xA;- Ustawienia specyficzne dla próby zrzutowej zostaną usunięte"/>
+	<label commandName="SimChangeStudyTypeFromTopOpt" devLabel="&#xA;- Shape Optimization specific settings will be removed" translation="&#xA;- Ustawienia specyficzne dla optymalizacji kształtu zostaną usunięte"/>
+	<label commandName="SimChangeStudyTypeRemovedExplicitDynamicSolverOptions" devLabel="&#xA;- Dynamic Event Simulation solver options will be removed" translation="&#xA;- Opcje solwera Dynamiczna symulacja zdarzeń zostaną usunięte"/>
+	<label commandName="SimChangeStudyTypeRemovedExplicitQuasiStaticSolverOptions" devLabel="&#xA;- Quasi-static Event Simulation solver options will be removed" translation="&#xA;- Opcje solwera Kwazistatyczna symulacja zdarzeń zostaną usunięte"/>
+	<label commandName="SimChangeStudyTypeRemovedExplicitSolverOptions" devLabel="&#xA;- Event Simulation solver options will be removed" translation="&#xA;- Opcje solwera Symulacja zdarzeń zostaną usunięte"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="Układy"/>
+	<label commandName="SimComparePanel" devLabel="COMPARE" translation="PORÓWNAJ"/>
+	<label commandName="SimConstraintsPanel" devLabel="Constraints" translation="Wiązania"/>
+	<label commandName="SimContactsPanel" devLabel="Contacts" translation="Kontakty"/>
+	<label commandName="SimContactsmanagerDialogName" devLabel="Event Simulation Contacts Manager" translation="Menedżer kontaktów symulacji zdarzeń"/>
+	<label commandName="SimConvergenceSectionLabel" devLabel="Adaptive Mesh Refinement" translation="Adaptacyjne zagęszczanie siatki"/>
+	<label commandName="SimConvergenceTargetLabel" devLabel="Results Convergence Tolerance (%)" translation="Tolerancja zbieżności wyników (%)"/>
+	<label commandName="SimConvergenceTargetTooltip" devLabel="The % difference between consecutive iteration results that will trigger the refinement process to stop." translation="Różnica % między kolejnymi wynikami iteracji, przy której nastąpi zatrzymanie procesu zagęszczania."/>
+	<label commandName="SimDampingCurve" devLabel="Damping Curve" translation="Krzywa tłumienia"/>
+	<label commandName="SimDampingSectionLabel" devLabel="Damping" translation="Tłumienie"/>
+	<label commandName="SimDampingTypeLabel" devLabel="Damping Type" translation="Typ tłumienia"/>
+	<label commandName="SimDampingTypeTooltip" devLabel="Damping type." translation="Typ tłumienia."/>
+	<label commandName="SimDeleteSimFluidConditionsPrompt" devLabel="Are you sure you want to delete the selected Fluid Conditions and any associated Results?" translation="Czy na pewno chcesz usunąć wybrane warunki cieczy i wszystkie skojarzone z nimi wyniki?"/>
+	<label commandName="SimDirection" devLabel="Direction" translation="Kierunek"/>
+	<label commandName="SimDisplacementScaleGroupCmd" devLabel="Deformation Scale" translation="Skala odkształcenia"/>
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="Wyświetl model, używając obliczonych wyników."/>
+	<label commandName="SimDropTestVelocityCommand" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimEditContactPairCommand" devLabel="Edit Contact Pair" translation="Edytuj parę kontaktową"/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Nazwa badania jest pusta"/>
+	<label commandName="SimEnalbeGravity" devLabel="Enable Gravity" translation="Włącz grawitację"/>
+	<label commandName="SimEnalbeInitVelocity" devLabel="Enable Initial Velocity" translation="Włącz prędkość początkową"/>
+	<label commandName="SimErrorWrite" devLabel="Failed to write to the document %1%" translation="Brak możliwości zapisu w dokumencie %1%"/>
+	<label commandName="SimExplicitContactsManagerCmd" devLabel="Manage Contacts" translation="Zarządzaj kontaktami"/>
+	<label commandName="SimExplicitContactsManagerCommandDesc1" devLabel="View the list of all contacts." translation="Wyświetl listę wszystkich kontaktów."/>
+	<label commandName="SimExplicitContactsManagerCommandDesc2" devLabel="The list allows you to edit, and suppress contacts." translation="Lista umożliwia edycję i wyłączenie kontaktów."/>
+	<label commandName="SimExplicitContactsManagerTipsAndTricksTips" devLabel="A table of all Contact pairs in the Study. Take actions on one or more Contacts, including Edit, Change Type, Suppress and Delete. Restore Defaults will revert to the Default table state." translation="Tabela wszystkich par kontaktów w badaniu. Wykonuj czynności, takie jak edycja, zmiana typu, wyłączenie i usunięcie, na dowolnej liczbie kontaktów. Użycie opcji Przywróć domyślne spowoduje przywrócenie domyślnego stanu tabeli."/>
+	<label commandName="SimExplicitContactsManagerTipsAndTricksTitle" devLabel="Manage Contacts Information" translation="Zarządzanie kontaktami — informacje"/>
+	<label commandName="SimExplicitContactsWidgetInput" devLabel="Contacts" translation="Kontakty"/>
+	<label commandName="SimExplicitEnableRayleighDamping" devLabel="Rayleigh Damping" translation="Tłumienie Rayleigh'a"/>
+	<label commandName="SimExplicitEnableRayleighDampingTooltip" devLabel="Enable Rayleigh damping during the solve." translation="Włącz tłumienie Rayleigha podczas rozwiązywania."/>
+	<label commandName="SimExplicitEventDuration" devLabel="Total Event Duration" translation="Całkowity czas trwania zdarzenia"/>
+	<label commandName="SimExplicitEventDurationTooltip" devLabel="Total event duration." translation="Całkowity czas trwania zdarzenia."/>
+	<label commandName="SimExplicitEventQuasiSteps" devLabel="Number of Steps" translation="Ilośc Kroków"/>
+	<label commandName="SimExplicitEventQuasiStepsToolTips" devLabel="Total number of time-variant steps across all Transient loads" translation="Całkowita liczba wariantów przedziałów czasu we wszystkich obciążeniach przejściowych"/>
+	<label commandName="SimExplicitIntermediateResultsUpdate" devLabel="Intermediate Results Update" translation="Pośrednia aktualizacja wyników"/>
+	<label commandName="SimExplicitIntermediateResultsUpdateTooltip" devLabel="Intermediate Results Update." translation="Pośrednia aktualizacja wyników."/>
+	<label commandName="SimExplicitIntervalsPerStepNumber" devLabel="Number of Result Intervals per Step" translation="Liczba przedziałów wyników na krok"/>
+	<label commandName="SimExplicitMassProportional" devLabel="Mass Proportional, ALPHA" translation="Proporcjonalne do masy, ALFA"/>
+	<label commandName="SimExplicitMassProportionalTooltip" devLabel="Mass proportional scaling factor (ALPHA)." translation="Współczynnik skalowania proporcjonalnego do masy (ALFA)."/>
+	<label commandName="SimExplicitOutputIntervalsTooltip1" devLabel="Number of Outputs generated over one Step." translation="Liczba danych wyjściowych wygenerowanych w jednym kroku."/>
+	<label commandName="SimExplicitOutputIntervalsTooltip2" devLabel="Total number of Outputs generated over event duration." translation="Całkowita liczba danych wyjściowych wygenerowanych w czasie trwania zdarzenia."/>
+	<label commandName="SimExplicitReqResultAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimExplicitReqResultAccelerationTooltip" devLabel="Request acceleration output from the solver." translation="Żądaj danych wyjściowych przyspieszenia z solwera."/>
+	<label commandName="SimExplicitReqResultAppliedLoads" devLabel="Applied Loads" translation="Zastosowane obciążenia"/>
+	<label commandName="SimExplicitReqResultAppliedLoadsTooltip" devLabel="Request Applied Loads output from the solver." translation="Żądaj danych wyjściowych zastosowanych obciążeń z solwera."/>
+	<label commandName="SimExplicitReqResultContactForces" devLabel="Contact Forces" translation="Siły kontaktowe"/>
+	<label commandName="SimExplicitReqResultContactForcesTooltip" devLabel="Request contact forces output from the solver." translation="Żądaj danych wyjściowych sił kontaktowych z solwera."/>
+	<label commandName="SimExplicitReqResultDisplacement" devLabel="Displacement" translation="Przemieszczenie"/>
+	<label commandName="SimExplicitReqResultDisplacementTooltip" devLabel="Request Displacement output from the solver." translation="Żądaj danych wyjściowych przemieszczenia z solwera."/>
+	<label commandName="SimExplicitReqResultReactionForces" devLabel="Reaction Forces" translation="Siły reakcji"/>
+	<label commandName="SimExplicitReqResultReactionForcesTooltip" devLabel="Request reaction forces output from the solver." translation="Żądaj danych wyjściowych sił reakcji z solwera."/>
+	<label commandName="SimExplicitReqResultStrain" devLabel="Plastic Strain" translation="Odkształcenie plastyczne"/>
+	<label commandName="SimExplicitReqResultStrainTooltip" devLabel="Request strain output from the solver." translation="Żądaj danych wyjściowych odkształcenia z solwera."/>
+	<label commandName="SimExplicitReqResultStress" devLabel="Stress" translation="Naprężenie"/>
+	<label commandName="SimExplicitReqResultStressTooltip" devLabel="Request stress output from the solver." translation="Żądaj danych wyjściowych naprężenia z solwera."/>
+	<label commandName="SimExplicitReqResultVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimExplicitReqResultVelocityTooltip" devLabel="Request velocity output from the solver." translation="Żądaj danych wyjściowych prędkości z solwera."/>
+	<label commandName="SimExplicitSelectRelatedContactsCommand" devLabel="Select Related Contacts" translation="Wybierz powiązane kontakty"/>
+	<label commandName="SimExplicitStepNumber" devLabel="Number of Result Intervals" translation="Liczba przedziałów wyników"/>
+	<label commandName="SimExplicitStiffnessProportional" devLabel="Stiffness Proportional, BETA" translation="Proporcjonalne do sztywności, BETA"/>
+	<label commandName="SimExplicitStiffnessProportionalTooltip" devLabel="Stiffness proportional scaling factor (BETA)." translation="Współczynnik skalowania proporcjonalnego do sztywności (BETA)."/>
+	<label commandName="SimExplicitTimestepReductionFactor" devLabel="Time Step Reduction Factor" translation="Współczynnik redukcji przedziału czasowego"/>
+	<label commandName="SimExplicitTimestepReductionFactorTooltip" devLabel="The time step reduction factor." translation="Współczynnik redukcji przedziału czasowego."/>
+	<label commandName="SimExplictContactGeneration" devLabel="Contacts" translation="Kontakty"/>
+	<label commandName="SimFatigue" devLabel="Fatigue" translation="Zmęczenie"/>
+	<label commandName="SimFatigueDesc" devLabel="Analyze cyclical loading scenarios to determine the number of cycles your design will withstand.&lt;br&gt; This Study type uses existing Static Stress or Thermal Stress Studies for the input so you must create one or more Static Stress or Thermal Stress Studies on your design before conducting a Fatigue Study." translation="Przeanalizuj scenariusze obciążeń cyklicznych, aby określić liczbę cykli, jaką wytrzyma projekt.&lt;br&gt; Ten typ badania wykorzystuje istniejące badania naprężeń statycznych lub naprężeń termicznych jako dane wejściowe, dlatego przed przeprowadzeniem badania zmęczeniowego należy utworzyć co najmniej jedno badanie naprężeń statycznych lub termicznych w projekcie."/>
+	<label commandName="SimFreDepCheckBox" devLabel="Frequency Dependent" translation="Zależne od częstotliwości"/>
+	<label commandName="SimFreDepTooltip" devLabel="Frequency dependent." translation="Zależne od częstotliwości."/>
+	<label commandName="SimFreqResponse" devLabel="Frequency Response" translation="Reakcja częstotliwościowa"/>
+	<label commandName="SimFreqResponseDesc" devLabel="Determine how the model responds to harmonic loads and boundary conditions.&lt;br&gt;Results include Displacement, Stress, Acceleration, and Velocity over a specified number of modes and/or frequency range." translation="Określ, w jaki sposób model reaguje na obciążenia harmoniczne i warunki graniczne.&lt;br&gt;Wyniki obejmują przemieszczenie, naprężenie, przyspieszenie i prędkość w określonej liczbie modów i/lub określonym zakresie częstotliwości."/>
+	<label commandName="SimFrequency" devLabel="Frequency" translation="Częstotliwość"/>
+	<label commandName="SimFrequencyDependentDamping" devLabel="Frequency dependent damping" translation="Tłumienie zależne od częstotliwości"/>
+	<label commandName="SimFtgReadOnlyMsg" devLabel="The Fatigue Study is not available because there are no existing Static Stress or Thermal Stress Studies for import.&lt;br&gt;" translation="Badanie zmęczeniowe jest niedostępne, ponieważ nie istnieją żadne badania naprężeń statycznych lub termicznych do zaimportowania.&lt;br&gt;"/>
+	<label commandName="SimGECAdvancedSettingsGroup" devLabel="Advanced Settings" translation="Ustawienia zaawansowane"/>
+	<label commandName="SimGenManufacturingMaterialsBrowserEntryName" devLabel="Materials" translation="Materiały"/>
+	<label commandName="SimGeneralSectionLabel" devLabel="General" translation="Ogólne"/>
+	<label commandName="SimGenerative" devLabel="Structural Component" translation="Komponent konstrukcyjny"/>
+	<label commandName="SimGenerativeAdditiveLib" devLabel="Fusion 360 Additive Material Library" translation="Biblioteka materiałów do wytwarzania addytywnego programu Fusion 360"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Addytywne"/>
+	<label commandName="SimGenerativeAdvancedLib" devLabel="Fusion 360 Material Library" translation="Biblioteka materiałów programu Fusion 360"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Wszystkie metody"/>
+	<label commandName="SimGenerativeAlternativeOutcomeLabel" devLabel="Alternative Outcomes" translation="Alternatywne wyniki"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="Skrawanie 2-osiowe"/>
+	<label commandName="SimGenerativeDescLink" devLabel="Generate design alternatives for geometric, performance, and manufacturing requirements that you specify.The alternatives are often better performing and more lightweight than traditional designs.&lt;br&gt;&lt;a href=&quot;%1%&quot;&gt;Learn More&lt;/a&gt;" translation="Generuj alternatywne wersje projektu odpowiednie do określonych wymagań geometrycznych, wydajności i produkcji. Alternatywne rozwiązania są często bardziej wydajne i lżejsze niż w przypadku tradycyjnych projektów. &lt;br&gt;&lt;a href=&quot;%1%&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Odlewanie"/>
+	<label commandName="SimGenerativeFavorites" devLabel="Favorites" translation="Ulubione"/>
+	<label commandName="SimGenerativeFluidMaterialCommand" devLabel="Study Material" translation="Materiał badania"/>
+	<label commandName="SimGenerativeFluidMaterialDensityCommandInput" devLabel="Density" translation="Gęstość"/>
+	<label commandName="SimGenerativeFluidMaterialNameCommandInput" devLabel="Name" translation="Nazwa"/>
+	<label commandName="SimGenerativeFluidMaterialViscosityCommandInput" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimGenerativeFluidPredefinedMaterialAir" devLabel="Air" translation="Powietrze"/>
+	<label commandName="SimGenerativeFluidPredefinedMaterialCustom" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimGenerativeFluidPredefinedMaterialWater" devLabel="Water" translation="Woda"/>
+	<label commandName="SimGenerativeFluidPredefinedMaterialsCommandInput" devLabel="Fluid" translation="Ciecz"/>
+	<label commandName="SimGenerativeFluids" devLabel="Fluid Path" translation="Ścieżka cieczy"/>
+	<label commandName="SimGenerativeFluidsDescLink" devLabel="Generate a flow path optimized for pressure drop based on geometric and performance requirements that you specify.The optimized pressure drop often leads to better performing and more energy-efficient designs.&lt;br&gt;&lt;a href=&quot;%1%&quot;&gt;Learn More&lt;/a&gt;" translation="Generuj ścieżkę przepływu zoptymalizowaną pod kątem spadku ciśnienia na podstawie określonych wymagań geometrycznych i wydajności. Zoptymalizowany spadek ciśnienia często prowadzi do lepszej wydajności i bardziej energooszczędnych projektów. &lt;br&gt;&lt;a href=&quot;%1%&quot;&gt;Dowiedz się więcej&lt;/a&gt;"/>
+	<label commandName="SimGenerativeGroupMethodsInStudy" devLabel="Methods" translation="Metody"/>
+	<label commandName="SimGenerativeGroupPhysMatInStudy" devLabel="In This Study" translation="W tym badaniu"/>
+	<label commandName="SimGenerativeGroupPhysMatLibrary" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="SimGenerativeInertialReliefHeader" devLabel="Inertial Relief" translation="Siły bezwładnościowe"/>
+	<label commandName="SimGenerativeLib" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="SimGenerativeLibAdditive" devLabel="Additive Library" translation="Biblioteka materiałów do wytwarzania addytywnego"/>
+	<label commandName="SimGenerativeLibAdvanced" devLabel="Advanced Library" translation="Biblioteka materiałów zaawansowanych"/>
+	<label commandName="SimGenerativeLibFavorites" devLabel="Favorites" translation="Ulubione"/>
+	<label commandName="SimGenerativeLibNonlinear" devLabel="Nonlinear Library" translation="Biblioteka materiałów nieliniowych"/>
+	<label commandName="SimGenerativeLibrary" devLabel="Library" translation="Biblioteka"/>
+	<label commandName="SimGenerativeMaterialSelectionInput" devLabel="Selection" translation="Wybór"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Frezowanie"/>
+	<label commandName="SimGenerativeNonlinearLib" devLabel="Fusion 360 Nonlinear Material Library" translation="Biblioteka materiałów nieliniowych programu Fusion 360"/>
+	<label commandName="SimGenerativeOutcomesResolutionHeader" devLabel="Outcomes" translation="Wyniki"/>
+	<label commandName="SimGenerativeOutcomesResolutionHighLabel" devLabel="High" translation="Wysoka"/>
+	<label commandName="SimGenerativeOutcomesResolutionLabel" devLabel="Resolution" translation="Rozdzielczość"/>
+	<label commandName="SimGenerativeOutcomesResolutionLowLabel" devLabel="Low" translation="Niska"/>
+	<label commandName="SimGenerativeOutcomesResolutionTextToken" devLabel="Outcomes Resolution Slider value is %f%" translation="Wartość suwaka rozdzielczości wyników wynosi %f%"/>
+	<label commandName="SimGenerativePanelPhysMatAdditive" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatAll" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatCutting" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatDieCasting" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatInStudy" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatMilling" devLabel="" translation=""/>
+	<label commandName="SimGenerativePanelPhysMatUnrestricted" devLabel="" translation=""/>
+	<label commandName="SimGenerativeRemoveRigidBodyModesLabel" devLabel="Remove rigid body modes" translation="Usuń mody ciała sztywnego"/>
+	<label commandName="SimGenerativeSolveDlgBasicAccess" devLabel="Studies cannot be generated because you have Basic Access." translation="Nie można wygenerować badań, ponieważ masz dostęp podstawowy."/>
+	<label commandName="SimGenerativeSolveDlgCloudCreditsHelpTooltip" devLabel="Displays an explanation what cloud credits are and how to use them." translation="Wyświetla wyjaśnienie, czym są jednostki w chmurze i jak z nich korzystać."/>
+	<label commandName="SimGenerativeSolveDlgDirtyDocument" devLabel="&lt;b&gt;The document is modified.&lt;/b&gt; A new version will be created before generating." translation="&lt;b&gt;Dokument został zmodyfikowany.&lt;/b&gt; Przed wygenerowaniem zostanie utworzona nowa wersja."/>
+	<label commandName="SimGenerativeSolveDlgDirtyReadOnlyDocument" devLabel="&lt;b&gt;The document is read only.&lt;/b&gt; A copy of the document will be created before generating." translation="&lt;b&gt;Dokument jest tylko do odczytu.&lt;/b&gt; Przed wygenerowaniem zostanie utworzona kopia dokumentu."/>
+	<label commandName="SimGenerativeSolveDlgExpiredAccount" devLabel="&lt;b&gt;Term has expired.&lt;/b&gt; Studies cannot be generated because your Fusion 360 term has expired." translation="&lt;b&gt;Termin minął.&lt;/b&gt; Nie można wygenerować badań, ponieważ upłynął okres ważności programu Fusion 360."/>
+	<label commandName="SimGenerativeSolveDlgGenerate1SolveButton" devLabel="Generate 1 Study" translation="Generuj badanie 1"/>
+	<label commandName="SimGenerativeSolveDlgGenerateNSolveButton" devLabel="Generate %1% Studies" translation="Generuj następującą liczbę badań: %1%"/>
+	<label commandName="SimGenerativeSolveDlgNewDocument" devLabel="&lt;b&gt;The document has not been saved yet.&lt;/b&gt; Save will be performed before generating." translation="&lt;b&gt;Dokument nie został jeszcze zapisany.&lt;/b&gt; Zapis zostanie wykonany przed wygenerowaniem."/>
+	<label commandName="SimGenerativeSolveDlgNoReadyStudiesStatement" devLabel="&lt;b&gt;No studies can be generated.&lt;/b&gt; There are no studies which can be generated." translation="&lt;b&gt;Nie można wygenerować żadnych badań.&lt;/b&gt; Brak badań, które można wygenerować."/>
+	<label commandName="SimGenerativeSolveDlgNoSelectedStudiesStatement" devLabel="&lt;b&gt;No studies selected.&lt;/b&gt; No studies have been selected to be generated." translation="&lt;b&gt;Nie wybrano badań.&lt;/b&gt; Nie wybrano badań do wygenerowania."/>
+	<label commandName="SimGenerativeSolveDlgNoStudiesCanBeGenerated" devLabel="No studies can be generated" translation="Nie można wygenerować żadnych badań"/>
+	<label commandName="SimGenerativeSolveDlgNotEnoughTokensCreditsStatement" devLabel="&lt;b&gt;Not enough tokens or cloud credits.&lt;/b&gt; You need to buy more tokens to generate the selected studies on the cloud." translation="&lt;b&gt;Za mało tokenów lub jednostek w chmurze.&lt;/b&gt; Aby wygenerować wybrane badania w chmurze, należy wykupić więcej tokenów."/>
+	<label commandName="SimGenerativeSolveDlgOffline" devLabel="To generate outcomes for these studies, go to Online Mode to generate on the cloud." translation="Aby wygenerować wyniki tych badań, przejdź do trybu online w celu wygenerowania w chmurze."/>
+	<label commandName="SimGenerativeSolveDlgRestartPendingForDownloadedNastran" devLabel="&lt;b&gt;Fusion update pending.&lt;/b&gt; Local generation will be available once you restart Fusion." translation="&lt;b&gt;Oczekiwanie na aktualizację programu Fusion.&lt;/b&gt; Generowanie lokalne będzie dostępne po ponownym uruchomieniu programu Fusion."/>
+	<label commandName="SimGenerativeSolveDlgTokensHelpTooltip" devLabel="Displays an explanation what tokens are and how to use them." translation="Wyświetla wyjaśnienie, czym są tokeny i jak z nich korzystać."/>
+	<label commandName="SimGenerativeSolveDlgWindowTitle" devLabel="Generate" translation="Generuj"/>
+	<label commandName="SimGenerativeStudyMaterialsCommand" devLabel="Study Materials" translation="Materiały badania"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Nieograniczone"/>
+	<label commandName="SimGlobalExplicitContacts" devLabel="Global Contacts" translation="Kontakty globalne"/>
+	<label commandName="SimGlobalExplicitContactsDesc1" devLabel="Use the Global Contacts command to automatically generate contact pairs." translation="Użyj polecenia Kontakty globalne, aby automatycznie wygenerować pary kontaktowe."/>
+	<label commandName="SimGlobalExplicitContactsDesc2" devLabel="Contact pairs are only generated between bodies, not between faces or edges." translation="Pary kontaktowe są generowane tylko między bryłami, a nie między powierzchniami lub krawędziami."/>
+	<label commandName="SimGlobalExplicitContactsTipsAndTricksTips" devLabel="Generate a Contact pair relationship between all Bodies in the Study. Use the Global Separation Contact option to ensure bodies can separate over time after initial contact. Turn off to default to Bonded.Use the Proximity Bonded Contact option to declare initial Bodies within a tolerance distance to be considered bonded and inseparable." translation="Wygeneruj zależność pary kontaktowej między wszystkimi bryłami w badaniu. Użyj opcji Kontakt z separacją globalną, rozdzielenie brył z czasem po początkowym utworzeniu kontaktu. Wyłącz domyślną opcję na Związane. Użyj opcji Związany kontakt zbliżeniowy, aby wskazać bryły początkowe mieszczące się w zakresie tolerancji, które mają być traktowane jako związane i nierozłączne."/>
+	<label commandName="SimGlobalExplicitContactsTipsAndTricksTitle" devLabel="Global Contacts Information" translation="Kontakty globalne — informacje"/>
+	<label commandName="SimGravityMagnitude" devLabel="Gravity Magnitude" translation="Wielkość grawitacji"/>
+	<label commandName="SimHeader" devLabel="Mode	Frequency	Participation X	Participation Y	Participation Z&#xA;" translation="Mod	Częstotliwość	Udział X	Udział Y	Udział Z&#xA;"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimInitVelocityMagnitude" devLabel="Initial Velocity Magnitude" translation="Wielkość prędkości początkowej"/>
+	<label commandName="SimInspectPanel" devLabel="Inspect" translation="Sprawdź"/>
+	<label commandName="SimInvalidValue" devLabel="There are some invalid values!" translation="Istnieją pewne nieprawidłowe wartości!"/>
+	<label commandName="SimIsolateNoContactPartsInput" devLabel="Isolate Parts Without Contact" translation="Izoluj części bez kontaktu"/>
+	<label commandName="SimLSS" devLabel="Static Stress" translation="Naprężenie statyczne"/>
+	<label commandName="SimLSSAutoContactType" devLabel="Default Contact Type" translation="Domyślny typ kontaktu"/>
+	<label commandName="SimLSSAutoContactTypeTooltip" devLabel="Default contact type." translation="Domyślny typ kontaktu."/>
+	<label commandName="SimLSSContactGeneration" devLabel="Contacts" translation="Kontakty"/>
+	<label commandName="SimLSSDesc" devLabel="Analyze the deformation and stress into the model from structural loads and constraints.&lt;br&gt;&lt;br&gt;From the results, you can investigate displacement, stresses, and common failure criteria. The results are calculated based on assumption of linear response to the stress." translation="Analizuj odkształcenie i naprężenie w modelu od obciążeń konstrukcyjnych i wiązań.&lt;br&gt;&lt;br&gt;Na podstawie wyników można zbadać przemieszczenie, naprężenia i typowe kryteria uszkodzeń. Wyniki są obliczane na podstawie założenia liniowej odpowiedzi na naprężenie."/>
+	<label commandName="SimLSSGenerateAutoContacts" devLabel="Enable Solver Contacts" translation="Włącz kontakty solwera"/>
+	<label commandName="SimLSSGenerateAutoContactsTooltip" devLabel="Generate automatic contacts during solve." translation="Generuj kontakty automatyczne podczas rozwiązywania."/>
+	<label commandName="SimLSSResultRecommendation_ReallySafeBlurb" devLabel="&lt;p&gt;&lt;u&gt;Safety Factor &amp;gt;&amp;gt; %1%.&lt;/u&gt; The material Yield Stress is much larger than the max. stress caused by the applied loads.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Recommendation:&lt;/b&gt;  Use Shape Optimization to reduce the weight of the design.&lt;/p&gt;" translation="&lt;p&gt;&lt;u&gt;Współczynnik bezpieczeństwa &amp;gt;&amp;gt; %1%.&lt;/u&gt; Granica plastyczności materiału jest znacznie większa niż maksymalne naprężenie wywołane przyłożonymi obciążeniami.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Zalecenie:&lt;/b&gt; Użyj opcji Optymalizacja kształtu, aby zmniejszyć ciężar projektu.&lt;/p&gt;"/>
+	<label commandName="SimLSSResultRecommendation_SafeBlurb" devLabel="&lt;p&gt;&lt;u&gt;Safety Factor &amp;gt; %1%.&lt;/u&gt; The material Yield Stress is larger than the max. stress caused by the applied loads.&lt;/p&gt;&lt;p&gt;&lt;b&gt;No recommendations.&lt;/b&gt;&lt;/p&gt;" translation="&lt;p&gt;&lt;u&gt;Współczynnik bezpieczeństwa &amp;gt; %1%.&lt;/u&gt; Granica plastyczności materiału jest większa niż maksymalne naprężenie wywołane przyłożonymi obciążeniami.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Brak zaleceń.&lt;/b&gt;&lt;/p&gt;"/>
+	<label commandName="SimLSSResultRecommendation_UnsafeBlurb" devLabel="&lt;p&gt;&lt;u&gt;Safety Factor &amp;lt; %1%.&lt;/u&gt; The material Yield Stress is less than the max. stress caused by the applied loads and may cause the design to deform permanently.  Linear Static Stress assumptions may be incorrect.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Recommendation:&lt;/b&gt;  1. Clone the Study and solve as Nonlinear Static Stress to assure accurate results.  2. Revise the design to increase stiffness in the weak areas and/or use a stronger material (higher Yield Stress).&lt;/p&gt;" translation="&lt;p&gt;&lt;u&gt;Współczynnik bezpieczeństwa &amp;lt; %1%.&lt;/u&gt; Granica plastyczności materiału jest mniejsza niż maksymalne naprężenie wywołane przyłożonymi obciążeniami i może spowodować trwałe odkształcenie projektu. Założenia dotyczące liniowego naprężenia statycznego mogą być nieprawidłowe.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Zalecenie:&lt;/b&gt; 1. Sklonuj badanie i rozwiąż je jako nieliniowe naprężenie statyczne, aby uzyskać dokładne wyniki. 2. Zmień projekt, aby zwiększyć sztywność w obszarach osłabionych i/lub użyć mocniejszego materiału (o większej granicy plastyczności).&lt;/p&gt;"/>
+	<label commandName="SimLinkedFrom" devLabel="Linked from: " translation="Źródło połączenia: "/>
+	<label commandName="SimListAllModesTip" devLabel="List All " translation="Wyświetl wszystko "/>
+	<label commandName="SimLoadsPanel" devLabel="Loads" translation="Obciążenia"/>
+	<label commandName="SimManagePanel" devLabel="Manage" translation="Zarządzaj"/>
+	<label commandName="SimMassFactorLabel" devLabel="Mass Factor" translation="Współczynnik masy"/>
+	<label commandName="SimMassFactorTooltip" devLabel="Mass factor." translation="Współczynnik masy."/>
+	<label commandName="SimMassParticipation" devLabel="Mass Participation Factors" translation="Współczynniki udziału masy"/>
+	<label commandName="SimMassParticipationDesc1" devLabel="Use the Mass Participation Factor to assess the percentage of the system mass that participates per direction for each mode." translation="Użyj współczynnika udziału masy, aby ocenić procent masy układu w poszczególnych kierunkach dla każdego modu."/>
+	<label commandName="SimMassParticipationDesc2" devLabel="Note that modes with a large effective mass participation typically have a stronger influence on the system response. The compact dialog displays the mass participation for the active mode. To display all modes, expand the dialog." translation="Należy pamiętać, że tryby o dużym efektywnym udziale masy mają zazwyczaj większy wpływ na reakcję systemu. W kompaktowym oknie dialogowym wyświetlany udział masy w aktywnym modzie. Aby wyświetlić wszystkie tryby, rozwiń okno dialogowe."/>
+	<label commandName="SimMassParticipationDlgTitle" devLabel="Modal Mass Participation" translation="Udział mas modalnych"/>
+	<label commandName="SimMassReorthogonalization" devLabel="Mass Reorthogonalization" translation="Reortogonalizacja masy"/>
+	<label commandName="SimMaterialName" devLabel="Material" translation="Materiał"/>
+	<label commandName="SimMaterialsPanel" devLabel="Materials" translation="Materiały"/>
+	<label commandName="SimMaximumRefinementsLabel" devLabel="Maximum Number of Mesh Refinements" translation="Maksymalna liczba zagęszczeń siatki"/>
+	<label commandName="SimMaximumRefinementsTooltip" devLabel="The number of iterative h and p refinements made to attempt results convergence." translation="Liczba iteracyjnych zagęszczeń typu h i p wprowadzonych w celu uzyskania zbieżności wyników."/>
+	<label commandName="SimMeshDisplayPanel" devLabel="Display" translation="Wyświetl"/>
+	<label commandName="SimMeshSectionLabel" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="SimModaFrequencyRangeCheckBox" devLabel="Frequency Range [Hz]" translation="Zakres częstotliwości [Hz]"/>
+	<label commandName="SimModaFrequencyRangeTooltip" devLabel="Optionally specify the range of frequencies in which the number of modes will be calculated." translation="Opcjonalnie określ zakres częstotliwości, w którym zostanie obliczona liczba modów."/>
+	<label commandName="SimModal" devLabel="Modal" translation="Modalna"/>
+	<label commandName="SimModalAdditionalIterationVectorsAfterConvergence" devLabel="Additional Iteration Vectors After Convergence" translation="Dodatkowe wektory iteracji po zbieżności"/>
+	<label commandName="SimModalAdditionalIterationVectorsAfterConvergenceTooltip" devLabel="Please set the additional iteration vectors after convergence." translation="Po zbieżności ustaw dodatkowe wektory iteracji."/>
+	<label commandName="SimModalAdditionalIterationsAfterConvergenceLabel" devLabel="Additional Iterations After Convergence" translation="Dodatkowe iteracje po zbieżności"/>
+	<label commandName="SimModalAdditionalIterationsAfterConvergenceTooltip" devLabel="Please set the additional iterations after convergence." translation="Po zbieżności ustaw dodatkowe iteracje."/>
+	<label commandName="SimModalAverageElementSizeAftText" devLabel=" % of model size" translation=" % rozmiaru modelu"/>
+	<label commandName="SimModalAverageElementSizeText" devLabel="Average Element Size is " translation="Średni rozmiar elementu wynosi "/>
+	<label commandName="SimModalComputePreLoadedModesCheckBox" devLabel="Compute Preloaded Modes" translation="Oblicz mody wstępnie obciążone"/>
+	<label commandName="SimModalComputePreLoadedModesTooltip" devLabel="If checked, structural loads will be included and the frequency modes will be calculated on the pre-stressed condition." translation="Jeśli ta opcja jest zaznaczona, obciążenia konstrukcyjne zostaną uwzględnione, a mody częstotliwości zostaną obliczone w warunkach wstępnego naprężenia."/>
+	<label commandName="SimModalDamping" devLabel="Damping" translation="Tłumienie"/>
+	<label commandName="SimModalDampingAxisTitle" devLabel="Damping" translation="Tłumienie"/>
+	<label commandName="SimModalDampingLogTitle" devLabel="Damping" translation="Tłumienie"/>
+	<label commandName="SimModalDataImport" devLabel="Import modal data" translation="Importuj dane modalne"/>
+	<label commandName="SimModalDataInput" devLabel="Input modal data" translation="Wprowadź dane modalne"/>
+	<label commandName="SimModalDataLabel" devLabel="Modal Data" translation="Dane modalne"/>
+	<label commandName="SimModalDesc" devLabel="Determine the modal frequencies of the model.&lt;br&gt;&lt;br&gt;Structural Loads and Boundary Conditions can be included. The Results include Vibration Mode shapes, corresponding Frequencies and their mass participation factors." translation="Określ częstotliwości modalne modelu.&lt;br&gt;&lt;br&gt;Można uwzględnić obciążenia konstrukcyjne i warunki graniczne. Wyniki obejmują kształty trybu drgań, odpowiadające im częstotliwości i współczynniki udziału masy."/>
+	<label commandName="SimModalEigenvalueConvergenceTolerance" devLabel="Eigenvalue Convergence Tolerance" translation="Tolerancja zbieżności wartości własnej"/>
+	<label commandName="SimModalEigenvalueConvergenceToleranceTooltip" devLabel="Please set the eigenvalue convergence tolerance." translation="Ustaw tolerancję zbieżności wartości własnej."/>
+	<label commandName="SimModalEigenvectorNormalizingMethod" devLabel="Eigenvector Normalizing Method" translation="Metoda normalizowania wektora własnego"/>
+	<label commandName="SimModalEigenvectorNormalizingMethodTooltip" devLabel="Please set the eigenvector normalizing method" translation="Ustaw metodę normalizacji wektora własnego"/>
+	<label commandName="SimModalEnhancedAccuracyCheckBox" devLabel="Enhanced Accuracy" translation="Zwiększona dokładność"/>
+	<label commandName="SimModalEnhancedAccuracyTooltip" devLabel="If checked, the modal results accuracy may increased up to 10x but computation time is also increased." translation="Jeśli ta opcja jest zaznaczona, dokładność wyników modalnych może wzrosnąć nawet 10-krotnie, ale czas obliczeń również się wydłuży."/>
+	<label commandName="SimModalExtractionLabelName" devLabel="Extraction Method" translation="Metoda wyodrębniania"/>
+	<label commandName="SimModalExtractionMethodTooltip" devLabel="Please select suitable method for Nastran solver" translation="Wybierz odpowiednią metodę dla solwera Nastran"/>
+	<label commandName="SimModalFactorCurveLabel" devLabel="Modal Damping Curve" translation="Krzywa tłumienia modalnego"/>
+	<label commandName="SimModalFactorCurveTooltip" devLabel="Modal damping curve." translation="Krzywa tłumienia modalnego."/>
+	<label commandName="SimModalFactorLabel" devLabel="Modal Damping Factor" translation="Współczynnik tłumienia modalnego"/>
+	<label commandName="SimModalFactorTooltip" devLabel="Modal damping factor." translation="Współczynnik tłumienia modalnego."/>
+	<label commandName="SimModalFirstFlexibleModeNaturalFrequency" devLabel="First Flexible Mode Natural Frequency" translation="Częstotliwość własna pierwszego modu elastyczności"/>
+	<label commandName="SimModalFirstFlexibleModeNaturalFrequencyTooltip" devLabel="Please set the estimate of the first flexible mode natural frequency." translation="Ustaw szacowaną częstotliwość własną pierwszego modu elastyczności."/>
+	<label commandName="SimModalFrequencies" devLabel="Modal Frequencies" translation="Częstotliwości modalne"/>
+	<label commandName="SimModalFrequency" devLabel="Frequency" translation="Częstotliwość"/>
+	<label commandName="SimModalFrequencyAxisTitle" devLabel="Frequency (Hz)" translation="Częstotliwość (Hz)"/>
+	<label commandName="SimModalFrequencyLogTitle" devLabel="Frequency (Hz)" translation="Częstotliwość (Hz)"/>
+	<label commandName="SimModalMassReorthogonalizationToolTips" devLabel="Please set the mass reorthogonalizations." translation="Ustaw reortogonalizacje mas."/>
+	<label commandName="SimModalMaximumIterationsLabel" devLabel="Maximum Iterations" translation="Maksymalna liczba iteracji"/>
+	<label commandName="SimModalMaximumIterationsTooltip" devLabel="Please set the maximum iterations." translation="Ustaw maksymalną liczbę iteracji."/>
+	<label commandName="SimModalNumberOfIterationLabel" devLabel="Number of Iteration Vector" translation="Liczba wektorów iteracji"/>
+	<label commandName="SimModalNumberOfIterationLabelTooltip" devLabel="Please set the number of iteration vector." translation="Ustaw liczbę wektorów iteracji."/>
+	<label commandName="SimModalNumberOfModesCheckBox" devLabel="Number of Modes" translation="Liczba modów"/>
+	<label commandName="SimModalResultsToConvergeLabel" devLabel="Frequency Mode" translation="Mod częstotliwości"/>
+	<label commandName="SimModalResultsToConvergeTooltip" devLabel="Which frequency mode to use for calculating convergence criteria." translation="Który mod częstotliwości jest używany do obliczania kryteriów zbieżności."/>
+	<label commandName="SimModalSolverControlOptions" devLabel="Solver Control Options" translation="Opcje sterowania solwerem"/>
+	<label commandName="SimModalSolverControlOptionsTooltips" devLabel="Please set the solver control Options" translation="Ustaw opcje sterowania solwerem"/>
+	<label commandName="SimModalStrumSequenceCheck" devLabel="Sturm Sequence check" translation="Sprawdzenie sekwencji Sturma"/>
+	<label commandName="SimModalStrumSequenceCheckTooltip" devLabel="Please Set the Strum Sequence Check" translation="Ustaw sprawdzenie sekwencji Sturma"/>
+	<label commandName="SimModalStudyList" devLabel="Import Modal Data from" translation="Importuj dane modalne z"/>
+	<label commandName="SimMode" devLabel="Mode" translation="Tryb"/>
+	<label commandName="SimNLSS" devLabel="Nonlinear Static Stress" translation="Nieliniowe naprężenie statyczne"/>
+	<label commandName="SimNLSSAutoContactType" devLabel="Default Contact Type" translation="Domyślny typ kontaktu"/>
+	<label commandName="SimNLSSAutoContactTypeTooltip" devLabel="Default contact type." translation="Domyślny typ kontaktu."/>
+	<label commandName="SimNLSSDesc" devLabel="Determine the static stresses and deformation throughout the model caused by structural loads and boundary conditions while considering nonlinear material properties and large deformations.&lt;br&gt;" translation="Określ naprężenia statyczne i odkształcenia w całym modelu spowodowane obciążeniami konstrukcyjnymi i warunkami granicznymi, uwzględniając właściwości materiałów nieliniowych i duże odkształcenia.&lt;br&gt;"/>
+	<label commandName="SimNLSSGenerateAutoContacts" devLabel="Enable Solver Contacts" translation="Włącz kontakty solwera"/>
+	<label commandName="SimNLSSGenerateAutoContactsTooltip" devLabel="Generate automatic contacts during solve." translation="Generuj kontakty automatyczne podczas rozwiązywania."/>
+	<label commandName="SimNLSSIntermediateResultsUpdate" devLabel="Intermediate Results Update" translation="Pośrednia aktualizacja wyników"/>
+	<label commandName="SimNLSSIntermediateResultsUpdateTooltip" devLabel="Intermediate Results Update." translation="Pośrednia aktualizacja wyników."/>
+	<label commandName="SimNastranAutoContactCAPTOL" devLabel="Tolerance" translation="Tolerancja"/>
+	<label commandName="SimNastranAutoContactCAPTOLTooltip" devLabel="Tolerance." translation="Tolerancja."/>
+	<label commandName="SimNastranAutoContactFSTIF" devLabel="Frictional Stiffness for Stick" translation="Sztywność tarciowa pręta"/>
+	<label commandName="SimNastranAutoContactFSTIFTooltip" devLabel="Frictional Stiffness for Stick" translation="Sztywność tarciowa pręta"/>
+	<label commandName="SimNastranAutoContactMAXAD" devLabel="Max. Allowable Penetration" translation="Maks. dopuszczalna penetracja"/>
+	<label commandName="SimNastranAutoContactMAXADTooltip" devLabel="Max. Allowable Penetration." translation="Maks. dopuszczalna penetracja."/>
+	<label commandName="SimNastranAutoContactMU" devLabel="Coefficient of Friction" translation="Współczynnik tarcia"/>
+	<label commandName="SimNastranAutoContactMUTooltip" devLabel="Coefficient of Friction." translation="Współczynnik tarcia."/>
+	<label commandName="SimNastranAutoContactSFACT" devLabel="Stiffness Factor" translation="Współczynnik sztywności"/>
+	<label commandName="SimNastranAutoContactSFACTTooltip" devLabel="Stiffness Factor." translation="Współczynnik sztywności."/>
+	<label commandName="SimNastranPenetrationSurfaceOffset" devLabel="Penetration surface offset" translation="Odsunięcie powierzchni penetracji"/>
+	<label commandName="SimNastranPenetrationSurfaceOffsetTooltip" devLabel="Penetration surface offset." translation="Odsunięcie powierzchni penetracji."/>
+	<label commandName="SimNonlinearTransientExplicitDynamic" devLabel="Dynamic Event Simulation" translation="Dynamiczna symulacja zdarzeń"/>
+	<label commandName="SimNonlinearTransientExplicitDynamicDesc" devLabel="Determine how your design responds to rapidly changing time-dependent loads and constraints, including large deformations, initial velocities, contact, and impact." translation="Określ, w jaki sposób projekt reaguje na szybkie zmiany obciążeń i wiązań zależnych od czasu, w tym duże odkształcenia, prędkości początkowe, kontakt i uderzenie."/>
+	<label commandName="SimNonlinearTransientExplicitQuasiStatic" devLabel="Quasi-static Event Simulation" translation="Kwazistatyczna symulacja zdarzeń"/>
+	<label commandName="SimNonlinearTransientExplicitQuasiStaticDesc" devLabel="Determine the static stresses and deformation in single part or multi-body assemblies where nonlinear material behavior is required. Ideally suited for large motions where the contact conditions can transition from one body to the other." translation="Określ naprężenia statyczne i odkształcenia w zespołach jednoczęściowych lub wielobryłowych, w których wymagane jest nieliniowe zachowanie materiału. Opcja ta doskonale nadaje się do dużych ruchów, w których warunki kontaktu mogą się zmieniać w każdej kolejnej bryle."/>
+	<label commandName="SimNumOfIncrementsTooltip" devLabel="Number of steps for simulation." translation="Liczba kroków symulacji."/>
+	<label commandName="SimNumOfStepsLabel" devLabel="Number of Steps" translation="Ilośc Kroków"/>
+	<label commandName="SimNumberOfBucklingModesTooltip" devLabel="The number of bending modes that will be calculated." translation="Liczba modów zginania, które zostaną obliczone."/>
+	<label commandName="SimNumberOfModesTooltip" devLabel="The number of modal frequencies that will be calculated." translation="Liczba częstotliwości modalnych, które zostaną obliczone."/>
+	<label commandName="SimOptimizationPanel" devLabel="Shape Optimization" translation="Optymalizacja kształtu"/>
+	<label commandName="SimOptionsPanel" devLabel="Options" translation="Opcje"/>
+	<label commandName="SimParticipationX" devLabel="Participation X" translation="Udział X"/>
+	<label commandName="SimParticipationY" devLabel="Participation Y" translation="Udział Y"/>
+	<label commandName="SimParticipationZ" devLabel="Participation Z" translation="Udział Z"/>
+	<label commandName="SimPenetrationTypeInput" devLabel="Penetration	 Type" translation="Penetracja	Typ"/>
+	<label commandName="SimProblemEndTimeLabel" devLabel="Problem End Time" translation="Czas zakończenia problemu"/>
+	<label commandName="SimProblemEndTimeTooltip" devLabel="Problem end time." translation="Czas zakończenia problemu."/>
+	<label commandName="SimProblemTimeAfterImpactTooltip" devLabel="Time after impact" translation="Czas po uderzeniu"/>
+	<label commandName="SimProximityPenetrationTypeInput" devLabel="Penetration	 Type" translation="Penetracja	Typ"/>
+	<label commandName="SimRTSS" devLabel="Drop Test" translation="Próba zrzutowa"/>
+	<label commandName="SimRTSSDesc" devLabel="Determine how the model responds to impact loads caused by dropping it from a specified height.&lt;br&gt;The various result types can be plotted versus time." translation="Określ, w jaki sposób model reaguje na obciążenia udarowe spowodowane zrzuceniem go z określonej wysokości.&lt;br&gt;Można tworzyć wykresy różnych typów wyników w czasie."/>
+	<label commandName="SimRayleigh" devLabel="Rayleigh" translation="Rayleigh'a"/>
+	<label commandName="SimReportItemShapeGenerator" devLabel="Shape Optimization" translation="Optymalizacja kształtu"/>
+	<label commandName="SimReportItemTOCriteria" devLabel="Criteria" translation="Kryterium"/>
+	<label commandName="SimRestoreDefaultsExplicitContactsInput" devLabel="Restore Defaults" translation="Przywróć domyślne"/>
+	<label commandName="SimResultOutputSectionLabel" devLabel="Result Output" translation="Wynik"/>
+	<label commandName="SimResultsManagePanel" devLabel="Manage" translation="Zarządzaj"/>
+	<label commandName="SimResultsPanel" devLabel="Results" translation="Wyniki"/>
+	<label commandName="SimRigidBodiesPanel" devLabel="Rigid Bodies" translation="Ciała sztywne"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSave2FileTip" devLabel="Save to file " translation="Zapisz w pliku "/>
+	<label commandName="SimSaveAsCaption" devLabel="Save As" translation="Zapisz jako"/>
+	<label commandName="SimSelectPanel" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimSettingsExplicitDamping" devLabel="Damping" translation="Tłumienie"/>
+	<label commandName="SimSettingsExplicitResultOutput" devLabel="Result Output" translation="Wynik"/>
+	<label commandName="SimSettingsGenerativeStudy" devLabel="Study Settings" translation="Ustawienia badania"/>
+	<label commandName="SimSettingsSectionLabel" devLabel="Settings" translation="Ustawienia"/>
+	<label commandName="SimSimplifyPanel" devLabel="Simplify" translation="Uprość"/>
+	<label commandName="SimSmallMeshSize" devLabel="An overly fine mesh (&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may be interested in using Adaptive Mesh Refinement to refine the mesh only in critical areas. &#xA;&#xA;Do you want to continue?" translation="Zbyt gęsta siatka (&lt;3%) powoduje duże zużycie pamięci podczas obliczania, bez gwarancji uzyskania lepszych wyników. Zamiast tego lepiej sprawdzi się adaptacyjne zagęszczanie siatki, które pozwala zagęścić siatkę tylko w krytycznych obszarach.&#xA;&#xA;Czy chcesz kontynuować?"/>
+	<label commandName="SimSmallMeshSize2" devLabel="An overly fine mesh(&lt;3%) leads to high memory consumption computation with no guarantee of better results. Instead, you may want to use a coarser mesh by increasing the mesh size. &#xA;&#xA;Do you want to continue?" translation="Zbyt gęsta siatka (&lt;3%) powoduje duże zużycie pamięci podczas obliczania, bez gwarancji uzyskania lepszych wyników. Zamiast tego lepiej sprawdzi się rzadsza siatka, którą można uzyskać, zwiększając rozmiar siatki. &#xA;&#xA;Czy chcesz kontynuować?"/>
+	<label commandName="SimSolvePanel" devLabel="Solve" translation="Rozwiąż"/>
+	<label commandName="SimStiffnessFactorLabel" devLabel="Stiffness Factor" translation="Współczynnik sztywności"/>
+	<label commandName="SimStiffnessFactorTooltip" devLabel="Stiffness factor." translation="Współczynnik sztywności."/>
+	<label commandName="SimStructuralBuckling" devLabel="Structural Buckling" translation="Wyboczenie konstrukcyjne"/>
+	<label commandName="SimStructuralBucklingDesc" devLabel="Determine the Buckling modes of the model.&lt;br&gt;&lt;br&gt;The Results include Buckling Modes and their corresponding Load Multipliers." translation="Określ mody wyboczenia modelu.&lt;br&gt;&lt;br&gt;Wyniki obejmują mody wyboczenia i odpowiadające im mnożniki obciążenia."/>
+	<label commandName="SimStudyPanel" devLabel="Study" translation="Badanie"/>
+	<label commandName="SimSum" devLabel="Sum" translation="Suma"/>
+	<label commandName="SimSum1" devLabel="Sum		" translation="Suma		"/>
+	<label commandName="SimSuppressSelfExplicitContactsInput" devLabel="Suppress All Self-Contacts" translation="Wyłącz wszystkie kontakty elementów z samymi sobą"/>
+	<label commandName="SimSymmetricPenetrationType" devLabel="Symmetric" translation="Symetrycznie"/>
+	<label commandName="SimSynchronizePanel" devLabel="Synchronize" translation="Synchronizuj"/>
+	<label commandName="SimTOptExportCachePathLabel" devLabel="Directory for ASM journal files" translation="Katalog dla plików dziennika ASM"/>
+	<label commandName="SimTOptExportCachePathTooltip" devLabel="Set directory for ASM journal files." translation="Ustaw katalog dla plików dziennika ASM."/>
+	<label commandName="SimTOptExportJournalTooltip" devLabel="Generate journal from export mesh." translation="Generuj dziennik z siatki eksportu."/>
+	<label commandName="SimTOptExportMeshJournalLabel" devLabel="Generate journal" translation="Generuj dziennik"/>
+	<label commandName="SimTOptExportMeshLabel" devLabel="Export Solid" translation="Eksportuj bryłę"/>
+	<label commandName="SimTOptExportOutputFileLabel" devLabel="Path for TO result" translation="Ścieżka dla najbardziej optymalnego wyniku"/>
+	<label commandName="SimTOptExportOutputFileLabelTooltip" devLabel="Set path for TO result" translation="Ustaw ścieżkę dla najbardziej optymalnego wyniku"/>
+	<label commandName="SimTOptGenerateResultantSolidLabel" devLabel="Generate resultant solid" translation="Generuj bryłę wynikową"/>
+	<label commandName="SimTOptGenerateResultantSolidLabelTooltip" devLabel="Generate resultant solid during solve." translation="Generuj bryłę wynikową podczas rozwiązywania."/>
+	<label commandName="SimTOptIterToleranceLabel" devLabel="Shape Optimization iteration tolerance" translation="Optymalizacja kształtu — tolerancja iteracji"/>
+	<label commandName="SimTOptIterToleranceTooltip" devLabel="Precision for checking whether the shape optimization has converged." translation="Dokładność sprawdzania zbieżności optymalizacji kształtu."/>
+	<label commandName="SimTStressAverageElementSizeAftText" devLabel=" % of model size" translation=" % rozmiaru modelu"/>
+	<label commandName="SimTStressAverageElementSizeAftText_comma" devLabel=" % of model size, " translation=" % rozmiaru modelu, "/>
+	<label commandName="SimTStressAverageElementSizeText" devLabel="Average Element Size is " translation="Średni rozmiar elementu wynosi "/>
+	<label commandName="SimTStressContactToleranceText" devLabel="Contact Tolerance is " translation="Tolerancja kontaktu wynosi "/>
+	<label commandName="SimTStressContactsTypeText" devLabel="Default Contact Type is " translation="Domyślny typ kontaktu to "/>
+	<label commandName="SimTStressUMeshSectionLabel" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="SimTextFile" devLabel="Text File  (*.txt)" translation="Plik tekstowy (*.txt)"/>
+	<label commandName="SimTopOpt" devLabel="Shape Optimization" translation="Optymalizacja kształtu"/>
+	<label commandName="SimTopOptDesc" devLabel="Optimize parts to make them lightweight and structurally efficient based on the loads and boundary conditions applied to the geometry." translation="Optymalizuj części, aby je uprościć i zwiększyć ich wydajność konstrukcyjną na podstawie obciążeń i warunków granicznych zastosowanych do geometrii."/>
+	<label commandName="SimTranStrural" devLabel="Transient Structural" translation="Przejściowe konstrukcyjne"/>
+	<label commandName="SimTranStruralDesc" devLabel="Determine how the model responds to time-dependent loads and boundary conditions. The deformations and strains are assumed to be small enough for linearity assumption to hold.&lt;br&gt;&lt;br&gt;The Results include displacements, stresses, strains and common failure criteria throughout a specified time period." translation="Określ, w jaki sposób model reaguje na obciążenia i warunki graniczne zależne od czasu. Odkształcenia i odkształcenia są przyjmowane jako wystarczająco małe, aby założenie liniowości było utrzymane. &lt;br&gt;&lt;br&gt;Wyniki obejmują przemieszczenia, naprężenia, odkształcenia i wspólne kryteria awarii w określonym okresie czasu."/>
+	<label commandName="SimUnSuppressSelfExplicitContactsInput" devLabel="Unsuppress All Self-Contacts" translation="Włącz wszystkie kontakty elementów z samymi sobą"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procent"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+	<label commandName="SimUnsymmetricPenetrationType" devLabel="Unsymmetric" translation="Niesymetryczna"/>
+	<label commandName="SimUsedStudyName" devLabel="Name of Study is already used!" translation="Nazwa badania jest już używana!"/>
+	<label commandName="SimViewsPanel" devLabel="Display" translation="Wyświetl"/>
+	<label commandName="SimidX" devLabel="X" translation="X"/>
+	<label commandName="SimidY" devLabel="Y" translation="Y"/>
+	<label commandName="SimidZ" devLabel="Z" translation="Z"/>
+	<label commandName="Simparticipation" devLabel="Participation" translation="Udział"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Nazwa badania jest już używana!"/>
+	<label commandName="Stiffness Factor" devLabel="Stiffness Factor" translation="Współczynnik sztywności"/>
+	<label commandName="StiffnessFactor" devLabel="Stiffness Factor" translation="Współczynnik sztywności"/>
+	<label commandName="StudyManufacturingMethodsAdditive" devLabel="Additive" translation="Addytywne"/>
+	<label commandName="StudyManufacturingMethodsCutting" devLabel="2-axis Cutting" translation="Skrawanie 2-osiowe"/>
+	<label commandName="StudyManufacturingMethodsDieCasting" devLabel="Die Casting" translation="Odlewanie"/>
+	<label commandName="StudyManufacturingMethodsMilling" devLabel="Milling" translation="Frezowanie"/>
+	<label commandName="StudyManufacturingMethodsUnrestricted" devLabel="Unrestricted" translation="Nieograniczone"/>
+	<label commandName="Swap Primary/Secondary" devLabel="Swap Primary/Secondary" translation="Zamień główny/pomocniczy"/>
+	<label commandName="lclzCompareTab" devLabel="COMPARE" translation="PORÓWNAJ"/>
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="DEBUGUJ"/>
+	<label commandName="lclzDefineTab" devLabel="DEFINE" translation="DEFINIUJ"/>
+	<label commandName="lclzDeformation" devLabel="DEFORMATION" translation="ODKSZTAŁCENIE"/>
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnostyka"/>
+	<label commandName="lclzExploreComparePanel" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="lclzExploreDesignSpaceViewPanel" devLabel="Show" translation="Pokaż"/>
+	<label commandName="lclzExploreDisplayPanel" devLabel="Display" translation="Wyświetl"/>
+	<label commandName="lclzExploreExportDataPanel" devLabel="Export" translation="Eksportuj"/>
+	<label commandName="lclzExploreExportPanel" devLabel="Create" translation="Utwórz"/>
+	<label commandName="lclzExploreTagPanel" devLabel="Tag" translation="Oznaczenie"/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Plik"/>
+	<label commandName="lclzFinishExplorePanel" devLabel="Finish Explore" translation="Zakończ eksplorację"/>
+	<label commandName="lclzFinishOutcomeViewPanel" devLabel="Finish Outcome View" translation="Zakończ widok wyniku"/>
+	<label commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="Zakończ wyniki"/>
+	<label commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="Zakończ porównywanie"/>
+	<label commandName="lclzGenDefineTab" devLabel="DEFINE" translation="DEFINIUJ"/>
+	<label commandName="lclzGenExploreTab" devLabel="EXPLORE" translation="EKSPLORUJ"/>
+	<label commandName="lclzGenOutcomeViewTab" devLabel="OUTCOME VIEW" translation="WIDOK WYNIKU"/>
+	<label commandName="lclzGenerativeWorkspaceTitle" devLabel="Creates multiple designs that meet your manufacturing, performance, and cost requirements." translation="Tworzy wiele projektów spełniających wymagania dotyczące wytwarzania, parametrów i kosztów."/>
+	<label commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="NARZĘDZIA WYNIKÓW"/>
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Priorytet wyboru"/>
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Narzędzia wyboru"/>
+	<label commandName="lclzSimGenerativeFluidMaterialCommand1" devLabel="Specifies a fluid material to use in the design process." translation="Określa materiał cieczy do użycia w procesie projektowania."/>
+	<label commandName="lclzSimGenerativeFluidMaterialCommand2" devLabel="The default material is water. You can also select air or define a custom material by entering the Density and Viscosity values. To compare performance of materials, clone a study and use a different material." translation="Materiałem domyślnym jest woda. Można również wybrać powietrze lub zdefiniować materiał niestandardowy, wprowadzając wartości gęstości i lepkości. Aby porównać efektywność materiałów, należy sklonować badanie i użyć innego materiału."/>
+	<label commandName="lclzSimGenerativeStudyMaterialsCommand1" devLabel="Lists properties for each material in the Fusion 360 libraries, that control the material's thermal, mechanical, and elastic behavior, as well as its appearance." translation="Wyświetla właściwości każdego materiału w bibliotekach programu Fusion 360, które określają zachowanie cieplne, mechaniczne i sprężyste materiału, jak również jego wygląd."/>
+	<label commandName="lclzSimGenerativeStudyMaterialsCommand2" devLabel="Use the Material Browser to identify favorites, modify properties, create new materials, and manage personal libraries." translation="Przeglądarka materiałów umożliwia identyfikowanie ulubionych elementów, modyfikowanie właściwości, tworzenie nowych materiałów i zarządzanie osobistymi bibliotekami."/>
+	<label commandName="lclzSimGenerativeStudyMaterialsTipsAndTricksDesc" devLabel="You can select from one to seven materials for your study." translation="Można wybrać od jednego do siedmiu materiałów do badania."/>
+	<label commandName="lclzSimGenerativeStudyMaterialsTipsAndTricksTips" devLabel="Select a material in the Library section and drag it to the In This Study section." translation="Wybierz materiał w sekcji Biblioteka i przeciągnij go do sekcji W tym badaniu."/>
+	<label commandName="lclzSimGenerativeStudyMaterialsTipsAndTricksTitle" devLabel="Study Materials Information" translation="Materiały badania — informacje"/>
+	<label commandName="lclzSimResultsTab" devLabel="RESULTS" translation="Wyniki"/>
+	<label commandName="lclzSimSetupTab" devLabel="SETUP" translation="USTAWIENIA"/>
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="Prezentacja interfejsu użytkownika"/>
+	<label commandName="manufacutringCostDescriptionToolTip" devLabel="The manufacturing cost can be estimated for this material. For details, see Help page: Cost estimation." translation="Dla tego materiału można oszacować koszt wytwarzania. Aby uzyskać szczegółowe informacje, zobacz stronę Pomocy: Oszacowanie kosztów."/>
+	<label commandName="manufacutringCostToolTip" devLabel="Cost estimation" translation="Oszacowanie kosztów"/>
+	<label commandName="simGenSolveDlgStudyWhyTooltip" devLabel="Displays an explanation why outcomes can't be generated for &lt;b&gt;%1%&lt;/b&gt;" translation="Wyświetla wyjaśnienie, dlaczego nie można wygenerować wyników dla &lt;b&gt;%1%&lt;/b&gt;"/>
+	<label commandName="simGenSolveDlgStudyWhyWithErrorsTooltip" devLabel="Displays an explanation why outcomes were generated with errors for &lt;b&gt;%1%&lt;/b&gt;." translation="Wyświetla wyjaśnienie, dlaczego wyniki dla &lt;b&gt;%1%&lt;/b&gt; zostały wygenerowane z błędami."/>
+	<label commandName="simGenSolveDlgWhy" devLabel="Why can't I generate outcomes?" translation="Dlaczego nie mogę generować wyników?"/>
+	<label commandName="simGenSolveDlgWhyWithErrors" devLabel="Why were outcomes generated with errors?" translation="Dlaczego wyniki były generowane z błędami?"/>
+	<label commandName="simSolveDlgHideGenerativeDesignStudies" devLabel="Hide studies that cannot be generated" translation="Ukryj badania, których nie można wygenerować"/>
+</Resource>

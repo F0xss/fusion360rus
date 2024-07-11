@@ -1,0 +1,18 @@
+<div id="probe_overrideWorkOffset"><p>Controls which coordinate system drives this probing operation.</p>
+<p>When selected, the probe is driven from a different coordinate system (WCS Override) to that defined in the setup (WCS Offset). The WCS Override for this probing operation is not updated, but the WCS Offset for subsequent machining operations is updated. This locks the coordinate system for the probe.</p>
+<p>Example of updated WCS Offset (1=G54), but unchanged WCS Override (2=G55), for multiple parts:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="177" src="../images/override_driving_wcs_selected.png"/></center></td>
+</tr><tr>
+<td><center><p>Override Driving WCS selected</p></center></td>
+</tr></table>
+<p>When deselected, the probe is driven from the same coordinate system as that defined in the setup (WCS Offset). The WCS Offset for this probing operation and subsequent machining operations is updated.</p>
+<p>Example of updated WCS Offset (1=G54) for multiple parts:</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="177" src="../images/override_driving_wcs_deselected.png"/></center></td>
+</tr><tr>
+<td><center><p>Override Driving WCS deselected</p></center></td>
+</tr></table>
+</div>

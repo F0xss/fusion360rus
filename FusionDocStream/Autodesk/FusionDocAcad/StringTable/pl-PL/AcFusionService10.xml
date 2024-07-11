@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="BrokenViewRangeExceed" devLabel="Could not create broken view, Please select valid range." translation="Nie można utworzyć przerwania. Wybierz prawidłowy zakres."/>
+	<label commandName="DuplicateSheetCopySuffix" devLabel="Copy" translation="Kopiuj"/>
+	<label commandName="FD_SELECT_ORIGIN_MARKER" devLabel="Select origin marker to edit" translation="Wybierz znacznik początku do edycji"/>
+	<label commandName="HOLE_TABLE_ORIGIN_JIG_PROMPT" devLabel="Select a view with an origin or select a point to set the origin" translation="Wybierz widok z początkiem lub wybierz punkt, aby ustawić początek"/>
+	<label commandName="IDS_ARRANGE_DIM_SELECT_BASE_DIM" devLabel="&#xA;Select base dimension" translation="&#xA;Wybierz wymiar bazowy"/>
+	<label commandName="IDS_ARRANGE_DIM_SELECT_DIM_TO_MOVE" devLabel="&#xA;Select dimensions to move" translation="&#xA;Wybierz wymiary do przesunięcia"/>
+	<label commandName="IDS_CREATE_BASE_VIEW" devLabel="Create Drawing Base View." translation="Utwórz rzut bazowy rysunku."/>
+	<label commandName="IDS_CREATE_PROJECTED_VIEW" devLabel="Create Drawing Projected View." translation="Utwórz rzut prostokątny rysunku."/>
+	<label commandName="IDS_FUSION_ATTEDIT_PROMPT_SELECT_ATT" devLabel="&#xA;Select attribute&#xA;Or press Enter to exit " translation="&#xA;Wybierz atrybut&#xA;lub naciśnij klawisz Enter, aby zakończyć "/>
+	<label commandName="IDS_FUSION_ATTEDIT_PROMPT_SELECT_BLKREF" devLabel="&#xA;Select block reference" translation="&#xA;Wybierz odniesienie do bloku"/>
+	<label commandName="IDS_FUSION_BROKENVIEW_GAP" devLabel="&#xA;Break Gap" translation="&#xA;Odstęp przerwania"/>
+	<label commandName="IDS_FUSION_BROKENVIEW_ORIENTATION" devLabel="&#xA;Break Orientation" translation="&#xA;Orientacja przerwania"/>
+	<label commandName="IDS_FUSION_BROKENVIEW_SELECT_VIEW" devLabel="&#xA;Select view" translation="&#xA;Wybierz widok"/>
+	<label commandName="IDS_FUSION_COPYORCUTPARAM" devLabel="Copy Xcut _ Copy Xcut" translation="Kopiuj Wytnij _ Copy Xcut"/>
+	<label commandName="IDS_FUSION_COPYORCUTSTR" devLabel="&#xA;Enter an option [Copy/Xcut]&lt;Copy&gt;:" translation="&#xA;Wprowadź opcję [Kopiuj/Wytnij] &lt;Kopiuj&gt;:"/>
+	<label commandName="IDS_FUSION_COPYPASTEPARAMETER" devLabel="Enter parameter for cut, copy or paste, leave empty for default behaviour:" translation="Wprowadź parametr dla operacji wycinania, kopiowania lub wklejania, pozostaw puste dla domyślnego zachowania:"/>
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_SELECT_DIMENSION" devLabel="Select dimension to edit: " translation="Wybierz wymiar do edycji: "/>
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_SELECT_FAILED" devLabel="*** Failed to get dimension selection.&#xA;" translation="*** Nie można pobrać wyboru wymiaru.&#xA;"/>
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_UNSAVED_CHANGES_CONTENT" devLabel="Do you want to save your dimension text changes?" translation="Czy zapisać zmiany w tekście wymiarowym?"/>
+	<label commandName="IDS_FUSION_DIMENSIONEDIT_UNSAVED_CHANGES_TITLE" devLabel="Dimension Text- Unsaved Changes" translation="Tekst wymiaru — niezapisane zmiany"/>
+	<label commandName="IDS_FUSION_DIM_OSNAP_TOOLTIP" devLabel="&#xA;Place dimension " translation="&#xA;Umieść wymiar "/>
+	<label commandName="IDS_FUSION_HATCHEDIT_SELECT_FAILED" devLabel="*** Failed to get hatch selection.&#xA;" translation="*** Nie można pobrać wyboru kreskowania.&#xA;"/>
+	<label commandName="IDS_FUSION_HATCHEDIT_SELECT_HATCH" devLabel="Select hatch to edit: " translation="Wybierz kreskowanie do edycji: "/>
+	<label commandName="IDS_FUSION_IMAGEINSERT_KWORDS" devLabel="Rotation RelativeRotation Scale RelativeScale Origin RelativeOrigin TitleblockInsert Insert Delete Reselect _ Rotation RelativeRotation Scale RelativeScale Origin RelativeOrigin TitleblockInsert Insert Delete Reselect" translation="Obrót ObrótWzględny Skala SkalaWzględna Początek PoczątekWzględny WstawTabelkęRysunkową Wstaw Usuń PonownieWybierz _ Rotation RelativeRotation Scale RelativeScale Origin RelativeOrigin TitleblockInsert Insert Delete Reselect"/>
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT" devLabel="&#xA;Set options for image insert [Rotation/RelativeRotation/Scale/RelativeScale/Origin/RelativeOrigin/TitleblockInsert/Insert/Delete/Reselect] &lt;OK&gt; : " translation="&#xA;Ustaw opcje wstawienia obrazu [Obrót/ObrótWzględny/Skala/SkalaWzględna/Początek/PoczątekWzględny/WstawTabelkęRysunkową/Wstaw/Usuń/PonownieWybierz] &lt;OK&gt;: "/>
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_ORIGIN" devLabel="&#xA;Place lower left corner " translation="&#xA;Umieść lewy dolny narożnik "/>
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_ROTATION" devLabel="&#xA;Rotate image " translation="&#xA;Obróć obraz "/>
+	<label commandName="IDS_FUSION_IMAGEINSERT_PROMPT_SCALE" devLabel="&#xA;Scale image " translation="&#xA;Skaluj obraz "/>
+	<label commandName="IDS_FUSION_IMAGE_NOTFOUND_1" devLabel=" not found" translation=" — nie znaleziono"/>
+	<label commandName="IDS_FUSION_IMAGE_NOTFOUND_2" devLabel=" - this problem is most likely due to permissions. Selecting the file will grant this program permission.&#xA;&#xA; Press OK to select the file..." translation=" — ten problem jest najprawdopodobniej spowodowany uprawnieniami. Wybranie pliku spowoduje przyznanie uprawnienia temu programowi.&#xA;&#xA; Kliknij przycisk OK, aby wybrać plik..."/>
+	<label commandName="IDS_FUSION_INCANVAS_TOOLTIP_0" devLabel="Rollback placement and continue" translation="Cofnij umieszczenie i kontynuuj"/>
+	<label commandName="IDS_FUSION_INCANVAS_TOOLTIP_1" devLabel="Create and continue" translation="Utwórz i kontynuuj"/>
+	<label commandName="IDS_FUSION_MASS_PRECISION" devLabel="&#xA;Set new Mass Precision" translation="&#xA;Ustaw nową dokładność masy"/>
+	<label commandName="IDS_FUSION_MASS_UNIT" devLabel="&#xA;Set new Mass Unit" translation="&#xA;Ustaw nową jednostkę masy"/>
+	<label commandName="IDS_FUSION_PARTSLIST_TYPE_KWORDS" devLabel="First-level All-level _ First-level All-level" translation="Pierwszy Wszystkie _ First-level All-level"/>
+	<label commandName="IDS_FUSION_PARTSLIST_TYPE_PROMPT" devLabel="&#xA;Select parts list type: " translation="&#xA;Wybierz typ listy części: "/>
+	<label commandName="IDS_FUSION_PRINTER_NAME" devLabel="&#xA;BPrinter Name" translation="&#xA;Nazwa drukarki dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_CUST_SCALE" devLabel="&#xA;BPrint Cust Scale" translation="&#xA;Niestandardowa skala dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_LINE_WEIGHT" devLabel="" translation=""/>
+	<label commandName="IDS_FUSION_PRINT_NUM_COPIES" devLabel="&#xA;BPrint Copies" translation="&#xA;Kopie dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_OFFSET_VALUE" devLabel="&#xA;BPrint Offset" translation="&#xA;Odsunięcie dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_ORIENTATION" devLabel="&#xA;BPrint Orientation" translation="&#xA;Orientacja dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_PAPER_NAME" devLabel="&#xA;BPrint Paper Name" translation="&#xA;Nazwa papieru dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_SCALE" devLabel="&#xA;BPrint Scale" translation="&#xA;Skala dokumentacji"/>
+	<label commandName="IDS_FUSION_PRINT_SHOW_PREVIEW" devLabel="&#xA;BShow Preview" translation="&#xA;Podgląd"/>
+	<label commandName="IDS_FUSION_SELECT_FAILED" devLabel="*** Failed to get selection.&#xA;" translation="*** Nie można pobrać wyboru.&#xA;"/>
+	<label commandName="IDS_FUSION_TABLEEDIT_PROMPT" devLabel="&#xA;Select parts list option: " translation="&#xA;Wybierz opcję listy części: "/>
+	<label commandName="IDS_FUSION_TABLEINSERT_PROMPT" devLabel="&#xA;Place table. Press Shift to toggle flipping" translation="&#xA;Umieść tabelę. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD1" devLabel="Applytb Deletetb Renametb _ Applytb Deletetb Renametb" translation="Zastosujtabelkę Usuńtabelkę Zmieńnazwętabelki _ Applytb Deletetb Renametb"/>
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD2" devLabel="&#xA;Enter Title Block to be applied" translation="&#xA;Wprowadź tabelkę rysunkową do zastosowania"/>
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD3" devLabel="&#xA;Enter old Title Block to rename" translation="&#xA;Wprowadź starą tabelkę rysunkową do zmiany nazwy"/>
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD4" devLabel="&#xA;Enter new Title Block name" translation="&#xA;Wprowadź nową nazwę tabelki rysunkowej"/>
+	<label commandName="IDS_FUSION_TITLEBLOCK_KWORD5" devLabel="&#xA;Enter TitleBlock to be deleted" translation="&#xA;Wprowadź tabelkę rysunkową do usunięcia"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CLI_DISPLAY" devLabel="&#xA;** ADD LEADER **" translation="&#xA;** DODAJ LINIĘ ODNIESIENIA **"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CLI_PROMPT" devLabel="&#xA;Specify leader arrowhead location:" translation="&#xA;Określ położenie grotu strzałki:"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_CMD" devLabel="MLeaderGripAddLeader" translation="MLeaderGripAddLeader"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_ADD_LEADER" devLabel="Add Leader" translation="Dodaj linię odniesienia"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_GENERAL" devLabel="&#xA;Press Ctrl to Cycle Between:" translation="&#xA;Naciśnij klawisz Ctrl, aby cyklicznie przełączać między:"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_LENGTHEN" devLabel="Lengthen" translation="Wydłużenie"/>
+	<label commandName="IDS_GRIP_MLEADER_ADD_LEADER_TOOLTIP_FIX_STRETCH" devLabel="Stretch" translation="Rozciągnij"/>
+	<label commandName="IDS_INPUT_IS_COMMAND_FOR_SMART_TEMPLATE" devLabel="&#xA;Is command for SmartTemplate" translation="&#xA;Jest poleceniem dla szablonu inteligentnego"/>
+	<label commandName="IDS_INPUT_PARTS_LIST_TYPE" devLabel="&#xA;Input parts list type " translation="&#xA;Typ wejściowej listy części "/>
+	<label commandName="IDS_KW_ADDLEADER" devLabel="Add - Add leader" translation="Add - Dodaj linię odniesienia"/>
+	<label commandName="IDS_KW_BLOCK" devLabel="Block - Block" translation="Block - Blok"/>
+	<label commandName="IDS_KW_CONTENT" devLabel="Content - Content type" translation="Content - typ Zawartości"/>
+	<label commandName="IDS_KW_CONTENTFIRST" devLabel="Content - Content first" translation="Content - najpierw Zawartość"/>
+	<label commandName="IDS_KW_CURRENT" devLabel="Use - Use current spacing" translation="Use - Użyj bieżących odstępów"/>
+	<label commandName="IDS_KW_DISTRIBUTE" devLabel="Distribute - Distribute" translation="Distribute - ROzmieść"/>
+	<label commandName="IDS_KW_END" devLabel="End - End" translation="End - Koniec"/>
+	<label commandName="IDS_KW_EXITOPTIONS" devLabel="eXit - eXit options" translation="eXit - opcje zaKończenia"/>
+	<label commandName="IDS_KW_FIRSTANGLE" devLabel="First - First angle" translation="First - Europejski"/>
+	<label commandName="IDS_KW_HEADFIRST" devLabel="arrowHead - leader arrowHead first" translation="arrowHead - najpierw Grot strzałki linii odniesienia"/>
+	<label commandName="IDS_KW_HORIZONTAL" devLabel="Horizontal - Horizontal" translation="Horizontal - POziomo"/>
+	<label commandName="IDS_KW_LANDING" devLabel="lAnding - leader lAnding" translation="lAnding - linia łącząca linii ODniesienia"/>
+	<label commandName="IDS_KW_LEADER" devLabel="Leader - Leader type" translation="Leader - Typ linii odniesienia"/>
+	<label commandName="IDS_KW_MAXPOINTS" devLabel="Maxpoints - Maxpoints" translation="Maxpoints - PUnkty maksymalne"/>
+	<label commandName="IDS_KW_MTEXT" devLabel="Mtext - Mtext" translation="Mtext - Wtekst"/>
+	<label commandName="IDS_KW_NO" devLabel="No - No" translation="No - Nie"/>
+	<label commandName="IDS_KW_NONE" devLabel="None - None" translation="None - BRak"/>
+	<label commandName="IDS_KW_NUMBER" devLabel="Number - Number" translation="Number - Liczba"/>
+	<label commandName="IDS_KW_OPTIONS" devLabel="Options - Options" translation="Options - Opcje"/>
+	<label commandName="IDS_KW_OVERWRITE" devLabel="OVerwrite - Overwrite" translation="OVerwrite - Nadpisz"/>
+	<label commandName="IDS_KW_PARALLEL" devLabel="Parallel - make segments Parallel" translation="Parallel - ustaw segmenty Równolegle"/>
+	<label commandName="IDS_KW_REMOVELEADER" devLabel="Remove - Remove leader" translation="Remove - Usuń linię odniesienia"/>
+	<label commandName="IDS_KW_SECONDANGLE" devLabel="Second - Second angle" translation="Second - Drugi kąt"/>
+	<label commandName="IDS_KW_SPACING" devLabel="Spacing - specify Spacing" translation="Spacing - określ ODstępy"/>
+	<label commandName="IDS_KW_SPLINE" devLabel="sPline - sPline" translation="sPline - Splajn"/>
+	<label commandName="IDS_KW_STRAIGHT" devLabel="Straight - Straight" translation="Straight - Prosta"/>
+	<label commandName="IDS_KW_TAILFIRST" devLabel="Landing - leader Landing first" translation="Linia łącząca – najpierw linia łącząca linii odniesienia"/>
+	<label commandName="IDS_KW_VERTICAL" devLabel="Vertical - Vertical" translation="Vertical - Pionowo"/>
+	<label commandName="IDS_KW_WRAP" devLabel="Wrap - Wrap" translation="Wrap - Zawijanie"/>
+	<label commandName="IDS_KW_YES" devLabel="Yes - Yes" translation="Yes - Tak"/>
+	<label commandName="IDS_MALIGN_PROMPT01" devLabel="&#xA;Select multileaders: " translation="&#xA;Wybierz wielolinie odniesienia: "/>
+	<label commandName="IDS_MALIGN_PROMPT02" devLabel="&#xA;Select multileader to align to or [Options]:" translation="&#xA;Wybierz wielolinię odniesienia, aby do niej wyrównać, lub [Opcje]:"/>
+	<label commandName="IDS_MALIGN_PROMPT03" devLabel="&#xA;%d multileaders not selected because they were no coplanar." translation="&#xA;Nie wybrano %d wielolinii odniesienia, ponieważ nie były współpłaszczyznowe."/>
+	<label commandName="IDS_MALIGN_PROMPT04" devLabel="&#xA;Specify first point or [Options]:" translation="&#xA;Określ pierwszy punkt lub [Opcje]:"/>
+	<label commandName="IDS_MALIGN_PROMPT05" devLabel="&#xA;Specify spacing &amp;lt;%f&amp;gt;:" translation="&#xA;Określ odstępy &amp;lt;%f&amp;gt;:"/>
+	<label commandName="IDS_MALIGN_PROMPT05_KW" devLabel="Option _ Option" translation="Opcja _ Option"/>
+	<label commandName="IDS_MALIGN_PROMPT06" devLabel="&#xA;Enter an option [Distribute/make leader segments Parallel/specify Spacing/Use current spacing] &amp;lt;%s&amp;gt;: " translation="&#xA;Wprowadź opcję [ROzmieść/ustaw segmenty linii odniesienia Równolegle/określ ODstępy/Użyj bieżących odstępów] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MALIGN_PROMPT06_KW" devLabel="Distribute Parallel Spacing Use _ Distribute Parallel Spacing Use" translation="ROzmieść Równolegle ODstępy Użyj _ Distribute Parallel Spacing Use"/>
+	<label commandName="IDS_MALIGN_PROMPT07" devLabel="&#xA;Specify direction:" translation="&#xA;Określ kierunek:"/>
+	<label commandName="IDS_MALIGN_PROMPT08" devLabel="&#xA;Specify second point:" translation="&#xA;Określ drugi punkt:"/>
+	<label commandName="IDS_MALIGN_PROMPT09" devLabel="&#xA;Current mode: Distribute" translation="&#xA;Bieżący tryb: Rozmieść"/>
+	<label commandName="IDS_MALIGN_PROMPT10" devLabel="&#xA;Current mode: Make leader lines parallel" translation="&#xA;Bieżący tryb: Ustaw linie odniesienia równolegle"/>
+	<label commandName="IDS_MALIGN_PROMPT11" devLabel="&#xA;Current mode: Use current spacing" translation="&#xA;Bieżący tryb: Użyj bieżących odstępów"/>
+	<label commandName="IDS_MALIGN_PROMPT12" devLabel="&#xA;Current mode: Spacing: %f" translation="&#xA;Bieżący tryb: Odstępy: %f"/>
+	<label commandName="IDS_MALIGN_PROMPT13" devLabel="&#xA;Select balloons to align" translation="&#xA;Wybierz numery pozycji do wyrównania"/>
+	<label commandName="IDS_MALIGN_PROMPT14" devLabel="&#xA;Specify start point" translation="&#xA;Określ punkt początkowy"/>
+	<label commandName="IDS_MALIGN_PROMPT15" devLabel="&#xA;Specify end point" translation="&#xA;Określ punkt końcowy"/>
+	<label commandName="IDS_MCOLLECT_PROMPT01" devLabel="&#xA;Select multileaders: " translation="&#xA;Wybierz wielolinie odniesienia: "/>
+	<label commandName="IDS_MCOLLECT_PROMPT02" devLabel="&#xA;Specify collected multileader location or [Vertical/Horizontal/Wrap] &amp;lt;%s&amp;gt;: " translation="&#xA;Określ położenie zebranych wielolinii odniesienia lub [Pionowo/POziomo/Zawijanie] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MCOLLECT_PROMPT02_KW" devLabel="Vertical Horizontal Wrap _ Vertical Horizontal Wrap" translation="Pionowo POziomo Zawijanie _ Vertical Horizontal Wrap"/>
+	<label commandName="IDS_MCOLLECT_PROMPT03" devLabel="&#xA;Specify wrap width or [Number]: &amp;lt;%s&amp;gt;" translation="&#xA;Określ szerokość zawijania lub [Liczba]: &amp;lt;%s&amp;gt;"/>
+	<label commandName="IDS_MCOLLECT_PROMPT03_KW" devLabel="Number _ Number" translation="Liczba _ Number"/>
+	<label commandName="IDS_MCOLLECT_PROMPT04" devLabel="&#xA;Specify number per row &amp;lt;%d&amp;gt;: " translation="&#xA;Określ liczbę na wiersz &amp;lt;%d&amp;gt;: "/>
+	<label commandName="IDS_MCOLLECT_PROMPT05" devLabel="&#xA;Object selected is not a multileader." translation="&#xA;Wybrany obiekt nie jest wielolinią odniesienia."/>
+	<label commandName="IDS_MCOLLECT_PROMPT06" devLabel="&#xA;Selected multileader must be co-planar." translation="&#xA;Wybrana wielolinia odniesienia musi być współpłaszczyznowa."/>
+	<label commandName="IDS_MCOLLECT_PROMPT07" devLabel="&#xA;Multileader must use block content to be collected." translation="&#xA;Aby zebrać wielolinie odniesienia, należy zastosować zawartość bloku."/>
+	<label commandName="IDS_MEDIT_PROMPT01" devLabel="&#xA;Select a multileader: " translation="&#xA;Wybierz wielolinię odniesienia: "/>
+	<label commandName="IDS_MEDIT_PROMPT04" devLabel="&#xA;No leaders exist to remove." translation="&#xA;Brak linii odniesienia do usunięcia."/>
+	<label commandName="IDS_MEDIT_PROMPT05" devLabel="&#xA;Object selected was not a multileader." translation="&#xA;Wybrany obiekt nie jest wielolinią odniesienia."/>
+	<label commandName="IDS_MEDIT_PROMPT06" devLabel="&#xA;1 found" translation="&#xA;Znaleziono 1"/>
+	<label commandName="IDS_MEDIT_PROMPT07" devLabel="&#xA;1 was on a locked layer." translation="&#xA;1 był na zablokowanej warstwie."/>
+	<label commandName="IDS_MEDIT_PROMPT08" devLabel="&#xA;Select next point of new leader segment or [Remove leaders]: " translation="&#xA;Wybierz kolejny punkt nowego segmentu linii odniesienia lub [Usuń linie odniesienia]: "/>
+	<label commandName="IDS_MEDIT_PROMPT08_KW" devLabel="Remove _ Remove" translation="Usuń _ Remove"/>
+	<label commandName="IDS_MEDIT_PROMPT09" devLabel="&#xA;Specify leaders to remove or [Add leaders]: " translation="&#xA;Określi linie odniesienia do usunięcia lub [Dodaj linie odniesienia]: "/>
+	<label commandName="IDS_MEDIT_PROMPT09_KW" devLabel="Add _ Add" translation="Dodaj _ Add"/>
+	<label commandName="IDS_MEDIT_PROMPT10" devLabel="&#xA;Specify leader arrowhead location or [Remove leaders]: " translation="&#xA;Określ położenie grotu strzałki linii odniesienia lub [Usuń linie odniesienia]: "/>
+	<label commandName="IDS_MEDIT_PROMPT10_KW" devLabel="Remove _ Remove" translation="Usuń _ Remove"/>
+	<label commandName="IDS_MLEADER_PROMPT01" devLabel="&#xA;Specify start point" translation="&#xA;Określ punkt początkowy"/>
+	<label commandName="IDS_MLEADER_PROMPT01_KW" devLabel="Landing Content Options _ Landing Content Options" translation="Linia Zawartość Opcje _ Landing Content Options"/>
+	<label commandName="IDS_MLEADER_PROMPT02" devLabel="&#xA;Specify leader landing location or [leader arrowHead first/Content first/Options] &amp;lt;%s&amp;gt;: " translation="&#xA;Określ położenie linii łączącej linii odniesienia lub [najpierw Grot strzałki linii odniesienia/najpierw Zawartość/Opcje] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT02_KW" devLabel="arrowHead Content Options _ arrowHead Content Options" translation="Grot Zawartość Opcje _ arrowHead Content Options"/>
+	<label commandName="IDS_MLEADER_PROMPT03" devLabel="&#xA;Specify first corner of text or [leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="&#xA;Określ pierwszy narożnik tekstu lub [najpierw Grot strzałki linii odniesienia/najpierw Linia łącząca linii odniesienia/Opcje] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT03_KW" devLabel="arrowHead Landing Options _ arrowHead Landing Options" translation="Grot Linia Opcje _ arrowHead Landing Options"/>
+	<label commandName="IDS_MLEADER_PROMPT04" devLabel="&#xA;Specify insertion point for text or [OVerwrite/leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="&#xA;Określ punkt wstawienia tekstu lub [Nadpisz/najpierw Grot strzałki linii odniesienia/najpierw Linia łącząca linii odniesienia/Opcje] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT04_KW" devLabel="OVerwrite arrowHead Landing Options _ OVerwrite arrowHead Landing Options" translation="Nadpisz Grot Linia Opcje _ OVerwrite arrowHead Landing Options"/>
+	<label commandName="IDS_MLEADER_PROMPT05" devLabel="&#xA;Specify insertion point for block or [leader arrowHead first/leader Landing first/Options] &amp;lt;%s&amp;gt;: " translation="&#xA;Określ punkt wstawienia bloku lub [najpierw Grot strzałki linii odniesienia/najpierw Linia łącząca linii odniesienia/Opcje] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT05_KW" devLabel="arrowHead Landing Options _ arrowHead Landing Options" translation="Grot Linia Opcje _ arrowHead Landing Options"/>
+	<label commandName="IDS_MLEADER_PROMPT06" devLabel="&#xA;Enter an option [Leader type/leader lAnding/Content type/Maxpoints/First angle/Second angle/eXit options] &amp;lt;%s&amp;gt;: " translation="&#xA;Wprowadź opcję [Typ linii odniesienia/linia łącząca linii ODniesienia/typ Zawartości/PUnkty maksymalne/Pierwszy kąt/Drugi kąt/Opcje zaKończenia] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT06_KW" devLabel="Leader lAnding Content Maxpoints First Second eXit _ Leader lAnding Content Maxpoints First Second eXit" translation="Typ ODniesienia Zawartości PUnkty Pierwszy Drugi zaKończenia _ Leader lAnding Content Maxpoints First Second eXit"/>
+	<label commandName="IDS_MLEADER_PROMPT07" devLabel="&#xA;Specify next point or [End] &amp;lt;End&amp;gt;: " translation="&#xA;Określ następny punkt lub [Koniec] &amp;lt;Koniec&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT07_KW" devLabel="End _ End" translation="Koniec _ End"/>
+	<label commandName="IDS_MLEADER_PROMPT08" devLabel="&#xA;Specify bend point" translation="&#xA;Określ punkt zagięcia"/>
+	<label commandName="IDS_MLEADER_PROMPT09" devLabel="&#xA;Specify leader arrowhead location: " translation="&#xA;Określ położenie grotu strzałki linii odniesienia: "/>
+	<label commandName="IDS_MLEADER_PROMPT10" devLabel="&#xA;Specify end point" translation="&#xA;Określ punkt końcowy"/>
+	<label commandName="IDS_MLEADER_PROMPT11" devLabel="&#xA;Specify landing distance &amp;lt;%.4f&amp;gt;: " translation="&#xA;Określ długość linii łączącej &amp;lt;%.4f&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT12" devLabel="&#xA;Specify opposite corner: " translation="&#xA;Określ przeciwległy narożnik: "/>
+	<label commandName="IDS_MLEADER_PROMPT13" devLabel="&#xA;Overwrite default text [Yes/No] &amp;lt;No&amp;gt;: " translation="&#xA;Nadpisz tekst domyślny [Tak/Nie] &amp;lt;Nie&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT13_KW" devLabel="Yes No _ Yes No" translation="Tak Nie _ Yes No"/>
+	<label commandName="IDS_MLEADER_PROMPT14" devLabel="&#xA;Select a leader type [Straight/sPline/None] &amp;lt;%s&amp;gt;: " translation="&#xA;Wybierz typ linii odniesienia [Prosta/Splajn/BRak] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT14_KW" devLabel="Straight sPline None _ Straight sPline None" translation="Prosta Splajn BRak _ Straight sPline None"/>
+	<label commandName="IDS_MLEADER_PROMPT15" devLabel="&#xA;Use landing [Yes/No] &amp;lt;Yes&amp;gt;: " translation="&#xA;Użyj linii łączącej [Tak/Nie] &amp;lt;Tak&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT15_KW" devLabel="Yes No _ Yes No" translation="Tak Nie _ Yes No"/>
+	<label commandName="IDS_MLEADER_PROMPT16" devLabel="&#xA;Specify fixed landing distance &amp;lt;%.4f&amp;gt;: " translation="&#xA;Określ stałą odległość linii łączącej &amp;lt;%.4f&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT17" devLabel="&#xA;Select a content type [Block/Mtext/None] &amp;lt;%s&amp;gt;: " translation="&#xA;Wybierz typ zawartości [Blok/Wtekst/BRak] &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT17_KW" devLabel="Block Mtext None _ Block Mtext None" translation="Blok Wtekst BRak _ Block Mtext None"/>
+	<label commandName="IDS_MLEADER_PROMPT18" devLabel="&#xA;Enter the maximum points for leader line &amp;lt;%d&amp;gt;: " translation="&#xA;Wprowadź maksymalną liczbę punktów dla linii odniesienia &amp;lt;%d&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT19" devLabel="&#xA;Enter first angle constraint &amp;lt;%.0f&amp;gt;: " translation="&#xA;Wprowadź wiązanie pierwszego kąta &amp;lt;%.0f&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT20" devLabel="&#xA;Enter second angle constraint &amp;lt;%.0f&amp;gt;: " translation="&#xA;Wprowadź wiązanie drugiego kąta &amp;lt;%.0f&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT21" devLabel="&#xA;Enter block name: " translation="&#xA;Wprowadź nazwę bloku: "/>
+	<label commandName="IDS_MLEADER_PROMPT22" devLabel="&#xA;Enter block name &amp;lt;%s&amp;gt;: " translation="&#xA;Wprowadź nazwę bloku &amp;lt;%s&amp;gt;: "/>
+	<label commandName="IDS_MLEADER_PROMPT25" devLabel="&#xA;Invalid Input." translation="&#xA;Nieprawidłowe dane wejściowe."/>
+	<label commandName="IDS_MLEADER_PROMPT26" devLabel="&#xA;Place balloon" translation="&#xA;Umieść numer pozycji"/>
+	<label commandName="IDS_MLEADER_PROMPT27" devLabel="&#xA;Select edge of component" translation="&#xA;Wybierz krawędź komponentu"/>
+	<label commandName="IDS_MLEADER_PROMPT28" devLabel="&#xA;Select edge: " translation="&#xA;Wybierz krawędź: "/>
+	<label commandName="IDS_MLEADER_PROMPT29" devLabel="&#xA;Select bend centerline" translation="&#xA;Wybierz linię środkową zagięcia"/>
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_INCREMENT" devLabel="&#xA;Set new increment value" translation="&#xA;Ustaw nową wartość przyrostu"/>
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_INITIAL" devLabel="&#xA;Set new Starting Number" translation="&#xA;Ustaw nowy numer początkowy"/>
+	<label commandName="IDS_SY_CMD_BALLOON_PROMPT_STRUCTURE_TYPE" devLabel="&#xA;Set balloon structure type " translation="&#xA;Ustaw typ struktury numeru pozycji "/>
+	<label commandName="IDS_SY_CMD_BALLOON_SEL_PROMPT_KWD1" devLabel="&#xA;Select balloon to renumber as %d " translation="&#xA;Wybierz numer pozycji do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_BALLOON_SEL_PROMPT_KWD2" devLabel="&#xA;Select balloon to renumber as %d " translation="&#xA;Wybierz numer pozycji do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_BENDTABLE_PROMPT" devLabel="&#xA;Place bend table. Press Shift to toggle flipping" translation="&#xA;Umieść tabelę gięcia. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_SY_CMD_HOLETABLE_PROMPT" devLabel="&#xA;Place hole table. Press Shift to toggle flipping" translation="&#xA;Umieść tabelę otworów. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_SY_CMD_LINKTABLE_PROMPT" devLabel="&#xA;Place Link table. Press Shift to toggle flipping" translation="&#xA;Umieść tabelę połączeń. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_SY_CMD_LINK_TABLE_PROMPT" devLabel="&#xA;Set Excel file path for link table " translation="&#xA;Ustaw ścieżkę pliku Excel dla tabeli połączeń "/>
+	<label commandName="IDS_SY_CMD_OUTPUTCSV_SELECT_PROMPT" devLabel="Select table" translation="Wybierz tabelę"/>
+	<label commandName="IDS_SY_CMD_PARTSLIST_PROMPT" devLabel="&#xA;Place parts list. Press Shift to toggle flipping" translation="&#xA;Umieść listę części. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_SY_CMD_PARTSLIST_SELECT_PROMPT" devLabel="Select drawing view" translation="Wybierz rzut rysunku"/>
+	<label commandName="IDS_SY_CMD_RENUMBER_BENDID_SEL_PROMPT_KWD1" devLabel="&#xA;Select bend identifier to renumber as %d " translation="&#xA;Wybierz identyfikator gięcia do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_RENUMBER_BENDID_SEL_PROMPT_KWD2" devLabel="&#xA;Select bend identifier to renumber as %d " translation="&#xA;Wybierz identyfikator gięcia do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_RENUMBER_PROMPT_TYPE" devLabel="&#xA;Set renumber selection type " translation="&#xA;Ustaw typ wyboru ponownego numerowania "/>
+	<label commandName="IDS_SY_CMD_RENUMBER_SEL_PROMPT_KWD1" devLabel="&#xA;Select balloon or bend identifier to renumber as %d " translation="&#xA;Wybierz numer pozycji lub identyfikator gięcia do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_RENUMBER_SEL_PROMPT_KWD2" devLabel="&#xA;Select balloon or bend identifier to renumber as %d " translation="&#xA;Wybierz numer pozycji lub identyfikator gięcia do ponownego numerowania jako %d "/>
+	<label commandName="IDS_SY_CMD_REVISIONTABLE_PROMPT" devLabel="&#xA;Place revision history. Press Shift to toggle flipping" translation="&#xA;Umieść historię rewizji. Naciśnij klawisz Shift, aby przełączyć odwracanie."/>
+	<label commandName="IDS_SY_CMD_TABLE_PROMPT_TYPE" devLabel="&#xA;Set renumber selection type " translation="&#xA;Ustaw typ wyboru ponownego numerowania "/>
+	<label commandName="IDS_SY_CMD_VIEWBASE_SELECT_FUSION_SOURCE" devLabel="&#xA;Enter Fusion Source File Name [DesignInfo]: " translation="&#xA;Wprowadź nazwę pliku źródłowego programu Fusion [DesignInfo]: "/>
+	<label commandName="IDS_SY_CMD_VIEWEDGE_SEL_PROMPT" devLabel="&#xA;Select edge: " translation="&#xA;Wybierz krawędź: "/>
+	<label commandName="IDS_SY_CMD_VIEWPROJ_SEL_PROMPT" devLabel="&#xA;Select parent view: " translation="&#xA;Wybierz widok macierzysty: "/>
+	<label commandName="IDS_SY_CMD_VIEW_FUSION_PATH_PROMPT" devLabel="&#xA;Enter Autodesk Fusion model folder path: " translation="&#xA;Wprowadź ścieżkę do folderu modelu programu Autodesk Fusion: "/>
+	<label commandName="IDS_Select_Break_Position" devLabel="&#xA;Select break position" translation="&#xA;Wybierz położenie przerwania"/>
+	<label commandName="Provide spacing value" devLabel="Spacing" translation="Odstęp"/>
+	<label commandName="REASSOCIATE_ORIGIN_PROMPT" devLabel="Select origin point" translation="Wybierz punkt początkowy"/>
+	<label commandName="REV_MARKER_LANDING_PROMPT" devLabel="&#xA;Place revision marker" translation="&#xA;Umieść znacznik rewizji"/>
+	<label commandName="REV_MARKER_SELECT_PROMPT" devLabel="&#xA;Select object or specify point" translation="&#xA;Wybierz obiekt lub określ punkt"/>
+</Resource>

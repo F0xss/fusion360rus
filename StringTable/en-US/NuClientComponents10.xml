@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="VisibilityToggleCmd" devLabel="Show/Hide" translation="" />
+	<label commandName="visibilityToggleWarningMsg" devLabel="Some of the work features you are trying to set visible are set to invisible currently in Object Visibility Options from Display Settings.They will remain invisible unless set in Object Visibility Options." translation="" />
+</Resource>

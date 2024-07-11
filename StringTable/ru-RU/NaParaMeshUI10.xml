@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Before / After No of Defects" devLabel="Before / After" translation="Vorher/Nachher"/>
+	<label commandName="BodyToCalculateFaceGroups" devLabel="Bodies/Face Groups" translation="Körper/Flächengruppen"/>
+	<label commandName="BodyToCalculateFaceGroupsToolTip" devLabel="Select mesh bodies or face groups to generate new face groups." translation="Wählen Sie Netzkörper oder Flächengruppen aus, um neue Flächengruppen zu erstellen."/>
+	<label commandName="BodyToEdit" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToEditToolTip" devLabel="Select a mesh body to edit directly" translation="Netzkörper zum direkten Bearbeiten auswählen"/>
+	<label commandName="BodyToExtractFrom" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToExtractFromToolTip" devLabel="Select mesh body to separate." translation="Wählen Sie den zu unterteilenden Netzkörper aus."/>
+	<label commandName="BodyToHollow" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToHollowToolTip" devLabel="Select a mesh body to shell." translation="Wählen Sie einen in eine Schale zu konvertierenden Netzkörper aus."/>
+	<label commandName="BodyToPlanarSection" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToPlanarSectionToolTip" devLabel="Select a mesh body to generate the section line from." translation="Wählen Sie einen Netzkörper aus, aus dem die Schnittlinie generiert werden soll."/>
+	<label commandName="BodyToPlaneCut" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToPlaneCutToolTip" devLabel="Select mesh body to cut." translation="Wählen Sie den zu schneidenden Netzkörper aus."/>
+	<label commandName="BodyToPosition" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToPositionToolTip" devLabel="" translation=""/>
+	<label commandName="BodyToQuadMesh" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToQuadMeshToolTip" devLabel="" translation=""/>
+	<label commandName="BodyToReduce" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToReduceDM" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="BodyToReduceDMToolTip" devLabel="Select a mesh body, face groups or faces to reduce." translation="Wählen Sie einen Netzkörper, Flächengruppen oder Flächen zum Reduzieren aus."/>
+	<label commandName="BodyToReducePM" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToReducePMToolTip" devLabel="Select a mesh body or face groups to reduce." translation="Wählen Sie einen Netzkörper oder Flächengruppen zum Reduzieren aus."/>
+	<label commandName="BodyToReduceToolTip" devLabel="Select mesh body or face groups to reduce." translation="Wählen Sie einen Netzkörper oder Flächengruppen zum Reduzieren aus."/>
+	<label commandName="BodyToRemesh" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToRemeshDM" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="BodyToRemeshDMToolTip" devLabel="Select a mesh body, face groups or faces to remesh." translation="Wählen Sie einen Netzkörper, Flächengruppen oder Flächen zum Neuvernetzen aus."/>
+	<label commandName="BodyToRemeshPM" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToRemeshPMToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Wählen Sie einen Netzkörper oder eine Flächengruppe zum Neuvernetzen aus."/>
+	<label commandName="BodyToRemeshToolTip" devLabel="Select a mesh body or face groups to remesh." translation="Wählen Sie einen Netzkörper oder eine Flächengruppe zum Neuvernetzen aus."/>
+	<label commandName="BodyToRemove" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToRemoveToolTip" devLabel="Select a mesh body to remove" translation="Zu entfernenden Netzkörper auswählen"/>
+	<label commandName="BodyToSmooth" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToSmoothDM" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="BodyToSmoothDMToolTip" devLabel="Select a mesh body, face groups or faces to smooth." translation="Wählen Sie einen Netzkörper, Flächengruppen oder Flächen zum Glätten aus."/>
+	<label commandName="BodyToSmoothPM" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="BodyToSmoothPMToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Wählen Sie einen Netzkörper oder Flächengruppen zum Glätten aus."/>
+	<label commandName="BodyToSmoothToolTip" devLabel="Select a mesh body or face groups to smooth." translation="Wählen Sie einen Netzkörper oder Flächengruppen für die Glättung aus."/>
+	<label commandName="BodyToTessellate" devLabel="Body" translation="Körper"/>
+	<label commandName="BodyToTessellateToolTip" devLabel="Select a solid or surface body to tessellate." translation="Wählen Sie einen Volumenkörper oder einen Flächenkörper zum Tessellieren aus."/>
+	<label commandName="BrushSize" devLabel="Brush Size" translation="Pinselgröße"/>
+	<label commandName="BrushSizeToolTip" devLabel="Adjust the brush size for paint selection." translation="Passen Sie die Pinselgröße für die Farbauswahl an."/>
+	<label commandName="CalculateFacegroupsSelectTargetBody" devLabel="Select mesh body" translation="Netzkörper auswählen"/>
+	<label commandName="CalculateFacegroupsSelectedTargetBody" devLabel="Select type and adjust settings" translation="Typ auswählen und Einstellungen anpassen"/>
+	<label commandName="CenterTransform" devLabel="Center" translation="Mittelpunkt"/>
+	<label commandName="CenterTransformToolTip" devLabel="Centers the mesh body on the origin of the active component." translation="Zentriert den Netzkörper am Ursprung der aktiven Komponente."/>
+	<label commandName="CmMKS" devLabel="Centimeter" translation="Zentimeter"/>
+	<label commandName="CmMKSToolTip" devLabel="One unit from the original file equals one centimeter." translation="Eine Einheit aus der ursprünglichen Datei entspricht einem Zentimeter."/>
+	<label commandName="ConvertMeshAdjustConversionSettings" devLabel="Adjust conversion settings" translation="Konvertierungseinstellungen anpassen"/>
+	<label commandName="ConvertMeshBaseFeature" devLabel="Base Feature" translation="Basiselement"/>
+	<label commandName="ConvertMeshBaseFeatureToolTip" devLabel="Creates a base feature or T-Spline form in the timeline that does not maintain any upstream parametric relationships." translation="Erstellt ein Basiselement oder eine T-Spline-Form auf der Zeitachse, für das/die keine übergeordneten parametrischen Beziehungen bestehen."/>
+	<label commandName="ConvertMeshOperation" devLabel="Operation" translation="Vorgang"/>
+	<label commandName="ConvertMeshOperationBaseFeatureToolTipDescription" devLabel="Converts the mesh body to a T-Spline form and opens the Form contextual environment. You can edit the form before completing the conversion." translation="Konvertiert den Netzkörper in eine T-Spline-Form und öffnet die kontextabhängige Umgebung Form. Sie können die Form bearbeiten, bevor Sie die Konvertierung abschließen."/>
+	<label commandName="ConvertMeshOperationParametricToolTipDescription" devLabel="Converts the mesh body to an organically shaped solid or surface body. You cannot edit the form before completing the conversion. If this method fails, try the Base Feature operation and select the Organic method." translation="Konvertiert den Netzkörper in einen organisch geformten Volumenkörper oder Flächenkörper. Sie können die Form vor der Konvertierung nicht bearbeiten. Wenn diese Methode fehlschlägt, führen Sie den Vorgang Basiselement durch, und wählen Sie die Methode Organisch aus."/>
+	<label commandName="ConvertMeshParametric" devLabel="Parametric" translation="Parametrisch"/>
+	<label commandName="ConvertMeshParametricToolTip" devLabel="Creates a feature in the timeline that maintains its upstream parametric relationships." translation="Erstellt ein Element auf der Zeitachse, dessen übergeordnete parametrische Beziehungen beibehalten werden."/>
+	<label commandName="ConvertMeshSelectTargetBody" devLabel="Select mesh body to convert" translation="Zu konvertierenden Netzkörper auswählen"/>
+	<label commandName="ConvertOrganicTargetType" devLabel="Resolution" translation="Auflösung"/>
+	<label commandName="ConvertSmoothBoundary" devLabel="Preprocess Holes" translation="Löcher vorverarbeiten"/>
+	<label commandName="ConvertSmoothBoundaryToolTip" devLabel="Smooths the boundaries of open holes in the mesh body.&lt;br/&gt;&lt;br/&gt;Improves the chance of successful conversion by refining the shape of holes that will remain open." translation="Glättet die Umgrenzungen von offenen Löchern im Netzkörper.&lt;br/&gt;&lt;br/&gt;Verbessert die Wahrscheinlichkeit einer erfolgreichen Konvertierung durch Verfeinern der Form von Löchern, die offen bleiben."/>
+	<label commandName="ConvertTargetFaceNumberInput" devLabel="" translation=""/>
+	<label commandName="ConvertTargetOrganicAccuracy" devLabel="Accuracy" translation="Genauigkeit"/>
+	<label commandName="CreateFaceGroupInput" devLabel="Faces" translation="Flächen"/>
+	<label commandName="CreateFaceGroupInputToolTip" devLabel="Select faces to include in the face group." translation="Wählen Sie Flächen aus, die in die Flächengruppe aufgenommen werden sollen."/>
+	<label commandName="CustomRefinementOption" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="CustomRefinementOptionToolTip" devLabel="Applies custom refinement settings to tessellate the body." translation="Wendet benutzerdefinierte Verfeinerungseinstellungen an, um den Körper zu tessellieren."/>
+	<label commandName="Cut" devLabel="Cut" translation="Ausschneiden"/>
+	<label commandName="CutSelectTargetBody" devLabel="Select mesh body to cut" translation="Zu schneidenden Netzkörper auswählen"/>
+	<label commandName="CutToolTip" devLabel="Removes overlapping areas from target body." translation="Entfernt überlappende Bereiche aus dem Zielkörper."/>
+	<label commandName="Defect Type" devLabel="Issue Type" translation="Aufgabentyp"/>
+	<label commandName="Defect TypeToolTip" devLabel="" translation=""/>
+	<label commandName="DefectTable" devLabel="Defect Table" translation="Fehlertabelle"/>
+	<label commandName="DefectTableToolTip" devLabel="" translation=""/>
+	<label commandName="DefectTypeTitle" devLabel="Issue Type" translation="Aufgabentyp"/>
+	<label commandName="DefectTypeTitleToolTip" devLabel="" translation=""/>
+	<label commandName="DegenerateEdge" devLabel="Degenerate Edges" translation="Fehlerhafte Kanten"/>
+	<label commandName="DegenerateThreshold" devLabel="Degenerate Threshold" translation="Fehlerhafter Grenzwert"/>
+	<label commandName="DegenerateThresholdToolTip" devLabel="Specify the maximum size of degenerate edges and faces to repair." translation="Geben Sie die maximale Größe der beschädigten Kanten und Flächen an, die repariert werden sollen."/>
+	<label commandName="DegenerateTriangle" devLabel="Degenerate Faces" translation="Fehlerhafte Flächen"/>
+	<label commandName="DensityTolInput" devLabel="" translation=""/>
+	<label commandName="DirectEditSelectTargetBody" devLabel="Select a mesh body to edit directly" translation="Netzkörper zum direkten Bearbeiten auswählen"/>
+	<label commandName="EnableDefect" devLabel="" translation=""/>
+	<label commandName="EnterIntoCreateMeshEnvironment" devLabel="You have entered into Mesh Direct Edit." translation="Sie haben die Direktbearbeitung für Netze aktiviert."/>
+	<label commandName="EraseAndFillDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="EraseAndFillDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Geben Sie die Dichte an, um die Anzahl der erstellten Flächen zu steuern."/>
+	<label commandName="EraseAndFillInput" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="EraseAndFillInputToolTip" devLabel="Select faces around a hole to fill or faces of a region to repair on a mesh body." translation="Wählen Sie Flächen um eine Bohrung, die Sie füllen möchten, oder Flächen eines Bereichs auf einem Netzkörper aus, die Sie reparieren möchten."/>
+	<label commandName="EraseAndFillMeshingType" devLabel="Type" translation="Typ"/>
+	<label commandName="EraseAndFillMeshingTypeToolTip" devLabel="" translation=""/>
+	<label commandName="EraseAndFillMinimalType" devLabel="Minimal" translation="Minimal"/>
+	<label commandName="EraseAndFillMinimalTypeToolTip" devLabel="Fills the selected region with the minimum number of faces, typically resulting in long, thin triangles." translation="Füllt den ausgewählten Bereich mit der minimalen Anzahl von Flächen, was in der Regel zu langen, dünnen Dreiecken führt."/>
+	<label commandName="EraseAndFillScale" devLabel="Scale" translation="Maßstab"/>
+	<label commandName="EraseAndFillScaleToolTip" devLabel="Specify weight to control the influence of surrounding faces on the new faces." translation="Geben Sie die Gewichtung an, um den Einfluss der umgebenden Flächen auf die neuen Flächen zu steuern."/>
+	<label commandName="EraseAndFillSmoothType" devLabel="Smooth" translation="Glatt"/>
+	<label commandName="EraseAndFillSmoothTypeToolTip" devLabel="Fills the selected region with the very smoothly with triangles and tries to keep the shape of the model." translation="Füllt den ausgewählten Bereich mit sehr glatten Dreiecken und versucht, die Form des Modells beizubehalten."/>
+	<label commandName="EraseAndFillUniformType" devLabel="Uniform" translation="Einheitlich"/>
+	<label commandName="EraseAndFillUniformTypeToolTip" devLabel="Fills the selected region with regular-shaped triangles." translation="Füllt den ausgewählten Bereich mit regelmäßig geformten Dreiecken."/>
+	<label commandName="EraseDensitySlider" devLabel="" translation=""/>
+	<label commandName="EraseDensitySliderToolTip" devLabel="" translation=""/>
+	<label commandName="EraseScaleSlider" devLabel="" translation=""/>
+	<label commandName="EraseScaleSliderToolTip" devLabel="" translation=""/>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Schließen"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Auf Verbunden erweitern"/>
+	<label commandName="ExpandToConnectedSelToolTip" devLabel="Expand face selection to all faces connected to the current selection." translation="Erweitern Sie die Flächenauswahl auf alle Flächen, die mit der aktuellen Auswahl verbunden sind."/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Auf Flächengruppe erweitern"/>
+	<label commandName="ExpandToGroupSelToolTip" devLabel="Expand face selection to include all faces in the same face group." translation="Erweitern Sie die Flächenauswahl, um alle Flächen in derselben Flächengruppe einzubeziehen."/>
+	<label commandName="FaceGroupCount" devLabel="Face Group Count" translation="Anzahl Flächengruppen"/>
+	<label commandName="FaceGroupCountToolTip" devLabel="" translation=""/>
+	<label commandName="FaceGroupPreviewCalculation" devLabel="Preview Calculation" translation="Vorschauberechnung"/>
+	<label commandName="FaceGroupPreviewCalculationToolTip" devLabel="Displays a preview of the face groups on the mesh body in the canvas." translation="Zeigt eine Vorschau der Flächengruppen auf dem Netzkörper im Ansichtsbereich an."/>
+	<label commandName="FaceGroupPreviewGroup" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="FaceGroupPreviewGroupToolTip" devLabel="" translation=""/>
+	<label commandName="FaceGroupsToMerge" devLabel="Face Groups" translation="Flächengruppen"/>
+	<label commandName="FaceGroupsToMergeToolTip" devLabel="Select two or more adjacent face groups on a mesh body to combine them." translation="Wählen Sie zwei oder mehr angrenzende Flächengruppen auf einem Netzkörper aus, um sie zu kombinieren."/>
+	<label commandName="FacesToReverse" devLabel="Body/Face Group" translation="Körper-/Flächengruppe"/>
+	<label commandName="FacesToReverseDM" devLabel="Selection" translation="Auswahl"/>
+	<label commandName="FacesToReverseDMToolTip" devLabel="Select a mesh body, face groups or faces to reverse." translation="Wählen Sie einen Netzkörper, Flächengruppen oder Flächen aus, die umgekehrt werden sollen."/>
+	<label commandName="FacesToReversePM" devLabel="Body/Face Groups" translation="Körper-/Flächengruppen"/>
+	<label commandName="FacesToReversePMToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Wählen Sie einen Netzkörper oder Flächengruppen aus, die umgekehrt werden sollen."/>
+	<label commandName="FacesToReverseToolTip" devLabel="Select a mesh body or face groups to reverse." translation="Wählen Sie einen Netzkörper oder Flächengruppen aus, die umgekehrt werden sollen."/>
+	<label commandName="FacetCount" devLabel="Facet Count" translation="Anzahl Facetten"/>
+	<label commandName="FastSegmentAreaInput" devLabel="" translation=""/>
+	<label commandName="FinishMeshPanel" devLabel="Finish Direct Editing" translation="Direktbearbeitung beenden"/>
+	<label commandName="GridAspectRatio" devLabel="Aspect Ratio" translation="Seitenverhältnis"/>
+	<label commandName="GridAspectRatioSlider" devLabel="" translation=""/>
+	<label commandName="GridAspectRatioSliderToolTip" devLabel="" translation=""/>
+	<label commandName="GridAspectRatioToolTip" devLabel="Specify ratio between the height and width of each face on the mesh body." translation="Geben Sie das Verhältnis zwischen Höhe und Breite der einzelnen Flächen auf dem Netzkörper an."/>
+	<label commandName="GroundTransform" devLabel="Move To Ground" translation="Auf Ausgangsebene verschieben"/>
+	<label commandName="GroundTransformToolTip" devLabel="Positions the bottom of the mesh body to rest on the ground plane of the active component." translation="Positioniert den unteren Rand des Netzkörpers, sodass er auf der Ausgangsebene der aktiven Komponente liegt."/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Auswahl vergrößern"/>
+	<label commandName="GrowMeshSelToolTip" devLabel="Increases the boundary of the selection set." translation="Vergrößert die Umgrenzung des Auswahlsatzes."/>
+	<label commandName="HighRefinementOption" devLabel="High" translation="Hoch"/>
+	<label commandName="HighRefinementOptionToolTip" devLabel="Applies a preset with high refinement settings to tessellate the body." translation="Wendet eine Voreinstellung mit hohen Verfeinerungseinstellungen an, um den Körper zu tessellieren."/>
+	<label commandName="HollowSelectTargetBody" devLabel="Select mesh body to shell" translation="Netzkörper für Schale auswählen"/>
+	<label commandName="HollowSelectedTargetBody" devLabel="Adjust direction and thickness" translation="Richtung und Dicke anpassen"/>
+	<label commandName="Imperial" devLabel="Foot" translation="Fuß"/>
+	<label commandName="ImperialToolTip" devLabel="One unit from the original file equals one foot." translation="Eine Einheit aus der ursprünglichen Datei entspricht einem Fuß."/>
+	<label commandName="InchImperial" devLabel="Inch" translation="Zoll"/>
+	<label commandName="InchImperialToolTip" devLabel="One unit from the original file equals one inch." translation="Eine Einheit aus der ursprünglichen Datei entspricht einem Zoll."/>
+	<label commandName="InfoPreview" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="InfoPreviewToolTip" devLabel="Displays a preview of the shelled mesh body in the canvas." translation="Zeigt eine Vorschau des Netzkörpers mit Wandung im Ansichtsbereich an."/>
+	<label commandName="InsertMesh" devLabel="Insert" translation="Einfügen"/>
+	<label commandName="InsideThicknessInput" devLabel="" translation=""/>
+	<label commandName="InspectDefects" devLabel="Detailed Analysis" translation="Detaillierte Analyse"/>
+	<label commandName="InspectDefectsToolTip" devLabel="Check to see a granular analysis of specific issues." translation="Aktivieren Sie diese Option, um eine detaillierte Analyse bestimmter Probleme anzuzeigen."/>
+	<label commandName="Intersect" devLabel="Intersect" translation="Schnittmenge"/>
+	<label commandName="IntersectToolTip" devLabel="Combines overlapping areas into a mesh body." translation="Kombiniert überlappende Bereiche zu einem Netzkörper."/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Auswahl invertieren"/>
+	<label commandName="InvertMeshSelToolTip" devLabel="Selects all faces that were previously not selected and deselects all faces that were previously selected." translation="Wählt alle Flächen aus, die zuvor nicht ausgewählt waren, und hebt die Auswahl aller Flächen auf, die zuvor ausgewählt waren."/>
+	<label commandName="Join" devLabel="Join" translation="Verbinden"/>
+	<label commandName="JoinToolTip" devLabel="Combines multiple mesh bodies into a single mesh body by enclosing their volumes." translation="Kombiniert mehrere Netzkörper zu einem einzelnen Netzkörper, indem deren Volumen eingeschlossen werden."/>
+	<label commandName="KeepToolBodiesOption" devLabel="Keep Tools" translation="Werkzeuge beibehalten"/>
+	<label commandName="KeepToolBodiesOptionToolTip" devLabel="Preserves a copy of each tool body." translation="Behält eine Kopie jedes Werkzeugkörpers bei."/>
+	<label commandName="LoadMeshFilter" devLabel="Mesh Files (*.3mf *.obj *.stl);;STL File (*.stl);;3MF File (*.3mf);;OBJ File (*.obj)" translation="Netzdateien (*.3mf, *.obj, *.stl);;STL-Datei (*.stl);;3MF-Datei (*.3mf);;OBJ-Datei (*.obj)"/>
+	<label commandName="LowRefinementOption" devLabel="Low" translation="Niedrig"/>
+	<label commandName="LowRefinementOptionToolTip" devLabel="Applies a preset with low refinement settings to tessellate the body" translation="Wendet eine Voreinstellung mit niedrigen Verfeinerungseinstellungen an, um den Körper zu tessellieren"/>
+	<label commandName="MESH_MANY_TRIANGLE_WARNING" devLabel="This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="Dieses Netz hat mehr als 10000 Dreiecke. Die Berechnung wird länger dauern."/>
+	<label commandName="MMKS" devLabel="Meter" translation="Meter"/>
+	<label commandName="MMKSToolTip" devLabel="One unit from the original file equals one meter." translation="Eine Einheit aus der ursprünglichen Datei entspricht einem Meter."/>
+	<label commandName="MakeSolid" devLabel="Rebuild" translation="Neuerstellung"/>
+	<label commandName="MakeSolidToolTip" devLabel="Reconstructs the mesh body using one of 4 rebuild types. All inner structures are destroyed. (Slowest)" translation="Stellt den Netzkörper mit einem von vier Neuerstellungstypen wieder her. Alle inneren Strukturen werden zerstört. (Am langsamsten)"/>
+	<label commandName="MaxEdgeLengthSlider" devLabel="" translation=""/>
+	<label commandName="MaxEdgeLengthSliderToolTip" devLabel="" translation=""/>
+	<label commandName="MaximumEdgeLength" devLabel="Maximum Edge Length" translation="Maximale Kantenlänge"/>
+	<label commandName="MaximumEdgeLengthToolTip" devLabel="Specify maximum length of any face edge on the mesh body." translation="Geben Sie die maximale Länge einer Flächenkante auf dem Netzkörper an."/>
+	<label commandName="MediumRefinementOption" devLabel="Medium" translation="Mittel"/>
+	<label commandName="MediumRefinementOptionToolTip" devLabel="Applies a preset with medium refinement settings to tessellate the body." translation="Wendet eine Voreinstellung mit mittleren Verfeinerungseinstellungen an, um den Körper zu tessellieren."/>
+	<label commandName="Merge" devLabel="Merge" translation="Zusammenführen"/>
+	<label commandName="MergeFaceGroupsSelectTargetBody" devLabel="Select two or more adjacent face groups" translation="Zwei oder mehr angrenzende Flächengruppen auswählen"/>
+	<label commandName="MergeToolTip" devLabel="Combines multiple mesh bodies into a single mesh body without altering the faces of the original mesh bodies." translation="Kombiniert mehrere Netzkörper zu einem einzelnen Netzkörper, ohne die Flächen der ursprünglichen Netzkörper zu ändern."/>
+	<label commandName="Mesh" devLabel="Mesh" translation="Netz"/>
+	<label commandName="MeshBodyPrompt" devLabel="Select mesh body" translation="Netzkörper auswählen"/>
+	<label commandName="MeshCombineOperation" devLabel="Operation" translation="Vorgang"/>
+	<label commandName="MeshCombineOperationToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Wählen Sie Netzkörper aus, die mit dem Zielkörper kombiniert werden sollen."/>
+	<label commandName="MeshCutSplitFaces" devLabel="Split Faces" translation="Flächen teilen"/>
+	<label commandName="MeshCutSplitFacesToolTip" devLabel="Splits mesh faces along the cut plane and maintains a single mesh body." translation="Trennt Netzflächen entlang der Schnittebene und behält einen einzelnen Netzkörper bei."/>
+	<label commandName="MeshDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="MeshDensityToolTip" devLabel="Increase or decrease density of triangles in mesh body." translation="Erhöht oder verringert die Dichte der Dreiecke im Netzkörper."/>
+	<label commandName="MeshDistance" devLabel="Offset" translation="Versatz"/>
+	<label commandName="MeshDistanceToolTip" devLabel="Specify distance to offset repaired mesh from original mesh body." translation="Gibt den Versatzabstand des reparierten Netzes zum ursprünglichen Netzkörper an."/>
+	<label commandName="MeshExtractAllFaceGroupsOption" devLabel="All Face Groups" translation="Alle Flächengruppen"/>
+	<label commandName="MeshExtractAllFaceGroupsOptionToolTip" devLabel="Separates all face groups into independent mesh bodies." translation="Unterteilt alle Flächengruppen in unabhängige Netzkörper."/>
+	<label commandName="MeshExtractAsSeparateBodies" devLabel="Multiple Bodies" translation="Mehrere Körper"/>
+	<label commandName="MeshExtractAsSeparateBodiesToolTip" devLabel="Separates each face group into an independent mesh body." translation="Unterteilt jede Flächengruppe in einen unabhängigen Netzkörper."/>
+	<label commandName="MeshExtractPreserveSourceBody" devLabel="Keep Body" translation="Körper beibehalten"/>
+	<label commandName="MeshExtractPreserveSourceBodyToolTip" devLabel="Preserves a copy of the original mesh body." translation="Behält eine Kopie des ursprünglichen Netzkörpers bei."/>
+	<label commandName="MeshExtractSelectedFaceGroups" devLabel="Face Groups" translation="Flächengruppen"/>
+	<label commandName="MeshExtractSelectedFaceGroupsOption" devLabel="Select Face Groups" translation="Flächengruppen auswählen"/>
+	<label commandName="MeshExtractSelectedFaceGroupsOptionToolTip" devLabel="Separates a selection of face groups into one ore more independent mesh bodies." translation="Unterteilt eine Auswahl von Flächengruppen in einen oder mehrere unabhängige Netzkörper."/>
+	<label commandName="MeshExtractSelectedFaceGroupsToolTip" devLabel="Select face groups on mesh body to separate." translation="Wählen Sie Flächengruppen auf dem Netzkörper aus, die unterteilt werden sollen."/>
+	<label commandName="MeshExtractSelectedFaces" devLabel="Faces" translation="Flächen"/>
+	<label commandName="MeshExtractSelectedFacesOption" devLabel="Select Faces" translation="Flächen auswählen"/>
+	<label commandName="MeshExtractSelectedFacesOptionToolTip" devLabel="Separates a selection of faces into an independent mesh body." translation="Unterteilt eine Auswahl von Flächen in einen unabhängigen Netzkörper."/>
+	<label commandName="MeshExtractSelectedFacesToolTip" devLabel="Select face groups on mesh body to separate." translation="Wählen Sie Flächengruppen auf dem Netzkörper aus, die unterteilt werden sollen."/>
+	<label commandName="MeshExtractShellsOption" devLabel="Mesh Shells" translation="Netzschalen"/>
+	<label commandName="MeshExtractShellsOptionToolTip" devLabel="Separates all mesh shells into independent mesh bodies." translation="Unterteilt alle Netzschalen in unabhängige Netzkörper."/>
+	<label commandName="MeshExtractTypeInput" devLabel="Type" translation="Typ"/>
+	<label commandName="MeshExtractTypeInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshModifyFastSegmentAreaInput" devLabel="Minimum Face Group Size" translation="Minimale Flächengruppengröße"/>
+	<label commandName="MeshModifyFastSegmentAreaInputToolTip" devLabel="Specify percentage of the overall mesh area to determine smallest face group." translation="Geben Sie einen Prozentsatz des gesamten Netzbereichs an, um die kleinste Flächengruppe zu bestimmen."/>
+	<label commandName="MeshModifyInsideThicknessInput" devLabel="Thickness" translation="Dicke"/>
+	<label commandName="MeshModifyInsideThicknessInputToolTip" devLabel="Specify the distance to offset the mesh body." translation="Geben Sie den Abstand für den Versatz des Netzkörpers an."/>
+	<label commandName="MeshModifyOpeningAngleInput" devLabel="Angle Threshold" translation="Winkelgrenzwert"/>
+	<label commandName="MeshModifyOpeningAngleInputToolTip" devLabel="Specify normal angle threshold between faces to determine face group boundaries." translation="Geben Sie einen normalen Winkelgrenzwert zwischen Flächen an, um die Flächengruppenbegrenzungen zu bestimmen."/>
+	<label commandName="MeshModifySegmentToleranceInput" devLabel="Boundary Tolerance" translation="Grenzlinientoleranz"/>
+	<label commandName="MeshModifySegmentToleranceInputToolTip" devLabel="Specify tolerance to define face group boundaries, as a proportion of the largest distance value on the mesh body." translation="Geben Sie die Toleranz für die Definition von Flächengruppenbegrenzungen als Verhältnis des größten Abstandswerts auf dem Netzkörper an."/>
+	<label commandName="MeshModifySmoothnessInput" devLabel="Smoothness" translation="Glätte"/>
+	<label commandName="MeshModifySmoothnessInputToolTip" devLabel="Specify the degree of smoothness to apply to the mesh body." translation="Geben Sie den Glättungsgrad an, der auf den Netzkörper angewendet werden soll."/>
+	<label commandName="MeshPlanarSectionPlaneSel" devLabel="Section Plane" translation="Schnittebene"/>
+	<label commandName="MeshPlanarSectionPlaneSelToolTip" devLabel="Select a plane to intersect the mesh body." translation="Wählen Sie eine Ebene aus, die den Netzkörper schneiden soll."/>
+	<label commandName="MeshPlanarSectionTransfPlane" devLabel="Transform Plane" translation="Ebene transformieren"/>
+	<label commandName="MeshPlanarSectionTransfPlaneToolTip" devLabel="" translation=""/>
+	<label commandName="MeshPlaneCutFillMinimal" devLabel="Minimal" translation="Minimal"/>
+	<label commandName="MeshPlaneCutFillMinimalToolTip" devLabel="Adds a minimal number of mesh faces to close mesh body." translation="Fügt eine minimale Anzahl von Netzflächen hinzu, um den Netzkörper zu schließen."/>
+	<label commandName="MeshPlaneCutFillNone" devLabel="No Fill" translation="Keine Füllung"/>
+	<label commandName="MeshPlaneCutFillNoneToolTip" devLabel="Does not add mesh faces to close mesh body." translation="Es werden keine Netzflächen hinzugefügt, um den Netzkörper zu schließen."/>
+	<label commandName="MeshPlaneCutFillType" devLabel="Fill Type" translation="Füllungstyp"/>
+	<label commandName="MeshPlaneCutFillTypeToolTip" devLabel="" translation=""/>
+	<label commandName="MeshPlaneCutFillUniform" devLabel="Uniform" translation="Einheitlich"/>
+	<label commandName="MeshPlaneCutFillUniformToolTip" devLabel="Adds a uniform set of mesh faces to close mesh body." translation="Fügt einen einheitlichen Satz von Netzflächen hinzu, um den Netzkörper zu schließen."/>
+	<label commandName="MeshPlaneCutFlipTrimDir" devLabel="Flip" translation="Umkehren"/>
+	<label commandName="MeshPlaneCutFlipTrimDirToolTip" devLabel="Flips side of mesh body to trim relative to cut plane." translation="Kehrt die Seite des Netzkörpers um, um sie relativ zur Schnittebene zu stutzen."/>
+	<label commandName="MeshPlaneCutPlanePrompt" devLabel="Select section plane" translation="Schnittebene auswählen"/>
+	<label commandName="MeshPlaneCutPlaneSel" devLabel="Cut Plane" translation="Schnittebene"/>
+	<label commandName="MeshPlaneCutPlaneSelToolTip" devLabel="Select plane to cut through mesh body." translation="Wählen Sie eine Ebene aus, um durch den Netzkörper zu schneiden."/>
+	<label commandName="MeshPlaneCutSelectPlanePrompt" devLabel="Select a cut plane" translation="Schnittebene auswählen"/>
+	<label commandName="MeshPlaneCutSelectTransformPlanePrompt" devLabel="Position cut plane or select cut type and fill type" translation="Schnittebene positionieren oder Schnitt- und Füllungstyp auswählen"/>
+	<label commandName="MeshPlaneCutSplitBody" devLabel="Split Body" translation="Körper teilen"/>
+	<label commandName="MeshPlaneCutSplitBodyToolTip" devLabel="Splits mesh faces along the cut plane, then separates the mesh body into two mesh bodies." translation="Trennt Netzflächen entlang der Schnittebene und unterteilt dann den Netzkörper in zwei Netzkörper."/>
+	<label commandName="MeshPlaneCutTransfPlane" devLabel="Transform Plane" translation="Ebene transformieren"/>
+	<label commandName="MeshPlaneCutTransfPlaneToolTip" devLabel="Select plane to cut through mesh body." translation="Wählen Sie eine Ebene aus, um durch den Netzkörper zu schneiden."/>
+	<label commandName="MeshPlaneCutTransformPlanePrompt" devLabel="Adjust distance and angles to orient section plane" translation="Abstand und Winkel zum Ausrichten der Schnittebene anpassen"/>
+	<label commandName="MeshPlaneCutTrim" devLabel="Trim" translation="Stutzen"/>
+	<label commandName="MeshPlaneCutTrimToolTip" devLabel="Splits mesh faces along the cut plane, then removes one side of the mesh body." translation="Trennt Netzflächen entlang der Schnittebene, und entfernt dann eine Seite des Netzkörpers."/>
+	<label commandName="MeshPlaneCutType" devLabel="Type" translation="Typ"/>
+	<label commandName="MeshPlaneCutTypeToolTip" devLabel="" translation=""/>
+	<label commandName="MeshRepairRebuildInput" devLabel="Rebuild Type" translation="Neuerstellungstyp"/>
+	<label commandName="MeshRepairRebuildInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshRepairTypeInput" devLabel="Repair Type" translation="Reparaturtyp"/>
+	<label commandName="MeshRepairTypeInputToolTip" devLabel="" translation=""/>
+	<label commandName="MeshSanityCheck" devLabel="Quick Analysis" translation="Schnellanalyse"/>
+	<label commandName="MeshSanityCheckToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToAdopt" devLabel="Mesh To Adopt" translation="Zu übernehmendes Netz"/>
+	<label commandName="MeshToAdoptToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToBREPAlgorithmInput" devLabel="Method" translation="Methode"/>
+	<label commandName="MeshToDemote" devLabel="Mesh To Convert" translation="Zu konvertierendes Netz"/>
+	<label commandName="MeshToDemoteToolTip" devLabel="" translation=""/>
+	<label commandName="MeshToToBREP" devLabel="Body" translation="Körper"/>
+	<label commandName="MeshToToBREPToolTip" devLabel="Select a mesh body to convert." translation="Wählen Sie einen Netzkörper zum Konvertieren aus."/>
+	<label commandName="MeshToolTip" devLabel="" translation=""/>
+	<label commandName="MeshingTypeOption_1" devLabel="Remesh Type" translation="Neuvernetzungstyp"/>
+	<label commandName="MeshingTypeOption_1ToolTip" devLabel="" translation=""/>
+	<label commandName="MmMKS" devLabel="Millimeter" translation="Millimeter"/>
+	<label commandName="MmMKSToolTip" devLabel="One unit from the original file equals one millimeter." translation="Eine Einheit aus der ursprünglichen Datei entspricht einem Millimeter."/>
+	<label commandName="ModelOpacity" devLabel="Opacity" translation="Opazität"/>
+	<label commandName="ModelOpacityToolTip" devLabel="Adjust the opacity of the mesh body to investigate issues more easily." translation="Passen Sie die Opazität des Netzkörpers an, um Probleme einfacher untersuchen zu können."/>
+	<label commandName="NDefectsTitle" devLabel="Number of Defects" translation="Anzahl der Fehler"/>
+	<label commandName="NDefectsTitleToolTip" devLabel="" translation=""/>
+	<label commandName="Ndefects" devLabel="Number of Defects" translation="Anzahl der Fehler"/>
+	<label commandName="NdefectsToolTip" devLabel="" translation=""/>
+	<label commandName="NewComponentOption" devLabel="New Component" translation="Neue Komponente"/>
+	<label commandName="NewComponentOptionToolTip" devLabel="Creates a new component to contain combined mesh bodies." translation="Erstellt eine neue Komponente, die kombinierte Netzkörper enthält."/>
+	<label commandName="No" devLabel="No" translation="Nein"/>
+	<label commandName="No of Defects" devLabel="Number" translation="Anzahl"/>
+	<label commandName="NonManifold" devLabel="Non-Manifold Edges" translation="Nicht-bündige Kanten"/>
+	<label commandName="NormalThresholdInput" devLabel="" translation=""/>
+	<label commandName="NormalTolSlider" devLabel="" translation=""/>
+	<label commandName="NormalTolSliderToolTip" devLabel="" translation=""/>
+	<label commandName="NormalTolerance" devLabel="Normal Deviation" translation="Normales Abmaß"/>
+	<label commandName="NormalToleranceToolTip" devLabel="Specify maximum angle between the normal vectors of each face on the mesh body." translation="Geben Sie den maximalen Winkel zwischen den Normalenvektoren jeder Fläche auf dem Netzkörper an."/>
+	<label commandName="NumericalInputsGroup" devLabel="Numerical Inputs" translation="Numerische Eingaben"/>
+	<label commandName="NumericalInputsGroupToolTip" devLabel="" translation=""/>
+	<label commandName="OpenBoundary" devLabel="Open Boundaries" translation="Offene Umgrenzungen"/>
+	<label commandName="Organic Conversion" devLabel="Organic conversion" translation="Organische Konvertierung"/>
+	<label commandName="ParaMEshMeshEditText" devLabel="Directly editing this mesh body will create a copy of the original up to this point in history.&#xA;&#xA;Preserve the history of the original body?" translation="Durch die direkte Bearbeitung dieses Netzkörpers wird eine Kopie des Originals bis zu diesem Punkt im Verlauf erstellt.&#xA;&#xA;Soll der Verlauf des ursprünglichen Körpers beibehalten werden?"/>
+	<label commandName="ParaMesh" devLabel="Mesh" translation="Netz"/>
+	<label commandName="ParaMesh Environment" devLabel="ParaMesh" translation="Parametrisches Netz"/>
+	<label commandName="ParaMeshAdoptCommand" devLabel="Convert Mesh body to Parametric Mesh" translation="Netzkörper in parametrisches Netz konvertieren"/>
+	<label commandName="ParaMeshBaseFeatureActivateCommand" devLabel="Edit" translation="Bearbeiten"/>
+	<label commandName="ParaMeshBaseFeatureCreateCommand" devLabel="Direct Edit" translation="Direktbearbeitung"/>
+	<label commandName="ParaMeshBaseFeatureStopCommand" devLabel="Finish Direct Edit" translation="Direktbearbeitung beenden"/>
+	<label commandName="ParaMeshCalculateFaceGroupsCommand" devLabel="Generate Face Groups" translation="Flächengruppen generieren"/>
+	<label commandName="ParaMeshCombineCommand" devLabel="Combine" translation="Kombinieren"/>
+	<label commandName="ParaMeshConvertCommand" devLabel="Convert Mesh" translation="Netz konvertieren"/>
+	<label commandName="ParaMeshCreateFaceGroupCommand" devLabel="Create Face Group" translation="Flächengruppe erstellen"/>
+	<label commandName="ParaMeshCreateFaceGroupSelectPrompt" devLabel="Select faces on mesh body" translation="Flächen auf Netzkörper auswählen"/>
+	<label commandName="ParaMeshDcCalculateFaceGroupsEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcCombineEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcConvertEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcConvertEditCommandRestricted" devLabel="Convert Mesh, Cannot be edited" translation="Netz konvertieren, kann nicht bearbeitet werden"/>
+	<label commandName="ParaMeshDcExtractEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcHollowEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcMergeFaceGroupsEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcMoveEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcPlanarSectionEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcPlaneCutEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcReduceEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcRemeshEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcRepairEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcReverseNormalsEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcScaleEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcSmoothEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcTessellateEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDcToQuadMeshEditCommand" devLabel="Edit Feature" translation="Element bearbeiten"/>
+	<label commandName="ParaMeshDemoteCommand" devLabel="Convert Parametric Mesh to Mesh body " translation="Parametrisches Netz in Netzkörper konvertieren "/>
+	<label commandName="ParaMeshEmptyBaseFeatureCommand" devLabel="Create Base Mesh Feature" translation="Grundnetzelement erstellen"/>
+	<label commandName="ParaMeshEraseAndFillCommand" devLabel="Erase And Fill" translation="Löschen und Füllen"/>
+	<label commandName="ParaMeshEraseAndFillSelectPrompt" devLabel="Select faces to repair or double-click a face at the edge of a hole to fill" translation="Zu reparierende Flächen auswählen oder auf eine Fläche an der Kante einer zu füllenden Bohrung doppelklicken"/>
+	<label commandName="ParaMeshExtractCommand" devLabel="Separate" translation="Trennen"/>
+	<label commandName="ParaMeshFaceGroup" devLabel="Face Group on Parametric Mesh" translation="Flächengruppe auf parametrischem Netz"/>
+	<label commandName="ParaMeshFlatMeshShading" devLabel="Flat Shaded" translation="Flach schattiert"/>
+	<label commandName="ParaMeshHollowCommand" devLabel="Shell" translation="Schale"/>
+	<label commandName="ParaMeshInsertAlignCommand" devLabel="Insert Mesh" translation="Netz einfügen"/>
+	<label commandName="ParaMeshInsertCommand" devLabel="Insert Mesh" translation="Netz einfügen"/>
+	<label commandName="ParaMeshMergeFaceGroupsCommand" devLabel="Combine Face Groups" translation="Flächengruppen kombinieren"/>
+	<label commandName="ParaMeshMeshEditTitle" devLabel="Direct mesh editing" translation="Direkte Netzbearbeitung"/>
+	<label commandName="ParaMeshPlanarSectionCommand" devLabel="Create Mesh Section Sketch" translation="Netzschnittskizze erstellen"/>
+	<label commandName="ParaMeshPlaneCutCommand" devLabel="Plane Cut" translation="Ebenenschnitt"/>
+	<label commandName="ParaMeshPositionCommand" devLabel="Insert Mesh" translation="Netz einfügen"/>
+	<label commandName="ParaMeshPropAppearance" devLabel="Appearance" translation="Darstellung"/>
+	<label commandName="ParaMeshPropArea" devLabel="Area" translation="Bereich"/>
+	<label commandName="ParaMeshPropBody" devLabel="Body" translation="Körper"/>
+	<label commandName="ParaMeshPropDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="ParaMeshPropFaceGroupCount" devLabel="Face Group Count" translation="Anzahl Flächengruppen"/>
+	<label commandName="ParaMeshPropFacetCount" devLabel="Facet Count" translation="Anzahl Facetten"/>
+	<label commandName="ParaMeshPropHasColor" devLabel="Color" translation="Farbe"/>
+	<label commandName="ParaMeshPropHasPositiveVolume" devLabel="Mesh has Positive Volume" translation="Netz hat positives Volumen"/>
+	<label commandName="ParaMeshPropHasTextures" devLabel="Texture Count" translation="Anzahl Texturen"/>
+	<label commandName="ParaMeshPropIsClosed" devLabel="Mesh is Closed" translation="Netz ist geschlossen"/>
+	<label commandName="ParaMeshPropIsOriented" devLabel="Mesh is Oriented" translation="Netz ist ausgerichtet"/>
+	<label commandName="ParaMeshPropMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="ParaMeshPropMaterial" devLabel="Physical Material" translation="Material"/>
+	<label commandName="ParaMeshPropMesh" devLabel="Mesh" translation="Netz"/>
+	<label commandName="ParaMeshPropMeshAnalysis" devLabel="Mesh Analysis" translation="Netzanalyse"/>
+	<label commandName="ParaMeshPropShellCount" devLabel="Shell Count" translation="Anzahl Schalen"/>
+	<label commandName="ParaMeshPropVertexCount" devLabel="Vertex Count" translation="Scheitelpunktanzahl"/>
+	<label commandName="ParaMeshPropVolume" devLabel="Volume" translation="Volumen"/>
+	<label commandName="ParaMeshReduceCommand" devLabel="Reduce" translation="Reduzieren"/>
+	<label commandName="ParaMeshRemeshCommand" devLabel="Remesh" translation="Neu vernetzen"/>
+	<label commandName="ParaMeshRemoveCommand" devLabel="Remove" translation="Entfernen"/>
+	<label commandName="ParaMeshRepairCommand" devLabel="Repair" translation="Reparieren"/>
+	<label commandName="ParaMeshReverseNormalsCommand" devLabel="Reverse Normal" translation="Normale umkehren"/>
+	<label commandName="ParaMeshScaleCommand" devLabel="Scale Mesh" translation="Netz skalieren"/>
+	<label commandName="ParaMeshSelectionPalette" devLabel="Mesh Selection Palette" translation="Netzauswahlpalette"/>
+	<label commandName="ParaMeshShowSelectionPanel" devLabel="Mesh Palette" translation="Netzpalette"/>
+	<label commandName="ParaMeshSmoothCommand" devLabel="Smooth" translation="Glatt"/>
+	<label commandName="ParaMeshSmoothMeshShading" devLabel="Smooth Shaded" translation="Glatt schattiert"/>
+	<label commandName="ParaMeshStatusClosed" devLabel="Mesh is closed." translation="Netz ist geschlossen."/>
+	<label commandName="ParaMeshStatusEmptyMesh" devLabel="Mesh is empty." translation="Netz ist leer."/>
+	<label commandName="ParaMeshStatusNegativeVolume" devLabel="Mesh does not have positive volume." translation="Netz hat kein positives Volumen."/>
+	<label commandName="ParaMeshStatusNotClosed" devLabel="Mesh is not closed." translation="Netz ist nicht geschlossen."/>
+	<label commandName="ParaMeshStatusNotOriented" devLabel="Mesh is not oriented." translation="Netz ist nicht ausgerichtet."/>
+	<label commandName="ParaMeshStatusOriented" devLabel="Mesh is oriented." translation="Netz ist ausgerichtet."/>
+	<label commandName="ParaMeshStatusPositiveVolume" devLabel="Mesh has a positive volume." translation="Netz hat ein positives Volumen."/>
+	<label commandName="ParaMeshTessellateCommand" devLabel="Tessellate" translation="Tessellieren"/>
+	<label commandName="ParaMeshToQuadMeshCommand" devLabel="Convert To Quad Mesh" translation="In Quad-Netz konvertieren"/>
+	<label commandName="PositionInputsGroup" devLabel="Position" translation="Position"/>
+	<label commandName="PositionInputsGroupToolTip" devLabel="" translation=""/>
+	<label commandName="PositionMeshTransformInput" devLabel="Distance" translation="Abstand"/>
+	<label commandName="PositionMeshTransformInputToolTip" devLabel="" translation=""/>
+	<label commandName="PreviewCalculation" devLabel="Preview Calculation" translation="Vorschauberechnung"/>
+	<label commandName="PreviewCalculationToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Zeigt eine Vorschau des neuen Netzkörpers über dem ursprünglichen Volumenkörper oder Flächenkörper im Ansichtsbereich an."/>
+	<label commandName="PreviewGroupStart" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="PreviewGroupStartToolTip" devLabel="Displays a preview of the new mesh body over the original solid or surface body in the canvas." translation="Zeigt eine Vorschau des neuen Netzkörpers über dem ursprünglichen Volumenkörper oder Flächenkörper im Ansichtsbereich an."/>
+	<label commandName="PreviewInput" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="PreviewInputToolTip" devLabel="Displays a preview of the combined mesh bodies in the canvas." translation="Zeigt eine Vorschau der kombinierten Netzkörper im Ansichtsbereich an."/>
+	<label commandName="Prismatic Conversion" devLabel="Prismatic conversion" translation="Prismatische Konvertierung"/>
+	<label commandName="QuadCount" devLabel="Quad Count" translation="Anzahl Vierecke"/>
+	<label commandName="QuadCountToolTip" devLabel="Displays the total number of quads that will be created on the new mesh body." translation="Zeigt die Gesamtzahl der Vierecke an, die auf dem neuen Netzkörper erstellt werden."/>
+	<label commandName="QuadMeshModifyPreserveBoundaries" devLabel="Preserve Boundaries" translation="Umgrenzungen beibehalten"/>
+	<label commandName="QuadMeshModifyPreserveBoundariesToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshModifyPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Scharfe Kanten beibehalten"/>
+	<label commandName="QuadMeshModifyPreserveSharpEdgesToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshModifyTargetEdgeLengthInput" devLabel="Target Edge Length" translation="Zielkantenlänge"/>
+	<label commandName="QuadMeshModifyTargetEdgeLengthInputToolTip" devLabel="" translation=""/>
+	<label commandName="QuadMeshOutputType" devLabel="Output type" translation="Ausgabetyp"/>
+	<label commandName="QuadMeshOutputTypeToolTip" devLabel="" translation=""/>
+	<label commandName="ReduceFacetCount" devLabel="Face Count" translation="Flächenanzahl"/>
+	<label commandName="ReduceFacetCountToolTip" devLabel="Specify the number of faces to include in the reduced mesh." translation="Geben Sie die Anzahl der Flächen an, die in das reduzierte Netz aufgenommen werden sollen."/>
+	<label commandName="ReduceFacetsInput" devLabel="" translation=""/>
+	<label commandName="ReduceMaxDeviationInput" devLabel="" translation=""/>
+	<label commandName="ReducePreviewInput" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="ReducePreviewInputToolTip" devLabel="Displays a preview of the reduced mesh body in the canvas." translation="Zeigt eine Vorschau des reduzierten Netzkörpers im Ansichtsbereich an."/>
+	<label commandName="ReduceProportion" devLabel="Proportion" translation="Proportion"/>
+	<label commandName="ReduceProportionInput" devLabel="" translation=""/>
+	<label commandName="ReduceProportionToolTip" devLabel="Specify a percentage of the original number of faces to include in the reduced mesh." translation="Geben Sie einen Prozentsatz der ursprünglichen Anzahl von Flächen an, die in das reduzierte Netz aufgenommen werden sollen."/>
+	<label commandName="ReduceSelectTargetBody" devLabel="Select mesh body or face groups to reduce" translation="Netzkörper oder Flächengruppen zum Reduzieren auswählen"/>
+	<label commandName="ReduceSelectTargetBodyFaces" devLabel="Select parts of mesh body to reduce" translation="Bauteile des Netzkörpers zum Reduzieren auswählen"/>
+	<label commandName="ReduceSelectedTargetBody" devLabel="Adjust reduce type and settings" translation="Reduktionstyp und -einstellungen anpassen"/>
+	<label commandName="ReduceType" devLabel="Type" translation="Typ"/>
+	<label commandName="ReduceTypeProportion" devLabel="Proportion" translation="Proportion"/>
+	<label commandName="ReduceTypeProportionToolTip" devLabel="Reduces mesh to a proportion of the number of faces on the original mesh." translation="Reduziert das Netz auf einen bestimmten Anteil der Flächen auf dem ursprünglichen Netz."/>
+	<label commandName="ReduceTypeToolTip" devLabel="" translation=""/>
+	<label commandName="ReduceTypetolerance" devLabel="Tolerance" translation="Toleranz"/>
+	<label commandName="ReduceTypetoleranceToolTip" devLabel="Reduces mesh by merging faces within a maximum deviation from the original mesh shape." translation="Reduziert das Netz durch Zusammenführen von Flächen innerhalb einer maximalen Abweichung von der ursprünglichen Netzform."/>
+	<label commandName="RefinementGroup" devLabel="Refinement Settings" translation="Verfeinerungseinstellungen"/>
+	<label commandName="RefinementGroupToolTip" devLabel="" translation=""/>
+	<label commandName="RefinementOptionsInput" devLabel="Refinement" translation="Verfeinerung"/>
+	<label commandName="RefinementOptionsInputToolTip" devLabel="" translation=""/>
+	<label commandName="RemeshBoundaryOption" devLabel="Preserve Boundaries" translation="Umgrenzungen beibehalten"/>
+	<label commandName="RemeshBoundaryOptionToolTip" devLabel="Preserves the shape of any open boundary edges from the original mesh." translation="Behält die Form aller offenen Begrenzungskanten aus dem ursprünglichen Netz bei."/>
+	<label commandName="RemeshDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="RemeshDensityToolTip" devLabel="Specify density to control the number of faces created." translation="Geben Sie die Dichte an, um die Anzahl der erstellten Flächen zu steuern."/>
+	<label commandName="RemeshNormalThreshold" devLabel="Shape Preservation" translation="Form beibehalten"/>
+	<label commandName="RemeshNormalThresholdToolTip" devLabel="Specify how much of the original mesh shape to preserve." translation="Geben Sie an, wie viel von der ursprünglichen Netzform beibehalten werden soll."/>
+	<label commandName="RemeshPreviewInput" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="RemeshPreviewInputToolTip" devLabel="Displays a preview of the remeshed mesh body in the canvas." translation="Zeigt eine Vorschau des neu vernetzten Netzkörpers im Ansichtsbereich an."/>
+	<label commandName="RemeshSelectTargetBody" devLabel="Select mesh body or face groups to remesh" translation="Netzkörper oder Flächengruppen zum Neuvernetzen auswählen"/>
+	<label commandName="RemeshSelectTargetBodyFaces" devLabel="Select parts of mesh body to remesh" translation="Bauteile des Netzkörpers zum Neuvernetzen auswählen"/>
+	<label commandName="RemeshSelectedTargetBody" devLabel="Adjust remesh type and settings" translation="Neuvernetzungstyp und -einstellungen anpassen"/>
+	<label commandName="RemeshSharpOption" devLabel="Preserve Sharp Edges" translation="Scharfe Kanten beibehalten"/>
+	<label commandName="RemeshSharpOptionToolTip" devLabel="Preserves sharp edges from the original mesh." translation="Behält scharfe Kanten aus dem ursprünglichen Netz bei."/>
+	<label commandName="RemoveMeshSelectTargetBody" devLabel="Select a mesh body to remove" translation="Zu entfernenden Netzkörper auswählen"/>
+	<label commandName="RepairAdjustAccurate" devLabel="Adjust repair type, rebuild type, density, or offset" translation="Reparaturtyp, Neuerstellungstyp, Dichte oder Versatz anpassen"/>
+	<label commandName="RepairAdjustNotAccurate" devLabel="Adjust repair type, rebuild type, or density" translation="Reparaturtyp, Neuerstellungstyp oder Dichte anpassen"/>
+	<label commandName="RepairAdjustType" devLabel="Adjust repair type" translation="Reparaturtyp anpassen"/>
+	<label commandName="RepairBodyToRepair" devLabel="Body" translation="Körper"/>
+	<label commandName="RepairBodyToRepairToolTip" devLabel="Select mesh body to repair." translation="Wählen Sie den zu reparierenden Netzkörper aus."/>
+	<label commandName="RepairDensityInput" devLabel="" translation=""/>
+	<label commandName="RepairSelect" devLabel="Select mesh body to repair" translation="Zu reparierenden Netzkörper auswählen"/>
+	<label commandName="RepairSolidAccurate" devLabel="Accurate" translation="Genau"/>
+	<label commandName="RepairSolidAccurateToolTip" devLabel="Rebuilds mesh body as accurately as possible." translation="Erstellt den Netzkörper so genau wie möglich neu."/>
+	<label commandName="RepairSolidBlocky" devLabel="Blocky" translation="Kantig"/>
+	<label commandName="RepairSolidBlockyToolTip" devLabel="Rebuilds mesh body in a blocky style." translation="Erstellt den Netzkörper in einem kantigen Stil neu."/>
+	<label commandName="RepairSolidPreserveSharpEdges" devLabel="Preserve Sharp Edges" translation="Scharfe Kanten beibehalten"/>
+	<label commandName="RepairSolidPreserveSharpEdgesToolTip" devLabel="Rebuilds mesh body while preserving sharp edges." translation="Erstellt den Netzkörper neu, wobei scharfe Kanten erhalten bleiben."/>
+	<label commandName="RepairSolidTypeFast" devLabel="Fast" translation="Schnell"/>
+	<label commandName="RepairSolidTypeFastToolTip" devLabel="Rebuilds mesh body quickly, but not accurately." translation="Erstellt den Netzkörper schnell, aber ungenau, neu."/>
+	<label commandName="RepairTypeDefault" devLabel="Stitch and Remove" translation="Heften und Entfernen"/>
+	<label commandName="RepairTypeDefaultToolTip" devLabel="Makes the same changes as Close Holes, and also stitches triangles, removes double triangles, removes degenerated faces, and removes tiny shells. (Fast)" translation="Nimmt die gleichen Änderungen vor wie Löcher schließen und heftet zusätzlich Dreiecke, entfernt doppelte Dreiecke, entfernt beschädigte Flächen und entfernt kleine Schalen. (Schnell)"/>
+	<label commandName="RepairTypeExtended" devLabel="Wrap" translation="Umbruch"/>
+	<label commandName="RepairTypeExtendedToolTip" devLabel="Makes the same changes as Stitch and Remove, and also wraps the surface of the mesh body. All inner structures are destroyed. (Average)" translation="Nimmt die gleichen Änderungen vor wie Heften und Entfernen und bricht zusätzlich die Fläche des Netzkörpers um. Alle inneren Strukturen werden zerstört. (Mittel)"/>
+	<label commandName="RepairTypeSimple" devLabel="Close Holes" translation="Löcher schließen"/>
+	<label commandName="RepairTypeSimpleToolTip" devLabel="Makes the fewest number of changes to the mesh body. Fixes flipped triangles and closes holes. (Fastest)" translation="Nimmt die geringste Anzahl von Änderungen am Netzkörper vor. Repariert umgekehrte Dreiecke und schließt Löcher. (Am schnellsten)"/>
+	<label commandName="ResetTransform" devLabel="Reset" translation="Zurücksetzen"/>
+	<label commandName="ResetTransformToolTip" devLabel="Resets the default position settings for the mesh body." translation="Setzt die Vorgabe-Positionseinstellungen für den Netzkörper zurück."/>
+	<label commandName="ReverseNormalsSelectTargetBody" devLabel="Select a mesh body, face groups or faces to reverse" translation="Netzkörper, Flächengruppen oder Flächen zum Umkehren auswählen"/>
+	<label commandName="SegmentationMethod" devLabel="Type" translation="Typ"/>
+	<label commandName="SegmentationMethodAccurate" devLabel="Accurate" translation="Genau"/>
+	<label commandName="SegmentationMethodAccurateToolTip" devLabel="Generates face groups by matching mesh faces to simple geometric primitives. Prioritizes accuracy over speed." translation="Generiert Flächengruppen durch Anpassen von Netzflächen an einfache geometrische Grundkörper. Priorisiert die Genauigkeit vor der Geschwindigkeit."/>
+	<label commandName="SegmentationMethodFast" devLabel="Fast" translation="Schnell"/>
+	<label commandName="SegmentationMethodFastToolTip" devLabel="Generates face groups based on an angle threshold between faces. Prioritizes speed over accuracy." translation="Generiert Flächengruppen auf Grundlage eines Winkelgrenzwerts zwischen Flächen. Priorisiert die Geschwindigkeit vor der Genauigkeit."/>
+	<label commandName="SegmentationMethodToolTip" devLabel="" translation=""/>
+	<label commandName="SelectBodiesToRemove" devLabel="Select bodies to remove" translation="Zu entfernende Körper auswählen"/>
+	<label commandName="SelectTargetBody" devLabel="Select target body" translation="Zielkörper auswählen"/>
+	<label commandName="SelectToolBodies" devLabel="Select bodies to combine with target body" translation="Mit dem Zielkörper zu verbindende Körper auswählen"/>
+	<label commandName="SelectedBodiesToRemove" devLabel="Adjust selection set" translation="Auswahlsatz anpassen"/>
+	<label commandName="SelectedToolBodies" devLabel="Adjust operation or selection set" translation="Vorgang oder Auswahlsatz anpassen"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Auswahlfilter"/>
+	<label commandName="SelectionFilterToolTip" devLabel="Choose a geometry type to filter your selections in the canvas by type." translation="Wählen Sie einen Geometrietyp aus, um die Auswahl im Ansichtsbereich nach Typ zu filtern."/>
+	<label commandName="SelectionType" devLabel="Selection Type" translation="Auswahltyp"/>
+	<label commandName="SelectionTypeToolTip" devLabel="Choose a selection method." translation="Wählen Sie eine Auswahlmethode aus."/>
+	<label commandName="SelfIntersection" devLabel="Self Intersections" translation="Selbstüberschneidungen"/>
+	<label commandName="SeperateTargetBody" devLabel="Select mesh body to separate" translation="Zu unterteilenden Netzkörper auswählen"/>
+	<label commandName="SeperateTargetFacegroups" devLabel="Select mesh face groups to separate" translation="Zu unterteilende Netzflächengruppen auswählen"/>
+	<label commandName="SeperateTargetFaces" devLabel="Select mesh faces to separate" translation="Zu trennende Netzflächen auswählen"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Auswahl verkleinern"/>
+	<label commandName="ShrinkMeshSelToolTip" devLabel="Decreases the boundary of the selection set." translation="Verkleinert die Umgrenzung des Auswahlsatzes."/>
+	<label commandName="SmallComponentThreshold" devLabel="Small Shell Threshold" translation="Grenzwert für kleine Schalen"/>
+	<label commandName="SmallComponentThresholdToolTip" devLabel="Specify the maximum size of small shells to repair." translation="Geben Sie die maximale Größe der zu reparierenden kleinen Schalen an."/>
+	<label commandName="SmallShell" devLabel="Small Shells" translation="Kleine Schalen"/>
+	<label commandName="SmoothPreviewInput" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="SmoothPreviewInputToolTip" devLabel="Displays a preview of the smoothed mesh body in the canvas." translation="Zeigt eine Vorschau des geglätteten Netzkörpers im Ansichtsbereich an."/>
+	<label commandName="SmoothSelectTargetBody" devLabel="Select mesh body or face groups to smooth" translation="Netzkörper oder Flächengruppen zum Glätten auswählen"/>
+	<label commandName="SmoothSelectTargetBodyFaces" devLabel="Select parts of mesh body to smooth" translation="Zu glättende Bauteile des Netzkörpers auswählen"/>
+	<label commandName="SmoothSelectedTargetBody" devLabel="Adjust smoothness" translation="Glätte anpassen"/>
+	<label commandName="SmothnessInput" devLabel="" translation=""/>
+	<label commandName="SolidType" devLabel="Rebuild Type" translation="Neuerstellungstyp"/>
+	<label commandName="SolidTypeToolTip" devLabel="" translation=""/>
+	<label commandName="SuccessfulSanityCheck" devLabel="Successful Sanity Check" translation="Zustandsprüfung erfolgreich"/>
+	<label commandName="SuccessfulSanityCheckTooltip" devLabel="Quick analysis succeeded. Check Detailed Analysis for a granular analysis of specific issues." translation="Schnellanalyse erfolgreich. Aktivieren Sie Detaillierte Analyse, um eine detaillierte Analyse bestimmter Probleme durchzuführen."/>
+	<label commandName="SurfaceTolSlider" devLabel="" translation=""/>
+	<label commandName="SurfaceTolSliderToolTip" devLabel="" translation=""/>
+	<label commandName="SurfaceTolerance" devLabel="Surface Deviation" translation="Flächenabmaß"/>
+	<label commandName="SurfaceToleranceToolTip" devLabel="Specify maximum distance between the surface of the original body and the surface of the mesh body." translation="Geben Sie den maximalen Abstand zwischen der Fläche des ursprünglichen Körpers und der Fläche des Netzkörpers an."/>
+	<label commandName="TSpline" devLabel="Form" translation="Form"/>
+	<label commandName="TSplineToolTip" devLabel="" translation=""/>
+	<label commandName="Target Body" devLabel="Target Body" translation="Zielkörper"/>
+	<label commandName="Target BodyToolTip" devLabel="Select the target mesh body." translation="Wählen Sie den Zielnetzkörper aus."/>
+	<label commandName="TesselateSelectTargetBody" devLabel="Select a solid or surface body to tessellate" translation="Volumen- oder Flächenkörper zum Tessellieren auswählen"/>
+	<label commandName="TesselateSelectedTargetBody" devLabel="Adjust refinement settings" translation="Verfeinerungseinstellungen anpassen"/>
+	<label commandName="Tool Bodies" devLabel="Tool Bodies" translation="Werkzeugkörper"/>
+	<label commandName="Tool BodiesToolTip" devLabel="Select mesh bodies to combine with the target body." translation="Wählen Sie Netzkörper aus, die mit dem Zielkörper kombiniert werden sollen."/>
+	<label commandName="TransformTriad" devLabel="Transform" translation="Transformieren"/>
+	<label commandName="TransformTriadToolTip" devLabel="" translation=""/>
+	<label commandName="Triangle Warning" devLabel="&lt;b&gt;Warning&lt;/b&gt;: This mesh has more than 10000 Triangles. Calculation will take a considerable amount of time." translation="&lt;b&gt;Warnung&lt;/b&gt;: Dieses Netz hat mehr als 10000 Dreiecke. Die Berechnung wird länger dauern."/>
+	<label commandName="TriangleCount" devLabel="Triangle Count" translation="Dreiecksanzahl"/>
+	<label commandName="TriangleCountToolTip" devLabel="Displays the total number of triangles that will be created on the new mesh body." translation="Zeigt die Gesamtzahl der Dreiecke an, die auf dem neuen Netzkörper erstellt werden."/>
+	<label commandName="TriangulateMesh" devLabel="Create Quads" translation="Vierecke erstellen"/>
+	<label commandName="TriangulateMeshToolTip" devLabel="Creates quad faces on the mesh body where possible." translation="Erstellt quaderförmige Flächen auf dem Netzkörper, wo dies möglich ist."/>
+	<label commandName="UnitsType" devLabel="Unit Type" translation="Einheitentyp"/>
+	<label commandName="UnitsTypeToolTip" devLabel="" translation=""/>
+	<label commandName="UnsuccessfulSanityCheck" devLabel="Unsuccessful Sanity Check" translation="Zustandsprüfung nicht erfolgreich"/>
+	<label commandName="UnsuccessfulSanityCheckTooltip" devLabel="Check Detailed Analysis for a granular analysis of specific issues." translation="Aktivieren Sie Detaillierte Analyse, um eine detaillierte Analyse bestimmter Probleme durchzuführen."/>
+	<label commandName="UpDirType" devLabel="Flip Up Direction" translation="AUF-Richtung umkehren"/>
+	<label commandName="UpDirTypeToolTip" devLabel="Flips direction of Y and Z axes." translation="Kehrt die Richtung der Y- und Z-Achse um."/>
+	<label commandName="Warning" devLabel="Warning" translation="Warnung"/>
+	<label commandName="Yes" devLabel="Yes" translation="Ja"/>
+	<label commandName="allow_backface_facet_sel" devLabel="Select Back Faces" translation="Rückflächen auswählen"/>
+	<label commandName="allow_backface_facet_selToolTip" devLabel="Sets whether to allow face selection from both sides." translation="Legt fest, ob die Flächenauswahl auf beiden Seiten zugelassen werden soll."/>
+	<label commandName="infoAdaptiveType" devLabel="Adaptive" translation="Adaptiv"/>
+	<label commandName="infoAdaptiveTypeToolTip" devLabel="Creates smaller faces in areas of high detail and larger faces in areas of low detail." translation="Erstellt kleinere Flächen in Bereichen mit hohem Detailgrad und größere Flächen in Bereichen mit niedrigem Detailgrad."/>
+	<label commandName="infoInspect" devLabel="Analyze" translation="Analysieren"/>
+	<label commandName="infoInspectToolTip" devLabel="" translation=""/>
+	<label commandName="infoMeshingType" devLabel="Type" translation="Typ"/>
+	<label commandName="infoMeshingTypeToolTip" devLabel="" translation=""/>
+	<label commandName="infoMethodOrganic" devLabel="Organic" translation="Organisch"/>
+	<label commandName="infoMethodOrganicToolTip" devLabel="" translation=""/>
+	<label commandName="infoMethodPrismatic" devLabel="Prismatic" translation="Prismatisch"/>
+	<label commandName="infoMethodPrismaticToolTip" devLabel="Merges groups of faces in prismatic features into singular faces on the new solid or surface body. Face groups are used to infer prismatic features." translation="Führt Flächengruppen in prismatischen Elementen zu einzelnen Flächen auf dem neuen Volumenkörper oder Flächenkörper zusammen. Flächengruppen werden zum Ableiten von prismatischen Elementen verwendet."/>
+	<label commandName="infoMethodTriangleBased" devLabel="Faceted" translation="Facettiert"/>
+	<label commandName="infoMethodTriangleBasedToolTip" devLabel="Converts individual faces on the mesh body to individual faces on the new solid or surface body." translation="Konvertiert einzelne Flächen auf dem Netzkörper in einzelne Flächen auf dem neuen Volumenkörper oder Flächenkörper."/>
+	<label commandName="infoPreview" devLabel="Preview" translation="Vorschau"/>
+	<label commandName="infoPreviewToolTip" devLabel="Displays a preview of the repaired mesh body." translation="Zeigt eine Vorschau des reparierten Netzkörpers an."/>
+	<label commandName="infoSelectDefect" devLabel="Select Defect" translation="Fehler auswählen"/>
+	<label commandName="infoSelectDefectTitle" devLabel="Select Defect Title" translation="Fehlertitel auswählen"/>
+	<label commandName="infoSelectDefectTitleToolTip" devLabel="" translation=""/>
+	<label commandName="infoSelectDefectToolTip" devLabel="" translation=""/>
+	<label commandName="infoTargetFaceNumber" devLabel="Number Of Faces" translation="Anzahl der Flächen"/>
+	<label commandName="infoTargetFaceNumberToolTip" devLabel="Specify the number of faces to generate for the converted body." translation="Geben Sie die Anzahl der Flächen an, die für den konvertierten Körper generiert werden sollen."/>
+	<label commandName="infoTargetOrganicAccuracyExtreme" devLabel="Precise" translation="Genau"/>
+	<label commandName="infoTargetOrganicAccuracyExtremeToolTip" devLabel="Converts the body with the highest possible accuracy compared to the original mesh body. (Slowest)" translation="Konvertiert den Körper mit der höchstmöglichen Genauigkeit im Vergleich zum ursprünglichen Netzkörper. (Am langsamsten)"/>
+	<label commandName="infoTargetOrganicAccuracyHigh" devLabel="High" translation="Hoch"/>
+	<label commandName="infoTargetOrganicAccuracyHighToolTip" devLabel="Converts the body with high accuracy compared to the original mesh body. (Average)" translation="Konvertiert den Körper mit hoher Genauigkeit im Vergleich zum ursprünglichen Netzkörper. (Durchschnittlich)"/>
+	<label commandName="infoTargetOrganicAccuracyLow" devLabel="Low" translation="Niedrig"/>
+	<label commandName="infoTargetOrganicAccuracyLowToolTip" devLabel="Converts the body with low accuracy compared to the original mesh body. (Fastest)" translation="Konvertiert den Körper mit niedriger Genauigkeit im Vergleich zum ursprünglichen Netzkörper. (Am schnellsten)"/>
+	<label commandName="infoTargetOrganicAccuracyMedium" devLabel="Medium" translation="Mittel"/>
+	<label commandName="infoTargetOrganicAccuracyMediumToolTip" devLabel="Converts the body with medium accuracy compared to the original mesh body. (Fast)" translation="Konvertiert den Körper mit mittlerer Genauigkeit im Vergleich zum ursprünglichen Netzkörper. (Schnell)"/>
+	<label commandName="infoUniformType" devLabel="Uniform" translation="Einheitlich"/>
+	<label commandName="infoUniformTypeToolTip" devLabel="Creates faces of similar size in all areas." translation="Erstellt Flächen gleicher Größe in allen Bereichen."/>
+	<label commandName="lclzMeshSelect" devLabel="Select" translation="Auswählen"/>
+	<label commandName="lclzParaMeshAdoptDesc1" devLabel="Converts a mesh body to a parametric mesh body." translation="Konvertiert einen Netzkörper in einen parametrischen Netzkörper."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc1" devLabel="Creates a mesh base feature that you can edit directly." translation="Erstellt ein Netzbasiselement, das Sie direkt bearbeiten können."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateDesc2" devLabel="Select the mesh body to edit. A mesh base feature displays on the timeline and you can make local modifications to the mesh body without capturing the changes in the parametric history of the design." translation="Wählen Sie den zu bearbeitenden Netzkörper aus. Ein Netzbasiselement wird auf der Zeitachse angezeigt, und Sie können lokale Änderungen am Netzkörper vornehmen, ohne die Änderungen im parametrischen Verlauf des Entwurfs zu erfassen."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTips" devLabel="Use the Direct Edit command to make local modifications to mesh bodies outside the parametric timeline of the design." translation="Verwenden Sie den Befehl Direktbearbeitung, um lokale Änderungen an Netzkörpern außerhalb der parametrischen Zeitachse der Konstruktion vorzunehmen."/>
+	<label commandName="lclzParaMeshBaseFeatureCreateTipsAndTricksTitle" devLabel="Direct Edit Information" translation="Informationen zur Direktbearbeitung"/>
+	<label commandName="lclzParaMeshBaseFeatureStopDesc1" devLabel="Finish directly editing the mesh body and return to parametric modeling in the Design workspace." translation="Beenden Sie die direkte Bearbeitung des Netzkörpers, und kehren Sie zur parametrischen Modellierung im Arbeitsbereich Konstruktion zurück."/>
+	<label commandName="lclzParaMeshBaseFeatureTab" devLabel="Direct Mesh Editing" translation="Direkte Netzbearbeitung"/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc1" devLabel="Automatically generates face groups on a mesh body using the normal angles between faces to determine the boundaries of each face group." translation="Generiert automatisch Flächengruppen auf einem Netzkörper. Dabei werden die Umgrenzungen der einzelnen Flächengruppen durch Normalenwinkel zwischen Flächen bestimmt."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select mesh bodies or face groups, select the generation method, then adjust the face opening angle, tolerance, and minimal area ratio." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen. Wählen Sie Netzkörper oder Flächengruppen und die Erstellungsmethode aus, und passen Sie dann den Öffnungswinkel der Fläche, die Toleranz und das minimale Flächenverhältnis an."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTips" devLabel="When you insert a mesh that has no face groups, use the &lt;b&gt;Fast&lt;/b&gt; generation method to generate an initial set of face groups on the mesh body. Then select specific sets of face groups and use the &lt;b&gt;Accurate&lt;/b&gt; generation method to capture detailed areas more accurately." translation="Wenn Sie ein Netz ohne Flächengruppen einfügen, verwenden Sie die Erstellungsmethode &lt;b&gt;Schnell&lt;/b&gt;, um einen Ausgangssatz von Flächengruppen auf dem Netzkörper zu erstellen. Wählen Sie dann bestimmte Sätze von Flächengruppen aus, und verwenden Sie die Erstellungsmethode &lt;b&gt;Genau&lt;/b&gt;, um detaillierte Bereiche genauer zu erfassen."/>
+	<label commandName="lclzParaMeshCalculateFaceGroupsTipsAndTricksTitle" devLabel="Generate Face Groups Information" translation="Flächengruppeninformationen generieren"/>
+	<label commandName="lclzParaMeshCombineDesc1" devLabel="Joins, intersects, cuts, or merges two or more mesh bodies to create a single mesh body." translation="Verbindet, schneidet oder führt zwei oder mehr Netzkörper zusammen, um einen einzelnen Netzkörper zu erstellen."/>
+	<label commandName="lclzParaMeshCombineDesc2" devLabel="Select the target body, select one or more tool bodies to combine with the target body, then select the operation to use to combine the bodies together." translation="Wählen Sie den Zielkörper sowie einen oder mehrere Werkzeugkörper aus, die mit dem Zielkörper kombiniert werden sollen, und wählen Sie dann den Vorgang aus, der zum Kombinieren der Körper verwendet werden soll."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksDesc" devLabel="You can also choose to create a new component to contain the combined bodies or keep a copy of the original bodies." translation="Sie können auch eine neue Komponente erstellen, die die kombinierten Körper enthält, oder eine Kopie der ursprünglichen Körper beibehalten."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksTips" devLabel="Overlapping boundary edges are stitched." translation="Überlappende Begrenzungskanten werden geheftet."/>
+	<label commandName="lclzParaMeshCombineTipsAndTricksTitle" devLabel="Combine Information" translation="Kombinieren - Informationen"/>
+	<label commandName="lclzParaMeshConvertDesc1" devLabel="Converts a mesh body to a solid or surface body." translation="Konvertiert einen Netzkörper in einen Volumenkörper oder Flächenkörper."/>
+	<label commandName="lclzParaMeshConvertDesc2" devLabel="Select the mesh body to convert, then select the operation and method. In the browser and the canvas, the mesh body converts to a solid or surface body. Face groups are used to infer prismatic features." translation="Wählen Sie den zu konvertierenden Netzkörper und dann die Operation und Methode aus. Im Browser und im Ansichtsbereich wird der Netzkörper in einen Volumenkörper oder Flächenkörper konvertiert. Flächengruppen werden verwendet, um prismatische Elemente abzuleiten."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksDesc" devLabel="If the mesh body is watertight, it coverts to a solid body. If the mesh is not watertight, it converts to a surface body." translation="Wenn der Netzkörper dicht ist, wird er in einen Volumenkörper umgewandelt. Wenn das Netz nicht dicht ist, wird es in einen Flächenkörper umgewandelt."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksTips" devLabel="Use the &lt;b&gt;Faceted&lt;/b&gt; operation to generate one face on the solid or surface body for each individual face on the mesh body. Use the &lt;b&gt;Prismatic&lt;/b&gt; operation to convert geometry originally created using solid or surface modeling tools. Use the &lt;b&gt;Organic&lt;/b&gt; operation to convert geometry originally created from scan data or organic modeling tools." translation="Verwenden Sie die Operation &lt;b&gt;Facettiert&lt;/b&gt;, um eine Fläche auf dem Volumenkörper oder Flächenkörper für jede einzelne Fläche auf dem Netzkörper zu erstellen. Verwenden Sie die Operation &lt;b&gt;Prismatisch&lt;/b&gt;, um Geometrie zu konvertieren, die ursprünglich mit den Volumenkörper- oder Flächenmodellierungswerkzeugen erstellt wurde. Verwenden Sie die Operation &lt;b&gt;Organisch&lt;/b&gt;, um Geometrie zu konvertieren, die ursprünglich mit Scandaten oder organischen Modellierungswerkzeugen erstellt wurde."/>
+	<label commandName="lclzParaMeshConvertTipsAndTricksTitle" devLabel="Convert Mesh Information" translation="Netz konvertieren - Informationen"/>
+	<label commandName="lclzParaMeshCreate" devLabel="Create" translation="Erstellen"/>
+	<label commandName="lclzParaMeshCreateFaceGroupDesc1" devLabel="Creates a face group from a selection of faces on a mesh body." translation="Erstellt eine Flächengruppe aus einer Auswahl von Flächen auf einem Netzkörper."/>
+	<label commandName="lclzParaMeshCreateFaceGroupDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select faces on a mesh body to include in the face group. Adjust the settings in the Mesh Selection Palette to refine the selection set." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen. Wählen Sie Flächen auf einem Netzkörper aus, die in die Flächengruppe aufgenommen werden sollen. Passen Sie die Einstellungen in der Netzauswahlpalette an, um den Auswahlsatz zu verfeinern."/>
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTips" devLabel="You can select any faces on the same mesh body to include in the face group, even if they are not connected." translation="Sie können alle Flächen auf demselben Netzkörper auswählen, um sie in die Flächengruppe aufzunehmen, auch wenn sie nicht verbunden sind."/>
+	<label commandName="lclzParaMeshCreateFaceGroupTipsAndTricksTitle" devLabel="Create Face Group Information" translation="Flächengruppeninformationen erstellen"/>
+	<label commandName="lclzParaMeshDemoteDesc1" devLabel="Converts a parametric mesh body to a mesh body." translation="Konvertiert einen parametrischen Netzkörper in einen Netzkörper."/>
+	<label commandName="lclzParaMeshEmptyBaseFeatureDesc1" devLabel="Creates an empty Mesh Base Feature." translation="Erstellt ein leeres Grundnetzelement."/>
+	<label commandName="lclzParaMeshEraseAndFillDesc1" devLabel="Removes and replaces faces on a mesh body to fill holes and repair regions." translation="Entfernt und ersetzt Flächen auf einem Netzkörper, um Bohrungen zu füllen und Bereiche zu reparieren."/>
+	<label commandName="lclzParaMeshEraseAndFillDesc2" devLabel="Select the boundary of faces around a hole to fill, or select the faces of a region to remove and replace." translation="Wählen Sie die Begrenzung der Flächen um eine Bohrung, die Sie füllen möchten, oder die Flächen eines Bereichs aus, die Sie entfernen und ersetzen möchten."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksDesc" devLabel="Use the Uniform type to achieve the smoothest and most usable result. Use the Minimal type to reduce the number of triangles on the mesh body, but note the long, thin triangular faces may be more difficult to work with downstream." translation="Verwenden Sie den Typ Einheitlich, um das glatteste und am besten nutzbare Ergebnis zu erzielen. Verwenden Sie den Typ Minimal, um die Anzahl der Dreiecke auf dem Netzkörper zu reduzieren. Beachten Sie jedoch, dass die langen, dünnen dreieckigen Flächen im Nachhinein möglicherweise schwieriger zu bearbeiten sind."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTips" devLabel="Hover over a face along the boundary of a hole in the mesh body, then double-click to select all the faces along the edge of the boundary and fill the hole." translation="Bewegen Sie den Mauszeiger über eine Fläche entlang der Begrenzung einer Bohrung im Netzkörper, und doppelklicken Sie, um alle Flächen entlang der Begrenzungskante auszuwählen und die Bohrung zu füllen."/>
+	<label commandName="lclzParaMeshEraseAndFillTipsAndTricksTitle" devLabel="Erase And Fill Information" translation="Löschen und Füllen - Informationen"/>
+	<label commandName="lclzParaMeshExport" devLabel="Export" translation="Exportieren"/>
+	<label commandName="lclzParaMeshExtractDesc1" devLabel="Separates regions of a mesh body into independent mesh bodies." translation="Unterteilt Bereiche eines Netzkörpers in unabhängige Netzkörper."/>
+	<label commandName="lclzParaMeshExtractDesc2" devLabel="Select a separation type, then select a mesh body or face groups to separate into individual bodies." translation="Wählen Sie einen Trennungstyp aus, und wählen Sie dann einen Netzkörper oder Flächengruppen aus, die in einzelne Körper unterteilt werden sollen."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksDesc" devLabel="You can keep a copy of the original mesh body or choose to replace it." translation="Sie können eine Kopie des ursprünglichen Netzkörpers beibehalten oder ihn ersetzen."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksTips" devLabel="After you generate face groups on a mesh body, use Separate to split features or regions into independent mesh bodies to make it easier to work with them." translation="Nachdem Sie Flächengruppen für einen Netzkörper generiert haben, können Sie mit Trennen Elemente oder Bereiche in unabhängige Netzkörper trennen, um die Arbeit damit zu vereinfachen."/>
+	<label commandName="lclzParaMeshExtractTipsAndTricksTitle" devLabel="Separate Information" translation="Unterteilen - Informationen"/>
+	<label commandName="lclzParaMeshGenerateFaceGroupTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen."/>
+	<label commandName="lclzParaMeshHollowDesc1" devLabel="Hollows the interior of a mesh body." translation="Höhlt das Innere eines Netzkörpers aus."/>
+	<label commandName="lclzParaMeshHollowDesc2" devLabel="Select a mesh body, then adjust the direction and thickness to hollow the interior volume." translation="Wählen Sie einen Netzkörper aus, und passen Sie dann die Richtung und Dicke an, um das Innenvolumen auszuhöhlen."/>
+	<label commandName="lclzParaMeshHollowTipsAndTricksTips" devLabel="You can use the Shell command to hollow a mesh body and significantly reduce the amount of print material, time, and cost required for 3D printing." translation="Mit dem Befehl Schale können Sie einen Netzkörper aushöhlen und die Menge an Druckmaterial, Zeit und Kosten für den 3D-Druck erheblich reduzieren."/>
+	<label commandName="lclzParaMeshHollowTipsAndTricksTitle" devLabel="Shell Information" translation="Schale - Informationen"/>
+	<label commandName="lclzParaMeshInsertAlignDesc1" devLabel="Inserts an existing STL, OBJ, or 3MF file as a mesh body into the active component in a design." translation="Fügt eine vorhandene STL-, OBJ- oder 3MF-Datei als Netzkörper in die aktive Komponente einer Konstruktion ein."/>
+	<label commandName="lclzParaMeshInsertAlignDesc2" devLabel="Select a file to insert. The contents of the file displays as a mesh body in the canvas and the browser." translation="Wählen Sie eine Datei zum Einfügen aus. Der Inhalt der Datei wird im Ansichtsbereich und im Browser als Netzkörper angezeigt."/>
+	<label commandName="lclzParaMeshInsertAlignDesc3" devLabel="For STL or OBJ files, select the unit type that matches the units from the original design that generated the STL or OBJ." translation="Wählen Sie für STL- oder OBJ-Dateien den Einheitentyp aus, der mit den Einheiten aus der ursprünglichen Konstruktion übereinstimmt, aus der die STL- oder OBJ-Datei erstellt wurde."/>
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTips" devLabel="If you insert an OBJ or 3MF file with existing textures, they will display on the mesh body in the canvas. Turn off the Mesh Display &gt; Face Groups display setting to see the textures on the mesh body." translation="Wenn Sie eine OBJ- oder 3MF-Datei mit vorhandenen Texturen einfügen, werden diese im Ansichtsbereich auf dem Netzkörper angezeigt. Deaktivieren Sie die Anzeigeeinstellung unter Netzanzeige &gt; Flächengruppen, um die Texturen auf dem Netzkörper anzuzeigen."/>
+	<label commandName="lclzParaMeshInsertAlignTipsAndTricksTitle" devLabel="Insert Mesh Information" translation="Netzinformationen einfügen"/>
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc1" devLabel="Combines two or more adjacent face groups on a mesh body." translation="Kombiniert zwei oder mehr aneinandergrenzende Flächengruppen auf einem Netzkörper."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsDesc2" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups. Select two or more adjacent face groups on the mesh body to combine them." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen. Wählen Sie mindestens zwei angrenzende Flächengruppen auf dem Netzkörper aus, um sie zu kombinieren."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksDesc" devLabel="To display face groups, expand Display Settings &gt; Mesh Display, then check Face Groups." translation="Um Flächengruppen anzuzeigen, erweitern Sie Anzeigeeinstellungen &gt; Netzanzeige, und aktivieren Sie Flächengruppen."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTips" devLabel="You can combine two or more face groups on a mesh body as long as they share a common edge." translation="Sie können zwei oder mehr Flächengruppen auf einem Netzkörper kombinieren, solange sie eine gemeinsame Kante haben."/>
+	<label commandName="lclzParaMeshMergeFaceGroupsTipsAndTricksTitle" devLabel="Combine Face Groups Information" translation="Flächengruppen kombinieren - Informationen"/>
+	<label commandName="lclzParaMeshModify" devLabel="Modify" translation="Ändern"/>
+	<label commandName="lclzParaMeshOuterTab" devLabel="Mesh" translation="Netz"/>
+	<label commandName="lclzParaMeshPlanarSectionDesc1" devLabel="Creates a sketch that contains a section line where a plane intersects a mesh body." translation="Erstellt eine Skizze, die an der Stelle eine Schnittlinie enthält, an der eine Ebene einen Netzkörper schneidet."/>
+	<label commandName="lclzParaMeshPlanarSectionDesc2" devLabel="Select a mesh body, select a plane, then adjust the location of the section line. Edit the sketch and use the Fit Curves To Mesh Section command to create sketch geometry to match the section line." translation="Wählen Sie einen Netzkörper und eine Ebene aus, und passen Sie dann die Position der Schnittlinie an. Bearbeiten Sie die Skizze, und verwenden Sie den Befehl Kurven an Netzschnitt anpassen, um Skizziergeometrie zu erstellen, die mit der Schnittlinie übereinstimmt."/>
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTips" devLabel="Create a series of mesh section sketches to reverse-engineer complex mesh bodies. Edit each section sketch and use the Fit Curves To Mesh Section command to generate a series of sketch profiles. You can use the sketch profiles to create parametric solid and surface bodies to recreate the design." translation="Erstellen Sie eine Reihe von Netzschnittskizzen, um komplexe Netzkörper rückzuentwickeln. Bearbeiten Sie jede Schnittskizze, und verwenden Sie den Befehl Kurven an Netzschnitt anpassen, um eine Reihe von Skizzierprofilen zu erstellen. Sie können die Skizzierprofile zum Erstellen von parametrischen Volumenkörpern und Flächenkörpern verwenden, um die Konstruktion neu zu erstellen."/>
+	<label commandName="lclzParaMeshPlanarSectionTipsAndTricksTitle" devLabel="Create Mesh Section Sketch Information" translation="Skizzeninformationen für Netzschnitt erstellen"/>
+	<label commandName="lclzParaMeshPlaneCutDesc1" devLabel="Uses a plane to trim or split a mesh body." translation="Verwendet eine Ebene zum Stutzen oder Teilen eines Netzkörpers."/>
+	<label commandName="lclzParaMeshPlaneCutDesc2" devLabel="Select a mesh body, then select and position the cutting plane. The cut can trim the body, split the body into multiple bodies, or split the faces only. For the Trim and Split Body cut types, select a fill type to generate watertight bodies." translation="Wählen Sie einen Netzkörper aus, und wählen Sie dann die Schnittebene aus und positionieren sie. Mit dem Schnitt kann der Körper gestutzt oder in mehrere Körper geteilt werden, oder es können nur die Flächen geteilt werden. Zum Erstellen dichter Körper wählen Sie für die Schnitttypen Stutzen und Körper teilen einen Füllungstyp aus."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksDesc" devLabel="Adjust the Fill Type to either leave a mesh open or close the mesh body after you cut it. You can fill the voids that the cut plane leaves behind with either uniform or minimal mesh faces." translation="Passen Sie den Füllungstyp an, um ein Netz entweder offen zu lassen oder den Netzkörper nach dem Schneiden zu schließen. Sie können die Lücken, die die Schnittebene hinterlässt, entweder mit einheitlichen oder minimalen Netzflächen füllen."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTips" devLabel="Use the Plane Cut command to slice a mesh body along a plane and either trim away one side of the body, split the mesh body into two separate bodies, or slice the mesh faces but leave the mesh body whole." translation="Verwenden Sie den Befehl Ebenenschnitt, um einen Netzkörper entlang einer Ebene zu schneiden und entweder eine Seite des Körpers zu stutzen, den Netzkörper in zwei separate Körper zu teilen oder die Netzflächen zu schneiden, den Netzkörper jedoch beizubehalten."/>
+	<label commandName="lclzParaMeshPlaneCutTipsAndTricksTitle" devLabel="Plane Cut Information" translation="Ebenenschnitt - Informationen"/>
+	<label commandName="lclzParaMeshPrepare" devLabel="Prepare" translation="Vorbereiten"/>
+	<label commandName="lclzParaMeshReduceDesc1" devLabel="Reduces the number of faces on a mesh body to minimize complexity." translation="Reduziert die Anzahl der Flächen auf einem Netzkörper, um die Komplexität zu minimieren."/>
+	<label commandName="lclzParaMeshReduceDesc2" devLabel="Select a mesh body or face groups, select a reduction target, then adjust the settings to reduce the number of mesh faces." translation="Wählen Sie einen Netzkörper oder Flächengruppen und dann ein Reduktionsziel aus, und passen Sie die Einstellungen an, um die Anzahl der Netzflächen zu reduzieren."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksDesc" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Verwenden Sie den Neuvernetzungstyp Adaptiv, um Details beizubehalten. Verwenden Sie den Neuvernetzungstyp Einheitlich, um die Flächengrößen relativ gleichmäßig zu halten."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksTips" devLabel="Use the Tolerance reduction type to reduce complexity and improve computational performance while working with the mesh. The Tolerance reduction type merges faces while remaining within a maximum deviation from the original mesh shape." translation="Verwenden Sie den Toleranzverringerungstyp, um die Komplexität zu reduzieren und die Rechenleistung während der Arbeit mit dem Netz zu verbessern. Mit dem Toleranzverringerungstyp werden Flächen zusammengeführt, wobei dieser Vorgang innerhalb der maximalen Abweichung von der ursprünglichen Netzkontur bleibt."/>
+	<label commandName="lclzParaMeshReduceTipsAndTricksTitle" devLabel="Reduce Information" translation="Reduzieren - Informationen"/>
+	<label commandName="lclzParaMeshRemeshDesc1" devLabel="Refines or coarsens faces on a mesh body or face groups." translation="Verfeinert oder vergröbert Flächen auf einem Netzkörper oder in Flächengruppen."/>
+	<label commandName="lclzParaMeshRemeshDesc2" devLabel="Select a mesh body or face groups on a mesh body, then adjust the settings to regenerate the mesh faces." translation="Wählen Sie einen Netzkörper oder Flächengruppen auf einem Netzkörper aus, und passen Sie dann die Einstellungen an, um die Netzflächen erneut zu generieren."/>
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTips" devLabel="Use the Adaptive remesh type to preserve details. Use the Uniform remesh type to keep face sizes relatively even." translation="Verwenden Sie den Neuvernetzungstyp Adaptiv, um Details beizubehalten. Verwenden Sie den Neuvernetzungstyp Einheitlich, um die Flächengrößen relativ gleichmäßig zu halten."/>
+	<label commandName="lclzParaMeshRemeshTipsAndTricksTitle" devLabel="Remesh Information" translation="Neuvernetzung - Informationen"/>
+	<label commandName="lclzParaMeshRemoveDesc1" devLabel="Remove meshes" translation="Netze entfernen"/>
+	<label commandName="lclzParaMeshRemoveDesc2" devLabel="Select the mesh bodies to be removed. For every mesh which is removed, a feature appears in the timeline. The removal can be, in contrast to delete, be undone and meshes can be restored parametrically." translation="Wählen Sie die Netzkörper aus, die entfernt werden sollen. Für jedes Netz, das entfernt wird, wird ein Element auf der Zeitachse angezeigt. Das Entfernen kann im Gegensatz zum Löschen rückgängig gemacht werden, und Netze können parametrisch wiederhergestellt werden."/>
+	<label commandName="lclzParaMeshRepairDesc1" devLabel="Repairs a mesh body to prepare it for further design and manufacturing operations." translation="Repariert einen Netzkörper, um ihn für weitere Konstruktions- und Fertigungsvorgänge vorzubereiten."/>
+	<label commandName="lclzParaMeshRepairDesc2" devLabel="Select a mesh body to repair, then select a repair type. For the Rebuild repair type, select a rebuild type, then adjust density and offset." translation="Wählen Sie einen zu reparierenden Netzkörper aus, und wählen Sie dann einen Reparaturtyp. Wählen Sie für Reparaturtyp Neuerstellung einen Neuerstellungstyp aus, und passen Sie dann Dichte und Versatz an."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksDesc" devLabel="Use the Repair command to fix errors in a mesh body to prepare it for further design and manufacturing operations. Errors may include holes in the mesh body or suboptimal arrangement, orientation, or intersection of triangles in the mesh body." translation="Verwenden Sie den Befehl Reparieren, um Fehler in einem Netzkörper zu beheben und ihn für weitere Konstruktions- und Fertigungsvorgänge vorzubereiten. Mögliche Fehler sind Löcher im Netzkörper oder suboptimale Anordnungen, Ausrichtungen oder Schnittpunkte von Dreiecken im Netzkörper."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksTips" devLabel="Use the &lt;b&gt;Close Holes&lt;/b&gt; or &lt;b&gt;Stitch and Remove&lt;/b&gt; repair types for faster results and fewer changes to the mesh body. For more complex repairs, use the &lt;b&gt;Wrap&lt;/b&gt; or &lt;b&gt;Rebuild&lt;/b&gt; repair types, but keep in mind that these will take longer to compute and will make more significant changes to the mesh body." translation="Verwenden Sie die Reparaturtypen &lt;b&gt;Löcher schließen&lt;/b&gt; oder &lt;b&gt;Heften und Entfernen&lt;/b&gt;, um schnellere Ergebnisse mit weniger Änderungen am Netzkörper zu erhalten. Verwenden Sie für komplexere Reparaturen die Reparaturtypen &lt;b&gt;Umbruch&lt;/b&gt; oder &lt;b&gt;Neuerstellung&lt;/b&gt;. Beachten Sie jedoch, dass die Berechnung dieser Typen länger dauert und zu größeren Änderungen am Netzkörper führt."/>
+	<label commandName="lclzParaMeshRepairTipsAndTricksTitle" devLabel="Repair Information" translation="Reparaturinformationen"/>
+	<label commandName="lclzParaMeshReverseNormalsDesc1" devLabel="Reverses the normal direction of selected faces on a mesh body." translation="Kehrt die Normalenrichtung der ausgewählten Flächen auf einem Netzkörper um."/>
+	<label commandName="lclzParaMeshReverseNormalsDesc2" devLabel="Select faces on a mesh body to reverse their normal direction." translation="Wählen Sie Flächen auf einem Netzkörper aus, um ihre Normalenrichtung umzukehren."/>
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTips" devLabel="Some faces on imported mesh bodies may be oriented incorrectly, and the Reverse Normal command lets you orient those faces correctly in a targeted way." translation="Einige Flächen auf importierten Netzkörpern sind möglicherweise falsch ausgerichtet, und mit dem Befehl Normale umkehren können Sie diese Flächen korrekt und zielgerichtet ausrichten."/>
+	<label commandName="lclzParaMeshReverseNormalsTipsAndTricksTitle" devLabel="Reverse Normal Information" translation="Normale umkehren - Informationen"/>
+	<label commandName="lclzParaMeshScaleDesc1" devLabel="Scales mesh bodies from a reference point." translation="Skaliert Netzkörper von einem Referenzpunkt aus."/>
+	<label commandName="lclzParaMeshScaleDesc2" devLabel="Select mesh bodies, select a reference point to scale from and a scale type, then specify the scale factor to scale the mesh bodies." translation="Wählen Sie Netzkörper und dann einen Referenzpunkt für die Skalierung sowie einen Skalierungstyp aus. Geben Sie dann den Skalierungsfaktor zum Skalieren der Netzkörper an."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksDesc" devLabel="Select multiple mesh bodies to scale them all at once from a common reference point." translation="Wählen Sie mehrere Netzkörper aus, um sie alle gleichzeitig von einem gemeinsamen Referenzpunkt aus zu skalieren."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksTips" devLabel="Use the Nonuniform scale type to scale mesh bodies by a different scale factor along the X, Y, and Z axes." translation="Verwenden Sie den Skalierungstyp Nicht einheitlich, um Netzkörper um einen anderen Skalierungsfaktor entlang der X-, Y- und Z-Achse zu skalieren."/>
+	<label commandName="lclzParaMeshScaleTipsAndTricksTitle" devLabel="Scale Mesh Information" translation="Netz skalieren - Informationen"/>
+	<label commandName="lclzParaMeshSmoothDesc1" devLabel="Smooths rough or creased regions on a mesh body." translation="Glättet raue oder geknickte Bereiche auf einem Netzkörper."/>
+	<label commandName="lclzParaMeshSmoothDesc2" devLabel="Select a mesh body or face groups, select a smoothing type, then adjust the smoothness and scale to smooth rough or creased regions." translation="Wählen Sie einen Netzkörper oder Flächengruppen und dann einen Glättungstyp aus, und passen Sie die Glättung und Skalierung an, um raue oder geknickte Bereiche zu glätten."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksDesc" devLabel="Use the Smooth command to soften rough areas or sharp creases on a mesh body." translation="Verwenden Sie den Befehl Glätten, um raue Bereiche oder scharfe Knicke auf einem Netzkörper abzuschwächen."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTips" devLabel="Specify Smoothness on a scale from 0-1.00, where 0 applies minimal smoothing effects to the mesh body and 1.00 applies maximum smoothing effects." translation="Geben Sie den Glättungsgrad auf einer Skala von 0 bis 1.00 an, wobei bei 0 minimale Glättungseffekte und bei 1.00 maximale Glättungseffekte auf den Netzkörper anwendet werden."/>
+	<label commandName="lclzParaMeshSmoothTipsAndTricksTitle" devLabel="Smooth Information" translation="Glätten - Informationen"/>
+	<label commandName="lclzParaMeshTessellateDesc1" devLabel="Converts an existing solid or surface body into a mesh body." translation="Konvertiert einen vorhandenen Volumenkörper oder Flächenkörper in einen Netzkörper."/>
+	<label commandName="lclzParaMeshTessellateDesc2" devLabel="Select the solid or surface body to tessellate, then adjust the mesh refinement settings to convert the body to a mesh body." translation="Wählen Sie den Volumenkörper oder Flächenkörper aus, den Sie tessellieren möchten, und passen Sie dann die Einstellungen für die Netzverfeinerung an, um den Körper in einen Netzkörper zu konvertieren."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksDesc" devLabel="Start with one of the Refinement presets, then customize the refinement settings to fine-tune the result before you complete the tessellation." translation="Beginnen Sie mit einer der Verfeinerungsvoreinstellungen, und passen Sie dann die Verfeinerungseinstellungen an, um das Ergebnis zu verfeinern, bevor Sie die Tessellation abschließen."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTips" devLabel="Check the Preview setting to see what the new mesh body will look like as you adjust the Refinement Settings." translation="Überprüfen Sie die Einstellung für die Vorschau, um zu sehen, wie der neue Netzkörper aussehen wird, wenn Sie die Verfeinerungseinstellungen anpassen."/>
+	<label commandName="lclzParaMeshTessellateTipsAndTricksTitle" devLabel="Tesselate Information" translation="Tessellation - Informationen"/>
+	<label commandName="lclzParaMeshToQuadMeshDesc1" devLabel="Converts a mesh body or face groups with triangular faces to a mesh body or face groups with quad faces." translation="Konvertiert einen Netzkörper oder Flächengruppen mit dreieckigen Flächen in einen Netzkörper oder Flächengruppen mit quaderförmigen Flächen."/>
+	<label commandName="lclzParaMeshToQuadMeshDesc2" devLabel="Select a mesh body or face groups, select an output type, then adjust the settings to convert from triangular to quad faces." translation="Wählen Sie einen Netzkörper oder Flächengruppen und dann einen Ausgabetyp aus, und passen Sie die Einstellungen an, um eine Konvertierung von dreieckigen in quaderförmige Flächen durchzuführen."/>
+	<label commandName="lclzStopMeshBaseFeature" devLabel="Finish direct editing" translation="Direktbearbeitung beenden"/>
+	<label commandName="targetOrganicEdgeAccuracy" devLabel="By Accuracy" translation="Nach Genauigkeit"/>
+	<label commandName="targetOrganicEdgeAccuracyToolTip" devLabel="Creates a solid or surface body that matches the shape of the original mesh body more or less accurately, based on the resolution you select." translation="Erstellt einen Volumenkörper oder Flächenkörper, der der Form des ursprünglichen Netzkörpers abhängig von der ausgewählten Auflösung mehr oder weniger genau entspricht."/>
+	<label commandName="targetOrganicFaceNumber" devLabel="By Face Number" translation="Nach Flächennummer"/>
+	<label commandName="targetOrganicFaceNumberToolTip" devLabel="Creates solid or surface body with a specific number of faces." translation="Erstellt einen Volumenkörper oder Flächenkörper mit einer bestimmten Anzahl von Flächen."/>
+	<label commandName="tolerance" devLabel="Tolerance" translation="Toleranz"/>
+	<label commandName="toleranceToolTip" devLabel="Specify the maximum percentage deviation of the reduced mesh from the original mesh shape." translation="Geben Sie die maximale prozentuale Abweichung des reduzierten Netzes von der ursprünglichen Netzform an."/>
+	<label commandName="triCount" devLabel="Face Count" translation="Flächenanzahl"/>
+	<label commandName="triCountToolTip" devLabel="Reduces mesh to a specific number of faces." translation="Reduziert das Netz auf eine bestimmte Anzahl von Flächen."/>
+</Resource>

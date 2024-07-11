@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="A360ContentNotAvailable" devLabel="This file is being saved currently, please wait" translation="Diese Datei wird derzeit gespeichert; bitte warten"/>
+	<label commandName="AddMaterialError" devLabel="Material could not be added to document." translation="Material konnte dem Dokument nicht hinzugefügt werden."/>
+	<label commandName="AddMaterialExistsError" devLabel="Material could not be added. An equivalent material is already present in the document." translation="Material konnte nicht hinzugefügt werden. Ein entsprechendes Material ist bereits im Dokument vorhanden."/>
+	<label commandName="AssyConstraintsSelectionId" devLabel="Joints" translation="Gelenke"/>
+	<label commandName="ComponentInstanceSelectionCategory" devLabel="Components" translation="Komponenten"/>
+	<label commandName="ComponentInstanceSelectionId" devLabel="Component Instance" translation="Komponentenexemplar"/>
+	<label commandName="ComponentInstancesSelectionId" devLabel="Component Instances" translation="Komponentenexemplare"/>
+	<label commandName="ContactSetName" devLabel="ContactSet" translation="Kontaktsatz"/>
+	<label commandName="ContactSetSelectionId" devLabel="Contact Set" translation="Kontaktsatz"/>
+	<label commandName="ContactSetsSelectionId" devLabel="Contact Sets" translation="Kontaktsätze"/>
+	<label commandName="CyclicDependencyNotAllowed" devLabel="Cannot insert %1% into %2% because it will create a circular reference." translation="%1% kann nicht in %2% eingefügt werden, da dadurch eine zirkuläre Referenz erstellt wird."/>
+	<label commandName="CyclicDependencyNotAllowed2" devLabel="Cannot insert %1% into %2% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="%1% kann nicht in %2% eingefügt werden, da beim Rückgängigmachen oder Wiederherstellen der zuletzt ausgeführten Aktionen in diesen Konstruktionen eine zirkuläre Referenz erstellt wird.&#xA;&#xA;Speichern, schließen und öffnen Sie die Konstruktionen erneut, um den Rückgängig-Verlauf zu löschen."/>
+	<label commandName="CyclicDependencyNotAllowedReplace" devLabel="Cannot replace %1% with %2% in %3% because it will create a circular reference." translation="%1% kann nicht durch %2% in %3% ersetzt werden, da dadurch eine zirkuläre Referenz erstellt wird."/>
+	<label commandName="CyclicDependencyNotAllowedReplace2" devLabel="Cannot replace %1% with %2% in %3% because if you undo or redo recent actions in these designs it will create a circular reference.&#xA;&#xA;Save, close, and reopen the designs to clear the undo history." translation="%1% kann nicht durch %2% in %3% ersetzt werden, da durch das Rückgängigmachen oder Wiederherstellen der zuletzt ausgeführten Aktionen in diesen Konstruktionen eine zirkuläre Referenz erstellt wird.&#xA;&#xA;Speichern, schließen und öffnen Sie die Konstruktionen erneut, um den Rückgängig-Verlauf zu löschen."/>
+	<label commandName="DeleteDocMaterialNotExistError1" devLabel="Material could not be deleted. This material is not present in the document." translation="Material konnte nicht gelöscht werden. Dieses Material ist nicht im Dokument vorhanden."/>
+	<label commandName="DeleteDocMaterialNotExistError2" devLabel="There was a problem in deleting materials. Some of the materials might not be present in the document." translation="Es wurde ein Problem beim Löschen von Materialien. Einige Materialien möglicherweise nicht im Dokument vorhanden."/>
+	<label commandName="FailedProjectInfoFetch" devLabel="Failed to fetch project information for document %1%" translation="Fehler beim Abrufen von Projektinformationen für Dokument %1%"/>
+	<label commandName="FailedToGetProjectInfo" devLabel="Failed to fetch project information for inserted design" translation="Fehler beim Abrufen von Projektinformationen für eingefügte Konstruktion"/>
+	<label commandName="FailedToMergeVersion" devLabel="Failed to merge the version into the current branch." translation="Fehler beim Zusammenführen der Version in die aktuelle Verzweigung."/>
+	<label commandName="GetLatest" devLabel="Get Latest" translation="Letzte abrufen"/>
+	<label commandName="InsertComponentRequest:CyclicReference" devLabel="Target asset is already a parent reference of the source asset." translation="Das Zielobjekt ist bereits eine übergeordnete Referenz des Quellobjekts."/>
+	<label commandName="InsertComponentRequest:NonCloudDocument" devLabel="Please upload the source document and try again." translation="Laden Sie das Quelldokument hoch, und versuchen Sie es erneut."/>
+	<label commandName="InsertComponentRequest:ReadOnly" devLabel="Unable to insert source component into a read only asset." translation="Quellkomponente kann nicht in ein schreibgeschütztes Objekt eingefügt werden."/>
+	<label commandName="InsertComponentRequest:SameSourceTarget" devLabel="The target component is the same as the source component. Please select a different target component and try again." translation="Die Zielkomponente entspricht der Quellkomponente. Wählen Sie eine andere Zielkomponente aus, und versuchen Sie es erneut."/>
+	<label commandName="InsertComponentRequest:UnsavedDocument" devLabel="Please save the target document and try again." translation="Speichern Sie das Zieldokument, und versuchen Sie es erneut."/>
+	<label commandName="IntersectionAnalysisInvalidBody" devLabel="An invalid body has been selected for Intersection Analysis" translation="Ein ungültiger Körper wurde für die Durchdringungsanalyse ausgewählt"/>
+	<label commandName="JointAngleConflictMessage" devLabel="Angle conflict due to %1%" translation="Winkelkonflikt aufgrund von %1%"/>
+	<label commandName="JointBallName" devLabel="Ball" translation="Kugel"/>
+	<label commandName="JointBallPlaneName" devLabel="BallPlane" translation="Kugelebene"/>
+	<label commandName="JointBallSlotName" devLabel="BallSlot" translation="Kugelschlitz"/>
+	<label commandName="JointCategory" devLabel="Joints" translation="Gelenke"/>
+	<label commandName="JointConflictDefinition" devLabel="joint type" translation="Gelenktyp"/>
+	<label commandName="JointConflictLocked" devLabel="locked value" translation="Gesperrter Wert"/>
+	<label commandName="JointConflictMaximum" devLabel="Maximum value limit" translation="Höchstwert"/>
+	<label commandName="JointConflictMinimum" devLabel="Minimum value limit" translation="Mindestwert"/>
+	<label commandName="JointCylindricalName" devLabel="Cylindrical" translation="Zylindrisch"/>
+	<label commandName="JointDOFAngleName" devLabel="Rotate" translation="Drehen"/>
+	<label commandName="JointDOFDistanceName" devLabel="Slide" translation="Schieben"/>
+	<label commandName="JointDOFDistanceNamePlanar1" devLabel="Slide 1" translation="Schieben 1"/>
+	<label commandName="JointDOFDistanceNamePlanar2" devLabel="Slide 2" translation="Schieben 2"/>
+	<label commandName="JointDOFPitchName" devLabel="Pitch" translation="Steigung"/>
+	<label commandName="JointDOFRollName" devLabel="Roll" translation="Rolle"/>
+	<label commandName="JointDOFSelectionId" devLabel="Joint DOF" translation="Gelenk-FHG"/>
+	<label commandName="JointDOFSelectionRelationshipId" devLabel="Joint DOF Relationship" translation="FHG-Beziehung des Gelenks"/>
+	<label commandName="JointDOFSelectionRelationshipsId" devLabel="Joint DOF Relationships" translation="Gelenk-FHG-Beziehungen"/>
+	<label commandName="JointDOFYawName" devLabel="Yaw" translation="Gieren"/>
+	<label commandName="JointDOFsSelectionId" devLabel="Joint DOFs" translation="Gelenk-Freiheitsgrade"/>
+	<label commandName="JointDistanceConflictMessage" devLabel="Distance conflict due to %1%" translation="Abstandskonflikt aufgrund von %1%"/>
+	<label commandName="JointOccurrenceSelectionId" devLabel="Joint Occurrence" translation="Gelenkexemplar"/>
+	<label commandName="JointOccurrencesSelectionId" devLabel="Joint Occurrences" translation="Gelenkexemplare"/>
+	<label commandName="JointOriginCategory" devLabel="Joint Origins" translation="Gelenkursprünge"/>
+	<label commandName="JointOriginDefaultUserName" devLabel="Joint Origin" translation="Gelenkursprung"/>
+	<label commandName="JointOriginSelectionId" devLabel="Joint Origin" translation="Gelenkursprung"/>
+	<label commandName="JointOriginsSelectionId" devLabel="Joint Origins" translation="Gelenkursprünge"/>
+	<label commandName="JointPinPlaneName" devLabel="Planar" translation="Eben"/>
+	<label commandName="JointPinSlotName" devLabel="Pin-Slot" translation="Pin-Langloch"/>
+	<label commandName="JointPlanarName" devLabel="PlaneSlide" translation="Ebenen-Schieberegler"/>
+	<label commandName="JointRevoluteName" devLabel="Revolute" translation="Umdrehung"/>
+	<label commandName="JointRigidGroupName" devLabel="RigidGroup" translation="Starre Gruppe"/>
+	<label commandName="JointRigidName" devLabel="Rigid" translation="Starr"/>
+	<label commandName="JointRollPlaneName" devLabel="RollPlane" translation="Rollenebene"/>
+	<label commandName="JointSelectionId" devLabel="Joint" translation="Gelenk"/>
+	<label commandName="JointSelectionPluralId" devLabel="Joints" translation="Gelenke"/>
+	<label commandName="JointSliderName" devLabel="Slider" translation="Schieberegler"/>
+	<label commandName="JointTooltip" devLabel="%1%&lt;br&gt;&lt;br&gt;%2% joint between &lt;br&gt; %3% &lt;br&gt;and &lt;br&gt;%4%" translation="%1%&lt;br&gt;&lt;br&gt;%2% Gelenk zwischen &lt;br&gt; %3% &lt;br&gt;und &lt;br&gt;%4%"/>
+	<label commandName="MotionLinkName" devLabel="Motion Link" translation="Bewegungsverknüpfung"/>
+	<label commandName="MotionStudyName" devLabel="MotionStudy-" translation="Bewegungsstudie-"/>
+	<label commandName="NotAllowImportSelf" devLabel="A document cannot be inserted into itself." translation="Ein Dokument kann nicht in sich selbst eingefügt werden."/>
+	<label commandName="OffsetWorkPlaneFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene versetzen aufgrund ungültiger Eingabe"/>
+	<label commandName="Project" devLabel="Project" translation="Projekt"/>
+	<label commandName="ReplaceDocMaterialError" devLabel="Material could not be replaced in the document." translation="Material konnte im Dokument nicht ersetzt werden."/>
+	<label commandName="ReplaceDocRemoveMaterialError" devLabel="Old material could not be removed from the document, possibly because it is the default material." translation="Altes Material konnte nicht aus dem Dokument entfernt werden, da es sich wahrscheinlich um das vorgegebene Material handelt."/>
+	<label commandName="RequireSaveBeforeInsert" devLabel="Please save this design before inserting components" translation="Speichern Sie diese Konstruktion vor dem Einfügen von Komponenten"/>
+	<label commandName="SaveXRefDoc_MissingLink" devLabel="Failed to save external document due to missing link." translation="Fehler beim Speichern des externen Dokuments aufgrund einer fehlenden Verknüpfung."/>
+	<label commandName="SelectionGroupRequestWarning" devLabel="Warning: Some selections could not be added to the selection set" translation="Warnung: Einige ausgewählte Elemente konnten dem Auswahlsatz nicht hinzugefügt werden."/>
+	<label commandName="TangentRelationshipConstrName" devLabel="TangentRelationship" translation="Tangentenbeziehung"/>
+	<label commandName="TargetDocumentNotFound" devLabel="Target document not found!!" translation="Zieldokument nicht gefunden."/>
+	<label commandName="TransitionalRelationshipCategory" devLabel="TransitionalRelationships" translation="Übergangsbeziehungen"/>
+	<label commandName="TransitionalRelationshipOccurrenceSelectionId" devLabel="TransitionalRelationship Occurrence" translation="Exemplar der Übergangsbeziehung"/>
+	<label commandName="TransitionalRelationshipOccurrencesSelectionId" devLabel="TransitionalRelationship Occurrences" translation="Exemplare der Übergangsbeziehungen"/>
+	<label commandName="TransitionalRelationshipSelectionId" devLabel="TransitionalRelationship" translation="Übergangsbeziehung"/>
+	<label commandName="TransitionalRelationshipSelectionPluralId" devLabel="TransitionalRelationships" translation="Übergangsbeziehungen"/>
+	<label commandName="VCS_ADD_ASSEMBLYCONSTR_FAILED" devLabel="Failed to evaluate references to solve Tangent Relationship." translation="Fehler beim Auswerten der Referenzen zum Auflösen der tangentialen Beziehung."/>
+	<label commandName="VCS_JOINT_DRAG_FAILURE" devLabel="drag failed" translation="Fehler beim Ziehen"/>
+	<label commandName="VCS_JOINT_DRAG_FAILUREINITERROR" devLabel="drag failed due to initialization error" translation="Fehler beim Ziehen aufgrund eines Initialisierungsfehlers"/>
+	<label commandName="VCS_JOINT_DRAG_INCONSISTENT" devLabel="drag failed due to inconsistencies" translation="Fehler beim Ziehen aufgrund von Inkonsistenzen"/>
+	<label commandName="VCS_JOINT_DRIVE_FAILURE" devLabel="Joint drive failed unexpectedly" translation="Unerwarteter Fehler bei Gelenkantrieb"/>
+	<label commandName="VCS_JOINT_DRIVE_INCONSISTENT" devLabel="Joint drive failed due to inconsistencies" translation="Fehler bei Gelenkantrieb aufgrund von Inkonsistenzen"/>
+	<label commandName="VCS_JOINT_FAILURE" devLabel="Position calculation failed due to initialization error" translation="Fehler bei Positionsberechnung aufgrund von Initialisierungsfehler"/>
+	<label commandName="VCS_JOINT_INCONSISTENT" devLabel="Cannot resolve some component positions because there are conflicts with assembly relationships in the design. &lt;br/&gt; Inspect existing joints, rigid groups, or tangent relationships." translation="Einige Komponentenpositionen können nicht aufgelöst werden, da es Konflikte mit Baugruppenbeziehungen in der Konstruktion gibt. &lt;br/&gt; Überprüfen Sie vorhandene Gelenke, starre Gruppen oder tangentiale Beziehungen."/>
+	<label commandName="VCS_SKETCH_OVER_CONSTRAINTS" devLabel="Sketch geometry is over constrained" translation="Skizziergeometrie ist mit zu vielen Abhängigkeiten versehen."/>
+	<label commandName="VCS_SKETCH_SOLVING_FAILED" devLabel="Failed to solve. Please try revising dimensions or constraints." translation="Fehler beim Lösen. Bitte versuchen Sie es Überarbeiten von Bemaßungen oder Abhängigkeiten."/>
+	<label commandName="WorkAxisFromCylinderRequestGenericError" devLabel="Work Axis From Cylinder failed due to invalid input" translation="Fehler bei Arbeitsachse aus Zylinder aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkAxisFromCylinderRequestInputFaceError" devLabel="Work Axis through Cylinder failed:  Face is not a cylinder or a cone" translation="Fehler bei Arbeitsachse durch Zylinder: Fläche ist kein Zylinder oder Kegel"/>
+	<label commandName="WorkAxisFromFaceAndPointRequestFaceNormalError" devLabel="Axis failed: cannot calculate face normal at selected point" translation="Fehler bei Achse: Flächennormale kann am ausgewählten Punkt nicht berechnet werden."/>
+	<label commandName="WorkAxisFromFaceAndPointRequestGenericError" devLabel="Axis failed: invalid input" translation="Fehler bei Achse: ungültige Eingabe"/>
+	<label commandName="WorkAxisFromFaceAndPointRequestPointProjectError" devLabel="Axis failed: no projection from point to face" translation="Fehler bei Achse: Keine Projektion von Punkt auf Fläche"/>
+	<label commandName="WorkAxisFromLineRequestGenericError" devLabel="Work Axis From Edge failed.  Selected Edge must be linear" translation="Fehler bei Arbeitsachse aus Kante. Ausgewählte Kante muss linear sein."/>
+	<label commandName="WorkAxisFromLocationAndVectorRequestGenericError" devLabel="Work Axis failed due to invalid input" translation="Fehler bei Arbeitsachse aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkAxisFromMidPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene auf Mittelfläche aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkAxisFromTwoPlanesRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene versetzen aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkAxisFromTwoPlanesRequestParallelPlanesError" devLabel="Work Axis From Two Planes failed: input planes do not intersect" translation="Fehler bei Arbeitsachse aus zwei Ebenen: Eingabeflächen schneiden sich nicht"/>
+	<label commandName="WorkPlaneFromFaceAndPointRequestFaceNormalError" devLabel="Work Plane from Face and Point failed: Can't get normal of selected Face at the selected Point" translation="Fehler bei Arbeitsebene aus Fläche und Punkt: Lotrechte der ausgewählten Fläche kann am ausgewählten Punkt nicht abgerufen werden"/>
+	<label commandName="WorkPlaneFromFaceAndPointRequestGenericError" devLabel="Work Plane from Face and Point failed due to invalid input" translation="Fehler bei Arbeitsebene aus Ebene und Punkt aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneFromFaceAndPointRequestPointProjectError" devLabel="Work Plane from Face and Point failed: No projection from Point to Face" translation="Fehler bei Arbeitsebene aus Ebene und Punkt: Keine Projektion von Punkt auf Fläche"/>
+	<label commandName="WorkPlaneFromLineAndAngleRequestGenericError" devLabel="Work Plane At Angle failed due to invalid input" translation="Fehler bei Arbeitsebene an Winkel aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneFromLocationAndVectorRequestGenericError" devLabel="Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneFromPointAndNormalRequestError" devLabel="Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneFromPointAndNormalRequestTargetError" devLabel="Work Plane failed due to invalid target" translation="Fehler bei Arbeitsebene aufgrund eines ungültigen Ziels"/>
+	<label commandName="WorkPlaneFromThreePointsRequestColinearPointsError" devLabel="Work Plane through three points failed:  The points are collinear" translation="Fehler bei Arbeitsebene durch drei Punkte: Die Punkte sind kollinear."/>
+	<label commandName="WorkPlaneFromThreePointsRequestEqualPointsError" devLabel="Work Plane through three points failed:  Two or more of the points are identical" translation="Fehler bei Arbeitsebene durch drei Punkte: Zwei oder mehr Punkte sind identisch."/>
+	<label commandName="WorkPlaneFromTwoLinesRequestColinearInputsError" devLabel="Work Plane From Two Lines failed: Input lines are collinear" translation="Fehler bei Arbeitsebene aus zwei Linien: Eingabelinien sind kollinear."/>
+	<label commandName="WorkPlaneFromTwoLinesRequestGenericError" devLabel="Work Plane From Two Lines failed due to invalid input" translation="Fehler bei Arbeitsebene aus zwei Linien aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneFromTwoLinesRequestLinesNotParallelOrIntersectError" devLabel="Work Plane From Two Lines failed:  Input lines must intersect or be parallel" translation="Fehler bei Arbeitsebene aus zwei Linien: Eingabelinien müssen sich schneiden oder parallel sein"/>
+	<label commandName="WorkPlaneFromTwoPlanesRequestCoplanarError" devLabel="Mid-Plane Work Plane failed:  Selected planes are coplanar" translation="Fehler bei Mittelflächen-Arbeitsebene: Ausgewählte Ebenen sind koplanar"/>
+	<label commandName="WorkPlaneInvalidInput" devLabel="Midplane Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene auf Mittelfläche aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneOffsetFromPlaneRequestGenericError" devLabel="Offset Work Plane failed due to invalid input" translation="Fehler bei Arbeitsebene versetzen aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPlaneTangentToCylinderRequestGenericError" devLabel="Tangent Work Plane failed due to invalid input" translation="Fehler bei tangentialer Arbeitsebene aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPointFromCircleRequestFaceNotSphereError" devLabel="Work Point From Circular Edge failed:  Selected edge is not circular" translation="Fehler bei Arbeitspunkt aus runder Kante: Ausgewählte Kante ist nicht rund."/>
+	<label commandName="WorkPointFromLineAndPlaneRequestEdgeNotLinearError" devLabel="Work Point From Line and Plane failed:  Selected Edge is not linear" translation="Fehler bei Arbeitspunkt aus Linie und Ebene: ausgewählte Kante ist nicht linear"/>
+	<label commandName="WorkPointFromLineAndPlaneRequestFaceError" devLabel="Work Point From Line and Plane failed: Selected Face is not planar" translation="Fehler bei Arbeitspunkt aus Linie und Ebene: ausgewählte Fläche ist nicht eben"/>
+	<label commandName="WorkPointFromLineAndPlaneRequestLineAndFaceParallelError" devLabel="Work Point From Line and Plane failed: Selected Face and Line are parallel" translation="Fehler bei Arbeitspunkt aus Linie und Ebene: ausgewählte Fläche und Linie sind parallel"/>
+	<label commandName="WorkPointFromSphereRequestFaceNotSphereError" devLabel="Work Point From Sphere failed:  Selected face is not spherical" translation="Fehler bei Arbeitspunkt aus Kugel: Ausgewählte Fläche ist nicht kugelförmig"/>
+	<label commandName="WorkPointFromSphereRequestGenericError" devLabel="Cannot create point" translation="Punkt kann nicht erstellt werden"/>
+	<label commandName="WorkPointFromThreePlanesRequestGenericError" devLabel="Work Point from 3 Planes failed due to invalid input" translation="Fehler bei Arbeitspunkt aus drei Ebenen aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPointFromThreePlanesRequestParallelPlanesError" devLabel="Work Point From Three Planes failed: input planes do not intersect" translation="Fehler bei Arbeitspunkt aus drei Ebenen: Eingabeflächen überschneiden sich nicht."/>
+	<label commandName="WorkPointFromTwoLinesRequestGenericError" devLabel="Work Point From Two Lines failed due to invalid input" translation="Fehler bei Arbeitspunkt aus zwei Linien aufgrund ungültiger Eingabe"/>
+	<label commandName="WorkPointFromTwoLinesRequestNoIntersectionError" devLabel="Work Point From Two Lines failed: lines do not intersect" translation="Fehler bei Arbeitspunkt aus zwei Linien: Linien schneiden sich nicht"/>
+	<label commandName="XRefDifferentVersionAlreadyExistsSameWillBeInserted" devLabel="The active document is already referencing a different version of the document %1%. The same version will be inserted again." translation="Das aktive Dokument referenziert bereits eine andere Version des Dokuments %1%. Die gleiche Version wird erneut eingefügt."/>
+	<label commandName="XRefUpdateAbortedDueToMissingXRefs" devLabel="The operation failed because it results in some unresolved components. Please open following designs and fix the unresolved components:" translation="Der Vorgang ist fehlgeschlagen, da er zu nicht aufgelösten Komponenten führt. Öffnen Sie die folgenden Konstruktionen, und reparieren Sie die nicht aufgelösten Komponenten:"/>
+	<label commandName="alignComponentsInconsistent" devLabel="No alignment suggested by geometry could be found" translation="Keine von der Geometrie vorgeschlagene Ausrichtung gefunden"/>
+	<label commandName="comp1Name" devLabel="&lt;unknown&gt;" translation="&lt;unbekannt&gt;"/>
+	<label commandName="comp2Name" devLabel="&lt;unknown&gt;" translation="&lt;unbekannt&gt;"/>
+	<label commandName="insertDocfaile" devLabel="The document could not be downloaded." translation="Das Dokument konnte nicht heruntergeladen werden."/>
+	<label commandName="jointName" devLabel="&lt;unknown&gt;" translation="&lt;unbekannt&gt;"/>
+	<label commandName="jointType" devLabel="&lt;unknown&gt;" translation="&lt;unbekannt&gt;"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Vorgang wurde manuell vom Benutzer abgebrochen"/>
+	<label commandName="lclzXREFhasRelations" devLabel="Inserting a distributed design from one %1% to another is not currently supported.&#xA;&#xA;%2% of current design: %3%&#xA;%2% of design being inserted: %4%" translation="Das Einfügen einer verteilten Konstruktion aus %1% in ein anderes Projekt wird derzeit nicht unterstützt.&#xA;&#xA;%2% für aktuelle Konstruktion: %3%&#xA; %2% der einzufügenden Konstruktion: %4%"/>
+	<label commandName="project" devLabel="project" translation="Projekt"/>
+	<label commandName="solveContactSetInconsistent" devLabel="Contacts in new set cause a conflict" translation="Kontakte im neuen Satz verursachen einen Konflikt"/>
+	<label commandName="solveNewJointInconsistent" devLabel="Selected joint type will result in conflict" translation="Der ausgewählte Gelenktyp verursacht einen Konflikt."/>
+</Resource>

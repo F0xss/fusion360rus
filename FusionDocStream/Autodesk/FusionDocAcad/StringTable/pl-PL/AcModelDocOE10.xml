@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_OE_COPY_FAILURE" devLabel="&#xA;Model Documentation view data cannot be copied in this release.&#xA;" translation=""/>
+	<label commandName="IDS_SY_ERR_CMD_NOTALLOWED" devLabel="** %s command not allowed in block editor. **&#xA;" translation=""/>
+	<label commandName="IDS_SY_FILTER_OUT_OF_DATE_VIEW_FROM_ROTATE" devLabel="&#xA;Cannot rotate out of date views.&#xA;" translation=""/>
+	<label commandName="IDS_SY_FILTER_VIEW_FROM_SELECTION" devLabel="&#xA;Cannot %s that object&#xA;" translation=""/>
+</Resource>

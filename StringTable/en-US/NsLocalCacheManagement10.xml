@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="DownloadManager::downLoadFinished:text" devLabel="After several attempts, Fusion could not download a file for the offline cache. Fusion will not make any further attempts to download this file. See the log file for details." translation="" />
+	<label commandName="DownloadManager::downLoadFinished:title" devLabel="Download failed" translation="" />
+	<label commandName="DownloadManager::downLoadFinishede:subtitle" devLabel="A file failed to download" translation="" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCache:subtitle" devLabel="Unable to download" translation="" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCache:title" devLabel="Add to offline cache failed" translation="" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCacheDesign" devLabel="This design contains %1% reference(s) that cannot be accessed (i.e. references in a project you do not have access to, or in a project that has been archived). You need access to the projects containing these references." translation="" />
+	<label commandName="DownloadPreprocessor::blockDownloadForCacheFolder" devLabel="%1% design(s) contain some reference(s) that cannot be accessed (i.e. references in a project you do not have access to, or in a project that has been archived). You need access to the projects containing these references." translation="" />
+</Resource>

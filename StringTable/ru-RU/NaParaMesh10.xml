@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Body" devLabel="Body" translation="Körper"/>
+	<label commandName="ConversionFailed" devLabel="Conversion failed" translation="Konvertierung fehlgeschlagen"/>
+	<label commandName="CreateComponentsFromMeshBodiesFeatureMissing" devLabel="Editing Feature for CreateComponentsFromBodies is missing." translation="Bearbeitungselement für Komponenten aus Körpern erstellen fehlt."/>
+	<label commandName="CreateComponentsFromMeshBodiesMeshMissing" devLabel="Mesh Body for CreateComponentsFromBodies is missing." translation="Netzkörper für Komponenten aus Körpern erstellen fehlt."/>
+	<label commandName="DeriveEntitiesCreateComponentsFromMeshBodiesIsNotSupported" devLabel="This operation is not supported for Derived entities, they will not participate in the operation." translation="Dieser Vorgang wird für abgeleitete Objekte nicht unterstützt. Diese werden in den Vorgang nicht einbezogen."/>
+	<label commandName="Face Group" devLabel="Face Group" translation="Flächengruppe"/>
+	<label commandName="Faces" devLabel="Faces" translation="Flächen"/>
+	<label commandName="FailedDefectInspection" devLabel="Mesh defect inspection failed." translation="Prüfung des Netzfehlers fehlgeschlagen."/>
+	<label commandName="FailedParaMeshBoolean" devLabel="Cannot combine mesh bodies. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Netzkörper können nicht kombiniert werden. Verwenden Sie Reparieren, um sicherzustellen, dass die ausgewählten Netze geschlossen und korrekt ausgerichtet sind sowie ein positives Volumen aufweisen."/>
+	<label commandName="FailedParaMeshDelete" devLabel="Cannot delete mesh body." translation="Netzkörper kann nicht gelöscht werden."/>
+	<label commandName="FailedParaMeshExportOperation" devLabel="Cannot export mesh body. Select a different export format or save the file to a different location." translation="Netzkörper kann nicht exportiert werden. Wählen Sie ein anderes Exportformat aus, oder speichern Sie die Datei an einem anderen Speicherort."/>
+	<label commandName="FailedParaMeshFaceGroup" devLabel="Cannot generate face groups for mesh body." translation="Flächengruppen für Netzkörper können nicht generiert werden."/>
+	<label commandName="FailedParaMeshFaceGroupDelete" devLabel="Mesh body delete face groups command failed" translation="Fehler beim Befehl zum Löschen von Flächengruppen für Netzkörper"/>
+	<label commandName="FailedParaMeshFacetsDelete" devLabel="Mesh body delete faces command failed" translation="Befehl zum Löschen von Flächen für Netzkörper fehlgeschlagen"/>
+	<label commandName="FailedParaMeshHollow" devLabel="Cannot shell mesh body. Adjust thickness or use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Netzkörper kann nicht mit Schale versehen werden. Passen Sie die Dicke an, oder verwenden Sie Reparieren, um sicherzustellen, dass die ausgewählten Netze geschlossen und korrekt ausgerichtet sind sowie ein positives Volumen aufweisen."/>
+	<label commandName="FailedParaMeshLattice" devLabel="Cannot lattice mesh body." translation="Gitter für Netzkörper kann nicht erstellt werden."/>
+	<label commandName="FailedParaMeshLatticeCmd" devLabel="Cannot lattice mesh body." translation="Gitter für Netzkörper kann nicht erstellt werden."/>
+	<label commandName="FailedParaMeshMerge" devLabel="Cannot combine mesh bodies with the Merge operation." translation="Netzkörper können nicht mit dem Zusammenführen-Vorgang kombiniert werden."/>
+	<label commandName="FailedParaMeshMergeFaceGroups" devLabel="Cannot combine face groups on mesh body. Use Generate Face Groups to regenerate a starting set of face groups." translation="Flächengruppen auf Netzkörper können nicht kombiniert werden. Verwenden Sie Flächengruppen generieren, um einen Anfangssatz von Flächengruppen zu regenerieren."/>
+	<label commandName="FailedParaMeshMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Netzkörper kann nicht in Volumenkörper oder Flächenkörper konvertiert werden. Verwenden Sie Flächengruppen generieren oder Direktbearbeitung zum Ausrichten von Flächengruppen an geometrischen Elementen auf dem Netzkörper."/>
+	<label commandName="FailedParaMeshOperation" devLabel="Mesh interface operation failed." translation="Fehler beim Netzschnittstellenvorgang."/>
+	<label commandName="FailedParaMeshOperationAssetAdapterMissing" devLabel="No Asset or AssetAdapter available. Save the design and restart." translation="Kein Objekt oder Objektadapter verfügbar. Speichern Sie die Konstruktion, und starten Sie sie neu."/>
+	<label commandName="FailedParaMeshOperationCreate" devLabel="Cannot insert mesh body. The source file may be damaged." translation="Netzkörper kann nicht eingefügt werden. Die Quelldatei ist möglicherweise beschädigt."/>
+	<label commandName="FailedParaMeshOperationExtract" devLabel="Cannot separate regions of mesh body." translation="Bereiche des Netzkörpers können nicht getrennt werden."/>
+	<label commandName="FailedParaMeshPlaneCut" devLabel="Cannot complete plane cut of mesh body. Use Repair or Direct Edit to ensure mesh body does not intersect itself." translation="Ebenenschnitt des Netzkörpers kann nicht abgeschlossen werden. Verwenden Sie Reparieren oder Direktbearbeitung, um sicherzustellen, dass sich der Netzkörper nicht selbst schneidet."/>
+	<label commandName="FailedParaMeshRangeCheck" devLabel="Parameter value is out of bounds" translation="Parameterwert außerhalb des zulässigen Bereichs"/>
+	<label commandName="FailedParaMeshReduce" devLabel="Cannot reduce mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Netzkörper oder Flächengruppen können nicht reduziert werden. Verwenden Sie Reparieren, um sicherzustellen, dass die ausgewählten Netze geschlossen und korrekt ausgerichtet sind sowie ein positives Volumen aufweisen."/>
+	<label commandName="FailedParaMeshRemesh" devLabel="Cannot remesh mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Netzkörper oder Flächengruppen können nicht neu vernetzt werden. Verwenden Sie Reparieren, um sicherzustellen, dass die ausgewählten Netze geschlossen und korrekt ausgerichtet sind sowie ein positives Volumen aufweisen."/>
+	<label commandName="FailedParaMeshRemeshSeperateRegions" devLabel="Cannot remesh mesh body or face groups. Input selection of triangles may be disjoint, e.g. subareas of the selection not sharing an edge. Adjusting and sanitizing the input selection can help." translation="Netzkörper oder Flächengruppen können nicht neu vernetzt werden. Die Eingabeauswahl von Dreiecken ist möglicherweise nicht verbunden, z. B. haben Teilbereiche der Auswahl keine gemeinsame Kante. Das Anpassen und Bereinigen der Eingabeauswahl kann helfen."/>
+	<label commandName="FailedParaMeshRemove" devLabel="Cannot remove mesh body." translation="Netzkörper kann nicht entfernt werden."/>
+	<label commandName="FailedParaMeshRemoveFeature" devLabel="Cannot remove mesh body. Target mesh body does not exist." translation="Netzkörper kann nicht entfernt werden. Zielnetzkörper ist nicht vorhanden."/>
+	<label commandName="FailedParaMeshRepair" devLabel="Cannot repair mesh body. Try a different repair type." translation="Netzkörper kann nicht repariert werden. Versuchen Sie es mit einem anderen Reparaturtyp."/>
+	<label commandName="FailedParaMeshScaling" devLabel="Cannot scale mesh body. Adjust scale factor or X/Y/Z scale." translation="Netzkörper kann nicht skaliert werden. Passen Sie den Skalierungsfaktor oder die X/Y/Z-Skalierung an."/>
+	<label commandName="FailedParaMeshSmooth" devLabel="Cannot smooth mesh body or face groups. Use Repair to ensure selected meshes are closed, oriented correctly, and have positive volume." translation="Netzkörper oder Flächengruppen können nicht geglättet werden. Verwenden Sie Reparieren, um sicherzustellen, dass die ausgewählten Netze geschlossen und korrekt ausgerichtet sind sowie ein positives Volumen aufweisen."/>
+	<label commandName="FailedParaMeshTessellate" devLabel="Cannot tessellate solid or surface body to create mesh body." translation="Volumenkörper oder Flächenkörper kann nicht tesselliert werden, um einen Netzkörper zu erstellen."/>
+	<label commandName="FailedParaMeshToBREP" devLabel="Cannot convert mesh body to solid or surface body. Use Generate Face Groups or Direct Edit to align face groups to geometric features on the mesh body." translation="Netzkörper kann nicht in Volumenkörper oder Flächenkörper konvertiert werden. Verwenden Sie Flächengruppen generieren oder Direktbearbeitung zum Ausrichten von Flächengruppen an geometrischen Elementen auf dem Netzkörper."/>
+	<label commandName="FailedParaMeshToQuadMesh" devLabel="Cannot convert mesh body to quad mesh." translation="Netzkörper kann nicht in Quad-Netz konvertiert werden."/>
+	<label commandName="FailedParaMeshToTSpline" devLabel="Cannot convert mesh body to T-Spline body." translation="Netzkörper kann nicht in T-Spline-Körper konvertiert werden."/>
+	<label commandName="FeatureBodyComp" devLabel="Body-&gt;Comp" translation="Körper-&gt;Berechn"/>
+	<label commandName="FeatureCalculateFaceGroups" devLabel="GenerateFaceGroups" translation="Flächengruppen erstellen"/>
+	<label commandName="FeatureCopyPasteMeshes" devLabel="CopyPasteMeshes" translation="Netze kopieren und einfügen"/>
+	<label commandName="FeatureCreateMesh" devLabel="CreateMesh" translation="Netz erstellen"/>
+	<label commandName="FeatureCutPasteMeshes" devLabel="CutPasteMeshes" translation="Netze ausschneiden und einfügen"/>
+	<label commandName="FeatureMergeFaceGroups" devLabel="CombineFaceGroups" translation="Flächengruppen kombinieren"/>
+	<label commandName="FeatureMesh" devLabel="Base Mesh Feature" translation="Grundnetzelement"/>
+	<label commandName="FeatureMeshCombine" devLabel="MeshCombine" translation="Netz kombinieren"/>
+	<label commandName="FeatureMeshExtract" devLabel="MeshSeparate" translation="Netz trennen"/>
+	<label commandName="FeatureMeshHollow" devLabel="MeshShell" translation="Netzschale"/>
+	<label commandName="FeatureMeshPlaneCut" devLabel="MeshPlaneCut" translation="Netzebenenschnitt"/>
+	<label commandName="FeatureMeshReduce" devLabel="MeshReduce" translation="Netzreduzierung"/>
+	<label commandName="FeatureMeshRemesh" devLabel="MeshRemesh" translation="Netz-Neuvernetzung"/>
+	<label commandName="FeatureMeshRemove" devLabel="MeshRemove" translation="Netzentfernung"/>
+	<label commandName="FeatureMeshRepair" devLabel="MeshRepair" translation="Netzreparatur"/>
+	<label commandName="FeatureMeshReverseNormals" devLabel="MeshReverseNormals" translation="Netz - Normalen umkehren"/>
+	<label commandName="FeatureMeshScale" devLabel="Scale" translation="Maßstab"/>
+	<label commandName="FeatureMeshSection" devLabel="MeshSection" translation="Netzschnitt"/>
+	<label commandName="FeatureMeshSmooth" devLabel="MeshSmooth" translation="Netzglättung"/>
+	<label commandName="FeatureMeshTessellate" devLabel="MeshTessellate" translation="Netztessellation"/>
+	<label commandName="FeatureMeshToBREP" devLabel="Convert Mesh" translation="Netz konvertieren"/>
+	<label commandName="FeatureMeshToQuadMesh" devLabel="MeshToQuadMesh" translation="Netz in Quad-Netz"/>
+	<label commandName="FeatureModify" devLabel="Modify" translation="Ändern"/>
+	<label commandName="FreeForm" devLabel="Free Form" translation="Freiform"/>
+	<label commandName="General" devLabel="General" translation="Allgemein"/>
+	<label commandName="ImportFailed" devLabel="Import failed" translation="Fehler beim Import"/>
+	<label commandName="MESH_SELECTION_OPTION_GROUP" devLabel="Modify Selection" translation="Auswahl ändern"/>
+	<label commandName="MESH_TARGET_BODY_REFERENCE_LOST" devLabel="Lost target body. Edit feature to reselect target body." translation="Zielkörper verloren. Bearbeiten Sie das Element, um den Zielkörper erneut auszuwählen."/>
+	<label commandName="MESH_TOOLBODY_REFERENCE_LOST" devLabel="Lost tool body. Edit feature to reselect tool body." translation="Werkzeugkörper verloren. Bearbeiten Sie das Element, um den Werkzeugkörper erneut auszuwählen."/>
+	<label commandName="MeshConversionNotCompleteWarning" devLabel="Not all facegroups of the mesh body could be converted. The generated solid or surface body is not complete. Try a different method for conversion or adjust the face groups to correspond better to geometric features of the mesh." translation="Nicht alle Flächengruppen des Netzkörpers konnten konvertiert werden. Der generierte Volumenkörper oder Flächenkörper ist nicht vollständig. Verwenden Sie eine andere Methode für die Konvertierung, oder passen Sie die Flächengruppen an, um den geometrischen Elementen des Netzes besser zu entsprechen."/>
+	<label commandName="MeshDirectEditFailedMultiComponent" devLabel="Cannot directly edit mesh bodies in different components. Edit mesh bodies separately or move them into the same component." translation="Netzkörper in verschiedenen Komponenten können nicht direkt bearbeitet werden. Bearbeiten Sie Netzkörper separat, oder verschieben Sie sie in dieselbe Komponente."/>
+	<label commandName="MeshGenericReformError" devLabel="Mesh to T-Spline operation failed." translation="Fehler beim Durchführen des Netz-in-T-Spline-Vorgangs."/>
+	<label commandName="MeshGenericTSplineError" devLabel="T-Spline operation failed." translation="T-Spline-Vorgang fehlgeschlagen."/>
+	<label commandName="MeshNoParent" devLabel="Missing parent of mesh body. Try pasting mesh body again." translation="Fehlendes übergeordnetes Element des Netzkörpers. Versuchen Sie, den Netzkörper erneut einzufügen."/>
+	<label commandName="MeshNoTimelineParent" devLabel="Parent of mesh body missing from timeline. Try pasting mesh body again." translation="Übergeordnetes Element des Netzkörpers fehlt auf der Zeitachse. Versuchen Sie, den Netzkörper erneut einzufügen."/>
+	<label commandName="MeshOperationCanceled" devLabel="Mesh operation canceled" translation="Netzvorgang abgebrochen"/>
+	<label commandName="MeshOutOfBoundsConvertFaceNumber" devLabel="Face Number value is out of range. The valid range is from %1% to %2%" translation="Der Flächennummernwert liegt außerhalb des gültigen Bereichs. Dieser liegt zwischen %1% und %2%"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpOpeningAngle" devLabel="Angle threshold is out of range. The valid range is from %1% deg to %2% deg" translation="Der Winkelgrenzwert liegt außerhalb des gültigen Bereichs. Dieser liegt zwischen %1% Grad und %2% Grad"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegTol" devLabel="Boundary tolerance is out of range. The valid range is from %1% cm to %2% cm" translation="Die Grenzlinientoleranz liegt außerhalb des gültigen Bereichs. Dieser liegt zwischen %1% cm und %2% cm"/>
+	<label commandName="MeshOutOfBoundsGenerateFaceGrpSegmentArea" devLabel="Minimum Face Group Size is out of range. The valid range is from %1% to %2%" translation="Die minimale Flächengruppengröße liegt außerhalb des gültigen Bereichs. Dieser liegt zwischen %1% und %2%"/>
+	<label commandName="MeshOutOfBoundsHollowInsideThickness" devLabel="Thickness is too small. The minimum value is %1% cm" translation="Dicke ist zu klein. Der Mindestwert beträgt %1% cm"/>
+	<label commandName="MeshOutOfBoundsTessellateAspectRatio" devLabel="Aspect ratio is out of range. The valid range is from %1% to %2%" translation="Seitenverhältnis außerhalb des gültigen Bereichs. Gültige Werte liegen im Bereich von %1% bis %2%"/>
+	<label commandName="MeshOutOfBoundsTessellateNormalTol" devLabel="Normal deviation is out of range. The valid range is from %1% to %2%" translation="Normales Abmaß außerhalb des gültigen Bereichs. Gültige Werte liegen im Bereich von %1% bis %2%"/>
+	<label commandName="MeshPointsSelectionId" devLabel="Mesh Points" translation="Netzpunkte"/>
+	<label commandName="MeshScaleGenericError" devLabel="Cannot scale mesh body. Adjust scale settings or selection set." translation="Netzkörper kann nicht skaliert werden. Passen Sie die Skalierungseinstellungen oder den Auswahlsatz an."/>
+	<label commandName="MeshToolProps" devLabel="Mesh Selection Tool" translation="Netzauswahlwerkzeug"/>
+	<label commandName="MeshUnknownASMError" devLabel="Modeling operation failed." translation="Modellierungsvorgang fehlgeschlagen."/>
+	<label commandName="MeshUnknownError" devLabel="Mesh modeling operation failed." translation="Fehler beim Netzmodellierungsvorgang."/>
+	<label commandName="MeshWarningHollowShellCount" devLabel="The triangle count did not change. Try adjusting the thickness value." translation="Die Dreiecksanzahl hat sich nicht geändert. Passen Sie den Wert für die Dicke an."/>
+	<label commandName="MigrationFailedDocumentHasNoSegment" devLabel="Document has no Segment" translation="Dokument hat kein Segment"/>
+	<label commandName="MigrationFailedNoParaMeshWasAdopted" devLabel="No ParaMesh was adopted" translation="Es wurde kein parametrisches Netz übernommen"/>
+	<label commandName="MigrationFailedObjectPathHasNotMeshBody" devLabel="ObjectPath has not MeshBody" translation="Objektpfad hat keinen Netzkörper"/>
+	<label commandName="NamePostfixParametric" devLabel=" (Parametric)" translation=" (Parametrisch)"/>
+	<label commandName="PARAMESH_SELECTOR_BRUSH_SIZE" devLabel="Brush Size" translation="Pinselgröße"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOCONNECTED_MESH_SEL_ACTION" devLabel="Expand to Connected" translation="Auf Verbunden erweitern"/>
+	<label commandName="PARAMESH_SELECTOR_EXPANDTOGROUP_MESH_SEL_ACTION" devLabel="Expand to Face Group" translation="Auf Flächengruppe erweitern"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_MESH_SEL" devLabel="Grow" translation="Vergrößern"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_EXPAND" devLabel="Expand" translation="Erweitern"/>
+	<label commandName="PARAMESH_SELECTOR_GROW_SHRINK_MESH_SEL_GROW" devLabel="Grow/Shrink" translation="Vergrößern/Verkleinern"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL" devLabel="Invert" translation="Invertieren"/>
+	<label commandName="PARAMESH_SELECTOR_INVERT_MESH_SEL_ACTION" devLabel="Invert Selection" translation="Auswahl invertieren"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_BODIES" devLabel="Selected Mesh Bodies" translation="Ausgewählte Netzkörper"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_FACE_GROUPS" devLabel="Selected Face Groups" translation="Ausgewählte Flächengruppen"/>
+	<label commandName="PARAMESH_SELECTOR_N_SELECTED_TRIANGLES" devLabel="Selected Faces" translation="Ausgewählte Flächen"/>
+	<label commandName="PARAMESH_SELECTOR_SHRINK_MESH_SEL" devLabel="Shrink" translation="Verkleinern"/>
+	<label commandName="Paint" devLabel="Paint" translation="Farbe"/>
+	<label commandName="ParaMeshBodyDefaultUserName" devLabel="MeshBody" translation="Netzkörper"/>
+	<label commandName="ParaMeshBodySelectionCategory" devLabel="Mesh Bodies" translation="Netzkörper"/>
+	<label commandName="ParaMeshEditMeshNamePostfix" devLabel="_Edited" translation="_Bearbeitet"/>
+	<label commandName="ParaMeshFaceGroupSelectionCategory" devLabel="Mesh Face Groups" translation="Netzflächengruppen"/>
+	<label commandName="ParaMeshFaceGroupSelectionId" devLabel="Face Group" translation="Flächengruppe"/>
+	<label commandName="ParaMeshFaceGroupSelectionsId" devLabel="Face Groups" translation="Flächengruppen"/>
+	<label commandName="ParaMeshFaceSelectionId" devLabel="Mesh Faces" translation="Netzflächen"/>
+	<label commandName="ParaMeshFaceSelectionsId" devLabel="Mesh Faces" translation="Netzflächen"/>
+	<label commandName="ParaMeshFacetSelectionCategory" devLabel="Mesh Faces" translation="Netzflächen"/>
+	<label commandName="ParaMeshFeatureSelectionId" devLabel="ParaMesh Feature" translation="Parametrisches Netzelement"/>
+	<label commandName="ParaMeshFeatureSelectionIds" devLabel="ParaMesh Features" translation="Parametrische Netzelemente"/>
+	<label commandName="ParaMeshPointSelectionCategory" devLabel="Mesh Points" translation="Netzpunkte"/>
+	<label commandName="ParaMeshPointSelectionId" devLabel="Mesh Point" translation="Netzpunkt"/>
+	<label commandName="ParaMeshScaleFactorMissing" devLabel="Missing scal-factor for scaling. Edit feature and define scaling factor." translation="Skalierungsfaktor für Skalierung fehlt. Bearbeiten Sie das Element, und definieren Sie den Skalierungsfaktor."/>
+	<label commandName="ParaMeshScaleReferenceMissing" devLabel="Missing reference point for scaling. Edit feature and reselect reference point." translation="Fehlender Referenzpunkt für Skalierung. Bearbeiten Sie das Element, und wählen Sie den Referenzpunkt erneut aus."/>
+	<label commandName="ParaMeshSelectionId" devLabel="Mesh Body" translation="Netzkörper"/>
+	<label commandName="ParaMeshSelectionsId" devLabel="Mesh Bodies" translation="Netzkörper"/>
+	<label commandName="ParaMeshSourceBodyNotFound" devLabel="Cannot find mesh body source. Edit feature to reselect mesh body." translation="Netzkörperquelle wurde nicht gefunden. Bearbeiten Sie das Element, um den Netzkörper erneut auszuwählen."/>
+	<label commandName="ParameshFeatureSelectionCategory" devLabel="Mesh Points" translation="Netzpunkte"/>
+	<label commandName="SelectBackFacets" devLabel="Select Back Faces" translation="Rückflächen auswählen"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="Auswahlfilter"/>
+	<label commandName="Selectionmode" devLabel="Selection Type" translation="Auswahltyp"/>
+	<label commandName="TargetSketchNotFound" devLabel="Missing mesh section sketch. Delete Mesh Section feature from timeline and recreate it." translation="Fehlende Netzschnittskizze. Löschen Sie das Netzschnittelement aus der Zeitachse, und erstellen Sie es neu."/>
+	<label commandName="Window" devLabel="Window" translation="Fenster"/>
+</Resource>

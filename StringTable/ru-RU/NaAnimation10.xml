@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AnimationStoreboardNotFound" devLabel="Animation Storyboard not found" translation="Animationsdrehbuch nicht gefunden"/>
+	<label commandName="CalloutCopiedName" devLabel="(copy %1% of) " translation="(Kopie %1% von) "/>
+	<label commandName="CalloutCopy" devLabel="copy" translation="Kopieren"/>
+	<label commandName="CalloutCopyOf" devLabel="(copy of) " translation="(Kopie von) "/>
+	<label commandName="CalloutName" devLabel="Callout" translation="Beschriftung"/>
+	<label commandName="CalloutSelectionId" devLabel="Callout" translation="Beschriftung"/>
+	<label commandName="CameraAction" devLabel="Camera" translation="Kamera"/>
+	<label commandName="IActionSelectionId" devLabel="IAction" translation="IAction"/>
+	<label commandName="NextValidChildStoryboardName" devLabel="Storyboard" translation="Drehbuch"/>
+	<label commandName="PasteStoryboardDefaultName" devLabel="%1%-copy%2%" translation="%1%-copy%2%"/>
+	<label commandName="PublisherAnnotations" devLabel="Annotations" translation="Beschriftungen"/>
+	<label commandName="PublisherCameraNotRecord" devLabel="View is not recording" translation="Aufzeichnung der Ansicht wird nicht ausgeführt"/>
+	<label commandName="PublisherComponentMotionPathAction" devLabel="Move" translation="Verschieben"/>
+	<label commandName="PublisherComponentRotationAction" devLabel="Rotate" translation="Drehen"/>
+	<label commandName="PublisherComponentVisibilityAction" devLabel="Visibility" translation="Sichtbarkeit"/>
+	<label commandName="PublisherComponentsActorDisplayName" devLabel="Components" translation="Komponenten"/>
+	<label commandName="SmartObjectSelectionCategory" devLabel="SmartObject" translation="SmartObject"/>
+	<label commandName="SmartObjectSelectionId" devLabel="SmartObject" translation="SmartObject"/>
+	<label commandName="SmartObjectVisibilityAction" devLabel="Visibility" translation="Sichtbarkeit"/>
+	<label commandName="StoryboardDefaultName" devLabel="Storyboard" translation="Drehbuch"/>
+	<label commandName="StoryboardSelectionId" devLabel="Storyboard" translation="Drehbuch"/>
+	<label commandName="TrailSelectionId" devLabel="Trail Line" translation="Explosionspfad"/>
+	<label commandName="ViewActorDisplayName" devLabel="View" translation="Ansicht"/>
+</Resource>

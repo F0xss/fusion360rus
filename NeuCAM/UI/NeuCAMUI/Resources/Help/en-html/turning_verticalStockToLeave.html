@@ -1,0 +1,32 @@
+<div id="turning_verticalStockToLeave"><p>Controls the amount of material to leave on the vertical faces being turned.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="177" height="66" src="../images/Turning_Stock_0x1-5B.png"/></center></td>
+<td><center><img border="0" width="75" height="66" src="../images/Turning_Stock_0x1-6A.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Axial Stock 1mm</b></p></center></td>
+<td><center><p><b>Axial Stock 1mm</b></p></center></td>
+</tr></table>
+<br>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="177" height="66" src="../images/Turning_Stock_0x0-5B.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Axial Stock 0.0</b></p></center></td>
+</tr></table>
+<br>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="177" height="66" src="../images/Turning_Stock_-1x-1-5B.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Radial and Axial Stock -1mm</b></p></center></td>
+</tr></table>
+<p>For surfaces that are not exactly vertical, the program interpolates between the Axial Stock value (wall) and the Radial Stock values. The stock left in the axial direction on these surfaces might be different from the specified value, depending on surface slope and the radial stock to leave value.</p>
+<p>Changing the <b>Radial Stock to Leave</b> value automatically sets the <b>Axial Stock to Leave</b> to the same amount. You can manually enter a different Axial Stock value.</p>
+<p>If you plan on roughing and finishing with different tools, set the rough operation to the amount of stock to leave for the next finishing operation.</p>
+<p><b>Negative Stock to Leave</b>
+You may use a negative value. This will cause the tool to machine material beyond the edge of your model shape.</p>
+<p>Note: Maximum negative stock to leave must be less than the tool nose radius.<br>
+With an insert nose radius of .032, the largest negative stock would be -.032<br>
+You cannot compensate past the theoretical tip of the tool.</p>
+</div>

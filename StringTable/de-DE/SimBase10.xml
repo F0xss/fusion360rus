@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="GenStudyType0" devLabel="Prompt" translation="Befehlszeile"/>
+	<label commandName="GenStudyType1" devLabel="Structural Component" translation="Tragwerkskomponente"/>
+	<label commandName="GenStudyType2" devLabel="Fluid Path (Preview)" translation="Fluidpfad (Vorschau)"/>
+	<label commandName="ScientificAboveValue1" devLabel="9.9999" translation="9.9999"/>
+	<label commandName="ScientificAboveValue1b" devLabel="9,9999" translation="9,9999"/>
+	<label commandName="ScientificAboveValue2" devLabel="99.9999" translation="99.9999"/>
+	<label commandName="ScientificAboveValue2b" devLabel="99,9999" translation="99,9999"/>
+	<label commandName="ScientificAboveValue3" devLabel="999.9999" translation="999.9999"/>
+	<label commandName="ScientificAboveValue3b" devLabel="999,9999" translation="999,9999"/>
+	<label commandName="ScientificAboveValue4" devLabel="9999.9999" translation="9999.9999"/>
+	<label commandName="ScientificAboveValue4b" devLabel="9999,9999" translation="9999,9999"/>
+	<label commandName="ScientificAboveValue5" devLabel="99999.9999" translation="99999.9999"/>
+	<label commandName="ScientificAboveValue5b" devLabel="99999,9999" translation="99999,9999"/>
+	<label commandName="ScientificAboveValue6" devLabel="999999.9999" translation="999999.9999"/>
+	<label commandName="ScientificAboveValue6b" devLabel="999999,9999" translation="999999,9999"/>
+	<label commandName="ScientificAboveValue7" devLabel="9999999.9999" translation="9999999.9999"/>
+	<label commandName="ScientificAboveValue7b" devLabel="9999999,9999" translation="9999999,9999"/>
+	<label commandName="ScientificAboveValue8" devLabel="99999999.9999" translation="99999999.9999"/>
+	<label commandName="ScientificAboveValue8b" devLabel="99999999,9999" translation="99999999,9999"/>
+	<label commandName="ScientificBelowValue1" devLabel="0.1" translation="0.1"/>
+	<label commandName="ScientificBelowValue1b" devLabel="0,1" translation="0,1"/>
+	<label commandName="ScientificBelowValue2" devLabel="0.01" translation="0.01"/>
+	<label commandName="ScientificBelowValue2b" devLabel="0,01" translation="0,01"/>
+	<label commandName="ScientificBelowValue3" devLabel="0.001" translation="0.001"/>
+	<label commandName="ScientificBelowValue3b" devLabel="0,001" translation="0,001"/>
+	<label commandName="ScientificBelowValue4" devLabel="0.0001" translation="0.0001"/>
+	<label commandName="ScientificBelowValue4b" devLabel="0,0001" translation="0,0001"/>
+	<label commandName="ScientificBelowValue5" devLabel="0.00001" translation="0.00001"/>
+	<label commandName="ScientificBelowValue5b" devLabel="0,00001" translation="0,00001"/>
+	<label commandName="ScientificBelowValue6" devLabel="0.000001" translation="0.000001"/>
+	<label commandName="ScientificBelowValue6b" devLabel="0,000001" translation="0,000001"/>
+	<label commandName="ScientificBelowValue7" devLabel="0.0000001" translation="0.0000001"/>
+	<label commandName="ScientificBelowValue7b" devLabel="0,0000001" translation="0,0000001"/>
+	<label commandName="ScientificBelowValue8" devLabel="0.00000001" translation="0.00000001"/>
+	<label commandName="ScientificBelowValue8b" devLabel="0,00000001" translation="0,00000001"/>
+	<label commandName="ScientificPrecisionValue0" devLabel="1E+04" translation="1E+04"/>
+	<label commandName="ScientificPrecisionValue0b" devLabel="1E+04" translation="1E+04"/>
+	<label commandName="ScientificPrecisionValue1" devLabel="1.1E+04" translation="1.1E+04"/>
+	<label commandName="ScientificPrecisionValue1b" devLabel="1,1E+04" translation="1,1E+04"/>
+	<label commandName="ScientificPrecisionValue2" devLabel="1.12E+04" translation="1.12E+04"/>
+	<label commandName="ScientificPrecisionValue2b" devLabel="1,12E+04" translation="1,12E+04"/>
+	<label commandName="ScientificPrecisionValue3" devLabel="1.123E+04" translation="1.123E+04"/>
+	<label commandName="ScientificPrecisionValue3b" devLabel="1,123E+04" translation="1,123E+04"/>
+	<label commandName="ScientificPrecisionValue4" devLabel="1.1234E+04" translation="1.1234E+04"/>
+	<label commandName="ScientificPrecisionValue4b" devLabel="1,1234E+04" translation="1,1234E+04"/>
+	<label commandName="ScientificPrecisionValue5" devLabel="1.12345E+04" translation="1.12345E+04"/>
+	<label commandName="ScientificPrecisionValue5b" devLabel="1,12345E+04" translation="1,12345E+04"/>
+	<label commandName="ScientificPrecisionValue6" devLabel="1.123456E+04" translation="1.123456E+04"/>
+	<label commandName="ScientificPrecisionValue6b" devLabel="1,123456E+04" translation="1,123456E+04"/>
+	<label commandName="ScientificPrecisionValue7" devLabel="1.1234567E+04" translation="1.1234567E+04"/>
+	<label commandName="ScientificPrecisionValue7b" devLabel="1,1234567E+04" translation="1,1234567E+04"/>
+	<label commandName="ScientificPrecisionValue8" devLabel="1.12345678E+04" translation="1.12345678E+04"/>
+	<label commandName="ScientificPrecisionValue8b" devLabel="1,12345678E+04" translation="1,12345678E+04"/>
+	<label commandName="ScientificPrecisionValue9" devLabel="1.123456789E+04" translation="1.123456789E+04"/>
+	<label commandName="ScientificPrecisionValue9b" devLabel="1,123456789E+04" translation="1,123456789E+04"/>
+	<label commandName="Sim3DGlyphGraphicsToolTip" devLabel="Should glyphs be displayed as 3D" translation="Zeichenanzeige in 3D"/>
+	<label commandName="Sim3DGlyphGraphicsUserName" devLabel="Display 3D Glyphs" translation="3D-Zeichen anzeigen"/>
+	<label commandName="SimActiveDocumentNotFound" devLabel="Active document not found." translation="Das aktive Dokument wurde nicht gefunden."/>
+	<label commandName="SimArchive7zExecutionError" devLabel="The .7z compressor failed" translation=".7z-Kompressor ist fehlgeschlagen"/>
+	<label commandName="SimArchive7zLaunchError" devLabel="Unable to start .7z compressor" translation="Fehler beim Starten des .7z-Kompressors"/>
+	<label commandName="SimArchive7zNotFound" devLabel=".7z compressor not installed" translation=".7z-Kompressor nicht installiert"/>
+	<label commandName="SimArchive7zWaitError" devLabel="Error waiting for .7z compressor" translation="Fehler beim Warten auf .7z-Kompressor"/>
+	<label commandName="SimArchiveExistsError" devLabel="The archive already exists and couldn't be deleted" translation="Das Archiv ist bereits vorhanden und konnte nicht gelöscht werden"/>
+	<label commandName="SimArchiveZipFolderCreateError" devLabel="Unable to create a .zip archive folder" translation="ZIP-Archivordner kann nicht erstellt werden"/>
+	<label commandName="SimArchiveZipPartCreateError" devLabel="Unable to create a .zip archive file" translation="ZIP-Archivdatei kann nicht erstellt werden"/>
+	<label commandName="SimArchiveZipSaveError" devLabel="Unable to save .zip archive file" translation="ZIP-Archivdatei kann nicht gespeichert werden"/>
+	<label commandName="SimAssetNotFound" devLabel="Target component asset is missing in the document" translation="Zielkomponentenobjekt fehlt im Dokument"/>
+	<label commandName="SimAutomaticUpdateToolTip" devLabel="It controls whether model and setup changes are propagated automatically" translation="Steuert, ob Modell- und Einrichtungsänderungen automatisch übertragen werden"/>
+	<label commandName="SimAutomaticUpdateUserName" devLabel="Automatic Update" translation="Automatische Aktualisierung"/>
+	<label commandName="SimBodySelectionCategory" devLabel="Bodies" translation="Körper"/>
+	<label commandName="SimCapacityManagementToolTip" devLabel="When checked, only the active Model and Study are loaded into memory." translation="Wenn diese Option aktiviert ist, werden nur das aktive Modell und die aktuelle Studie in den Speicher geladen."/>
+	<label commandName="SimCapacityManagementUserName" devLabel="Capacity Management" translation="Kapazitätsverwaltung"/>
+	<label commandName="SimCollaborateLocalResultsOpToolTip" devLabel="Upload simualtion results computed on client machine to cloud storage and collaborate on web." translation="Laden Sie die auf dem Client-Computer berechneten Simulationsergebnisse in den Cloud-Speicher hoch, um im Internet zusammenzuarbeiten."/>
+	<label commandName="SimCollaborateLocalResultsOpUserName" devLabel="Collaborate simulation results" translation="Simulationsergebnisse zusammen bearbeiten"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimCompareLayoutToolTip" devLabel="Compare Layout" translation="Layout vergleichen"/>
+	<label commandName="SimCompareLayoutUserName" devLabel="Compare Layout" translation="Layout vergleichen"/>
+	<label commandName="SimConvertMultiBodiesToComponentsToolTip" devLabel="Convert Multi-Bodies to Components" translation="Bauteile mit mehreren Körpern in Komponenten konvertieren"/>
+	<label commandName="SimConvertMultiBodiesToComponentsUserName" devLabel="Convert Multi-Bodies to Components" translation="Bauteile mit mehreren Körpern in Komponenten konvertieren"/>
+	<label commandName="SimCopy" devLabel="(Copy) " translation="(Kopieren) "/>
+	<label commandName="SimDefaulResultsDisplacementScaleUserName" devLabel="Default Results Displacement Scale" translation="Vorgabeverschiebungsskala für Ergebnisse"/>
+	<label commandName="SimDefaulResultsNumberOfShadingIntervalsUserName" devLabel="Default Results Number of Shading Intervals" translation="Vorgabeanzahl der Schattierungsabstände für Ergebnisse"/>
+	<label commandName="SimDefaulResultsRenderStyleUserName" devLabel="Default Results Render Style" translation="Vorgabe-Renderstil für Ergebnisse"/>
+	<label commandName="SimDefaulResultsShadingStyleUserName" devLabel="Default Results Shading Style" translation="Vorgabeschattierungsstil für Ergebnisse"/>
+	<label commandName="SimDefaulStudyDlgBaseModelUserName" devLabel="Default Study Model User Name" translation="Vorgabemäßiger Benutzername für Studienmodell"/>
+	<label commandName="SimDefaultGenStudyTypeToolTip" devLabel="Default Generative Design Study Type" translation="Vorgabemäßiger Studientyp für generatives Design"/>
+	<label commandName="SimDefaultGenStudyTypeUserName" devLabel="Default Generative Design Study Type" translation="Vorgabemäßiger Studientyp für generatives Design"/>
+	<label commandName="SimDefaultLoadSymbolRelativeSizeTooltip" devLabel="Load Glyph Relative Load Symbol Size Scale" translation="Größenskalierung des Lastsymbols relativ zum Lastzeichen"/>
+	<label commandName="SimDefaultLoadSymbolRelativeSizeUserName" devLabel="Load Glyph Relative Size Scale (%)" translation="Größenskalierung relativ zum Lastzeichen (%)"/>
+	<label commandName="SimDefaultLoadSymbolStyleTooltip" devLabel="Load Glyph Graphics" translation="Lastzeichengrafiken"/>
+	<label commandName="SimDefaultLoadSymbolStyleUserName" devLabel="Load Glyph Graphics" translation="Lastzeichengrafiken"/>
+	<label commandName="SimDefaultResultsDisplacementScaleToolTip" devLabel="Default Results Displacement Scale" translation="Vorgabeverschiebungsskala für Ergebnisse"/>
+	<label commandName="SimDefaultResultsNumberOfShadingIntervalsToolTip" devLabel="Default Results Number of Shading Intervals" translation="Vorgabeanzahl der Schattierungsabstände für Ergebnisse"/>
+	<label commandName="SimDefaultResultsRenderStyleToolTip" devLabel="Default Results Render Style" translation="Vorgabe-Renderstil für Ergebnisse"/>
+	<label commandName="SimDefaultResultsShadingStyleToolTip" devLabel="Default Results Shading Style" translation="Vorgabeschattierungsstil für Ergebnisse"/>
+	<label commandName="SimDefaultSimStudyTypeToolTip" devLabel="Default Simulation Study Type" translation="Vorgabemäßiger Simulationsstudientyp"/>
+	<label commandName="SimDefaultSimStudyTypeUserName" devLabel="Default Simulation Study Type" translation="Vorgabemäßiger Simulationsstudientyp"/>
+	<label commandName="SimDefaultStudyDlgBaseModelToolTip" devLabel="Default Study Model Type" translation="Vorgabemäßiger Studienmodelltyp"/>
+	<label commandName="SimDefaultStudyDlgLayoutToolTip" devLabel="Default Study Dlg Layout" translation="Vorgabemäßiges Dialogfeldlayout für Studie"/>
+	<label commandName="SimDefaultTemplateTypeToolTip" devLabel="Default Study Type" translation="Vorgabemäßiger Studientyp"/>
+	<label commandName="SimDefaultTemplateTypeUserName" devLabel="Default Template Type" translation="Vorgabe-Vorlagentyp"/>
+	<label commandName="SimDefaultTransResultsDlgPlacementToolTip" devLabel="Default Transient Results Placement" translation="Vorgabemäßige Platzierung der transienten Ergebnisse"/>
+	<label commandName="SimDefaultTransResultsDlgPlacementUserName" devLabel="Default Transient Results Placement" translation="Vorgabemäßige Platzierung der transienten Ergebnisse"/>
+	<label commandName="SimDefaultTransResultsDlgSizeToolTip" devLabel="Default Transient Results" translation="Vorgabemäßige transiente Ergebnisse"/>
+	<label commandName="SimDefaultTransResultsDlgSizeUserName" devLabel="Default Transient Results" translation="Vorgabemäßige transiente Ergebnisse"/>
+	<label commandName="SimDefaulttStudyDlgLayoutUserName" devLabel="Default Study Dlg Layout" translation="Vorgabemäßiges Dialogfeldlayout für Studie"/>
+	<label commandName="SimDeleteEntityFromNVPRequestFail" devLabel="Failed to remove object." translation="Das Objekt konnte nicht entfernt werden."/>
+	<label commandName="SimDifferentSettingsToolTip" devLabel="Deselect this option to use the same precision preferences as in other workspaces." translation="Deaktivieren Sie diese Option, um dieselben Genauigkeitsvoreinstellungen wie in anderen Arbeitsbereichen zu verwenden."/>
+	<label commandName="SimDifferentSettingsUserName" devLabel="Set precision preferences for simulation and generative design studies" translation="Präzisionseinstellungen für Simulations- und generative Designstudien festlegen"/>
+	<label commandName="SimDocumentIsMissing" devLabel="Document is missing" translation="Dokument fehlt."/>
+	<label commandName="SimErrorMissingTargetToSetVisibility" devLabel="Error: Missing target to set visibility." translation="Fehler: Sichtbarkeit kann wegen fehlenden Ziels nicht festgelegt werden."/>
+	<label commandName="SimFailedToActivateUnitSystem" devLabel="Failed to set active units." translation="Fehler beim Festlegen der aktiven Einheiten"/>
+	<label commandName="SimFailedToUpdateUnitSystem" devLabel="Failed to update units in unit system." translation="Einheiten konnten nicht im Einheitensystem aktualisiert werden."/>
+	<label commandName="SimFavoritesStudyTypesToolTip" devLabel="Favorites" translation="Favoriten"/>
+	<label commandName="SimFavoritesStudyTypesUserName" devLabel="Favorites" translation="Favoriten"/>
+	<label commandName="SimGeneralOptionGroupHeader" devLabel="Preferences for the Simulation and Generative Design workspaces" translation="Voreinstellungen für die Arbeitsbereiche Simulation und Generatives Design"/>
+	<label commandName="SimGeneralOptionGroupToolTip" devLabel="Preferences controlling behavior in the Simulation and Generative Design workspaces." translation="Voreinstellungen zum Steuern des Verhaltens in den Arbeitsbereichen Simulation und Generatives Design."/>
+	<label commandName="SimGeneralOptionGroupUserName" devLabel="Simulation and Generative Design" translation="Simulation und Generatives Design"/>
+	<label commandName="SimImportFusionModelFail" devLabel="Importing Fusion model failed." translation="Fusion-Modell konnte nicht importiert werden."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimLoadSymbolStyle1" devLabel="Screen Size" translation="Bildschirmgröße"/>
+	<label commandName="SimLoadSymbolStyle2" devLabel="Model Size" translation="Modellgröße"/>
+	<label commandName="SimModelRef" devLabel="Model Reference %1%" translation="Modellreferenz %1%"/>
+	<label commandName="SimModelTagSelectionCategory" devLabel="Simulation Model Tags" translation="Beschriftungen des Simulationsmodells"/>
+	<label commandName="SimModelTagSelectionName" devLabel="Model Tag" translation="Modellbeschriftung"/>
+	<label commandName="SimNumberOfProcessorsToolTip" devLabel="Number of Processors" translation="Anzahl der Prozessoren"/>
+	<label commandName="SimNumberOfProcessorsType0" devLabel="Automatic" translation="Automatisch"/>
+	<label commandName="SimNumberOfProcessorsType1" devLabel="Let me choose" translation="Wählen"/>
+	<label commandName="SimNumberOfProcessorsTypeToolTip" devLabel="Number of Processors" translation="Anzahl der Prozessoren"/>
+	<label commandName="SimNumberOfProcessorsTypeUserName" devLabel="Number of Processors" translation="Anzahl der Prozessoren"/>
+	<label commandName="SimNumberOfProcessorsUserName" devLabel="Number of Processors" translation="Anzahl der Prozessoren"/>
+	<label commandName="SimObjIsMissing" devLabel="Sim Object is missing" translation="Simulation-Objekt fehlt."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimShowHideAttributesToolTip" devLabel="Show Simulation Attributes Panel" translation="Simulationsattribute-Leiste anzeigen"/>
+	<label commandName="SimStudyType0" devLabel="Prompt" translation="Befehlszeile"/>
+	<label commandName="SimStudyType1" devLabel="Static Stress" translation="Statische Spannung"/>
+	<label commandName="SimStudyType10" devLabel="Fatigue" translation="Ermüdungsberechnung"/>
+	<label commandName="SimStudyType11" devLabel="Imported CFD" translation="Importierte CFD"/>
+	<label commandName="SimStudyType12" devLabel="Frequency Response" translation="Frequenzantwort"/>
+	<label commandName="SimStudyType13" devLabel="Drop Test" translation="Fallprüfung"/>
+	<label commandName="SimStudyType14" devLabel="Dynamic Event Simulation" translation="Dynamische Ereignissimulation"/>
+	<label commandName="SimStudyType15" devLabel="Quasi-static Event Simulation" translation="Quasi-statische Ereignissimulation"/>
+	<label commandName="SimStudyType17" devLabel="Electronics Cooling" translation="Elektronikkühlung"/>
+	<label commandName="SimStudyType18" devLabel="Injection Molding Simulation" translation="Spritzgusssimulation"/>
+	<label commandName="SimStudyType2" devLabel="Nonlinear Static Stress" translation="Nichtlineare statische Spannung"/>
+	<label commandName="SimStudyType3" devLabel="Shape Optimization" translation="Formoptimierung"/>
+	<label commandName="SimStudyType4" devLabel="Transient Structural" translation="Transient strukturell"/>
+	<label commandName="SimStudyType5" devLabel="Thermal" translation="Thermisch"/>
+	<label commandName="SimStudyType6" devLabel="Transient Thermal" translation="Transient thermisch"/>
+	<label commandName="SimStudyType7" devLabel="Thermal Stress" translation="Thermische Spannung"/>
+	<label commandName="SimStudyType8" devLabel="Modal Frequencies" translation="Modale Frequenzen"/>
+	<label commandName="SimStudyType9" devLabel="Structural Buckling" translation="Strukturelle Knickung"/>
+	<label commandName="SimSupportPLM360TestingToolTip" devLabel="Support PLM360 Testing" translation="PLM360-Tests unterstützen"/>
+	<label commandName="SimSupportPLM360TestingUserName" devLabel="Support PLM360 Testing" translation="PLM360-Tests unterstützen"/>
+	<label commandName="SimSuppressAppearancesToolTip" devLabel="Suppress Appearances" translation="Darstellungen unterdrücken"/>
+	<label commandName="SimSuppressAppearancesUserName" devLabel="Suppress Appearances" translation="Darstellungen unterdrücken"/>
+	<label commandName="SimUnitAccelerationTooltip" devLabel="Sets the default unit of acceleration for a new study." translation="Legt die Vorgabe-Beschleunigungseinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitAngleTooltip" devLabel="Sets the default unit of angle for a new study." translation="Legt die Vorgabe-Winkeleinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitCustom" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimUnitEnergyTooltip" devLabel="Sets the default unit of energy for a new study." translation="Legt die Vorgabe-Energieeinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitEnglish" devLabel="English (in)" translation="Britisch (in)"/>
+	<label commandName="SimUnitFlowRateTooltip" devLabel="Sets the default unit of flow rate for a new study." translation="Legt die Vorgabe-Volumenstromeinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitForceTooltip" devLabel="Sets the default unit of force for a new study." translation="Legt die Vorgabe-Krafteinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitLengthTooltip" devLabel="Sets the default unit of length for a new study." translation="Legt die Vorgabe-Längeneinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitMassTooltip" devLabel="Sets the default unit of mass for a new study." translation="Legt die Vorgabe-Masseneinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitMetric" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitPowerTooltip" devLabel="Sets the default unit of power for a new study." translation="Legt die Vorgabe-Leistungseinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitPressureTooltip" devLabel="Sets the default unit of pressure for a new study." translation="Legt die Vorgabe-Druckeinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitTemperatureTooltip" devLabel="Sets the default unit of temperature for a new study." translation="Legt die Vorgabe-Temperatureinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitTimeTooltip" devLabel="Sets the default unit of time for a new study." translation="Legt die Vorgabe-Zeiteinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitToolTip" devLabel="Select a standard unit of measure or select Custom to specify your preferences on individual parameters." translation="Wählen Sie eine Standardmaßeinheit, oder wählen Sie Benutzerdefiniert, um Ihre Voreinstellungen für einzelne Parameter festzulegen."/>
+	<label commandName="SimUnitUserName" devLabel="Default units" translation="Vorgabeeinheiten"/>
+	<label commandName="SimUnitVelocityTooltip" devLabel="Sets the default unit of velocity for a new study." translation="Legt die Vorgabe-Geschwindigkeitseinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitViscosityTooltip" devLabel="Sets the default unit of viscosity for a new study." translation="Legt die Vorgabe-Viskositätseinheit für eine neue Studie fest."/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsSettingsOptionGroupHeader" devLabel="Default units for simulation and generative design studies" translation="Vorgabeeinheiten für die Simulation und generative Designstudien"/>
+	<label commandName="SimUnitsSettingsOptionGroupToolTip" devLabel="Preferences that set default units for simulation and generative design studies." translation="Voreinstellungen, mit denen die Vorgabeeinheiten für die Simulation und generative Designstudien festgelegt werden."/>
+	<label commandName="SimUnitsSettingsOptionGroupUserName" devLabel="Simulation and Generative Design" translation="Simulation und Generatives Design"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimUserModeApplicationToolTip" devLabel="User Mode Application" translation="Benutzermodus-Anwendung"/>
+	<label commandName="SimUserModeApplicationUserName" devLabel="User Mode Application" translation="Benutzermodus-Anwendung"/>
+	<label commandName="SimUserModeLocationToolTip" devLabel="User Mode Location" translation="Benutzermodus-Position"/>
+	<label commandName="SimUserModeLocationUserName" devLabel="User Mode Location" translation="Benutzermodus-Position"/>
+	<label commandName="SimValueDisplaySettingsOptionGroupHeader" devLabel="Display of output values in the Simulation and Generative Design workspaces" translation="Anzeige von Ausgabewerten in den Arbeitsbereichen Simulation und Generatives Design"/>
+	<label commandName="SimValueDisplaySettingsOptionGroupToolTip" devLabel="Preferences that control the display of output values in the Simulation and Generative Design workspaces." translation="Voreinstellungen, die die Anzeige von Ausgabewerten in den Arbeitsbereichen Simulation und Generatives Design steuern."/>
+	<label commandName="SimValueDisplaySettingsOptionGroupUserName" devLabel="Simulation and Generative Design" translation="Simulation und Generatives Design"/>
+	<label commandName="SimWarnInvisibleGeometry" devLabel="Warn before solving a model with hidden bodies or components" translation="Vor dem Lösen eines Modells mit ausgeblendeten Körpern oder Komponenten warnen"/>
+	<label commandName="SimWarnInvisibleSettings" devLabel="Warn before solving a model with hidden settings" translation="Vor dem Lösen eines Modells mit ausgeblendeten Einstellungen warnen"/>
+	<label commandName="SimshowHideAttributesUserName" devLabel="Show Simulation Attributes Panel" translation="Simulationsattribute-Leiste anzeigen"/>
+	<label commandName="UnitDisplayHideTrailingZeroesName" devLabel="Hide trailing zeroes" translation="Nachfolgende Nullen ausblenden"/>
+	<label commandName="UnitDisplayHideTrailingZeroesTip" devLabel="Should trailing zeroes be hidden - e.g. display 4.020 as 4.02" translation="Gibt an, ob nachfolgende Nullen ausgeblendet werden sollen, z. B. Anzeigen von 4.020 als 4.02"/>
+	<label commandName="UnitDisplayScientificNotationAboveThresholdName" devLabel="Use scientific notation above" translation="Wissenschaftliche Schreibweise oben verwenden"/>
+	<label commandName="UnitDisplayScientificNotationAboveThresholdTip" devLabel="When the absolute value of a number is greater than this limit, display it in scientific notation" translation="Wenn der absolute Wert einer Zahl größer ist als dieser Grenzwert, den Wert in wissenschaftlicher Schreibweise anzeigen"/>
+	<label commandName="UnitDisplayScientificNotationBelowThresholdName" devLabel="Use scientific notation below" translation="Wissenschaftliche Schreibweise unten verwenden"/>
+	<label commandName="UnitDisplayScientificNotationBelowThresholdTip" devLabel="When the absolute value is less than this limit, display it in scientific notation" translation="Wenn der absolute Wert kleiner ist als dieser Grenzwert, in wissenschaftlicher Schreibweise anzeigen"/>
+	<label commandName="UnitScientificPrecisionToolTip" devLabel="How many decimal points should be displayed for the mantissa in scientific units" translation="Gibt an, wie viele Dezimalstellen in wissenschaftlichen Einheiten für die Mantisse angezeigt werden sollen"/>
+	<label commandName="UnitScientificPrecisionUserName" devLabel="Scientific notation precision" translation="Genauigkeit wissenschaftlicher Schreibweise"/>
+	<label commandName="simPropertyBoolFalse" devLabel="No" translation="Nein"/>
+	<label commandName="simPropertyBoolTrue" devLabel="Yes" translation="Ja"/>
+</Resource>

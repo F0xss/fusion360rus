@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="QSimStudyDialog__IWantToTemplate" devLabel="integrate a new solve pipeline in to Fusion 360. (Template)" translation="Интегрируйте новый конвейер решений в Fusion 360. (Шаблон)"/>
+	<label commandName="ResultsViewsPanel" devLabel="Display" translation="Дисплей"/>
+	<label commandName="SimAnimatePanel" devLabel="Animate" translation="Анимация"/>
+	<label commandName="SimAnsysPanel" devLabel="ANSYS" translation="ANSYS"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Переопределить систему единиц"/>
+	<label commandName="SimCompareLayoutsPanel" devLabel="Layouts" translation="Макеты"/>
+	<label commandName="SimComparePanel" devLabel="COMPARE" translation="СРАВНИВАТЬ"/>
+	<label commandName="SimEmptyStudyName" devLabel="Name of Study is empty" translation="Название исследования пусто."/>
+	<label commandName="SimFinishTemplateWebViewerCmd" devLabel="Finish Results" translation="Итоговый результат"/>
+	<label commandName="SimFinishTemplateWebViewerPanel" devLabel="Finish Results" translation="Итоговый результат"/>
+	<label commandName="SimForceLoadDesc1" devLabel="Use a Force load to push or pull on an object. Forces can cause stress and deformation." translation="Используйте Силовую нагрузку, чтобы толкать или тянуть объект. Силы могут вызвать напряжение и деформацию.."/>
+	<label commandName="SimForceLoadDesc2" devLabel="Individually or multi-select faces, edges, or vertices and specify the load magnitude and direction. You cannot mix geometry types in your selection set. When you apply a Force load to multiple entities, the total magnitude of the force is distributed across the selected entities." translation="Выберите поверхности, ребра или вершины по отдельности или с помощью множественного выбора и определите размер и направление загрузки. В наборе выделения нельзя использовать разные типы геометрии. Если вы прикладываете силовую нагрузку к нескольким элементам, вся величина силы распределяется по выбранным элементам."/>
+	<label commandName="SimForceLoadDesc3" devLabel="To load a face involved in a contact, use a Pressure instead of a Force." translation="Чтобы нагрузить поверхность, участвующую в контакте, используйте давление вместо силы."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimInspectPanel" devLabel="Inspect" translation="Проверка"/>
+	<label commandName="SimLoadsPanel" devLabel="Loads" translation="Lasten"/>
+	<label commandName="SimManagePanel" devLabel="Manage" translation="Управлять"/>
+	<label commandName="SimMaterialsPanel" devLabel="Материалы" translation="Materialien"/>
+	<label commandName="SimMeshDisplayPanel" devLabel="Display" translation="показать"/>
+	<label commandName="SimOptionsPanel" devLabel="Options" translation="Опции"/>
+	<label commandName="SimResultsManagePanel" devLabel="Manage" translation="Управлять"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Custom"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Метрическая (SI)"/>
+	<label commandName="SimSelectPanel" devLabel="Select" translation="Выбор"/>
+	<label commandName="SimSettingsGeneral" devLabel="Settings" translation="Настройки"/>
+	<label commandName="SimSimplifyPanel" devLabel="Simplify" translation="Упростить"/>
+	<label commandName="SimSolvePanel" devLabel="Solve" translation="Решить"/>
+	<label commandName="SimStructuralLoadTipsAndTricksDesc" devLabel="Define the magnitude and direction. Note that some load types allow you edit direction by changing &lt;b&gt;Direction Type&lt;/b&gt;." translation="Укажите размер и направление. Обратите внимание, что вы можете изменить направление некоторых типов нагрузки, выбрав &lt;b&gt;тип направления&lt;/b&gt; Изменить."/>
+	<label commandName="SimStructuralLoadTipsAndTricksTips" devLabel="Select the geometry where load will be placed. The geometry can be edges, faces, or vertices. You can select individual or multiple entities." translation="Выберите геометрию, в которой будет размещен груз. Геометрия может включать ребра, грани или вершины. Вы можете выбрать отдельные или несколько объектов."/>
+	<label commandName="SimStructuralLoadTipsAndTricksTitle" devLabel="Structural Loads Information" translation="Конструктивные нагрузки - Информация"/>
+	<label commandName="SimStudyPanel" devLabel="Study" translation="Изучить"/>
+	<label commandName="SimSynchronizePanel" devLabel="Synchronize" translation="Синхронизировать"/>
+	<label commandName="SimTemplate" devLabel="Template" translation="Шаблон"/>
+	<label commandName="SimTemplateCaseName" devLabel="Name" translation="Имя"/>
+	<label commandName="SimTemplateCaseTemplateBoolSetting" devLabel="Include example Template Bool Setting flag" translation="Включить флаг, например шаблон для настройки bool"/>
+	<label commandName="SimTemplateDesc" devLabel="This is a template extension that Fusion developers can use to integrate new Simulation Studies &amp; Solvers.&lt;br&gt;It provides an end to end template for setting up a study, and solving via CloudOS Compute." translation="Это расширение шаблона, которое разработчики Fusion могут использовать для интеграции новых симуляционных исследований и решателей.&#xA;&lt;b&gt;Это сквозной шаблон для настройки исследования и решения с помощью CloudOS Compute."/>
+	<label commandName="SimTemplateEditStructuralAttributeCommand" devLabel="Edit Template Structural Attribute" translation="Редактировать шаблон структурных атрибутов"/>
+	<label commandName="SimTemplateReusedAttributeCommand" devLabel="Template Reused Attribute (Thermal Load)" translation="Шаблон для повторно используемого атрибута (тепловая нагрузка)"/>
+	<label commandName="SimTemplateStructuralAttributeCommand" devLabel="Template Structural Attribute" translation="Шаблон структурного атрибута"/>
+	<label commandName="SimTemplateStructuralAttributeCurveMagnitude" devLabel="Curve Magnitude" translation="Размер кривой"/>
+	<label commandName="SimTemplateStructuralAttributeDirection" devLabel="Flip Direction" translation="Обратное направление"/>
+	<label commandName="SimTemplateStructuralAttributeDirectionAngle" devLabel="Angle (delta)" translation="Угол (Delta)"/>
+	<label commandName="SimTemplateStructuralAttributeDirectionNormal" devLabel="Normal" translation="Нормальный"/>
+	<label commandName="SimTemplateStructuralAttributeDirectionReference" devLabel="Reference" translation="Ссылка"/>
+	<label commandName="SimTemplateStructuralAttributeDirectionType" devLabel="Direction Type" translation="Направленный тип"/>
+	<label commandName="SimTemplateStructuralAttributeFlag" devLabel="Template Flag" translation="Флаг шаблона"/>
+	<label commandName="SimTemplateStructuralAttributeFlipSide" devLabel="Flip Side" translation="Seite umkehren"/>
+	<label commandName="SimTemplateStructuralAttributeItem" devLabel="Template Structual Attribute" translation="Vorlage für Tragwerksattribut"/>
+	<label commandName="SimTemplateStructuralAttributeMagnitude" devLabel="Magnitude" translation="Größe"/>
+	<label commandName="SimTemplateStructuralAttributeTransformInput" devLabel="Direction" translation="Richtung"/>
+	<label commandName="SimTemplateStructuralAttributeUnitsType" devLabel="Units" translation="Einheiten"/>
+	<label commandName="SimTemplateStructuralAttributeX" devLabel="Fx" translation="Fx"/>
+	<label commandName="SimTemplateStructuralAttributeXYZDirectionComponents" devLabel="Vectors (x, y, z)" translation="Vektoren (X, Y, Z)"/>
+	<label commandName="SimTemplateStructuralAttributeY" devLabel="Fy" translation="Fy"/>
+	<label commandName="SimTemplateStructuralAttributeZ" devLabel="Fz" translation="Fz"/>
+	<label commandName="SimTemplateStructuralAttributesReferenceInput" devLabel="Reference" translation="Referenz"/>
+	<label commandName="SimTemplateStructuralAttributesUnitsSwitcher" devLabel="Change Units" translation="Einheiten ändern"/>
+	<label commandName="SimTemplateWebViewerCmd" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="SimTemplateWebViewerPanel" devLabel="Results" translation="Ergebnisse"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimViewsPanel" devLabel="Display" translation="Anzeige"/>
+	<label commandName="SimusedStudyName" devLabel="Name of Study is already used!" translation="Der Name der Studie wird bereits verwendet."/>
+	<label commandName="lclzCompareTab" devLabel="COMPARE" translation="VERGLEICHEN"/>
+	<label commandName="lclzDebugTab" devLabel="DEBUG" translation="FEHLERBEHEBUNG"/>
+	<label commandName="lclzDeformation" devLabel="DEFORMATION" translation="DEFORMATION"/>
+	<label commandName="lclzDiagnosticsPanel" devLabel="Diagnostics" translation="Diagnose"/>
+	<label commandName="lclzFilePanel" devLabel="File" translation="Datei"/>
+	<label commandName="lclzFinishResultsPanel" devLabel="Finish Results" translation="Ergebnisse fertig stellen"/>
+	<label commandName="lclzFinishSimComparePanel" devLabel="Finish Compare" translation="Vergleich fertig stellen"/>
+	<label commandName="lclzFinishTemplateWebViewerCmd" devLabel="Exits the Explore workspace and returns to the Simulation workspace." translation="Beendet den Arbeitsbereich Durchsuchen und kehrt zum Arbeitsbereich Simulation zurück."/>
+	<label commandName="lclzResultTools" devLabel="RESULT TOOLS" translation="ERGEBNISWERKZEUGE"/>
+	<label commandName="lclzResultsViewerTab" devLabel="RESULTS" translation="ERGEBNISSE"/>
+	<label commandName="lclzSelectionPriorityCommands" devLabel="Selection Priority" translation="Auswahlpriorität"/>
+	<label commandName="lclzSelectionTools" devLabel="Selection Tools" translation="Auswahlwerkzeuge"/>
+	<label commandName="lclzSimResultsTab" devLabel="RESULTS" translation="ERGEBNISSE"/>
+	<label commandName="lclzSimSetupTab" devLabel="SETUP" translation="EINRICHTEN"/>
+	<label commandName="lclzSimTemplateWebViewerCmd1" devLabel="Explores design alternatives, called outcomes, using tools that help you identify the optimal outcome." translation="Untersucht Konstruktionsalternativen, auch Ergebnisse genannt, mithilfe von Werkzeugen, die Sie beim Identifizieren des optimalen Ergebnisses unterstützen."/>
+	<label commandName="lclzSimTemplateWebViewerCmd2" devLabel="Use different views to visually explore outcomes and examine their properties. Apply filters and compare multiple outcomes. Explore an outcome in detail in the 3D view and select an outcome iteration." translation="Verwenden Sie verschiedene Ansichten, um Ergebnisse und ihre Eigenschaften visuell zu untersuchen. Wenden Sie Filter an, und vergleichen Sie verschiedene Ergebnisse. Führen Sie in der 3D-Ansicht eine detaillierte Untersuchung eines Ergebnisses durch, und wählen Sie eine Ergebnisiteration aus."/>
+	<label commandName="lclzUIDemo" devLabel="UI Demo" translation="UI-Demo"/>
+</Resource>

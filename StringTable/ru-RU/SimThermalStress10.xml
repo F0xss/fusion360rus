@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="Sim1stPrincipalStrain" devLabel="1st Principal" translation="1. Hauptspannung"/>
+	<label commandName="Sim1stPrincipalStress" devLabel="1st Principal" translation="1. Hauptspannung"/>
+	<label commandName="Sim3rdPrincipalStrain" devLabel="3rd Principal" translation="3. Hauptspannung"/>
+	<label commandName="Sim3rdPrincipalStress" devLabel="3rd Principal" translation="3. Hauptspannung"/>
+	<label commandName="SimAppliedHeatFlow" devLabel="Applied Heat Flow" translation="Angewendeter Wärmestrom"/>
+	<label commandName="SimCFDPressureGroup" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimCaseMissing" devLabel="Study is missing" translation="Studie fehlt"/>
+	<label commandName="SimCaseNameImportedCFD" devLabel="Study %1% - Imported CFD" translation="Studie %1% - Importiertes CFD"/>
+	<label commandName="SimCaseNameThermalStress" devLabel="Study %1% - Thermal Stress" translation="Studie %1% - Thermische Spannung"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimConstraintReactionForce" devLabel="Reaction Force" translation="Reaktionskraft"/>
+	<label commandName="SimConstraintReactionForceX" devLabel="X" translation="X"/>
+	<label commandName="SimConstraintReactionForceY" devLabel="Y" translation="Y"/>
+	<label commandName="SimConstraintReactionForceZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimConstraintReactionMomenX" devLabel="X" translation="X"/>
+	<label commandName="SimConstraintReactionMomentY" devLabel="Y" translation="Y"/>
+	<label commandName="SimConstraintReactionMomentZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimContactForceGroup" devLabel="Contact Force" translation="Kontaktkraft"/>
+	<label commandName="SimContactForceTotal" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimContactForceX" devLabel="X" translation="X"/>
+	<label commandName="SimContactForceY" devLabel="Y" translation="Y"/>
+	<label commandName="SimContactForceZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimContactPressure" devLabel="Contact pressure" translation="Kontaktdruck"/>
+	<label commandName="SimContactPressureGroup" devLabel="Contact Pressure" translation="Kontaktdruck"/>
+	<label commandName="SimContactPressureTotal" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimContactPressureX" devLabel="X" translation="X"/>
+	<label commandName="SimContactPressureY" devLabel="Y" translation="Y"/>
+	<label commandName="SimContactPressureZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimDisplacement" devLabel="Displacement" translation="Verschiebung"/>
+	<label commandName="SimDisplacementX" devLabel="X" translation="X"/>
+	<label commandName="SimDisplacementY" devLabel="Y" translation="Y"/>
+	<label commandName="SimDisplacementZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimEquivalentStrain" devLabel="Equivalent" translation="Äquivalent"/>
+	<label commandName="SimHeatFlux" devLabel="Heat Flux" translation="Wärmestrom"/>
+	<label commandName="SimHeatFluxX" devLabel="X" translation="X"/>
+	<label commandName="SimHeatFluxY" devLabel="Y" translation="Y"/>
+	<label commandName="SimHeatFluxZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimImportedCFD" devLabel="Imported CFD" translation="Importierte CFD"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimLinkedCaseDiffer" devLabel="Cannot solve: This Study is currently linking to non-Thermal study." translation="Keine Lösung möglich: Diese Studie ist derzeit mit einer nicht thermischen Studie verknüpft."/>
+	<label commandName="SimLinkedStudy" devLabel="Linked study:" translation="Verknüpfte Studie:"/>
+	<label commandName="SimPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimRotation" devLabel="Rotation" translation="Drehung"/>
+	<label commandName="SimRotationX" devLabel="X" translation="X"/>
+	<label commandName="SimRotationY" devLabel="Y" translation="Y"/>
+	<label commandName="SimRotationZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimSafetyFactor" devLabel="Safety Factor" translation="Sicherheitsfaktor"/>
+	<label commandName="SimSafetyFactorPerBodySetting" devLabel="Safety Factor (Per Body)" translation="Sicherheitsfaktor (pro Körper)"/>
+	<label commandName="SimStrain" devLabel="Strain" translation="Dehnung"/>
+	<label commandName="SimStrainXX" devLabel="Normal XX" translation="Lotrechte Spannung XX"/>
+	<label commandName="SimStrainXY" devLabel="Shear XY" translation="Scherdehnung XY"/>
+	<label commandName="SimStrainXZ" devLabel="Shear ZX" translation="Scherdehnung ZX"/>
+	<label commandName="SimStrainYY" devLabel="Normal YY" translation="Lotrechte Dehnung YY"/>
+	<label commandName="SimStrainYZ" devLabel="Shear YZ" translation="Scherdehnung YZ"/>
+	<label commandName="SimStrainZZ" devLabel="Normal ZZ" translation="Lotrechte Spannung ZZ"/>
+	<label commandName="SimStress" devLabel="Stress" translation="Spannung"/>
+	<label commandName="SimStressXX" devLabel="Normal XX" translation="Lotrechte Spannung XX"/>
+	<label commandName="SimStressXY" devLabel="Shear XY" translation="Scherdehnung XY"/>
+	<label commandName="SimStressXZ" devLabel="Shear ZX" translation="Scherdehnung ZX"/>
+	<label commandName="SimStressYY" devLabel="Normal YY" translation="Lotrechte Dehnung YY"/>
+	<label commandName="SimStressYZ" devLabel="Shear YZ" translation="Scherdehnung YZ"/>
+	<label commandName="SimStressZZ" devLabel="Normal ZZ" translation="Lotrechte Spannung ZZ"/>
+	<label commandName="SimSumConstraintReactionForce" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimSumConstraintReactionMoment" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimSumDisplacement" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimSumHeatFlux" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimSumRotation" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimSumThermalGradient" devLabel="Total" translation="Gesamt"/>
+	<label commandName="SimTargetResult" devLabel=" (target)" translation=" (Ziel)"/>
+	<label commandName="SimTemperature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimThermalGradient" devLabel="Thermal Gradient" translation="Temperaturgradient"/>
+	<label commandName="SimThermalGradientX" devLabel="X" translation="X"/>
+	<label commandName="SimThermalGradientY" devLabel="Y" translation="Y"/>
+	<label commandName="SimThermalGradientZ" devLabel="Z" translation="Z"/>
+	<label commandName="SimThermalStress" devLabel="Thermal Stress" translation="Thermische Spannung"/>
+	<label commandName="SimTotalDisplacement" devLabel="Displacement, Total" translation="Verschiebung, gesamt"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimVonMisesStress" devLabel="Von Mises" translation="Von-Mises"/>
+</Resource>

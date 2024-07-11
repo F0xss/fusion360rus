@@ -1,0 +1,21 @@
+<div id="smoothingFilterMode"><p>Określa sposób wygładzania ścieżki narzędzia.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss.png"/></center></td>
+<td><center><img border="0" width="200" height="189" src="../images/arc_fitting_ss_applied.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Wygładzanie wyłączone</b></p></center></td>
+<td><center><p><b>Opcja Dopasuj łuki zastosowana</b></p></center></td>
+</tr></table>
+<p><b>Dopasuj łuki</b> — zastępuje wiele linii w zakrzywionych obszarach łukami, zachowując tolerancję ścieżki narzędzia. Jeśli tolerancja nie może być osiągnięta, łuki nie są stosowane. Dopasowanie łuków zmniejszy rozmiar pliku kodu G, co będzie przydatne dla starszych maszyn z wolniejszymi sterownikami CNC, które lepiej działają z mniejszymi rozmiarami plików.</p>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="400" height="196" src="../images/Evenly_spaced_points_2_SS.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Równomiernie rozmieszczone punkty</b></p></center></td>
+</tr></table>
+<p><b>Równomiernie rozmieszczone punkty</b> — odpowiednie dla nowszych obrabiarek z szybszymi sterownikami CNC, które są w stanie obsłużyć dużą liczbę punktów.</p>
+<p><b>1</b> — usuwa stare punkty i wstawia nowe punkty wzdłuż ruchów skrawających oraz rozmieszcza je w taki sposób, aby były równomiernie rozłożone w miarę możliwości. Dodanie nowych punktów może wydłużyć czas obliczeń do wygenerowania ścieżki narzędzia, jednak równomiernie rozłożone punkty oznaczają znaczne skrócenie czasu pracy obrabiarki.<br></p>
+<p><b>2</b> — punkty mogą być bardziej skupione wokół narożników, aby utrzymać się w granicach tolerancji ścieżki narzędzia.</p>
+</div>

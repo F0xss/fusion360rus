@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AVKSelectGeometryCommand" devLabel="AVK Geometry Selector" translation="Wybór geometrii AVK"/>
+	<label commandName="Blend Distance Caption" devLabel="Blend Distance" translation="Długość łączenia"/>
+	<label commandName="BlendDistanceCaption" devLabel="Blend Distance" translation="Długość łączenia"/>
+	<label commandName="BlendDistanceCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="CellCount" devLabel="Element Count" translation="Liczba elementów"/>
+	<label commandName="CellCountToolTip" devLabel="Indicates the total number of elements in the grid used to divide the volumetric space.&#xA;More elements create a more detailed mesh and take longer to calculate." translation="Wskazuje całkowitą liczbę elementów w siatce używaną do podziału przestrzeni objętościowej.&#xA;Więcej elementów tworzy bardziej szczegółową siatkę i wymagane jest więcej czasu na jej obliczenie."/>
+	<label commandName="CustomresolutionOption" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="CustomresolutionOptionToolTip" devLabel="Applies custom resolution settings to tessellate the volumetric lattice." translation="Stosuje niestandardowe ustawienia rozdzielczości do teselacji kratownicy objętościowej."/>
+	<label commandName="Design" devLabel="Design" translation="Projekt"/>
+	<label commandName="DesignFeaturePackDescription" devLabel="This section controls optional behavior within the Design workspace." translation="Ta sekcja steruje opcjonalnym zachowaniem w obszarze roboczym Projektowanie."/>
+	<label commandName="Geometry Caption" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="GeometryCaption" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="GeometryCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="HighresolutionOption" devLabel="High" translation="Wysoki"/>
+	<label commandName="HighresolutionOptionToolTip" devLabel="Applies a preset with high resolution settings to tessellate the volumetric lattice." translation="Stosuje ustawienie wstępne z ustawieniami o wysokiej rozdzielczości do teselacji kratownicy objętościowej."/>
+	<label commandName="LowresolutionOption" devLabel="Low" translation="Nisko"/>
+	<label commandName="LowresolutionOptionToolTip" devLabel="Applies a preset with low resolution settings to tessellate the volumetric lattice." translation="Stosuje ustawienie wstępne z ustawieniami o niskiej rozdzielczości do teselacji kratownicy objętościowej."/>
+	<label commandName="MassProperties" devLabel="Volumetric Lattice Properties" translation="Właściwości kratownicy objętościowej"/>
+	<label commandName="MediumresolutionOption" devLabel="Medium" translation="Średnie"/>
+	<label commandName="MediumresolutionOptionToolTip" devLabel="Applies a preset with medium resolution settings to tessellate the volumetric lattice." translation="Stosuje ustawienie wstępne z ustawieniami o średniej rozdzielczości do teselacji kratownicy objętościowej."/>
+	<label commandName="MeshingCellSize" devLabel="Element Size" translation="Rozmiar elementu"/>
+	<label commandName="MeshingCellSizeToolTip" devLabel="Indicates the size of each element in a grid used to divide the volumetric space.&#xA;Small elements create a more detailed mesh and take longer to calculate." translation="Wskazuje rozmiar każdego elementu w siatce używanego do podziału przestrzeni objętościowej.&#xA;Małe elementy tworzą bardziej szczegółową siatkę i wymagane jest więcej czasu na jej obliczenie."/>
+	<label commandName="MeshingResolution" devLabel="Meshing Resolution" translation="Rozdzielczość siatki"/>
+	<label commandName="MeshingResolutionToolTip" devLabel="The meshing resolution" translation="Rozdzielczość siatki"/>
+	<label commandName="Point Caption" devLabel="Point" translation="Punkt"/>
+	<label commandName="PointCaption" devLabel="Point" translation="Punkt"/>
+	<label commandName="PointCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="PointOnPathCaption" devLabel="Position" translation="Położenie"/>
+	<label commandName="PointOnPathCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="Position Caption" devLabel="Position" translation="Położenie"/>
+	<label commandName="Solidity Caption" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="Solidity Caption Regions" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="SolidityCaption" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="SolidityCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="Thickness Caption" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="ThicknessCaption" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="ThicknessCaptionToolTip" devLabel="" translation=""/>
+	<label commandName="VRepStatusInvalid" devLabel="An essential geometric reference has been lost.&#xA;Check the Setup and Solidity tabs for missing selections." translation="Utracono podstawowe odniesienie geometryczne.&#xA;Sprawdź karty Bazy i Bryła, aby zapoznać się z brakującymi wyborami."/>
+	<label commandName="VolFieldAssignCmd" devLabel="Assign Volumetric Lattice" translation="Przypisz kratownicę objętościową"/>
+	<label commandName="VolFieldCreateCommand" devLabel="Volumetric Field From Geometry" translation="Pole objętościowe z geometrii"/>
+	<label commandName="VolFieldCreateLatticeCmd" devLabel="Volumetric Lattice" translation="Kratownica objętościowa"/>
+	<label commandName="VolFieldCreateLatticeSelectBody" devLabel="Select solid or closed mesh body to apply a volumetric lattice" translation="Wybierz bryłę lub zamkniętą bryłę siatkową, aby zastosować kratownicę objętościową"/>
+	<label commandName="VolFieldCreateLatticeSelectDensityCurv" devLabel="Select a curve or edge to define a path of varying solidity" translation="Wybierz krzywą lub krawędź, aby zdefiniować ścieżkę o zmiennej zwartości"/>
+	<label commandName="VolFieldCreateLatticeSelectDensityReg" devLabel="Select geometry to create regions of solidity" translation="Wybierz geometrię, aby utworzyć regiony zwartości"/>
+	<label commandName="VolFieldCreateLatticeSpecifyOffset" devLabel="Specify offset and blending distance" translation="Określ odsunięcie i odległość łączenia"/>
+	<label commandName="VolFieldEditLatticeCmd" devLabel="Edit Volumetric Lattice" translation="Edytuj kratownicę objętościową"/>
+	<label commandName="VolFieldEditLatticeCmdBrowser" devLabel="Edit Volumetric Lattice" translation="Edytuj kratownicę objętościową"/>
+	<label commandName="VolFieldEditLatticeSelectBody" devLabel="Select solid or closed mesh body from the same component" translation="Wybierz bryłę lub zamkniętą bryłę siatkową z tego samego komponentu"/>
+	<label commandName="VolFieldLatticeBoundaryBodyInput" devLabel="Body" translation="Bryła"/>
+	<label commandName="VolFieldLatticeBoundaryBodyInputToolTip" devLabel="Select a solid or closed mesh body to create an internal lattice." translation="Wybierz bryłę lub zamkniętą bryłę siatkową, aby utworzyć wewnętrzną kratownicę."/>
+	<label commandName="VolFieldLatticeCellGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeCellGeomSelectPrompt" devLabel="Select solid or closed mesh bodies, faces or paths." translation="Wybierz bryły lub zamknięte bryły siatkowe, powierzchnie lub ścieżki."/>
+	<label commandName="VolFieldLatticeCellGeomToolTip" devLabel="Select solid or closed mesh bodies, faces or paths to define the unit cell structure." translation="Wybierz bryły lub zamknięte bryły siatkowe, powierzchnie lub ścieżki, aby zdefiniować strukturę jednostki komórki."/>
+	<label commandName="VolFieldLatticeCellType" devLabel="Cell Shape" translation="Kształt komórki"/>
+	<label commandName="VolFieldLatticeCellType2DXCell" devLabel="2.5D X-Cell" translation="Komórka X 2.5D"/>
+	<label commandName="VolFieldLatticeCellType2DXCellToolTip" devLabel="Creates a 2.5D X structure per cell.&#xA;2.5D X-cell structures are used commonly in additive manufacturing and provide high directional stiffness." translation="Tworzy strukturę X 2.5D w każdej komórce.&#xA;Struktury z ogniw X 2.5D są często używane w produkcji przyrostowej i zapewniają wysoką sztywność kierunkową."/>
+	<label commandName="VolFieldLatticeCellTypeCross" devLabel="Cross" translation="Krzyż"/>
+	<label commandName="VolFieldLatticeCellTypeCrossToolTip" devLabel="Creates a simple cross structure per cell.&#xA;Cross structures have good vertical and horizontal strength qualities." translation="Tworzy prostą strukturę krzyżową w każdej komórce.&#xA;Struktury krzyżową mają dobre właściwości wytrzymałości w pionie i w poziomie."/>
+	<label commandName="VolFieldLatticeCellTypeCustom" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="VolFieldLatticeCellTypeCustomToolTip" devLabel="Creates a structure based on selected geometry." translation="Tworzy strukturę na podstawie wybranej geometrii."/>
+	<label commandName="VolFieldLatticeCellTypeGyroid" devLabel="Gyroid" translation="Żyroid"/>
+	<label commandName="VolFieldLatticeCellTypeGyroidToolTip" devLabel="Creates a gyroid structure per cell.&#xA;Gyroid structures have excellent isotropic strength properties and can be used effectively inside 3D prints." translation="Tworzy strukturę żyroidalną w każdej komórce.&#xA;Struktury żyroidalne mają doskonałe izotropowe właściwości wytrzymałości i mogą być skutecznie używane w wydrukach 3D."/>
+	<label commandName="VolFieldLatticeCellTypeHoneycomb" devLabel="2.5D Honeycomb" translation="2.5D Plaster miodu"/>
+	<label commandName="VolFieldLatticeCellTypeHoneycombToolTip" devLabel="Creates a 2.5D Honeycomb structure per cell.&#xA;2.5D Honeycomb structures provide high directional stiffness and are easy to produce with a range of manufacturing methods." translation="Tworzy strukturę plastra miodu 2.5D w każdej komórce.&#xA;Konstrukcje 2.5D plastra miodu zapewniają wysoką sztywność kierunkową i są łatwe do wyprodukowania za pomocą szerokiej gamy metod produkcji."/>
+	<label commandName="VolFieldLatticeCellTypeLidinoid" devLabel="Lidinoid" translation="Lidinoid"/>
+	<label commandName="VolFieldLatticeCellTypeLidinoidToolTip" devLabel="Creates a Lidinoid structure per cell.&#xA;Lidinoid structures have high surface areas and high stiffness which makes them effective for a range of applications." translation="Tworzy strukturę lidinoidową w każdej komórce.&#xA;Konstrukcje lidinoidowe mają duże obszary powierzchni i wysoką sztywność, co sprawia, że są efektywne w różnych zastosowaniach."/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzD" devLabel="Schwarz D" translation="Powierzchnia D Schwarza"/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzDToolTip" devLabel="Creates a Schwarz D structure per cell.&#xA;A structure which exhibits high stiffness properties and can be used effectively inside 3D printed parts." translation="Tworzy strukturę powierzchni D Schwarza w każdej komórce.&#xA;Struktura, która wykazuje wysokie właściwości sztywności i może być efektywnie używana w wydrukach 3D części."/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzP" devLabel="Schwarz P" translation="Powierzchnia P Schwarza"/>
+	<label commandName="VolFieldLatticeCellTypeSchwarzPToolTip" devLabel="Creates a Schwarz P minimal structure surface per cell.&#xA;The Schwarz P structure exhibits a high load bearing capacity due to the shape's inherent strain distribution." translation="Tworzy strukturę minimalnej powierzchni P Schwarza w każdej komórce.&#xA;Struktura powierzchni P Schwarza wykazuje dużą nośność ze względu na właściwy dla kształtu rozkład odkształceń."/>
+	<label commandName="VolFieldLatticeCellTypeToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeCellTypeXCell" devLabel="X-Cell" translation="Komórka X"/>
+	<label commandName="VolFieldLatticeCellTypeXCellToolTip" devLabel="Creates an X structure per cell.&#xA;A widely used cell in a range of additive manufacturing processes for its self-supporting nature. Suitable for a range of applications including lightweighting." translation="Tworzy strukturę X w każdej komórce.&#xA;Komórka stosowana w szerokim zakresie procesów produkcji przyrostowej, ze względu na samonośny charakter. Odpowiednie do różnych zastosowań, w tym konstrukcji lekkich."/>
+	<label commandName="VolFieldLatticeDEnsityType" devLabel="Distribution" translation="Rozkład"/>
+	<label commandName="VolFieldLatticeDEnsityTypeToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurve" devLabel="Path" translation="Ścieżka"/>
+	<label commandName="VolFieldLatticeDensityCurveEnd" devLabel="End" translation="Koniec"/>
+	<label commandName="VolFieldLatticeDensityCurveEndPointLabel" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurveEndPointLabelToolTip" devLabel="Specify the end point." translation="Określ punkt końcowy."/>
+	<label commandName="VolFieldLatticeDensityCurvePoint" devLabel="Point " translation="Punkt "/>
+	<label commandName="VolFieldLatticeDensityCurvePointDensity" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurvePointDensityToolTip" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeDensityCurvePointLabel" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurvePointLabelToolTip" devLabel="Point index" translation="Indeks punktu"/>
+	<label commandName="VolFieldLatticeDensityCurvePointPositionEnd" devLabel="Position Along Path" translation="Położenie wzdłuż ścieżki"/>
+	<label commandName="VolFieldLatticeDensityCurvePointPositionEndToolTip" devLabel="Specify position along selected path." translation="Określ położenie wzdłuż wybranej ścieżki."/>
+	<label commandName="VolFieldLatticeDensityCurvePointPositionStart" devLabel="Position Along Path" translation="Położenie wzdłuż ścieżki"/>
+	<label commandName="VolFieldLatticeDensityCurvePointPositionStartToolTip" devLabel="Specify position along selected path." translation="Określ położenie wzdłuż wybranej ścieżki."/>
+	<label commandName="VolFieldLatticeDensityCurvePointType" devLabel="Point interpolation type" translation="Typ interpolacji punktów"/>
+	<label commandName="VolFieldLatticeDensityCurvePointTypeToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurveStart" devLabel="Start" translation="Uruchom"/>
+	<label commandName="VolFieldLatticeDensityCurveStartPointLabel" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurveStartPointLabelToolTip" devLabel="Specify starting point." translation="Określ punkt początkowy."/>
+	<label commandName="VolFieldLatticeDensityCurveTable" devLabel="Curve solidity gradient" translation="Gradient zwartości krzywej"/>
+	<label commandName="VolFieldLatticeDensityCurveTableToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityCurveToolTip" devLabel="Select path to distribute material volume within the body." translation="Wybierz ścieżkę, aby rozmieścić objętość materiału w bryle."/>
+	<label commandName="VolFieldLatticeDensityInput" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Określ zawartość skratowania objętościowego."/>
+	<label commandName="VolFieldLatticeDensityReg" devLabel="Missing" translation="Brak"/>
+	<label commandName="VolFieldLatticeDensityRegDensitySlider" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeDensityRegDensitySliderToolTip" devLabel="Specify the solidity of the offset region." translation="Określ zawartość obszaru odsunięcia."/>
+	<label commandName="VolFieldLatticeDensityRegFallOff" devLabel="Blend Distance" translation="Długość łączenia"/>
+	<label commandName="VolFieldLatticeDensityRegFallOffToolTip" devLabel="Specify the length of the gradient between the offset area and the solidity of the rest of the lattice." translation="Określ długość gradientu między obszarem odsunięcia a zwartością pozostałej części kratownicy."/>
+	<label commandName="VolFieldLatticeDensityRegGeom" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegGeomToolTip" devLabel="Select bodies, faces, paths or points to specify solidity." translation="Wybierz bryły, powierzchnie, ścieżki lub punkty, aby określić zwartość."/>
+	<label commandName="VolFieldLatticeDensityRegLabel" devLabel="Region" translation="Region"/>
+	<label commandName="VolFieldLatticeDensityRegLabelToolTip" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegThickness" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeDensityRegThicknessToolTip" devLabel="Thickness" translation="Grubość"/>
+	<label commandName="VolFieldLatticeDensityRegToolTip" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="VolFieldLatticeDensityRegionsAdd" devLabel="Add region" translation="Dodaj region"/>
+	<label commandName="VolFieldLatticeDensityRegionsAddToolTip" devLabel="Add geometry." translation="Dodaj geometrię"/>
+	<label commandName="VolFieldLatticeDensityRegionsRem" devLabel="Remove region" translation="Usuń region"/>
+	<label commandName="VolFieldLatticeDensityRegionsRemToolTip" devLabel="Remove geometry." translation="Usuń geometrię"/>
+	<label commandName="VolFieldLatticeDensityRegionsTable" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeDensityRegionsTableToolTip" devLabel="Solidity offset regions" translation="Regiony odsunięcia zwartości"/>
+	<label commandName="VolFieldLatticeDensitySliderInput" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeDensitySliderInputConstant" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeDensitySliderInputConstantToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Określ zawartość skratowania objętościowego."/>
+	<label commandName="VolFieldLatticeDensitySliderInputToolTip" devLabel="Specify the solidity of the volumetric lattice." translation="Określ zawartość skratowania objętościowego."/>
+	<label commandName="VolFieldLatticeDensityTypeAlongCurve" devLabel="Gradient Along Path" translation="Gradient wzdłuż ścieżki"/>
+	<label commandName="VolFieldLatticeDensityTypeAlongCurveToolTip" devLabel="Distributes a varying percentage of material volume to cells along the selected line, curve or edge." translation="Rozkłada zmienny procent objętości materiału na komórki wzdłuż wybranej linii, krzywej lub krawędzi."/>
+	<label commandName="VolFieldLatticeDensityTypeConstant" devLabel="Uniform" translation="Równomierne"/>
+	<label commandName="VolFieldLatticeDensityTypeConstantToolTip" devLabel="Distributes an even percentage of material volume to all cells throughout the selected body." translation="Rozkłada równy procent objętości materiału na wszystkie komórki w wybranej bryle."/>
+	<label commandName="VolFieldLatticeDensityTypeDistance" devLabel="Distance from geometry" translation="Odległość od geometrii"/>
+	<label commandName="VolFieldLatticeDensityTypeDistanceToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticePointTypeCubic" devLabel="Cubic" translation="Sześcienny"/>
+	<label commandName="VolFieldLatticePointTypeCubicToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticePointTypeLinear" devLabel="Linear" translation="Liniowy"/>
+	<label commandName="VolFieldLatticePointTypeLinearToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticePointTypeNearest" devLabel="Nearest" translation="Najbliższy punkt"/>
+	<label commandName="VolFieldLatticePointTypeNearestToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticePointTypeSmooth" devLabel="Smooth" translation="Płynne"/>
+	<label commandName="VolFieldLatticePointTypeSmoothToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeRegDensity" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeRegDensityToolTip" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeSizeActive" devLabel="Scale" translation="Skala"/>
+	<label commandName="VolFieldLatticeSizeActiveToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeInputGroup" devLabel="Cell Size" translation="Rozmiar komórki"/>
+	<label commandName="VolFieldLatticeSizeInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeIsUniformInput" devLabel="Proportions" translation="Proporcje"/>
+	<label commandName="VolFieldLatticeSizeIsUniformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeTypeNonUniform" devLabel="Nonuniform" translation="Niejednorodny"/>
+	<label commandName="VolFieldLatticeSizeTypeNonUniformToolTip" devLabel="Creates cells of different sizes in each direction." translation="Tworzy komórki o różnych rozmiarach w każdym kierunku."/>
+	<label commandName="VolFieldLatticeSizeTypeUniform" devLabel="Uniform" translation="Równomierne"/>
+	<label commandName="VolFieldLatticeSizeTypeUniformToolTip" devLabel="Creates cells of the same size in each direction." translation="Tworzy komórki o tym samym rozmiarze w każdym kierunku."/>
+	<label commandName="VolFieldLatticeSizeUniformInput" devLabel="Size" translation="Rozmiar"/>
+	<label commandName="VolFieldLatticeSizeUniformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeSizeXInput" devLabel="X Direction" translation="Kierunek X"/>
+	<label commandName="VolFieldLatticeSizeXInputToolTip" devLabel="Specify the size of the cell in the X direction." translation="Określ rozmiar komórki w kierunku X."/>
+	<label commandName="VolFieldLatticeSizeYInput" devLabel="Y Direction" translation="Kierunek Y"/>
+	<label commandName="VolFieldLatticeSizeYInputToolTip" devLabel="Specify the size of the cell in the Y direction." translation="Określ rozmiar komórki w kierunku Y."/>
+	<label commandName="VolFieldLatticeSizeZInput" devLabel="Z Direction" translation="Kierunek Z"/>
+	<label commandName="VolFieldLatticeSizeZInputToolTip" devLabel="Specify the size of the cell in the Z direction." translation="Określ rozmiar komórki w kierunku Z."/>
+	<label commandName="VolFieldLatticeTabBar" devLabel="Lattice Tabs" translation="Karty kratownicy"/>
+	<label commandName="VolFieldLatticeTabBarToolTip" devLabel="Volumetric lattice parameter tabs" translation="Karty parametrów kratownicy objętościowej"/>
+	<label commandName="VolFieldLatticeTabDensity" devLabel="Solidity" translation="Zwartość"/>
+	<label commandName="VolFieldLatticeTabDensityToolTip" devLabel="Specify the amount of the solidity in cells and its distribution." translation="Określ wielkość zwartości w komórkach i jej rozkład."/>
+	<label commandName="VolFieldLatticeTabPattern" devLabel="Setup" translation="Ustawienia"/>
+	<label commandName="VolFieldLatticeTabPatternToolTip" devLabel="Select a body and specify the cell shape and orientation." translation="Wybierz bryłę i określ kształt i orientację komórki."/>
+	<label commandName="VolFieldLatticeTabRegions" devLabel="Offset" translation="Ofset"/>
+	<label commandName="VolFieldLatticeTabRegionsToolTip" devLabel="Specify offset areas of the body." translation="Określ odsunięte obszary bryły."/>
+	<label commandName="VolFieldLatticeTransformEnable" devLabel="Move / Rotate" translation="Przesuń / Obróć"/>
+	<label commandName="VolFieldLatticeTransformEnableToolTip" devLabel="Moves or rotates cells in the specified direction." translation="Przesuwa lub obraca komórki w określonym kierunku."/>
+	<label commandName="VolFieldLatticeTransformInput" devLabel="Transform" translation="Przekształcenie"/>
+	<label commandName="VolFieldLatticeTransformInputGroup" devLabel="Lattice Transform" translation="Przekształcenie kratownicy"/>
+	<label commandName="VolFieldLatticeTransformInputGroupToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeTransformInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldLatticeTransformReset" devLabel="Reset" translation="Resetuj"/>
+	<label commandName="VolFieldLatticeTransformResetToolTip" devLabel="Resets cells to the original position." translation="Resetuje komórki do pierwotnego położenia."/>
+	<label commandName="VolFieldMassPropDisclaimer" devLabel="Volumetric Lattice Properties are estimates of their true physical quantities. Increasing&#xA;the complexity of the Volumetric Lattice will reduce the accuracy of these estimates." translation="Właściwości kratownicy objętościowej są szacunkami ich rzeczywistych ilości fizycznych. Zwiększenie&#xA;złożoności kratownicy objętościowej zmniejszy dokładność tych oszacowań."/>
+	<label commandName="VolFieldSelectCellGeometry" devLabel="Select solid or closed mesh bodies, faces or paths." translation="Wybierz bryły lub zamknięte bryły siatkowe, powierzchnie lub ścieżki."/>
+	<label commandName="VolFieldToMeshBoundaryBodyInput" devLabel="Body" translation="Bryła"/>
+	<label commandName="VolFieldToMeshBoundaryBodyInputToolTip" devLabel="" translation=""/>
+	<label commandName="VolFieldToMeshCmd" devLabel="Create Mesh" translation="Utwórz siatkę"/>
+	<label commandName="VolFieldToMeshSelectBody" devLabel="Select a body with an existing volumetric lattice to create mesh body" translation="Wybierz bryłę z istniejącą kratownicą objętościową, aby utworzyć siatkę bryłę siatkową."/>
+	<label commandName="VolFieldToMeshSelectedBody" devLabel="Adjust the refinement settings" translation="Dopasuj ustawienia zagęszczania"/>
+	<label commandName="VolFieldUIExtensionText" devLabel="Included with the Product Design Extension" translation="Uwzględnione w rozszerzeniu Product Design Extension"/>
+	<label commandName="VolFieldUnassignCmd" devLabel="Unassign Volumetric Lattice" translation="Usuń przypisanie kratownicy objętościowej"/>
+	<label commandName="VolfieldPropCOM" devLabel="Center of Mass" translation="Środek masy"/>
+	<label commandName="VolfieldPropVolume" devLabel="Volume" translation="Objętość"/>
+	<label commandName="VolfieldProperties" devLabel="Volumetric Lattice" translation="Kratownica objętościowa"/>
+	<label commandName="VolumetricModelingFeature" devLabel="Volumetric Modeling" translation="Modelowanie objętościowe"/>
+	<label commandName="VolumetricModelingFeatureDescription" devLabel="Enables Volumetric Modeling tools." translation="Włącza narzędzia modelowania objętościowego."/>
+	<label commandName="lclzApply" devLabel="Apply" translation="Zastosuj"/>
+	<label commandName="lclzCancel" devLabel="Cancel" translation="Anuluj"/>
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksDesc" devLabel="The Gyroid shape can create stiff structures. However, can lead to trapped powder or resin in some printing processes. When using the Cross structure, consider using the Move/Rotate command to rotate the structure to ensure the Cross shape is able to support itself when printing." translation="Kształt żyroida może tworzyć sztywne struktury. Może jednak prowadzić do powstania uwięzionego proszku lub żywicy w niektórych procesach drukowania. Podczas używania struktury krzyżowej należy rozważyć użycie polecenia Przesuń/Obróć w celu obrócenia struktury, aby zapewnić, że kształt krzyżowy będzie mógł być obsługiwany podczas drukowania."/>
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksTips" devLabel="Select a solid body or mesh body to lattice, then select a cell shape from the dropdown. Scale and position the structure using the manipulators. Then, specify the solidity of the structure using the fill percentage input, or select the Gradient Along Path to create a solidity gradient along a line. In the Offset tab, add a solidity offset region and specify its solidity." translation="Wybierz korpus bryłowy lub bryłę siatkową do skratowania, a następnie wybierz kształt komórki z listy rozwijanej. Skaluj i ustaw położenie struktury za pomocą manipulatorów. Następnie określ wypełnienie struktury za pomocą wartości wejściowej w procentach wypełnienia lub wybierz Gradient wzdłuż ścieżki, aby utworzyć gradient wypełnienia wzdłuż linii. Na karcie Odsunięcie dodaj region odsunięcia wypełnienia i określ jego wypełnienie."/>
+	<label commandName="lclzEditVolumetricLatticeTipsAndTricksTitle" devLabel="Volumetric Lattice Information" translation="Kratownica objętościowa — informacje"/>
+	<label commandName="lclzOk" devLabel="OK" translation="OK"/>
+	<label commandName="lclzVolFieldAssignCmdDesc" devLabel="Assigns an internal volumetric lattice structure to the selected body. A volumetric lattice must already be created in your design." translation="Przypisuje wewnętrzną strukturę kratownicy objetościowej do wybranej bryły. W projekcie musi być już utworzona kratownica objętościowa."/>
+	<label commandName="lclzVolFieldAssignCmdDesc2" devLabel="Also, you can only assign one volumetric lattice per component." translation="Ponadto można przypisać tylko jedną kratownicę objętościową na komponent."/>
+	<label commandName="lclzVolFieldCreateCmdDesc1" devLabel="Create a new volumetric field using the bounding box of the selected geometry as the boundary of the volume." translation="Utwórz nowe pole objętościowe, używając ramki ograniczającej o wybranej geometrii jako obwiedni objętości."/>
+	<label commandName="lclzVolFieldCreateLatticeCmdDesc1" devLabel="Modifies an existing solid body or mesh body by adding an internal lattice structure within the body boundary." translation="Modyfikuje istniejący korpus bryłowy lub bryłę siatkową przez dodanie wewnętrznej struktury kratownicy w obrębie obwiedni bryły."/>
+	<label commandName="lclzVolFieldCreateLatticeCmdDesc2" devLabel="Select a body, then specify the cell shape, distribution, and solidity." translation="Wybierz bryłę, a następnie określ kształt, rozkład i zwartość komórki."/>
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksDesc" devLabel="The mesh created with this tool can be extremely dense, consider using the Remesh tool in the Mesh workspace to make the model easier to work with. Also, the results can sometimes lead to small mesh shell artifacts. Consider using the Separate tool in the Mesh workspace to separate the small shells from the mesh body, then delete them." translation="Siatka utworzona za pomocą tego narzędzia może być bardzo gęsta. Rozważ użycie narzędzia Modyfikuj siatkę w obszarze roboczym Siatka, aby ułatwić pracę z modelem. Ponadto wyniki mogą czasami prowadzić do powstawania małych artefaktów skorupy siatki. Rozważ użycie narzędzia Rozdziel w obszarze roboczym Siatka, aby oddzielić małe skorupy od bryły siatkowej, a następnie je usunąć."/>
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksTips" devLabel="Select a body with volumetric lattice. Select a resolution from the dropdown and click OK." translation="Wybierz bryłę z kratownicą objętościową. Wybierz rozdzielczość z listy rozwijanej i kliknij przycisk OK."/>
+	<label commandName="lclzVolFieldCreateMeshTipsAndTricksTitle" devLabel="Create Mesh Information" translation="Utwórz siatkę — informacje"/>
+	<label commandName="lclzVolFieldEditLatticeCmdDesc" devLabel="Modifies an existing volumetric lattice structure." translation="Modyfikuje istniejącą strukturę kratownicy objętościowej."/>
+	<label commandName="lclzVolFieldSetup" devLabel="Setup" translation="Ustawienia"/>
+	<label commandName="lclzVolFieldTab" devLabel="Volume Fields" translation="Pola objętości"/>
+	<label commandName="lclzVolFieldToMeshCmdDesc1" devLabel="Creates a mesh body from an existing volumetric lattice." translation="Tworzy bryłę siatkową na podstawie istniejącej kratownicy objętościowej."/>
+	<label commandName="lclzVolFieldToMeshCmdDesc2" devLabel="Select a body with a volumetric lattice to use, then specify the resolution." translation="Wybierz bryłę z kratownicą objętościową, która ma zostać użyta, a następnie określ rozdzielczość."/>
+	<label commandName="lclzVolFieldUnassignCmdDesc" devLabel="Unassigns the existing  volumetric lattice structure from the selected body." translation="Usuwa przypisanie istniejącej struktury kratownicy objetościowej z wybranej bryły."/>
+	<label commandName="lclzVolumetricLatticeTipsAndTricksDesc" devLabel="The Gyroid shape can create stiff structures. However, can lead to trapped powder or resin in some printing processes. When using the Cross structure, consider using the Move/Rotate command to rotate the structure to ensure the Cross shape is able to support itself when printing." translation="Kształt żyroida może tworzyć sztywne struktury. Może jednak prowadzić do powstania uwięzionego proszku lub żywicy w niektórych procesach drukowania. Podczas używania struktury krzyżowej należy rozważyć użycie polecenia Przesuń/Obróć w celu obrócenia struktury, aby zapewnić, że kształt krzyżowy będzie mógł być obsługiwany podczas drukowania."/>
+	<label commandName="lclzVolumetricLatticeTipsAndTricksTips" devLabel="Select a solid body or mesh body to lattice, then select a cell shape from the dropdown. Scale and position the structure using the manipulators. Then, specify the solidity of the structure using the fill percentage input, or select the Gradient Along Path to create a solidity gradient along a line. In the Offset tab, add a solidity offset region and specify its solidity." translation="Wybierz korpus bryłowy lub bryłę siatkową do skratowania, a następnie wybierz kształt komórki z listy rozwijanej. Skaluj i ustaw położenie struktury za pomocą manipulatorów. Następnie określ wypełnienie struktury za pomocą wartości wejściowej w procentach wypełnienia lub wybierz Gradient wzdłuż ścieżki, aby utworzyć gradient wypełnienia wzdłuż linii. Na karcie Odsunięcie dodaj region odsunięcia wypełnienia i określ jego wypełnienie."/>
+	<label commandName="lclzVolumetricLatticeTipsAndTricksTitle" devLabel="Volumetric Lattice Information" translation="Kratownica objętościowa — informacje"/>
+	<label commandName="resolutionOptionsInput" devLabel="Refinement" translation="Zagęszczanie"/>
+	<label commandName="resolutionOptionsInputToolTip" devLabel="" translation=""/>
+</Resource>

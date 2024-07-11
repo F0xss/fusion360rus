@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="IDS_CMD_FD_ATTDEF" devLabel="FD_ATTDEF" translation="FD_ATTDEF"/>
+	<label commandName="IDS_CMD_FD_ATTEDIT" devLabel="FD_ATTEDIT" translation="FD_ATTEDIT"/>
+	<label commandName="IDS_CMD_FD_BCLOSE" devLabel="FD_BCLOSE" translation="FD_BCLOSE"/>
+	<label commandName="IDS_CMD_FD_BEDIT" devLabel="FD_BEDIT" translation="FD_BEDIT"/>
+	<label commandName="IDS_CMD_FD_BORDERTOGGLE" devLabel="FD_BORDERTOGGLE" translation="FD_BORDERTOGGLE"/>
+	<label commandName="IDS_CMD_FD_SHEETTOGGLE" devLabel="FD_SHEETTOGGLE" translation="FD_BLATTUMSCHALTEN"/>
+	<label commandName="IDS_CMD_FD_SKETCHEDIT" devLabel="FD_SKETCH" translation="FD_SKETCH"/>
+	<label commandName="IDS_FD_BEDIT_KWORDS" devLabel="Generic Titleblock Border _Generic Titleblock Border" translation="Allgemein Schriftfeld Rahmen _Generic Titleblock Border"/>
+	<label commandName="IDS_FD_BEDIT_PROMPT" devLabel="&#xA;Enter an option [Generic/Titleblock/Border]&lt;Generic&gt;:" translation="&#xA;Option eingeben [Allgemein/Schriftfeld/Rahmen]&lt;Allgemein&gt;:"/>
+	<label commandName="IDS_FD_CUSTOM_ATTR" devLabel="CUSTOM" translation="BENUTZERDEFINIERT"/>
+	<label commandName="IDS_FD_LAYERONOFFKEYWORDS" devLabel="Show Hide Reset _Show Hide Reset" translation="aNzeigen aUsblenden Zurücksetzen _Show Hide Reset"/>
+	<label commandName="IDS_FD_LAYERONOFFOPTION" devLabel="&#xA;Enter layer visibility option [Show/Hide/Reset] : " translation="&#xA;Layersichtbarkeitsoption eingeben [aNzeigen/aUsblenden/Zurücksetzen]: "/>
+	<label commandName="IDS_FD_SKETCHEDIT_KWORDS" devLabel="New Edit Delete eXit _New Edit Delete eXit" translation="Neu Bearbeiten Löschen eXit _New Edit Delete eXit"/>
+	<label commandName="IDS_FD_SKETCHEDIT_PROMPT" devLabel="&#xA;Enter an option [New/Edit/Delete/eXit]:" translation="&#xA;Option eingeben [Neu/Bearbeiten/Löschen/eXit]:"/>
+	<label commandName="IDS_FD_SKETCHNAME_PROMPT" devLabel="&#xA;Enter the sketch name:" translation="&#xA;Skizzennamen eingeben:"/>
+	<label commandName="IDS_PLACE_ATTDEF" devLabel="&#xA;Place Attribute" translation="&#xA;Attribut platzieren"/>
+</Resource>

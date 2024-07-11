@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbars>
+  <!-- CAM Toolbar -->
+  <CommandToolbar Id="CAMAssetType">
+    <Panel Id="MachineBuilderActivationPanel" Environment="CAMEnvironment">
+      <Controls>
+        <Button Id="MachineBuilder::Start" />
+      </Controls>
+    </Panel>
+  </CommandToolbar>
+  <!-- ********** -->
+
+  <!-- Machine Builder Toolbar -->
+  <CommandToolbar Id="MachineBuilderToolbar">
+    <DropDownButton Id="ActivateEnvironmentCommand"
+                    ShowText="true"
+                    SynchronizedWithCurrentItem="true"/>
+    <!-- Tabs -->
+    <Tab Id="MachineBuilderTab"
+         Text="Machine Builder"
+         Panels="MachineBuilderPanel;MachineBuilderFinishPanel"
+         Environment="MachineBuilderEnvironment;CAMEnvironment"
+         ContextualFinishId="MachineBuilder::Stop"/>
+
+    <!-- Panels -->
+    <Panel Id="MachineBuilderPanel"
+           Environment="MachineBuilderEnvironment;CAMEnvironment">
+      <Controls>
+        <Button Id="MachineBuilder::MachineSelection"/>
+        <Button Id="MachineBuilder::MachineEdit"/>
+        <Button Id="MachineBuilder::MoveComponents"/>
+        <Button Id="MachineBuilder::ModelSelection"/>
+        <Button Id="MachineBuilder::Preview"/>
+        <Button Id="MachineBuilder::ArmPreview"/>
+        <Button Id="MachineBuilder::SaveAs"/>
+      </Controls>
+    </Panel>
+    <Panel Id="MachineBuilderFinishPanel"
+           Environment="MachineBuilderEnvironment;CAMEnvironment"
+           ContextualFinishId="MachineBuilder::Stop"
+           AvailableBaseTabs="{none}">
+      <Controls>
+        <Button Id="MachineBuilder::Stop"/>
+      </Controls>
+    </Panel>
+  </CommandToolbar>
+  <!-- *********************** -->
+</Toolbars>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="WyglądCI"/>
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Wygląd"/>
+	<label commandName="BodiesSelectionCategory" devLabel="Bodies Collection" translation="Kolekcja brył"/>
+	<label commandName="BodiesSelectionId" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="BodyDefaultUserName" devLabel="Body" translation="Bryła"/>
+	<label commandName="BodySelectionCategory" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="BodySelectionId" devLabel="Body" translation="Bryła"/>
+	<label commandName="EdgeSelectionCategory" devLabel="Body Edges" translation="Krawędzie bryły"/>
+	<label commandName="EdgeSelectionId" devLabel="Edge" translation="Krawędź"/>
+	<label commandName="EdgeToFaceSelectionCategory" devLabel="Body" translation="Bryła"/>
+	<label commandName="EdgesSelectionId" devLabel="Edges" translation="Krawędzie"/>
+	<label commandName="FaceSelectionId" devLabel="Face" translation="Powierzchnia"/>
+	<label commandName="FacesSelectionCategory" devLabel="Body Faces" translation="Powierzchnie bryły"/>
+	<label commandName="FacesSelectionId" devLabel="Faces" translation="Powierzchnie"/>
+	<label commandName="MultipleBodySelectionId" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="OverridingBodyDefaultUserName" devLabel="Overriding Body" translation="Nadpisywanie bryły"/>
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Materiał fizyczny"/>
+	<label commandName="PlasticRuleStr" devLabel="Plastic Feature Rule" translation="Reguła dotycząca elementu z tworzywa sztucznego"/>
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Właściwości"/>
+	<label commandName="SelectedConfigurationStr" devLabel="Selected Configuration" translation="Wybrana konfiguracja"/>
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Reguła konstrukcji blachowej"/>
+	<label commandName="SurfaceGroupCategory" devLabel="Surface Group" translation="Grupa powierzchni"/>
+	<label commandName="SurfaceGroupDefaultName" devLabel="Group" translation="Grupa"/>
+	<label commandName="SurfaceGroupDefectiveName" devLabel="Defective" translation="Uszkodzone"/>
+	<label commandName="SurfaceGroupIntersectingName" devLabel="Intersecting" translation="Przecinające się"/>
+	<label commandName="SurfaceGroupSelectionId" devLabel="SurfaceGroup" translation="Grupa powierzchni"/>
+	<label commandName="SurfaceGroupUnstitchableName" devLabel="Unstitchable" translation="Niezszywalne"/>
+	<label commandName="SurfaceGroupUnstitchedName" devLabel="Unstitched" translation="Niezszyte"/>
+	<label commandName="VertexSelectionCategory" devLabel="Body Vertices" translation="Wierzchołki bryły"/>
+	<label commandName="VertexSelectionId" devLabel="Vertex" translation="Wierzchołek"/>
+	<label commandName="VerticesSelectionId" devLabel="Vertices" translation="Wierzchołki"/>
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Widoczność"/>
+	<label commandName="lclzManualAbort" devLabel="Operation aborted by user manually" translation="Operacja przerwana ręcznie przez użytkownika"/>
+</Resource>

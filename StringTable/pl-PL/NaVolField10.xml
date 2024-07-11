@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AVKBodySelectionCategory" devLabel="AVKBodies" translation="Bryły AVK"/>
+	<label commandName="AVKMeshBodySelectionCategory" devLabel="Bodies" translation="Bryły"/>
+	<label commandName="EmptyBooleanVolFieldToMesh" devLabel="Attempt to boolean both the meshes failed. Create Mesh aborted" translation="Próba wykonania operacji logicznej na obu siatkach się nie powiodła. Przerwano tworzenie siatki"/>
+	<label commandName="EmptyLatticeVolFieldToMesh" devLabel="Attempt to create an lattice mesh failed. Create Mesh aborted" translation="Próba utworzenia siatki kratownicy się nie powiodła. Przerwano tworzenie siatki."/>
+	<label commandName="EmptyPartVolFieldToMesh" devLabel="Attempt to create body mesh failed. Create Mesh aborted" translation="Próba utworzenia siatki bryły się nie powiodła. Przerwano tworzenie siatki."/>
+	<label commandName="EmptyVolFieldToMesh" devLabel="Attempt to create an empty mesh. Create Mesh aborted" translation="Próba utworzenia pustej siatki. Przerwano tworzenie siatki."/>
+	<label commandName="FailedVolFieldCreateRequest" devLabel="could not add or find the volumetric group" translation="Nie można dodać lub znaleźć grupy objętościowej"/>
+	<label commandName="FailedVolFieldCreateRequestEntity" devLabel="could not find a component for volumetric data" translation="nie można znaleźć komponentu dla danych objętościowych"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestEntity" devLabel="could not add or find the volumetric data" translation="Nie można dodać lub znaleźć danych objętościowych"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestNode" devLabel="Failed to find correct graph nodes" translation="Nie można znaleźć poprawnych węzłów grafu"/>
+	<label commandName="FailedVolFieldCreatelatticeRequestRoot" devLabel="could not add or find the volumetric root" translation="Nie można dodać lub znaleźć głównej bryły objętościowej"/>
+	<label commandName="FailedVolFieldToMeshRequest" devLabel="could not add or find the volumetric group" translation="Nie można dodać lub znaleźć grupy objętościowej"/>
+	<label commandName="FailedVolFieldToMeshRequestEntity" devLabel="could not find a component with volumetric data" translation="nie można znaleźć komponentu z danymi objętościowymi"/>
+	<label commandName="InterruptedVolFieldToMeshRequest" devLabel="Create Mesh was interrupted" translation="Tworzenie siatki zostało przerwane"/>
+	<label commandName="LatticeDefaultUserName" devLabel="Volumetric Lattice" translation="Kratownica objętościowa"/>
+	<label commandName="NAVKRootSelectionId" devLabel="VolFieldRootSelection" translation="VolFieldRootSelection"/>
+	<label commandName="NAVKVRepSelectionId" devLabel="VolFieldSelection" translation="VolFieldSelection"/>
+	<label commandName="VolFieldToMeshProgress" devLabel="Create Mesh" translation="Utwórz siatkę"/>
+</Resource>

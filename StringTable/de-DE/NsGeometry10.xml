@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ActiveTangentHandleSelectionId" devLabel="Active Tangent Handle" translation="Aktiver Tangentengriff"/>
+	<label commandName="AppearanceCIStr" devLabel="AppearanceCI" translation="Darstellungs-CI"/>
+	<label commandName="AppearanceStr" devLabel="Appearance" translation="Darstellung"/>
+	<label commandName="ErrCurveData" devLabel="Curve" translation="Kurve"/>
+	<label commandName="ErrPointData" devLabel="Point" translation="Punkt"/>
+	<label commandName="ErrSurfData" devLabel="Surface" translation="Fläche"/>
+	<label commandName="ErrUnknownData" devLabel="Unknow data" translation="Unbekannte Daten"/>
+	<label commandName="Geometry2DSelectionCategory" devLabel="2D Geometry" translation="2D Geometry"/>
+	<label commandName="OriginWorkGeometriesSelectionId" devLabel="Origin WorkGeometries" translation="Ursprungs-Arbeitsgeometrien"/>
+	<label commandName="OriginWorkGeometrySelectionCategory" devLabel="Origin Collection" translation="Ursprungsgruppierung"/>
+	<label commandName="OriginWorkGeometrySelectionId" devLabel="Origin WorkGeometry" translation="Ursprung der Arbeitsgeometrie"/>
+	<label commandName="PhysicalMaterialStr" devLabel="Physical Material" translation="Material"/>
+	<label commandName="PlasticRuleStr" devLabel="Plastic Feature Rule" translation="Kunststoffelementregel"/>
+	<label commandName="PropertiesStr" devLabel="Properties" translation="Eigenschaften"/>
+	<label commandName="SelectedConfigurationStr" devLabel="Selected Configuration" translation="Ausgewählte Konfiguration"/>
+	<label commandName="SheetMetalRuleStr" devLabel="Sheet Metal Rule" translation="Blechregel"/>
+	<label commandName="SketchArcSelectionId" devLabel="Sketch Arc" translation="Skizzierbogen"/>
+	<label commandName="SketchCVSplineSelectionId" devLabel="Control Point Spline (Degree " translation="Kontrollpunkt-Spline (Grad "/>
+	<label commandName="SketchCurveSelectionCategory" devLabel="Sketch Curves" translation="Skizzierkurven"/>
+	<label commandName="SketchCurveSelectionID" devLabel="Sketch Curve" translation="Skizzierkurve"/>
+	<label commandName="SketchCurveSelectionId" devLabel="Sketch Curve" translation="Skizzierkurve"/>
+	<label commandName="SketchCurvesSelectionId" devLabel="Sketch Curves" translation="Skizzierkurven"/>
+	<label commandName="SketchDefaultName" devLabel="Sketch" translation="Skizze"/>
+	<label commandName="SketchEllipticalCurveSelectionID" devLabel="Sketch Elliptical Curve" translation="Elliptische Skizzierkurve"/>
+	<label commandName="SketchFitPointSplineSelectionId" devLabel="Sketch Fit Point Spline" translation="Anpassungspunkt-Skizzier-Spline"/>
+	<label commandName="SketchLineSelectionID" devLabel="Sketch Line" translation="Skizzierlinie"/>
+	<label commandName="SketchLineSelectionId" devLabel="Sketch Line" translation="Skizzierlinie"/>
+	<label commandName="SketchPointSelectionCategory" devLabel="Sketch Points" translation="Skizzierpunkte"/>
+	<label commandName="SketchPointSelectionId" devLabel="Sketch Point" translation="Skizzierpunkt"/>
+	<label commandName="SketchPointsSelectionId" devLabel="Sketch Points" translation="Skizzenpunkte"/>
+	<label commandName="SketchSelectionCategory" devLabel="Sketches" translation="Skizzen"/>
+	<label commandName="SketchSelectionId" devLabel="Sketch" translation="Skizze"/>
+	<label commandName="SketchTextExSelectionID" devLabel="Sketch TextEx" translation="Skizze - TextEx"/>
+	<label commandName="SketchTextSelectionID" devLabel="Sketch Text" translation="Skizzentext"/>
+	<label commandName="SketchTextSelectionId" devLabel="Sketch Text" translation="Skizzentext"/>
+	<label commandName="SketchesSelectionCategory" devLabel="Sketch Collection" translation="Skizziergruppierung"/>
+	<label commandName="SketchesSelectionId" devLabel="Sketches" translation="Skizzen"/>
+	<label commandName="TextSelectionCategory" devLabel="Text Selection" translation="Textauswahl"/>
+	<label commandName="TextsSelectionId" devLabel="Text Objects" translation="Textobjekte"/>
+	<label commandName="VisibilityStr" devLabel="Visibility" translation="Sichtbarkeit"/>
+	<label commandName="WorkAxesSelectionId" devLabel="WorkAxes" translation="WorkAxes"/>
+	<label commandName="WorkAxisDefaultName" devLabel="Axis" translation="Achse"/>
+	<label commandName="WorkAxisExtentSelectionId" devLabel="WorkAxis Extent" translation="Arbeitsachsengrenze"/>
+	<label commandName="WorkAxisExtentsSelectionId" devLabel="WorkAxis Extents" translation="Arbeitsachsen-Ausdehnung"/>
+	<label commandName="WorkAxisSelectionId" devLabel="WorkAxis" translation="Arbeitsachse"/>
+	<label commandName="WorkGeometriesSelectionCategory" devLabel="WorkGeometry Collection" translation="Arbeitsgeometrie-Gruppierung"/>
+	<label commandName="WorkGeometriesSelectionId" devLabel="Construction Geometry" translation="Konstruktionsgeometrie"/>
+	<label commandName="WorkPlaneDefaultName" devLabel="Plane" translation="Ebene"/>
+	<label commandName="WorkPlaneExtentLineSelectionId" devLabel="WorkPlane Extent Line" translation="Arbeitsebenen-Grenzlinie"/>
+	<label commandName="WorkPlaneExtentLinesSelectionId" devLabel="WorkPlane Extent Lines" translation="Arbeitsebenen-Grenzlinien"/>
+	<label commandName="WorkPlaneExtentPointSelection" devLabel="WorkPlane Extent Point" translation="Arbeitsebenen-Grenzpunkt"/>
+	<label commandName="WorkPlaneExtentPointsSelection" devLabel="WorkPlane Extent Points" translation="Arbeitsebenen-Grenzpunkte"/>
+	<label commandName="WorkPlaneSelectionId" devLabel="WorkPlane" translation="Arbeitsebene"/>
+	<label commandName="WorkPlanesSelectionId" devLabel="WorkPlanes" translation="WorkPlanes"/>
+	<label commandName="WorkPointDefaultName" devLabel="Point" translation="Punkt"/>
+	<label commandName="WorkPointSelectionId" devLabel="WorkPoint" translation="Arbeitspunkt"/>
+	<label commandName="WorkPointsSelectionId" devLabel="WorkPoints" translation="WorkPoints"/>
+</Resource>

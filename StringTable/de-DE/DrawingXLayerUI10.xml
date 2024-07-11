@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="AllSheetsMulti" devLabel="All Sheets (Multi-File)" translation="Alle Pläne (mehrere Dateien)"/>
+	<label commandName="AllSheetsSingle" devLabel="All Sheets (Single File)" translation="Alle Pläne (Einzeldatei)"/>
+	<label commandName="CurrentSheet" devLabel="Current Sheet" translation="Aktueller Plan"/>
+	<label commandName="DrawingFormat" devLabel="Format" translation="Format"/>
+	<label commandName="DrawingSheets" devLabel="Sheets" translation="Pläne"/>
+	<label commandName="FusDocCustomLineWidth1" devLabel="0.13mm" translation="0.13 mm"/>
+	<label commandName="FusDocCustomLineWidth2" devLabel="0.18mm" translation="0.18 mm"/>
+	<label commandName="FusDocCustomLineWidth3" devLabel="0.25mm" translation="0.25 mm"/>
+	<label commandName="FusDocCustomLineWidth4" devLabel="0.35mm" translation="0.35 mm"/>
+	<label commandName="FusDocCustomLineWidth5" devLabel="0.5mm" translation="0.5 mm"/>
+	<label commandName="FusDocCustomLineWidth6" devLabel="0.7mm" translation="0.7 mm"/>
+	<label commandName="FusDocCustomLineWidth7" devLabel="1.0mm" translation="1.0 mm"/>
+	<label commandName="FusDocTextHeightASME0" devLabel="0.07in" translation="0.07 Zoll"/>
+	<label commandName="FusDocTextHeightASME1" devLabel="0.1in" translation="0.1 Zoll"/>
+	<label commandName="FusDocTextHeightASME2" devLabel="0.12in" translation="0.12 Zoll"/>
+	<label commandName="FusDocTextHeightASME3" devLabel="0.24in" translation="0.24 Zoll"/>
+	<label commandName="FusDocTextHeightASME4" devLabel="0.35in" translation="0.35 Zoll"/>
+	<label commandName="FusDocTextHeightASME5" devLabel="0.5in" translation="0.5 Zoll"/>
+	<label commandName="FusDocTextHeightASME6" devLabel="0.75in" translation="0.75 Zoll"/>
+	<label commandName="FusDocTextHeightISO0" devLabel="1.8mm" translation="1.8 mm"/>
+	<label commandName="FusDocTextHeightISO1" devLabel="2.5mm" translation="2.5 mm"/>
+	<label commandName="FusDocTextHeightISO2" devLabel="3.5mm" translation="3.5 mm"/>
+	<label commandName="FusDocTextHeightISO3" devLabel="5mm" translation="5 mm"/>
+	<label commandName="FusDocTextHeightISO4" devLabel="7mm" translation="7 mm"/>
+	<label commandName="FusDocTextHeightISO5" devLabel="10mm" translation="10 mm"/>
+	<label commandName="FusDocTextHeightISO6" devLabel="14mm" translation="14 mm"/>
+	<label commandName="FusDocTextHeightISO7" devLabel="20mm" translation="20 mm"/>
+	<label commandName="InputRange" devLabel="Range" translation="Bereich"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="Dezimal"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="Bruch"/>
+	<label commandName="LinearUnitFormat2" devLabel="Engineering" translation="Entwicklung"/>
+	<label commandName="LinearUnitFormat3" devLabel="Architectural" translation="Architektur"/>
+	<label commandName="Range" devLabel="Range (Multi-File)" translation="Bereich (mehrere Dateien)"/>
+	<label commandName="SelectedSheets" devLabel="Selected Sheets (Multi-File)" translation="Ausgewählte Pläne (mehrere Dateien)"/>
+	<label commandName="TextHeightCustom" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="TextHeightLarge" devLabel="Large" translation="Groß"/>
+	<label commandName="TextHeightMedium" devLabel="Medium" translation="Mittel"/>
+	<label commandName="TextHeightSmall" devLabel="Small" translation="Klein"/>
+</Resource>

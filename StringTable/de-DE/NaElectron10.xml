@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="BrowseButton" devLabel="Browse" translation="Durchsuchen"/>
+	<label commandName="CloseUnsavedFile" devLabel="Close File" translation="Datei schließen"/>
+	<label commandName="CopyToDesktopCmdCaption" devLabel="Export Archive" translation="Archiv exportieren"/>
+	<label commandName="DefaultLibraryName" devLabel="Library" translation="Bibliothek"/>
+	<label commandName="DefaultPCBName" devLabel="PCB" translation="Leiterplatte"/>
+	<label commandName="DefaultSchematicName" devLabel="Schematic" translation="Stromlaufplan"/>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="ElectronComponent"/>
+	<label commandName="ElectronDocumentTypeNameBrd" devLabel="The board file" translation="Die Leiterplattendatei"/>
+	<label commandName="ElectronDocumentTypeNameDefault" devLabel="The file" translation="Die Datei"/>
+	<label commandName="ElectronDocumentTypeNameLbr" devLabel="The library file" translation="Die Bibliotheksdatei"/>
+	<label commandName="ElectronDocumentTypeNameSch" devLabel="The schematic file" translation="Die Schaltplandatei"/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron konnte keine kleine Miniaturansicht erstellen."/>
+	<label commandName="ElectronFileExportFailurePrompt1" devLabel=" has errors and cannot be exported. Save the file before exporting." translation=" weist Fehler auf und kann nicht exportiert werden. Speichern Sie die Datei vor dem Exportieren."/>
+	<label commandName="ElectronFileLoadFailureExportMsg" devLabel="Click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Klicken Sie auf Exportieren, um eine Kopie der Datei und der Fehlerprotokolle als ZIP-Datei zu speichern, die an den Support gesendet werden soll. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Support kontaktieren&lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadFailurePrompt" devLabel=" has errors and cannot be opened." translation=" weist Fehler auf und kann nicht geöffnet werden."/>
+	<label commandName="ElectronFileLoadWarningExportMsg" devLabel="Click OK to open the file with warnings or click Export to save a copy of the file and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;" translation="Klicken Sie auf OK, um die Datei mit Warnungen zu öffnen, oder klicken Sie auf Exportieren, um eine Kopie der Datei und der Fehlerprotokolle als ZIP-Datei zu speichern, die an den Support gesendet werden soll. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Support kontaktieren&lt;/a&gt;"/>
+	<label commandName="ElectronFileLoadWarningPrompt" devLabel=" has errors and will be opened with warnings." translation=" weist Fehler auf und wird mit Warnungen geöffnet."/>
+	<label commandName="ElectronFileSaveFailureExportMsg" devLabel="Do one of the following:&lt;ul&gt;&lt;li&gt;Select Close File to discard changes and revert to the last saved version.&lt;/li&gt;&lt;li&gt;Click Cancel to continue working on the file to resolve the errors.&lt;/li&gt;&lt;li&gt;Select Export &amp; Close File to save a copy of the file with the latest unsaved changes and error logs as a ZIP file to send to support. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Contact support&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" translation="Führen Sie einen der folgenden Schritte durch:&lt;ul&gt;&lt;li&gt;Wählen Sie Datei schließen, um die Änderungen zu verwerfen und die zuletzt gespeicherte Version wiederherzustellen.&lt;/li&gt;&lt;li&gt;Klicken Sie auf Abbrechen, um die Bearbeitung der Datei fortzusetzen und die Fehler zu beheben.&lt;/li&gt;&lt;li&gt;Wählen Sie Datei exportieren und schließen, um eine Kopie der Datei mit den neuesten nicht gespeicherten Änderungen und Fehlerprotokollen als ZIP-Datei zu speichern, die an den Support gesendet werden soll. &lt;a href=&quot;https://knowledge.autodesk.com/contact-support&quot;&gt;Support kontaktieren&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+	<label commandName="ElectronFileSaveFailureMode1" devLabel=" could not be autosaved." translation=" konnte nicht automatisch gespeichert werden."/>
+	<label commandName="ElectronFileSaveFailureMode2" devLabel=" cannot be saved." translation=" kann nicht gespeichert werden."/>
+	<label commandName="ElectronFileSaveFailurePrompt1" devLabel=" has errors and" translation=" weist Fehler auf und"/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="Bibliotheksdokumentobjekt"/>
+	<label commandName="ElectronLoadFailureStatus1" devLabel="Attempt to load the design file failed due to potential corruption.&lt;br/&gt;" translation="Der Versuch, die Konstruktionsdatei zu laden, ist aufgrund einer möglichen Beschädigung fehlgeschlagen.&lt;br/&gt;"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="ECAD"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="Leiterplattendokumentobjekt"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="Elektronikentwurf-Dokumentobjekt"/>
+	<label commandName="ElectronSaveFailureArticleMessage" devLabel="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Learn how to fix potential data corruption issues&lt;/a&gt;" translation="&lt;a href=&quot;http://knowledge.autodesk.com&quot;&gt;Erfahren Sie, wie Sie potenzielle Probleme mit beschädigten Daten beheben können&lt;/a&gt;"/>
+	<label commandName="ElectronSaveFailureStatus2" devLabel=" has errors and cannot be saved.&lt;br/&gt;" translation=" weist Fehler auf und kann nicht gespeichert werden.&lt;br/&gt;"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="Stromlaufplan-Dokumentobjekt"/>
+	<label commandName="ElectronicsDesignDefaultName" devLabel="Electronics Design" translation="Elektronikentwurf"/>
+	<label commandName="ExportUnloadedErrorFile" devLabel="Export" translation="Exportieren"/>
+	<label commandName="ExportUnloadedWarningsFile" devLabel="Export" translation="Exportieren"/>
+	<label commandName="ExportUnsavedFiles" devLabel="Export &amp;&amp; Close File" translation="Datei exportieren und schließen"/>
+	<label commandName="FolderIsNotAccessible" devLabel="The selected folder: &quot;%1%&quot; is not accessible." translation="Auf den ausgewählten Ordner: &quot;%1%&quot; kann nicht zugegriffen werden."/>
+	<label commandName="ImportEagleLibrariesTitle" devLabel="Import your EAGLE libraries to use inside of Fusion 360 Electronics" translation="Importieren Sie Ihre EAGLE-Bibliotheken zur Verwendung in Fusion 360 Electronics"/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte 2D-Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte 3D-Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Schaltplandatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Nicht gespeichert)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Datei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+</Resource>

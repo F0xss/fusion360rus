@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="GenCallFlowOpenings" devLabel="Click here to select 'Flow Openings'." translation="Klicken Sie hier, um Strömungsöffnungen auszuwählen."/>
+	<label commandName="GenCallFlowSources" devLabel="Click here to select 'Flow Sources'." translation="Klicken Sie hier, um Strömungsquellen auszuwählen."/>
+	<label commandName="GenCallFluidPressures" devLabel="Click here to select 'Fluid Pressures'." translation="Klicken Sie hier, um den Fluiddruck auszuwählen."/>
+	<label commandName="ObstacleOffsetNotApplied" devLabel="One or more obstacle bodies could not be offset. Try adjusting the offset value or changing the selected set of obstacle bodies." translation="Mindestens ein Hindernis-Körper konnte nicht versetzt werden. Passen Sie den Versatzwert an, oder ändern Sie den ausgewählten Satz von Hindernis-Körpern."/>
+	<label commandName="ObstacleOffsetNotSpecified" devLabel="No Obstacle Offset specified" translation="Kein Hindernisversatz angegeben"/>
+	<label commandName="SimAngularBodyLoadName" devLabel="Angular Global Load" translation="Schräge globale Lasten"/>
+	<label commandName="SimAngularBodyLoadNotSupported" devLabel="Angular Global Acceleration and Angular Velocity loads used in Fusion 360 are not supported in Ansys Discovery." translation="In Fusion 360 verwendete globale Winkelbeschleunigungs- und Winkelgeschwindigkeitslasten werden in Ansys Discovery nicht unterstützt."/>
+	<label commandName="SimAxial" devLabel="Axial" translation="Axial"/>
+	<label commandName="SimBadInputSelection" devLabel="Bad Input Selection" translation="Ungültige Auswahl für Eingabe"/>
+	<label commandName="SimBearingLoadName" devLabel="Bearing Load" translation="Lagerbelastung"/>
+	<label commandName="SimBodyVelAccLoadCompZeroValue" devLabel="Zero value in Components" translation="Nullwert in Komponenten"/>
+	<label commandName="SimBoltConnectorDiscoveryNotSupported" devLabel="Bolt connectors applied in Fusion 360 are not supported in Ansys Discovery. Following export, delete them and recreate them in Discovery if required." translation="Schraubverbindungen, die in Fusion 360 angewendet wurden, werden in Ansys Discovery nicht unterstützt. Löschen Sie sie nach dem Export, und erstellen Sie sie ggf. in Discovery neu."/>
+	<label commandName="SimBoltConnectorNotSupported" devLabel="Bolt connectors used in Fusion 360 are not supported in Ansys." translation="In Fusion 360 verwendete Schraubverbindungen werden in Ansys nicht unterstützt."/>
+	<label commandName="SimCallEditGravity" devLabel="Click here to edit Gravity." translation="Klicken Sie hier, um die Schwerkraft zu bearbeiten."/>
+	<label commandName="SimCallStructuralConstraint" devLabel="Click here to select 'Structural Constraints'." translation="Klicken Sie hier, um Strukturelle Abhängigkeiten auszuwählen."/>
+	<label commandName="SimCallStructuralLoad" devLabel="Click here to select 'Structural Loads'." translation="Klicken Sie hier, um Strukturelle Lasten auszuwählen."/>
+	<label commandName="SimCaseIsMissing" devLabel="Simulation Study is missing" translation="Simulationsstudie fehlt"/>
+	<label commandName="SimCaseMissing" devLabel="Study is missing" translation="Studie fehlt"/>
+	<label commandName="SimCaseModelRefIsMissing" devLabel="No entity is selected." translation="Es ist kein Objekt ausgewählt."/>
+	<label commandName="SimCaseReferenceIsMissing" devLabel="No reference entity is selected." translation="Es wurde kein Referenzobjekt ausgewählt."/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimContactOnEdgesDiscoveryNotSupported" devLabel="Contacts applied to edges in Fusion 360 are not supported in Ansys Discovery." translation="Kontakte, die in Fusion 360 auf Kanten angewendet wurden, werden in Ansys Discovery nicht unterstützt."/>
+	<label commandName="SimDirectionBaseExcitationValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimDisplacementConstraintName" devLabel="Prescribed Displacement" translation="Zwangsverschiebung"/>
+	<label commandName="SimDropTestModelPosition" devLabel="Position" translation="Position"/>
+	<label commandName="SimDropTestModelPositionMissing" devLabel="Model position is missing" translation="Position des Modells fehlt"/>
+	<label commandName="SimDropTestPlanarPlane" devLabel="Floor" translation="Boden"/>
+	<label commandName="SimDropTestPlane" devLabel="Drop Test Floor" translation="Fallprüfungsboden"/>
+	<label commandName="SimDropTestPlaneDensity" devLabel="Density" translation="Dichte"/>
+	<label commandName="SimDropTestPlaneFrictionCoeff" devLabel="Friction Coefficient" translation="Reibungskoeffizient"/>
+	<label commandName="SimDropTestPlaneLeftAngle" devLabel="Left Angle" translation="Linker Winkel"/>
+	<label commandName="SimDropTestPlaneLeftDistance" devLabel="Left Distance" translation="Abstand links"/>
+	<label commandName="SimDropTestPlaneRightAngle" devLabel="Right Angle" translation="Rechter Winkel"/>
+	<label commandName="SimDropTestPlaneRightDistance" devLabel="Right Distance" translation="Abstand rechts"/>
+	<label commandName="SimDropTestPlaneSelectionCategory" devLabel="Simulation Drop Test Plane" translation="Simulations-Fallprüfungsebene"/>
+	<label commandName="SimDropTestPlaneSelectionName" devLabel="Drop Test Plane" translation="Fallprüfungsebene"/>
+	<label commandName="SimDropTestPlaneStiffness" devLabel="Stiffness" translation="Steifheit"/>
+	<label commandName="SimDropTestPlaneThickness" devLabel="Thickness" translation="Dicke"/>
+	<label commandName="SimDropTestVPlane" devLabel="Floor" translation="Boden"/>
+	<label commandName="SimDuplicateConstraintInSameDirection" devLabel="Warning: Constraint %1% references an entity that is already referenced, in the same direction." translation="Warnung: Abhängigkeit %1% verweist auf ein bereits referenziertes Objekt in derselben Richtung."/>
+	<label commandName="SimDuplicateConstraintOnRigidBody" devLabel="Constraint %1% and other constraints have been applied on the same entity. In order to create a valid setup, delete or suppress the redundant constraints." translation="Abhängigkeit %1% und andere Abhängigkeiten wurden auf dasselbe Objekt angewendet. Um eine gültige Einrichtung zu erstellen, löschen oder unterdrücken Sie die redundanten Abhängigkeiten."/>
+	<label commandName="SimEditedLoadIsMissing" devLabel="Edited load is missing" translation="Bearbeitete Last fehlt."/>
+	<label commandName="SimEnumerateAvailableOptimizationsDisplacement" devLabel="Maximum Displacement" translation="Maximale Verschiebung"/>
+	<label commandName="SimEnumerateAvailableOptimizationsMaxStress" devLabel="Maximum Stress" translation="Maximale Spannung"/>
+	<label commandName="SimEnumerateAvailableOptimizationsMinMemberSize" devLabel="Min Member Size" translation="Min. Elementgröße"/>
+	<label commandName="SimEnumerateAvailableOptimizationsPreserveBoundary" devLabel="Preserve Boundary" translation="Umgrenzung beibehalten"/>
+	<label commandName="SimEnumerateAvailableOptimizationsStiffness" devLabel="Stiffness" translation="Steifheit"/>
+	<label commandName="SimEnumerateAvailableOptimizationsSymmetryPlane" devLabel="Symmetry Plane" translation="Symmetrieebene"/>
+	<label commandName="SimEnumerateAvailableOptimizationsTargetMass" devLabel="Target Mass" translation="Zielmasse"/>
+	<label commandName="SimExplicitInitialAngularBodyLoadName" devLabel="Initial Angular Velocity" translation="Anfangswinkelgeschwindigkeit"/>
+	<label commandName="SimFailedSurfacesWithConstr1" devLabel="%1% Constraints on surface bodies detected and will be excluded from the solve. Please delete the constraints or repair the surface bodies to make it into a solid." translation="%1% Abhängigkeiten wurden auf Flächenkörpern erkannt und werden von der Lösung ausgeschlossen. Löschen Sie die Abhängigkeiten, oder reparieren Sie die Flächenkörper, um sie in einen Volumenkörper umzuwandeln."/>
+	<label commandName="SimFailedSurfacesWithLoad1" devLabel="%1% Loads on surface bodies detected and will be excluded from the solve. Please delete the loads or repair the surface bodies to make it into a solid." translation="%1% Lasten wurden auf Flächenkörpern erkannt und werden aus der Lösung ausgeschlossen. Löschen Sie die Lasten, oder reparieren Sie die Flächenkörper, um sie in einen Volumenkörper umzuwandeln."/>
+	<label commandName="SimFailedToCreatePointMass" devLabel="Failed to create Point Mass" translation="Fehler beim Erstellen der Punktmasse"/>
+	<label commandName="SimFailedToCreaterGenerativeTarget" devLabel="Failed to create Shape Optimization Target" translation="Fehler beim Erstellen von Formoptimierungsziel"/>
+	<label commandName="SimFailedToCreaterRigidBody" devLabel="Failed to create Rigid Body" translation="Starrer Körper konnte nicht erstellt werden."/>
+	<label commandName="SimFailedToCreaterTopologyTarget" devLabel="Failed to create Shape Optimization Target" translation="Fehler beim Erstellen von Formoptimierungsziel"/>
+	<label commandName="SimFailedToEditPointMass" devLabel="Failed to edit Point Mass" translation="Fehler beim Bearbeiten der Punktmasse"/>
+	<label commandName="SimFixed" devLabel="Fixed" translation="Fest"/>
+	<label commandName="SimFixedConstrOnEdgesVerticesNotSupported" devLabel="Fixed constraints applied to edges and vertices in Fusion 360 are not supported by Ansys Discovery." translation="Festgelegte Abhängigkeiten, die in Fusion 360 auf Kanten und Scheitelpunkte angewendet wurden, werden von Ansys Discovery nicht unterstützt."/>
+	<label commandName="SimFixedConstraintName" devLabel="Fixed" translation="Fest"/>
+	<label commandName="SimFlowRateName" devLabel="Flow Source" translation="Strömungsquelle"/>
+	<label commandName="SimFlowVelocityName" devLabel="Flow Source" translation="Strömungsquelle"/>
+	<label commandName="SimFluidCustom" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimFluidFuel" devLabel="Fuel" translation="Brennstoff"/>
+	<label commandName="SimFluidOil" devLabel="Oil" translation="Öl"/>
+	<label commandName="SimFluidSeaWater" devLabel="Sea Water" translation="Meerwasser"/>
+	<label commandName="SimFluidWater" devLabel="Water" translation="Wasser"/>
+	<label commandName="SimForceLoadName" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimForceLoadSelectionName" devLabel="ForceLoad" translation="Kraftlast"/>
+	<label commandName="SimFree" devLabel="Free" translation="Frei"/>
+	<label commandName="SimFrictionlessConstraintName" devLabel="Frictionless" translation="Reibungslos"/>
+	<label commandName="SimGenFluidBCExists" devLabel="Warning: A flow source, fluid pressure, and/or opening is defined in load case &quot;%1%&quot;. Flow sources, fluid pressures, and/or openings are not supported by Minimize Mass and Maximize stiffness objectives." translation="Warnung: Eine Strömungsquelle, ein Fluiddruck und/oder eine Öffnung ist in Lastfall &quot;%1%&quot; definiert. Strömungsquellen, der Fluiddruck und/oder Öffnungen werden von den Zielen Masse minimieren und Steifigkeit maximieren nicht unterstützt."/>
+	<label commandName="SimGenFluidMissingFlowOpening" devLabel="Warning: Missing opening in load case &quot;%1%&quot;." translation="Warnung: Fehlende Öffnung in Lastfall &quot;%1%&quot;."/>
+	<label commandName="SimGenFluidMissingFlowSource" devLabel="Cannot generate: Missing flow source in load case &quot;%1%&quot;." translation="Erzeugen nicht möglich: Fehlende Strömungsquelle in Lastfall &quot;%1%&quot;."/>
+	<label commandName="SimGenFluidMissingFluidPressureOrFlowOpening" devLabel="Cannot generate: Missing fluid pressure or opening in load case &quot;%1%&quot;." translation="Erzeugen nicht möglich: Fehlender Fluiddruck oder fehlende Öffnung in Lastfall &quot;%1%&quot;."/>
+	<label commandName="SimGenFluidMultipleBCPerOneBody" devLabel="Cannot generate: Multiple flow sources, fluid pressures, and/or openings in load case &quot;%1%&quot; are applied to body &quot;%2%&quot;." translation="Erzeugen nicht möglich: Mehrere Strömungsquellen, Öffnungen und/oder der Fluiddruck in Lastfall &quot;%1%&quot; werden auf Körper &quot;%2%&quot; angewendet."/>
+	<label commandName="SimGenFluidNoStructuralLoads" devLabel="Cannot generate: A flow source, fluid pressure, and/or opening is defined in load case &quot;%1%&quot;. Flow sources, fluid pressures, and/or openings are not supported by Minimize Mass and Maximize stiffness objectives." translation="Erzeugen nicht möglich: Eine Strömungsquelle, ein Fluiddruck und/oder eine Öffnung ist in Lastfall &quot;%1%&quot; definiert. Strömungsquellen, der Fluiddruck und/oder Öffnungen werden von den Zielen Masse minimieren und Steifigkeit maximieren nicht unterstützt."/>
+	<label commandName="SimGenFluidOnlyGravityExistsConstraints" devLabel="Warning: Gravity load is ON in load case &quot;%1%&quot;.Gravity is not supported by Minimize Pressure Drop objective." translation="Warnung: Die Schwerkraftlast ist im Lastfall &quot;%1%&quot; AKTIVIERT. Die Schwerkraft wird vom Ziel Druckverlust minimieren nicht unterstützt."/>
+	<label commandName="SimGenFluidOnlyGravityExistsLoads" devLabel="Warning: Only fluid constraints are specified for structural objectives in load case &quot;%1%&quot;." translation="Warnung: Nur Fluidabhängigkeiten sind für strukturelle Ziele in Lastfall &quot;%1%&quot; angegeben."/>
+	<label commandName="SimGenFluidOnlyStructuralBCExists" devLabel="Warning: Structural loads or constraints are defined in load case &quot;%1%&quot;. Structural loads or constraints are not supported by Minimize Pressure Drop objective." translation="Warnung: Strukturelle Lasten oder Abhängigkeiten sind in Lastfall &quot;%1%&quot; definiert. Strukturelle Lasten oder Abhängigkeiten werden vom Ziel Druckverlust minimieren nicht unterstützt."/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeKeepTargetName" devLabel="Preserve Geometry Targets" translation="Geometrieziele beibehalten"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeObstacleOffsetName" devLabel="Offset" translation="Versatz"/>
+	<label commandName="SimGenerativeObstacleOffsetValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimGenerativeObstacleTargetName" devLabel="Preserve Geometry Targets" translation="Geometrieziele beibehalten"/>
+	<label commandName="SimGenerativeSymmetryPlanesTargetName" devLabel="Symmetry Planes Targets" translation="Symmetrieebenen-Ziele"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimGravityLoadName" devLabel="Gravity" translation="Schwerkraft"/>
+	<label commandName="SimHarmonicAngularBodyLoadName" devLabel="Angular Global Load" translation="Schräge globale Lasten"/>
+	<label commandName="SimHarmonicBaseExcitation" devLabel="Base Excitation" translation="Grunderregung"/>
+	<label commandName="SimHarmonicBearingLoadName" devLabel="Harmonic Bearing Load" translation="Harmonische Quadrantenwinkellast"/>
+	<label commandName="SimHarmonicForceLoadName" devLabel="Harmonic Force" translation="Harmonische Last"/>
+	<label commandName="SimHarmonicMomentLoadName" devLabel="Harmonic Moment" translation="Harmonisches Moment"/>
+	<label commandName="SimHarmonicPhase" devLabel="Phase" translation="Phase"/>
+	<label commandName="SimHarmonicPressureLoadName" devLabel="Harmonic Pressure" translation="Harmonischer Druck"/>
+	<label commandName="SimHarmonicRemoteForceLoadName" devLabel="Harmonic Remote Force" translation="Harmonisches externes Kraftmoment"/>
+	<label commandName="SimHydrostaticPressureLoadName" devLabel="Hydrostatic Pressure" translation="Hydrostatischer Druck"/>
+	<label commandName="SimHydrostaticPressureLoadNotSupported" devLabel="Hydrostatic Pressure loads used in Fusion 360 are not supported in Ansys Discovery." translation="In Fusion 360 verwendete hydrostatische Drucklasten werden in Ansys Discovery nicht unterstützt."/>
+	<label commandName="SimHydrostaticPressureSurfaceLocationXValue" devLabel="X Distance" translation="X-Abstand"/>
+	<label commandName="SimHydrostaticPressureSurfaceLocationYValue" devLabel="Y Distance" translation="Y-Abstand"/>
+	<label commandName="SimHydrostaticPressureSurfaceLocationZValue" devLabel="Z Distance" translation="Z-Abstand"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimInletPressureAsOpeningLoadName" devLabel="Flow Openings" translation="Strömungsöffnungen"/>
+	<label commandName="SimInletPressureLoadName" devLabel="Fluid Pressure" translation="Fluiddruck"/>
+	<label commandName="SimInvalidLoad" devLabel="Warning: Invalid load: %1%%2%." translation="Warnung: Ungültige Last: %1%%2%."/>
+	<label commandName="SimInvalidPointMass" devLabel="Warning: Invalid Point Mass: %1%%2%." translation="Warnung: Ungültige Punktmasse: %1%%2%."/>
+	<label commandName="SimInvalidTransientBaseExcitation" devLabel="The load duration of %1% is shorter than the end time." translation="Die Lastdauer von %1% ist kürzer als die Endzeit."/>
+	<label commandName="SimLinearAccelerationBodyLoadName" devLabel="Linear Global Load" translation="Lineare globale Lasten"/>
+	<label commandName="SimLinearGlobalAccelerationBodyLoadName" devLabel="Linear Global Load" translation="Lineare globale Lasten"/>
+	<label commandName="SimLoadCaseString" devLabel=" in load case &quot;%1%&quot;" translation=" in Lastfall &quot;%1%&quot;"/>
+	<label commandName="SimLoadCompZeroValue" devLabel="Zero value in Components" translation="Nullwert in Komponenten"/>
+	<label commandName="SimLoadOnConstrainedGeometryFullyConstrained" devLabel="Warning: Structural Load &quot;%1%&quot; and Structural Constraint &quot;%2%&quot; are applied to the same geometry%3%. The Structural Load will be ignored because geometry is fully constrained." translation="Warnung: Strukturelle Last &quot;%1%&quot; und strukturelle Abhängigkeit &quot;%2%&quot; werden auf dieselbe Geometrie %3% angewendet. Die strukturelle Last wird ignoriert, da die Geometrie vollständig abhängig ist."/>
+	<label commandName="SimLoadOnConstrainedGeometryIgnored" devLabel="Warning: Structural Load &quot;%1%&quot; and Structural Constraint &quot;%2%&quot; are applied to the same geometry%3%. The Structural Load in constrained direction(s) will be ignored." translation="Warnung: Strukturelle Last &quot;%1%&quot; und strukturelle Abhängigkeit &quot;%2%&quot; werden auf dieselbe Geometrie %3% angewendet. Die strukturelle Last wird in der/den abhängigen Richtung(en) ignoriert."/>
+	<label commandName="SimLoadOnConstrainedGeometryPointMassFullyConstrained" devLabel="Point mass '%1%' and constraint '%2%' are applied to the same target. The point mass will be ignored since the geometry is fully constrained." translation="Punktmasse '%1%' und Abhängigkeit '%2%' werden auf das gleiche Ziel angewendet. Die Punktmasse wird ignoriert, da die Geometrie vollständig abhängig ist."/>
+	<label commandName="SimLoadOnConstrainedGeometryPointMassIgnored" devLabel="Point mass '%1%' and constraint '%2%' are applied to the same target. The point mass will be ignored in the constrained direction(s)." translation="Punktmasse '%1%' und Abhängigkeit '%2%' werden auf das gleiche Ziel angewendet. Die Punktmasse wird in der/den abhängigen Richtung(en) ignoriert."/>
+	<label commandName="SimLoadsOnFixedContraints" devLabel="Cannot solve: All loads are acting on entities which have fully fixed constraints applied on them%1%." translation="Lösung nicht möglich: Alle Lasten wirken auf Objekte, auf die festgelegte Abhängigkeiten angewendet wurden %1%."/>
+	<label commandName="SimLoadsOnFixedContraintsWarning" devLabel="Warning: All loads are acting on entities which have fully fixed constraints applied on them%1%." translation="Warnung: Alle Lasten wirken auf Objekte, auf die festgelegte Abhängigkeiten angewendet wurden %1%."/>
+	<label commandName="SimMPointMassLocationXValue" devLabel="X Distance" translation="X-Abstand"/>
+	<label commandName="SimMPointMassLocationYValue" devLabel="Y Distance" translation="Y-Abstand"/>
+	<label commandName="SimMPointMassLocationZValue" devLabel="Z Distance" translation="Z-Abstand"/>
+	<label commandName="SimMPointMassName" devLabel="Point Mass" translation="Punktmasse"/>
+	<label commandName="SimMissingGravityForHydrostatic" devLabel="Warning: Missing Gravity while Hydrostatic Pressure is defined%1%." translation="Warnung: Hydrostatischer Druck definiert, aber Schwerkraft fehlt %1%."/>
+	<label commandName="SimMissingGravityForPointMass" devLabel="Warning: Missing Gravity while Point Mass is defined%1%." translation="Warnung: Punktmasse definiert, aber Schwerkraft fehlt %1%."/>
+	<label commandName="SimMissingLoadTarget" devLabel="Warning: Load with lost target(s): %1%%2%." translation="Warnung: Last mit verlorenem/n Ziel(en): %1%%2%."/>
+	<label commandName="SimMissingPointMassTarget" devLabel="Warning: Point Mass with lost target(s): %1%%2%." translation="Warnung: Punktmasse mit verlorenem/n Ziel(en): %1%%2%."/>
+	<label commandName="SimModelRef" devLabel="Model Reference " translation="Modellreferenz "/>
+	<label commandName="SimMomentLoadName" devLabel="Moment" translation="Moment"/>
+	<label commandName="SimNoStructuralLoadEquivalent" devLabel="Incomplete setup: Missing structural loads%1%." translation="Unvollständiges Setup: fehlende strukturelle Lasten %1%."/>
+	<label commandName="SimNoStructuralLoadEquivalentWithGravity" devLabel="Incomplete setup: Missing structural loads other than gravity%1%." translation="Unvollständiges Setup: fehlende strukturelle Lasten außer Schwerkraft %1%."/>
+	<label commandName="SimOptimizationSettingsDOFError" devLabel="Cannot solve: Target Mass and Stiffness must be specified as Objectives." translation="Lösung nicht möglich: Zielmasse und Steifigkeit müssen als Ziele angegeben werden."/>
+	<label commandName="SimPinnedConstraintName" devLabel="Pin" translation="Fixieren"/>
+	<label commandName="SimPointMassHideComponents" devLabel="Hide Components" translation="Komponenten ausblenden"/>
+	<label commandName="SimPointMassLoadValue" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimPointMassName" devLabel="Point Mass" translation="Punktmasse"/>
+	<label commandName="SimPointMassOverridenValue" devLabel="Reset" translation="Zurücksetzen"/>
+	<label commandName="SimPrescribedRotationConstraintName" devLabel="Prescribed Rotation" translation="Zwangsdrehung"/>
+	<label commandName="SimPrescribedTranslationConstraintName" devLabel="Prescribed Translation" translation="Zwangstranslation"/>
+	<label commandName="SimPressureLoadName" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimPropertyAccelerationValue" devLabel="Acceleration Magnitude" translation="Beschleunigungsgröße"/>
+	<label commandName="SimPropertyAccelerationValueX" devLabel="Acceleration X" translation="Beschleunigung X"/>
+	<label commandName="SimPropertyAccelerationValueY" devLabel="Acceleration Y" translation="Beschleunigung Y"/>
+	<label commandName="SimPropertyAccelerationValueZ" devLabel="Acceleration Z" translation="Beschleunigung Z"/>
+	<label commandName="SimPropertyConstraintDistanceX" devLabel="X Distance" translation="X-Abstand"/>
+	<label commandName="SimPropertyConstraintDistanceY" devLabel="Y Distance" translation="Y-Abstand"/>
+	<label commandName="SimPropertyConstraintDistanceZ" devLabel="Z Distance" translation="Z-Abstand"/>
+	<label commandName="SimPropertyDirectionComponentX" devLabel="Direction Component X" translation="Richtungskomponente X"/>
+	<label commandName="SimPropertyDirectionComponentY" devLabel="Direction Component Y" translation="Richtungskomponente Y"/>
+	<label commandName="SimPropertyDirectionComponentZ" devLabel="Direction Component Z" translation="Richtungskomponente Z"/>
+	<label commandName="SimPropertyDropTestHeight" devLabel="Height" translation="Höhe"/>
+	<label commandName="SimPropertyFluidDensity" devLabel="Fluid Density" translation="Fluiddichte"/>
+	<label commandName="SimPropertyLoadDistanceX" devLabel="X Distance" translation="X-Abstand"/>
+	<label commandName="SimPropertyLoadDistanceY" devLabel="Y Distance" translation="Y-Abstand"/>
+	<label commandName="SimPropertyLoadDistanceZ" devLabel="Z Distance" translation="Z-Abstand"/>
+	<label commandName="SimPropertyLoadFlipSide" devLabel="Flip Side" translation="Seite umkehren"/>
+	<label commandName="SimPropertyLoadLocationValueX" devLabel="Location Distance X" translation="Positionsabstand X"/>
+	<label commandName="SimPropertyLoadLocationValueZ" devLabel="Location Distance Z" translation="Positionsabstand Z"/>
+	<label commandName="SimPropertyLoadPerEntity" devLabel="Force Per Entity" translation="Kraft pro Objekt"/>
+	<label commandName="SimPropertyLoadValue" devLabel="Value" translation="Wert"/>
+	<label commandName="SimPropertyLoadValueTransX" devLabel="X Angle" translation="X-Winkel"/>
+	<label commandName="SimPropertyLoadValueTransXAlpha" devLabel="alpha" translation="alpha"/>
+	<label commandName="SimPropertyLoadValueTransXAxis" devLabel="Axis X Angle" translation="Winkel X-Achse"/>
+	<label commandName="SimPropertyLoadValueTransY" devLabel="Y Angle" translation="Y-Winkel"/>
+	<label commandName="SimPropertyLoadValueTransYAxis" devLabel="Axis Y Angle" translation="Winkel Y-Achse"/>
+	<label commandName="SimPropertyLoadValueTransYBeta" devLabel="beta" translation="beta"/>
+	<label commandName="SimPropertyLoadValueTransZ" devLabel="Z Angle" translation="Z-Winkel"/>
+	<label commandName="SimPropertyLoadValueTransZAxis" devLabel="Axis Z Angle" translation="Winkel Z-Achse"/>
+	<label commandName="SimPropertyLoadValueX" devLabel="Value X" translation="Wert X"/>
+	<label commandName="SimPropertyLoadValueY" devLabel="Value Y" translation="Wert Y"/>
+	<label commandName="SimPropertyLoadValueZ" devLabel="Value Z" translation="Wert Z"/>
+	<label commandName="SimPropertyLoadValuetransZGamma" devLabel="gamma" translation="Gamma"/>
+	<label commandName="SimPropertyLocationLoadValueY" devLabel="Location Distance Y" translation="Positionsabstand Y"/>
+	<label commandName="SimPropertyMomentPerEntity" devLabel="Moment Per Entity" translation="Moment pro Objekt"/>
+	<label commandName="SimPropertyOffsetDistance" devLabel="Offset Distance" translation="Versatzabstand"/>
+	<label commandName="SimRadial" devLabel="Radial" translation="Radial"/>
+	<label commandName="SimRemoteConstraintName" devLabel="Remote" translation="Extern"/>
+	<label commandName="SimRemoteConstraintSelectionName" devLabel="Remote Constraint" translation="Externe Abhängigkeit"/>
+	<label commandName="SimRemoteForceLoadName" devLabel="Remote Force" translation="Abgesetzte Kraft"/>
+	<label commandName="SimRemoteForceSelectionName" devLabel="Remote Force" translation="Abgesetzte Kraft"/>
+	<label commandName="SimRemoteMomentDistanceX" devLabel="X Distance" translation="X-Abstand"/>
+	<label commandName="SimRemoteMomentDistanceY" devLabel="Y Distance" translation="Y-Abstand"/>
+	<label commandName="SimRemoteMomentDistanceZ" devLabel="Z Distance" translation="Z-Abstand"/>
+	<label commandName="SimRemoteMomentLoadName" devLabel="Remote Moment" translation="Externes Moment"/>
+	<label commandName="SimRemoteMomentLoadNotSupported" devLabel="Remote moment loads used in Fusion 360 are not supported in Ansys." translation="In Fusion 360 verwendete externe Drehmomentbelastungen werden in Ansys nicht unterstützt."/>
+	<label commandName="SimRemoteMomentSelectionName" devLabel="Remote Moment" translation="Externes Moment"/>
+	<label commandName="SimReportConstrDirAxial" devLabel="Axial" translation="Axial"/>
+	<label commandName="SimReportConstrDirRadial" devLabel="Radial" translation="Radial"/>
+	<label commandName="SimReportConstrDirRx" devLabel="Rx" translation="Rx"/>
+	<label commandName="SimReportConstrDirRy" devLabel="Ry" translation="Ry"/>
+	<label commandName="SimReportConstrDirRz" devLabel="Rz" translation="Rz"/>
+	<label commandName="SimReportConstrDirTangential" devLabel="Tangential" translation="Tangential"/>
+	<label commandName="SimReportConstrDirUx" devLabel="Ux" translation="Ux"/>
+	<label commandName="SimReportConstrDirUy" devLabel="Uy" translation="Uy"/>
+	<label commandName="SimReportConstrDirUz" devLabel="Uz" translation="Uz"/>
+	<label commandName="SimRigidBodyName" devLabel="Rigid Target" translation="Starres Ziel"/>
+	<label commandName="SimRigidConnectorNotSupported" devLabel="Rigid Body connectors used in Fusion 360 are not supported in Ansys." translation="In Fusion 360 verwendete Verbinder zwischen starren Körpern werden in Ansys nicht unterstützt."/>
+	<label commandName="SimRootComponentIsMissing" devLabel="Sim Root Component is missing" translation="Simulation-Ausgangskomponente fehlt."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimSelectionRef" devLabel="Selection Reference " translation="Auswahlreferenz "/>
+	<label commandName="SimSelectionReference" devLabel="Selection Reference " translation="Auswahlreferenz "/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementRx" devLabel="Rx" translation="Rx"/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementRy" devLabel="Ry" translation="Ry"/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementRz" devLabel="Rz" translation="Rz"/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementTx" devLabel="Tx" translation="Tx"/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementTy" devLabel="Ty" translation="Ty"/>
+	<label commandName="SimStructuralConstraintPropertyDisplacementTz" devLabel="Tz" translation="Tz"/>
+	<label commandName="SimTangential" devLabel="Tangential" translation="Tangential"/>
+	<label commandName="SimTargetTO" devLabel="Cannot solve: Shape Optimization Target is missing" translation="Lösung nicht möglich: Formoptimierungsziel fehlt"/>
+	<label commandName="SimTemplateAcceleration" devLabel="Acceleration: " translation="Beschleunigung: "/>
+	<label commandName="SimTemplateVelocity" devLabel="Velocity: " translation="Geschwindigkeit: "/>
+	<label commandName="SimTemplateXComp" devLabel="X: " translation="X: "/>
+	<label commandName="SimTemplateYComp" devLabel="Y: " translation="Y: "/>
+	<label commandName="SimTemplateZComp" devLabel="Z: " translation="Z: "/>
+	<label commandName="SimTemplatesStatusInCOG" devLabel="In Center of Gravity" translation="Im Schwerpunkt"/>
+	<label commandName="SimToggleGravityOn" devLabel="Click here to toggle Gravity on." translation="Klicken Sie hier, um die Schwerkraft zu aktivieren."/>
+	<label commandName="SimTopologyTargetIsMissing" devLabel="Symmetry Target geometry is missing" translation="Symmetriezielgeometrie fehlt"/>
+	<label commandName="SimTopologyTargetsSelectionName" devLabel="Target Body" translation="Zielkörper"/>
+	<label commandName="SimTopologytargetName" devLabel="Target Body" translation="Zielkörper"/>
+	<label commandName="SimTransientAngularBodyLoadName" devLabel="Angular Global Load" translation="Schräge globale Lasten"/>
+	<label commandName="SimTransientBaseExcitation" devLabel="Base Excitation" translation="Grunderregung"/>
+	<label commandName="SimTransientBearingLoadName" devLabel="Transient Bearing" translation="Transiente Quadrantenwinkel"/>
+	<label commandName="SimTransientForceLoadName" devLabel="Transient Force" translation="Transiente Kraft"/>
+	<label commandName="SimTransientInitialAngularBodyLoadName" devLabel="Initial Angular Velocity" translation="Anfangswinkelgeschwindigkeit"/>
+	<label commandName="SimTransientInitialLinearBodyLoadName" devLabel="Initial Linear Velocity" translation="Lineare Anfangsgeschwindigkeit"/>
+	<label commandName="SimTransientLinearBodyLoadName" devLabel="Linear Global Load" translation="Lineare globale Lasten"/>
+	<label commandName="SimTransientMomentLoadName" devLabel="Transient Moment" translation="Transientes Moment"/>
+	<label commandName="SimTransientPrescribedAccelerationName" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimTransientPrescribedAngleName" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimTransientPrescribedConstraint" devLabel="Prescribed Translation " translation="Zwangstranslation "/>
+	<label commandName="SimTransientPrescribedDisplacementName" devLabel="Displacement" translation="Verschiebung"/>
+	<label commandName="SimTransientPrescribedRotation" devLabel="Prescribed Rotation " translation="Zwangsdrehung "/>
+	<label commandName="SimTransientPrescribedRotationalAccelerationName" devLabel="Rotational Acceleration" translation="Drehbeschleunigung"/>
+	<label commandName="SimTransientPrescribedRotationalVelocityName" devLabel="Rotational Velocity" translation="Drehgeschwindigkeit"/>
+	<label commandName="SimTransientPrescribedVelocityName" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimTransientPressureLoadName" devLabel="Transient Pressure" translation="Transienter Druck"/>
+	<label commandName="SimTransientRemoteForceLoadName" devLabel="Transient Remote" translation="Transient entfernt"/>
+	<label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="Unerwarteter Fehler"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+	<label commandName="SimePreserveBoundaryConstraintName" devLabel="Preserved Region" translation="Beibehaltener Bereich"/>
+	<label commandName="SimeSymmetryPlaneName" devLabel="Symmetry Plane" translation="Symmetrieebene"/>
+	<label commandName="SimulationStudyIsMissing" devLabel="Simulation Study is missing" translation="Simulationsstudie fehlt"/>
+</Resource>

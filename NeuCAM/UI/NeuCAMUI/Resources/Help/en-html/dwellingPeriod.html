@@ -1,0 +1,16 @@
+<div id="dwellingPeriod"><p>Dwelling time in seconds.</p>
+<p>Specifying a dwell time halts all axis movement for a specified time while the spindle continues revolving at the specified rpm. This can be used to ensure that chips are cleared before retracting from a hole, and will typically improve the finish of a hole.</p>
+<p>Typically a dwelling time between 1/4 second and 1 second is sufficient.</p>
+<p>Example: To dwell for 1/4 second, specify 0.25 or 1/4 in this field.</p>
+<p>When post processing a drill cycle, the dwell time is specified as one of the drill cycle parameters (typically P), and in most cases it is output in milliseconds (ms).</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="361" height="55" src="../images/dwellingPeriod.png"/></center></td>
+</tr><tr>
+<td><center><p>250ms dwell time in G82</p></center></td>
+</tr></table>
+<p>When posting using expanded cycles, the dwell time is output as a regular dwell command (G4).</p>
+<p>To calculate the minimum dwell time that will ensure at least one complete revolution, use a value of 60 divided by the spindle speed.</p>
+<p>Example: At 350 RPM the minimum dwell time should be 60 / 350 = 0.171s which could be rounded to 0.2s.</p>
+<p>Note: If the operator is running the program with a speed override, then the spindle speed is slower, but the dwell time is constant. To ensure one complete revolution when using a speed override of eg. 50%, the dwell time must be doubled.</p>
+</div>

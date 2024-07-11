@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="SimCallTemplateReusedAttribute" devLabel="Click here to select 'Template Reused Attribute'." translation="Klicken Sie hier, um Durch Vorlage wiederverwendetes Attribut auszuwählen."/>
+	<label commandName="SimCallTemplateStructuralAttribute" devLabel="Click here to select 'Template Structural Attribute'." translation="Klicken Sie hier, um Vorlage für Tragwerksattribut auszuwählen."/>
+	<label commandName="SimCaseGeneralSettingsTemplateBoolSetting" devLabel="Template Bool Setting" translation="Vorlage für Bool-Einstellung"/>
+	<label commandName="SimCaseNameTemplate" devLabel="Study %1% - Template (Default Name)" translation="Studie %1% - Vorlage (Vorgabename)"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Einheitensystem überschreiben"/>
+	<label commandName="SimGenerativeAdditiveMethodGroup" devLabel="Additive" translation="Additiv"/>
+	<label commandName="SimGenerativeAllMethodssGroup" devLabel="All methods" translation="Alle Methoden"/>
+	<label commandName="SimGenerativeCuttingMethodGroup" devLabel="2-axis Cutting" translation="2-Achsen-Schneiden"/>
+	<label commandName="SimGenerativeDieCastingMethodGroup" devLabel="Die Casting" translation="Druckgießen"/>
+	<label commandName="SimGenerativeMillingMethodGroup" devLabel="Milling" translation="Fräsen"/>
+	<label commandName="SimGenerativeUnrestrictedMethodGroup" devLabel="Unrestricted" translation="Unbegrenzt"/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (in)"/>
+	<label commandName="SimLoadCaseString" devLabel=" in &quot;%1%&quot;" translation=" in &quot;%1%&quot;"/>
+	<label commandName="SimNoTemplateAttributeAssigned" devLabel="Cannot Solve: Please assign at least one attribute%1%." translation="Lösung nicht möglich: Weisen Sie mindestens ein Attribut %1% zu."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Benutzerdefiniert"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metrisch (SI)"/>
+	<label commandName="SimTemplate" devLabel="Simulation Template (Localized Case Type Name)" translation="Simulationsvorlage (Lokalisiert, Falltyp, Name)"/>
+	<label commandName="SimTemplateReusedAttributeSelectionName" devLabel="TemplateReusedAttributeSelection" translation="VorlageWiederverwendetesAttributAuswahl"/>
+	<label commandName="SimTemplateStructuralAttributeFlag" devLabel="Value" translation="Wert"/>
+	<label commandName="SimTemplateStructuralAttributeName" devLabel="Template Structural Attribute" translation="Vorlage für Tragwerksattribut"/>
+	<label commandName="SimTemplateStructuralAttributeSelectionName" devLabel="TemplateStructuralAttributeSelection" translation="Vorlagenauswahl für Tragwerksattribut"/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Prozentsatz"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Teile"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Beschleunigung"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Winkel"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktuell"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Elektrischer Widerstand"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energie"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Kraft"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Länge"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masse"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Leistung"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Druck"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatur"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Zeit"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Geschwindigkeit"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Viskosität"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Spannung"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Volumenstrom"/>
+</Resource>

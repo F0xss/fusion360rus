@@ -1,0 +1,14 @@
+<div id="minimumCuttingRadius"><p>Defines the smallest toolpath radius to generate in a sharp corner. Minimum Cutting Radius creates a blend at all inside sharp corners.</p>
+<p>Forcing the tool into a sharp corner, or a corner where the radius is equal to the tool radius, can create chatter and distort the surface finish.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="200" height="148" src="../images/adaptive-min-cut-rad-sm-00.png"/></center></td>
+<td><center><img border="0" width="200" height="148" src="../images/adaptive-min-cut-rad-sm-07.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Set to Zero</b><br>
+<em>The toolpath is forced into<br>all inside sharp corners</em></p></center></td>
+<td><center><p><b>Set to 0.07 in</b><br>
+<em>The toolpath will have a blend<br>of .070 radius in all sharp corners.</em></p></center></td>
+</tr></table>
+<p>Note: Setting this parameter leaves more material in internal corners, requiring subsequent rest machining operations with a smaller tool.</p>
+</div>

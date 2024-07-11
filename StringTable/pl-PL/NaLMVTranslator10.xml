@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="CollectComponentsForExportLMVError" devLabel="Autodesk Translation Services failed to translate the current document to svf file!" translation="Nie można przekształcić bieżącego dokumentu na plik svf za pomocą usług Autodesk Translation Services!"/>
+	<label commandName="LMVFileFilterDescription" devLabel="LMV Files (*.svf)" translation="Pliki LMV (*.svf)"/>
+</Resource>

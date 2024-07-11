@@ -1,0 +1,22 @@
+<div id="additionalStock"><p>Ein Schätzwert, der verwendet wird, um eine sicherere Reihenfolge der Bearbeitungsdurchgänge zwischen zwei nahe beieinanderliegenden steilen Wänden zu erzielen, wenn <b>Steil zuerst</b> als <b>Priorität</b> ausgewählt wurde.</p>
+<p>Wenn ungleichmäßiges Rohmaterial von einer vorherigen Operation zwischen beiden steilen Wänden übrig bleibt, entsteht durch Schneiden auf eine große Tiefe an nur einer der steilen Wände eine starke Belastung des Werkzeugs bei der Interaktion mit übriggebliebenem Material um das Werkzeug. Es empfiehlt sich, abwechselnd zwischen den beiden steilen Wänden zu schneiden, um Beschädigungen des Werkzeugs zu vermeiden.</p>
+<p><b>Maximal verbleibendes Rohteil</b> wird verwendet, um den Werkzeugweg so neu anzuordnen, dass zwei nahe beieinanderliegende steile Wände in derselben Z-Ebene bearbeitet werden, bevor zur nächsten Z-Ebene übergegangen wird.</p>
+<p>Schätzen Sie einen Wert, der größer ist als der Abstand zwischen Werkzeugwegsegmenten um beide Wände. Das Werkzeug und die Modellgeometrie wirken sich darauf aus, wann und wo die Neuanordnung stattfindet.</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="136" src="../images/Max_remaining_stock_2mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximal verbleibendes Rohteil = 2 mm</b><br>
+Steile Wände werden exklusiv bearbeitet.</p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="133" src="../images/Max_remaining_stock_4mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>Maximal verbleibendes Rohteil = 4 mm</b><br>
+Steile Wände werden gleichzeitig bearbeitet.</p></center></td>
+</tr></table>
+<p>In diesem Beispiel werden durch Ändern des Werts Maximal verbleibendes Rohteil von 2 mm in 4 mm die Bearbeitungsdurchgänge neu angeordnet.</p>
+<p>Anmerkung: Wenn kein Wert für Maximal verbleibendes Rohteil eingegeben wurde, wird ein vorgegebener Mindestwert von 10 % des Werkzeugradius verwendet.</p>
+</div>

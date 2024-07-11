@@ -1,0 +1,11 @@
+<div id="highFeedrateMode"><p>Specifies when rapid movements should be output as true rapids (G0) and when they should be output as high feedrate movements (G1).</p>
+<ul>
+<li><b>Preserve rapid movement</b> - All rapid movements are preserved.</li>
+<li><b>Preserve axial and radial rapid movement</b> - Rapid movements moving only horizontally (radial) <em>or</em> vertically (axial) are output as true rapids.</li>
+<li><b>Preserve axial rapid movement</b>  - Only rapid movements moving vertically.</li>
+<li><b>Preserve radial rapid movement</b> - Only rapid movements moving horizontally.</li>
+<li><b>Preserve single axis rapid movement</b> - Only rapid movements moving in one axis (X, Y or Z).</li>
+<li><b>Always use high feed</b> - Outputs rapid movements as (high feed moves) G01 moves instead of rapid movements (G0).</li>
+</ul>
+<p>This parameter is usually set to avoid collisions at rapids on machines which perform "dogleg" movements at rapid.</p>
+</div>

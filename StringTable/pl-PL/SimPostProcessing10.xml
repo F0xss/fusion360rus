@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="SaturnConsolidatedXmlResultProviderBadMaterialMapId" devLabel="Unable to parse material map id (%1%)" translation="Nie można przeanalizować identyfikatora mapy materiału (%1%)"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderDataParse" devLabel="Unable to parse data value (%1%)" translation="Nie można przeanalizować wartości danych (%1%)"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderIntegerDefault" devLabel="Unknown (%1%)" translation="Nieznane (%1%)"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingJobName" devLabel="Missing root 'jobName' child!" translation="Brak elementu podrzędnego „jobName” węzła głównego!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingJobNameId" devLabel="Missing &lt;jobName&gt; 'id' attribute!" translation="Brak atrybutu „id” elementu &lt;jobName&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunId" devLabel="Missing &lt;run&gt; 'id' attribute in Pareto set!" translation="Brak atrybutu „id” elementu &lt;run&gt; w zestawie Pareto!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingParetoRunStatus" devLabel="Missing &lt;run&gt; 'status' child in Pareto set!" translation="Brak elementu podrzędnego „status” elementu &lt;run&gt; w zestawie Pareto!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunId" devLabel="Missing &lt;run&gt; 'id' attribute!" translation="Brak atrybutu „id” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityIds" devLabel="Missing &lt;run&gt; 'quality_ids' child!" translation="Brak elementu podrzędnego „Quality_ids” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunQualityValues" devLabel="Missing &lt;run&gt; 'quality_values' child!" translation="Brak elementu podrzędnego „quality_values” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunSequence" devLabel="Missing &lt;run&gt; 'print_sequence' child!" translation="Brak elementu podrzędnego „print_sequence” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunStatus" devLabel="Missing &lt;run&gt; 'status' child!" translation="Brak elementu podrzędnego „status” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingRunVariables" devLabel="Missing &lt;run&gt; 'variables' child!" translation="Brak elementu podrzędnego „variables” elementu &lt;run&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingStepId" devLabel="Missing &lt;step&gt; 'id' attribute!" translation="Brak atrybutu „id” elementu &lt;step&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderMissingTechniqueId" devLabel="Missing &lt;technique&gt; 'id' attribute!" translation="Brak atrybutu „id” elementu &lt;technique&gt;!"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderOrderParse" devLabel="Unable to parse order value (%1%)" translation="Nie można przeanalizować wartości kolejności (%1%)"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderOrderSize" devLabel="Unexpected number of values found (%1%/%2%)" translation="Znaleziono nieoczekiwaną liczbę wartości (%1%/%2%)"/>
+	<label commandName="SaturnConsolidatedXmlResultProviderUnknownParetoRun" devLabel="Pareto set identifying an unknown run!" translation="Zestaw Pareto zidentyfikował nieznane wykonanie!"/>
+	<label commandName="SimAutomaticallyShowResultRecommendationsDialogToolTip" devLabel="Should result recommendations be displayed immediately after a solve successfully completes" translation="Czy zalecenia dotyczące wyników powinny być wyświetlane natychmiast po pomyślnym zakończeniu rozwiązywania"/>
+	<label commandName="SimAutomaticallyShowResultRecommendationsDialogUserName" devLabel="Automatically Show Result Recommendations" translation="Automatycznie pokaż zalecenia dotyczące wyników"/>
+	<label commandName="SimClippinPlaneName" devLabel="Slice Plane" translation="Płaszczyzna przekroju"/>
+	<label commandName="SimClippingPlaneCreationFailed" devLabel="Failed to create clipping plane." translation="Nie można utworzyć płaszczyzny tnącej."/>
+	<label commandName="SimClippingPlaneSelectionCategory" devLabel="Simulation Slice Planes" translation="Płaszczyzny przekroju symulacji"/>
+	<label commandName="SimClippingPlaneSelectionName" devLabel="Slice Plane" translation="Płaszczyzna przekroju"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimElements" devLabel="Elements:" translation="Elementy:"/>
+	<label commandName="SimFail2ChangeUnits" devLabel="Failed to change result type units." translation="Nie powiodła się zmiana jednostek typu wyniku."/>
+	<label commandName="SimFail2ChangeUnitsIncompatible" devLabel="Units [%1%] are incompatible with current result." translation="Jednostki [%1%] są niezgodne z bieżącym wynikiem."/>
+	<label commandName="SimFail2ChangeUnitsWrongFormat" devLabel="Unable to parse units [%1%]." translation="Nie można przeanalizować jednostek [%1%]."/>
+	<label commandName="SimFailSetResultType" devLabel="Failed to activate desired result type." translation="Nie można aktywować żądanego typu wyniku."/>
+	<label commandName="SimFailUnableToReadMeshDBBlobData" devLabel="Fail: Unable to read SimMeshDB blob data." translation="Błąd: nie można odczytać danych obiektu blob SimMeshDB."/>
+	<label commandName="SimFailUnableToReadMeshFragmentBlobData" devLabel="Fail: Unable to read mesh fragment blob data." translation="Błąd: nie można odczytać danych obiektu blob fragmentu siatki."/>
+	<label commandName="SimFailUnableToWriteMeshDBBlobData" devLabel="Fail: Unable to write SimMeshDB blob data." translation="Błąd: nie można zapisać danych obiektu blob SimMeshDB."/>
+	<label commandName="SimFailUnableToWriteMeshFragmentBlobData" devLabel="Fail: Unable to write mesh fragment blob data." translation="Błąd: nie można zapisać danych obiektu blob fragmentu siatki."/>
+	<label commandName="SimFailUnableToWriteValuesFragmentBlobData" devLabel="Fail: Unable to write values fragment blob data." translation="Błąd: nie można zapisać danych obiektu blob fragmentu wartości."/>
+	<label commandName="SimFailedToChangePlotSettings" devLabel="Failed to change plot settings." translation="Nie można zmienić ustawień wykresu."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimMaxLabelColon" devLabel="Max.:" translation="Maks.:"/>
+	<label commandName="SimMaxValueLabelFmt" devLabel="%1%%2% %3%Max." translation="%1%%2% %3% maks."/>
+	<label commandName="SimMinLabelColon" devLabel="Min.:" translation="Min.:"/>
+	<label commandName="SimMinMaxProbeValueNotAvailable" devLabel="Not Available" translation="Niedostępny"/>
+	<label commandName="SimMinMaxProbesNoValue" devLabel="No Data" translation="Brak danych"/>
+	<label commandName="SimMinMaxProbesReqError" devLabel="Failed to create Min/Max." translation="Nie można utworzyć Min./Maks."/>
+	<label commandName="SimMinMaxProbesTextMax" devLabel="Max" translation="Maks."/>
+	<label commandName="SimMinMaxProbesTextMin" devLabel="Min" translation="Min."/>
+	<label commandName="SimMinValueLabelFmt" devLabel="%1%%2% %3%Min." translation="%1%%2% %3% min."/>
+	<label commandName="SimMissingMeshPreviewDataContainers" devLabel="Mesh data containers are not present. This study is not ready to manage mesh data." translation="Brak kontenerów danych siatki. To badanie nie jest gotowe do zarządzania danymi siatki."/>
+	<label commandName="SimMissingMeshPreviewManifest" devLabel="meshManifest.xml for preview is missing." translation="brak pliku meshManifest.xml do wyświetlenia podglądu."/>
+	<label commandName="SimMissingPreviewMeshDBs" devLabel="Missing mesh dbs." translation="Brak baz danych siatki."/>
+	<label commandName="SimMissingResultsLegendSettings" devLabel="Fail: missing ResultsLegend settings." translation="Błąd: brak ustawień legendy wyników."/>
+	<label commandName="SimNodes" devLabel="Nodes:" translation="Węzły:"/>
+	<label commandName="SimOptimizationCreateBookmarkFailed" devLabel="Failed to create optimization bookmark." translation="Nie można utworzyć zakładki optymalizacji."/>
+	<label commandName="SimOptimizationResultBookmarkName" devLabel="Config" translation="Konfig"/>
+	<label commandName="SimOptimizationResultRefSelectionName" devLabel="Optimization Configuration" translation="Konfiguracja optymalizacji"/>
+	<label commandName="SimPointProbeCreationFailed" devLabel="Failed to create a Point Probe." translation="Utworzenie sondy punktowej nie powiodło się."/>
+	<label commandName="SimPointProbeValueMissingData" devLabel="Missing Data" translation="Brak danych"/>
+	<label commandName="SimPointProbeValueNotAvailable" devLabel="Not Available" translation="Niedostępne"/>
+	<label commandName="SimPreviewUnknownException" devLabel="An unidentified critical error occurred during preview generation" translation="Wystąpił niezidentyfikowany błąd krytyczny podczas generowania podglądu"/>
+	<label commandName="SimProbeCreationFailed" devLabel="Failed to create probe." translation="Nie można utworzyć sondy."/>
+	<label commandName="SimProbeSelection" devLabel="Probes " translation="Sondy "/>
+	<label commandName="SimPromoteTOMeshReq" devLabel="Invalid output folder" translation="Nieprawidłowy folder wyjściowy"/>
+	<label commandName="SimPromoteTOMeshReq1" devLabel="Invalid output file name" translation="Nieprawidłowa nazwa pliku wyjściowego"/>
+	<label commandName="SimResultOptionsGroupToolTip" devLabel="Preferences controlling Simulation Results behavior" translation="Preferencje sterowania zachowaniem wyników symulacji"/>
+	<label commandName="SimResultOptionsGroupUserName" devLabel="Simulation Results" translation="Wyniki symulacji"/>
+	<label commandName="SimResultProbeCreateReqError" devLabel="Failed to create Query Result." translation="Nie można utworzyć wyniku zapytania."/>
+	<label commandName="SimResultProbeDeleteReqWarning" devLabel="Failed to delete Query Result." translation="Nie można usunąć wyniku zapytania."/>
+	<label commandName="SimResultProbeSelection" devLabel="Probe" translation="Sonda"/>
+	<label commandName="SimResultProbeTolerance" devLabel="Tolerance" translation="Tolerancja"/>
+	<label commandName="SimResultsAreInProgress" devLabel="Results are being processed at this moment. Please wait." translation="Wyniki są obecnie przetwarzane. Proszę czekać."/>
+	<label commandName="SimResultsLegendConfiguration_BarBig" devLabel="Bar - Big" translation="Pasek — duży"/>
+	<label commandName="SimResultsLegendConfiguration_BarNormal" devLabel="Bar - Normal" translation="Pasek — normalny"/>
+	<label commandName="SimResultsLegendConfiguration_BarSmall" devLabel="Bar - Small" translation="Pasek — mały"/>
+	<label commandName="SimResultsLegendConfiguration_Quarter" devLabel="Quarter" translation="Wycinek"/>
+	<label commandName="SimResultsLegendConfiguration_WreathBig" devLabel="Wreath - Big" translation="Koło — duże"/>
+	<label commandName="SimResultsLegendConfiguration_WreathNormal" devLabel="Wreath - Normal" translation="Koło — standardowe"/>
+	<label commandName="SimResultsLegendConfiguration_WreathSmall" devLabel="Wreath - Small" translation="Koło — małe"/>
+	<label commandName="SimSFMaxValueLabelFmt" devLabel="%1%Max: %2%%3%" translation="%1%Maks.: %2%%3%"/>
+	<label commandName="SimSFMinValueLabelFmt" devLabel="%1%Min: %2%%3%" translation="%1%Min.: %2%%3%"/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSceneMeshCompSelectionCategory" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="SimSceneMeshCompSelectionTypeName" devLabel="Mesh Component" translation="Komponent siatki"/>
+	<label commandName="SimSceneMeshCompSelectionUserName" devLabel="Mesh of %1%" translation="Siatka %1%"/>
+	<label commandName="SimSceneMeshCompSelectionUserNamePlural" devLabel="Meshed Bodies" translation="Bryły siatkowe"/>
+	<label commandName="SimSceneMeshContainerSelectionCategory" devLabel="Simulation Scene Mesh" translation="Siatka sceny symulacji"/>
+	<label commandName="SimSceneMeshContainerSelectionName" devLabel="Scene Mesh Container" translation="Kontener siatki sceny"/>
+	<label commandName="SimSceneResultProbePointSelectionCategory" devLabel="Probe Point Simulation Labels" translation="Etykiety symulacji punktów sondy"/>
+	<label commandName="SimSceneResultProbeSelectionCategory" devLabel="Simulation Labels" translation="Etykiety symulacji"/>
+	<label commandName="SimStoreCriticalPointsLimitReqUnableToStore" devLabel="Unable to save Critical Points limit value." translation="Nie można zapisać wartości granicznej punktów krytycznych."/>
+	<label commandName="SimTargetLabel" devLabel="Target" translation="Cel"/>
+	<label commandName="SimThreshold" devLabel="Threshold:" translation="Próg:"/>
+	<label commandName="SimTopologyOptimizationApproxRetainedMass" devLabel="Approx. Mass:" translation="Masa przybliżona:"/>
+	<label commandName="SimTopologyOptimizationMassRatio" devLabel="Mass Ratio:" translation="Stosunek masy:"/>
+	<label commandName="SimUnableToReadValuesFragmentData" devLabel="Unable to read values fragment data." translation="Nie można odczytać fragmentarycznych danych wartości."/>
+	<label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="Nieoczekiwany błąd."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procentowo"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+	<label commandName="SimUnknownOptimizationResultAddError" devLabel="Unknown error adding optimization results" translation="Nieznany błąd podczas dodawania wyników optymalizacji"/>
+	<label commandName="SimUnknownOptimizationResultSetupError" devLabel="Unknown error setting up optimization results" translation="Nieznany błąd podczas konfigurowania wyników optymalizacji"/>
+	<label commandName="VisibleMeshEmptyMeshes" devLabel="Results are not available. Please recompute." translation="Wyniki nie są dostępne. Proszę przeliczyć."/>
+	<label commandName="VisibleMeshNoLegendSettings" devLabel="Internal error - no legend settings found" translation="Błąd wewnętrzny — nie znaleziono ustawień legendy"/>
+	<label commandName="VisibleMeshNoMesh" devLabel="There's no result mesh to promote" translation="Brak siatki wynikowej do podwyższenia"/>
+	<label commandName="VisibleMeshNoPresentation" devLabel="Internal error - No presentation given" translation="Błąd wewnętrzny — brak prezentacji"/>
+	<label commandName="VisibleMeshUnableToCache" devLabel="Unable to cache visible mesh" translation="Nie można zapisać widocznej siatki w pamięci podręcznej"/>
+</Resource>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ExitMeshPanel" devLabel="Close" translation="Zamknij"/>
+	<label commandName="ExpandToConnectedSel" devLabel="Expand to Connected" translation="Rozszerz na połączone"/>
+	<label commandName="ExpandToGroupSel" devLabel="Expand to Face Group" translation="Rozszerz na grupę powierzchni"/>
+	<label commandName="GrowMeshSel" devLabel="Grow Selection" translation="Powiększ wybór"/>
+	<label commandName="InvertMeshSel" devLabel="Invert Selection" translation="Odwróć wybór"/>
+	<label commandName="Mesh Environment" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="MeshColorCommand" devLabel="Face Groups" translation="Grupy powierzchni"/>
+	<label commandName="MeshFaceGroupOffCommand" devLabel="FaceGroup Off" translation="Grupa powierzchni wył."/>
+	<label commandName="MeshFaceGroupOnCommand" devLabel="FaceGroup On" translation="Grupa powierzchni wł."/>
+	<label commandName="MeshSelectionPalette" devLabel="Mesh Palette" translation="Paleta siatek"/>
+	<label commandName="MeshStyleCommand" devLabel="Mesh Display" translation="Wyświetlanie siatki"/>
+	<label commandName="ShrinkMeshSel" devLabel="Shrink Selection" translation="Zmniejsz wybór"/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc1" devLabel="Enters Mesh mode and inserts a mesh feature into the timeline. Use Mesh tools to modify and repair mesh geometry." translation="Otwiera tryb siatki i wstawia element siatki na osi czasu. Użyj narzędzi Siatka, aby zmodyfikować i naprawić geometrię siatki."/>
+	<label commandName="lclzMeshBaseFeatureCreationDesc2" devLabel="Select Finish Mesh to exit out of the mode." translation="Wybierz opcję Zakończ siatkę, aby zamknąć tryb."/>
+	<label commandName="lclzMeshBaseFeatureStopDesc1" devLabel="Finishes the Mesh feature." translation="Kończy element siatki."/>
+	<label commandName="lclzMeshWorkspaceTitle" devLabel="Repairs mesh geometry. Access commands to remesh and repair triangulated mesh bodies." translation="Naprawia geometrię siatki. Przejdź do poleceń, aby zmodyfikować i naprawić triangulowane bryły siatkowe."/>
+</Resource>

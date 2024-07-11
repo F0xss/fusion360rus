@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?><Resource>
+	<label commandName="ArchiveFiles" devLabel="Archive Files" translation="Archiwizacja plików"/>
+	<label commandName="BrowserClippingPlanesLabel" devLabel="Slice Planes" translation="Płaszczyzny przekroju"/>
+	<label commandName="BrowserMeshLabel" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="BrowserResultsLabel" devLabel="Results" translation="Wyniki"/>
+	<label commandName="ExportNotAllowedForAssemblies4" devLabel="Local export to f3d is not supported for designs with referenced components. Please view design details on web and export there." translation="Eksport lokalny do f3d nie jest obsługiwany w przypadku projektów z komponentami, do których istnieją odniesienia. Wyświetl szczegóły projektu w Internecie i przeprowadź tam eksport."/>
+	<label commandName="ExportNotAllowedForAssembliesTitle" devLabel="Export warning" translation="Ostrzeżenie dotyczące eksportu"/>
+	<label commandName="FinishResultsCmd" devLabel="Finish Results" translation="Zakończ wyniki"/>
+	<label commandName="GenGenerateDetailsCmdDesc1" devLabel="Displays information about the generation of outcomes for one or more studies." translation="Wyświetla informacje o generowaniu wyników dla co najmniej jednego badania."/>
+	<label commandName="GenGenerateDetailsCmdDesc2" devLabel="Available information includes the outcome generation status. You can save this information to a log file." translation="Dostępne informacje obejmują stan generowania wyników. Informacje te można zapisać w pliku dziennika."/>
+	<label commandName="HideAllProbesCmdDesc2" devLabel="If you no longer need the probe information, an alternative is to delete the probes, using Delete All Probes from the toolbar Inspect panel." translation="Jeśli informacje o sondzie nie są już potrzebne, alternatywą jest usunięcie sond za pomocą polecenia Usuń wszystkie sondy z paska narzędzi w panelu Sprawdź."/>
+	<label commandName="PointProbeSelectPrompt" devLabel="Select Point Probe to be plotted" translation="Wybierz sondę punktową do utworzenia wykresu"/>
+	<label commandName="PromoteDesc1" devLabel="Converts the Shape Optimization results to a new Mesh Body. The Mesh Body can be edited using the modeling tools." translation="Przekształca wyniki optymalizacji kształtu w nową bryłę siatki. Bryłę siatki można edytować za pomocą narzędzi modelowania."/>
+	<label commandName="PromoteTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="PromoteTipsAndTricksTips" devLabel="Computed results will be converted into the new Mesh Body." translation="Obliczone wyniki zostaną przekształcone w nową bryłę siatki."/>
+	<label commandName="PromoteTipsAndTricksTitle" devLabel="Promote Information" translation="Podwyższenie — informacje"/>
+	<label commandName="ResultsCommand" devLabel="Simulation Results" translation="Wyniki symulacji"/>
+	<label commandName="ShowFilename" devLabel="Show file name" translation="Pokaż nazwę pliku"/>
+	<label commandName="Sim2DChart" devLabel="2D Time Plot" translation="Wykres czasu 2D"/>
+	<label commandName="Sim2DPlotPanelName" devLabel="Transient Results Plot" translation="Wykres wyników przejściowych"/>
+	<label commandName="Sim2dPlotAddToReport" devLabel="Add to Report" translation="Dodaj do raportu"/>
+	<label commandName="Sim2dPlotClose" devLabel="Removes the current plot" translation="Usuwa bieżący wykres"/>
+	<label commandName="Sim2dPlotMax" devLabel="Max." translation="Maks."/>
+	<label commandName="Sim2dPlotMin" devLabel="Min." translation="Min."/>
+	<label commandName="Sim2dPlotSwitch" devLabel="Toggle the plot view between graph and table" translation="Przełącz widok wykresu między wykresem a tabelą"/>
+	<label commandName="Sim2dPlotSynchronize" devLabel="Synchronize the plot or graph with the graphics" translation="Synchronizuj wykres z grafiką"/>
+	<label commandName="Sim2dPlotZoom" devLabel="Fit" translation="Dopasowanie"/>
+	<label commandName="SimActivateSimLoadCaseCmd" devLabel="Activate Load Case" translation="Aktywuj przypadek obciążenia"/>
+	<label commandName="SimActiveSimCaseCommand" devLabel="Active Study View" translation="Aktywny widok badania"/>
+	<label commandName="SimActiveSimCaseDesc1" devLabel="Select simulation study for comparison from list of studies in your document." translation="Wybierz badanie symulacyjne do porównania z listy badań w dokumencie."/>
+	<label commandName="SimAnimateCommand" devLabel="Animate" translation="Animacja"/>
+	<label commandName="SimAnimateDesc1" devLabel="Interpolates results values based on the loading factor (Static Stress Analysis, Thermal Stress Analysis) or based on the period of the observed mode (Modal Analysis)." translation="Interpoluje wartości wyników na podstawie współczynnika obciążenia (analiza naprężeń statycznych, analiza naprężeń termicznych) lub okresu obserwowanego modu (analiza modalna)."/>
+	<label commandName="SimAnimateDomain" devLabel="Animate" translation="Animacja"/>
+	<label commandName="SimAnimateLoopPlay" devLabel="Two-way" translation="Dwukierunkowa"/>
+	<label commandName="SimAnimatePause" devLabel="Pause" translation="Wstrzymaj"/>
+	<label commandName="SimAnimatePlay" devLabel="Play" translation="Odtwórz"/>
+	<label commandName="SimAnimateRecord" devLabel="Record" translation="Nagrywanie"/>
+	<label commandName="SimAnimateRecording" devLabel="Recording..." translation="Trwa rejestrowanie..."/>
+	<label commandName="SimAnimateRepeatPlay" devLabel="One-way" translation="Jednokierunkowa"/>
+	<label commandName="SimAnimateShowOriginal" devLabel="Show Original" translation="Pokaż oryginał"/>
+	<label commandName="SimAnimateSliderInt" devLabel="Step" translation="Krok"/>
+	<label commandName="SimAnimateSpeed" devLabel="Speed" translation="Obroty"/>
+	<label commandName="SimAnimateSpeedFast" devLabel="Fast" translation="Szybko"/>
+	<label commandName="SimAnimateSpeedFastest" devLabel="Fastest" translation="Najszybciej"/>
+	<label commandName="SimAnimateSpeedNormal" devLabel="Normal" translation="Normalnie"/>
+	<label commandName="SimAnimateSpeedSlow" devLabel="Slow" translation="Wolno"/>
+	<label commandName="SimAnimateSpeedSlowest" devLabel="Slowest" translation="Najwolniej"/>
+	<label commandName="SimAnimateSteps" devLabel="Steps" translation="Stopnie"/>
+	<label commandName="SimAnimateStop" devLabel="Stop" translation="Zakończ"/>
+	<label commandName="SimAnimateTipsAndTricksDesc" devLabel="Set the animation speed and the number of steps. The maximum number of steps is 100. Each step is an individual image or frame. Change the observed result quantities listed on the legend as needed. To save your animation to either an AVI (Windows) or MOV (Mac) file, click &lt;b&gt;Record&lt;/b&gt; and specify the filename." translation="Ustaw prędkość animacji i liczbę kroków. Maksymalna liczba kroków wynosi 100. Każdy krok jest pojedynczym obrazem lub klatką. W razie potrzeby zmień ilości obserwowanych wyników wyświetlanych w legendzie. Aby zapisać animację w pliku AVI (Windows) lub MOV (Mac), kliknij przycisk &lt;b&gt;Nagraj&lt;/b&gt; i podaj nazwę pliku."/>
+	<label commandName="SimAnimateTipsAndTricksTips" devLabel="Use animation to observe how the results develop with the changing loading factor (Static Stress Analysis, Thermal Stress Analysis) or with changing period of the observed mode (Modal Analysis)." translation="Animacja umożliwia obserwację rozwoju wyników w miarę zmiany współczynnika obciążenia (analiza naprężeń statycznych, analiza naprężeń termicznych) lub zmiany okresu obserwowanego modu (analiza modalna)."/>
+	<label commandName="SimAnimateTipsAndTricksTitle" devLabel="Animate Information" translation="Animacja — informacje"/>
+	<label commandName="SimAnimationFilesFilterAvi" devLabel="avi files (*.avi);;" translation="Pliki avi (*.avi);;"/>
+	<label commandName="SimAnimationFilesFilterMov" devLabel="mov files (*.mov)" translation="Pliki mov (*.mov)"/>
+	<label commandName="SimCheckBoxUpdateRangePerStep" devLabel="Update Range Per Step" translation="Aktualizuj zakres dla każdego przedziału"/>
+	<label commandName="SimCheckBoxVisibleOnly" devLabel="Visible Only" translation="Tylko widoczne"/>
+	<label commandName="SimClipping" devLabel="Clipping" translation="Przycinanie"/>
+	<label commandName="SimClippingPlaneDesc1" devLabel="Use a slice plane to clip the result plot and see the results inside the model." translation="Użyj płaszczyzny przekroju, aby przyciąć wykres wynikowy i wyświetlić wyniki wewnątrz modelu."/>
+	<label commandName="SimClippingPlaneEditFailed" devLabel="Failed to edit clipping plane." translation="Nie można edytować płaszczyzny tnącej."/>
+	<label commandName="SimClippingPlaneEditTipsAndTricksDesc" devLabel="To move or re-orient the plane, drag the manipulator." translation="Aby przesunąć płaszczyznę lub zmienić jej orientację, przeciągnij manipulator."/>
+	<label commandName="SimClippingPlaneEditTipsAndTricksTips" devLabel="Edit slice plane." translation="Edytuj płaszczyznę przekroju."/>
+	<label commandName="SimClippingPlaneEditTipsAndTricksTitle" devLabel="Slice Plane Information" translation="Płaszczyzna przekroju — informacje"/>
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksDesc" devLabel="Hover the cursor over the visible mesh surface and left-click on the desired location. After the initial position is picked, the newly created slice plane can be adjusted more precisely." translation="Umieść kursor na widocznej powierzchni siatki i kliknij lewym przyciskiem myszy żądane położenie. Po wskazaniu położenia początkowego można lepiej dopasować nowo utworzoną płaszczyznę przekroju."/>
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksTips" devLabel="Start to create a slice plane by selecting a point on the mesh surface." translation="Rozpocznij tworzenie płaszczyzny przekroju, wybierając punkt na powierzchni siatki."/>
+	<label commandName="SimClippingPlaneStartCreation1TipsAndTricksTitle" devLabel="Slice Plane Information" translation="Płaszczyzna przekroju — informacje"/>
+	<label commandName="SimClippingPlanesCountExceededError" devLabel="Maximum number of applied slice planes has been exceeded.&#xA;Your current hardware supports %1% slice planes." translation="Przekroczono maksymalną liczbę zastosowanych płaszczyzn przekroju.&#xA;Bieżący sprzęt obsługuje następującą liczbę płaszczyzn przekroju: %1%."/>
+	<label commandName="SimCloneStudiesInput" devLabel="Clone Studies" translation="Klonuj badania"/>
+	<label commandName="SimColorTransition" devLabel="Color Transition" translation="Przejście koloru"/>
+	<label commandName="SimCommandUnitSystemName" devLabel="Override Unit System" translation="Nadpisz układ jednostek"/>
+	<label commandName="SimCompareEnvironment" devLabel="Compare" translation="Porównaj"/>
+	<label commandName="SimComputeGenResultsNow" devLabel="There are no outcomes to view in Explore yet.&#xA;Would you like to generate outcomes now?" translation="Brak wyników do wyświetlenia w obszarze Eksploruj.&#xA;Czy chcesz teraz wygenerować wyniki?"/>
+	<label commandName="SimComputeGenResultsNowTitle" devLabel="Explore" translation="Eksploruj"/>
+	<label commandName="SimComputeMeshNow" devLabel="The mesh has not been computed yet. Would you like to compute the mesh now?" translation="Siatka nie została jeszcze obliczona. Czy chcesz teraz obliczyć siatkę?"/>
+	<label commandName="SimComputeMeshNowTitle" devLabel="Mesh view" translation="Widok siatki"/>
+	<label commandName="SimComputeResultsNow" devLabel="The results have not been computed yet.&#xA;Would you like to compute the results now?" translation="Wyniki nie zostały jeszcze obliczone.&#xA;Czy chcesz obliczyć wyniki teraz?"/>
+	<label commandName="SimComputeResultsNowTitle" devLabel="View Results" translation="Wyświetl wyniki"/>
+	<label commandName="SimConfigurationThin" devLabel="Thin" translation="Cienka"/>
+	<label commandName="SimConfigurationWide" devLabel="Wide" translation="Szeroka"/>
+	<label commandName="SimContours" devLabel="Contours" translation="Kontury"/>
+	<label commandName="SimCreateClippingPlane" devLabel="Slice Plane" translation="Płaszczyzna przekroju"/>
+	<label commandName="SimCreateClippingPlaneCmd" devLabel="Create Slice Plane" translation="Utwórz płaszczyznę przekroju"/>
+	<label commandName="SimCreatePointProbe" devLabel="Point Probe" translation="Sonda punktowa"/>
+	<label commandName="SimCreatePointProbeCmd" devLabel="Create Point Probe" translation="Utwórz sondę punktową"/>
+	<label commandName="SimCreateProbePoint" devLabel="Create" translation="Utwórz"/>
+	<label commandName="SimCurrentModelInput" devLabel="To Current Model:" translation="Do bieżącego modelu:"/>
+	<label commandName="SimCustomDomainPoint" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimDeleteAllProbesCmd" devLabel="Delete All Probes" translation="Usuń wszystkie sondy"/>
+	<label commandName="SimDeleteAllProbesCmdDesc1" devLabel="Removes all probes and the information associated with them." translation="Usuwa wszystkie sondy i skojarzone z nimi informacje."/>
+	<label commandName="SimDeleteAllProbesCmdDesc2" devLabel="To hide the probe information, without deleting the probes, select Hide All Probes from the toolbar Inspect panel." translation="Aby ukryć informacje o sondach bez usuwania sond, wybierz opcję Ukryj wszystkie sondy z paska narzędzi na panelu Sprawdź."/>
+	<label commandName="SimDisplacementScaleActualCmd" devLabel="Actual" translation="Rzeczywisty"/>
+	<label commandName="SimDisplacementScaleDesc1" devLabel="The actual deformation may be so small that the model shape is unaltered. To view the deformed shape, select a scaling option." translation="Rzeczywiste odkształcenie może być tak małe, że kształt modelu nie ulega zmianie. Aby wyświetlić odkształcony kształt, wybierz opcję skalowania."/>
+	<label commandName="SimDisplacementScaleDesc2" devLabel="Undeformed: Displays original model shape" translation="Nieodkształcony: wyświetla pierwotny kształt modelu"/>
+	<label commandName="SimDisplacementScaleDesc3" devLabel="Actual: Displays the computed deformation." translation="Rzeczywisty: wyświetla obliczone odkształcenie."/>
+	<label commandName="SimDisplacementScaleDesc4" devLabel="Use these options to display the maximum deformation as a percentage of the model size:" translation="Użyj tych opcji, aby wyświetlić maksymalne odkształcenie jako procent rozmiaru modelu:"/>
+	<label commandName="SimDisplacementScaleDesc5" devLabel="Adjusted 0.5x: 2.5%" translation="Dopasowany 0,5x: 2,5%"/>
+	<label commandName="SimDisplacementScaleDesc6" devLabel="Adjusted: 5%" translation="Dopasowany: 5%"/>
+	<label commandName="SimDisplacementScaleDesc7" devLabel="Adjusted 2x: 10%" translation="Dopasowany 2x: 10%"/>
+	<label commandName="SimDisplacementScaleDesc8" devLabel="Adjusted 5x: 25%" translation="Dopasowany 5x: 25%"/>
+	<label commandName="SimDisplacementScaleLargeCmd" devLabel="Adjusted 2x" translation="Dopasowany 2x"/>
+	<label commandName="SimDisplacementScaleLargestCmd" devLabel="Adjusted 5x" translation="Dopasowany 5x"/>
+	<label commandName="SimDisplacementScaleNoneCmd" devLabel="Undeformed" translation="Nieodkształcony"/>
+	<label commandName="SimDisplacementScaleNormalCmd" devLabel="Adjusted" translation="Dopasowany"/>
+	<label commandName="SimDisplacementScaleSmallCmd" devLabel="Adjusted 0.5x" translation="Dopasowany 0,5x"/>
+	<label commandName="SimDisplacementScaleSmallCmdWithComma" devLabel="Adjusted 0,5x" translation="Dopasowany 0,5x"/>
+	<label commandName="SimDisplayGlyphScale" devLabel="Glyph Scale" translation="Skala znacznika"/>
+	<label commandName="SimDisplayGlyphSize" devLabel="Glyph Size" translation="Wielkość znacznika"/>
+	<label commandName="SimDisplayGlyphSizeConstant" devLabel="Constant" translation="Stałe"/>
+	<label commandName="SimDisplayGlyphSizeProportional" devLabel="Proportional" translation="Proporcjonalnie"/>
+	<label commandName="SimDisplayResultsCommmand" devLabel="Display model using calculated results." translation="Wyświetl model, używając obliczonych wyników."/>
+	<label commandName="SimDisplayVector" devLabel="Display Vector" translation="Wyświetl wektor"/>
+	<label commandName="SimDomainPoint1Cmd" devLabel="Result Frequency" translation="Częstotliwość wynikowa"/>
+	<label commandName="SimDomainPoint2Cmd" devLabel="Result Configuration" translation="Konfiguracja wyników"/>
+	<label commandName="SimDomainPoint3Cmd" devLabel="Result Configuration" translation="Konfiguracja wyników"/>
+	<label commandName="SimDomainPointInterpolable1Cmd" devLabel="Result Configuration" translation="Konfiguracja wyników"/>
+	<label commandName="SimDomainPointInterpolable2Cmd" devLabel="Result Configuration" translation="Konfiguracja wyników"/>
+	<label commandName="SimDomainPointInterpolable3Cmd" devLabel="Result Configuration" translation="Konfiguracja wyników"/>
+	<label commandName="SimDragInput" devLabel="DragInput" translation="Przeciągnij dane wejściowe"/>
+	<label commandName="SimEditClippingPlaneCmd" devLabel="Edit Slice Plane" translation="Edytuj płaszczyznę przekroju"/>
+	<label commandName="SimEditPointProbeCmd" devLabel="Edit Point Probe" translation="Edytuj sondę punktową"/>
+	<label commandName="SimEditPointProbeCmdDesc1" devLabel="Edit existing point probe." translation="Edytuj istniejącą sondę punktową."/>
+	<label commandName="SimEditPointProbeCmdTipsAndTricksDesc" devLabel="Drag the manipulator to edit probing point position. Drag the labels to edit position of labels." translation="Przeciągnij manipulator, aby edytować położenie punktu pomiaru. Przeciągnij etykiety, aby edytować położenie etykiet."/>
+	<label commandName="SimEditPointProbeCmdTipsAndTricksTips" devLabel="Edit probing point position" translation="Edytuj położenie punktu pomiaru"/>
+	<label commandName="SimEditPointProbeCmdTipsAndTricksTitle" devLabel="Point Probe Information" translation="Sonda punktowa — informacje"/>
+	<label commandName="SimEditResultsLegendCmd" devLabel="Legend Min/Max" translation="Min./maks. legendy"/>
+	<label commandName="SimEditResultsLegendDesc1" devLabel="Focus on a particular results value by modifying the legend range." translation="Skoncentruj się na konkretnej wartości wyników, modyfikując zakres legendy."/>
+	<label commandName="SimEditResultsLegendSizeShapeText" devLabel="Legend Size/Shape" translation="Rozmiar/kształt legendy"/>
+	<label commandName="SimFailedToOpen" devLabel="Failed to open " translation="Nie można otworzyć "/>
+	<label commandName="SimFinishCompareCmd" devLabel="Finish Compare" translation="Zakończ porównywanie"/>
+	<label commandName="SimFinishCompareCmdText" devLabel="Exits the Compare environment and returns you to the Results environment." translation="Zamyka środowisko Porównaj i powraca do środowiska Wyniki."/>
+	<label commandName="SimFlipClipDir" devLabel="Flip Clip Direction" translation="Odwróć kierunek przycięcia"/>
+	<label commandName="SimGlobalResultScope" devLabel="Global" translation="Globalnie"/>
+	<label commandName="SimGraphStep" devLabel="Time (s)" translation="Czas (s)"/>
+	<label commandName="SimGrid" devLabel="Grid" translation="Siatka"/>
+	<label commandName="SimGridLines" devLabel="Grid Lines" translation="Linie siatki"/>
+	<label commandName="SimGridSize" devLabel="Grid Size" translation="Rozmiar siatki"/>
+	<label commandName="SimHideAllProbesCmd" devLabel="Hide All Probes" translation="Ukryj wszystkie sondy"/>
+	<label commandName="SimHideAllProbesCmdDesc1" devLabel="Hides all probes and the information labels associated with them." translation="Ukrywa wszystkie sondy i skojarzone z nimi etykiety informacji."/>
+	<label commandName="SimInchImperialUnitSystemName" devLabel="U.S. (in)" translation="USA (cale)"/>
+	<label commandName="SimInputGrapherGrid" devLabel="Grid" translation="Siatka"/>
+	<label commandName="SimInputGrapherLockYAxis" devLabel="Lock Y Axis" translation="Zablokuj oś Y"/>
+	<label commandName="SimInputGrapherZoomAll" devLabel="Zoom All" translation="Powiększ wszystko"/>
+	<label commandName="SimLayout1H2V" devLabel="One Horizontal and Two Vertical Views" translation="Jeden widok poziomy i dwa widoki pionowe"/>
+	<label commandName="SimLayout1H2VDesc1" devLabel="Compare results views from up to three different studies." translation="Porównaj widoki wyników z maksymalnie trzech różnych badań."/>
+	<label commandName="SimLayout1H3V" devLabel="One Horizontal and Three Vertical Views" translation="Jeden widok poziomy i trzy widoki pionowe"/>
+	<label commandName="SimLayout1H3VDesc1" devLabel="Compare results views from up to four different studies." translation="Porównaj widoki wyników z maksymalnie czterech różnych badań."/>
+	<label commandName="SimLayout1V2H" devLabel="One Vertical and Two Horizontal Views" translation="Jeden widok pionowy i dwa widoki poziome"/>
+	<label commandName="SimLayout1V2HDesc1" devLabel="Compare results views from up to three different studies." translation="Porównaj widoki wyników z maksymalnie trzech różnych badań."/>
+	<label commandName="SimLayout1V3H" devLabel="One Vertical and Three Horizontal Views" translation="Jeden widok pionowy i trzy widoki poziome"/>
+	<label commandName="SimLayout1V3HDesc1" devLabel="Compare results views from up to four different studies." translation="Porównaj widoki wyników z maksymalnie czterech różnych badań."/>
+	<label commandName="SimLayout2H" devLabel="Two Horizontal Views" translation="Dwa widoki poziome"/>
+	<label commandName="SimLayout2HDesc" devLabel="Compare results views from one or two different studies." translation="Porównaj widoki wyników z jednego lub dwóch różnych badań."/>
+	<label commandName="SimLayout2V" devLabel="Two Vertical Views" translation="Dwa widoki pionowe"/>
+	<label commandName="SimLayout2VDesc1" devLabel="Compare results views from one or two different studies." translation="Porównaj widoki wyników z jednego lub dwóch różnych badań."/>
+	<label commandName="SimLayout2x2" devLabel="Four Views" translation="Cztery widoki"/>
+	<label commandName="SimLayout2x2Desc1" devLabel="Compare results views from up to four different studies." translation="Porównaj widoki wyników z maksymalnie czterech różnych badań."/>
+	<label commandName="SimLogFilesFilter" devLabel="Log Files (*.log)" translation="Pliki dziennika (*.log)"/>
+	<label commandName="SimMaxValueEdit" devLabel="Max." translation="Maks."/>
+	<label commandName="SimMaxValueLabel" devLabel="Max." translation="Maks."/>
+	<label commandName="SimMaxValueLabels" devLabel="Max." translation="Maks."/>
+	<label commandName="SimMeshDbFileExists" devLabel="File with same name already exists. Would you like to overwrite?" translation="Plik o takiej nazwie już istnieje. Czy chcesz go nadpisać?"/>
+	<label commandName="SimMeshDbWarning" devLabel="Warning" translation="Ostrzeżenie"/>
+	<label commandName="SimMeshEdges" devLabel="Mesh Lines" translation="Linie siatki"/>
+	<label commandName="SimMinMaxProbesDesc2" devLabel="Display the location of the maximum and minimum values of the current result quantity." translation="Wyświetla położenie wartości maksymalnej i minimalnej bieżącej ilości wynikowej."/>
+	<label commandName="SimMinMaxProbesHide" devLabel="Hide Min/Max" translation="Ukryj min./maks."/>
+	<label commandName="SimMinMaxProbesShow" devLabel="Show Min/Max" translation="Pokaż min./maks."/>
+	<label commandName="SimMinMaxProbesTextMax" devLabel="Max" translation="Maks."/>
+	<label commandName="SimMinMaxProbesTextMin" devLabel="Min" translation="Min."/>
+	<label commandName="SimMinMaxShow" devLabel="Show Min/Max" translation="Pokaż min./maks."/>
+	<label commandName="SimMinValueEdit" devLabel="Min." translation="Min."/>
+	<label commandName="SimMinValueLabel" devLabel="Min." translation="Min."/>
+	<label commandName="SimOptimizationAddYGoal" devLabel="Add Goal" translation="Dodaj cel"/>
+	<label commandName="SimOptimizationConfigId" devLabel="Configuration" translation="Konfiguracja"/>
+	<label commandName="SimOptimizationCreateBookmarkFailed" devLabel="Unable to create bookmark(s)" translation="Nie można utworzyć zakładek"/>
+	<label commandName="SimOptimizationDeleteBookmarkFailed" devLabel="Unable to delete bookmark(s)" translation="Nie można usunąć zakładek"/>
+	<label commandName="SimOptimizationGoal" devLabel="Goal" translation="Cel"/>
+	<label commandName="SimOptimizationGoals" devLabel="Goals" translation="Cele"/>
+	<label commandName="SimOptimizationIteration" devLabel="Iteration" translation="Iteracja"/>
+	<label commandName="SimOptimizationIterationTag" devLabel="Iteration %1%" translation="Iteracja %1%"/>
+	<label commandName="SimOptimizationPLotUICaption" devLabel="Optimization Plot" translation="Wykres optymalizacji"/>
+	<label commandName="SimOptimizationParams" devLabel="Parameters" translation="Parametry"/>
+	<label commandName="SimOptimizationPlotStyleGoalGoal" devLabel="Pareto (Goal vs. Goal)" translation="Pareto (cel w funkcji celu)"/>
+	<label commandName="SimOptimizationPlotStyleGoalParam" devLabel="Sensitivity (Goal vs. Parameter)" translation="Czułość (cel w funkcji parametru)"/>
+	<label commandName="SimOptimizationPlotStyleGoalStep" devLabel="Progress History" translation="Historia postępu"/>
+	<label commandName="SimOptimizationPlotUIConfigurationHeader" devLabel="Configuration" translation="Konfiguracja"/>
+	<label commandName="SimOptimizationPlotUIContextMenuBookmark" devLabel="Bookmark" translation="Zakładka"/>
+	<label commandName="SimOptimizationPlotUIContextMenuDownload" devLabel="Download" translation="Pobierz"/>
+	<label commandName="SimOptimizationStyle" devLabel="Style" translation="Rodzaj"/>
+	<label commandName="SimOptimizationXAxis" devLabel="X Parameter" translation="Parametr X"/>
+	<label commandName="SimOptimizationXGoal" devLabel="X Goal" translation="Cel X"/>
+	<label commandName="SimOptimizationYGoal" devLabel="Y Goal" translation="Cel Y"/>
+	<label commandName="SimOutputFilesFilter" devLabel="Output Files (*.out)" translation="Pliki wyjściowe (*.out)"/>
+	<label commandName="SimPlotAddBtn" devLabel="Add Plot" translation="Dodaj wykres"/>
+	<label commandName="SimPlotCurrentValue" devLabel="Current Value" translation="Bieżąca wartość"/>
+	<label commandName="SimPlotGridLayout" devLabel="Grid" translation="Siatka"/>
+	<label commandName="SimPlotHorizontalLayout" devLabel="Horizontal" translation="Poziomy"/>
+	<label commandName="SimPlotLayotLabel" devLabel="Layout" translation="Układ"/>
+	<label commandName="SimPlotResultsCbo" devLabel="Results" translation="Wyniki"/>
+	<label commandName="SimPlotUnitsCbo" devLabel="Units" translation="Jednostki"/>
+	<label commandName="SimPlotVerticalLayout" devLabel="Vertical" translation="Pionowy"/>
+	<label commandName="SimPointProbe" devLabel="Point Probe" translation="Sonda punktowa"/>
+	<label commandName="SimPointProbeCmd" devLabel="Point Probe" translation="Sonda punktowa"/>
+	<label commandName="SimPointProbeCreateCmdDesc1" devLabel="Query the result value for position in global coordinate space." translation="Wykonaj zapytanie o wartość wynikową dla położenia w globalnym obszarze współrzędnych."/>
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksTips" devLabel="" translation=""/>
+	<label commandName="SimPointProbeCreateCmdTipsAndTricksTitle" devLabel="" translation=""/>
+	<label commandName="SimPointProbeSelection" devLabel="Probe Selection" translation="Wybór sondy"/>
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksDesc" devLabel="Initial position of a point probe can be picked from any visible surface including slice planes and thresholding iso-surfaces. Point Probe is always fixed in the global coordinate system, however the displacement is honored in the scene. To query values only on the surface of the meshed components, use &lt;b&gt;Surface Probes&lt;/b&gt; instead." translation="Początkowe położenie sondy punktowej można wybrać z dowolnej widocznej powierzchni, w tym z płaszczyzn przekroju i progowych powierzchni izometrycznych. Sonda punktowa jest zawsze stała w globalnym układzie współrzędnych, jednak jej przemieszczenie jest uwzględniane w scenie. Aby przywołać wartości tylko na powierzchni komponentów pokrytych siatką, użyj polecenia &lt;b&gt;Sondy powierzchni&lt;/b&gt;."/>
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksTips" devLabel="To create a point probe, pick its initial position." translation="Aby utworzyć sondę punktową, wybierz jej położenie początkowe."/>
+	<label commandName="SimPointProbeStartCreationCmdTipsAndTricksTitle" devLabel="Point Probe Information" translation="Sonda punktowa — informacje"/>
+	<label commandName="SimPointProbeTipsAndTricksDesc" devLabel="" translation=""/>
+	<label commandName="SimPointProbeTipsAndTricksTips" devLabel="" translation=""/>
+	<label commandName="SimPointProbeTipsAndTricksTitle" devLabel="" translation=""/>
+	<label commandName="SimPointTransformInput" devLabel="Position" translation="Położenie"/>
+	<label commandName="SimPositioning" devLabel="Positioning" translation="Pozycjonowanie"/>
+	<label commandName="SimProbeDrag" devLabel="Probe Drag" translation="Przeciągnięcie sondy"/>
+	<label commandName="SimProbePointResultScope" devLabel="Probe" translation="Sonda"/>
+	<label commandName="SimProbePointSelectionInput" devLabel="Point Probe" translation="Sonda punktowa"/>
+	<label commandName="SimProbePropertiesCmd" devLabel="Properties" translation="Właściwości"/>
+	<label commandName="SimProbePropertiesType" devLabel="Type" translation="Rodzaj"/>
+	<label commandName="SimProbeUndeformedX" devLabel="X (undeformed)" translation="X (bez odkształcenia)"/>
+	<label commandName="SimProbeUndeformedY" devLabel="Y (undeformed)" translation="Y (bez odkształcenia)"/>
+	<label commandName="SimProbeUndeformedZ" devLabel="Z (undeformed)" translation="Z (bez odkształcenia)"/>
+	<label commandName="SimProbeValue" devLabel="Value" translation="Wartość"/>
+	<label commandName="SimPromoteActiveAssetSession" devLabel="No Active Asset Session" translation="Brak aktywnej sesji zasobu"/>
+	<label commandName="SimPromoteActiveAssetShell" devLabel="No Active Asset Shell" translation="Brak aktywnej skorupy zasobu"/>
+	<label commandName="SimPromoteCmd" devLabel="Promote" translation="Podwyższ"/>
+	<label commandName="SimPromoteFileInfo" devLabel="" translation=""/>
+	<label commandName="SimPromoteFileInfoCommon" devLabel="Filename" translation="Nazwa pliku"/>
+	<label commandName="SimPromoteFileInfoWM_1" devLabel="New geometry will be added to &lt;br/&gt; &quot;%1%&quot;" translation="Nowa geometria zostanie dodana do &lt;br/&gt; „%1%”"/>
+	<label commandName="SimPromoteFileNameInput" devLabel="Filename" translation="Nazwa pliku"/>
+	<label commandName="SimPromoteInvalidFilename" devLabel="Invalid file name for promote action" translation="Niewłaściwa nazwa pliku dla operacji podwyższania poziomu"/>
+	<label commandName="SimPromoteLayoutButtonAndFilename" devLabel="Layout button and filename" translation="Przycisk układu i nazwa pliku"/>
+	<label commandName="SimPromoteMesh" devLabel="Mesh" translation="Siatka"/>
+	<label commandName="SimPromoteSaveOnPromote" devLabel="Save on Promote" translation="Zapisz przy podwyższeniu poziomu"/>
+	<label commandName="SimPromoteSolid" devLabel="Solid" translation="Bryła"/>
+	<label commandName="SimPromoteSurface" devLabel="Surface" translation="Powierzchnia"/>
+	<label commandName="SimPromoteToBaseModel" devLabel="Design Workspace" translation="Obszar roboczy Projektowanie"/>
+	<label commandName="SimPromoteToClonedWorkingModel" devLabel="Clone Current Simulation Model" translation="Klonuj bieżący model symulacji"/>
+	<label commandName="SimPromoteToFile" devLabel="Export as new geometry" translation="Eksportuj jako nową geometrię"/>
+	<label commandName="SimPromoteToOpenedDocument" devLabel="Create a new Fusion Document" translation="Utwórz nowy dokument programu Fusion"/>
+	<label commandName="SimPromoteToWorkingModel" devLabel="Existing Simulation Model" translation="Istniejący model symulacji"/>
+	<label commandName="SimPromoteType" devLabel="Result type" translation="Typ wyniku"/>
+	<label commandName="SimPromoteTypeDropDownInput" devLabel="Add mesh object to:" translation="Dodaj obiekt siatki do:"/>
+	<label commandName="SimRecomputeGenResultsNow" devLabel="One or more studies have not been generated yet so their outcomes will not appear in Explore. Do you want to generate these studies now?" translation="Co najmniej jedno badanie nie zostało jeszcze wygenerowane, więc wyniki badań nie będą wyświetlane w obszarze Eksploruj. Czy chcesz teraz wygenerować te badania?"/>
+	<label commandName="SimRecomputeGenResultsNowFailed" devLabel="There are no outcomes for any generated studies. Check the Generate Details for more information." translation="Brak wyników dla wygenerowanych badań. Aby uzyskać więcej informacji, sprawdź opcję Generuj szczegóły."/>
+	<label commandName="SimRecomputeGenResultsNowTitle" devLabel="Explore" translation="Eksploruj"/>
+	<label commandName="SimRenderStyleExactColor" devLabel="Default Colors" translation="Kolory domyślne"/>
+	<label commandName="SimRenderStylePresentation" devLabel="Presentation" translation="Prezentacja"/>
+	<label commandName="SimRenderStyleShaded" devLabel="Shaded" translation="Cieniowany"/>
+	<label commandName="SimResultLegendCallChartCmd" devLabel="2D Chart" translation="Wykres 2D"/>
+	<label commandName="SimResultLegendOptionsCmd" devLabel="Legend Options" translation="Opcje legendy"/>
+	<label commandName="SimResultLegendShape" devLabel="Legend Shape" translation="Kształt legendy"/>
+	<label commandName="SimResultLegendSize" devLabel="Legend Size" translation="Rozmiar legendy"/>
+	<label commandName="SimResultLegendWide" devLabel="Wide Legend" translation="Szeroka legenda"/>
+	<label commandName="SimResultNodeAverageCmd" devLabel="Node Average" translation="Średnia węzłów"/>
+	<label commandName="SimResultRecommendationButtonText" devLabel="Results Details" translation="Szczegóły wyników"/>
+	<label commandName="SimResultRecommendationMarginallySafeButtonTooltip" devLabel="Your design marginally withstands the applied loads." translation="Projekt jest na granicy wytrzymałości na przyłożone obciążenia."/>
+	<label commandName="SimResultRecommendationReallySafeButtonTooltip" devLabel="Your design easily withstands the applied loads." translation="Projekt łatwo wytrzymuje przyłożone obciążenia."/>
+	<label commandName="SimResultRecommendationSafeButtonTooltip" devLabel="Your design sufficiently withstands the applied loads." translation="Projekt w wystarczającym stopniu wytrzymuje przyłożone obciążenia."/>
+	<label commandName="SimResultRecommendationUnsafeButtonTooltip" devLabel="The applied loads may cause your design to deform permanently." translation="Przyłożone obciążenia mogą spowodować trwałe odkształcenie projektu."/>
+	<label commandName="SimResultRecommendationsAutomaticallyShowCmdText" devLabel="Automatically Show" translation="Pokaż automatycznie"/>
+	<label commandName="SimResultRecommendationsCmd_Actual" devLabel="Actual" translation="Rzeczywisty"/>
+	<label commandName="SimResultRecommendationsCmd_ActualMinSF" devLabel="Actual Minimum Safety Factor" translation="Rzeczywisty minimalny współczynnik bezpieczeństwa"/>
+	<label commandName="SimResultRecommendationsCmd_AdjustScale" devLabel="Deformation Scale" translation="Skala odkształcenia"/>
+	<label commandName="SimResultRecommendationsCmd_Adjusted" devLabel="Adjusted" translation="Dopasowany"/>
+	<label commandName="SimResultRecommendationsCmd_Adjusted0_5x" devLabel="Adjusted 0.5x" translation="Dopasowany 0,5x"/>
+	<label commandName="SimResultRecommendationsCmd_Adjusted2x" devLabel="Adjusted 2x" translation="Dopasowany 2x"/>
+	<label commandName="SimResultRecommendationsCmd_Adjusted5x" devLabel="Adjusted 5x" translation="Dopasowany 5x"/>
+	<label commandName="SimResultRecommendationsCmd_DoNotAutoShow" devLabel="Don't show this automatically" translation="Nie pokazuj tego automatycznie"/>
+	<label commandName="SimResultRecommendationsCmd_LSFTarget" devLabel="Lower Target" translation="Dolna wartość docelowa"/>
+	<label commandName="SimResultRecommendationsCmd_Recommendations" devLabel="Recommendations" translation="Zalecenia"/>
+	<label commandName="SimResultRecommendationsCmd_SFDefaultValues" devLabel="Default Values" translation="Wartości domyślne"/>
+	<label commandName="SimResultRecommendationsCmd_SFGroup" devLabel="Safety Factor Targets" translation="Docelowe współczynniki bezpieczeństwa"/>
+	<label commandName="SimResultRecommendationsCmd_ShowStrongest" devLabel="Show strongest areas of design" translation="Pokaż najbardziej wytrzymałe obszary projektu"/>
+	<label commandName="SimResultRecommendationsCmd_ShowWeakest" devLabel="Show weakest areas of design" translation="Pokaż najsłabsze obszary projektu"/>
+	<label commandName="SimResultRecommendationsCmd_USFTarget" devLabel="Upper Target" translation="Górna wartość docelowa"/>
+	<label commandName="SimResultRecommendationsCmd_Undeformed" devLabel="Undeformed" translation="Nieodkształcony"/>
+	<label commandName="SimResultRecommendationsDeformationScaleCmdText" devLabel="Adjust Deformation Scale" translation="Dopasuj skalę odkształcenia"/>
+	<label commandName="SimResultRecommendationsDeformationScaleCmd_errsetup" devLabel="Error trying to execute deformation scale command." translation="Błąd podczas próby wykonania polecenia skalowania odkształcenia."/>
+	<label commandName="SimResultRecommendationsEditSafetyFactorCmdText" devLabel="Edit Safety Factors" translation="Edytuj współczynniki bezpieczeństwa"/>
+	<label commandName="SimResultRecommendationsShowDesignCmdText" devLabel="Show design" translation="Pokaż projekt"/>
+	<label commandName="SimResultScopeCbo" devLabel="Result Scope" translation="Zakres wyników"/>
+	<label commandName="SimResultTypeCmd" devLabel="Result Type" translation="Typ wyniku"/>
+	<label commandName="SimResultTypeGroupCmd" devLabel="Result Type Group" translation="Grupa typów wyników"/>
+	<label commandName="SimResultUnitsCmd" devLabel="Result Units" translation="Jednostki wyniku"/>
+	<label commandName="SimResultsAnimationCreationError" devLabel="Could not create the animation file." translation="Nie można utworzyć pliku animacji."/>
+	<label commandName="SimResultsAnimationDeleteError" devLabel="Could not delete the existing animation file." translation="Nie można usunąć istniejącego pliku animacji."/>
+	<label commandName="SimResultsLegendConfigurationDesc1" devLabel="Specify the shape and size of the Results Legend. The appearance of the legend can be unique in every view displayed." translation="Określ kształt i rozmiar legendy wyników. Wygląd legendy może być niepowtarzalny w każdym wyświetlanym widoku."/>
+	<label commandName="SimResultsLegendConfiguration_Bar" devLabel="Bar" translation="Pasek"/>
+	<label commandName="SimResultsLegendConfiguration_BarBig" devLabel="Big" translation="Duży"/>
+	<label commandName="SimResultsLegendConfiguration_BarNormal" devLabel="Normal" translation="Normalna"/>
+	<label commandName="SimResultsLegendConfiguration_BarSmall" devLabel="Small" translation="Mała"/>
+	<label commandName="SimResultsLegendConfiguration_HudOnLeft" devLabel="Left" translation="Lewy"/>
+	<label commandName="SimResultsLegendConfiguration_HudOnTop" devLabel="Top" translation="Góra"/>
+	<label commandName="SimResultsLegendConfiguration_Large" devLabel="Large" translation="Duża"/>
+	<label commandName="SimResultsLegendConfiguration_Normal" devLabel="Normal" translation="Normalna"/>
+	<label commandName="SimResultsLegendConfiguration_Quarter" devLabel="Quarter" translation="Wycinek"/>
+	<label commandName="SimResultsLegendConfiguration_Small" devLabel="Small" translation="Małe"/>
+	<label commandName="SimResultsLegendConfiguration_Wreath" devLabel="Wreath" translation="Koło"/>
+	<label commandName="SimResultsLegendHideCmd" devLabel="Hide result legend" translation="Ukryj legendę wyników"/>
+	<label commandName="SimResultsLegendMaxRefValueResetCmd" devLabel="Reset" translation="Resetuj"/>
+	<label commandName="SimResultsLegendMaxRefValueResetText" devLabel="Resets maximum referential value." translation="Resetuje maksymalną wartość referencyjną."/>
+	<label commandName="SimResultsLegendMinRefValueResetCmd" devLabel="Reset" translation="Resetuj"/>
+	<label commandName="SimResultsLegendMinRefValueResetText" devLabel="Resets minimum referential value." translation="Resetuje minimalną wartość referencyjną."/>
+	<label commandName="SimResultsLegendOptionsDesc1" devLabel="Customize the legend appearance." translation="Dostosuj wygląd legendy."/>
+	<label commandName="SimResultsLegendOptionsDesc2" devLabel="Specify the size, color transition, and plot shading. The Legend appearance can be unique in every displayed view." translation="Określ rozmiar, przejście kolorów i cieniowanie wykresu. Wygląd legendy może być niepowtarzalny w każdym wyświetlanym widoku."/>
+	<label commandName="SimResultsLegendOptionsTipsAndTricksDesc" devLabel="To display results only for visible components, select &lt;b&gt;Visible Only&lt;/b&gt;." translation="Aby wyświetlić wyniki tylko dla widocznych komponentów, wybierz opcję &lt;b&gt;Tylko widoczne&lt;/b&gt;."/>
+	<label commandName="SimResultsLegendOptionsTipsAndTricksTips" devLabel="Customize the legend appearance with the &lt;b&gt;Legend Size&lt;/b&gt; drop-down list.&lt;br&gt;To display results within a certain threshold range, drag the arrows at the ends of the legend inward. Results outside of this range are hidden from view.&lt;br&gt;To change the number of value labels, hover over the legend while holding the left mouse button. As you move the mouse toward the upper or lower ends of the legend, labels are added or removed." translation="Dostosuj wygląd legendy za pomocą listy rozwijanej &lt;b&gt;Rozmiar legendy&lt;/b&gt;.&lt;br&gt;Aby wyświetlić wyniki w określonym zakresie progowym, przeciągnij strzałki na końcach legendy do wewnątrz. Wyniki spoza tego zakresu zostaną ukryte w widoku.&lt;br&gt;Aby zmienić liczbę etykiet wartości, ustaw kursor na legendzie, przytrzymując lewy przycisk myszy. W miarę przesuwania kursora myszy w kierunku górnego lub dolnego końca legendy etykiety będą dodawane lub usuwane."/>
+	<label commandName="SimResultsLegendOptionsTipsAndTricksTitle" devLabel="Legend Options Information" translation="Opcje legendy — informacje"/>
+	<label commandName="SimResultsLegendShowCmd" devLabel="Show result legend" translation="Pokaż legendę wyników"/>
+	<label commandName="SimResultsRecommendationsCmd_Tips" devLabel="The information in this dialog is based on the safety factor of the current setup. Safety factor is a ratio of the maximum strength of the material to the stress calculated in the simulation. The conclusions here are general recommendations that may not be appropriate to your particular industry or application. Please see the help documentation for more information." translation="Informacje w tym oknie dialogowym są oparte na współczynniku bezpieczeństwa bieżącego ustawienia. Współczynnik bezpieczeństwa jest stosunkiem maksymalnej wytrzymałości materiału do naprężenia obliczonego w symulacji. Poniżej przedstawiono ogólne zalecenia, które mogą nie być odpowiednie w przypadku konkretnej branży lub konkretnego zastosowania. Więcej informacji można znaleźć w dokumentacji pomocy."/>
+	<label commandName="SimResultsRecommendationsCmd_TipsAndTricksTitle" devLabel="Results Recommendations Information" translation="Zalecenia dotyczące wyników — informacje"/>
+	<label commandName="SimResultsRecommendationsCmd_Tooltip" devLabel="Shows result recommendations." translation="Wyświetla zalecenia dotyczące wyników."/>
+	<label commandName="SimSICustomUnitSystemName" devLabel="Custom" translation="Niestandardowe"/>
+	<label commandName="SimSIMetricUnitSystemName" devLabel="Metric (SI)" translation="Metryczne (SI)"/>
+	<label commandName="SimSaveDetails" devLabel="Save" translation="Zapisz"/>
+	<label commandName="SimSaveDetailsToolTip" devLabel="Save text file" translation="Zapisz plik tekstowy"/>
+	<label commandName="SimSaveResultsAnimationAsCaption" devLabel="Save Results Animation As" translation="Zapisz wyniki animacji jako"/>
+	<label commandName="SimSaveSolverData" devLabel="Save As" translation="Zapisz jako"/>
+	<label commandName="SimSelectClippingPlane" devLabel="Select slice plane" translation="Wybierz płaszczyznę przekroju"/>
+	<label commandName="SimSelectClippingPlaneToBeEdited" devLabel="Select a slice plane to be edited" translation="Wybierz płaszczyznę przekroju do edycji"/>
+	<label commandName="SimSelectProbePoint" devLabel="Select" translation="Wybierz"/>
+	<label commandName="SimShaded" devLabel="Shaded" translation="Cieniowany"/>
+	<label commandName="SimShadingStyleBanded" devLabel="Banded" translation="Rozgraniczone"/>
+	<label commandName="SimShadingStyleSmooth" devLabel="Smooth" translation="Gładkie"/>
+	<label commandName="SimShowAllProbesCmd" devLabel="Show All Probes" translation="Pokaż wszystkie sondy"/>
+	<label commandName="SimShowAllProbesCmdDesc1" devLabel="Makes visible all probes that you have previously hidden, so you can see the data in their labels again." translation="Powoduje, że wszystkie sondy, które zostały wcześniej ukryte, stają się widoczne, dzięki czemu dane na ich etykietach będą ponownie widoczne."/>
+	<label commandName="SimSolveDetailsDesc1" devLabel="Displays information about jobs in the active document, including whether or not they ran successfully." translation="Wyświetla informacje o zadaniach w aktywnym dokumencie, w tym informacje o tym, czy zostały pomyślnie uruchomione."/>
+	<label commandName="SimSolveDetailsDesc2" devLabel="Errors and warnings are also listed, with suggestions on how to resolve them. You can save this information to a log file, or share it in an e-mail." translation="Wyświetlane są również błędy i ostrzeżenia z sugestiami dotyczącymi ich rozwiązania. Te informacje można zapisać w pliku dziennika lub udostępnić w wiadomości e-mail."/>
+	<label commandName="SimSolveLog" devLabel="Solver Data" translation="Dane solwera"/>
+	<label commandName="SimSolveLogDesc1" devLabel="View solver information and statistics about the current study." translation="Wyświetl informacje o solwerze i statystyki dotyczące bieżącego badania."/>
+	<label commandName="SimSolverDataFilter" devLabel="Solver Data filter" translation="Filtr danych solwera"/>
+	<label commandName="SimSolverDataItem" devLabel="Solver Data" translation="Dane solwera"/>
+	<label commandName="SimSolverDataMeshDetails" devLabel="Mesh Details" translation="Szczegóły siatki"/>
+	<label commandName="SimSolverDataSummary" devLabel="Summary" translation="Podsumowanie"/>
+	<label commandName="SimSolverOutputItem" devLabel="Solver Output" translation="Dane wyjściowe solwera"/>
+	<label commandName="SimStyle" devLabel="Style" translation="Rodzaj"/>
+	<label commandName="SimSurfaceProbe" devLabel="Surface Probe" translation="Sonda powierzchni"/>
+	<label commandName="SimSurfaceProbeDesc1" devLabel="Query interactively for the result values on the mesh surface." translation="Interaktywne zapytanie o wartości wyników na powierzchni siatki."/>
+	<label commandName="SimSurfaceProbeTipsAndDesc" devLabel="You can set an unlimited number of Surface Probes. The spatial location of the probing point is based on the global coordinate system of the un-deformed model, however it is always bound to the meshed model surface. Surface Probe updates its position automatically when model geometry is changed or model is re-meshed. To query result values inside of the meshed components, use a &lt;b&gt;Point Probe&lt;/b&gt; instead." translation="Można ustawić nieograniczoną liczbę sond powierzchni. Położenie przestrzenne punktu sondowania jest oparte na globalnym układzie współrzędnych modelu nieodkształconego, jednak zawsze jest ono powiązany z powierzchnią modelu siatki. Sonda powierzchni automatycznie aktualizuje swoje położenie, gdy geometria modelu ulegnie zmianie lub model zostanie ponownie wygenerowany. Aby zbadać wartości wyników wewnątrz komponentów pokrytych siatką, użyj polecenia &lt;b&gt;Sonda punktowa&lt;/b&gt;."/>
+	<label commandName="SimSurfaceProbeTipsAndTricksTitle" devLabel="Surface Probe Information" translation="Sonda powierzchni — informacje"/>
+	<label commandName="SimSurfaceProbeTipsAndTricksTricksTips" devLabel="To see the exact result value at a point of interest, hover the mouse over the mesh surface. To pin the Surface Probe to a point of interest, left-click on the location." translation="Aby zobaczyć dokładną wartość wyniku w wybranym punkcie, umieść wskaźnik myszy na powierzchni siatki. Aby przypiąć sondę powierzchni do żądanego punktu, kliknij położenie lewym przyciskiem myszy."/>
+	<label commandName="SimSurfaceProbesCmd" devLabel="Create Surface Probes" translation="Utwórz sondy powierzchni"/>
+	<label commandName="SimSyncRefValuesCmd" devLabel="Synchronize Min/Max" translation="Synchronizuj min./maks."/>
+	<label commandName="SimSyncResultTypeCmd" devLabel="Synchronize Result Type" translation="Synchronizuj typ wyniku"/>
+	<label commandName="SimText" devLabel="Text" translation="Tekst"/>
+	<label commandName="SimToggleMeshCmd" devLabel="Toggle Mesh Visibility" translation="Przełącz widoczność siatki"/>
+	<label commandName="SimToggleMeshDesc1" devLabel="Enable or disable the display of the mesh." translation="Włącz lub wyłącz wyświetlanie siatki."/>
+	<label commandName="SimToggleMeshDesc2" devLabel="In the Model View, ensure the mesh resolves the geometric features of the model adequately. In the Results View, determine if the mesh artifically affects the results, and refine the mesh as necessary." translation="W widoku modelu upewnij się, że siatka odpowiednio rozwiązuje elementy geometryczne modelu. W widoku wyników określ, czy siatka ma wpływ na wyniki, i w razie potrzeby wygładź siatkę."/>
+	<label commandName="SimToggleWireframeCmd" devLabel="Toggle Wireframe Visibility" translation="Przełącz widoczność modelu krawędziowego"/>
+	<label commandName="SimToggleWireframeText" devLabel="Toggle Wireframe Visibility" translation="Przełącz widoczność modelu krawędziowego"/>
+	<label commandName="SimUnexpectedFailure" devLabel="Unexpected failure." translation="Nieoczekiwany błąd."/>
+	<label commandName="SimUnitPercentage" devLabel="Percentage" translation="Procentowo"/>
+	<label commandName="SimUnitPieces" devLabel="Pieces" translation="Sztuki"/>
+	<label commandName="SimUnitsAcceleration" devLabel="Acceleration" translation="Przyspieszenie"/>
+	<label commandName="SimUnitsAngle" devLabel="Angle" translation="Kąt"/>
+	<label commandName="SimUnitsCurrent" devLabel="Current" translation="Aktualny"/>
+	<label commandName="SimUnitsElectricalResistance" devLabel="Electrical Resistance" translation="Opór elektryczny"/>
+	<label commandName="SimUnitsEnergy" devLabel="Energy" translation="Energia"/>
+	<label commandName="SimUnitsForce" devLabel="Force" translation="Siła"/>
+	<label commandName="SimUnitsLength" devLabel="Length" translation="Długość"/>
+	<label commandName="SimUnitsMass" devLabel="Mass" translation="Masa"/>
+	<label commandName="SimUnitsPower" devLabel="Power" translation="Moc"/>
+	<label commandName="SimUnitsPressure" devLabel="Pressure" translation="Ciśnienie"/>
+	<label commandName="SimUnitsTemprature" devLabel="Temperature" translation="Temperatura"/>
+	<label commandName="SimUnitsTime" devLabel="Time" translation="Czas"/>
+	<label commandName="SimUnitsVelocity" devLabel="Velocity" translation="Prędkość"/>
+	<label commandName="SimUnitsViscosity" devLabel="Viscosity" translation="Lepkość"/>
+	<label commandName="SimUnitsVoltage" devLabel="Voltage" translation="Napięcie"/>
+	<label commandName="SimUnitsVolumeFlowRate" devLabel="Flow Rate" translation="Natężenie przepływu"/>
+	<label commandName="SimVectors" devLabel="Vectors" translation="Wektory"/>
+	<label commandName="SimWarnOutOfDateMesh" devLabel="The mesh is not up-to-date with the current settings." translation="Siatka nie jest aktualna dla bieżących ustawień."/>
+	<label commandName="SimWarnOutOfDateResults" devLabel="The results are not up-to-date with the current settings." translation="Wyniki nie są aktualne dla bieżących ustawień."/>
+	<label commandName="SimWrapText" devLabel="Wrap text" translation="Zawijaj tekst"/>
+	<label commandName="TargetModel" devLabel="" translation=""/>
+	<label commandName="lclzProbeText" devLabel="Point Probe" translation="Sonda punktowa"/>
+</Resource>
